@@ -7,7 +7,7 @@
     "settings": "unknown"
   },
   "date": "2026-11-15",
-  "method": "实际重新读取全部原始输入和落盘主稿，逐行对照并检查章间关系、否定、条件、例外、来源身份及新增解释；首次合并输出被截断后重读concept/case完整原文与主稿。concept修正后再次完整读取落盘稿。",
+  "method": "Actually reread every original input and saved main manuscript, comparing line by line and checking chapter relationships, negation, conditions, exceptions, source identity, and added explanations. After the first combined output was truncated, reread the complete concept/case originals and manuscripts. Reread the entire saved concept manuscript again after its correction.",
   "scope": "full_manuscript",
   "output_sha256": "8611c165f82ff0e998026455f8f1e17f658a2825b55dfea0c54a3a44b0c00282",
   "status": "pass",
@@ -21,7 +21,7 @@
         7
       ],
       "anchor": "ch-permission",
-      "finding": "保留合成身份、限定内部规则；甲的进入许可与缺乏让座依据分开；按原说话者自我修正说明自己没有不进入义务。"
+      "finding": "Preserve the synthetic identity and limit the analysis to internal rules. Separate A's permission to enter from the lack of grounds for demanding that a seat be yielded. Follow the original speaker's self-correction in explaining the absence of a duty not to enter."
     },
     {
       "lines": [
@@ -29,7 +29,7 @@
         12
       ],
       "anchor": "ch-permission",
-      "finding": "实际保留学生反驳、入口障碍问题的材料边界及充电线小例；未把充电线加入座位规则。"
+      "finding": "Actually retain the student's objection, the evidentiary limits concerning entry obstructions, and the small charging-cable example. Do not add charging cables to the seat rule."
     },
     {
       "lines": [
@@ -37,14 +37,14 @@
         8
       ],
       "anchor": "ch-reservation",
-      "finding": "成功回执发出区别于点击与申请接收；未把通常很快当成立证据；丙资格改为条件式，未新增注册事实。"
+      "finding": "Distinguish issuance of a successful confirmation from clicking and application receipt. Do not treat usual speed as evidence of formation. Make C's qualification conditional instead of adding a registration fact."
     },
     {
       "lines": [
         10
       ],
       "anchor": "ch-reservation",
-      "finding": "丁的解释显出规则一与规则二并存，满座且无险情不能由许可消去提供义务；限于确认时段。"
+      "finding": "D's explanation shows that Rules 1 and 2 coexist. A full room without a safety incident does not allow permission to erase the duty to provide a seat; the analysis remains limited to the confirmed period."
     },
     {
       "lines": [
@@ -52,14 +52,14 @@
         13
       ],
       "anchor": "ch-cancellation",
-      "finding": "17:50发出、18:05到达与17:50到达有不同效果；保留超过18点可另行协商及成员身份不受影响。"
+      "finding": "Sending at 17:50 with receipt at 18:05 has a different effect from receipt at 17:50. Retain the possibility of separate agreement after 18:00 and the unaffected membership status."
     },
     {
       "lines": [
         9
       ],
       "anchor": "ch-exception",
-      "finding": "安全险情和必须封闭、可暂停、应退还积分、剩余确认时段及不加时均在正文。自查将退款改为退还积分。"
+      "finding": "The manuscript includes a safety incident requiring closure, permitted suspension, required return of points, the remaining confirmed period, and no extra time. Self-review corrected refund to return of points."
     },
     {
       "lines": [
@@ -67,16 +67,25 @@
         15
       ],
       "anchor": "ch-exception",
-      "finding": "末章完整回到甲丁对比，要求同时查成立、有效撤销与安全例外；考试安排明确只属本课。"
+      "finding": "The final chapter returns to the complete A/D comparison, requiring simultaneous checks of formation, effective cancellation, and the safety exception. Examination arrangements are explicitly limited to this course."
     }
   ],
   "defects_found_and_resolved": [
-    "丙注册资格未明示，改为条件式",
-    "退还积分误称退款，恢复单位"
+    "C's registration qualification was not stated; make it conditional",
+    "Return of points was incorrectly called a refund; restore the unit"
   ],
   "unresolved_critical_defects": [],
   "independent_review": "not_run",
   "classroom_trial": "not_run",
   "learning_effects": "not_run",
-  "limitations": "同一生成者自查，不等同独立评审、真实课堂试用或学习效果证据。"
+  "limitations": "Self-review by the same generator is not independent review, a real classroom trial, or evidence of learning outcomes.",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/concept/semantic-review.json",
+    "original_sha256": "f0c1a7821411d41711216930e172549dc7e7d71d0fade21ecd4d3653d13be4af",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/concept/semantic-review.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

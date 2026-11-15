@@ -1,19 +1,19 @@
-# 南岬档案馆：把规范、解释与制度评价分开
+# South Cape Archives: Distinguishing Rules, Interpretation, and Institutional Evaluation
 
-本讲的机构、资料、规范、观点与裁判事例均为合成教学创作，不是现行规范、真实著作或真实裁判。课程时间语境为2019年，主体是《南岬档案使用练习规则》2018版；另有标示为2024版的后续教学材料，用于版本比较。
+The institutions, materials, rules, views, and judicial examples in this lecture are synthetic teaching creations, not current rules, real publications, or real judgments. The course is set in 2019 and centers on the 2018 South Cape Archives Access Exercise Rules. Later teaching materials labeled 2024 are supplied for version comparison.
 
-研究者能否获得普通档案，看起来只是一个“公开还是不公开”的问题，实际上要先辨明我们在做什么判断：是在适用某一版本的规则，在解释规则中的“学术研究”，还是在评价哪一种制度更好？教师可以赞成扩大利用范围，但这一偏好不会自动改变旧版规则。只有把规范文本、教材解释、教师观点和模拟裁判各自放回合适的位置，讨论才不会在不知不觉中更换前提。
+Whether researchers can obtain ordinary records seems to ask only 'disclose or not,' but first identify the judgment being made: applying one version's rules, interpreting 'academic research,' or evaluating which institution is better? A teacher may favor broader access, but that preference does not automatically change the old rules. Only by placing normative text, textbook interpretation, the teacher's position, and simulated judgments in their proper roles can we avoid silently replacing premises.
 
 <a id="ch-version2018"></a>
-## 一、2018版：原则与例外怎样连接
+## 1. The 2018 version: How principle and exception connect
 
-课堂使用的2018版第2条原文是：“档案原则上不对外提供。申请人证明其用途为学术研究，且不涉及封存的个人秘密的，应准许阅览。”这是一条课内假设规范。第一句给出原则，第二句给出准许阅览的例外条件及其后果，不能只摘取其中半句。
+The classroom's 2018 Article 2 reads: 'In principle, archival records are not provided to outsiders. Inspection shall be permitted if the applicant proves an academic research purpose and no sealed personal secrets are involved.' This is a hypothetical classroom rule. Its first sentence states the principle; its second states the exception's conditions and consequence. Neither half may be extracted alone.
 
-例外要求两个条件同时满足：申请人证明学术研究用途，档案又不涉及封存的个人秘密。“且”将二者连接起来，因此研究用途再充分，也不能抵消保密条件的欠缺；反过来，不涉及封存秘密，也不能单独替代用途证明。条件具备后，规则写的是“应准许阅览”，而不是仅表示教师个人愿意让人阅览。
+The exception requires both proof of academic research purpose and records that do not involve sealed personal secrets. 'And' joins them: Even a fully established research purpose cannot compensate for failure of the confidentiality condition; conversely, absence of sealed secrets cannot alone replace proof of purpose. Once the conditions hold, the rule says inspection 'shall be permitted,' rather than merely expressing the teacher's personal willingness to allow it.
 
-甲提出学术研究计划，所请档案没有封存的个人秘密。这个计划提供了关于用途的材料，与完全没有说明学术用途不同。不过，计划是否足以证明规则所说的“学术研究”，还要结合下文的解释争议；不能先把某一种解释当成所有材料都已认可的答案。若用途条件得到满足，甲又符合不涉及封存秘密的条件，就应依2018版的例外准许阅览。
+A submits an academic research plan, and the requested records contain no sealed personal secrets. The plan supplies evidence about purpose, unlike saying nothing about academic use. But whether it sufficiently establishes 'academic research' depends on the interpretive dispute below. Do not first treat one interpretation as an answer accepted by all materials. If A satisfies the purpose condition as well as the absence-of-secrets condition, inspection should be permitted under the 2018 exception.
 
-乙只说自己好奇，没有说明学术用途。在2018版下，不能因为甲乙都想看档案，就把二人视为同样满足例外。乙的问题不是好奇心有没有价值，而是现有陈述没有满足本条要求的用途证明。即使对知识感兴趣，也不能据此跳过仍然写在规则中的条件。
+B says only that they are curious and identifies no academic purpose. Under the 2018 version, A and B cannot be treated as equally satisfying the exception merely because both want the records. The issue is not curiosity's value but whether B's statement establishes the purpose required by this article. An interest in knowledge does not allow bypassing a condition still written in the rule.
 
-原课还给出丙的教学假设：丙有完整研究方案，但所请档案含封存的个人秘密。即便研究方案满足用途条件，第二个条件仍然不满足，因此不能凭研究方案适用上述准许例外。能否取得去除秘密后的副本，是另一个处理问题；本课规则没有规定，不能从“研究有价值”直接推出有权取得，也不能把未提供的规则补成答案。
+The original class also supplies C's teaching hypothetical: C has a complete research proposal, but the requested records contain sealed personal secrets. Even if the proposal satisfies purpose, the second condition remains unmet, so the proposal cannot activate the inspection exception. Access to a redacted copy is a separate question unaddressed by the course rules. 'Research is valuable' cannot directly create such an entitlement, nor may an absent rule be invented as the answer.
 

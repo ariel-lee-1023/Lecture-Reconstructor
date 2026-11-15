@@ -5,5 +5,14 @@
   "reason": "SKILL/references, input and manuscript bytes are unchanged; this is record-validation correction after independent code reproduction",
   "regression": "40 tests passed; old-pass + new-manuscript + new-pass succeeds; latest stale/fail/not_run still rejected",
   "old_sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5",
-  "new_sha256": "497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7"
+  "new_sha256": "497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/concept/checker-history-fix-impact.json",
+    "original_sha256": "46338290f317c952c0536ea81029dd087d517764f987f97252160a319412891c",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/concept/checker-history-fix-impact.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

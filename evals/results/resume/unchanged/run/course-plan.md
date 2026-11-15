@@ -1,11 +1,11 @@
-# 全课计划与执行结果
+# Whole-course plan and execution results
 
-整体问题：把庚的完整经历按“关系成立—关系变动—后果—复核”连接起来，解释每个条件为什么影响结果。全21行已读，三章正文已完成局部自查、全篇统稿与直接全文自查；机械检查返回0。全部规则及人物均为合成教学假设；没有前后课资料。
+Whole problem: connect G's complete experience through “formation—relationship change—consequences—review,” explaining why each condition affects the result. All 21 lines have been read; the three chapters have completed local self-review, whole-manuscript reconciliation, and direct full-source self-review. Mechanical checks returned 0. All rules and characters are synthetic teaching hypotheticals; no adjacent lecture materials were supplied.
 
-| 章 | 学习对象与关系 | 先修与讲法 | 全课作用与实际范围 |
+| Chapter | Object of learning and relationships | Prerequisites and approach | Whole-course role and actual scope |
 |---|---|---|---|
-| 第一章 | 进入许可不自动产生他人座位义务，成功确认是独立条件 | 无前课先修；庚整体任务、甲丁、借线、学生反问 | 为变动确定对象；源1—7行/u01—u09 |
-| 第二章 | 发出/到达、单方/协商、暂停/消灭/届满 | 第一章关系两层；戊己边界对照、辛和迟到反驳、庚阶段分析 | 确定有效预约和受影响时段；源8—13行/u10—u21 |
-| 第三章 | 重叠时长/封闭总长、程序及时/实体正确、结算缺口 | 前两章关系成立与变动；壬计价、癸期限、庚完整演算、17:59变式、考试提示 | 兑现整体任务；源14—21行/u22—u33 |
+| Chapter 1 | Entry permission does not automatically create another person's seat duty; successful confirmation is an independent condition | No prior-lecture prerequisite; G's whole task, A and D, cable borrowing, student objection | Establish objects for later changes; source lines 1—7/u01—u09 |
+| Chapter 2 | Sending/receipt, unilateral action/negotiation, suspension/extinction/expiry | Chapter 1's two relationships; E/F boundary contrast, H and the lateness objection, G's interim analysis | Establish the valid reservation and affected interval; source lines 8—13/u10—u21 |
+| Chapter 3 | Overlapping duration/total closure, procedural timeliness/substantive correctness, settlement gap | Formation and changes from chapters 1–2; I's rate calculation, J's deadline, G's complete calculation, 17:59 variant, examination advice | Complete the whole task; source lines 14—21/u22—u33 |
 
-章节结束后先保存正文，再原子更新run.json；第二、三章检查点分别保存为resume-chapter-2.json与resume-chapter-3.json。第一章保留原字节，仍纳入本次全篇重审。终稿以run.json和全篇自查的对应哈希为准。
+At each chapter's end, save prose before atomically updating run.json. Chapters 2 and 3 have checkpoints in resume-chapter-2.json and resume-chapter-3.json respectively. Chapter 1 retains its original bytes and is still included in this whole-manuscript re-review. The final manuscript is identified by the matching hashes in run.json and the whole-manuscript self-review.

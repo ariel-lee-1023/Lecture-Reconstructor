@@ -1,72 +1,72 @@
 <a id="ch-3"></a>
-# 第三章　从有效时段到积分后果，再到复核
+# Chapter 3: From valid intervals to points consequences and review
 
-前两章分别确定关系怎样成立、后来怎样变动。现在把这两个判断用起来：只有知道预约是否有效，以及哪些时段受封闭影响，才能决定L3的退分。计算之后还要检查复核期限，因为数额判断和程序判断回答的是不同问题。
+The first two chapters established how the relationship is formed and how it later changes. We now use those findings: L3's return of reservation points cannot be determined until we know whether the reservation is valid and which intervals closure affects. After calculation, we must also check the review deadline, because the amount and procedure answer different questions.
 
 <a id="ch3-calculation"></a>
-## 一、先找重叠时段，再用计价规则
+## 1. Find the overlapping interval before applying the rate
 
-L4规定预约计价每小时10积分，半小时5积分。本次材料只处理整半小时，其他粒度如何计价没有规定，所以不能自行增加按分钟折算、进位或舍去的规则。
+L4 charges 10 points per hour and 5 per half-hour. These materials address only whole half-hours and provide no rate for other increments. Do not invent per-minute prorating, rounding up, or rounding down.
 
-L3应退积分以封闭与有效预约的重叠时长计算。计算前先画出两个区间：原预约中仍然有效的时段，以及安全封闭的时段。只有两者共同覆盖的部分，才是这个预约受封闭影响的部分。预约开始前即使已经封闭，也没有减少该预约的有效使用时段，因此不能计入它的退分。
+Under L3, the points refund is calculated from the duration of overlap between closure and the valid reservation. First identify two intervals: the still-valid part of the original reservation and the safety closure. Only their overlap is the part of this reservation affected by closure. A closure before the reservation begins does not reduce its valid use interval and therefore cannot count toward its refund.
 
-把这个方法用到上一章的辛：有效预约是10点至12点，封闭是10点至11点，重叠一小时，依L4应退10积分。即使辛11:30才到，封闭仍在11点结束，所以按L3应退的还是受封闭影响的一小时，而不是把个人迟到也算进去。
+Apply this method to H from the previous chapter: the valid reservation is 10:00–12:00 and closure is 10:00–11:00, overlapping by one hour, so L4 yields a refund of 10 points. Even if H arrives at 11:30, closure still ends at 11:00. L3 therefore still refunds the one hour affected by closure, without adding personal lateness.
 
 <a id="ch3-ren"></a>
-## 二、壬的完整计算：为什么封闭一小时只退5积分？
+## 2. I's complete calculation: why does one hour of closure yield only 5 points?
 
-壬预约10点至12点，场地9:30至10:30封闭。封闭总共一小时，但其中9:30至10点发生在预约开始之前。对壬的有效预约而言，受到影响的是10点至10:30，合计半小时，所以应退5积分。
+I reserves 10:00–12:00; the venue is closed 9:30–10:30. Closure lasts one hour overall, but 9:30–10:00 precedes the reservation. The affected part of I's valid reservation is 10:00–10:30, half an hour, so the refund due is 5 points.
 
-如果直接用“封闭一小时×10积分”得出退10积分，乘法本身没有算错，错在把哪一段时间拿去计算。它多算了9:30至10点这段预约之外的半小时。先确定规则所指的时段，再算数，才能避免数字正确而适用错误。
+Calculating “one hour of closure × 10 points” and refunding 10 involves no multiplication error. The mistake is selecting the interval to calculate: it includes the half-hour at 9:30–10:00 outside the reservation. Identify the interval specified by the rule before calculating, to avoid correct arithmetic applied to the wrong facts.
 
-10:30恢复后，壬的剩余预约是10:30至12点，仍然有效；结束点不因封闭延后。这个案例同时用到了L3的重叠退分和恢复后剩余时段有效两项规定，不能只保留退款数字而丢掉关系状态。
+After reopening at 10:30, I's remaining reservation from 10:30 to 12:00 remains valid; closure does not postpone its end. This case uses both L3's overlap-based return of reservation points and its rule preserving the remainder after reopening. Retaining only the refund amount would lose the relationship's status.
 
 <a id="ch3-review"></a>
-## 三、复核检查什么，又在什么时候申请？
+## 3. What does review examine, and when must it be requested?
 
-L5规定，对退分有争议，成员应在得知处理结果后七日内申请复核。期限从得知的次日开始计算，第七日结束前到达系统即及时。得知、提出申请、申请到达，是三个需要分别核对的事件。规则把起算与得知相连，把及时性与到达相连，不能只记录一个模糊的“申请日期”。
+L5 requires members disputing a return of reservation points to request review within seven days after learning of the decision. Counting begins on the following day; receipt by the system before the end of day 7 is timely. Learning of the decision, submitting the application, and receipt of the application are separate events requiring separate checks. The rule ties commencement to knowledge and timeliness to receipt; one vague “application date” is insufficient.
 
-复核机构检查规则适用与时间事实，不预设管理员总是正确。但有复核机制，也不等于申请人的每项主张都必然成立。程序及时解决的是能否在给定期限内提出复核，实体判断仍要回到L1至L4及事实。材料还没有赋予复核申请自动暂停其他决定的效果，不能自行加上这种后果。
+The review body checks application of the rules and temporal facts without presuming that the administrator is always correct. The existence of review does not mean every applicant claim necessarily succeeds. Procedural timeliness concerns seeking review within the specified period; substantive judgment still depends on L1–L4 and the facts. The material grants no automatic suspension of other decisions merely upon applying for review, so that effect must not be added.
 
 <a id="ch3-gui"></a>
-癸在周四得知处理结果，周五才是第一日。顺次计算，周六第二日、周日第三日、下周一第四日、下周二第五日、下周三第六日、下周四第七日。通知在下周四当天结束前到达系统，依L5就是及时的。
+J learns of the decision on Thursday, so Friday is day 1. Counting onward, Saturday is day 2, Sunday day 3, the following Monday day 4, Tuesday day 5, Wednesday day 6, and Thursday day 7. Under L5, notice received by the system before the end of that following Thursday is timely.
 
-这个算法来自本练习的明确规定，不能作为各法域的通则。如果只知道通知何时到达，却不知道癸何时得知处理结果，就缺少起算事实，不能编造期限已经届满或尚未届满的结论。缺少事实时要指出缺什么，不能用顺畅叙述代替证据。
+This calculation comes from the exercise's express rule and is not a universal rule across jurisdictions. Knowing only when notice arrived, without knowing when J learned of the decision, leaves the commencement fact missing. Do not invent a conclusion that the deadline has or has not expired. Identify the missing fact rather than replacing evidence with fluent narrative.
 
 <a id="ch3-geng"></a>
-## 四、把庚的完整经历连起来
+## 4. Connect G's complete experience
 
-现在兑现开头的完整任务。第一步是关系成立：庚是成员，周一为周三10点至12点收到成功确认，因而在L1下成立相应的座位请求与管理人的义务。注册提供进入许可，成功确认另行提供这项特定时段的座位关系。
+We can now complete the opening whole task. First comes formation: G is a member and receives successful confirmation on Monday for Wednesday 10:00–12:00, creating the corresponding seat claim and administrator's duty under L1. Registration supplies permission to enter; successful confirmation separately creates this seat relationship for a specific interval.
 
-第二步是变动：庚周二17:58发出取消请求，但系统18:02才收到。触发L2的事件是到达，而截止点是周二18:00，所以单方撤销失败。也没有管理人同意协商的证据，不能认定预约另经合意消灭。周三10点至11点安全封闭，11点恢复，依据L3，只暂停该受影响时段内的提供座位义务，11点至12点仍有效，12点届满。
+Second comes change: G sends a cancellation request Tuesday at 17:58, but the system receives it only at 18:02. Receipt is L2's trigger and Tuesday 18:00 its deadline, so unilateral cancellation fails. There is also no evidence of the administrator's agreement to a negotiated change, so extinction by agreement cannot be established. Wednesday safety closure lasts 10:00–11:00, with reopening at 11:00. Under L3, only the seat-provision duty for that affected interval is suspended; 11:00–12:00 remains valid and expires at 12:00.
 
-第三步是积分后果：两小时预约依L4对应20积分，系统扣20与这个计价相符。有效预约10点至12点，与安全封闭10点至11点重叠一小时，因此L3结合L4要求退10积分。系统实际上只退了5积分，比应退数额少5积分，应再退5积分。正确退分后净扣10积分；现有扣20、退5的处理净扣15积分，退分部分不符合给定规则。不能因为“扣20”正确，就把整项处理都说成正确，也不能把应退10与还应补退5混为同一个数字。
+Third are the points consequences: under L4, two reserved hours cost 20 points, so the debit of 20 accords with that rate. The valid 10:00–12:00 reservation overlaps the 10:00–11:00 safety closure by one hour; L3 together with L4 therefore requires a refund of 10. Only 5 was actually refunded, leaving a shortfall of 5 that must also be returned. A correct refund produces a net debit of 10; the existing debit of 20 and refund of 5 produce a net debit of 15, so the refund component does not comply with the rules. A correct debit of 20 does not make the whole decision correct. Nor should the total refund due of 10 be confused with the additional 5 still owed.
 
-第四步是复核：庚周四得知处理结果，下周三提出申请且当日到达。按照刚才的算法，下周三是第六日，早于第七日结束，故申请及时。在给定事实与规则下，庚就少退5积分提出异议有实体依据，同时申请也满足L5的期限；这两个结论各有自己的理由。及时申请本身不能证明他若另主张“全部退还20积分”也必然成立。
+Fourth comes review: G learns of the decision on Thursday, submits the application the following Wednesday, and it arrives that day. Under the calculation just established, Wednesday is day 6, before the end of day 7, so the application is timely. The supplied facts and rules give G substantive grounds to challenge the missing 5-point refund, while the application also meets L5's deadline. Each conclusion has its own reasons. Timely application alone does not establish that a separate demand for a full 20-point refund would succeed.
 
-从确认到退分再到复核，每一步都留下了下一步需要的条件。省掉撤销判断，就不知道是否还有有效预约；省掉重叠时段，就可能多退或少退；省掉得知和到达日期，就无法独立判断程序期限。
+From confirmation through the return of reservation points to review, each step supplies conditions needed by the next. Without examining cancellation, we cannot tell whether a valid reservation remains. Without finding the overlap, we may refund too much or too little. Without the knowledge and receipt dates, we cannot independently judge the procedural deadline.
 
 <a id="ch3-variant"></a>
-## 五、只改变一个条件，结论会怎样更新？
+## 5. How does changing just one condition update the conclusion?
 
-材料给出一个变式：把庚的撤销通知改成周二17:59到达系统，其余以该变式为前提。这里改变的是到达时刻，不是把原案17:58发出的事件换个说法。17:59不晚于18:00，满足L2，所以预约已经有效撤销。
+The material supplies a variant: G's cancellation notice instead reaches the system Tuesday at 17:59, with the subsequent analysis based on that variation. What changes is receipt time; this is not merely a rephrasing of the original sending at 17:58. Receipt at 17:59 is no later than 18:00 and satisfies L2, so the reservation is effectively canceled.
 
-此后不能继续沿用原案“有效预约与周三封闭重叠一小时”的退分分析，因为作为这条分析前提的预约已经消灭。原案退10积分的计算不能自动搬到变式上。
+We can no longer reuse the original analysis of a valid reservation overlapping Wednesday's closure by one hour, because the reservation required by that analysis has been extinguished. The original 10-point refund calculation does not automatically transfer to the variant.
 
-但这也不能反过来推出“变式一分不退”。L2没有规定及时撤销后的积分怎样结算。我们能够确定预约已消灭，却不能从给定材料得出唯一的结算金额。应当明确记录这个规则缺口；如需确定金额，就需要补充及时撤销的结算规则，不能拿L3的安全封闭退分规则来填空。知道结论在哪一步停止，也是完整分析的一部分。
+Nor does that establish the opposite claim that the variant receives no refund. L2 does not specify points settlement after timely cancellation. We can establish that the reservation has ended, but cannot derive one settlement amount from the supplied material. Record that rule gap explicitly. Determining the amount requires an additional rule for timely cancellation; L3's safety-closure refund cannot fill the gap. Knowing where a conclusion must stop is part of a complete analysis.
 
 <a id="ch3-exam"></a>
-## 六、教师的考试提示应当怎样理解？
+## 6. How should the teacher's examination advice be understood?
 
-合成材料中的教师要求，完整案例按“关系成立—变动—后果—复核”展开。这一顺序帮助我们把前后依赖写清，庚案已经展示了每一步为什么需要前一步的结论。
+The teacher in the synthetic material asks that complete cases follow “formation—change—consequences—review.” That sequence makes dependencies explicit; G's case demonstrates why each step needs the preceding conclusion.
 
-但概念比较题不必机械分成四段。如果问题只是比较许可与座位请求，就应围绕主体、相对人、内容和成立条件展开，而不是硬补一个材料没有提出的复核问题。教师要求的是解释条件为何影响结果，不是保证任何现实考试都会按这四段评分。提示的归属与适用范围必须保留。
+Conceptual-comparison questions need not be mechanically divided into four parts. If a question asks only for comparison of permission and a seat claim, organize the explanation around the holder, counterpart, content, and formation conditions rather than inventing a review issue absent from the material. The teacher requires reasons why conditions affect results, not a guarantee that every real examination will mark answers using these four parts. Preserve the advice's attribution and scope.
 
 <a id="ch3-synthesis"></a>
-## 七、回到全课问题
+## 7. Return to the course's central problem
 
-学习社的制度并不是五个互不相关的定义。L1使特定关系成立；L2说明怎样撤销及何时须另行协商；L3处理安全封闭导致的暂停、恢复与退分；L4把受影响时段转成积分；L5让时间事实与规则适用获得复核。这些关系连接起来，才足以分析庚的完整经历。
+The study society's system is not five unrelated definitions. L1 establishes particular relationships; L2 explains cancellation and when separate negotiation is needed; L3 addresses safety closure, suspension, reopening, and refunds; L4 converts affected intervals into points; L5 provides review of temporal facts and rule application. Only these connected relationships support analysis of G's complete experience.
 
-庚案使四组区别同时显出来：发出不等于到达，所以17:58发出不能抵消18:02才到达；暂停不等于消灭，所以11点恢复后剩余一小时仍有效；本人实际在座时长不等于安全封闭的受影响时段，所以退分不能随个人迟到变化；程序及时不等于实体正确，所以期限和金额都要各自给出理由。
+G's case reveals four distinctions together. Sending is not receipt, so sending at 17:58 does not offset receipt only at 18:02. Suspension is not extinction, so the remaining hour stays valid after reopening at 11:00. Actual seated time is not the interval affected by safety closure, so returned reservation points do not vary with personal lateness. Procedural timeliness is not substantive correctness, so both deadlines and amounts require their own reasons.
 
-这些结论都限于本课明确给出的合成规则与事实。我们没有借助未提供的前课来省略证明，也没有把练习中的期限、退款或复核规则推广为现实法律。读完这个完整分析，能够检查的是每个结论是否有相应前提与推理；读者是否已经能独立完成新案例，还需要实际表现来判断。
+These conclusions are confined to the synthetic rules and facts expressly supplied in this lecture. We have neither relied on an unavailable prior lecture to skip proof nor generalized the exercise's deadline, refund, or review rules into real law. This complete analysis permits examination of whether each conclusion has the necessary premises and reasoning. Whether a reader can independently solve a new case still requires evidence of actual performance.

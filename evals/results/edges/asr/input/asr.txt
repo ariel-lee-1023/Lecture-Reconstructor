@@ -1,7 +1,7 @@
-【合成ASR转录；仅有文字，没有音频。以下是假设规则，不是现实法律。】
-本课讲“请球权”，也就是一方要求另一方履行指定行为的请求权。后面统一用请求权。
-练习规则的清楚部分：只有发送方完成有效通知，接收方才负有交付教学资料的义务。有效通知的认定直接决定结论。
-识别文本在核心处是：“通知以[发出／到达]时为生效点。”两种候选在原记录中同时出现，无法从别处确认。
-甲周一发出通知，乙周三收到；甲要求乙周二交付。老师说这里要看通知在周二是否已经生效，但核心一句有缺音。
-另一个不受上述分歧影响的例子：丙没有发送任何通知，也没有约定自动交付，便不能依本规则要求周二交付。
-不要把时间差当成小错字。如果规则用发出和到达，甲题的推理会不同。本课没有第二份教材可核对。
+[Synthetic ASR transcript; text only, with no audio. The following rules are hypothetical, not real law.]
+This lecture concerns a 'clame-right': a claim-right by which one party requires another to perform a specified act. We will consistently use claim-right below.
+The clear part of the exercise rule is this: the recipient owes a duty to deliver teaching materials only after the sender has given effective notice. Whether notice is effective directly determines the conclusion.
+At the decisive point, the recognized text reads: 'Notice takes effect when it is [sent / received].' Both candidates appear in the original record, and no other passage resolves the choice.
+A sends notice on Monday and B receives it on Wednesday; A demands delivery on Tuesday. The teacher says the issue is whether notice was already effective on Tuesday, but part of the crucial sentence is missing.
+Another example is unaffected by that disagreement: C sent no notice and made no agreement for automatic delivery, so C cannot demand Tuesday delivery under this rule.
+Do not treat the time difference as a minor typo. The reasoning in A's problem differs depending on whether the rule uses sending or receipt. No second textbook is available for checking this lecture.

@@ -1,17 +1,17 @@
 1
 00:00:03,000 --> 00:00:01,000
-【合成字幕；时间先后有误。以下只使用练习规则。】
+[Synthetic subtitles with incorrect chronological timing. Only the exercise rules are used below.]
 
 2
 ??:??:?? --> 00:00:05,200
-本课区分注册与预约。注册只允许进入阅览区，不保证座位。
+This lecture distinguishes registration from reservation. Registration permits entry to the reading area but does not guarantee a seat.
 
 7
 00:00:04,900 --> 00:00:08,100
-成功预约确认后，管理人须在确认的时段提供座位。
+After successful reservation confirmation, the manager must provide a seat during the confirmed period.
 
 7
-时间码缺失
-甲只有注册，没有预约确认，因此不能根据这两条规则要求管理人提供标准座位。
+Timecode missing
+A is only registered and has no reservation confirmation, so these two rules do not entitle A to demand a standard seat from the manager.
 
-这一行没有字幕编号：乙有确认，可以在确认时段提出请求。时间码损坏不改变已经可读的条件差别。
+This line has no subtitle number: B has confirmation and may make a claim during the confirmed period. Damaged timecodes do not alter the readable difference in conditions.

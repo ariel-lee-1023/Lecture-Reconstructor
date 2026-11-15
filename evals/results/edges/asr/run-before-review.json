@@ -5,12 +5,12 @@
   "stage": "review",
   "course": {
     "title": "asr",
-    "scope": "给定合成材料",
-    "jurisdiction": "教学假设，无现实法域",
+    "scope": "Supplied synthetic material",
+    "jurisdiction": "Teaching hypothetical, with no real jurisdiction",
     "time_context": "unknown",
-    "audience": "大学课程读者",
+    "audience": "University course readers",
     "assumptions": [
-      "只用输入给定规则，不外推现实法"
+      "Use only the rules supplied in the input; do not extrapolate to real law"
     ]
   },
   "inputs": [
@@ -34,7 +34,7 @@
   "content_units": [
     {
       "id": "u1",
-      "proposition": "术语修复：请求权",
+      "proposition": "Terminology repair: claim-right",
       "locations": [
         {
           "input_id": "in1",
@@ -44,7 +44,7 @@
       ],
       "type": "substantive",
       "status": "corrected",
-      "reason": "原文对照后写入实际正文",
+      "reason": "Written into the actual manuscript after comparison with the source text",
       "targets": [
         {
           "chapter_id": "ch-notice",
@@ -52,12 +52,12 @@
         }
       ],
       "source_ids": [],
-      "original_meaning": "请球权",
-      "correction_basis": "同一行给出请求权定义及后续统一术语"
+      "original_meaning": "clame-right",
+      "correction_basis": "The same line supplies the definition of claim-right and the consistent term used subsequently"
     },
     {
       "id": "u2",
-      "proposition": "有效通知是交付义务成立条件",
+      "proposition": "Effective notice is a condition for the delivery obligation to arise",
       "locations": [
         {
           "input_id": "in1",
@@ -67,7 +67,7 @@
       ],
       "type": "substantive",
       "status": "represented",
-      "reason": "原文对照后写入实际正文",
+      "reason": "Written into the actual manuscript after comparison with the source text",
       "targets": [
         {
           "chapter_id": "ch-notice",
@@ -78,7 +78,7 @@
     },
     {
       "id": "u3",
-      "proposition": "甲题的发出或到达标准不明",
+      "proposition": "It is unclear whether sending or receipt is the standard in A's problem",
       "locations": [
         {
           "input_id": "in1",
@@ -88,7 +88,7 @@
       ],
       "type": "substantive",
       "status": "unresolved",
-      "reason": "原文对照后写入实际正文",
+      "reason": "Written into the actual manuscript after comparison with the source text",
       "targets": [
         {
           "chapter_id": "ch-notice",
@@ -97,11 +97,11 @@
       ],
       "source_ids": [],
       "blocking": true,
-      "blocking_reason": "生效点决定甲题结论，只有文字无法确认"
+      "blocking_reason": "The effective point determines the conclusion in A's problem and cannot be confirmed from the text alone"
     },
     {
       "id": "u4",
-      "proposition": "丙没有任何通知；不能忽略生效点差异",
+      "proposition": "C gave no notice at all; differences in the effective point cannot be ignored",
       "locations": [
         {
           "input_id": "in1",
@@ -111,7 +111,7 @@
       ],
       "type": "substantive",
       "status": "represented",
-      "reason": "原文对照后写入实际正文",
+      "reason": "Written into the actual manuscript after comparison with the source text",
       "targets": [
         {
           "chapter_id": "ch-notice",
@@ -138,13 +138,13 @@
       "status": "drafted",
       "learning_object": "ch-notice",
       "relations": [
-        "主体、行为及条件与后果的关系"
+        "Relationships among actors, conduct, conditions, and consequences"
       ],
       "prerequisites": [
-        "材料给定的合成规则"
+        "Synthetic rules supplied in the material"
       ],
-      "approach": "完整解释与关键条件对照",
-      "role": "解释课程的实质关系",
+      "approach": "Complete explanation and comparison of key conditions",
+      "role": "Explain the substantive relationships in the course",
       "content_unit_ids": [
         "u1",
         "u2",
@@ -155,19 +155,19 @@
   ],
   "terms": [
     {
-      "term": "请求权",
-      "decision": "要求特定相对人实施指定行为的地位"
+      "term": "claim-right",
+      "decision": "A position entitling someone to require specified conduct from a particular counterpart"
     }
   ],
   "open_issues": [
     {
       "id": "issue1",
-      "question": "通知生效点为发出还是到达？",
-      "impact": "缺口阻止完整成稿",
-      "resolution_condition": "用户提供必要文字或确认篇幅取舍",
+      "question": "Does notice become effective when sent or when received?",
+      "impact": "The gap prevents completion of the full manuscript",
+      "resolution_condition": "The user supplies the necessary text or confirms the length tradeoff",
       "status": "open",
       "blocking": true,
-      "blocking_reason": "核心含义、可读材料或交付范围未确定"
+      "blocking_reason": "The core meaning, readable material, or delivery scope remains undetermined"
     }
   ],
   "runtime_revision": {
@@ -206,12 +206,21 @@
   },
   "resume": {
     "completed": [
-      "可读材料检查",
-      "已保存实际响应"
+      "Readable-material check",
+      "Actual response saved"
     ],
     "remaining": [
-      "核心缺口"
+      "Core gap"
     ],
-    "next_action": "通知生效点为发出还是到达？"
+    "next_action": "Does notice become effective when sent or when received?"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/edges/asr/run-before-review.json",
+    "original_sha256": "ccacad41d3251358b3bb41d80eb83ce2e1b5269451d0360aca81d3625444ffd4",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/edges/asr/run-before-review.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

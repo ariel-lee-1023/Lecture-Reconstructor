@@ -1,21 +1,21 @@
-# 岚桥器材社：修复费用请求为什么是六百、零与四百
+# Mistbridge Equipment Society: Why Repair-Cost Claims Are 600, Zero, and 400
 
-岚桥器材社、规则、人物、凭证和课堂事例均为合成教学材料，不对应真实法律或判决。本讲只在题设规则内分析，不把计算结果作为现实案件的赔偿标准。
+Mistbridge Equipment Society, its rules, people, documents, and classroom examples are synthetic teaching materials, not real law or judgments. This lecture analyzes only the hypothetical rules and does not treat its calculated results as compensation standards for real cases.
 
-三个人都违反器材使用约定，相机也都发生了实际修复费用，为什么最后分别得到600元、0元和400元？数字本身并不难算。难点在于：我们正在审查谁向谁提出的哪一项请求；违规行为与这笔费用有何关系；器材原有缺陷又怎样影响判断。先把这些问题回答完，计算才有依据。
+Three people all breach the equipment-use agreement, and all cameras incur actual repair costs. Why do the results differ—600 yuan, 0 yuan, and 400 yuan? The arithmetic itself is easy. The difficulty is identifying which claim by whom against whom is being examined, how the breach relates to that cost, and how a pre-existing defect affects the judgment. Only after answering those questions does the calculation have a basis.
 
 <a id="ch-rules"></a>
-## 一、把“违规了”展开成完整的请求条件
+## 1. Expand 'there was a breach' into the complete conditions for a claim
 
-本课审查的是器材社向借用人请求修复费用。这个方向不能颠倒，费用项目也不能泛化成一切与相机有关的支出。
+This lecture examines the Society's repair-cost claim against the borrower. Do not reverse that direction or expand the cost category into every expense connected with the camera.
 
-R1要求借用人按约定用途使用器材，并按期返还。它包含使用方式与返还时间两个方面。履行其中一项，不当然说明另一项也得到履行。同时，R1明确规定普通磨损不构成违反义务，因此不能只见器材状态发生变化，就直接认定借用人违规。
+R1 requires use for the agreed purpose and timely return, covering both manner of use and time of return. Performing one does not necessarily establish performance of the other. R1 also expressly excludes ordinary wear from breach, so a change in equipment condition does not by itself establish borrower misconduct.
 
-R2把修复费用请求建立在三个同时满足的条件上：第一，借用人违反R1；第二，器材发生实际修复费用；第三，该违反行为造成这项修复费用。“同时”意味着不能由其中一项替代另外两项。有违规而没有实际修复费用，不能仅凭违规计算修复费；有实际费用而没有相应因果关系，也不能把费用自动转给借用人。这是对所给规则的解释，不是在添加新的处罚规则。
+R2 requires three simultaneous conditions for a repair-cost claim: first, the borrower breached R1; second, actual repair costs arose; third, that breach caused those costs. 'Simultaneous' means one condition cannot replace the other two. A breach without actual repair costs cannot justify calculating repair charges merely from misconduct. Actual costs without the requisite causal relationship cannot automatically be transferred to the borrower. This explains the supplied rule; it does not add a new punitive rule.
 
-证据要对应具体条件。发票可以证明其列载的收费，却不能单独证明费用由借用行为造成。因此，“这里有一张600元发票”与“这600元是某项违规行为造成的修复费用”，不是同一命题。因果判断还需要题设提供相应的原因事实，不能由金额倒推原因。
+Evidence must correspond to a specific condition. An invoice can prove its listed charges, but not alone that the borrower's use caused the cost. 'There is a 600-yuan invoice' and 'these 600 yuan are repair costs caused by a particular breach' are different propositions. Causation also requires relevant causal facts in the problem; an amount cannot establish its cause retrospectively.
 
-R3进一步说明一种因果条件不成立的情形：如果费用完全由器材原有隐蔽缺陷独立造成，即使借用人另有违反R1的行为，R2的因果条件仍然不满足。借用人违规，与这笔损坏费用由谁的行为造成，必须分别判断。R3不是对违规的奖励，而是在限定器材社这项特定请求的依据。
+R3 further describes a case where causation fails: If a pre-existing latent defect independently caused all the costs, R2's causal condition remains unsatisfied despite a separate breach of R1. Whether the borrower breached and whose conduct caused this damage cost must be judged separately. R3 does not reward a breach; it limits the basis of the Society's particular claim.
 
-R4则处理共同原因：器材社明知缺陷却未告知，该缺陷与借用人的违规行为共同导致同一笔不可分的修复费用，此时器材社只能请求该费用的一半。这里既有器材社明知且未告知的条件，也有两种原因共同作用、费用不可分的条件。满足这些条件后，比例才是二分之一。比例来自R4的明文选择，不能因为“两边都有问题”或“这样比较公平”就自行算出一半。
+R4 addresses joint causation: The Society knew of a defect without disclosing it, and that defect and the borrower's breach jointly caused the same indivisible repair cost. The Society may then claim only half. This requires both knowing non-disclosure and joint operation of the causes producing an indivisible cost. Only after those conditions are met is the proportion one-half. It follows from R4's express choice, not an independent calculation based on 'both sides were at fault' or 'that seems fairer.'
 

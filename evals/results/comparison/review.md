@@ -1,53 +1,53 @@
-# 匿名逐课比较评审
+# Anonymous comparison review by lecture
 
-本评审只读取指定 `concept`、`case`、`dispute` 下的 `input.txt`、`A.md`、`B.md` 全文。评审者未参与生成，未读取方法、映射或原始生成记录，未检索外部资料，也未推断 A/B 的方法身份。这是单一模型评审，不是独立人类评审、课堂试用或学习效果测量。
+This review read only the complete `input.txt`, `A.md`, and `B.md` in the specified `concept`, `case`, and `dispute` directories. The reviewer did not generate them, read methods, mappings, or original generation records, search external sources, or infer the methods behind A/B. This is one model review, not independent human review, a classroom pilot, or a measurement of learning outcomes.
 
-结论：**concept 相当；case 相当；dispute 的 B 局部较优。两稿各组均未发现关键缺陷。** 不按篇幅判优；只在新增文字实际改善来源区分或推理时计入优势。“关键缺陷”指会改变主要规则或结论、遗漏决定性条件/例外/教学案例、实质误认来源身份，或把未知事实当成已有证据的缺陷。未发现不等于证明不存在。
+Conclusion: **concept comparable; case comparable; dispute B locally stronger. No critical defect was identified in either manuscript in any pair.** Length is not rewarded; additions count as advantages only when they improve source distinction or reasoning. A 'critical defect' changes a principal rule or conclusion, omits a decisive condition/exception/teaching case, materially misidentifies a source, or treats unknown facts as evidence. Failure to find one does not prove its absence.
 
-## concept：相当
+## concept: comparable
 
-| 维度 | 判定 | 依据 |
+| Dimension | Verdict | Grounds |
 |---|---|---|
-| 实质遗漏 | 相当 | 两稿均保留回执发出而非点击、撤销到达而非发出、超时可协商、安全封闭的退积分与不加时，以及撤销不消灭成员资格。原课 3—15 行；A 23—53 行；B 25—63 行。 |
-| 错误与来源身份 | 相当 | 两稿均标明合成规则与本课考试范围（A 3、53 行；B 3、61 行）。B 31 行补写丙“点击了预约按钮”，原课 8 行未明示，属于轻微叙事补足；A 36 行新用“可以称作权能”的解释性命名。二者均未改变规则或主要结论。 |
-| 推理完整 | 相当 | 均把自己无禁止与他人配合义务分开，并说明许可与确认请求并存、撤销的有限效果、安全例外需另查（A 12—16、29—42、47—51 行；B 13—19、33—47、51—57 行）。A 的额外边界解释没有形成核心推理上的差距。 |
-| 例子作用 | 相当 | 甲/丁用于比较条件，丙用于区分接收与确认，戊/己用于比较到达时点；充电线没有混入座位义务，入口堵塞仍未决（A 14—18、27—31、38—42、51 行；B 7—21、31—37、43—47、63 行）。 |
-| 全篇连贯 | 相当 | 都以许可、确认请求、撤销、安全例外推进，最后回到完整作答。A 更展开，B 更紧凑，均无明显拼贴、断裂或冲突。 |
+| Substantive omissions | Comparable | Both retain sending the receipt rather than clicking, receiving cancellation rather than sending it, post-deadline negotiation, refunds of reservation points without time extension during safety closure, and membership surviving cancellation. Original lines 3—15; A 23—53; B 25—63. |
+| Errors and source identity | Comparable | Both identify synthetic rules and this course's examination scope (A lines 3, 53; B 3, 61). B line 31 adds C's 'clicking the reservation button,' unstated in original line 8: a minor narrative addition. A line 36 adds 'may be called a power' as explanatory terminology. Neither changes a rule or principal conclusion. |
+| Completeness of reasoning | Comparable | Both separate absence of a prohibition on oneself from another's cooperation duty, explain coexistence of permission and confirmed claim, cancellation's limited effect, and separate checking of the safety exception (A lines 12—16, 29—42, 47—51; B 13—19, 33—47, 51—57). A's additional boundary explanations do not create a difference in core reasoning. |
+| Function of examples | Comparable | A/D compare conditions, C separates receipt from confirmation, and E/F compare receipt times. Charging cables are not folded into the seat duty, and the blocked entrance remains unresolved (A lines 14—18, 27—31, 38—42, 51; B 7—21, 31—37, 43—47, 63). |
+| Whole-manuscript coherence | Comparable | Both progress through permission, confirmed claim, cancellation, and safety exception, returning to a complete answer. A is more expansive and B more compact; neither shows obvious collage, gaps, or conflict. |
 
-原课的重要例外、小案例、学生提问和考试提示均有着落。关键缺陷：A 无已识别项；B 无已识别项。若作严格忠实性精修，可删去 B 对丙点击动作的未明示补足，但这不足以判定一稿整体更优。
+All important original exceptions, small cases, student questions, and examination advice are accounted for. Critical defects: none identified in A; none identified in B. A strict fidelity refinement could remove B's unstated clicking action for C, but that is insufficient to favor one manuscript overall.
 
-## case：相当
+## case: comparable
 
-| 维度 | 判定 | 依据 |
+| Dimension | Verdict | Grounds |
 |---|---|---|
-| 实质遗漏 | 相当 | 普通磨损、R2 三要件、发票证明范围、独立缺陷和共同致损的完整条件均保留；背带收据、发票不足变式、处罚质疑与考试提示未漏（原课 3—14 行；A 12—63 行；B 11—77 行）。 |
-| 错误与来源身份 | 相当 | 均明确金额只用于合成题设，甲案因果来自题设确认，R4 减半来自教学明文，未把发票或检修单普遍化为因果证明（A 3、16、20、25、33、57、61、63 行；B 3、19、23、31、39、65、67—77 行）。 |
-| 推理完整 | 相当 | 均逐项证明甲符合 R2；乙有违规和费用而无因果；丙共同致损，不能照搬乙全免，再适用 R4。材料不足的变式都保留未知（A 29—35、44—48、55—61 行；B 35—41、49—55、61—69 行）。 |
-| 例子作用 | 相当 | 甲乙比较同违规、同费用而异原因；乙丙比较独立与共同致损；背带检验主体/项目边界；发票变式检验金额证据与因果证据。两稿均明说差别为何影响结论（A 37、44—48、59—61 行；B 43、49—55、61—69 行）。 |
-| 全篇连贯 | 相当 | 均先定请求与规则，再逐案分析并回到作答。金额始终服从条件判断；段落间无主要跳跃或前后矛盾。 |
+| Substantive omissions | Comparable | Both retain ordinary wear, R2's three conditions, the invoice's evidential limits, and full independent-defect and joint-causation conditions. The strap receipt, invoice-insufficiency variant, punishment objection, and examination advice are retained (original lines 3—14; A 12—63; B 11—77). |
+| Errors and source identity | Comparable | Both limit amounts to the synthetic facts, ground A's causation in stipulated facts, and derive R4's half share from the express teaching rule. Neither universalizes invoices or inspection reports as causal proof (A lines 3, 16, 20, 25, 33, 57, 61, 63; B 3, 19, 23, 31, 39, 65, 67—77). |
+| Completeness of reasoning | Comparable | Both establish each R2 condition for A; B has breach and costs without causation; C's joint causation prevents importing B's exemption, after which R4 applies. Both preserve unknowns in the insufficient-material variant (A lines 29—35, 44—48, 55—61; B 35—41, 49—55, 61—69). |
+| Function of examples | Comparable | A/B compare the same breach and amount with different causes; B/C compare independent and joint causation; the strap tests party/category boundaries; the invoice variant separates amount evidence from causal evidence. Both explain why differences change the result (A lines 37, 44—48, 59—61; B 43, 49—55, 61—69). |
+| Whole-manuscript coherence | Comparable | Both establish the claim and rules before analyzing each case and returning to the answer method. Amounts follow the assessment of conditions throughout; no major transitions are missing and no contradictions appear. |
 
-100 元背带不是装饰性细节，两稿都用它阻止费用混加。学生关于“鼓励违规”的反驳和只有发票的变式也均保留实质回应。关键缺陷：A 无已识别项；B 无已识别项。
+The 100-yuan strap is not decorative detail: Both use it to prevent improper aggregation of costs. Both also retain substantive responses to the student's 'encouraging breaches' objection and the invoice-only variant. Critical defects: none identified in A; none identified in B.
 
-## dispute：B 局部较优
+## dispute: B locally stronger
 
-| 维度 | 判定 | 依据 |
+| Dimension | Verdict | Grounds |
 |---|---|---|
-| 实质遗漏 | 相当 | 两稿保留两版原文及 2019 年语境、甲乙丙、去密副本未决、学生质疑、各类来源身份及比较作业（原课 1—13 行；A 3、11—75 行；B 3、10—61 行）。A 73 行把“不要求押中考试结论”改写成“不要求猜中教师偏好的结论”，有轻微措辞移动，未改变比较作业性质。 |
-| 错误与来源身份 | B | 两稿都未把教材解释当明文、模拟裁判当真实或普遍拘束判例，也未偷换版本。B 40—44 行进一步明确：资助标准的辩护属于新写的“教学重建”，教材片段没有实际陈述该理由。A 31 行虽用“可以提出”“可能”限制，但没有同样清晰标明这项新增论证与原课堂内容的区别。A 的不足不构成已确认的重大误引。 |
-| 推理完整 | B | 两稿核心规则链条均完整。B 42—46 行对作业再走一步：要求说明资助这一额外限制为何合理，并指出教师标准需实质审查计划、说明标准且保留边界；还明确这些是结构性分析，非实测制度效果。A 31—33、73 行给出方向，但对双方解释负担展开较少。优势来自具体论证，而非文字更多。 |
-| 例子作用 | 相当 | 两稿都以甲展现解释选择，以乙检验目的解释及版本变化，以丙保留保密条件（A 19、33、47—53、65 行；B 14—18、27、36—38、55—57 行）。B 多做丙的新版对照，A 已完整实现原例功能，额外应用本身不自动判优。 |
-| 全篇连贯 | 相当 | A 把模拟裁判单列，B 把它放入解释部分并在质疑后加入比较示范。两种安排都可跟随，结尾都回到来源、版本和评价边界。没有依据推断哪种结构更有学习效果。 |
+| Substantive omissions | Comparable | Both preserve both versions' wording and the 2019 context, A/B/C, the unresolved redacted-copy issue, student objection, source identities, and comparative assignment (original lines 1—13; A 3, 11—75; B 3, 10—61). A line 73 changes 'not predicting an examination conclusion' to 'not guessing the teacher's preferred conclusion,' a slight shift that leaves the comparative assignment's nature intact. |
+| Errors and source identity | B | Neither treats textbook interpretation as express wording, a simulated judgment as real or generally binding precedent, or substitutes versions. B lines 40—44 further specify that the funding-criterion defense is new 'teaching reconstruction,' not a reason actually stated by the textbook excerpt. A line 31 qualifies it with 'may propose' and 'possible,' but does not distinguish the added argument from classroom content as clearly. A's limitation is not an established major misattribution. |
+| Completeness of reasoning | B | Both complete the core rule chain. B lines 42—46 take the assignment further: justify funding as an additional restriction; identify substantive plan assessment, criterion explanation, and boundaries under the teacher's standard; and distinguish structural analysis from measured institutional effects. A lines 31—33, 73 give the direction but develop both interpretations' explanatory burdens less. The advantage lies in specific arguments, not more words. |
+| Function of examples | Comparable | Both use A to show interpretive choice, B to test purposive interpretation and version changes, and C to retain confidentiality (A lines 19, 33, 47—53, 65; B 14—18, 27, 36—38, 55—57). B additionally compares C under the new version. A already fulfills the original examples' functions; extra application alone does not establish superiority. |
+| Whole-manuscript coherence | Comparable | A separates the simulated judgment into its own section; B places it within interpretation and adds a comparative demonstration after the objection. Both arrangements are followable and end with source, version, and evaluative boundaries. There is no basis to infer that either structure improves learning more. |
 
-关键缺陷：A 无已识别项；B 无已识别项。A 可改进的是新增论证身份提示及考试限定原意的精确保留；B 的优势范围限于这份实际稿件的来源区分和解释比较，不能推广到方法的普遍优势。
+Critical defects: none identified in A; none identified in B. A could improve identification of added arguments and precise retention of the examination qualification. B's advantage is limited to source distinction and interpretive comparison in this actual manuscript, not a general methodological advantage.
 
-## 范围与记录
+## Scope and record
 
-- 九份输入/输出均逐字读取，并在写评审前重新核对 SHA-256，未发生变化。
-- `review.md` 和 `review.json` 写入前均为 `absent`，没有既有文件需要备份；采用独占新建，不覆盖旧稿。
-- 未修改任何原课或候选讲稿。完整结构化判定见 `review.json`。
-- A/B 匿名标签只对当前所给稿件有效；未读取或推断跨组映射。三份合成原课和单一评审不能证明学习效果、真实课堂适用性或普遍优势。
+- All nine input/output files were read in full, and SHA-256 hashes were checked again before writing the review; none had changed.
+- `review.md` and `review.json` were both `absent` before writing, so no existing files required backup. They were created exclusively without overwriting earlier drafts.
+- No original lecture or candidate manuscript was modified. See `review.json` for complete structured judgments.
+- A/B anonymous labels apply only to the supplied manuscripts. No mapping across groups was read or inferred. Three synthetic original lectures and one reviewer cannot establish learning outcomes, real-classroom applicability, or general superiority.
 
-| 已读文件 | SHA-256 |
+| File read | SHA-256 |
 |---|---|
 | `concept/input.txt` | `8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620` |
 | `concept/A.md` | `8611c165f82ff0e998026455f8f1e17f658a2825b55dfea0c54a3a44b0c00282` |

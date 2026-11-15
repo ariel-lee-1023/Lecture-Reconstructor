@@ -1,55 +1,55 @@
 <a id="ch-2"></a>
-# 第二章　预约成立以后：撤销、暂停和届满各改变什么？
+# Chapter 2: After formation—what do cancellation, suspension, and expiry each change?
 
-第一章确定了庚的预约关系已经成立。现在要沿着时间继续看：当预约人提出取消，或者场地出现安全问题时，原来的座位请求和提供座位义务是否仍然存在？答案取决于发生了什么、是否满足规则条件，以及规则给这种事件安排了什么效果。以下仍只使用本课的合成练习规则。
+Chapter 1 established G's reservation relationship. Now follow events through time: when the reservation holder asks to cancel or the venue develops a safety problem, do the original seat claim and seat-provision duty still exist? The answer depends on what happened, whether the rule's conditions are satisfied, and what effect the rule assigns to that event. We continue to use only this course's synthetic exercise rules.
 
 <a id="ch2-withdrawal"></a>
-## 一、单方撤销以到达为准，超期协商另有条件
+## 1. Unilateral cancellation depends on receipt; later negotiation has separate conditions
 
-L2允许预约人在预约开始前一日18点前单方撤销。原句中的“18点前”如何处理18点整，由本练习附则明确：包括18:00整。因此本课统一使用“不晚于18:00”，不能把这个边界解释为必须早于18:00，也不能将它推广成现实法律的一般解释。
+L2 permits unilateral cancellation before 18:00 on the day preceding the reservation. The exercise's supplementary rule resolves whether the original phrase “before 18:00” includes exactly 18:00: it does. This course therefore consistently says “no later than 18:00.” Do not reinterpret the boundary as strictly earlier than 18:00 or generalize it into a rule of real-law interpretation.
 
-这里有两个必须连接起来的条件。第一，撤销通知要在规定期限以内；第二，L2规定撤销在通知到达系统时生效。我们据此比较的是到达时刻与期限，不能只看预约人何时点击发送。发出说明通知离开了发送端，到达说明系统已经收到；两者可能相隔几分钟，而这几分钟就可能改变单方撤销的结果。
+Two conditions must be connected. First, the cancellation notice must fall within the deadline. Second, L2 makes cancellation effective upon receipt by the system. Thus compare receipt time with the deadline, rather than merely checking when the reservation holder clicked send. Sending means the notice left the sender; receipt means the system obtained it. Several minutes may separate those events, and those minutes may change the unilateral-cancellation result.
 
-“单方”表示在满足上述条件时，不必另取得管理人的同意，就能发生L2规定的撤销效果。超过期限则不能再沿用这条路线，材料另给出协商的可能，但协商须双方同意。预约人发出协商请求，只表明他希望改变关系；还不能把另一方的同意补写进事实。因此，单方撤销失败不等于双方绝不可能另行协商，也不等于已经协商成功。应分别检查两条路线各自的条件。
+“Unilateral” means that, if these conditions are satisfied, L2's cancellation effect occurs without separate administrator consent. After the deadline, that route is unavailable. The material separately permits negotiation, requiring both parties' agreement. Sending a negotiation request shows only a wish to change the relationship; the other's agreement cannot be added to the facts. Failed unilateral cancellation means neither that separate negotiation is impossible nor that negotiation has succeeded. Check each route's own conditions.
 
 <a id="ch2-arrival-comparison"></a>
-## 二、戊与己：几分钟为何足以改变结论？
+## 2. E and F: why can a few minutes change the conclusion?
 
-戊在17:50发出通知，系统在18:05收到。虽然发送早于18:00，到达却晚于18:00；L2把生效所需事件规定为到达，所以这次通知不能依单方撤销规则消灭预约。若只摘取17:50，就把规则要求的事实换成了另一个事实。
+E sends notice at 17:50, and the system receives it at 18:05. Sending is before 18:00, but receipt is after it. L2 specifies receipt as the event needed for effectiveness, so this notice cannot extinguish the reservation through unilateral cancellation. Selecting only 17:50 would substitute a different fact for the one the rule requires.
 
-己的通知则在18:00到达。按照本练习附则，18:00整仍在期限内，因此及时生效。两案的其他条件相同，比较的关键是通知到达时刻：戊在期限之后到达，己正好在期限边界到达。规则中有无包含边界的附则也必须保留；少了这一前提，不能直接移用本课结论。
+F's notice arrives at 18:00. Under the exercise's supplementary rule, exactly 18:00 remains within the deadline and therefore takes effect in time. Other conditions being equal, the decisive comparison is receipt time: E's is after the deadline and F's exactly at its boundary. The supplementary rule including that boundary must also be preserved. Without that premise, this course's conclusion cannot simply be transferred.
 
 <a id="ch2-withdrawal-scope"></a>
-撤销生效后，消灭的是该预约产生的座位请求和管理人的对应义务。它没有取消成员身份，也没有取消L1下成员进入公共阅览区的许可。这一点回接第一章的两层关系：一个成员即使不再享有某次预约的座位请求，也不因此失去成员进入许可。分析法律效果时，必须说出变动的是哪一项关系，不能只说“权利都没了”。
+Effective cancellation extinguishes the seat claim and corresponding administrator's duty arising from that reservation. It does not cancel membership or L1 permission to enter the public reading area. This returns to chapter 1's two relationships: losing a particular reservation's seat claim does not deprive a member of entry permission. When analyzing legal effects, identify the particular relationship that changes rather than saying “all rights are gone.”
 
 <a id="ch2-suspension"></a>
-## 三、安全封闭造成暂停，不自动造成撤销
+## 3. Safety closure causes suspension, not automatic cancellation
 
-L3处理的是另一种事件：存在即时安全险情，使场地必须封闭。这两个相连的条件出现时，管理员可以暂停提供座位的义务，并应退还实际受影响时段的预约积分。材料没有把一般不方便、座位紧张或者预约人未到场都规定为这种安全封闭。
+L3 concerns a different event: an immediate safety hazard requiring the venue to close. When those linked conditions occur, the administrator may suspend the seat-provision duty and must refund reservation points for the interval actually affected. The material does not define ordinary inconvenience, scarce seats, or the reservation holder's absence as such a safety closure.
 
-暂停与撤销的效果不同。撤销消灭该预约的座位请求和对应义务；L3的封闭则没有自动撤销预约。在原确认时段以内恢复安全后，剩余时段继续有效。因此，封闭前后的分析对象仍是原预约，只是封闭实际影响的时段不能照常提供座位。
+Suspension and cancellation have different effects. Cancellation extinguishes that reservation's seat claim and corresponding duty; L3 closure does not automatically cancel it. After safety is restored within the original confirmed interval, the remaining time stays valid. Thus the same reservation remains the object of analysis before and after closure; only the interval actually affected cannot receive normal seat provision.
 
-恢复也不等于重新开始计时。原来确认的结束时间保持不变。若原预约到12点，11点恢复安全，剩余时段是11点至12点，而不是从11点起重新获得原来全部时长。这是“暂停”与“延长预约”的区别；L3给出了前者，没有给出后者。
+Reopening does not restart the clock. The originally confirmed end time remains unchanged. If the reservation ends at 12:00 and safety is restored at 11:00, the remainder is 11:00–12:00, not a new full original duration starting at 11:00. This distinguishes suspension from extension: L3 provides the former, not the latter.
 
 <a id="ch2-xin"></a>
-## 四、辛的完整时段：恢复之后还有多久？
+## 4. H's complete interval: how much remains after reopening?
 
-辛预约10点至12点。场地因安全问题在10点至11点封闭，11点开放。10点至11点是预约内受封闭影响的一小时，提供座位义务在该段暂停，并应退回该小时的预约积分。11点至12点仍属于原确认时段，安全恢复后继续有效，辛可以使用这一小时。
+H reserves 10:00–12:00. The venue closes for safety reasons from 10:00 to 11:00 and reopens at 11:00. The hour at 10:00–11:00 lies within the reservation and is affected by closure: the seat-provision duty is suspended during it, and that hour's reservation points must be refunded. The interval 11:00–12:00 remains within the original confirmation and stays valid after safety is restored, so H may use that hour.
 
-到了12点，预约按原确认时间届满。届满是原定时段走到了终点；它既不同于通过及时撤销而消灭预约，也不同于在预约时段中因安全封闭而暂停。把三者区分开，就能解释为何11点恢复后有一小时可用，又为何12点不能继续要求按原预约提供座位。
+At 12:00, the reservation expires at its originally confirmed end. Expiry means the scheduled interval has reached its endpoint. It differs both from extinguishing a reservation through timely cancellation and from suspending performance during safety closure within the reservation. Distinguishing all three explains why an hour remains after reopening at 11:00 and why original-reservation seat provision cannot still be demanded after 12:00.
 
-再改变一个事实：辛到11:30才来。场地11点已经开放，原结束时间仍为12点，所以到场后还剩半小时，不能把11点至11:30的个人迟到时长接在12点之后，让预约顺延到12:30。改变到场时刻，没有改变L3对原结束时间的限制。
+Change one more fact: H arrives only at 11:30. The venue reopened at 11:00 and the original end remains 12:00, leaving half an hour after arrival. Personal lateness from 11:00 to 11:30 cannot be appended after 12:00 to extend the reservation to 12:30. Changing arrival time does not change L3's limit based on the original endpoint.
 
 <a id="ch2-lateness-objection"></a>
-合成材料中有学生提出，只要没有坐满两小时，就应退还全部积分。这个反驳把“实际在座时间”当成了退款标准。L3采用的标准却是“受安全封闭影响的时段”。辛因10点至11点封闭而无法使用座位，与他自己到11:30才来，是两种原因。前者触发本条退款，后者不能仅凭“没有坐在座位上”就计入安全封闭。于是，不能从辛实际只坐了半小时，推出两小时积分全部应退；也不能把个人迟到的半小时加进封闭退款时长。这里的结论限于L3，没有另行补造关于迟到的其他退分规则。
+A student in the synthetic material argues that anyone who has not sat for the full two hours should receive all points back. That objection treats actual seated time as the refund criterion. L3 instead uses the interval affected by safety closure. H's inability to use a seat during closure at 10:00–11:00 and H's own arrival only at 11:30 have different causes. The former triggers this refund rule; the latter does not become safety closure merely because H was not sitting in a seat. Thus actual use of only half an hour entails neither a refund for both hours nor adding the late half-hour to the closure-refund duration. This conclusion is limited to L3; no other lateness-refund rule has been invented.
 
 <a id="ch2-geng"></a>
-## 五、庚的关系在周二、周三分别怎样变化？
+## 5. How does G's relationship change on Tuesday and Wednesday?
 
-现在带着这些区别回到庚。其周三10点至12点预约已经成功确认；按L2，单方撤销通知须在周二不晚于18:00到达系统。庚在周二17:58发出取消请求，系统却在18:02才收到。17:58是发出时间，18:02才是本条所需的到达时间。由于到达超期，不能据此认定单方撤销生效。
+Return to G with these distinctions. The Wednesday 10:00–12:00 reservation was successfully confirmed. Under L2, unilateral-cancellation notice must reach the system no later than Tuesday 18:00. G sends the request Tuesday at 17:58, but the system receives it only at 18:02. Sending is at 17:58; receipt at 18:02 is the event this rule requires. Receipt is late, so effective unilateral cancellation cannot be established.
 
-另一路线是双方协商，但现有事实没有管理人同意协商的证据。不能用庚已经发送取消请求替代双方同意。因此，依给定事实，预约没有因这次取消请求而消灭，后续仍以周三10点至12点的有效预约为分析起点。
+The alternative route is mutual negotiation, but the available facts provide no evidence that the administrator agreed. G's sending a cancellation request cannot replace mutual agreement. On the supplied facts, the reservation is therefore not extinguished by that request, and subsequent analysis starts with a valid Wednesday 10:00–12:00 reservation.
 
-周三10点至11点场地因安全问题封闭，11点恢复。依L3，10点至11点提供座位义务暂停，该段属于应退积分的受影响时段；11点至12点继续有效，到12点按原时段届满。安全封闭没有把预约全部撤销，也没有把结束时间推到13点。
+The venue closes for safety reasons Wednesday 10:00–11:00 and reopens at 11:00. Under L3, the seat-provision duty is suspended during 10:00–11:00, making that the affected interval requiring a points refund. The interval 11:00–12:00 remains valid and expires at the original 12:00 endpoint. Safety closure neither cancels the entire reservation nor moves the end to 13:00.
 
-到此，我们已经确定了后果计算所需的关系和时段。下一章再用计价规则算出应退多少，并独立判断复核是否及时。先确定有效预约，再找与封闭重叠的部分，能够避免把一张计算正确、前提却错误的算式当成正确答案。
+We have now established the relationship and intervals needed to calculate consequences. The next chapter applies the rate to determine the refund and independently judges review timeliness. Establishing a valid reservation before finding its overlap with closure prevents an arithmetically correct calculation with false premises from being mistaken for a correct answer.

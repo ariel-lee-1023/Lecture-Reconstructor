@@ -28,5 +28,14 @@
       "kind": "skill",
       "sha256": "679e5c56c46f45d9e7bb0880b4e003b127fc8dee1d850c26ffeead4941e6cd42"
     }
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/comparison/unblinded-key.json",
+    "original_sha256": "b6b71834ab1f4b164b9ad60edef7741e3dead3c64d5144267f36814f95ec1b3a",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/comparison/unblinded-key.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

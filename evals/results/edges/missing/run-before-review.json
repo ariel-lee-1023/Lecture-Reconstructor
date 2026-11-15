@@ -5,12 +5,12 @@
   "stage": "ingest",
   "course": {
     "title": "missing",
-    "scope": "给定合成材料",
-    "jurisdiction": "教学假设，无现实法域",
+    "scope": "Supplied synthetic material",
+    "jurisdiction": "Teaching hypothetical, with no real jurisdiction",
     "time_context": "unknown",
-    "audience": "大学课程读者",
+    "audience": "University course readers",
     "assumptions": [
-      "只用输入给定规则，不外推现实法"
+      "Use only the rules supplied in the input; do not extrapolate to real law"
     ]
   },
   "inputs": [],
@@ -22,12 +22,12 @@
   "open_issues": [
     {
       "id": "issue1",
-      "question": "请提供有效转录路径或文字",
-      "impact": "缺口阻止完整成稿",
-      "resolution_condition": "用户提供必要文字或确认篇幅取舍",
+      "question": "Please provide a valid transcript path or text",
+      "impact": "The gap prevents completion of the full manuscript",
+      "resolution_condition": "The user supplies the necessary text or confirms the length tradeoff",
       "status": "open",
       "blocking": true,
-      "blocking_reason": "核心含义、可读材料或交付范围未确定"
+      "blocking_reason": "The core meaning, readable material, or delivery scope remains undetermined"
     }
   ],
   "runtime_revision": {
@@ -66,12 +66,21 @@
   },
   "resume": {
     "completed": [
-      "可读材料检查",
-      "已保存实际响应"
+      "Readable-material check",
+      "Actual response saved"
     ],
     "remaining": [
-      "核心缺口"
+      "Core gap"
     ],
-    "next_action": "请提供有效转录路径或文字"
+    "next_action": "Please provide a valid transcript path or text"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/edges/missing/run-before-review.json",
+    "original_sha256": "0ef2f1d311e62f1a04c73fe2271d8f174af33f4d08670defa6e646505607cd9f",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/edges/missing/run-before-review.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

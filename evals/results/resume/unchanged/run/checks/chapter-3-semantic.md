@@ -1,16 +1,16 @@
-# 第三章对源语义自查
+# Chapter 3 semantic self-review against the source
 
-UTC：2026-11-15T02:22:12.730366+00:00。执行者：本次恢复代理，Codex desktop，精确模型unknown（已知仅GPT-6家族）；同代理直接对源自查，非独立评审。实际重新读取源第14—21行及落盘第三章。章稿SHA-256：0900899509155aa305d5f6813a4926452f11812c6487773f6ba8c8ac65d1e554。
+UTC: 2026-11-15T02:22:12.730366+00:00. Executor: this recovery agent, Codex desktop, exact model unknown (only GPT-6 family known). Direct source self-review by the same agent, not independent review. Actually reread source lines 14–21 and saved chapter 3. Chapter SHA-256: 0900899509155aa305d5f6813a4926452f11812c6487773f6ba8c8ac65d1e554.
 
-| 源行／项目 | 正文锚点 | 实际核验 |
+| Source line/item | Prose anchor | Actual verification |
 |---|---|---|
-| 14／u22—u23 | ch3-calculation | 每小时10、半小时5；仅整半小时。先定有效预约与封闭重叠，未增加粒度算法。 |
-| 15／u24 | ch3-ren | 壬10—12预约、9:30—10:30封闭；只取10—10:30，退5，指出误退10多算预约外半小时；余段至12点有效。 |
-| 16／u25—u26 | ch3-review | 次日起算七日、第七日结束前到达；事实与规则均需复核；无管理员必然正确或申请自动暂停推定。 |
-| 17／u27—u28 | ch3-gui | 周五第一日、下周四第七日；完整演算并保留未知得知日无法判断、仅本练习算法的限制。 |
-| 18／u29 | ch3-geng | 庚确认后撤销失败、一小时封闭，20中总退10、已退5应再退5；下周三第六日到达，程序及时另证，不等于实体全对。 |
-| 19／u30—u31 | ch3-variant | 17:59到达使撤销有效；不能沿用L3，不猜0、10或20；明确需撤销结算规则。 |
-| 20／u32 | ch3-exam | 教师提示的四段与概念题例外均保留；未承诺现实考试评分。 |
-| 21／u33 | ch3-synthesis | 四组区别逐一解释其在庚案中的作用，回扣全课，未假定前课或学习效果。 |
+| 14/u22—u23 | ch3-calculation | 10 points per hour, 5 per half-hour; whole half-hours only. Establish valid-reservation/closure overlap first; no additional increment formula. |
+| 15/u24 | ch3-ren | I reserves 10:00–12:00; closure 9:30–10:30. Count only 10:00–10:30, refund 5 points. The mistaken 10-point refund includes half an hour outside the reservation; the remainder stays valid until 12:00. |
+| 16/u25—u26 | ch3-review | Seven days starting the following day, receipt before day 7 ends. Both facts and rules require review; no presumption of administrator correctness or automatic suspension upon application. |
+| 17/u27—u28 | ch3-gui | Friday day 1, next Thursday day 7; full calculation retains the inability to judge without a knowledge date and the limitation to this exercise. |
+| 18/u29 | ch3-geng | G's cancellation after confirmation fails; one-hour closure requires total refund 10 of 20 points. Already refunded 5 leaves another 5. Receipt next Wednesday is day 6; timeliness is separately established, not equivalent to complete substantive correctness. |
+| 19/u30—u31 | ch3-variant | Receipt at 17:59 makes cancellation effective. L3 cannot be reused; no guess of 0, 10, or 20 points. The need for a cancellation-settlement rule is explicit. |
+| 20/u32 | ch3-exam | Retains the teacher's four-part advice and the conceptual-question exception, without promising actual examination marking. |
+| 21/u33 | ch3-synthesis | Explains each distinction's role in G's case and returns to the whole course, without assuming prior lectures or learning outcomes. |
 
-新增数额与天数是从已给规则/事实推算；无外部事实补充。材料的两项规则缺口仍标open且结论受限；它们是原课明确教学边界，不是未完成正文。结论：本章自查pass，发现关键缺陷0；不代替全篇复核或真实课堂验证。
+Added amounts and day counts are derived from supplied rules/facts, without external factual supplementation. The two rule gaps remain open with limited conclusions; they are the original lecture's explicit teaching boundaries, not unfinished prose. Conclusion: chapter self-review pass, 0 critical defects found; this replaces neither whole-manuscript review nor real classroom validation.

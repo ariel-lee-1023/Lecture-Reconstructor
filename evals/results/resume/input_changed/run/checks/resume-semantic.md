@@ -1,37 +1,37 @@
-# 当前输入v2与三章统稿的直接语义自查
+# Direct semantic self-review of current input v2 and the integrated three-chapter manuscript
 
-复核UTC：2026-11-15T02:28:05.898857+00:00。评审者：本次执行代理，Codex desktop，开发者描述模型家族GPT-6；精确模型ID、推理及采样设置unknown。方法：在三章及主稿真实落盘后，重新实际读取input/transcript-v2.txt完整21行和lecture.md全文，先逐源核验，再核对跨章依赖及原清单之外内容。不是只看既有33项清单，也不是独立人类审查。尝试委派独立审查因agent thread limit reached失败，独立审查not_run。
+Review UTC: 2026-11-15T02:28:05.898857+00:00. Reviewer: the executing agent for this run, Codex desktop; the developer describes the model family as GPT-6; exact model ID, reasoning settings, and sampling settings: unknown. Method: after all three chapters and the main manuscript were actually saved to disk, read all 21 lines of input/transcript-v2.txt and the full lecture.md again, first verifying source by source and then checking cross-chapter dependencies and content outside the original inventory. This was not merely a review of the existing 33-item inventory and was not an independent human review. An attempt to delegate an independent review failed with agent thread limit reached; independent review: not_run.
 
-所评主稿SHA-256：597d110f47daf6353344ea7510645efe15e8494d757bbcc800fe546d50b3bb0d。当前源SHA-256：2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b。
+Reviewed main manuscript SHA-256: 597d110f47daf6353344ea7510645efe15e8494d757bbcc800fe546d50b3bb0d. Current source SHA-256: 2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b.
 
-| 源行 | 实际稿件锚点 | 核验发现 |
+| Source line | Actual manuscript anchors | Verification findings |
 |---|---|---|
-| 1 | ch1-scope、ch3-synthesis | 明确所有规则人物情节合成；非现实法、无前课假设；支持部分pass。 |
-| 2 | ch1-whole-task | 周一确认周三10—12点、全程任务完整；公开“取消失败”与17:59冲突，没有吞掉失败标签或当已证事实；源冲突未决。 |
-| 3 | ch1-permission、ch1-confirmation | 成员许可无座位保证；成功确认、管理人、预约人、确认时段标准座位及三种非确认状态均保留；pass。 |
-| 4 | ch1-jia、ch1-ding | 甲无乙让位依据；丁有管理人义务；明确确认条件与请求相对人均不同，两层关系并存；pass。 |
-| 5 | ch1-cable | 借线小例、没有优先/交付承诺、不可移植座位规则均保留；pass。 |
-| 6 | ch1-student-objection | 合成学生反问有回应；许可排除进入禁止，未改成无用或座位保证；pass。 |
-| 7 | ch1-geng | 关系成立只是起点，未预判最后坐到12点；与后章及时撤销相容；pass。 |
-| 8 | ch2-withdrawal | 前一日18:00包含整点、到达生效、超期须双方同意、发出请求不等于同意，全部保留；pass。 |
-| 9 | ch2-arrival-comparison、ch2-withdrawal-scope | 戊17:50/18:05与己18:00未混淆；撤销只消灭该预约请求义务，保留身份许可；pass。 |
-| 10 | ch2-suspension | 即时安全险情须封闭条件、可以暂停与应退积分、非自动撤销、恢复后原剩余时间且不延长；pass。 |
-| 11 | ch2-xin | 辛10—12、封闭10—11、11点恢复、12点届满、11:30迟到不顺延均解释；pass。 |
-| 12 | ch2-lateness-objection | 学生“没坐满退全部”与教师按受封闭影响时段的回应完整，未按实际在座计算；pass。 |
-| 13 | ch2-geng | 当前17:58发出/17:59到达、无协商同意、周三10—11封闭全部保留；由及时单方撤销解释无须协商同意；与失败标签冲突不强行修复；事实口径未决。 |
-| 14 | ch3-calculation | 10/小时、5/半小时及整半小时范围；取封闭与有效预约重叠、不计预约前时段；pass。 |
-| 15 | ch3-ren | 壬9:30—10:30封闭与10—12预约重叠半小时退5；误算10源于预约外半小时；10:30—12有效；pass。 |
-| 16 | ch3-review | 得知次日起算第七日结束前到达、规则及事实审查、不推定管理人正确、不补自动暂停效果；pass。 |
-| 17 | ch3-gui | 周五第1日至下周四第7日逐日可核；未知得知日不编结论；非跨法域通则；pass。 |
-| 18 | ch3-geng | 扣20退5仅当处理事实，周四得知/下周三提出及到达为第6日及时；未从程序推出实体成立；失败标签冲突及实体数额未决。 |
-| 19 | ch3-variant | 完整保留及时撤销反例及L2结算未规定；指出17:59与当前主案重合，对照失效；缺口提升为主案阻塞，未自动套L3、全退20或退0。 |
-| 20 | ch3-exam | 教师考试提示及概念比较不机械四段、现实评分不保证全部保留；pass。 |
-| 21 | ch3-synthesis | 四组区别回扣且解释作用；无伪造前课、读者掌握或教学效果；pass。 |
+| 1 | ch1-scope, ch3-synthesis | Explicitly identifies all rules, people, and events as synthetic; not real-world law, with no assumption of previous lessons; supported portions: pass. |
+| 2 | ch1-whole-task | Preserves Monday confirmation for Wednesday 10:00–12:00 and the complete end-to-end task; openly states the conflict between "cancellation failed" and 17:59, without dropping the failure label or treating it as proven fact; source conflict unresolved. |
+| 3 | ch1-permission, ch1-confirmation | Membership permission does not guarantee a seat; successful confirmation, manager, reservation holder, standard seat during the confirmed period, and all three non-confirmation states are retained; pass. |
+| 4 | ch1-jia, ch1-ding | A has no basis for requiring B to yield a seat; D is owed a duty by the manager; explicitly distinguishes both the confirmation condition and the party against whom the claim lies, while retaining both layers of relationship; pass. |
+| 5 | ch1-cable | Retains the cable-borrowing example, the absence of priority or a promise of delivery, and the prohibition on transplanting the seat rule; pass. |
+| 6 | ch1-student-objection | Responds to the synthetic student's objection; permission removes the prohibition on entry and is not recast as useless or as a seat guarantee; pass. |
+| 7 | ch1-geng | Establishment of the relationship is only the starting point; does not prejudge eventual use until 12:00; compatible with timely cancellation in the later chapter; pass. |
+| 8 | ch2-withdrawal | Retains all points: the preceding day's 18:00 deadline includes exactly 18:00, cancellation takes effect on receipt, cancellation after the deadline requires both parties' consent, and sending a request is not consent; pass. |
+| 9 | ch2-arrival-comparison, ch2-withdrawal-scope | Does not confuse E's 17:50/18:05 with F's 18:00; cancellation extinguishes only the claim and duty associated with that reservation, preserving membership and permission; pass. |
+| 10 | ch2-suspension | Preserves the condition that an immediate safety emergency requires closure, the power to suspend and duty to refund points, no automatic cancellation, and resumption only for the original remaining time without extension; pass. |
+| 11 | ch2-xin | Explains H's 10:00–12:00 reservation, 10:00–11:00 closure, reopening at 11:00, expiry at 12:00, and no extension for late arrival at 11:30; pass. |
+| 12 | ch2-lateness-objection | Preserves the student's "refund everything because I did not use the full period" objection and the teacher's response based on the period affected by closure; does not calculate according to actual seated time; pass. |
+| 13 | ch2-geng | Retains all current facts: sent at 17:58/received at 17:59, no negotiated consent, and Wednesday closure from 10:00–11:00; explains why timely unilateral cancellation needs no negotiated consent; does not forcibly repair the conflict with the failure label; factual account unresolved. |
+| 14 | ch3-calculation | Preserves 10 points/hour, 5 points/half-hour, and the limitation to exact half-hour increments; uses the overlap between closure and a valid reservation, excluding time before the reservation; pass. |
+| 15 | ch3-ren | I's 9:30–10:30 closure overlaps the 10:00–12:00 reservation for half an hour, yielding a 5-point refund; the erroneous 10-point calculation includes half an hour outside the reservation; 10:30–12:00 remains valid; pass. |
+| 16 | ch3-review | Counts from the day after awareness, requiring receipt before the end of day seven; reviews rules and facts, does not presume the manager correct, and does not invent an automatic suspension effect; pass. |
+| 17 | ch3-gui | Friday as day 1 through the following Thursday as day 7 can be checked day by day; does not invent a conclusion when the date of awareness is unknown; not a general rule across jurisdictions; pass. |
+| 18 | ch3-geng | Treats deduction of 20 points and refund of 5 points only as facts about the decision; awareness on Thursday and application and receipt the following Wednesday make it timely on day 6; does not infer substantive entitlement from procedure; conflict with the failure label and substantive amount remain unresolved. |
+| 19 | ch3-variant | Fully retains the timely-cancellation counterexample and L2's lack of a settlement rule; notes that 17:59 now coincides with the current main case, invalidating the contrast; elevates the gap to a main-case blocker without automatically applying L3 or deciding on a full 20-point refund or a 0-point refund. |
+| 20 | ch3-exam | Retains all teacher exam advice, the warning against mechanically dividing conceptual comparisons into four parts, and the absence of any guarantee of real exam scores; pass. |
+| 21 | ch3-synthesis | Returns to all four distinctions and explains their roles; fabricates no previous lessons, reader mastery, or teaching effects; pass. |
 
-跨章复核：第一章关系成立到第二章变动，再到第三章计算前提的衔接明确；座位义务相对人不漂移。所有17:59均为当前明示或原反例重合说明，未把旧18:02重新写为当前事实。辛退10与庚未决的差别说明在于有效预约前提，未混淆。补写逐日期限、重叠分段及独立规则路线，是对已读练习的推导，没有新增现实法事实、案例、学生参与或音频核验。两个学生反驳、借线边例、18:00边界、迟到变式、壬误算、未知起算日、小反例、考试提示都经过从源重新查找。
+Cross-chapter review: the progression from establishment of the relationship in Chapter 1, through changes in Chapter 2, to calculation prerequisites in Chapter 3 is explicit; the party owing the seating duty does not drift. Every 17:59 is either the current explicit fact or an explanation that the original counterexample now coincides with it; the old 18:02 is not rewritten as a current fact. The distinction between H's 10-point refund and G's unresolved result is explained by the prerequisite of a valid reservation, without confusing them. Added day-by-day deadline calculations, overlap segments, and independent rule-based routes are inferences from the exercise actually read, without adding real-world legal facts, cases, student participation, or audio verification. Both student objections, the peripheral cable-borrowing example, the 18:00 boundary, the late-arrival variant, I's erroneous calculation, the unknown starting date, the small counterexample, and the exam advice were all located afresh in the source.
 
-支持部分检查结果：pass，未发现新增关键遗漏或错误推导。完整任务的full_manuscript语义结果：fail（资料性阻塞），不是not_run：主案事实标签冲突和及时撤销结算规则缺失仍未解决，无法给唯一实体结论。不能以受限稿可讲授或机械通过改标complete。两项阻塞见run.open_issues；保留needs_input。
+Supported-portions check result: pass; no new critical omissions or erroneous inferences found. The full task's full_manuscript semantic result is fail (source-information blocker), not not_run: the conflicting factual labels in the main case and the missing settlement rule for timely cancellation remain unresolved, preventing a unique substantive conclusion. The deliverable cannot be relabeled complete because the limited manuscript is teachable or mechanical checks pass. The two blockers are recorded in run.open_issues; retain needs_input.
 
-正文聚焦返修轮数：0；没有用返修伪造资料。第一章恢复时补明冲突属于变更后的重新起草，非机械“旧稿通过”继承。真实课堂试用、学习效果、独立审查：not_run。
+Focused revision rounds for the manuscript body: 0; revision was not used to fabricate source information. Adding an explicit account of the conflict when resuming Chapter 1 was redrafting after a change, not mechanical inheritance of an "old manuscript passed" result. Real classroom trials, learning outcomes, and independent review: not_run.
 
-最小澄清：庚的到达时间是否确为周二17:59？若是，及时撤销时积分如何结算？
+Minimum clarification: Was G's notice in fact received at 17:59 on Tuesday? If so, how are points settled after timely cancellation?

@@ -1,19 +1,19 @@
-# 安澜学习社：从“可以进入”到“可以请求座位”
+# Calmwater Study Society: From Permission to Enter to a Claim to a Seat
 
-本讲只使用安澜学习社的练习规则。学习社、人物、规则和事例均为合成教学材料，不对应现行法或真实课堂；没有提供配套教材、音频或学习者数据。
+This lecture uses only the Calmwater Study Society exercise rules. The Society, people, rules, and examples are synthetic teaching materials, not current law or an actual class. No accompanying textbook, audio, or learner data was supplied.
 
-同一间阅览室已经坐满，两位成员都说自己“有权”。一位只凭注册资格，另一位已经取得有效预约确认。管理人面对他们时，负担是否相同？本课要说明，回答“有权吗”之前，必须先把行为、关系双方和成立条件说清楚。“可以进入”“可以要求别人提供座位”和“可以撤销预约”，分别处理不同的问题。将它们混在一起，就会从一句正确的话推出一个没有依据的结论。
+The same reading room is full, and two members both say they 'have a right.' One relies solely on registration; the other has valid reservation confirmation. Does the manager owe them the same thing? This lecture explains why 'Is there a right?' first requires specifying the conduct, both parties, and conditions of formation. Permission to enter, a claim that someone provide a seat, and a power to cancel a reservation address different questions. Conflating them can derive an unsupported conclusion from a true statement.
 
 <a id="ch-permission"></a>
-## 一、进入许可说明谁可以做什么
+## 1. Permission to enter identifies who may do what
 
-规则一规定，注册成员可以进入公共阅览区。这里的“可以”含义很窄：在这套社内规则下，成员没有不得进入的义务。它既不保证阅览区有空位，也不要求已经坐在里面的人搬走。
+Rule One provides that registered members may enter the common reading area. 'May' has a narrow meaning: Under these internal rules, members have no duty not to enter. It neither guarantees an empty seat nor requires anyone already seated to move.
 
-原转录一度把许可说成“没有义务”，随后马上作了自我修正。需要保留的是修正后的完整关系：许可说明的是成员自己没有不进入的义务，不能把它改写为“所有其他人都没有义务”，也不能反过来写成“所有其他人都有义务配合”。别人是否负担某项义务，仍要查找针对那个人和那项行为的规则。
+The original transcript briefly called permission 'absence of a duty,' then immediately corrected itself. Retain the complete corrected relationship: Members themselves have no duty not to enter. Do not rewrite it as 'everyone else has no duties,' or conversely 'everyone else must cooperate.' Whether another person bears a particular duty still requires a rule addressing that person and that act.
 
-现在看甲。甲上午来到阅览区，没有预约，看到乙坐着便要求乙让座，理由是“我也是成员”。甲的注册资格确实支持他的进入许可，但他提出的是另一种要求：让乙起身，把正在使用的座位交给自己。这要有乙负担让座义务的依据。规则一没有规定这种义务，所以不能从甲具有进入许可推出乙必须让座。这里不能笼统地说“甲没有权”，因为这样会把甲已经具有的进入许可一并抹去。准确的判断是：甲有规则一所说的进入许可，但单凭这一许可，没有要求乙让座的依据。
+Consider A. Arriving in the morning without a reservation, A sees B seated and demands the seat because 'I am a member too.' Registration does support A's permission to enter, but A is making a different demand: that B stand and hand over the occupied seat. That requires a basis for B's duty to surrender it. Rule One imposes no such duty, so A's permission cannot imply that B must move. A broad claim that 'A has no right' would also erase the permission A actually has. The precise conclusion is that A has Rule One's permission to enter, but that permission alone supplies no ground to demand B's seat.
 
-原课堂中有一个追问：大家都有进入许可，我的进入是否总能迫使别人让开？这个问题恰好暴露了从自己的行为转向他人行为时的跳跃。进入许可说明成员不受该项禁止；迫使别人让开却要求另一项配合义务。两者之间不能省去规则依据。入口若被物品堵住，是否还存在清理障碍等义务，现有材料没有回答。因此，本课的结论只到规则一不能推出让座义务为止，不扩展为所有阻碍进入的情形都没有其他义务。
+The original class raised a follow-up: If everyone has permission to enter, can my entry always force others to make way? The question exposes the leap from one's own conduct to another's. Permission excludes a prohibition on the member; forcing someone to move requires a separate duty to cooperate. The rule-based ground between them cannot be omitted. The materials do not answer whether objects blocking the entrance create duties to clear obstacles. The conclusion is limited to Rule One not implying a duty to surrender a seat; it does not establish that every obstruction of entry lacks other duties.
 
-转录还举过“充电线可以借用”的口头教学例子。它同样只能帮助区分许可与请求：允许借用，并没有同时赋予借线者对他人的优先请求。这个例子也有明确边界，不能移入座位预约规则，把管理人的座位义务扩成必须提供充电线。每一个请求都要固定自己的行为内容。
+The transcript also uses the oral teaching example 'charging cables may be borrowed.' It likewise distinguishes permission from a claim: Permission to borrow does not simultaneously give a priority claim against others. The example has a clear boundary. It must not be imported into seat-reservation rules to expand the manager's seat duty into a duty to provide cables. Specify the conduct covered by each claim.
 

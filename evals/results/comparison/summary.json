@@ -1,9 +1,9 @@
 {
   "status": "pass",
   "meaning": "comparison actually executed, not universal skill superiority",
-  "concept": "相当",
-  "case": "相当",
-  "dispute": "skill 在新增论证身份及解释理由/代价上局部较优，其他维度相当",
+  "concept": "comparable",
+  "case": "comparable",
+  "dispute": "The skill is locally stronger in identifying added arguments and explaining interpretive reasons/costs; other dimensions are comparable",
   "critical_defects": [],
   "resource_comparison": {
     "baseline": {
@@ -18,13 +18,22 @@
       "observed_seconds": 652.639,
       "tokens": "unknown"
     },
-    "model_configuration": "两者继承同一父模型配置，无覆盖；后端精确ID与采样参数不可见",
+    "model_configuration": "Both inherited the same parent model configuration without overrides; the exact backend ID and sampling parameters were not visible",
     "limits": [
-      "起止区间含工具与记录写入，不是纯模型耗时",
-      "skill首次schema尚未复制，后补；三篇正文核心与refs未变",
-      "skill执行了更多记录和检查工作，资源不等，不能隔离归因",
-      "每组仅一个实际样本/方法，无重复采样；三个请求在同一agent turn中完成",
-      "评审与生成均为模型，未提供实际学习者数据"
+      "The start-to-finish intervals include tools and record writing, not pure model time",
+      "The skill's schema was initially not copied and was supplied later; the core and references for the three manuscripts were unchanged",
+      "The skill performed more recording and checking; resources differed, so attribution cannot be isolated",
+      "Only one actual sample per method in each group, without repeated sampling; the three requests were completed in one agent turn",
+      "Review and generation both used models; no actual learner data was supplied"
     ]
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/comparison/summary.json",
+    "original_sha256": "cd82e699ce2c46a02c0f76e5683f36bb26471289b9c556df4456968f2b1ff4cc",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/comparison/summary.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

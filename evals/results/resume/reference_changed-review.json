@@ -35,7 +35,7 @@
         7,
         7
       ],
-      "finding": "合成身份、非现行法/真实课堂、无前后课材料均保留。"
+      "finding": "Preserves the synthetic identity, absence of current-law or real-classroom claims, and absence of preceding/subsequent course materials."
     },
     {
       "source_lines": [
@@ -48,7 +48,7 @@
         153,
         161
       ],
-      "finding": "周一成功确认周三10—12的整体任务在第三章兑现。"
+      "finding": "The whole task of Monday's successful confirmation for Wednesday 10:00–12:00 is completed in Chapter 3."
     },
     {
       "source_lines": [
@@ -61,7 +61,7 @@
         29,
         33
       ],
-      "finding": "L1区分许可与管理人标准座位义务；点击、排队、已接收不等于成功确认。"
+      "finding": "L1 distinguishes permission from the administrator's duty to provide a standard seat. Clicking, queuing, and received do not equal successful confirmation."
     },
     {
       "source_lines": [
@@ -72,7 +72,7 @@
         38,
         47
       ],
-      "finding": "甲无乙让位依据、丁对应管理人义务；两层关系并存且未把义务转移给乙。"
+      "finding": "A lacks grounds to demand that B yield a seat; D has a corresponding administrator duty. Both layers coexist without transferring the duty to B."
     },
     {
       "source_lines": [
@@ -83,7 +83,7 @@
         52,
         54
       ],
-      "finding": "借充电线边缘例保留，无优先/交付承诺，禁止移植座位规则。"
+      "finding": "The peripheral charging-cable example is retained, without promises of priority or delivery; do not transplant the seat rules."
     },
     {
       "source_lines": [
@@ -94,7 +94,7 @@
         22,
         24
       ],
-      "finding": "许可无用反问及作用对象回应完整。"
+      "finding": "The objection that permission is useless and the response identifying whom it governs are complete."
     },
     {
       "source_lines": [
@@ -105,7 +105,7 @@
         59,
         63
       ],
-      "finding": "第一章只确认关系成立，未预判一定履行至12点。"
+      "finding": "Chapter 1 establishes only formation, without predicting guaranteed performance until 12:00."
     },
     {
       "source_lines": [
@@ -116,7 +116,7 @@
         73,
         77
       ],
-      "finding": "L2前一日不晚于18:00到达，含整点；发送不等于到达，协商需双方同意。"
+      "finding": "L2 requires receipt no later than 18:00 the preceding day, including exactly 18:00. Sending is not receipt; negotiation requires both parties' agreement."
     },
     {
       "source_lines": [
@@ -127,7 +127,7 @@
         82,
         87
       ],
-      "finding": "戊17:50发出/18:05到达失败；己18:00到达成功；撤销不取消成员/许可。"
+      "finding": "E's sending at 17:50 and receipt at 18:05 fails; F's receipt at 18:00 succeeds. Cancellation does not remove membership or permission."
     },
     {
       "source_lines": [
@@ -138,7 +138,7 @@
         92,
         94
       ],
-      "finding": "L3即时安全险情、可暂停/应退、非自动撤销、剩余有效且不延时均保留。"
+      "finding": "Preserve L3's immediate safety hazard, permitted suspension/required points return, no automatic cancellation, continued validity of the remainder, and no extension."
     },
     {
       "source_lines": [
@@ -151,7 +151,7 @@
         127,
         127
       ],
-      "finding": "辛10—12预约、10—11封闭、11开放；11:30迟到仍12届满，给出L4后才算退10。"
+      "finding": "H reserves 10:00–12:00; closure is 10:00–11:00 and reopening 11:00. Arrival at 11:30 still leaves expiry at 12:00. Calculate the return of 10 points only after introducing L4."
     },
     {
       "source_lines": [
@@ -162,7 +162,7 @@
         102,
         102
       ],
-      "finding": "没坐满即全退的反驳保留，个人迟到不等于封闭影响。"
+      "finding": "Retain the objection that less than full seating time means full return; personal lateness is not a closure effect."
     },
     {
       "source_lines": [
@@ -175,7 +175,7 @@
         155,
         155
       ],
-      "finding": "庚周二17:58发出/18:02收到，无合意证据；周三10—11暂停、11恢复、12届满。"
+      "finding": "G sends at 17:58 Tuesday and receipt is at 18:02, without evidence of agreement. Wednesday brings suspension from 10:00–11:00, restoration at 11:00, and expiry at 12:00."
     },
     {
       "source_lines": [
@@ -186,7 +186,7 @@
         123,
         127
       ],
-      "finding": "L4每小时10/半小时5，仅整半小时；L3只取有效预约与封闭重叠。"
+      "finding": "L4 sets 10 points per hour/5 per half-hour, handling whole half-hours only. L3 counts only overlap between a valid reservation and closure."
     },
     {
       "source_lines": [
@@ -197,7 +197,7 @@
         132,
         136
       ],
-      "finding": "壬9:30—10:30封闭与10—12预约重叠半小时，退5；错误退10的原因及剩余有效均解释。"
+      "finding": "I's 9:30–10:30 closure overlaps the 10:00–12:00 reservation by half an hour, returning 5 points. Explain both why returning 10 is wrong and why the remainder stays valid."
     },
     {
       "source_lines": [
@@ -208,7 +208,7 @@
         141,
         143
       ],
-      "finding": "L5得知次日起算、第七日结束前到达；检查规则/时间事实，不推定管理员正确、不增设自动暂停。"
+      "finding": "L5 counts from the day after learning the decision and requires receipt before the end of day seven. It checks rules/time facts, does not presume the administrator correct, and adds no automatic suspension."
     },
     {
       "source_lines": [
@@ -219,7 +219,7 @@
         146,
         148
       ],
-      "finding": "癸周四得知，下周四为第七日；缺得知日期不能编造期限结论，限练习算法。"
+      "finding": "J learns the decision Thursday, making the next Thursday day seven. Without the date of knowledge, do not invent a deadline conclusion; limit this to the exercise's counting rule."
     },
     {
       "source_lines": [
@@ -230,7 +230,7 @@
         153,
         161
       ],
-      "finding": "庚扣20对应计价，应退10、已退5、补退5、正确净扣10；下周三申请且到达为第六日，程序及时与实体根据分开。"
+      "finding": "G's 20-point deduction follows the rate; 10 should be returned, 5 already were, another 5 are due, and the correct net deduction is 10. Application and receipt the following Wednesday fall on day six; separate procedural timeliness from substantive grounds."
     },
     {
       "source_lines": [
@@ -241,7 +241,7 @@
         166,
         170
       ],
-      "finding": "17:59到达明确为变式，及时撤销后L3前提失效；L2结算缺口保留，未造退0/退10/全退。"
+      "finding": "Receipt at 17:59 is explicitly a variant. Timely cancellation removes L3's premise. Retain the L2 settlement gap without inventing zero/10/full return."
     },
     {
       "source_lines": [
@@ -252,7 +252,7 @@
         175,
         177
       ],
-      "finding": "教师提示归属、完整案例四步、概念比较例外及不保证现实评分均保留。"
+      "finding": "Preserve attribution of the teacher's advice, the four steps for a complete case, exceptions in conceptual comparisons, and the absence of any guarantee about real examination scoring."
     },
     {
       "source_lines": [
@@ -263,7 +263,7 @@
         182,
         186
       ],
-      "finding": "回扣四组区别、限定合成规则，无未提供前课假说；未声称实际学习效果。"
+      "finding": "Return to the four distinctions and limit conclusions to synthetic rules. Add no invented prior-class hypothesis and claim no actual learning outcomes."
     }
   ],
   "resume_evidence": [
@@ -336,7 +336,7 @@
       182,
       186
     ],
-    "finding": "第一章成立→第二章变动→第三章后果/复核；开头庚案与第二章辛金额伏笔均已兑现。稳定术语与原结束时间一致，重复为完整案例回扣，未产生相互矛盾版本。"
+    "finding": "Chapter 1 formation → Chapter 2 changes → Chapter 3 consequences/review. Both the opening G case and Chapter 2's deferred amount for H are completed. Terminology is stable and consistent with the original end time; repetition serves the complete-case synthesis without creating contradictory versions."
   },
   "reviewer_checker_runs": [
     {
@@ -359,13 +359,22 @@
     }
   ],
   "independence_limitations": [
-    "本评审代理未参与该分支生成；先直接读原21行与完整186行主稿，再读生成代理自查证据。生成过程与本次评审属于同一模型体系，不是独立人类评审或跨模型复现。",
-    "只读取指定原断点run、reference_changed的run/pre-resume-check及必要package SKILL/references/checker；初始文件清单列出其他package路径但未打开其内容；未读取其他恢复分支、未联网。",
-    "历史执行先后依据保留快照、记录日期、不同状态及可重复哈希检查；本评审没有当场见证原恢复过程，记录不是外部不可篡改日志。",
-    "结论限此21行合成恢复夹具与当前主稿，不证明上下文极限、真实课堂试用或学习效果。机械退出0仅证明有限结构约束。"
+    "This reviewing agent did not participate in the branch's generation. It first read the original 21 lines and complete 186-line manuscript directly, then the generator's self-review evidence. Generation and this review belong to the same model family, not independent human review or reproduction across models.",
+    "Read only the designated original checkpoint run, reference_changed run/pre-resume-check, and necessary package SKILL/references/checker. The initial file listing showed other package paths without opening their contents. No other recovery branch or network was read.",
+    "Historical execution order is supported by retained snapshots, record dates, different states, and repeatable hash checks. This reviewer did not witness the original recovery; records are not an external tamper-proof log.",
+    "The conclusion is limited to this 21-line synthetic recovery fixture and current manuscript. It establishes neither context limits, a real classroom trial, nor learning outcomes. Mechanical exit code 0 establishes only bounded structural constraints."
   ],
   "real_classroom_trial": "not_run",
   "learning_effect": "not_run",
   "context_limit_test": "not_run",
-  "artifact_write_manifest": "<isolated-eval>/reference-review-writeback-20261115T023310917152Z/before-write-manifest.json"
+  "artifact_write_manifest": "<isolated-eval>/reference-review-writeback-20261115T023310917152Z/before-write-manifest.json",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/reference_changed-review.json",
+    "original_sha256": "a8e150f873e9937a51e3871b827858bea51816cbe4e0f16a2ebc9d054444e6e6",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/reference_changed-review.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

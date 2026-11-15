@@ -78,12 +78,13 @@ def validate_repo(root):
                 error('EXCLUDED_DEPENDENCY', rel, link)
         # Text explaining that a dependency is excluded is permitted; a load/import
         # directive or concrete path to it is not. Engineering documents are not scanned.
+        # Unicode escapes below preserve multilingual matching in English source.
         for line_no, line in enumerate(text.splitlines(), 1):
             if 'prc-legal-sources' not in line:
                 continue
             if re.search(r'(?:\.\./|references/|skills/)[^\s`]*prc-legal-sources|prc-legal-sources[/\\]', line):
                 error('EXCLUDED_DEPENDENCY', f'{rel}:{line_no}', line)
-            elif re.search(r'(?:load|import|require|读取|加载|依赖)\s*[`"\']?prc-legal-sources', line, re.I) and not re.search(r'不|无|排除|禁止|不得|not|never|exclude|without', line, re.I):
+            elif re.search("(?:load|import|require|\u8bfb\u53d6|\u52a0\u8f7d|\u4f9d\u8d56)\\s*[`\"\\']?prc-legal-sources", line, re.I) and not re.search("\u4e0d|\u65e0|\u6392\u9664|\u7981\u6b62|\u4e0d\u5f97|not|never|exclude|without", line, re.I):
                 error('EXCLUDED_DEPENDENCY', f'{rel}:{line_no}', line)
     # Link existence is a package-wide documentation concern. Dependency/path
     # restrictions above remain scoped to runtime instructions only.
@@ -171,7 +172,7 @@ def validate_repo(root):
     except (OSError, UnicodeError, json.JSONDecodeError, ValueError) as exc:
         error('MANIFEST_READ', 'fidelity-ledger/source-manifest.json', str(exc))
     return {'status': 'fail' if errors else 'pass', 'scope': 'package_structure_and_source_registration',
-            'limitation': '仅检查包结构、有限路径及来源登记；哈希是内容身份记录，不证明来源正确性、教学质量或学习效果。',
+            'limitation': "Checks only package structure, bounded path constraints, and source registration. Hashes identify content; they do not establish source correctness, teaching quality, or learning outcomes.",
             'errors': errors, 'exit_code': 1 if errors else 0}
 
 

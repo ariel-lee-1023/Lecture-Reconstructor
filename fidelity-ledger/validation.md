@@ -1,55 +1,59 @@
-# 验证记录
+# Validation record
 
-构建日期：2026-11-15（Asia/Shanghai）。结构化状态见 [validation.json](validation.json)，运行核心版本见 [runtime-revision.json](runtime-revision.json)。本记录区分工程检查、实际生成行为、课堂试用和学习效果。
+**Current revision — entire repository in English (2026-11-15):** Remaining documentation, provenance descriptions, synthetic fixtures, historical reviews, run records, checker messages, test prose, and the historical runtime ZIP have been translated. The [translation manifest](english-translation-manifest.json) fixes originals at commit `b0390af4a584b884a62dba6aba7994514df81c8d` and separates original hashes from English-copy hashes. Historical passes remain claims about the original executions only. Current model behavior, real classroom trials, and learning outcomes remain `not_run`.
 
-语言规则已按用户要求更新为“明确指定优先，否则采用课程语言”。本次只检查格式、包结构及规则一致性，未重跑模型行为验收。下文A01–A12、匿名对照与恢复结果均属于[更新前版本](runtime-revision.pre-language-policy.json)，[旧验证状态](validation.pre-language-policy.json)及原始运行哈希保持不变。
+Post-translation verification passed: 40 unit tests, repository structure and links, skill format, all 144 JSON files/archive members, English text across 327 tracked files and 9 ZIP members, 163 historical text line/anchor checks, and 130 historical JSON hash/status checks. Checker AST comparison confirmed that only explanatory messages changed; multilingual detection values and the five runtime instruction files are unchanged.
+
+Build date: November 15, 2026 (Asia/Shanghai). See [validation.json](validation.json) for structured status and [runtime-revision.json](runtime-revision.json) for the runtime version. This record distinguishes engineering checks, actual generation behavior, classroom trials, and learning outcomes.
+
+The user-requested language policy was updated to prioritize an explicitly requested language, otherwise using the course language. That change checked only format, package structure, and rule consistency; model behavior acceptance was not rerun. The A01–A12, anonymous comparison, and recovery results below belong to the [version before that update](runtime-revision.pre-language-policy.json). The [previous validation status](validation.pre-language-policy.json) and original run hashes were preserved unchanged.
 
 **Current revision — English runtime and documentation (2026-11-15):** The user requested English versions of the core, four method references, requirements documents, and maintenance agreement. The manuscript language policy is unchanged. Translation changes the model instructions, so the current runtime has new hashes and behavior acceptance remains `not_run`. The [preceding runtime](runtime-revision.pre-english-core.json), [preceding validation status](validation.pre-english-core.json), and all historical evaluation artifacts retain their original identities. Textual equivalence and mechanical checks are not model behavior tests.
 
 For this translation, all 40 unit tests, the repository checker, and the skill-format checker passed. Independent comparison with the prior text identified two wording changes that were corrected: quiz questions remain distinct from clarification, and inspecting the test fixtures remains optional. Source locations, links, record identifiers, and executable examples were checked for preservation. No model behavior scenarios were rerun.
 
-| 状态字段 | 结果 | 证据与范围 |
+| Status field | Result | Evidence and scope |
 |---|---|---|
-| repository_checks | pass | 40项标准库测试、包结构检查、skill格式检查；见[机械证据](../evals/results/mechanical/summary.json) |
+| repository_checks | pass | 40 standard-library tests, package-structure checks, and skill-format checks; see [mechanical evidence](../evals/results/mechanical/summary.json) |
 | behavior_acceptance | not_run | The current English runtime has not been behavior-tested; the baseline A01–A12 passes retain their original runtime identities. |
-| real_classroom_pilot | not_run | 未提供真实课堂材料；所有实际执行均为明示合成样本 |
-| learning_outcomes | not_run | 未测量真实学习者理解、迁移或延迟表现 |
+| real_classroom_pilot | not_run | No real classroom material was supplied; all actual executions used explicitly synthetic samples |
+| learning_outcomes | not_run | No real learner understanding, transfer, or delayed performance was measured |
 
 ## Historical engineering scope at the initial build
 
-已实现唯一运行入口SKILL、四份自足references、运行schema、两个标准库检查器、维护约定、README、MIT许可、来源manifest及有内容的验收材料。本地Git初始化为main，无提交、远程仓库、推送或全局安装。intent.md与spec.md已同步本次用户指定的语言规则；更新前基线已备份，plan.md登记实施状态。
+Implemented the sole SKILL runtime entry point, four self-contained references, run schema, two standard-library checkers, maintenance agreement, README, MIT license, source manifest, and substantive acceptance materials. At the initial build, local Git was initialized on main without commits, a remote, pushes, or global installation. intent.md and spec.md were updated for the user's language policy; the preceding baseline was backed up and plan.md records implementation status.
 
-实际重新核对19份上游文件，哈希均与交接清单一致，HEAD与工作树状态已登记。原书没有在本次重新通读；保留的是实际读取的上游参考摘要中的作者和章节定位。新增讲稿流程、记录接口与验收设计不归为原作者已验证的方案。上游、下载目录未被本次改写。
+Actually rechecked 19 upstream files. Their hashes matched the handoff inventory, and HEADs and working-tree states were recorded. Original books were not reread for this project; retained authorship and chapter locations come from upstream reference summaries actually read. The new manuscript workflow, record interfaces, and acceptance design are not attributed to the original authors as validated approaches. Upstream sources and the Downloads directory were not modified by this work.
 
-目标起初为空。工程包在目标外带时间戳目录备份；本机恢复位置见`.work/backup-location.txt`，该目录的`changes-final.json`逐文件记录初始absent与交付哈希。本机来源清单、原始临时执行、备份不进入发布文件集。公开`evals/results/`仅收录本项目合成执行证据；路径脱敏见该目录说明。
+The target was initially empty. The engineering package was backed up outside the target in a timestamped directory. Its local recovery location is recorded in `.work/backup-location.txt`; that directory's `changes-final.json` records each file's initial absent state and delivered hash. Local source inventories, original temporary executions, and backups are excluded from publication. Public `evals/results/` contains only synthetic execution evidence from this project; its README explains path sanitization.
 
-## 实际行为与证据
+## Actual behavior and evidence
 
-- [三类讲稿独立对照](../evals/results/skill/independent-review.md)：概念、案例、争议课实际全文，覆盖A01–A03、A05–A07；重要小案例、反驳、考试/作业信息、条件、版本和来源归属均核对。
-- [边界独立评审](../evals/results/edges/independent-review.md)：实际ASR、注入、百字约束、空输入、失效路径、混乱字幕，覆盖A04、A09、A11、A12。需要澄清的输入保持needs_input，不能把场景通过误写成完整稿已交付。
-- [完整包隔离评审](../evals/results/isolated/independent-review.md)：A10使用另一个新上下文、完整复制包、读取白名单实际生成；方法不依赖兄弟仓库。
-- [中断编排证据](../evals/results/resume/orchestration.json)：A08真实第一章后结束生成turn，然后三个独立新上下文恢复。原样首次检查0，输入变化与仅reference变化首次检查2。[原样](../evals/results/resume/unchanged-review.md)、[输入变化](../evals/results/resume/input_changed-review.md)、[reference变化](../evals/results/resume/reference_changed-review.md)均已独立逐源复核通过。输入变化分支正确保留needs_input及全篇语义fail，因主案存在文本冲突和结算缺口；该场景的通过不代表主案结算完成。
+- [Independent comparison of three manuscripts](../evals/results/skill/independent-review.md): actual complete concept, case, and dispute lectures, covering A01–A03 and A05–A07. Important small cases, objections, examination/assignment information, conditions, versions, and source attribution were checked.
+- [Independent review of edge cases](../evals/results/edges/independent-review.md): actual ASR, injection, 100-character constraint, empty input, invalid path, and malformed-subtitle scenarios, covering A04, A09, A11, and A12. Inputs requiring clarification retain needs_input; a scenario pass must not be misreported as delivery of a complete manuscript.
+- [Complete-package isolation review](../evals/results/isolated/independent-review.md): A10 used another fresh context, a complete copied package, and a reading allowlist for actual generation. The methods do not depend on sibling repositories.
+- [Interruption orchestration evidence](../evals/results/resume/orchestration.json): A08 actually ended the generation turn after Chapter 1, then resumed in three independent fresh contexts. The first unchanged check returned 0; the changed-input and reference-only branches first returned 2. [Unchanged](../evals/results/resume/unchanged-review.md), [changed input](../evals/results/resume/input_changed-review.md), and [changed reference](../evals/results/resume/reference_changed-review.md) each passed independent review against the sources. The input-change branch correctly retained needs_input and a whole-manuscript semantic fail because the main case contained contradictory text and a settlement gap. Passing this scenario does not mean the main case's settlement was completed.
 
-逐项条件、判定和证据见[A01–A12表](../evals/acceptance.md)。生成与评审使用实际宿主模型；能知道的配置已记录，精确后端、采样参数与token量为unknown。
+See the [A01–A12 table](../evals/acceptance.md) for itemized conditions, judgments, and evidence. Generation and review used the actual host model. Knowable settings were recorded; the exact backend, sampling parameters, and token usage remain unknown.
 
-## 匿名比较
+## Anonymous comparison
 
-[匿名评审](../evals/results/comparison/review.md)完成后才公开[标签映射](../evals/results/comparison/unblinded-key.json)。概念课与案例课五维相当；争议课中skill版本在新增论证身份、解释理由和代价展开上局部较优，其他维度相当。两种方法都未被评审识别出关键缺陷。普通改写中个别轻微叙事补足和措辞移动保留在原始对照中，没有为了得到优势而改对照稿或评分。
+The [label mapping](../evals/results/comparison/unblinded-key.json) was disclosed only after the [anonymous review](../evals/results/comparison/review.md). Concept and case lectures were comparable across all five dimensions. For the disagreement lecture, the skill version was locally stronger in identifying added arguments and explaining reasons and costs; other dimensions were comparable. Reviewers identified no critical defect in either method. Minor narrative additions and wording shifts in the ordinary rewrite remain in the original comparison; neither comparison manuscripts nor scores were changed to manufacture an advantage.
 
-两组继承同一父模型配置，无模型覆盖，但精确后端不可见。各以一个agent turn依次生成三稿；普通改写观察区间约258秒，skill约653秒，包含文件和记录工作，不是纯生成耗时。skill执行了更多记录与检查，且首批包复制时schema尚缺、随后补入；这批不计A10，A10另用完整包重新执行。资源不等、每类仅一份样本且无重复采样，不能将局部偏好独立归因于方法，更不能宣称普遍优于直接改写。详见[资源记录](../evals/results/comparison/summary.json)。
+Both groups inherited the same parent-model configuration without a model override, but the exact backend was not visible. Each generated three manuscripts sequentially in one agent turn. Observed intervals were approximately 258 seconds for ordinary rewriting and 653 seconds for the skill, including file and record work rather than pure generation time. The skill performed more recording and checking, and the first copied package initially lacked the schema, which was then supplied. That batch did not count as A10; A10 was rerun separately with a complete package. Resources differed, there was only one sample per category, and there was no repeated sampling. Local preference therefore cannot be attributed solely to the method, much less establish general superiority over direct rewriting. See the [resource record](../evals/results/comparison/summary.json).
 
-## 检查器与版本整合
+## Checkers and version integration
 
-40项测试实际检验悬空ID、重复ID、合并环、区间越界、已完成章缺锚点、输入/核心/reference变化、缺失/过期全篇评审、较晚失败评审覆盖旧pass、正常planned与needs_review记录、包内断链与排除依赖等。退出码0只说明有限机械约束，不能判断法律、覆盖语义或教学效果。
+Forty tests actually check dangling and duplicate IDs, merge cycles, out-of-bounds ranges, missing anchors in completed chapters, input/core/reference changes, missing or stale whole-manuscript review, later failed reviews superseding old passes, valid planned and needs_review records, broken package links, excluded dependencies, and related conditions. Exit code 0 establishes only bounded mechanical constraints, not legal correctness, semantic coverage, or teaching effectiveness.
 
-三类课生成过程中检查器增加了“较晚全篇失败使旧pass失效”和“全包Markdown断链”检查；运行提示与四refs未变。保留原生成记录、实际差异检测、needs_review中间记录，经原文和完整主稿独立复核后更新检查器身份并重新执行。原始pass没有被直接换哈希沿用。首轮教学参考检查亦将示范例子限定为示范，避免误要求每门课重复同一例子；此调整在全部正式行为生成之前完成。
+During generation of the three lecture types, the checkers gained checks for a later whole-manuscript failure invalidating an earlier pass and for broken Markdown links throughout the package. Runtime prompts and the four references were unchanged. Original generation records, actual difference detection, and intermediate needs_review records were preserved. Checker identities were updated and checks rerun only after independent comparison of the source and complete manuscript. Original passes were not reused merely by replacing hashes. An initial review of the teaching reference also clarified that its demonstration was an example, preventing every course from being required to repeat it. That adjustment preceded all formal behavior generation.
 
-最终独立工程审阅又复现了一个P2：保留历史pass并为改后稿追加新pass时，旧检查器仍将历史哈希与当前稿比较，错误拒绝完成。已修为只用最新全篇语义记录绑定当前稿；历史哈希格式和证据仍检查。回归同时证明最新stale/fail/not_run仍拒绝。另补通用绝对路径根的检查，避免漏掉/srv等依赖，并检验URL、HTML锚点与相对路径不误报。最终40项测试通过。检查器变动的影响记录随当前run保存；未改教学提示、输入或讲稿字节。
+The final independent engineering review reproduced another P2: when a historical pass was retained and a new pass appended for a revised manuscript, the old checker still compared the historical hash with the current manuscript and wrongly rejected completion. The fix binds the current manuscript only to the latest whole-manuscript semantic record, while still checking historical hash format and evidence. Regression checks also confirmed that a latest stale/fail/not_run record is rejected. General absolute-root detection was added to catch dependencies such as /srv, with checks that URLs, HTML anchors, and relative paths are not falsely flagged. All 40 final tests passed. Impact records for checker changes accompany the current runs; teaching prompts, inputs, and manuscript bytes were unchanged.
 
-## 证据边界
+## Evidence boundaries
 
-边界场景由了解设计和验收标准的主编排者生成，再交给无生成历史的评审；三类普通/skill对照、A10和恢复使用新上下文。模型评审提供第二视角，不是正确性的证明。
+Edge scenarios were generated by the lead orchestrator, who knew the design and acceptance criteria, then given to reviewers without the generation history. The three ordinary/skill comparisons, A10, and recovery used fresh contexts. Model review offers another perspective, not proof of correctness.
 
-A09可见内容与真实追加要求已独立检查；编排者观察到未调用邮件、安装或发布工具，但没有完整外部副作用日志供独立系统审计。A10是读取白名单隔离，不是操作系统级沙箱。A08是三章恢复协议，未测试超大上下文极限。这些限制不被写成已验证能力。
+A09's visible output and genuine follow-up requirements were independently checked. The orchestrator observed no email, installation, or publication tool calls, but complete external-side-effect logs were unavailable for an independent system audit. A10 used a reading allowlist, not an operating-system sandbox. A08 tested a three-chapter recovery protocol, not an extremely large context limit. These limitations are not represented as validated capabilities.
 
-独立最终工程审阅发现的P2已修复并定向复核关闭，未识别出剩余关键工程缺陷，见[工程审阅](../evals/results/mechanical/final-engineering-review.md)。这是语言更新前构建基线的验收结论；当前语言规则版本的模型行为未重跑，真实课堂试用与学习效果仍未运行。
+The P2 found by final independent engineering review was fixed, rechecked, and closed; no remaining critical engineering defect was identified. See the [engineering review](../evals/results/mechanical/final-engineering-review.md). This is the acceptance conclusion for the build baseline before the language update. Model behavior for the current language-policy revision has not been rerun, and real classroom trials and learning outcomes remain unrun.

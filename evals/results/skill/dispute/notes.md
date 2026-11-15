@@ -1,7 +1,7 @@
-# 重构说明
+# Reconstruction notes
 
-教材、模拟裁判与版本原文均仅由合成课堂输入提供，未单独读取虚构书册全文。第三章关于资助标准可识别性与实质审查负担为新写的可能论证及代价分析，不冒称教材原理由，不声称有经验数据。乙的秘密状况未给出，2024版判断保持条件式；2019年题目不被新版覆盖。
+The textbook, simulated judgment, and version texts are supplied solely by the synthetic classroom input; no complete fictional volume was separately read. Chapter 3's analysis of the funding criterion's identifiability and the burden of substantive review consists of newly written possible arguments and costs. It is not represented as the textbook's original reasoning or as empirically supported. B's confidentiality status is unspecified, so the 2024 analysis remains conditional; the new version does not replace the 2019 question.
 
-只有本次生成者做过全篇输入—成稿对照；独立评审、真实课堂试用、学习效果测量均为 not_run。
+Only this generator has compared the entire input and manuscript; independent review, a real classroom trial, and measurement of learning outcomes are all not_run.
 
-执行环境先缺少 schemas/run.schema.json，随后主任务补入并实际读取；SKILL、四份 references 及原记录的脚本哈希重新核对均未变化。
+The execution environment initially lacked schemas/run.schema.json; the parent task subsequently supplied it and it was actually read. Rechecking SKILL, all four references, and the original recorded script hashes found no changes.

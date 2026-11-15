@@ -1,1 +1,1 @@
-请把 missing-transcript.txt 里的课堂转录重构为完整讲稿。
+Please reconstruct the classroom transcript in missing-transcript.txt into a complete manuscript.

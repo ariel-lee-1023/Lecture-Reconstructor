@@ -7,7 +7,7 @@
     "settings": "unknown"
   },
   "date": "2026-11-15",
-  "method": "实际重新读取全部原始输入和落盘主稿，逐行对照并检查章间关系、否定、条件、例外、来源身份及新增解释；首次合并输出被截断后重读concept/case完整原文与主稿。concept修正后再次完整读取落盘稿。",
+  "method": "Actually reread every original input and saved main manuscript, comparing line by line and checking chapter relationships, negation, conditions, exceptions, source identity, and added explanations. After the first combined output was truncated, reread the complete concept/case originals and manuscripts. Reread the entire saved concept manuscript again after its correction.",
   "scope": "full_manuscript",
   "output_sha256": "fc6ba2b07a591df0cbb437ca2fd313f9a0872f01013fd1c08de7e4e0ab2934e9",
   "status": "pass",
@@ -19,7 +19,7 @@
         3
       ],
       "anchor": "ch-rules",
-      "finding": "保持合成身份和器材社向借用人请求方向，保留用途与返还双义务以及普通磨损例外。"
+      "finding": "Preserve the synthetic identity and the direction of the equipment society's claim against the borrower; retain the separate use and return duties and the ordinary-wear exception."
     },
     {
       "lines": [
@@ -28,7 +28,7 @@
         6
       ],
       "anchor": "ch-rules",
-      "finding": "R2三项同时条件、发票证明范围、独立缺陷与共同原因、明知未告知、不可分费用及一半比例均解释。"
+      "finding": "Explain R2's three cumulative conditions, the invoice's evidentiary scope, independent defects versus joint causes, knowledge without disclosure, indivisible costs, and the one-half proportion."
     },
     {
       "lines": [
@@ -36,14 +36,14 @@
         8
       ],
       "anchor": "ch-alpha",
-      "finding": "甲的三日期、室内用途、淋雨、按期返还、唯一原因、600元已付与题设确认均保留，三步理由分别展开。"
+      "finding": "Preserve A's three dates, indoor-use condition, rain exposure, timely return, sole cause, 600 yuan actually paid, and facts confirmed by the problem; explain the three reasoning steps separately."
     },
     {
       "lines": [
         11
       ],
       "anchor": "ch-alpha",
-      "finding": "100元背带的小收据独立分析，无报销约定与修复所需证明，不并入600元，不升级为其他全面免责。"
+      "finding": "Analyze the small 100-yuan strap receipt separately. Without a reimbursement agreement or proof that it was necessary for repair, do not include it in the 600 yuan or expand the conclusion into comprehensive exemption from other liability."
     },
     {
       "lines": [
@@ -51,14 +51,14 @@
         10
       ],
       "anchor": "ch-beta",
-      "finding": "乙的干燥室外与独立焊接缺陷保留，0元限定为该修复费请求；回应惩罚反驳而不捏造处罚规则。"
+      "finding": "Preserve B's dry outdoor use and independently causal welding defect. Limit zero yuan to this repair-cost claim; respond to the punishment objection without inventing a punishment rule."
     },
     {
       "lines": [
         12
       ],
       "anchor": "ch-gamma",
-      "finding": "丙明知裂纹、两原因各自不足、共同致损、不可分800元均保留，400元归于R4而非公平口号。"
+      "finding": "Preserve C's known crack, the insufficiency of each cause alone, their joint causation, and the indivisible 800 yuan. Ground the 400-yuan result in R4 rather than a fairness slogan."
     },
     {
       "lines": [
@@ -66,7 +66,7 @@
         14
       ],
       "anchor": "ch-gamma",
-      "finding": "仅有发票变式保留未查明状态，不能从缺证跳全赔或全免；考试提示和600/0/400合成边界保留。"
+      "finding": "Keep the invoice-only variant unresolved; missing evidence cannot justify a leap to either full payment or full exemption. Retain examination advice and the synthetic boundaries of the 600/0/400 results."
     }
   ],
   "defects_found_and_resolved": [],
@@ -74,5 +74,14 @@
   "independent_review": "not_run",
   "classroom_trial": "not_run",
   "learning_effects": "not_run",
-  "limitations": "同一生成者自查，不等同独立评审、真实课堂试用或学习效果证据。"
+  "limitations": "Self-review by the same generator is not independent review, a real classroom trial, or evidence of learning outcomes.",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/case/semantic-review.json",
+    "original_sha256": "fe0bd5e23ddb4ac165e68c0f6bcfee3549c4713af81849747f568db5b633453b",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/case/semantic-review.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

@@ -1,1 +1,1 @@
-状态：`needs_input`。附件 empty.txt 为零字节，没有可重构的课堂文本。请提供非空转录稿；目前无法据此生成对应原课的讲稿。
+Status: `needs_input`. The attachment empty.txt is zero bytes, with no classroom text to reconstruct. Please provide a nonempty transcript; a manuscript corresponding to the original lecture cannot currently be generated from this file.

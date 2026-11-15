@@ -1,9 +1,9 @@
-# 受限三章稿交付断点
+# Checkpoint for delivery of the limited three-chapter manuscript
 
-状态：needs_input；阶段deliver。三章均assembled，主稿lecture.md已保存，SHA-256 597d110f47daf6353344ea7510645efe15e8494d757bbcc800fe546d50b3bb0d。当前源SHA-256 2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b。
+Status: needs_input; stage: deliver. All three chapters are assembled; the main manuscript lecture.md has been saved, SHA-256 597d110f47daf6353344ea7510645efe15e8494d757bbcc800fe546d50b3bb0d. Current source SHA-256 2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b.
 
-已完成首检、备份、变化影响分析、依赖失效、三章受限正文、全篇统稿及真实逐源自查。全篇语义fail是资料性阻塞，机械检查不覆盖它。真实课堂试用和学习效果not_run。
+Completed the initial check, backup, change-impact analysis, dependency invalidation, limited text of all three chapters, full-manuscript integration, and actual source-by-source self-review. The full-manuscript semantic fail is a source-information blocker that mechanical checks do not cover. Real classroom trials and learning outcomes: not_run.
 
-剩余最小输入：庚到达时间是否确为周二17:59？若是，及时撤销积分如何结算？当前第2/18行失败标签冲突，不能把旧18:02拿来续算。复核第六日到达及时已经可判断；实体数额未决。
+Minimum remaining input: Was G's notice in fact received at 17:59 on Tuesday? If so, how are points settled after timely cancellation? The failure labels on current lines 2/18 conflict with this time; the old 18:02 cannot be used to continue the calculation. Receipt of the review application on day six can already be judged timely; the substantive amount remains unresolved.
 
-恢复先运行python3 package/scripts/check_run.py run/run.json --repo-root package --json，再读checks/impact-review.md、notes.md及当前源；有新输入先保留版本并失效受影响章，不能沿用语义pass。所有旧证据在before-resume.json和resume-backup中保留原哈希。精确模型unknown，宿主Codex desktop；定稿UTC 2026-11-15T02:28:05.898857+00:00。
+On resumption, first run python3 package/scripts/check_run.py run/run.json --repo-root package --json, then read checks/impact-review.md, notes.md, and the current source; if new input appears, preserve versions and invalidate affected chapters first, and do not carry forward a semantic pass. All old evidence retains its original hashes in before-resume.json and resume-backup. Exact model: unknown; host: Codex desktop; finalization UTC 2026-11-15T02:28:05.898857+00:00.

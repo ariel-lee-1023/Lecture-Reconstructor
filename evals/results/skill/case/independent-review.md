@@ -1,23 +1,23 @@
-# 三类实际讲稿的原文对照评审
+# Source-comparison review of three actual lecture manuscripts
 
-日期：2026-11-15。评审者：主编排者 root，未撰写或修改这三份被测讲稿；参与了核心设计和验收组织，因此是独立于该次生成的对照评审，非盲评。另有不知版本标签的比较评审单独保存。逐份读取实际原始输入与全文输出；内容表和自查只作辅助。
+Date: 2026-11-15. Reviewer: lead orchestrator root, who neither wrote nor modified these three tested manuscripts. The reviewer participated in core design and acceptance organization, making this a comparison review independent of this generation, not blind review. A separate comparison unaware of version labels is retained elsewhere. Actual original inputs and full outputs were read individually; content tables and self-reviews served only as aids.
 
-## 概念课：A01、A02、A03、A07 通过
+## Concept lecture: A01, A02, A03, A07 passed
 
-原课 `concept.txt` 第2–7行的进入许可、请求与双方关系，在第一章及第二章得到完整说明，特别保留说话者对“没有义务”的自我修正。第8行丙只收到“申请已接收”而无确认，在第二章实际分析，未把系统通常很快当成已经确认；成功回执发出的成立点、两小时时段、标准座位及管理人相对方均保留。第11–12行的学生让座反驳、入口阻碍未知范围与充电线小例子，第一章逐项解释。第9行安全险情、退积分、剩余时段和不加时在第四章没有漏掉。第13行戊己撤销对照明确是到达时刻的变化，成员身份与进入许可不消灭。第14行考试信息保留教师归属。正文有开场、概念关系、完整推论、例子分析和全篇收束，未退为提纲，未要求教材、画像或学生先答题，也未虚构音频或前课。
+Entry permission, claims, and counterpart relationships in `concept.txt` lines 2–7 receive full explanations in chapters 1 and 2, particularly retaining the speaker's self-correction concerning “no duty.” Line 8's C receives only “application received,” without confirmation; chapter 2 actually analyzes this, rather than treating the system's usual speed as confirmation. It preserves formation upon successful confirmation being sent, the two-hour interval, standard seat, and administrator as counterpart. Chapter 1 individually explains lines 11–12: the student's seat-yielding objection, the unknown scope of entry obstruction, and the charging-cable example. Chapter 4 retains line 9's safety hazard, points refund, remaining interval, and no extension. Line 13's E/F cancellation contrast explicitly changes receipt time without extinguishing membership or entry permission. Line 14's examination advice stays attributed to the teacher. The prose contains an opening, conceptual relationships, complete inferences, analyzed examples, and a conclusion. It does not regress to an outline, require a textbook, profile, or prior student quiz answers, or invent audio or a previous lecture.
 
-## 案例课：A01、A02、A03 通过
+## Case lecture: A01, A02, A03 passed
 
-`case.txt` 第3–6行R1–R4逐项纳入规则说明，普通磨损例外和发票仅支持收费的证据限制均保留。甲案将违规用途、实际600元费用、题设已确认唯一原因分别连接；按期返还不抵消违规使用。第11行100元背带收据被单独解释，没有误加成700元。乙案区分已有违规与无因果贡献，回应第10行惩罚反驳，并保留其他处罚未给规则的边界。丙案明确明知未告知、共同原因与不可分费用，400元来自R4的一半，而非公平口号。仅有800元发票的变式说明缺哪些事实，未自造证据。考试提示归属与600/0/400仅限题设亦明确。比较改变的因果条件而非仅重复结果。
+`case.txt` lines 3–6, R1–R4, are included individually in the rule explanation, retaining the ordinary-wear exception and the invoice's evidentiary limit of proving only the charge. A's case separately connects prohibited use, actual 600-yuan costs, and the sole cause expressly established by the problem; timely return does not offset prohibited use. Line 11's 100-yuan strap receipt is explained separately rather than wrongly added to make 700. B's case distinguishes established violation from no causal contribution, answers line 10's punishment objection, and retains the absence of rules for other penalties. C's case identifies knowing nondisclosure, joint causes, and indivisible costs; 400 yuan is half under R4, not a fairness slogan. The variant containing only an 800-yuan invoice identifies missing facts without inventing evidence. Teacher attribution of examination advice and limitation of 600/0/400 to the problem are explicit. Comparison concerns changed causal conditions, not merely repeated results.
 
-## 争议课：A05、A06 通过
+## Disagreement lecture: A05, A06 passed
 
-`dispute.txt` 第1–3行2019课堂、2018假设规范及两个并列条件得到保留。第4–6行的虚构教材资助标准、教师独立研究解释、模拟合议庭观点分别呈现，未混成明文或真实判例；亦没有把未交代资助直接写为确定无资助。第三章回应第7行学生反驳：目的解释不能删除用途条件或秘密限制。第8行丙的两条件问题及去秘密副本未知范围保留。第9–11行2024版被放在历史比较中，学术门槛删除而秘密限制保留，没有倒改2019题目。新增为资助标准辩护的理由和可能判断负担明确标为教学重建及可能分析，不冒充教材原话、实证数据或共识。第13行作业要求附有比较示范，未要求用户先交作业。未声称进行现实法核验或观测学生表现。
+`dispute.txt` lines 1–3 retain the 2019 classroom, hypothetical 2018 rule, and two concurrent conditions. Lines 4–6 separately present the fictional textbook's funding criterion, the teacher's independent-research interpretation, and the simulated panel's view, without blending them into express text or a real precedent. Unspecified funding is not rewritten as definite absence of funding. Chapter 3 responds to line 7's student objection: purposive interpretation cannot remove the use condition or secrecy restriction. Line 8's two-condition question concerning C and the unknown scope of redacted copies remain. Lines 9–11 place the 2024 version in historical comparison: the academic threshold is removed while secrecy restrictions remain, without retroactively changing the 2019 problem. Added reasons defending the funding criterion and possible decision burdens are expressly identified as teaching reconstruction and possible analysis, not textbook quotations, empirical data, or consensus. Line 13's assignment includes a comparison demonstration without requiring homework submission first. No actual-law verification or observation of student performance is claimed.
 
-## 当前脚本版本整合
+## Integration of the current checker version
 
-生成开始时的检查脚本随后增加了两项检查：较晚全篇失败/not_run使旧pass失效，以及全包Markdown链接存在性。SKILL、四份references及schema字节未变。原始生成记录保存在各目录 `run-before-integration.json`，相对于当前包的初次检查在 `integration-before-check.json`，哈希差异如实保留。
+The checkers present at generation start subsequently gained two checks: a later whole-manuscript fail/not_run invalidates an earlier pass, and package-wide Markdown links must exist. SKILL, all four references, and schema bytes were unchanged. Original generation records remain in each directory's `run-before-integration.json`; initial checks against the current package are in `integration-before-check.json`, with hash differences honestly retained.
 
-本次逐稿全文复核覆盖当前主稿；将相关章节暂标needs_review后，保存影响分析、更新检查器哈希、附本独立评审并重跑当前检查。更改只影响检查器严谨程度及记录，不改变讲稿或假设规则。未以简单刷新哈希继承旧通过。原生成者自查与本次评审身份不同；这仍然不证明现实法正确性或学习效果。
+This full review of each manuscript covers its current text. After temporarily marking affected chapters needs_review, the process saved impact analysis, updated checker hashes, attached this independent review, and reran current checks. Changes affect only checker rigor and records, not manuscripts or hypothetical rules. Earlier passes were not inherited merely by refreshing hashes. The original generator's self-review and this review have different authors; this still proves neither real legal correctness nor learning outcomes.
 
-三份当前主稿未发现关键缺陷。匿名比较可能指出质量取舍；通过行为规格不等于优于普通改写。精确后端模型与token用量未知，三课由一个生成agent在同一turn依次完成，样本相互独立性有限。
+No critical defects were found in the three current manuscripts. Anonymous comparison may identify quality tradeoffs; passing behavioral specifications does not establish superiority to ordinary rewriting. Exact backend model and token usage are unknown. One generating agent produced all three lectures consecutively in a single turn, limiting sample independence.

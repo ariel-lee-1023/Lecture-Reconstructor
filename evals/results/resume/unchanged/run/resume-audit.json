@@ -358,5 +358,14 @@
       ],
       "transcript_repair_loaded": true
     }
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/unchanged/run/resume-audit.json",
+    "original_sha256": "b0eb1d37defb040fa68babd79ce6bcd8d14048675568c2bcb4a8fe258a6712fe",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/unchanged/run/resume-audit.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

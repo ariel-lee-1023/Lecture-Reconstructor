@@ -1,13 +1,13 @@
 <a id="ch-reservation"></a>
-## 二、确认何时成立，座位请求向谁提出
+## 2. When confirmation arises and against whom a seat claim is made
 
-规则二为座位请求提供了独立依据：成员取得系统预约确认后，在确认写明的两小时内，可以要求管理人提供一个标准座位，管理人相应负有提供座位的义务。这里的双方是预约成员与管理人，内容是提供一个标准座位，时间是确认写明的两小时。它没有规定预约人可以指定某位成员起身，也没有承诺提供充电线等额外物品。
+Rule Two supplies an independent basis for a seat claim: After a member obtains system reservation confirmation, the member may demand one standard seat from the manager during the stated two hours, and the manager owes the corresponding duty. The parties are the reserving member and manager, the conduct is providing one standard seat, and the period is the confirmed two hours. The rule does not permit choosing a particular member to stand, or promise extra items such as charging cables.
 
-成立时间还要再辨认一步。确认从成功回执发出时成立，不是从成员点击预约键时成立。点击是提出申请的动作，成功回执才是这套规则指定的确认成立节点。把二者混为一谈，会把尚未取得的请求写成已经存在。
+Formation time requires a further distinction. Confirmation arises when the successful receipt is sent, not when the member clicks the reservation button. Clicking submits an application; the successful receipt is the event designated by these rules for confirmation. Conflating them presents an unacquired claim as already existing.
 
-丙只收到“申请已接收”，没有收到“预约确认”。工作人员说系统一般很快，这句话描述通常的处理速度，并不能代替本次预约的确认条件。现有材料并未据此证明成功回执已经发出，所以丙还不能仅凭接收信息和工作人员的说法要求一个标准座位。至于进入许可，仍应另查成员资格：丙若是注册成员，就依规则一具有进入许可，不能因尚无预约确认而否定它。这里比较的是两种关系的条件，进入许可不以预约确认为条件，座位请求则有这一额外条件。
+C receives only 'application received,' not 'reservation confirmed.' Staff say the system is usually quick, but that describes typical processing speed, not satisfaction of this reservation's confirmation condition. These materials do not thereby establish that a successful receipt has been sent, so the reception message and staff statement alone do not entitle C to a standard seat. Permission to enter still requires a separate membership inquiry: If C is registered, Rule One grants permission, which absence of confirmation cannot negate. The comparison concerns different relational conditions: Permission does not depend on confirmation; a seat claim has that additional condition.
 
-丁的情况不同。丁持有有效确认，在相应时段到场，座位虽然已满，却不存在安全险情。管理人说：“每个人都有进入自由，所以我不用给你安排。”这个答复的前半句即使符合规则一，也不能支持后半句。规则一解释成员的进入许可，规则二另行设定管理人的座位提供义务，两项关系可以同时存在。丁取得确认后，不会因为仍然有进入许可而失去座位请求。
+D's case differs. D has valid confirmation and attends during the relevant period. Seats are full, but there is no safety hazard. The manager says, 'Everyone is free to enter, so I need not arrange a seat for you.' Even if the first half fits Rule One, it cannot support the second. Rule One explains members' permission, while Rule Two separately imposes the manager's seat duty. Both can coexist; after confirmation, D does not lose the seat claim merely by retaining permission to enter.
 
-因此，单纯满座不是材料给出的免责条件；在丁的题设下，管理人不能用进入自由拒绝安排标准座位。不过，要求管理人履行与要求某一位在座成员让座仍不是同一件事。前者有规则二依据，后者不能仅从规则二直接推出。如何具体安排以及安排失败后是否有其他后果，材料没有规定，本课不补造处理办法。
+A full room alone is therefore no exemption supplied by the materials. On D's facts, the manager cannot invoke freedom of entry to refuse a standard seat. Yet requiring the manager to perform and requiring a particular seated member to move remain different. Rule Two supports the former, not a direct inference to the latter. The materials specify neither practical allocation methods nor further consequences of failure, so this lecture invents neither.
 

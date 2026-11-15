@@ -1,65 +1,65 @@
-# 成员“有权”究竟意味着什么
+# What Does It Mean for a Member to 'Have a Right'?
 
-> 合成课堂讲稿：全部人物、机构、规则和事例均为测试创作，不对应现行法或真实课堂。本课只使用安澜学习社练习规则，没有配套教材、音频或学习者数据。
+> Synthetic lecture manuscript: All people, institutions, rules, and examples were created for testing and represent neither current law nor a real class. This lecture uses only the Calmwater Study Society exercise rules; no accompanying textbook, audio, or learner data is available.
 
-今天，我们讨论一个日常说法：“我是成员，所以我有权。”这句话听起来很清楚，但如果没有说出对谁、针对什么行为、依据什么条件，它就可能把几种不同的关系混在一起。
+Today we examine an everyday statement: 'I am a member, so I have a right.' It sounds clear, but unless it identifies against whom, concerning which act, and under which conditions, it can conflate several different relationships.
 
-先从一个具体场景开始。甲是安澜学习社的注册成员，上午来到公共阅览区，发现已经没有空座位。他看到乙坐在座位上，便说：“我也是成员，所以你得给我让座。”甲的理由成立吗？
+Start with a concrete situation. A is a registered member of Calmwater Study Society. Arriving at the common reading area in the morning, A finds no empty seat. Seeing B seated, A says, 'I am a member too, so you must give me your seat.' Does that reason hold?
 
-本课的结论是：成员资格可以使甲获得进入许可，却不能仅凭这一点要求乙让座。要理解这个结论，我们必须先分清进入许可、座位请求和撤销预约各自意味着什么。
+The conclusion of this lecture is that membership gives A permission to enter, but that fact alone does not entitle A to demand B's seat. To understand why, we must distinguish permission to enter, a claim to a seat, and cancellation of a reservation.
 
-## 一、进入许可：自己可以做什么
+## 1. Permission to enter: What you may do
 
-练习规则一规定，注册成员可以进入公共阅览区。这里的“可以”只表示社内没有禁止成员进入。换一个说法，成员不负有“不进入公共阅览区”的义务。
+Exercise Rule One provides that registered members may enter the common reading area. 'May' means only that the Society does not prohibit their entry. Put differently, members have no duty 'not to enter the common reading area.'
 
-这句话说的是成员自己的行为是否受到禁止，不能直接换成其他人必须做什么。规则一不保证有空位，也没有要求已经入座的人搬走。因此，甲可以进入，但在满座时，不能从自己的进入许可推出乙的让座义务。
+This concerns whether members' own conduct is prohibited; it cannot directly become a statement of what others must do. Rule One guarantees no vacancy and requires no seated person to leave. Thus A may enter, but when the room is full, A's permission does not imply B's duty to give up a seat.
 
-所以，回答甲的问题时，笼统地写“甲没有权”并不准确。甲有进入许可，缺少的是仅凭成员身份要求乙让座的根据。把具体关系说明白，比使用一个含混的“有权”或“无权”更重要。
+A broad answer that 'A has no right' is therefore inaccurate. A has permission to enter; what is missing is a basis for requiring B to surrender a seat merely because A is a member. Specifying the relationship matters more than an ambiguous label of 'right' or 'no right.'
 
-有同学会问：“如果大家都有进入许可，我进入时不是总能要求别人让开吗？”这里仍然要区分两件事：自己没有受到进入的禁止，与别人必须配合自己，不是同一个命题。现有规则没有规定其他成员让位的义务。假如入口被物品堵住，是否另有清理或保持通道畅通的义务，需要另外的规则和事实；本课材料不足，不能顺势作出结论。
+A student might ask, 'If everyone has permission to enter, can I not always demand that others make way when I enter?' We must still distinguish not being prohibited from entering from other people's duty to cooperate. The existing rules impose no duty on other members to give way. If objects block the entrance, a duty to clear them or keep access open would require other rules and facts. These course materials are insufficient, so no further conclusion follows.
 
-课堂上还提到过“充电线可以借用”的口头例子。它能帮助我们理解：允许借用，不等于借用者对他人享有优先请求。这个例子只用于说明许可与请求的差别，不能把它扩张成预约服务的内容。接下来要说的规则二，承诺的只有标准座位。
+The lecture also mentioned an oral example: 'charging cables may be borrowed.' It shows that permission to borrow does not give the borrower a priority claim against others. The example illustrates only permission versus a claim; it must not be expanded into the reservation service's contents. Rule Two, discussed next, promises only a standard seat.
 
-## 二、预约确认：可以要求谁做什么
+## 2. Reservation confirmation: Whom you may require to do what
 
-练习规则二规定，成员取得系统的预约确认后，在确认写明的两小时内，可以要求管理人提供一个标准座位；与此对应，管理人负有提供座位的义务。
+Exercise Rule Two provides that after a member obtains system reservation confirmation, the member may demand one standard seat from the manager during the two hours stated in it. Correspondingly, the manager has a duty to provide that seat.
 
-这里出现了与进入许可不同的关系。我们不再只是判断成员自己的进入行为是否被禁止，而是判断预约成员能否要求管理人履行特定行为。成员的座位请求，与管理人提供标准座位的义务相对应。
+This differs from permission to enter. We are no longer asking only whether a member's own entry is prohibited, but whether the reserving member can require specified performance from the manager. The member's seat claim corresponds to the manager's duty to provide a standard seat.
 
-但是，这项关系有明确的成立条件：预约确认从成功回执发出时成立，不是从成员点击预约按钮时成立。
+But this relationship has a clear condition of formation: Reservation confirmation arises when the successful receipt is sent, not when a member clicks the reservation button.
 
-例如，丙点击了预约按钮，只收到“申请已接收”，没有收到“预约确认”。虽然工作人员说系统一般很快，丙仍然不能据此要求管理人提供标准座位。“通常很快”是对处理速度的描述，不能代替规则要求的确认。与此同时，丙是否已经取得座位请求，不影响我们另行判断他是否作为注册成员享有进入许可。
+For example, C clicks the reservation button and receives only 'application received,' not 'reservation confirmed.' Although staff say the system is usually quick, C still cannot demand a standard seat on that basis. 'Usually quick' describes processing speed; it cannot replace the confirmation required by the rule. Meanwhile, whether C has acquired a seat claim does not prevent a separate assessment of C's permission to enter as a registered member.
 
-再看丁。丁拿着有效预约确认来到阅览区，确认时段内座位却已经满了，而且不存在即时安全险情。管理员说：“每个人都有进入自由，所以我不用给你安排座位。”这个理由不能成立。
+Now consider D. D brings valid reservation confirmation to the reading area, but the seats are full during the confirmed period and there is no immediate safety hazard. The manager says, 'Everyone is free to enter, so I need not arrange a seat for you.' That reason fails.
 
-丁同时具有注册成员身份和有效预约确认。前者使他享有进入许可，后者使他在确认时段内对管理人享有标准座位请求。两种关系可以同时存在，不能拿进入许可去消除已经成立的座位提供义务。在题设没有安全险情、也没有其他有效消灭该关系的事实时，管理人仍应提供一个标准座位。
+D has both registered membership and valid reservation confirmation. The former provides permission to enter; the latter provides a claim against the manager for a standard seat during the confirmed period. Both relationships can coexist. Permission to enter cannot eliminate an already established seat-provision duty. With no safety hazard or other fact validly ending the relationship, the manager must still provide a standard seat.
 
-甲和丁面对的是同一间满座的阅览室，结果却不同。区别不在谁更需要座位，而在于谁具备了产生管理人提供座位义务的条件。
+A and D face the same full reading room, yet their results differ. The difference is not who needs a seat more, but who satisfies the conditions creating the manager's duty to provide one.
 
-## 三、撤销预约：怎样改变已经成立的关系
+## 3. Cancelling a reservation: How an established relationship changes
 
-预约确认成立之后，关系并不一定持续到时段结束。练习规则三允许预约人在开始前一日18点之前撤销预约。关键时间是撤销通知到达系统的时间。符合条件的通知到达后，规则二所规定的座位请求与座位提供义务随之消灭。
+Once confirmation arises, the relationship need not continue until the reserved period ends. Exercise Rule Three permits cancellation before 18:00 on the preceding day. The crucial time is when cancellation notice reaches the system. Receipt of a qualifying notice ends both the seat claim and the corresponding duty under Rule Two.
 
-戊在开始前一日17:50发出通知，但通知到18:05才到达系统。虽然发出时间在18点之前，到达时间却已经超过期限，因此不符合单方撤销产生上述效果的条件。超过18点的单方撤销不能消灭这一关系，不过双方仍可另行协商。
+E sends notice at 17:50 on the preceding day, but it reaches the system only at 18:05. Although sent before 18:00, it arrived after the deadline, so the conditions for unilateral cancellation to have that effect are not met. Unilateral cancellation after 18:00 does not end the relationship, although the parties may negotiate separately.
 
-己的通知在开始前一日17:50到达系统，符合时间条件。通知到达后，己的座位请求与管理人的座位提供义务即告消灭。
+F's notice reaches the system at 17:50 on the preceding day, satisfying the time condition. Upon receipt, F's seat claim and the manager's seat-provision duty end.
 
-这里还要注意，撤销改变的是哪一层关系。消灭的是特定预约产生的座位请求和提供义务，不是己的成员身份，也不是注册成员依规则一取得的进入许可。不能因为预约撤销，就认为己从此不能进入阅览区。
+Notice which layer cancellation changes. It ends the seat claim and provision duty created by that reservation, not F's membership or the permission registered members receive under Rule One. Cancelling a reservation does not mean F can no longer enter the reading area.
 
-## 四、安全险情：有确认也要检查例外
+## 4. Safety hazards: Confirmation still requires checking exceptions
 
-有效确认并不意味着在任何情况下管理人都必须立即安排座位。练习规则四规定，因即时安全险情必须封闭场地时，管理员可以暂停规则二的座位提供义务，并应退还相应预约积分。
+Valid confirmation does not require the manager to arrange a seat immediately in every circumstance. Exercise Rule Four provides that when an immediate safety hazard requires closure, the manager may suspend the seat-provision duty under Rule Two and must refund the corresponding reservation points.
 
-适用这条规则，需要存在即时安全险情，并且因此必须封闭场地。单纯满座不能代替这两个条件，也不能成为管理员援引安全例外的理由。
+Applying this rule requires an immediate safety hazard and a resulting necessity to close the premises. A full room alone satisfies neither condition and does not justify invoking the safety exception.
 
-封闭结束后，是否恢复剩余时段，还要看原确认的两小时是否尚未届满。若仍有剩余时间，就按这一剩余时段判断；若两小时已经届满，不能另加时间。规则并没有因为封闭而重新起算两个小时。
+After closure ends, whether the remaining period resumes depends on whether the original confirmed two hours have expired. If time remains, assess the remaining period; if the two hours have expired, no time is added. Closure does not restart a fresh two-hour period.
 
-因此，分析丁的请求，不能从“取得确认”一步跳到“任何情形下都必须安排”。我们需要先确认预约关系成立、相关时段尚在，再检查是否已经发生有效撤销，以及是否存在规则四规定的暂停情形。
+Thus D's claim cannot jump from 'obtained confirmation' to 'a seat must be arranged in every circumstance.' First establish that the reservation relationship arose and the relevant period is still running, then check effective cancellation and any suspension under Rule Four.
 
-## 五、怎样回答“他有权吗”
+## 5. How to answer 'Does this person have a right?'
 
-回到开头的问题，我们可以按照本课教师的考试安排，先说清双方是谁、针对什么行为，再辨明讨论的是进入许可、座位请求，还是撤销既有预约关系，最后检验相应条件。这是本课的作答要求，并不代表其他课程或现实考试的评分标准。
+Returning to the opening question, follow this teacher's examination arrangements: Identify the two parties and the conduct at issue; distinguish permission to enter, a seat claim, and cancellation of an existing reservation; then test the relevant conditions. These are this course's answer requirements, not scoring standards for other courses or real examinations.
 
-例如，甲仅凭注册成员资格要求乙让座，缺少的是乙负有让座义务的规则根据；丁凭有效确认要求管理人在相应时段提供标准座位，则有规则二作为根据，但仍须检查有效撤销与安全险情等影响；己在期限内使撤销通知到达系统，改变的是预约双方的座位关系，而不是成员资格。
+For example, A's membership alone gives no rule-based ground for B's duty to surrender a seat. D's valid confirmation supports a claim under Rule Two against the manager for a standard seat during the relevant period, subject to effective cancellation, safety hazards, and similar effects. F's timely notice reaching the system changes the parties' seat relationship, not membership.
 
-本课不以背下多少术语计分。真正需要掌握的是：当我们说一个人“有权”时，要把这句话还原成具体关系，说明谁可以做什么、谁必须对谁做什么，以及这种关系在什么条件下成立、改变或受到限制。
+This course does not award points for the number of terms memorized. What matters is translating 'has a right' into a specific relationship: who may do what, who must do what for whom, and under which conditions that relationship arises, changes, or is limited.

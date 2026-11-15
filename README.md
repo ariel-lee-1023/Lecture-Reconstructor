@@ -64,7 +64,7 @@ File-based runs normally live in `.work/runs/<run-id>/`. A user-specified delive
 - Repair recoverable transcription damage before reconstruction, while separating uncertain wording from uncertain meaning.
 - Resume a long lecture after a chapter boundary, then reconcile terminology, transitions, and coverage across the whole manuscript.
 
-Actual generated examples are available for a [concept lecture](evals/results/skill/concept/lecture.md), a [case lecture](evals/results/skill/case/lecture.md), and a [lecture on interpretive disagreement](evals/results/skill/dispute/lecture.md). These historical examples are in Chinese because their requests explicitly specified Chinese. All use synthetic teaching rules and are not real legal authorities.
+English translations of historical generated examples are available for a [concept lecture](evals/results/skill/concept/lecture.md), a [case lecture](evals/results/skill/case/lecture.md), and a [lecture on interpretive disagreement](evals/results/skill/dispute/lecture.md). The original requests explicitly specified Chinese; these English reading copies are translations, not new model runs. All use synthetic teaching rules and are not real legal authorities. The [translation manifest](fidelity-ledger/english-translation-manifest.json) links every original artifact to its frozen Git version and distinguishes original from translated hashes.
 
 ## Installation
 
@@ -103,7 +103,7 @@ The last command requires an actual saved run at that path. Run states are `in_p
 
 Preserve the old manuscript and records when a hash changes, assess which chapters are affected, and review them before resuming. Do not simply replace hashes to restore an old pass. Review records are appended in order: the latest full-manuscript semantic review determines the current manuscript's status, while historical reviews keep their original manuscript hashes. A later `fail` or `not_run` cannot inherit an earlier pass.
 
-The [run schema](schemas/run.schema.json) documents the fields; the [reconstruction workflow](references/reconstruction-workflow.md) explains checkpointing, review, and recovery. The historical [concept run](evals/results/skill/concept/run.json) retains its earlier core hashes: checking it against the current package is expected to return `2` after the language-policy update.
+The [run schema](schemas/run.schema.json) documents the fields; the [reconstruction workflow](references/reconstruction-workflow.md) explains checkpointing, review, and recovery. The historical [concept run](evals/results/skill/concept/run.json) retains its earlier core hashes: checking the translated reading copy against the current package is expected to return `2` for changed input/runtime identities. Use the original files at the source commit to inspect the historical result; do not replace recorded hashes to manufacture a new pass.
 
 ## Example requests
 
@@ -177,7 +177,7 @@ flowchart LR
 | [Intent](intent.md), [specification](spec.md), [plan](plan.md), [BUILD](BUILD.md) | Product requirements, implementation record, and historical handoff. |
 | [AGENTS.md](AGENTS.md), [validation ledger](fidelity-ledger/validation.md), [source manifest](fidelity-ledger/source-manifest.json) | Maintenance rules, evidence boundaries, and source provenance. |
 
-The four references are task-specific adaptations, not one file per original book. `.work/`, local source inventories, and private runs are ignored by Git. Public evaluation artifacts contain explicitly synthetic materials. The README, runtime core, four method references, requirements documents, and maintenance agreement are in English; historical examples and other maintainer records may use another language.
+The four references are task-specific adaptations, not one file per original book. `.work/`, local source inventories, and private runs are ignored by Git. Public evaluation artifacts contain explicitly synthetic materials. All tracked documentation, method references, ledgers, test descriptions, and historical reading copies are in English, including the archived runtime package. Functional multilingual matching and its regression inputs retain their original values through Unicode escapes in otherwise English Python source.
 
 ## Sources and their responsibilities
 
@@ -255,8 +255,8 @@ The implementation has four adapted method references and 19 recorded upstream s
 
 | Evidence layer | Actual status |
 |---|---|
-| Structural checks | The build baseline passed 40 automated tests. The checkers are unchanged by the language-policy, English translation, and README edits; package and skill-format checks were rerun after those edits. |
-| Historical behavior acceptance | A01–A12 passed on explicitly synthetic inputs for the earlier runtime, including actual chapter interruption, recovery, and an isolated-package generation. Original inputs, outputs, and hashes are preserved. |
+| Structural checks | The build baseline passed 40 automated tests. Checker messages and fixture prose are now English; multilingual detection behavior is preserved. Unit, package, and skill-format checks were rerun after the repository translation. |
+| Historical behavior acceptance | A01–A12 passed on explicitly synthetic inputs for the earlier runtime, including actual chapter interruption, recovery, and an isolated-package generation. Original inputs and outputs are preserved at the frozen source commit; current reading copies are English translations, and recorded historical hashes retain their original meaning. |
 | Current runtime behavior | `not_run`: model behavior was not rerun after changing the default from Chinese to the course's language or translating the runtime instructions into English. Earlier passes are not reassigned to the revised core. |
 | Real classroom pilot | `not_run`: no real classroom transcript was supplied. |
 | Learning outcomes | `not_run`: no learner understanding, transfer, or delayed performance was measured. |

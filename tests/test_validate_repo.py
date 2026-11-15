@@ -61,8 +61,9 @@ class RepoTests(unittest.TestCase):
         self.rejects('EXCLUDED_DEPENDENCY')
 
     def test_exclusion_in_prose_and_engineering_doc_is_allowed(self):
-        (self.root/'references/law-reasoning.md').write_text('不依赖 prc-legal-sources。')
-        (self.root/'plan.md').write_text('检查排除 prc-legal-sources。历史绝对路径 /Users/example/source。')
+        # Escaped Unicode preserves the original non-English regression coverage.
+        (self.root/'references/law-reasoning.md').write_text("\u4e0d\u4f9d\u8d56 prc-legal-sources\u3002")
+        (self.root/'plan.md').write_text("\u68c0\u67e5\u6392\u9664 prc-legal-sources\u3002\u5386\u53f2\u7edd\u5bf9\u8def\u5f84 /Users/example/source\u3002")
         self.assertEqual(0,self.validate()['exit_code'])
 
     def test_manifest_personal_path(self):

@@ -15,7 +15,7 @@
       "stdout": {
         "status": "pass",
         "scope": "finite_structural_checks",
-        "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+        "limitation": "Only limited structural checks passed; this does not establish legal correctness, coverage of meaning, teaching quality, or learning outcomes.",
         "errors": [],
         "exit_code": 0
       },
@@ -28,11 +28,20 @@
       "stdout": {
         "status": "pass",
         "scope": "finite_structural_checks",
-        "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+        "limitation": "Only limited structural checks passed; this does not establish legal correctness, coverage of meaning, teaching quality, or learning outcomes.",
         "errors": [],
         "exit_code": 0
       },
       "stderr": ""
     }
-  ]
+  ],
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/unchanged/run/checks/mechanical.json",
+    "original_sha256": "7c016d7062f7a9f592646086b8dfda2448a2fcafe7c15c66945a0aa7bc7f4ca1",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/unchanged/run/checks/mechanical.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

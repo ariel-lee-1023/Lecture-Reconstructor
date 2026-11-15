@@ -1,14 +1,14 @@
-【合成案例课；岚桥器材社、规则、人物与凭证均为测试创作，不是任何真实法律或判决。】
-这节课从赔多少钱倒过来讲，可能有点乱。题目里的数很容易算，真正难的是先判断谁的损失、因为什么、例外有没有进去。
-器材社练习规则R1：借用人负有按约定用途使用器材并按期返还的义务。普通磨损不构成违反义务。
-R2：只有同时满足“借用人违反R1”“器材发生实际修复费用”“该违反行为造成这项修复费用”，器材社才有修复费用请求。发票只证明列载的收费，不单独证明费用由借用行为造成。
-R3：费用由器材原有隐蔽缺陷独立造成时，即使借用人另有违反R1的行为，仍不满足R2的因果条件；不是对违规者的奖励。
-R4：器材社明知缺陷却未告知，且该缺陷与借用人的违规行为共同导致同一不可分修复费用时，器材社仅可请求该费用的一半。这是教学规则的明确选择，不从公平口号推导比例。
-事实甲：3月1日，甲借相机用于室内拍摄，约定3月3日归还。甲3月2日拿到雨中拍照，说明书禁止淋雨。3月3日按期归还。检修单记录雨水进入电路是唯一损坏原因，实际修复费用600元已支付；无原有缺陷证据。题设把检修单内容作为已确认事实。
-老师：甲付600，当然，因为淋雨。这里省略了三步，你们写作时要补上。按期返还不等于其他义务都履行了。
-事实乙：乙也违反室内使用约定，把相机带到干燥室外。检修已经确认：电路断裂完全源于交付前的隐蔽焊接缺陷，户外使用对损坏没有贡献，实际修复费用600元。甲乙都“违规”，处理不能照抄。
-学生反驳：乙既然违规，为什么不让他承担一点，免得鼓励违规？老师：R2问的是这笔修复费用的请求条件，不能用惩罚愿望补出不存在的因果关系。是否另有处罚，我们的规则没写。
-还有一张不起眼的收据：甲自行购买100元相机背带，没有约定报销，也没有证明背带是修复所需。别把所有收据加到器材社的修复费用里。这与600元已确认修复费要分开。
-事实丙：丙违规在雨中拍照，器材社明知密封圈已裂却未告知。题设确认雨水和裂纹共同造成一笔不可分的800元修复费，单独任一因素都不会造成该次损坏。R4适用，四百元。注意这里换了什么事实，别把乙的“独立造成”搬过来。
-如果丙案仅有800元发票而没有上述原因查明，就不能仅凭发票直接下R4结论。我们在教学中可以列出需要证明的事项，但不能把缺失证据当作已经存在。
-考试提示：本课先列三项要件，再逐项绑定已知事实；答案必须分别解释乙不满足什么和丙为什么不是全免。这里的600、0、400是三组题设的结果，不是现实案件赔偿标准。
+[Synthetic case lecture; Mistbridge Equipment Society, its rules, people, and documents were created for testing. They are not real law or judgments.]
+This lecture works backward from how much compensation is due, so the order may be confusing. The arithmetic is easy; the real difficulty is first identifying whose loss it is, what caused it, and whether an exception applies.
+Equipment Society exercise rule R1: Borrowers must use equipment for the agreed purpose and return it on time. Ordinary wear does not breach that duty.
+R2: The Equipment Society has a claim for repair costs only when all three conditions hold: the borrower breached R1; actual repair costs were incurred for the equipment; and that breach caused those repair costs. An invoice proves only the listed charges, not by itself that the borrower's use caused them.
+R3: If a pre-existing latent defect independently caused the costs, R2's causal condition remains unsatisfied even if the borrower separately breached R1. This is not a reward for breaching the rules.
+R4: If the Equipment Society knew of a defect but failed to disclose it, and that defect and the borrower's breach jointly caused the same indivisible repair cost, the Society may claim only half that cost. The teaching rule expressly chooses this proportion; it is not inferred from a slogan about fairness.
+Facts A: On March 1, A borrowed a camera for indoor photography, agreeing to return it on March 3. On March 2, A used it in the rain, contrary to the manual's prohibition on rain exposure. A returned it on time on March 3. The inspection report records water entering the circuitry as the sole cause of damage; actual repair costs of 600 yuan have been paid, and there is no evidence of a pre-existing defect. The problem treats the report's contents as established facts.
+Teacher: A pays 600, of course, because of the rain. That skips three steps, which you must supply in your writing. Returning the camera on time does not mean every other duty was fulfilled.
+Facts B: B also breached the indoor-use agreement by taking the camera outdoors in dry conditions. Inspection has established that the circuit break was caused entirely by a latent soldering defect present before delivery; outdoor use made no contribution to the damage. Actual repair costs were 600 yuan. Both A and B 'broke the rules,' but their treatment cannot simply be copied.
+Student objection: Since B broke the rules, why not make B bear part of the cost to avoid encouraging breaches? Teacher: R2 concerns the conditions for a claim for this particular repair cost. A desire to punish cannot supply a causal relationship that does not exist. Our rules say nothing about any separate penalty.
+There is also an inconspicuous receipt: A independently bought a camera strap for 100 yuan, without an agreement for reimbursement or evidence that the strap was necessary for repair. Do not add every receipt to the Society's repair costs. Keep this separate from the established 600-yuan repair cost.
+Facts C: C breached the rules by taking photographs in the rain. The Equipment Society knew that the sealing ring was cracked but did not disclose it. The problem establishes that rain and the crack jointly caused a single indivisible repair cost of 800 yuan; neither factor alone would have caused this damage. R4 applies: 400 yuan. Notice which facts changed; do not import B's 'independent cause' here.
+If C's case contained only an 800-yuan invoice without the causal findings above, the invoice alone would not justify an R4 conclusion. Teaching can identify what needs to be proved, but cannot treat missing evidence as already available.
+Examination advice: First list the three conditions, then connect each to the known facts. Your answer must separately explain what B fails to satisfy and why C is not fully exempt. The results 600, 0, and 400 belong to these three sets of hypothetical facts; they are not compensation standards for real cases.

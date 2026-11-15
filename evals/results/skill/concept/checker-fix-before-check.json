@@ -1,7 +1,7 @@
 {
   "status": "needs_review",
   "scope": "finite_structural_checks",
-  "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+  "limitation": "Only limited structural checks passed; this does not establish legal correctness, coverage of meaning, teaching quality, or learning outcomes.",
   "errors": [
     {
       "code": "RUNTIME_CHANGED",
@@ -9,5 +9,14 @@
       "message": "needs_review: expected 265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5, actual 497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7; perform impact review before updating hashes"
     }
   ],
-  "exit_code": 2
+  "exit_code": 2,
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/concept/checker-fix-before-check.json",
+    "original_sha256": "eadc7b18eeb94927ce371c19cd29806905e22d5ff6d27b2f7efc23286186e4f5",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/concept/checker-fix-before-check.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

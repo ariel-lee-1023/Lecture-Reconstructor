@@ -41,5 +41,14 @@
       "status": "pass",
       "evidence": "skill-check.txt"
     }
-  ]
+  ],
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/mechanical/summary.json",
+    "original_sha256": "7018829df3925db16580b1411c47ea2a9e842c65985eb4be6fb4ef501944f29a",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/mechanical/summary.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

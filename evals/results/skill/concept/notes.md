@@ -1,7 +1,7 @@
-# 重构说明
+# Reconstruction notes
 
-原转录第6行已由说话者自我修正，正文采用完整的自己没有不进入义务，不称其为音频核验。新写权能名称用于解释第5、13行关系变动，不创设其他规则。丁的座位请求分析以处于确认写明的两小时为条件。自查第一轮纠正：丙的注册资格改为条件式；退款改为退还积分。保留入口障碍和其他救济的资料边界。
+The speaker already self-corrected line 6 of the original transcript. The manuscript uses the full formulation that the person has no duty not to enter, without describing it as audio verification. The newly added term power explains the relationship changes in lines 5 and 13; it creates no other rule. D's seat-claim analysis is conditional on being within the two hours specified in the confirmation. First-round self-review corrections: C's registration qualification became conditional, and refund was corrected to return of points. Preserve the material's limits regarding entry obstructions and other remedies.
 
-只有本次生成者做过全篇输入—成稿对照；独立评审、真实课堂试用、学习效果测量均为 not_run。
+Only this generator has compared the entire input and manuscript; independent review, a real classroom trial, and measurement of learning outcomes are all not_run.
 
-执行环境先缺少 schemas/run.schema.json，随后主任务补入并实际读取；SKILL、四份 references 及原记录的脚本哈希重新核对均未变化。
+The execution environment initially lacked schemas/run.schema.json; the parent task subsequently supplied it and it was actually read. Rechecking SKILL, all four references, and the original recorded script hashes found no changes.

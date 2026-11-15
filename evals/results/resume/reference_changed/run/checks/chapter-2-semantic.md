@@ -1,14 +1,14 @@
-# 第二章直接对源复核
+# Chapter 2 direct review against the source
 
-UTC：2026-11-15T02:25:08.139471+00:00；本次执行代理自查，宿主Codex desktop，精确模型unknown；非独立评审。实际读取落盘章稿SHA：950d3968fab2c7d3d62e5dbdef3ffa871238ca474443bc0eaf75a411e2dc19b0，对照input/transcript.txt第8—13行及第一章关系前提。
+UTC: 2026-11-15T02:25:08.139471+00:00. Self-review by the executing agent, host Codex desktop, exact model unknown; not independent review. Actual saved chapter SHA read: 950d3968fab2c7d3d62e5dbdef3ffa871238ca474443bc0eaf75a411e2dc19b0, compared with input/transcript.txt lines 8–13 and chapter 1's relationship premises.
 
-| 源行 | 锚点 | 事件—时间—触发条件核对与结果 |
+| Source line | Anchor | Event–time–trigger check and result |
 |---|---|---|
-| 8 | ch2-withdrawal | 开始前一日不晚于18:00到达；附则包含整点，发出不触发生效；超过期限另须双方同意。pass |
-| 9 | ch2-arrival-comparison、ch2-withdrawal-scope | 戊17:50发出/18:05到达不能单方撤销，己18:00到达及时；撤销仅作用该预约，不取消成员许可。pass |
-| 10 | ch2-suspension | 即时险情须封闭；可暂停/应退；不自动撤销，恢复在原确认时段内才有剩余履行且不顺延。pass |
-| 11 | ch2-xin | 预约10—12；封闭10—11；开放11；迟到11:30；届满12。没有互换各事件，未把12:30当新终点。pass |
-| 12 | ch2-lateness-objection | 保留合成学生反驳及因果差别；L3看封闭影响，不以本人实际在座时间退全部。pass |
-| 13 | ch2-geng | 庚周二17:58发出/18:02收到、无同意证据；周三封闭10—11/11恢复，周三预约对应周二18点截止。结论是撤销失败、暂停一小时、剩余11—12有效。pass |
+| 8 | ch2-withdrawal | Receipt no later than 18:00 on the preceding day; the supplementary rule includes the exact hour, sending does not trigger effect, and mutual agreement is separately required after the deadline. pass |
+| 9 | ch2-arrival-comparison, ch2-withdrawal-scope | E's sending at 17:50/receipt at 18:05 cannot cancel unilaterally; F's receipt at 18:00 is timely. Cancellation affects only that reservation, not membership permission. pass |
+| 10 | ch2-suspension | An immediate hazard requires closure; suspension is permitted/refund required. No automatic cancellation; remaining performance is available only if reopening occurs within the original interval, without extension. pass |
+| 11 | ch2-xin | Reservation 10:00–12:00; closure 10:00–11:00; reopening 11:00; late arrival 11:30; expiry 12:00. Events are not interchanged, and 12:30 is not treated as a new end. pass |
+| 12 | ch2-lateness-objection | Retains the synthetic student's objection and causal distinction. L3 concerns closure effects, not a full refund based on actual seated time. pass |
+| 13 | ch2-geng | G sends Tuesday 17:58/receipt 18:02, without evidence of agreement; Wednesday closure 10:00–11:00/reopening 11:00. Wednesday's reservation has a Tuesday 18:00 deadline. Cancellation fails, suspension lasts one hour, and 11:00–12:00 remains valid. pass |
 
-已直接检查否定、单方/协商独立路线、可以/应当、成员/预约范围。章节衔接兑现第一章关系对象，并为第三章提供有效预约和重叠时段，未提前给没有计价依据的数额。原计划u10—u21全部已解释；直接对源未发现计划外遗漏或关键缺陷。结果pass；修订轮数0。真实课堂试用与学习效果not_run。
+Directly checked negation, independent unilateral/negotiated routes, may/must, and membership/reservation scope. Chapter connections carry forward chapter 1's relationships and supply chapter 3 with the valid reservation and overlapping interval, without giving an amount before a rate is available. All planned items u10–u21 are explained; direct source comparison found no unplanned omission or critical defect. Result pass; revision rounds 0. Real classroom trial and learning outcomes: not_run.

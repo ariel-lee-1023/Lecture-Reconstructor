@@ -1,33 +1,33 @@
-# 全课计划
+# Whole-course plan
 
-状态：全21行已读；仅第一章已写并作局部语义复核。第二、三章只规划，正文尚未生成。全部规则和人物均为合成教学假设，不指向现行法、真实课堂或真实学习效果。
+Status: all 21 lines have been read; only chapter 1 has been written and locally reviewed for meaning. Chapters 2 and 3 are planned, with no prose generated yet. All rules and people are synthetic teaching hypotheticals, not current law, a real class, or actual learning outcomes.
 
-整体问题：把庚的完整经历按“关系成立—关系变动—后果—复核”连接起来，说明每个条件为何影响结果。无前后课资料，不假设已学过某项结论。
+Whole problem: connect G's complete sequence through 'establishment of the relationship—changes—consequences—review,' explaining why each condition affects the outcome. No preceding or subsequent class material is available; do not assume a conclusion was previously learned.
 
-| 章节 | 学习对象与关键关系 | 先修 | 讲法与全课作用 | 源范围与状态 |
+| Chapter | Learning object and key relationships | Prerequisites | Explanatory approach and role in the whole course | Source range and status |
 |---|---|---|---|---|
-| 第一章：进入许可与座位义务 | 许可的作用对象；成功确认的独立条件；义务主体与相对人 | 不设前课先修；章内解释许可与义务 | 从庚整体经历进入，以甲、丁、借线和材料中的学生反问说明不同关系，为后续变动确定对象 | 第1—7行；reviewed |
-| 第二章：撤销、暂停与届满 | 发出与到达、单方撤销与双方协商、消灭与暂停、成员身份与预约关系 | 第一章关系两层及成功确认 | 完整讲L2、附则及L3；比较戊、己，分析辛及迟到反驳，再确定庚关系变动；保留每个时刻 | 第8—13行；planned |
-| 第三章：积分后果与复核 | 有效预约和封闭的重叠、实际在座时间与受影响时段、程序及时与实体正确 | 前两章确定的关系及变动 | 先用壬作计算完整示范，再用癸解释七日期限，整合庚；纳入17:59变式的规则缺口和教师考试提示，回扣全课 | 第14—21行；planned |
+| Chapter 1: permission to enter and the seating duty | Permission's object; the independent condition of successful confirmation; duty bearer and counterpart | No preceding-class prerequisite; explain permission and duty within the chapter | Begin with G's whole sequence; use A, D, cable borrowing, and the supplied student objection to explain distinct relationships and identify what later changes affect | Lines 1—7; reviewed |
+| Chapter 2: cancellation, suspension, and expiration | Sending/receipt, unilateral cancellation/bilateral negotiation, termination/suspension, membership/reservation | Chapter 1's two relationships and successful confirmation | Explain L2, its supplement, and L3 completely; compare E and F, analyze H and the lateness objection, then determine changes in G's relationship; preserve every time | Lines 8—13; planned |
+| Chapter 3: points consequences and review | Overlap of a valid reservation with closure, time actually seated/affected time, procedural timeliness/substantive correctness | Relationships and changes established in the first two chapters | Give a complete calculation using I, explain the seven-day deadline through J, then integrate G; include the 17:59 variant's rule gap and the teacher's examination advice, returning to the whole course | Lines 14—21; planned |
 
-## 第二章待写的顺序
+## Planned writing order for chapter 2
 
-1. L2的单方撤销：开始前一日不晚于18:00到达；本练习附则包括18:00整。解释发送与到达不同，超期协商须双方同意。
-2. 戊17:50发送、18:05到达与己18:00到达对照；解释撤销对象是该预约的请求与义务，成员身份和进入许可仍须区分。
-3. L3的即时安全险情与封闭条件；暂停、恢复后的剩余时段与原结束时间；不把封闭改写成自动撤销。
-4. 辛10—12点预约、10—11点封闭、11点开放及11:30迟到变式；承接“没坐满就退全部”反驳。
-5. 庚周二17:58发送、18:02到达，无管理人协商同意证据；周三10—11点封闭、11点恢复。先分析关系状态，把数额留待第三章。
+1. L2 unilateral cancellation: receipt no later than 18:00 on the preceding day; this exercise's supplement includes exactly 18:00. Explain that sending and receipt differ and that negotiation after the deadline requires both parties' consent.
+2. Contrast E's sending at 17:50 and receipt at 18:05 with F's receipt at 18:00. Explain that cancellation affects this reservation's claim and duty; membership and permission to enter remain distinct.
+3. L3's immediate-safety-emergency and closure conditions; suspension, the remainder after reopening, and the original end time; do not rewrite closure as automatic cancellation.
+4. H's 10:00—12:00 reservation, 10:00—11:00 closure, 11:00 reopening, and the 11:30 late-arrival variant; address the objection that failure to use the whole period requires a full refund.
+5. G sends Tuesday at 17:58 and arrives at 18:02, with no evidence of the manager's negotiated consent. Wednesday closure lasts 10:00—11:00, reopening at 11:00. Analyze the relationship's status first, leaving amounts for chapter 3.
 
-## 第三章待写的顺序
+## Planned writing order for chapter 3
 
-1. L4每小时10积分、半小时5积分，只处理整半小时；按封闭与有效预约重叠时段结合L3计算。
-2. 壬10—12点预约、9:30—10:30封闭；说明为什么预约前封闭不能计入，指出错误计算的条件错位。
-3. L5得知次日起算七日、第七日结束前到达；复核检查事实与规则，不推定管理员正确，无申请自动暂停效果。
-4. 癸周四得知、下周四到达；未知得知日不编造期限结论。
-5. 庚被扣20只退5，周四得知、下周三申请当日到达。回接成功确认、撤销及封闭，分别得出实体和程序分析，不能互相替代。
-6. 改成周二17:59到达的反例：处理L2未规定及时撤销积分结算这一缺口，禁止自动套用L3。
-7. 保留合成材料中教师的考试提示及适用限制；整体回扣四组区分，概念比较题不机械套四段。
+1. L4 charges 10 points per hour and 5 per half-hour, addressing only exact half-hour units. Combine it with L3 to calculate from the overlap between closure and a valid reservation.
+2. I reserves 10:00—12:00 and closure lasts 9:30—10:30. Explain why pre-reservation closure cannot count and identify the condition mismatch in the mistaken calculation.
+3. L5 counts seven days from the day after awareness, with receipt before the end of day seven. Review checks facts and rules without presuming the administrator correct; application has no automatic suspensive effect.
+4. J learns of the decision on Thursday, with receipt the following Thursday. Do not invent a deadline conclusion when the awareness date is unknown.
+5. G is charged 20 and refunded only 5, learns this on Thursday, and applies the following Wednesday with receipt that day. Reconnect successful confirmation, cancellation, and closure, drawing separate substantive and procedural conclusions that cannot substitute for one another.
+6. Counterexample with receipt changed to Tuesday 17:59: address the gap that L2 does not specify points settlement after timely cancellation, without automatically applying L3.
+7. Preserve the synthetic teacher's examination advice and its limits. Return to the four distinctions across the course; do not mechanically impose four parts on conceptual comparisons.
 
-## 后续检查
+## Subsequent checks
 
-第二章完成后保存章稿与原子更新run.json；第三章亦同。之后合并全文，直接重新对照21行源文本，检查微小案例、学生反驳、反例、否定和考试提示；进行全篇语义复核和机械检查。真实课堂试用及学习效果保持not_run。
+After chapter 2, save its manuscript and atomically update run.json; do the same after chapter 3. Then assemble the full text and compare it directly against all 21 source lines again, checking small cases, student objections, counterexamples, negations, and examination advice. Perform whole-manuscript semantic review and mechanical checks. Real classroom trials and learning outcomes remain not_run.

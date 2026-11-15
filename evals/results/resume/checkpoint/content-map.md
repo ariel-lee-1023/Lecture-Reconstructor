@@ -1,39 +1,39 @@
-# 全课内容映射
+# Whole-course content map
 
-源为input/transcript.txt，行号1起算，两端包含。第一章represented；后两章unresolved（待写，阻止complete）。
+The source is input/transcript.txt, using one-based inclusive line ranges. Chapter 1 is represented; the later two chapters are unresolved (unwritten, blocking complete).
 
-| ID | 源行 | 类型 | 命题 | 目标 | 状态 |
+| ID | Source lines | Type | Proposition | Target | Status |
 |---|---|---|---|---|---|
-| u01 | 1—1 | 范围 | 全部材料是合成教学假设；非现行法或真实课堂，未提供前后课资料。 | ch-1#ch1-scope | represented |
-| u02 | 2—2 | 整体问题 | 连接进入、预约、撤销、费用与复核，最终分析庚完整经历；周一确认周三10—12点。 | ch-1#ch1-whole-task | represented |
-| u03 | 3—3 | 规则 | L1：注册成员可进入公共阅览区，进入许可不保证座位。 | ch-1#ch1-permission | represented |
-| u04 | 3—3 | 规则 | L1：成功确认才产生管理人对预约人的确认时段标准座位义务；点击、排队及已接收不等于确认。 | ch-1#ch1-confirmation | represented |
-| u05 | 4—4 | 案例 | 甲只有注册，不足以推出乙让位义务。 | ch-1#ch1-jia | represented |
-| u06 | 4—4 | 案例 | 丁有成功确认，座位满不能用进入许可否定管理人义务；两层关系并存。 | ch-1#ch1-ding | represented |
-| u07 | 5—5 | 边缘案例 | 借线许可无优先权或对特定人的交付承诺；座位规则不能移植为借线规则。 | ch-1#ch1-cable | represented |
-| u08 | 6—6 | 实质反驳 | 许可不是无用：排除本规则下进入禁止，但不保证座位条件充分。 | ch-1#ch1-student-objection | represented |
-| u09 | 7—7 | 阶段结论 | 庚成功确认使关系成立；后续变动尚未分析，不能预判一定坐到12点。 | ch-1#ch1-geng | represented |
-| u10 | 8—8 | 规则 | L2单方撤销须在开始前一日不晚于18:00；附则明确包含18:00整。 | ch-2#ch2-withdrawal | unresolved |
-| u11 | 8—8 | 条件 | 撤销在通知到达系统时生效，发送不是到达。 | ch-2#ch2-withdrawal | unresolved |
-| u12 | 8—8 | 替代路线 | 超过期限只能协商且须双方同意，发送请求不是同意。 | ch-2#ch2-withdrawal | unresolved |
-| u13 | 9—9 | 案例 | 戊17:50发出、18:05到达，不能单方消灭预约。 | ch-2#ch2-arrival-comparison | unresolved |
-| u14 | 9—9 | 边界案例 | 己18:00到达，及时生效；关键对照是到达时刻，其他条件相同。 | ch-2#ch2-arrival-comparison | unresolved |
-| u15 | 9—9 | 作用范围 | 撤销消灭预约产生的座位请求及对应义务，不取消成员身份及进入许可。 | ch-2#ch2-withdrawal-scope | unresolved |
-| u16 | 10—10 | 规则 | L3即时安全险情须封闭时可暂停提供座位义务，应退实际受影响时段积分。 | ch-2#ch2-suspension | unresolved |
-| u17 | 10—10 | 例外与边界 | 封闭不自动撤销；确认时段内恢复后剩余时段有效，不延长结束时间。 | ch-2#ch2-suspension | unresolved |
-| u18 | 11—11 | 案例 | 辛10—12点预约、10—11点封闭、11点开放，可使用剩余一小时并退受影响一小时积分。 | ch-2#ch2-xin | unresolved |
-| u19 | 11—11 | 反例 | 暂停、撤销、届满不同；12点届满，11:30才到不顺延。 | ch-2#ch2-xin | unresolved |
-| u20 | 12—12 | 实质反驳 | 没坐满不等于退全部；L3依据受封闭影响时段，个人迟到原因不同。 | ch-2#ch2-lateness-objection | unresolved |
-| u21 | 13—13 | 阶段案例 | 庚周二17:58发送、18:02收到，无协商同意证据；周三10—11点封闭、11点恢复，先定关系状态。 | ch-2#ch2-geng | unresolved |
-| u22 | 14—14 | 规则与限制 | L4每小时10积分、半小时5积分，只处理整半小时，其他粒度未规定。 | ch-3#ch3-calculation | unresolved |
-| u23 | 14—14 | 计算条件 | L3退款取封闭与有效预约重叠，预约开始前封闭不计。 | ch-3#ch3-calculation | unresolved |
-| u24 | 15—15 | 完整示范 | 壬10—12点预约、9:30—10:30封闭，重叠半小时退5；误算10多计预约外半小时，剩余10:30—12点有效。 | ch-3#ch3-ren | unresolved |
-| u25 | 16—16 | 程序规则 | L5得知次日起七日，第七日结束前到达系统及时。 | ch-3#ch3-review | unresolved |
-| u26 | 16—16 | 审查与效力 | 复核检查规则适用与时间事实，不推定管理员正确，未规定申请自动暂停其他决定。 | ch-3#ch3-review | unresolved |
-| u27 | 17—17 | 期限案例 | 癸周四得知，下周四是第七日，当天到达及时；算法仅据练习明文。 | ch-3#ch3-gui | unresolved |
-| u28 | 17—17 | 证据边界 | 缺得知日期时不能编造期限是否届满。 | ch-3#ch3-gui | unresolved |
-| u29 | 18—18 | 整合案例 | 庚扣20退5、周四得知、下周三申请当日到达；联系确认、撤销失败及一小时封闭，分开实体与程序判断。 | ch-3#ch3-geng | unresolved |
-| u30 | 19—19 | 反例 | 改成庚周二17:59到达则预约已消灭，不能继续照用有效预约与封闭重叠的分析。 | ch-3#ch3-variant | unresolved |
-| u31 | 19—19 | 材料缺口 | L2未规定及时撤销的积分结算，不能自动套L3。 | ch-3#ch3-variant | unresolved |
-| u32 | 20—20 | 教师考试提示 | 完整案例按成立—变动—后果—复核，概念比较不机械四段；只解释条件影响，不承诺现实考试评分。 | ch-3#ch3-exam | unresolved |
-| u33 | 21—21 | 整体回扣 | 庚案串起发出/到达、暂停/消灭、在座/受影响、程序/实体四组区别；推论限练习规则，无前课不假装已证明。 | ch-3#ch3-synthesis | unresolved |
+| u01 | 1—1 | Scope | All material is synthetic teaching hypotheses, not current law or an actual class; no preceding or subsequent class materials were supplied. | ch-1#ch1-scope | represented |
+| u02 | 2—2 | Whole problem | Connect entry, reservation, cancellation, charges, and review, ultimately analyzing G's entire sequence; Monday confirmation for Wednesday 10:00—12:00. | ch-1#ch1-whole-task | represented |
+| u03 | 3—3 | Rule | L1: registered members may enter the public reading area; permission to enter does not guarantee a seat. | ch-1#ch1-permission | represented |
+| u04 | 3—3 | Rule | L1: only successful confirmation creates the manager's duty to provide the reserving person a standard seat during the confirmed period; clicking, queuing, and acknowledgment are not confirmation. | ch-1#ch1-confirmation | represented |
+| u05 | 4—4 | Case | A has only registration, which cannot establish B's duty to yield. | ch-1#ch1-jia | represented |
+| u06 | 4—4 | Case | D has successful confirmation; with seats full, permission to enter cannot negate the manager's duty. Both relationships coexist. | ch-1#ch1-ding | represented |
+| u07 | 5—5 | Boundary case | Permission to borrow a cable includes neither priority nor a promise of delivery to a specific person; the seating rule cannot be transplanted into cable borrowing. | ch-1#ch1-cable | represented |
+| u08 | 6—6 | Substantive objection | Permission is not useless: it excludes an entry prohibition under this rule, but does not ensure sufficient conditions for seating. | ch-1#ch1-student-objection | represented |
+| u09 | 7—7 | Interim conclusion | G's successful confirmation establishes the relationship; later changes remain unanalyzed, so a guaranteed seat until 12:00 cannot be predicted. | ch-1#ch1-geng | represented |
+| u10 | 8—8 | Rule | L2 permits unilateral cancellation no later than 18:00 on the preceding day; the supplementary provision explicitly includes exactly 18:00. | ch-2#ch2-withdrawal | unresolved |
+| u11 | 8—8 | Condition | Cancellation takes effect when notice reaches the system; sending is not receipt. | ch-2#ch2-withdrawal | unresolved |
+| u12 | 8—8 | Alternative route | After the deadline, only negotiation with both parties' consent is available; sending a request is not consent. | ch-2#ch2-withdrawal | unresolved |
+| u13 | 9—9 | Case | E sends at 17:50 and arrives at 18:05; the reservation cannot be terminated unilaterally. | ch-2#ch2-arrival-comparison | unresolved |
+| u14 | 9—9 | Boundary case | F arrives at 18:00 and cancellation takes effect in time; receipt time is the key contrast, with other conditions unchanged. | ch-2#ch2-arrival-comparison | unresolved |
+| u15 | 9—9 | Scope of effect | Cancellation terminates the reservation-based seat claim and corresponding duty, not membership or permission to enter. | ch-2#ch2-withdrawal-scope | unresolved |
+| u16 | 10—10 | Rule | L3 permits suspension of the seating duty when an immediate safety emergency requires closure; points for the actually affected period must be refunded. | ch-2#ch2-suspension | unresolved |
+| u17 | 10—10 | Exception and boundary | Closure does not automatically cancel the reservation. If reopening occurs within the confirmed period, the remainder remains valid without extending the end time. | ch-2#ch2-suspension | unresolved |
+| u18 | 11—11 | Case | H reserves 10:00—12:00; closure lasts 10:00—11:00 and reopening occurs at 11:00. H may use the remaining hour and receive a refund of reservation points for the affected hour. | ch-2#ch2-xin | unresolved |
+| u19 | 11—11 | Counterexample | Suspension, cancellation, and expiration differ. The period expires at 12:00; arrival at 11:30 does not extend it. | ch-2#ch2-xin | unresolved |
+| u20 | 12—12 | Substantive objection | Not using the full period does not imply a full refund. L3 concerns time affected by closure; personal lateness has a different cause. | ch-2#ch2-lateness-objection | unresolved |
+| u21 | 13—13 | Interim case | G sends Tuesday at 17:58; receipt occurs at 18:02, with no evidence of negotiated consent. Wednesday closure lasts 10:00—11:00, reopening at 11:00. Determine the relationship's status first. | ch-2#ch2-geng | unresolved |
+| u22 | 14—14 | Rule and limitation | L4 charges 10 points per hour and 5 per half-hour, addressing only exact half-hour units; other increments are unspecified. | ch-3#ch3-calculation | unresolved |
+| u23 | 14—14 | Calculation condition | The L3 refund uses overlap between closure and a valid reservation; closure before the reservation starts does not count. | ch-3#ch3-calculation | unresolved |
+| u24 | 15—15 | Complete demonstration | I reserves 10:00—12:00; closure lasts 9:30—10:30. The half-hour overlap yields a refund of 5. A mistaken refund of 10 includes half an hour outside the reservation; the remaining 10:30—12:00 stays valid. | ch-3#ch3-ren | unresolved |
+| u25 | 16—16 | Procedural rule | L5 counts seven days beginning the day after awareness; receipt by the system before the end of day seven is timely. | ch-3#ch3-review | unresolved |
+| u26 | 16—16 | Review and effect | Review checks rule application and timing facts, without presuming the administrator correct; no automatic suspension of other decisions upon application is provided. | ch-3#ch3-review | unresolved |
+| u27 | 17—17 | Deadline case | J learns of the decision on Thursday; the following Thursday is day seven, and receipt that day is timely. The calculation rests solely on the exercise's express wording. | ch-3#ch3-gui | unresolved |
+| u28 | 17—17 | Evidence boundary | Without the date of awareness, do not invent whether the deadline has expired. | ch-3#ch3-gui | unresolved |
+| u29 | 18—18 | Integrated case | G is charged 20 and refunded 5, learns this on Thursday, and applies the following Wednesday with receipt that day. Connect confirmation, failed cancellation, and one-hour closure, separating substantive and procedural judgments. | ch-3#ch3-geng | unresolved |
+| u30 | 19—19 | Counterexample | If G's notice instead arrives Tuesday at 17:59, the reservation has ended; the valid-reservation/closure-overlap analysis cannot simply continue. | ch-3#ch3-variant | unresolved |
+| u31 | 19—19 | Material gap | L2 does not specify points settlement for timely cancellation; L3 cannot automatically be applied. | ch-3#ch3-variant | unresolved |
+| u32 | 20—20 | Teacher's examination advice | Use establishment—change—consequences—review for a complete case, without mechanically imposing four parts on conceptual comparisons. Explain only how conditions affect results; make no promise about real examination marking. | ch-3#ch3-exam | unresolved |
+| u33 | 21—21 | Whole-course synthesis | G's case connects four distinctions: sent/received, suspended/terminated, seated/affected, and procedural/substantive. Inferences remain within the exercise rules; without earlier-class material, do not pretend something was already proved. | ch-3#ch3-synthesis | unresolved |

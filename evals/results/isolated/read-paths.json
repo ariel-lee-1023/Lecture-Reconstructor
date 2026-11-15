@@ -1,5 +1,5 @@
 {
-  "scope_note": "这是任务内容文件的实际读取清单，不是操作系统调用审计；标准库不作为课程材料。",
+  "scope_note": "This is a list of task-content files actually read, not an audit of operating-system calls; the standard library is not treated as course material.",
   "external_reads": [
     {
       "path": "<isolated>/package/SKILL.md",
@@ -195,5 +195,14 @@
     }
   ],
   "final_checker_exit_code": 0,
-  "completed_at_utc": "2026-11-15T02:18:19.456505+00:00"
+  "completed_at_utc": "2026-11-15T02:18:19.456505+00:00",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/isolated/read-paths.json",
+    "original_sha256": "9511d2a559b4241ca86db6a71e38b4c0fede9323ed8e0e422b245cfa4efff297",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/isolated/read-paths.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

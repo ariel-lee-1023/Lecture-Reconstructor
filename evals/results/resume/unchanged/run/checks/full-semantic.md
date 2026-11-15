@@ -1,40 +1,40 @@
-# 全篇直接对源语义自查
+# Whole-manuscript semantic self-review directly against the source
 
-UTC：2026-11-15T02:24:37.486812+00:00。评审者：本次恢复执行代理；Codex desktop，精确模型ID及采样设置unknown，已知开发者仅描述GPT-6家族。本次为同代理自查，独立评审not_run。实际操作：重新完整读取input/transcript.txt的全部21行和实际落盘lecture.md全文，非仅检查content-map；也已读取逐字一致的input/original.txt，并逐章重读新增章稿。所评主稿SHA-256：7d8bae4dd4159c369fc7a3f15d730d2875bce374cc917b20b746be9e3125799d。输入SHA-256：077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6。
+UTC: 2026-11-15T02:24:37.486812+00:00. Reviewer: this recovery executor, Codex desktop; exact model ID and sampling settings unknown, with only the developer's GPT-6-family description known. This is self-review by the same agent; independent review not_run. Actual procedure: reread all 21 lines of input/transcript.txt and the entire actual saved lecture.md, not merely content-map. Also read the verbatim-identical input/original.txt and reread newly added chapters individually. Reviewed manuscript SHA-256: 7d8bae4dd4159c369fc7a3f15d730d2875bce374cc917b20b746be9e3125799d. Input SHA-256: 077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6.
 
-## 逐行核验与原清单之外的查漏
+## Line-by-line verification and omissions beyond the original inventory
 
-| 源行 | 正文位置 | 核验结论与具体证据 |
+| Source line | Prose location | Verification conclusion and specific evidence |
 |---|---|---|
-| 1 | ch1-scope | 合成身份、非现实法律/课堂、无前后课明确；未把夹具角色当真实学生。 |
-| 2 | ch1-whole-task、ch3-geng | 庚周一确认周三10—12点的贯穿任务保留；开头暂缓取消结论，第二、三章兑现完整分析。 |
-| 3 | ch1-permission、ch1-confirmation | 许可不保证座位；系统成功确认、管理人、预约人、确认时段、标准座位条件齐全；点击/排队/已接收三项否定未丢。 |
-| 4 | ch1-jia、ch1-ding | 甲注册不能推出乙让位；丁确认义务不能用普遍许可否认；两层并存，义务主体差异显明。 |
-| 5 | ch1-cable | 小例借线完整保留，许可不产生优先/交付义务，不将座位规则移植到借线。 |
-| 6 | ch1-student-objection | 学生反问的合成身份保留；解释许可排除进入禁止，却不能保证座位条件充分。 |
-| 7 | ch1-geng | 成立只作为后续起点，不提前承诺坐到12点；后两章的变动和后果衔接兑现。 |
-| 8 | ch2-withdrawal | 前一日、不晚于18:00且含整点、通知到达、超期双方同意完整；未把单方失败扩成协商绝不可能。 |
-| 9 | ch2-arrival-comparison、ch2-withdrawal-scope | 戊17:50/18:05，己18:00，改变到达而其他条件相同；撤销限预约请求和对应义务，不取消身份许可。 |
-| 10 | ch2-suspension | 即时安全险情使场地必须封闭；可以暂停而应当退分，封闭不自动撤销，恢复剩余时段且不延期。 |
-| 11 | ch2-xin | 辛10—12、10—11封闭、11开放及12届满；11:30才到的半小时反例保留，未顺延。 |
-| 12 | ch2-lateness-objection | 学生“没坐满全退”反驳保留并回应，受封闭影响与个人迟到分别归因。 |
-| 13 | ch2-geng、ch3-geng | 庚周二17:58发出/18:02收到未互换；无双方同意证据；周三10—11暂停、11—12有效。 |
-| 14 | ch3-calculation | 小时10、半小时5；只整半小时的限制保留；有效预约与封闭取重叠，预约前封闭剔除。 |
-| 15 | ch3-ren | 壬预约10—12、封闭9:30—10:30，半小时退5；错误退10的前提错误充分说明；10:30—12仍有效。 |
-| 16 | ch3-review | 得知次日起7日、第7日结束前到达；复核检查规则与时间、不推定管理员正确；无申请自动暂停效果。 |
-| 17 | ch3-gui | 周四得知，下周四第7日；列出各日供核验。未知得知日期不能判期限，仅本练习算法。 |
-| 18 | ch3-geng | 扣20仅退5事实保持；与确认、撤销失败、封闭1小时连接，给出总退10/再退5；周四得知、下周三到达第6日，程序及时单独推出。 |
-| 19 | ch3-variant | 17:59变式使预约消灭，不能沿用L3；不仅没猜总退10，也没有猜0或20，明确需撤销结算规则。 |
-| 20 | ch3-exam | 教师四段提示及概念比较题例外保留，理由为条件影响结论，不冒称现实考试标准。 |
-| 21 | ch3-synthesis | 发出/到达、暂停/消灭、在座/受影响、程序/实体四组区别逐一回扣庚；限练习，无前课偷渡。 |
+| 1 | ch1-scope | Explicit synthetic identity, not real law/a classroom, and no adjacent lectures; fixture characters are not treated as real students. |
+| 2 | ch1-whole-task, ch3-geng | Retains G's continuous task: Monday confirmation for Wednesday 10:00–12:00. The opening postpones cancellation judgment; chapters 2 and 3 complete the analysis. |
+| 3 | ch1-permission, ch1-confirmation | Permission guarantees no seat. Successful system confirmation, administrator, reservation holder, confirmed interval, and standard seat conditions are complete. Clicking/queuing/receipt remain insufficient. |
+| 4 | ch1-jia, ch1-ding | A's registration cannot entail B's yielding; general permission cannot negate the duty following D's confirmation. Both relationships coexist, with distinct duty-bearers clear. |
+| 5 | ch1-cable | Fully preserves the small cable example: permission creates no priority/delivery duty, and seat rules are not transplanted to borrowing. |
+| 6 | ch1-student-objection | Preserves the synthetic identity of the student objection; explains that permission removes the entry prohibition without supplying sufficient seat conditions. |
+| 7 | ch1-geng | Formation is only the starting point, not an advance guarantee of seating until 12:00. The next two chapters deliver the promised changes and consequences. |
+| 8 | ch2-withdrawal | Preceding day, no later than 18:00 including the exact hour, notice receipt, and post-deadline mutual consent are complete. Failed unilateral cancellation does not become impossibility of negotiation. |
+| 9 | ch2-arrival-comparison, ch2-withdrawal-scope | E 17:50/18:05 versus F 18:00 changes receipt with other conditions equal. Cancellation affects only the reservation claim and corresponding duty, not membership permission. |
+| 10 | ch2-suspension | An immediate safety hazard requires closure. Suspension is permitted and points refund required; closure does not cancel automatically, and reopening preserves the remainder without extension. |
+| 11 | ch2-xin | H 10:00–12:00, closure 10:00–11:00, reopening 11:00, expiry 12:00. Retains the half-hour counterexample of arrival only at 11:30, without extension. |
+| 12 | ch2-lateness-objection | Retains and answers the student's full-refund-for-unused-time objection, attributing closure effects and personal lateness separately. |
+| 13 | ch2-geng, ch3-geng | G's Tuesday sending 17:58/receipt 18:02 are not interchanged; no mutual agreement is evidenced. Wednesday suspension 10:00–11:00, valid remainder 11:00–12:00. |
+| 14 | ch3-calculation | 10 points per hour, 5 per half-hour; retains the whole-half-hour limit. Intersects valid reservation with closure, excluding pre-reservation closure. |
+| 15 | ch3-ren | I's reservation 10:00–12:00, closure 9:30–10:30, half-hour refund 5 points. Fully explains the false premise behind refund 10; 10:30–12:00 remains valid. |
+| 16 | ch3-review | 7 days from the day after knowledge, receipt before day 7 ends. Review checks rules and times without presuming administrator correctness; no automatic suspension upon application. |
+| 17 | ch3-gui | Thursday knowledge, next Thursday day 7; each day is listed for verification. Without the knowledge date, the deadline cannot be judged; the calculation is limited to this exercise. |
+| 18 | ch3-geng | Debit 20/refund only 5 points is preserved, connected to confirmation, failed cancellation, and 1-hour closure to yield total refund 10/additional 5. Thursday knowledge and next-Wednesday receipt give day 6; timeliness is inferred separately. |
+| 19 | ch3-variant | The 17:59 variant extinguishes the reservation; L3 cannot continue to apply. Neither total refund 10 nor 0 or 20 points is guessed; a cancellation-settlement rule is explicitly needed. |
+| 20 | ch3-exam | Retains the teacher's four-part advice and conceptual-comparison exception, grounded in conditions affecting conclusions, without claiming a real examination standard. |
+| 21 | ch3-synthesis | Sending/receipt, suspension/extinction, seated/affected time, and procedure/substance each return to G; limited to the exercise, without importing a prior lecture. |
 
-上述按源全文重新阅读，特别查找了借线边缘例、整点边界、11:30迟到、壬预约外封闭、未知得知日、17:59变式、概念题例外等易漏细节，未仅凭33项清单断言覆盖。
+This review reread the whole source, specifically checking easily missed details: the cable example, exact-hour boundary, 11:30 lateness, I's pre-reservation closure, unknown knowledge date, 17:59 variant, and conceptual-question exception. Coverage was not asserted merely from the 33-item inventory.
 
-## 跨章和新增说明检查
+## Cross-chapter and added-explanation checks
 
-- 第一章的许可与座位义务，在第二章撤销作用范围和第三章整合中保持同一主体、对象与条件；“管理人/管理员”按原术语决定是同一管理角色。
-- 第1章成立—第2章变动—第3章后果与复核的顺序兑现开场整体问题；章末铺垫均有后文。重复庚的关键事实是分步展开与最后整合，未产生矛盾。
-- L1至L5的可以/应当、否定、主体、时间、例外已核对；金额来自给定时长与单价，天数来自次日起算。未加入外部法律事实、真实案例、学生反馈或原书新归属。
-- 两处规则不足仍未解决：及时撤销后结算、非整半小时计价。它们在原材料中是应明示的教学边界；正文已经完成边界解释。因此在既定课程范围内可交完整稿，若要求范围外唯一金额须再补规则。open_issues保持open，不伪造解决。
+- Chapter 1's permission and seat duty retain the same parties, objects, and conditions in chapter 2's cancellation scope and chapter 3's integration. “Manager/administrator” follow the original terminology decision as the same administrative role.
+- The sequence of chapter 1 formation, chapter 2 changes, and chapter 3 consequences/review fulfills the opening whole problem. Every chapter-end setup is developed later. G's key facts are repeated for stepwise development and final integration, without contradictions.
+- Checked may/must, negation, parties, times, and exceptions in L1–L5. Amounts derive from supplied durations and rates; day counts begin the following day. No external legal facts, real cases, student feedback, or new original-book attribution were added.
+- Two rule gaps remain unresolved: settlement after timely cancellation and rates for non-whole-half-hour increments. The original material presents them as teaching boundaries to state explicitly, and the prose completes that explanation. A complete manuscript can therefore be delivered within the established course scope; unique amounts outside it require additional rules. open_issues remains open, without fabricated resolution.
 
-结论：全篇同代理语义自查pass；本次观察到的待修关键缺陷0，未启动聚焦返修（revision_round 0）。这不是独立评审结论，更不是现实法律正确性、真实课堂效果或学习效果证明。真实课堂试用、学习效果均not_run。机械检查独立记录，不用其返回0替代本语义判断。
+Conclusion: whole-manuscript semantic self-review by the same agent pass; 0 observed critical defects requiring repair; no focused revision initiated (revision_round 0). This is not independent review, much less proof of real legal correctness, real classroom effectiveness, or learning outcomes. Real classroom trial and learning outcomes: not_run. Mechanical checks are recorded separately; exit 0 does not substitute for this semantic judgment.

@@ -3,5 +3,14 @@
   "affects": "repository portability checks only; SKILL, refs, schema and manuscripts unchanged",
   "semantic_chapters_affected": [],
   "verification": "39 tests passed including formerly missed roots and false-positive cases",
-  "date": "2026-11-15"
+  "date": "2026-11-15",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/case/portability-impact.json",
+    "original_sha256": "cfabdc76c765a00aec47ce770e8c131d0e37a683a8a50acafcd2a2501a0df2b4",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/case/portability-impact.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

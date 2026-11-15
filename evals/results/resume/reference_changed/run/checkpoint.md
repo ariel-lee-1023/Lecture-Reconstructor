@@ -1,9 +1,9 @@
-# 恢复完成断点
+# Completed-recovery checkpoint
 
-状态complete；阶段deliver。完成UTC：2026-11-15T02:28:49.040720+00:00。全部21行重新阅读、33项内容已解释、三章assembled，完整主稿lecture.md SHA-256：0c90bb769e3e96f28a8066e6222a2ca84b179a859a4e7cf3e419e9f3a35d53eb。
+Status complete; stage deliver. Completion UTC: 2026-11-15T02:28:49.040720+00:00. All 21 lines reread, all 33 content items explained, three chapters assembled, and complete lecture.md SHA-256: 0c90bb769e3e96f28a8066e6222a2ca84b179a859a4e7cf3e419e9f3a35d53eb.
 
-版本差异处理：初次正确检查退出2，workflow哈希改变；impact-analysis.md证明差异并列出影响。before-resume.json保存原记录；invalidated-run.json保留旧runtime并将依赖章标needs_review。history/内保存逐章drafted/reviewed快照。当前reference下三章已重审，全篇直接对源自查已重新完成，旧证据保持原哈希。
+Version differences: the first correctly invoked check exited 2 because the workflow hash changed. impact-analysis.md demonstrates the difference and identifies its impact. before-resume.json preserves the original record; invalidated-run.json retains the old runtime and marks dependent chapters needs_review. history/ preserves drafted/reviewed snapshots for each chapter. All three chapters have been re-reviewed under the current reference, and direct whole-manuscript source self-review has been repeated. Earlier evidence retains its original hashes.
 
-最终机械检查命令（从本分支根目录）：`python3 package/scripts/check_run.py run/run.json --repo-root package --json`。真实结果见checks/mechanical-final.json。
+Final mechanical-check command, from this branch's root: `python3 package/scripts/check_run.py run/run.json --repo-root package --json`. See checks/mechanical-final.json for the actual result.
 
-宿主Codex desktop；精确模型ID/参数unknown。实际读取路径、哈希与UTC见resume-audit.json。所有写入限本分支run，package未改。独立评审、真实课堂试用、学习效果not_run。规则缺口已在正文呈现：及时撤销后的结算、非整半小时计价，未捏造答案。
+Host: Codex desktop; exact model ID/settings unknown. resume-audit.json records actual paths read, hashes, and UTC times. All writes are confined to this branch's run; package is unchanged. Independent review, real classroom trial, and learning outcomes: not_run. The manuscript presents the rule gaps for settlement after timely cancellation and rates for increments other than whole half-hours, without invented answers.

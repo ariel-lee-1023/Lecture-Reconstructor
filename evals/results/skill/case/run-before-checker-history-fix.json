@@ -4,14 +4,14 @@
   "status": "complete",
   "stage": "deliver",
   "course": {
-    "title": "岚桥器材社：修复费用请求的完整判断",
-    "scope": "仅重构实际提供的合成课堂转录，不引入现实法或真实案例",
-    "jurisdiction": "课内虚构规则，不对应现实法域",
+    "title": "Mistbridge Equipment Society: a complete assessment of repair-cost claims",
+    "scope": "Reconstruct only the synthetic classroom transcript actually supplied, without importing real law or real cases",
+    "jurisdiction": "Fictional classroom rules, not a real jurisdiction",
     "time_context": "unknown",
-    "audience": "大学课程读者；无实际学习者数据",
+    "audience": "University-course readers; no actual learner data",
     "assumptions": [
-      "原输入明确标示全部规则、人物与课堂事例为合成材料",
-      "不假定提供了音频、独立教材全文或真实学习表现"
+      "The original input expressly identifies all rules, people, and classroom examples as synthetic",
+      "Do not assume audio, a separate complete textbook, or actual learning performance was supplied"
     ]
   },
   "inputs": [
@@ -35,11 +35,11 @@
   "content_units": [
     {
       "id": "u01",
-      "proposition": "【合成案例课；岚桥器材社、规则、人物与凭证均为测试创作，不是任何真实法律或判决。】",
-      "excerpt": "【合成案例课；岚桥器材社、规则、人物与凭证均为测试创作，不是任何真实法律或判决。】",
+      "proposition": "[Synthetic case lecture; Mistbridge Equipment Society, its rules, people, and documents were created for testing. They are not real law or judgments.]",
+      "excerpt": "[Synthetic case lecture; Mistbridge Equipment Society, its rules, people, and documents were created for testing. They are not real law or judgments.]",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -59,11 +59,11 @@
     },
     {
       "id": "u02",
-      "proposition": "这节课从赔多少钱倒过来讲，可能有点乱。题目里的数很容易算，真正难的是先判断谁的损失、因为什么、例外有没有进去。",
-      "excerpt": "这节课从赔多少钱倒过来讲，可能有点乱。题目里的数很容易算，真正难的是先判断谁的损失、因为什么、例外有没有进去。",
+      "proposition": "This lecture works backward from how much compensation is due, so the order may be confusing. The arithmetic is easy; the real difficulty is first identifying whose loss it is, what caused it, and whether an exception applies.",
+      "excerpt": "This lecture works backward from how much compensation is due, so the order may be confusing. The arithmetic is easy; the real difficulty is first identifying whose loss it is, what caused it, and whether an exception applies.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -83,11 +83,11 @@
     },
     {
       "id": "u03",
-      "proposition": "器材社练习规则R1：借用人负有按约定用途使用器材并按期返还的义务。普通磨损不构成违反义务。",
-      "excerpt": "器材社练习规则R1：借用人负有按约定用途使用器材并按期返还的义务。普通磨损不构成违反义务。",
+      "proposition": "Equipment Society exercise rule R1: Borrowers must use equipment for the agreed purpose and return it on time. Ordinary wear does not breach that duty.",
+      "excerpt": "Equipment Society exercise rule R1: Borrowers must use equipment for the agreed purpose and return it on time. Ordinary wear does not breach that duty.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -107,11 +107,11 @@
     },
     {
       "id": "u04",
-      "proposition": "R2：只有同时满足“借用人违反R1”“器材发生实际修复费用”“该违反行为造成这项修复费用”，器材社才有修复费用请求。发票只证明列载的收费，不单独证明费用由借用行为造成。",
-      "excerpt": "R2：只有同时满足“借用人违反R1”“器材发生实际修复费用”“该违反行为造成这项修复费用”，器材社才有修复费用请求。发票只证明列载的收费，不单独证明费用由借用行为造成。",
+      "proposition": "R2: The Equipment Society has a claim for repair costs only when all three conditions hold: the borrower breached R1; actual repair costs were incurred for the equipment; and that breach caused those repair costs. An invoice proves only the listed charges, not by itself that the borrower's use caused them.",
+      "excerpt": "R2: The Equipment Society has a claim for repair costs only when all three conditions hold: the borrower breached R1; actual repair costs were incurred for the equipment; and that breach caused those repair costs. An invoice proves only the listed charges, not by itself that the borrower's use caused them.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -131,11 +131,11 @@
     },
     {
       "id": "u05",
-      "proposition": "R3：费用由器材原有隐蔽缺陷独立造成时，即使借用人另有违反R1的行为，仍不满足R2的因果条件；不是对违规者的奖励。",
-      "excerpt": "R3：费用由器材原有隐蔽缺陷独立造成时，即使借用人另有违反R1的行为，仍不满足R2的因果条件；不是对违规者的奖励。",
+      "proposition": "R3: If a pre-existing latent defect independently caused the costs, R2's causal condition remains unsatisfied even if the borrower separately breached R1. This is not a reward for breaching the rules.",
+      "excerpt": "R3: If a pre-existing latent defect independently caused the costs, R2's causal condition remains unsatisfied even if the borrower separately breached R1. This is not a reward for breaching the rules.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -155,11 +155,11 @@
     },
     {
       "id": "u06",
-      "proposition": "R4：器材社明知缺陷却未告知，且该缺陷与借用人的违规行为共同导致同一不可分修复费用时，器材社仅可请求该费用的一半。这是教学规则的明确选择，不从公平口号推导比例。",
-      "excerpt": "R4：器材社明知缺陷却未告知，且该缺陷与借用人的违规行为共同导致同一不可分修复费用时，器材社仅可请求该费用的一半。这是教学规则的明确选择，不从公平口号推导比例。",
+      "proposition": "R4: If the Equipment Society knew of a defect but failed to disclose it, and that defect and the borrower's breach jointly caused the same indivisible repair cost, the Society may claim only half that cost. The teaching rule expressly chooses this proportion; it is not inferred from a slogan about fairness.",
+      "excerpt": "R4: If the Equipment Society knew of a defect but failed to disclose it, and that defect and the borrower's breach jointly caused the same indivisible repair cost, the Society may claim only half that cost. The teaching rule expressly chooses this proportion; it is not inferred from a slogan about fairness.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -179,11 +179,11 @@
     },
     {
       "id": "u07",
-      "proposition": "事实甲：3月1日，甲借相机用于室内拍摄，约定3月3日归还。甲3月2日拿到雨中拍照，说明书禁止淋雨。3月3日按期归还。检修单记录雨水进入电路是唯一损坏原因，实际修复费用600元已支付；无原有缺陷证据。题设把检修单内容作为已确认事实。",
-      "excerpt": "事实甲：3月1日，甲借相机用于室内拍摄，约定3月3日归还。甲3月2日拿到雨中拍照，说明书禁止淋雨。3月3日按期归还。检修单记录雨水进入电路是唯一损坏原因，实际修复费用600元已支付；无原有缺陷证据。题设把检修单内容作为已确认事实。",
+      "proposition": "Facts A: On March 1, A borrowed a camera for indoor photography, agreeing to return it on March 3. On March 2, A used it in the rain, contrary to the manual's prohibition on rain exposure. A returned it on time on March 3. The inspection report records water entering the circuitry as the sole cause of damage; actual repair costs of 600 yuan have been paid, and there is no evidence of a pre-existing defect. The problem treats the report's contents as established facts.",
+      "excerpt": "Facts A: On March 1, A borrowed a camera for indoor photography, agreeing to return it on March 3. On March 2, A used it in the rain, contrary to the manual's prohibition on rain exposure. A returned it on time on March 3. The inspection report records water entering the circuitry as the sole cause of damage; actual repair costs of 600 yuan have been paid, and there is no evidence of a pre-existing defect. The problem treats the report's contents as established facts.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -203,11 +203,11 @@
     },
     {
       "id": "u08",
-      "proposition": "老师：甲付600，当然，因为淋雨。这里省略了三步，你们写作时要补上。按期返还不等于其他义务都履行了。",
-      "excerpt": "老师：甲付600，当然，因为淋雨。这里省略了三步，你们写作时要补上。按期返还不等于其他义务都履行了。",
+      "proposition": "Teacher: A pays 600, of course, because of the rain. That skips three steps, which you must supply in your writing. Returning the camera on time does not mean every other duty was fulfilled.",
+      "excerpt": "Teacher: A pays 600, of course, because of the rain. That skips three steps, which you must supply in your writing. Returning the camera on time does not mean every other duty was fulfilled.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -227,11 +227,11 @@
     },
     {
       "id": "u09",
-      "proposition": "事实乙：乙也违反室内使用约定，把相机带到干燥室外。检修已经确认：电路断裂完全源于交付前的隐蔽焊接缺陷，户外使用对损坏没有贡献，实际修复费用600元。甲乙都“违规”，处理不能照抄。",
-      "excerpt": "事实乙：乙也违反室内使用约定，把相机带到干燥室外。检修已经确认：电路断裂完全源于交付前的隐蔽焊接缺陷，户外使用对损坏没有贡献，实际修复费用600元。甲乙都“违规”，处理不能照抄。",
+      "proposition": "Facts B: B also breached the indoor-use agreement by taking the camera outdoors in dry conditions. Inspection has established that the circuit break was caused entirely by a latent soldering defect present before delivery; outdoor use made no contribution to the damage. Actual repair costs were 600 yuan. Both A and B 'broke the rules,' but their treatment cannot simply be copied.",
+      "excerpt": "Facts B: B also breached the indoor-use agreement by taking the camera outdoors in dry conditions. Inspection has established that the circuit break was caused entirely by a latent soldering defect present before delivery; outdoor use made no contribution to the damage. Actual repair costs were 600 yuan. Both A and B 'broke the rules,' but their treatment cannot simply be copied.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -251,11 +251,11 @@
     },
     {
       "id": "u10",
-      "proposition": "学生反驳：乙既然违规，为什么不让他承担一点，免得鼓励违规？老师：R2问的是这笔修复费用的请求条件，不能用惩罚愿望补出不存在的因果关系。是否另有处罚，我们的规则没写。",
-      "excerpt": "学生反驳：乙既然违规，为什么不让他承担一点，免得鼓励违规？老师：R2问的是这笔修复费用的请求条件，不能用惩罚愿望补出不存在的因果关系。是否另有处罚，我们的规则没写。",
+      "proposition": "Student objection: Since B broke the rules, why not make B bear part of the cost to avoid encouraging breaches? Teacher: R2 concerns the conditions for a claim for this particular repair cost. A desire to punish cannot supply a causal relationship that does not exist. Our rules say nothing about any separate penalty.",
+      "excerpt": "Student objection: Since B broke the rules, why not make B bear part of the cost to avoid encouraging breaches? Teacher: R2 concerns the conditions for a claim for this particular repair cost. A desire to punish cannot supply a causal relationship that does not exist. Our rules say nothing about any separate penalty.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -275,11 +275,11 @@
     },
     {
       "id": "u11",
-      "proposition": "还有一张不起眼的收据：甲自行购买100元相机背带，没有约定报销，也没有证明背带是修复所需。别把所有收据加到器材社的修复费用里。这与600元已确认修复费要分开。",
-      "excerpt": "还有一张不起眼的收据：甲自行购买100元相机背带，没有约定报销，也没有证明背带是修复所需。别把所有收据加到器材社的修复费用里。这与600元已确认修复费要分开。",
+      "proposition": "There is also an inconspicuous receipt: A independently bought a camera strap for 100 yuan, without an agreement for reimbursement or evidence that the strap was necessary for repair. Do not add every receipt to the Society's repair costs. Keep this separate from the established 600-yuan repair cost.",
+      "excerpt": "There is also an inconspicuous receipt: A independently bought a camera strap for 100 yuan, without an agreement for reimbursement or evidence that the strap was necessary for repair. Do not add every receipt to the Society's repair costs. Keep this separate from the established 600-yuan repair cost.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -299,11 +299,11 @@
     },
     {
       "id": "u12",
-      "proposition": "事实丙：丙违规在雨中拍照，器材社明知密封圈已裂却未告知。题设确认雨水和裂纹共同造成一笔不可分的800元修复费，单独任一因素都不会造成该次损坏。R4适用，四百元。注意这里换了什么事实，别把乙的“独立造成”搬过来。",
-      "excerpt": "事实丙：丙违规在雨中拍照，器材社明知密封圈已裂却未告知。题设确认雨水和裂纹共同造成一笔不可分的800元修复费，单独任一因素都不会造成该次损坏。R4适用，四百元。注意这里换了什么事实，别把乙的“独立造成”搬过来。",
+      "proposition": "Facts C: C breached the rules by taking photographs in the rain. The Equipment Society knew that the sealing ring was cracked but did not disclose it. The problem establishes that rain and the crack jointly caused a single indivisible repair cost of 800 yuan; neither factor alone would have caused this damage. R4 applies: 400 yuan. Notice which facts changed; do not import B's 'independent cause' here.",
+      "excerpt": "Facts C: C breached the rules by taking photographs in the rain. The Equipment Society knew that the sealing ring was cracked but did not disclose it. The problem establishes that rain and the crack jointly caused a single indivisible repair cost of 800 yuan; neither factor alone would have caused this damage. R4 applies: 400 yuan. Notice which facts changed; do not import B's 'independent cause' here.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -323,11 +323,11 @@
     },
     {
       "id": "u13",
-      "proposition": "如果丙案仅有800元发票而没有上述原因查明，就不能仅凭发票直接下R4结论。我们在教学中可以列出需要证明的事项，但不能把缺失证据当作已经存在。",
-      "excerpt": "如果丙案仅有800元发票而没有上述原因查明，就不能仅凭发票直接下R4结论。我们在教学中可以列出需要证明的事项，但不能把缺失证据当作已经存在。",
+      "proposition": "If C's case contained only an 800-yuan invoice without the causal findings above, the invoice alone would not justify an R4 conclusion. Teaching can identify what needs to be proved, but cannot treat missing evidence as already available.",
+      "excerpt": "If C's case contained only an 800-yuan invoice without the causal findings above, the invoice alone would not justify an R4 conclusion. Teaching can identify what needs to be proved, but cannot treat missing evidence as already available.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -347,11 +347,11 @@
     },
     {
       "id": "u14",
-      "proposition": "考试提示：本课先列三项要件，再逐项绑定已知事实；答案必须分别解释乙不满足什么和丙为什么不是全免。这里的600、0、400是三组题设的结果，不是现实案件赔偿标准。",
-      "excerpt": "考试提示：本课先列三项要件，再逐项绑定已知事实；答案必须分别解释乙不满足什么和丙为什么不是全免。这里的600、0、400是三组题设的结果，不是现实案件赔偿标准。",
+      "proposition": "Examination advice: First list the three conditions, then connect each to the known facts. Your answer must separately explain what B fails to satisfy and why C is not fully exempt. The results 600, 0, and 400 belong to these three sets of hypothetical facts; they are not compensation standards for real cases.",
+      "excerpt": "Examination advice: First list the three conditions, then connect each to the known facts. Your answer must separately explain what B fails to satisfy and why C is not fully exempt. The results 600, 0, and 400 belong to these three sets of hypothetical facts; they are not compensation standards for real cases.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -374,25 +374,25 @@
     {
       "id": "original-class",
       "uri": "input/original.txt",
-      "version": "隔离输入原始快照",
-      "locator": "1–14行；书名、条文与裁判均只由该输入提供",
+      "version": "Original snapshot of the isolated input",
+      "locator": "Lines 1–14; book titles, provisions, and judgments are supplied only by this input",
       "read_status": "read"
     }
   ],
   "chapters": [
     {
       "id": "ch-rules",
-      "title": "先确定请求，再计算金额",
+      "title": "Establish the claim before calculating the amount",
       "anchor": "ch-rules",
       "path": "chapters/rules.md",
       "status": "assembled",
-      "learning_object": "理解R1至R4的关系与三项费用请求条件",
+      "learning_object": "Understand the relationship among R1–R4 and the three conditions for a costs claim",
       "relations": [
-        "理解R1至R4的关系与三项费用请求条件"
+        "Understand the relationship among R1–R4 and the three conditions for a costs claim"
       ],
       "prerequisites": [],
-      "approach": "解释义务、实际费用、因果条件与特殊减半规则",
-      "role": "为所有案例建立同一分析对象",
+      "approach": "Explain duty, actual costs, causation, and the special halving rule",
+      "role": "Establish a common object of analysis for all cases",
       "content_unit_ids": [
         "u01",
         "u02",
@@ -404,19 +404,19 @@
     },
     {
       "id": "ch-alpha",
-      "title": "甲案：为什么是六百元",
+      "title": "A's case: why six hundred yuan?",
       "anchor": "ch-alpha",
       "path": "chapters/alpha.md",
       "status": "assembled",
-      "learning_object": "逐项绑定甲案事实并区分背带收据",
+      "learning_object": "Bind A's facts to each condition and distinguish the strap receipt",
       "relations": [
-        "逐项绑定甲案事实并区分背带收据"
+        "Bind A's facts to each condition and distinguish the strap receipt"
       ],
       "prerequisites": [
-        "理解R1至R4的关系与三项费用请求条件"
+        "Understand the relationship among R1–R4 and the three conditions for a costs claim"
       ],
-      "approach": "补齐从淋雨到600元的三步并排除无关费用",
-      "role": "示范条件充分查明时的完整推理",
+      "approach": "Supply the three steps from rain exposure to 600 yuan and exclude unrelated costs",
+      "role": "Demonstrate complete reasoning where the conditions are fully established",
       "content_unit_ids": [
         "u07",
         "u08",
@@ -425,19 +425,19 @@
     },
     {
       "id": "ch-beta",
-      "title": "乙案：违规为何不产生这笔请求",
+      "title": "B's case: why does the violation not create this claim?",
       "anchor": "ch-beta",
       "path": "chapters/beta.md",
       "status": "assembled",
-      "learning_object": "区分违规事实和造成修复费的因果事实",
+      "learning_object": "Distinguish the fact of a violation from the causal facts producing repair costs",
       "relations": [
-        "区分违规事实和造成修复费的因果事实"
+        "Distinguish the fact of a violation from the causal facts producing repair costs"
       ],
       "prerequisites": [
-        "逐项绑定甲案事实并区分背带收据"
+        "Bind A's facts to each condition and distinguish the strap receipt"
       ],
-      "approach": "对比甲乙并承接原课堂惩罚反驳",
-      "role": "防止把处罚愿望放进修复费用条件",
+      "approach": "Compare A and B and address the original classroom objection about punishment",
+      "role": "Prevent a desire for punishment from being inserted into the conditions for repair costs",
       "content_unit_ids": [
         "u09",
         "u10"
@@ -445,19 +445,19 @@
     },
     {
       "id": "ch-gamma",
-      "title": "丙案：共同原因与减半请求",
+      "title": "Case C: joint causes and the request for a half reduction",
       "anchor": "ch-gamma",
       "path": "chapters/gamma.md",
       "status": "assembled",
-      "learning_object": "区分独立缺陷与共同原因，并判断发票证明范围",
+      "learning_object": "Distinguish an independently sufficient defect from joint causes and assess what an invoice establishes",
       "relations": [
-        "区分独立缺陷与共同原因，并判断发票证明范围"
+        "Distinguish an independently sufficient defect from joint causes and assess what an invoice establishes"
       ],
       "prerequisites": [
-        "区分违规事实和造成修复费的因果事实"
+        "Distinguish the fact of a violation from the causal facts producing repair costs"
       ],
-      "approach": "将丙与乙逐项比较并分析仅有发票的变式",
-      "role": "整合计算、证据限制和本课考试说明",
+      "approach": "Compare C with B element by element and analyze the invoice-only variant",
+      "role": "Integrate calculation, evidentiary limits, and this course's examination instructions",
       "content_unit_ids": [
         "u12",
         "u13",
@@ -467,16 +467,16 @@
   ],
   "terms": [
     {
-      "term": "实际修复费用",
-      "decision": "与其他支出、单纯列载金额和因果事实分别处理"
+      "term": "Actual repair costs",
+      "decision": "Treat separately from other expenses, merely listed amounts, and causal facts"
     },
     {
-      "term": "独立造成",
-      "decision": "原有缺陷独立致损，违规对本项损坏无贡献"
+      "term": "Independently caused",
+      "decision": "A preexisting defect independently caused the damage; the violation made no contribution to this damage"
     },
     {
-      "term": "共同造成",
-      "decision": "违规与缺陷共同致损，R4条件满足时减半"
+      "term": "Jointly caused",
+      "decision": "The violation and defect jointly caused the damage; halve the amount when R4's conditions are satisfied"
     }
   ],
   "open_issues": [],
@@ -529,7 +529,7 @@
       "kind": "semantic",
       "scope": "full_manuscript",
       "status": "pass",
-      "method": "同一生成者实际对照原输入与落盘全文，非独立评审",
+      "method": "The same generator actually compared the original input with the complete saved manuscript; this was not independent review",
       "date": "2026-11-15",
       "evidence": "semantic-review.json",
       "output_sha256": "fc6ba2b07a591df0cbb437ca2fd313f9a0872f01013fd1c08de7e4e0ab2934e9"
@@ -539,7 +539,7 @@
       "kind": "mechanical",
       "scope": "finite_structural_checks",
       "status": "pass",
-      "method": "运行包内 scripts/check_run.py",
+      "method": "scripts/check_run.py inside the runtime package",
       "date": "2026-11-15",
       "evidence": "check-run.json"
     },
@@ -548,7 +548,7 @@
       "kind": "semantic",
       "scope": "independent_full_manuscript",
       "status": "not_run",
-      "method": "待主任务安排独立输入—成稿对照",
+      "method": "Awaiting independent input-to-manuscript review arranged by the parent task",
       "date": "2026-11-15"
     },
     {
@@ -556,7 +556,7 @@
       "kind": "semantic",
       "scope": "full_manuscript",
       "status": "pass",
-      "method": "独立于生成者的原文与全稿对照，含检查器版本变化影响分析",
+      "method": "Comparison of original text and complete manuscript independent of the generator, including impact analysis for the checker-version change",
       "evidence": "independent-review.md",
       "date": "2026-11-15",
       "output_sha256": "fc6ba2b07a591df0cbb437ca2fd313f9a0872f01013fd1c08de7e4e0ab2934e9"
@@ -566,7 +566,7 @@
       "kind": "mechanical",
       "scope": "runtime_impact",
       "status": "pass",
-      "method": "实际差异核对：仅包路径检查器，正文与教学依赖字节未变；39项测试",
+      "method": "Actual difference check: only the package-path checker changed; manuscript and teaching-dependency bytes were unchanged; 39 tests",
       "evidence": "portability-impact.json",
       "date": "2026-11-15"
     }
@@ -577,12 +577,21 @@
   },
   "resume": {
     "completed": [
-      "全部章节",
-      "全篇统稿",
-      "独立语义复核",
-      "检查器升级影响复核"
+      "All chapters",
+      "Full-manuscript editing",
+      "Independent semantic review",
+      "Impact review of the checker upgrade"
     ],
     "remaining": [],
-    "next_action": "交付"
+    "next_action": "Delivery"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/case/run-before-checker-history-fix.json",
+    "original_sha256": "264b2cdd268995955a18be414bd19794fa58698454fefcba3991e01bb902ad8f",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/case/run-before-checker-history-fix.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

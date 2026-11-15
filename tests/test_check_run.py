@@ -25,21 +25,21 @@ def build_fixture(base):
     (repo / 'references').mkdir(exist_ok=True)
     (repo / 'SKILL.md').write_text('Synthetic runtime fixture.\n', encoding='utf-8')
     (repo / 'references/method.md').write_text('Explain the changed condition.\n', encoding='utf-8')
-    (run_dir / 'input.txt').write_text('合成规则：许可仅允许进入阅览室。\n许可不使保管员负有递书义务。\n', encoding='utf-8')
-    lecture = '<a id="c1"></a>\n# 许可与义务\n\n以下是合成规则的教学解释。获准进入意味着进入不被禁止；它没有授予要求保管员递书的请求权。因此，单凭许可不能推出他人负有递书义务。\n'
+    (run_dir / 'input.txt').write_text("Synthetic rule: permission only allows entry to the reading room.\nPermission does not impose a duty on the custodian to hand over books.\n", encoding='utf-8')
+    lecture = "<a id=\"c1\"></a>\n# Permission and duty\n\nThis is a teaching explanation of synthetic rules. Permission to enter means entry is not prohibited; it does not confer a claim-right to have the custodian hand over books. Permission alone therefore does not entail another person's duty to hand over books.\n"
     (run_dir / 'chapter.md').write_text(lecture, encoding='utf-8')
     (run_dir / 'lecture.md').write_text(lecture, encoding='utf-8')
-    (run_dir / 'review.md').write_text('合成机械夹具评审证据：两项规则都有去向。这不是模型行为测试。\n', encoding='utf-8')
+    (run_dir / 'review.md').write_text("Synthetic mechanical-fixture review evidence: both rules are accounted for. This is not a model behavior test.\n", encoding='utf-8')
     data = {
         'schema_version':'1.0','run_id':'synthetic-fixture','status':'complete','stage':'deliver',
-        'course':{'title':'许可与义务','scope':'两项合成规则','jurisdiction':'fictional','time_context':'unknown','audience':'大学生','assumptions':[]},
+        'course':{'title':"Permission and duty",'scope':"Two synthetic rules",'jurisdiction':'fictional','time_context':'unknown','audience':"University students",'assumptions':[]},
         'inputs':[{'id':'i1','path':'input.txt','sha256':checker.sha256(run_dir/'input.txt'),'kind':'synthetic_transcript','normalized_path':'input.txt','normalized_sha256':checker.sha256(run_dir/'input.txt')}],
         'source_review':[{'input_id':'i1','start_line':1,'end_line':2,'status':'reviewed'}],
-        'content_units':[{'id':'u1','proposition':'进入许可不推出递书义务','locations':[{'input_id':'i1','start_line':1,'end_line':2}],'type':'concept','status':'represented','reason':'正文解释条件与推论','targets':[{'chapter_id':'c1','anchor':'c1'}],'source_ids':[]}],
-        'sources':[], 'chapters':[{'id':'c1','path':'chapter.md','anchor':'c1','status':'assembled','learning_object':'许可和请求权','relations':['行为被允许与他人有义务的区别'],'prerequisites':[],'approach':'解释两项合成规则','role':'全课','content_unit_ids':['u1']}],
-        'terms':[{'term':'许可','decision':'指进入行为被允许'}], 'open_issues':[],
+        'content_units':[{'id':'u1','proposition':"Permission to enter does not entail a duty to hand over books",'locations':[{'input_id':'i1','start_line':1,'end_line':2}],'type':'concept','status':'represented','reason':"The manuscript explains conditions and inference",'targets':[{'chapter_id':'c1','anchor':'c1'}],'source_ids':[]}],
+        'sources':[], 'chapters':[{'id':'c1','path':'chapter.md','anchor':'c1','status':'assembled','learning_object':"Permission and claim-rights",'relations':["The difference between permitted conduct and another person having a duty"],'prerequisites':[],'approach':"Explain two synthetic rules",'role':"The whole course",'content_unit_ids':['u1']}],
+        'terms':[{'term':"Permission",'decision':"Means that entry is permitted"}], 'open_issues':[],
         'runtime_revision':{'files':[{'path':p,'sha256':checker.sha256(repo/p)} for p in ['SKILL.md','references/method.md']],'host':'unknown','model':'unknown','settings':{}},
-        'checks':[{'id':'s1','kind':'semantic','scope':'full_manuscript','status':'pass','method':'机械夹具，不是独立实际行为评审','evidence':'review.md','date':'2026-11-15','output_sha256':checker.sha256(run_dir/'lecture.md')}],
+        'checks':[{'id':'s1','kind':'semantic','scope':'full_manuscript','status':'pass','method':"Mechanical fixture, not independent review of actual behavior",'evidence':'review.md','date':'2026-11-15','output_sha256':checker.sha256(run_dir/'lecture.md')}],
         'revision_round':0,'output':{'path':'lecture.md'},'resume':{'completed':['c1'],'remaining':[],'next_action':'deliver'}
     }
     (run_dir/'run.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -97,7 +97,7 @@ class RunTests(unittest.TestCase):
         self.rejects('MISSING_OUTPUT_ANCHOR')
 
     def test_changed_input_requires_review(self):
-        (self.run/'input.txt').write_text('新规则\n')
+        (self.run/'input.txt').write_text("New rule\n")
         self.assertEqual(2,self.rejects('INPUT_CHANGED')['exit_code'])
 
     def test_changed_core_requires_review(self):
@@ -121,7 +121,7 @@ class RunTests(unittest.TestCase):
 
     def test_historical_review_preserved_after_manuscript_revision(self):
         old_hash=self.data['checks'][0]['output_sha256']
-        (self.run/'lecture.md').write_text((self.run/'lecture.md').read_text()+'\n补足已复核的解释。\n')
+        (self.run/'lecture.md').write_text((self.run/'lecture.md').read_text()+"\nAdd the reviewed explanation.\n")
         current=copy.deepcopy(self.data['checks'][0])
         current.update(id='s2',output_sha256=checker.sha256(self.run/'lecture.md'))
         self.data['checks'].append(current)
@@ -138,7 +138,7 @@ class RunTests(unittest.TestCase):
         self.rejects('MISSING_SEMANTIC_REVIEW')
 
     def test_stale_semantic_review(self):
-        (self.run/'lecture.md').write_text((self.run/'lecture.md').read_text()+'新的一段。\n')
+        (self.run/'lecture.md').write_text((self.run/'lecture.md').read_text()+"A new paragraph.\n")
         self.rejects('STALE_REVIEW')
 
     def test_missing_evidence(self):
@@ -170,11 +170,11 @@ class RunTests(unittest.TestCase):
         self.rejects('INCOMPLETE_CHAPTER')
 
     def test_complete_rejects_blocking_content(self):
-        self.data['content_units'][0].update(status='unresolved',blocking=True,blocking_reason='核心术语不明')
+        self.data['content_units'][0].update(status='unresolved',blocking=True,blocking_reason="Core terminology is unclear")
         self.rejects('BLOCKING_CONTENT')
 
     def test_complete_rejects_blocking_issue(self):
-        self.data['open_issues']=[{'id':'q1','question':'规则含义?','impact':'结论改变','resolution_condition':'原音核对','status':'open','blocking':True,'blocking_reason':'核心条件未知'}]
+        self.data['open_issues']=[{'id':'q1','question':"Meaning of the rule?",'impact':"The conclusion changes",'resolution_condition':"Check the original audio",'status':'open','blocking':True,'blocking_reason':"Core condition unknown"}]
         self.rejects('BLOCKING_ISSUE')
 
     def test_unread_and_untracked_ranges(self):

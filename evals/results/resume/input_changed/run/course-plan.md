@@ -1,9 +1,9 @@
-# 当前全课结构与边界
+# Current whole-course structure and boundaries
 
-输入第1—21行均已读，三章正文及统稿已保存。
+Input lines 1–21 have all been read; the text of all three chapters and the integrated manuscript have been saved.
 
-- 第一章：L1、甲丁对照、借线、许可反问与庚成立，开场公开源内冲突；第1—7行。
-- 第二章：L2含18:00边界、戊己对照、L3与辛、迟到反驳；庚按17:59推导且保留失败标签冲突；第8—13行。
-- 第三章：L4与壬、L5与癸、庚程序及时及实体未决、17:59原反例对照失效、考试提示与整体回扣；第14—21行。
+- Chapter 1: L1, the A/D comparison, cable borrowing, the objection about permission, and establishment of G's relationship, with the source conflict disclosed at the outset; lines 1–7.
+- Chapter 2: L2 including the 18:00 boundary, the E/F comparison, L3 and H, and the lateness objection; G's case is analyzed using 17:59 while retaining the conflict with the failure labels; lines 8–13.
+- Chapter 3: L4 and I; L5 and J; G's procedurally timely request and unresolved substantive outcome; the former 17:59 counterexample no longer contrasts with the main case; examination advice and whole-course synthesis; lines 14–21.
 
-核心限制：当前17:59支持及时撤销；不得沿用旧18:02事实、旧L3退10积分路线或旧语义通过。需确认主案时间并补及时撤销结算。非整半小时计价属范围外，不阻止本课已给示范。
+Core limits: the current 17:59 fact supports timely cancellation. Do not reuse the old 18:02 fact, the old L3 route returning 10 points, or the old semantic pass. Confirm the main case's time and supply settlement rules for timely cancellation. Rates for increments other than whole half-hours are outside scope and do not block the demonstrations supplied for this course.

@@ -1,9 +1,9 @@
-# 恢复影响核对
+# Recovery impact check
 
-记录UTC：2026-11-15T02:16:39.552799+00:00。恢复前实际执行当前包check_run，退出码0。
+Recorded UTC: 2026-11-15T02:16:39.552799+00:00. Actually ran the current package's check_run before recovery; exit code 0.
 
-输入原始、规范化快照及旧runtime记录内六个文件逐一比对均未变化；原第一章无需因版本变化失效。按run.resume继续，仍重新对照全源复核旧章。
+The original and normalized input snapshots and six files in the old runtime record were compared individually and are unchanged. Original chapter 1 does not require invalidation for a version change. Continue from run.resume, while still checking the old chapter against the whole source again.
 
-本次额外读取了transcript-repair.md；输入无ASR修复需求，未修改转录。其加载及哈希将在runtime中据实增加；不是核心版本更改。旧语义证据保留原哈希。
+Additionally read transcript-repair.md in this run. No ASR repair was needed and the transcript was not modified. Its loading and hash will be truthfully added to runtime; this is not a core-version change. Earlier semantic evidence retains its original hashes.
 
-原audit/checkpoint中其他分支路径仅作为旧记录内容出现，本次未访问这些路径。无网络、上游、package/evals或其他分支读取。
+Other-branch paths in the original audit/checkpoint appeared only as old record content and were not accessed in this run. No network, upstream repository, package/evals, or other branch was read.

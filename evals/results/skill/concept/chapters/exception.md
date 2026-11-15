@@ -1,12 +1,12 @@
 <a id="ch-exception"></a>
-## 四、安全例外与完整判断
+## 4. The safety exception and the complete judgment
 
-确认有效且未被有效撤销，还不能省略规则四。规则四针对即时安全险情：如果必须因此封闭场地，管理员可暂停规则二的座位提供义务，并应退还相应预约积分。例外的依据是即时安全险情与必须封闭场地这组条件，不能把普通满座替换成它。
+Even valid confirmation without effective cancellation does not dispense with Rule Four. It concerns an immediate safety hazard requiring closure: The manager may suspend Rule Two's seat duty and must refund corresponding reservation points. The exception rests on the combination of an immediate hazard and necessary closure; an ordinarily full room cannot substitute for it.
 
-暂停也不意味着预约时段重新起算。封闭结束后，要看确认写明的两小时是否尚未届满；仍有剩余时段，才有恢复剩余时段的空间；两小时已经届满，则不能凭本规则另加时间。退还积分的责任与剩余时间的处理都要保留，不能只记住“有险情就不用提供座位”。暂停义务、退还相应积分、不另加时，是同一例外中不同的后果。
+Suspension does not restart the reserved period. After reopening, check whether the confirmed two hours have expired. Only a remaining period can resume; if both hours have elapsed, this rule grants no additional time. Preserve both the refund duty and the treatment of remaining time rather than remembering only 'no seat is required during a hazard.' Suspension, refunding corresponding points, and no time extension are distinct consequences of one exception.
 
-现在可以完整比较甲与丁。甲只凭注册资格，规则一支持他进入，却不支持他要求乙让座。丁取得有效确认，在确认时段内面对管理人提出的是标准座位请求；题设没有安全险情，管理人不能以所有人都有进入自由为由免除该义务。两人的区别不在于谁更需要座位，而在于产生他人义务的条件是否具备。若题目再给出有效撤销或即时安全险情，应当分别分析关系是否已经消灭，或者履行义务是否可以暂停，不能把新事实藏在一句“有确认”之下。
+We can now compare A and D completely. A's registration supports entry under Rule One but not a demand for B's seat. D's valid confirmation supports a standard-seat claim against the manager during the confirmed period. No safety hazard is stipulated, so everyone's freedom to enter cannot excuse the manager's duty. The difference is not who needs a seat more but whether the conditions creating another's duty hold. If effective cancellation or an immediate hazard is added, separately analyze termination of the relationship or permissible suspension; do not hide the new facts behind 'has confirmation.'
 
-本课教师的考试提示是：遇到“有权吗”，先写关系双方和针对的行为，再说明讨论的是进入许可、请求座位，还是撤销预约关系；然后把相应成立条件与题目事实逐项连接。这个评分安排只属于本课，不是通用于其他课程的考试规则。答案的价值在于把关系和条件讲清楚，不在于堆积术语。
+This teacher's examination advice is: For 'Is there a right?', identify the parties and conduct, distinguish permission to enter, a seat claim, and cancellation, then connect the relevant formation conditions to the facts one by one. This scoring arrangement belongs only to this course, not all courses. An answer's value lies in clear relations and conditions, not accumulated terminology.
 
-我们最终需要能够解释的是：一项规则允许我行动，不会自动给另一人增加配合义务；另一项规则一旦明确规定了请求与义务，也不能被原有许可消去。接着还要检查这种关系从何时成立、能否被有效改变，以及何种例外影响履行。这样，“有权”才从一句含混的话，变成可以逐步验证的判断。
+Ultimately we must explain that a rule permitting my conduct does not automatically impose cooperation duties on another person. Conversely, a separate rule expressly creating a claim and duty cannot be erased by pre-existing permission. Then examine when the relationship arises, whether valid acts can change it, and which exceptions affect performance. 'Having a right' thereby becomes a judgment that can be examined step by step instead of an ambiguous phrase.

@@ -1,11 +1,11 @@
-# 来源与交付范围
+# Sources and delivery scope
 
-唯一课程内容来源为input/original.txt及逐字一致的input/transcript.txt，共21行。全部规则、人物、数据、“学生反驳”和“教师考试提示”都是合成教学材料，不是真实课堂、法律或案件。未听音频，未访问网络或外部法律资料，未读取其他分支、package/evals或上游资料。旧audit/checkpoint中记录的外部分支路径只作为历史文字读取，没有访问这些位置。
+The only course-content source is input/original.txt and its verbatim-identical input/transcript.txt, totaling 21 lines. All rules, people, data, “student objections,” and “teacher examination advice” are synthetic teaching material, not a real classroom, law, or cases. No audio was heard, no network or external legal material accessed, and no other branches, package/evals, or upstream materials read. External branch paths in the old audit/checkpoint were read only as historical text; those locations were not accessed.
 
-本次恢复实际加载SKILL、四份references、schema及check_run；transcript-repair虽被读取，但文本无影响判断的ASR修复需求，未修改输入。reference中继承的书籍定位不等于本次读取原书。当前实际路径和SHA-256见resume-audit.json；旧记录原样保存为before-resume.json，旧证据保留原哈希。第一章章稿未改；第二、三章是本次补写并分别直接对源自查。
+This recovery actually loaded SKILL, four references, schema, and check_run. Although transcript-repair was read, no ASR damage affecting judgment required repair and the input was not modified. Book locators inherited in references do not mean the original books were read here. See resume-audit.json for actual paths and SHA-256 values; the old record is preserved unchanged as before-resume.json, and old evidence retains original hashes. Chapter 1 was unchanged; chapters 2 and 3 were written in this run and individually self-reviewed directly against the source.
 
-主稿的新增内容是依据已给规则和事实写出的说明与演算。庚应总退10积分、已退5应再退5、复核第六日到达等推论均展开中间步骤。没有增加实体规则或伪造外部来源。
+Additions to the manuscript are explanations and calculations grounded in the supplied rules and facts. Intermediate steps are developed for G's total 10-point refund, another 5 due after the existing 5-point refund, and application receipt on day 6. No substantive rules were added or external sources fabricated.
 
-仍保留两项明确边界：L2没有及时撤销后的积分结算规则，17:59到达变式只能判断预约消灭，不能给出唯一结算额；L4没有非整半小时计价规则，本次案例均为整半小时。本课教学任务包括辨认前一缺口，故正文完整呈现缺口，而非将其补成确定答案。若日后要求变式唯一金额或其他粒度计算，必须补充规则。
+Two explicit boundaries remain. L2 has no points-settlement rule for timely cancellation: the 17:59 receipt variant establishes extinction of the reservation without a unique settlement amount. L4 has no rate for increments other than whole half-hours, and all current cases use whole half-hours. Recognizing the first gap is part of this course's teaching task, so the prose fully presents it instead of inventing a definite answer. Future requests for a unique variant amount or calculations at other increments require additional rules.
 
-评审为执行代理的语义自查，没有独立评审、真实课堂试用或学习效果测量。机械检查只覆盖有限结构、文件、锚点与哈希；不得把其通过解释为教学或法律正确性证明。
+Review is semantic self-review by the executing agent, without independent review, real classroom trial, or learning-outcome measurement. Mechanical checks cover only bounded structure, files, anchors, and hashes; their success must not be presented as proof of teaching or legal correctness.

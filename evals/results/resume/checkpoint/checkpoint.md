@@ -1,19 +1,19 @@
-# 第一章后暂停断点
+# Checkpoint paused after chapter 1
 
-状态：partial；阶段：draft。用户要求在第一章后停止，本turn已停止扩写。第一章reviewed，第二、三章planned；第二、三章文件不存在。lecture.md目前只含第一章，不是完整课程交付。
+Status: partial; stage: draft. The user requested a stop after chapter 1, and this turn stopped further writing. Chapter 1 is reviewed; chapters 2 and 3 are planned and their files do not exist. lecture.md currently contains only chapter 1, not a complete course delivery.
 
-已完成：原始和规范化源快照；全21行阅读；三章计划；33个内容项映射；16个术语决定；第一章完整讲稿、局部直接对源语义复核；包内check_run有限结构检查返回0。
+Completed: original and normalized source snapshots; reading of all 21 lines; a three-chapter plan; mapping of 33 content units; 16 terminology decisions; complete chapter 1 prose and local semantic review directly against the source; the package's check_run returned 0 for its limited structural checks.
 
-恢复入口：run.json，SHA-256 `3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630`。
+Recovery entry point: run.json, SHA-256 `3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630`.
 
-1. 先执行：`python3 <isolated-eval>/resume-start/package/scripts/check_run.py <isolated-eval>/resume-start/outputs/run/run.json --repo-root <isolated-eval>/resume-start/package --json`。
-2. 读取run.json、course-plan.md、terms.md、content-map.md、全部input/transcript.txt和已有第一章。哈希无变化后，从第二章u10—u21开始；保留17:58发出、18:02到达等原始时间。
-3. 若输入、SKILL或已读references变化，保留旧记录和稿件，先做影响分析，相关章置needs_review，旧语义证据保留原哈希；不能只刷新哈希继续。
-4. 第三章写u22—u33；包括计价与重叠、复核期限、庚完整分析、17:59变式及缺口、考试提示和四组回扣。然后统稿、全源复核、运行机械检查，才有资格判断是否complete。
+1. First execute: `python3 <isolated-eval>/resume-start/package/scripts/check_run.py <isolated-eval>/resume-start/outputs/run/run.json --repo-root <isolated-eval>/resume-start/package --json`.
+2. Read run.json, course-plan.md, terms.md, content-map.md, the complete input/transcript.txt, and existing chapter 1. After confirming unchanged hashes, begin chapter 2 at u10—u21. Preserve the original times, including sending at 17:58 and receipt at 18:02.
+3. If the input, SKILL, or loaded references changed, preserve old records and manuscripts, analyze the impact first, set affected chapters to needs_review, and retain the original hashes of old semantic evidence. Do not merely refresh hashes and continue.
+4. Chapter 3 covers u22—u33, including pricing and overlap, review deadlines, G's complete analysis, the 17:59 variant and its gap, examination advice, and the four closing comparisons. Only after reconciling the manuscript, reviewing all sources, and running mechanical checks may complete status be assessed.
 
-开始UTC：2026-11-15T02:06:57Z（首次采样，初次读文件发生更早，准确turn起始未知）。断点定稿UTC：2026-11-15T02:13:50.744394+00:00。最终机械核验UTC：2026-11-15T02:13:50.745531+00:00。
-宿主：Codex desktop；精确模型ID和采样设置：unknown。实际核心和已读refs哈希在runtime_revision.files，读取路径在execution.read_paths。
+Start UTC: 2026-11-15T02:06:57Z (first timing sample; initial file reading occurred earlier, and the exact turn start is unknown). Final checkpoint UTC: 2026-11-15T02:13:50.744394+00:00. Final mechanical verification UTC: 2026-11-15T02:13:50.745531+00:00.
+Host: Codex desktop; exact model ID and sampling settings: unknown. Actual core and loaded-reference hashes are in runtime_revision.files; reading paths are in execution.read_paths.
 
-全篇语义复核、真实课堂试用、学习效果均为not_run。两处已知材料边界为及时撤销后的积分结算、非整半小时计价，不得补造规则。
+Whole-manuscript semantic review, real classroom pilot, and learning outcomes are all not_run. The two known material boundaries concern points settlement after timely cancellation and pricing of periods that are not exact half-hours; do not invent rules.
 
-备份与修改前记录在本run外的outputs/backups/resume-start-before-write。初始目标不存在，新增文件按absent登记；未改package。
+Backups and pre-write records are outside this run at outputs/backups/resume-start-before-write. The initial target did not exist, so new files were recorded as absent; the package was not modified.

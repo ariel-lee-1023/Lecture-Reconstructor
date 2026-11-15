@@ -1,11 +1,11 @@
 <a id="ch-beta"></a>
-## 三、乙案：零元结论究竟否定了什么
+## 3. B's case: What exactly does a zero-yuan result deny?
 
-乙也违反室内使用约定，把相机带到干燥室外。但是检修已经确认，电路断裂完全由交付之前的隐蔽焊接缺陷引起，户外使用对损坏没有贡献，实际修复费用为600元。
+B also breached the indoor-use agreement by taking the camera outdoors in dry conditions. But inspection established that a latent soldering defect predating delivery entirely caused the circuit break; outdoor use contributed nothing. Actual repair costs were 600 yuan.
 
-先保留相同部分：乙违反了约定用途，满足R2的第一项条件；相机发生实际修复费，第二项也存在。改变的关键事实是第三项：损坏完全来自原有隐蔽缺陷，乙的违规户外使用对该损坏没有贡献。因此，违规行为没有造成所请求的修复费用，R2的因果条件不满足，R3所说明的独立缺陷情形正好适用。器材社据这组规则对乙提出的该笔修复费请求为0元。
+First retain what is unchanged: B breached the agreed use, satisfying R2's first condition, and actual repair costs satisfy the second. The decisive change concerns the third: Damage came entirely from a pre-existing latent defect, with no contribution from B's prohibited outdoor use. The breach therefore did not cause the claimed costs. R2's causal condition fails, and R3's independent-defect situation applies directly. Under these rules, the Society's particular repair-cost claim against B is 0 yuan.
 
-这个0元不等于乙履行了所有义务，也不等于任何违规都可以免责。它准确表达的是：尽管存在违规，器材社仍不能依据R2要求乙承担这笔与该违规无因果关系的修复费用。甲乙都违规、费用同为600元，结果仍然不同，正说明金额与违规标签不能代替因果判断。
+This 0-yuan result does not mean B performed every duty or that every breach is excused. It means precisely that, despite misconduct, R2 does not entitle the Society to shift this repair cost unconnected causally to that misconduct onto B. Both A and B breached and both costs were 600 yuan, yet results differ, showing that amounts and labels of misconduct cannot replace causal analysis.
 
-原课堂中有学生反驳：既然乙违规，为了不鼓励违规，是否至少应让他承担一点？这个反驳提出的是惩罚或行为引导的理由，但当前规则要求先证明违规造成该项费用。希望防止违规，不能使一个已经确认不存在的因果贡献变成存在，也不能提供任意数额的请求依据。是否另有处罚，要看其他规则；本课并未给出，所以不能肯定或否定所有可能处罚，更不能把未给出的处罚直接塞进修复费用请求。
+In the original class, a student objected: Since B breached, should B not bear at least some cost to discourage breaches? That raises punishment or behavioral-guidance reasons, but the current rule first requires proof that the breach caused this cost. A desire to deter breaches cannot turn an established absence of causal contribution into its presence, nor justify an arbitrary amount. Other penalties depend on other rules, which this lecture does not supply. We cannot affirm or deny all possible penalties, still less insert an unspecified penalty into a repair-cost claim.
 

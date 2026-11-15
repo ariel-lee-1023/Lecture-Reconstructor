@@ -1,1 +1,1 @@
-重大修复依据：输入第2行自行给出“请求权”定义与统一用语，支持修复“请球权”。第4行核心候选无法由本材料排除；甲题为阻塞项。仅有文字，未访问音频或外部教材。
+Basis for the major repair: input line 2 itself supplies the definition of 'claim-right' and consistent terminology, supporting the repair of 'clame-right'. The supplied material cannot eliminate either core candidate in line 4; A's problem is a blocking issue. Only text was available; no audio or external textbook was accessed.

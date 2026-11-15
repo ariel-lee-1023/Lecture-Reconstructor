@@ -5,12 +5,12 @@
   "stage": "deliver",
   "course": {
     "title": "malformed_subtitle",
-    "scope": "给定合成材料",
-    "jurisdiction": "教学假设，无现实法域",
+    "scope": "Supplied synthetic material",
+    "jurisdiction": "Teaching hypothetical, with no real jurisdiction",
     "time_context": "unknown",
-    "audience": "大学课程读者",
+    "audience": "University course readers",
     "assumptions": [
-      "只用输入给定规则，不外推现实法"
+      "Use only the rules supplied in the input; do not extrapolate to real law"
     ]
   },
   "inputs": [
@@ -34,7 +34,7 @@
   "content_units": [
     {
       "id": "u1",
-      "proposition": "注册许可不保证座位",
+      "proposition": "Permission through registration does not guarantee a seat",
       "locations": [
         {
           "input_id": "in1",
@@ -44,7 +44,7 @@
       ],
       "type": "substantive",
       "status": "represented",
-      "reason": "原文对照后写入实际正文",
+      "reason": "Written into the actual manuscript after comparison with the source text",
       "targets": [
         {
           "chapter_id": "ch-registration",
@@ -55,7 +55,7 @@
     },
     {
       "id": "u2",
-      "proposition": "确认时段内提供座位的义务",
+      "proposition": "Duty to provide a seat during the confirmed period",
       "locations": [
         {
           "input_id": "in1",
@@ -65,7 +65,7 @@
       ],
       "type": "substantive",
       "status": "represented",
-      "reason": "原文对照后写入实际正文",
+      "reason": "Written into the actual manuscript after comparison with the source text",
       "targets": [
         {
           "chapter_id": "ch-registration",
@@ -76,7 +76,7 @@
     },
     {
       "id": "u3",
-      "proposition": "甲乙对照与缺损时间定位",
+      "proposition": "Comparison of A and B and damaged temporal locations",
       "locations": [
         {
           "input_id": "in1",
@@ -86,7 +86,7 @@
       ],
       "type": "substantive",
       "status": "represented",
-      "reason": "原文对照后写入实际正文",
+      "reason": "Written into the actual manuscript after comparison with the source text",
       "targets": [
         {
           "chapter_id": "ch-registration",
@@ -113,13 +113,13 @@
       "status": "assembled",
       "learning_object": "ch-registration",
       "relations": [
-        "主体、行为及条件与后果的关系"
+        "Relationships among actors, conduct, conditions, and consequences"
       ],
       "prerequisites": [
-        "材料给定的合成规则"
+        "Synthetic rules supplied in the material"
       ],
-      "approach": "完整解释与关键条件对照",
-      "role": "解释课程的实质关系",
+      "approach": "Complete explanation and comparison of key conditions",
+      "role": "Explain the substantive relationships in the course",
       "content_unit_ids": [
         "u1",
         "u2",
@@ -164,7 +164,7 @@
       "kind": "semantic",
       "scope": "full_manuscript",
       "status": "pass",
-      "method": "独立新上下文对照请求、原输入与实际输出；见限制",
+      "method": "An independent fresh context compares the request, original input, and actual output; see limitations",
       "evidence": "semantic-review.md",
       "date": "2026-11-15",
       "output_sha256": "8c428b542afb380d6a410476e776a1954e1bf9205301d89dcb7b3e9b1a7a454b"
@@ -176,11 +176,20 @@
   },
   "resume": {
     "completed": [
-      "原文对照",
-      "全篇统稿",
-      "独立语义复核"
+      "Comparison with the source text",
+      "Full-manuscript editing",
+      "Independent semantic review"
     ],
     "remaining": [],
-    "next_action": "交付"
+    "next_action": "Delivery"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/edges/malformed_subtitle/run.json",
+    "original_sha256": "fe92c344378a8b6dbb3be7cc78c2bfdb7b1ed4928baa4dbedaf34d9e37c71163",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/edges/malformed_subtitle/run.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

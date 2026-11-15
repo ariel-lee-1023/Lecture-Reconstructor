@@ -1,7 +1,7 @@
 {
   "execution_kind": "actual_synthetic_generation",
   "agent_task": "/root/baseline_generation",
-  "request_applied_to_each_input": "请把这份课堂转录直接改写成一篇完整、清晰的中文课程讲稿，保留重要内容。",
+  "request_applied_to_each_input": "Please directly rewrite this classroom transcript into a complete, clear Chinese lecture manuscript, preserving important content.",
   "started_at_utc": "2026-11-15T02:02:36Z",
   "document_generation_finished_at_utc": "2026-11-15T02:06:19Z",
   "finished_at_utc": "2026-11-15T02:06:54Z",
@@ -76,5 +76,14 @@
   ],
   "execution_record_pre_write_state": "absent",
   "execution_record_hash": "not included to avoid a self-referential hash",
-  "verification": "UTF-8 decoding, nonempty manuscript file lengths, synthetic-material labels, terminal newlines, and SHA-256 values checked. No behavior score or learning-effect claim is made."
+  "verification": "UTF-8 decoding, nonempty manuscript file lengths, synthetic-material labels, terminal newlines, and SHA-256 values checked. No behavior score or learning-effect claim is made.",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/baseline/execution.json",
+    "original_sha256": "7ada16ad5df558d4a1abfe20b8ff2b489f984998f8e63307cc932a4bb39bc58a",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/baseline/execution.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

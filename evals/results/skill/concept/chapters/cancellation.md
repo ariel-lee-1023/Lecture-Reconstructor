@@ -1,11 +1,11 @@
 <a id="ch-cancellation"></a>
-## 三、撤销改变的是预约关系
+## 3. Cancellation changes the reservation relationship
 
-确认一旦成立，是否就一直保留到两小时结束？规则三允许预约人在开始前一日18点之前撤销预约，撤销通知到达系统后，规则二的双方关系消灭。此时发生的不是单纯表达“不想去了”，而是符合规则条件的行为改变了现有关系：预约人的座位请求与管理人的座位提供义务一同消灭。可以把这种通过有效行为改变关系的能力称作权能，但理解效果比记住名称更重要。
+Once confirmation arises, must the relationship last until the two hours end? Rule Three permits cancellation before 18:00 on the preceding day. Receipt of notice by the system ends the parties' Rule Two relationship. This is more than expressing 'I do not want to go': An act satisfying the rule changes an existing relationship, ending both the seat claim and the manager's duty. This capacity to change relations through a valid act may be called a power, but understanding its effect matters more than remembering its name.
 
-规则以通知到达系统为关键条件，发出通知本身还不够。戊在提前一天17:50发出撤销通知，系统到18:05才收到。戊虽然在18点之前发出，通知却在期限之后到达，因此不符合题设撤销条件，不能产生规则三的单方消灭效果。己的通知则在提前一天17:50到达系统，符合题设条件，预约关系随之消灭。两例改变的是到达时间，不是预约人表示撤销的意愿是否强烈。
+Receipt by the system is crucial; sending notice alone is insufficient. E sends cancellation at 17:50 on the preceding day, but the system receives it only at 18:05. Although sent before 18:00, it arrived after the deadline, failing the specified cancellation conditions and producing no unilateral termination under Rule Three. F's notice arrives at 17:50 on the preceding day, satisfies the conditions, and ends the reservation. What differs is receipt time, not the strength of the person's wish to cancel.
 
-超过18点，单方撤销不能产生上述效果，但双方仍可另行协商。这里要区分“按规则三单方消灭”与“双方另行协商”：前一条路线没有成立，并不等于后一条路线也被禁止；同时，允许协商也不等于已经协商成功。
+After 18:00, unilateral cancellation cannot have that effect, but the parties may negotiate separately. Distinguish unilateral termination under Rule Three from a separate negotiated agreement. Failure of the first route does not prohibit the second; permission to negotiate also does not establish that agreement was reached.
 
-撤销效果还受到关系内容的限制。己撤销后，消灭的是该预约的座位请求和提供义务，不是己的成员身份，也不是规则一给予的进入许可。因而，不能说预约被撤销后就当然不得进入阅览区。许可、请求与改变请求关系的行为，至此应当能分别辨认。
+Cancellation's effect is also limited by the relationship's content. F's cancellation ends that reservation's seat claim and provision duty, not F's membership or Rule One permission. It does not follow that F may no longer enter. Permission, a claim, and an act changing the claim relationship should now be distinguishable.
 

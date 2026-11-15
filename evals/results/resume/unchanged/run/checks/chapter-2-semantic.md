@@ -1,14 +1,14 @@
-# 第二章对源语义自查
+# Chapter 2 semantic self-review against the source
 
-UTC：2026-11-15T02:18:55.624701+00:00。执行者：本次恢复代理，Codex desktop，精确模型unknown；已知开发者描述为GPT-6家族。方法：重新读取实际源第8—13行及落盘第二章，逐项核对。非独立评审。所评章稿SHA-256：f0050b8fe3dc871a1d2fc7f1065353e3278c547d9793cb5b0225517fcb3f0d62。
+UTC: 2026-11-15T02:18:55.624701+00:00. Executor: this recovery agent, Codex desktop, exact model unknown; developer description identifies the GPT-6 family. Method: reread actual source lines 8–13 and saved chapter 2, checking item by item. Not independent review. Reviewed chapter SHA-256: f0050b8fe3dc871a1d2fc7f1065353e3278c547d9793cb5b0225517fcb3f0d62.
 
-| 源行／项目 | 正文锚点 | 实际核验 |
+| Source line/item | Prose anchor | Actual verification |
 |---|---|---|
-| 8／u10—u12 | ch2-withdrawal | 开始前一日、18:00整包括、到达生效、超期须双方同意均保留；未以发送替代同意。 |
-| 9／u13—u15 | ch2-arrival-comparison、ch2-withdrawal-scope | 戊17:50发出18:05到达失败；己18:00到达及时；两案关键为到达；撤销只消灭预约请求与对应义务，成员许可不变。 |
-| 10／u16—u17 | ch2-suspension | 即时安全险情导致必须封闭、可以暂停与应当退分的区别保留；恢复后剩余时段有效，不自动撤销或延长。 |
-| 11／u18—u19 | ch2-xin | 辛10—12点、10—11点封闭、11点开放、12点届满均一致；11:30到场剩半小时且不顺延。 |
-| 12／u20 | ch2-lateness-objection | 保留合成学生反驳并指出标准错误；个人迟到不变成安全封闭。 |
-| 13／u21 | ch2-geng | 庚周二17:58发出、18:02到达严格区分；没有协商同意证据；周三10—11点暂停、11—12点有效。 |
+| 8/u10—u12 | ch2-withdrawal | Retains preceding day, inclusion of exactly 18:00, effect upon receipt, and mutual agreement after the deadline. Sending is not substituted for consent. |
+| 9/u13—u15 | ch2-arrival-comparison, ch2-withdrawal-scope | E's sending 17:50/receipt 18:05 fails; F's receipt 18:00 is timely. Receipt is decisive in both. Cancellation extinguishes only the reservation claim and corresponding duty; membership permission remains. |
+| 10/u16—u17 | ch2-suspension | Retains immediate safety danger requiring closure and the distinction between permitted suspension and required points refund. Remaining time stays valid after reopening, with no automatic cancellation or extension. |
+| 11/u18—u19 | ch2-xin | H's reservation 10:00–12:00, closure 10:00–11:00, reopening 11:00, and expiry 12:00 are consistent. Arrival 11:30 leaves half an hour without extension. |
+| 12/u20 | ch2-lateness-objection | Retains the synthetic student's objection and identifies the incorrect criterion; personal lateness does not become safety closure. |
+| 13/u21 | ch2-geng | Strictly distinguishes G's Tuesday sending at 17:58 from receipt at 18:02; no negotiated agreement is evidenced. Wednesday suspension 10:00–11:00, valid remainder 11:00–12:00. |
 
-新增解释均为从给定条件和事实展开的推理；没有增加外部实体规则。第一章成立对象衔接一致，第二章把具体数额留给L4，未遗失后续任务。结论：本章自查pass，发现关键缺陷0；不证明真实法律效力或学习效果。
+All added explanations develop reasoning from the supplied conditions and facts, without adding external substantive rules. Chapter 1's relationship objects carry over consistently. Chapter 2 leaves specific amounts for L4 without losing the later task. Conclusion: chapter self-review pass, 0 critical defects found. This does not establish real legal validity or learning outcomes.

@@ -18,7 +18,7 @@ CHAPTER_STATES = {'planned', 'drafted', 'needs_review', 'reviewed', 'assembled'}
 UNIT_STATES = {'represented', 'merged', 'corrected', 'excluded', 'unresolved'}
 HASH = re.compile(r'^[0-9a-f]{64}$')
 ANCHOR = re.compile(r'<a\s+(?:id|name)=["\']([^"\']+)["\']\s*>\s*</a>|\{#([^}\s]+)\}')
-LIMITATION = '仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。'
+LIMITATION = "Only bounded structural checks passed; this does not establish legal correctness, semantic coverage, teaching quality, or learning outcomes."
 
 
 def sha256(path):

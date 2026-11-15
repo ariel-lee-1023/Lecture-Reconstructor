@@ -1,0 +1,49 @@
+{
+  "recorded_on": "2026-11-15",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "abae1662491ae46b099239ba77b890dbe53024afa7cb17f6035ad9817893f9f9"
+    },
+    {
+      "path": "references/law-reasoning.md",
+      "sha256": "498d45960148e44713134a636d714f29ffa9a940f34b51fceb9fe235422ceb7a"
+    },
+    {
+      "path": "references/reconstruction-workflow.md",
+      "sha256": "48ca3328fdd0a000e891e68ff41be161fa5f79eabf62c5e105f5d45258fff78a"
+    },
+    {
+      "path": "references/teaching-design.md",
+      "sha256": "bc29145f5b036a6d3f16bbd4873f47618438920443571cc10cae39902fd0320e"
+    },
+    {
+      "path": "references/transcript-repair.md",
+      "sha256": "0c6f98644d0279991a7ccbf2260395917044991a68882f9ed0f3e3f92524a153"
+    },
+    {
+      "path": "schemas/run.schema.json",
+      "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+    },
+    {
+      "path": "scripts/check_run.py",
+      "sha256": "497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7"
+    },
+    {
+      "path": "scripts/validate_repo.py",
+      "sha256": "0ab2c6b9c0c6b6fbd773b8edbec5cb7f1ebca8c7daa8743c8a7c9ddd6a7689d2"
+    }
+  ],
+  "meaning": "Current runtime after English translation of the core and four method references; manuscript language selection is unchanged, and historical behavioral evidence retains its original hashes.",
+  "revision": "english-runtime-course-language-default",
+  "previous_revision": "fidelity-ledger/runtime-revision.pre-english-core.json",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "fidelity-ledger/runtime-revision.json",
+    "original_sha256": "227ab5c916446055f82d2e5da45c850a086210adb721a71b1b599f7ee55d1aa9",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/fidelity-ledger/runtime-revision.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
+}

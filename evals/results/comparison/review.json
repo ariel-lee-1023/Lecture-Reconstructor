@@ -21,7 +21,7 @@
     "verdict_values": [
       "A",
       "B",
-      "相当"
+      "comparable"
     ],
     "critical_defect_definition": "A defect that changes a principal rule or result, loses a decisive condition/exception or essential teaching case, materially misattributes a source, or substitutes invented evidence for an unresolved issue.",
     "length_policy": "Length alone is not evidence of superiority. Added prose counts only if it improves the relevant comparison dimension.",
@@ -72,13 +72,13 @@
   "cases": {
     "concept": {
       "overall": {
-        "verdict": "相当",
+        "verdict": "comparable",
         "reason": "Both preserve the permission/request/cancellation distinctions, formation and arrival-time rules, safety exception, small examples, question, and course-specific examination prompt. No material quality difference emerges across the five dimensions."
       },
       "dimensions": {
         "substantive_omissions": {
-          "verdict": "相当",
-          "reason": "两稿均保留成功回执发出而非点击、撤销到达而非发出、超时可另行协商、安全封闭时退积分且不加时，以及成员资格不随撤销消灭。没有发现实质遗漏。",
+          "verdict": "comparable",
+          "reason": "Both manuscripts preserve sending of the successful receipt rather than clicking, receipt rather than sending of cancellation, negotiation after the deadline, refunds of reservation points without time extension during safety closure, and membership surviving cancellation. No substantive omission was found.",
           "evidence": [
             "input.txt:3-15",
             "A.md:23-53",
@@ -86,8 +86,8 @@
           ]
         },
         "errors_and_source_identity": {
-          "verdict": "相当",
-          "reason": "两稿正确限定为合成社内规则，未冒充现实法律或其他课程考试标准。B 对丙补写了“点击了预约按钮”，原文未明确该动作，属于不影响条件或结论的轻微叙事补足；A 使用“可以称作权能”的解释性命名，也没有把它写成原课明文。两者均无实质规则或来源错误。",
+          "verdict": "comparable",
+          "reason": "Both correctly limit themselves to synthetic internal rules rather than posing as real law or other courses' examination standards. B adds that C 'clicked the reservation button,' an action not expressly stated in the original: a minor narrative addition affecting neither conditions nor conclusions. A's explanatory naming 'may be called a power' is not presented as original classroom wording. Neither has a substantive rule or source error.",
           "evidence": [
             "input.txt:1,8,14",
             "A.md:3,27,36,53",
@@ -95,8 +95,8 @@
           ]
         },
         "reasoning_completeness": {
-          "verdict": "相当",
-          "reason": "均说明为何自己的许可不能推出他人的让位义务、有效确认为何另行产生管理人义务、撤销改变何种关系，并在最终判断中检查安全例外。A 对不能要求某位成员起身及协商未必成功的展开较多，但 B 已完成原课核心推理，不能仅以展开长度判优。",
+          "verdict": "comparable",
+          "reason": "Both explain why one's permission does not imply another's duty to move, why valid confirmation separately creates the manager's duty, and which relationship cancellation changes, while checking the safety exception in the final judgment. A elaborates more on inability to demand a particular member stand and on negotiations possibly failing. B nevertheless completes the original core reasoning, so elaboration length alone does not establish superiority.",
           "evidence": [
             "input.txt:6-15",
             "A.md:12-16,29-42,47-51",
@@ -104,8 +104,8 @@
           ]
         },
         "example_function": {
-          "verdict": "相当",
-          "reason": "两稿均用甲/丁比较不同关系的成立条件，用丙排除申请接收等于确认，用戊/己比较到达时间；充电线小例明确只说明许可与请求，不能扩大座位义务，入口堵塞问题也维持未决。例子均承担推理功能。",
+          "verdict": "comparable",
+          "reason": "Both manuscripts compare A/D to distinguish formation conditions, use C to reject equivalence of application receipt and confirmation, and compare E/F by receipt time. The charging-cable example expressly illustrates only permission versus claim, without expanding the seat duty; the blocked-entrance issue remains unresolved. All examples serve reasoning.",
           "evidence": [
             "input.txt:7-13,15",
             "A.md:14-18,27-31,38-42,51",
@@ -113,8 +113,8 @@
           ]
         },
         "whole_text_coherence": {
-          "verdict": "相当",
-          "reason": "两稿均按许可—确认请求—撤销—安全例外—完整作答组织，回扣甲与丁。A 更展开、B 更紧凑，但均形成连续论证，无拼贴或前后冲突。",
+          "verdict": "comparable",
+          "reason": "Both follow permission—confirmed claim—cancellation—safety exception—complete answer, returning to A and D. Manuscript A is more expansive and B more compact, but both sustain connected arguments without collage or contradiction.",
           "evidence": [
             "A.md:5,8,21,34,45,51-55",
             "B.md:5-9,11,23,39,49,59-65"
@@ -129,24 +129,24 @@
         {
           "output": "B",
           "location": "B.md:31",
-          "observation": "丙“点击了预约按钮”并非 input.txt:8 明示事实；删去该叙事补足可更严格贴合原课。它未改变成功回执发出这一成立节点。"
+          "observation": "C's 'clicking the reservation button' is not expressly stated at input.txt:8. Removing that narrative addition would adhere more strictly to the original. It does not change the formation event: sending the successful receipt."
         },
         {
           "output": "A",
           "location": "A.md:36",
-          "observation": "“权能”是重写中的解释性命名，原课未出现该词；现有“可以称作”表述可辨识为解释，非关键错误。"
+          "observation": "'Power' is an explanatory name added during rewriting, absent from the original lecture. The phrase 'may be called' identifies it as explanation; this is not a critical error."
         }
       ]
     },
     "case": {
       "overall": {
-        "verdict": "相当",
+        "verdict": "comparable",
         "reason": "Both preserve all three cases, the receipt mini-case, independent versus joint causation, the invoice-only variant, the student objection, and the exam-writing requirements, with accurate fact-to-condition links."
       },
       "dimensions": {
         "substantive_omissions": {
-          "verdict": "相当",
-          "reason": "普通磨损排除、R2三要件、发票证明范围、R3独立缺陷、R4明知未告知且共同导致不可分费用的全部关键条件均保留。100元背带、只有发票的变式、学生处罚质疑与本课考试提示均未遗漏。",
+          "verdict": "comparable",
+          "reason": "Both preserve ordinary-wear exclusion, R2's three conditions, the invoice's evidential scope, R3's independent defect, and every key R4 condition: knowing non-disclosure and joint causation of indivisible costs. Neither omits the 100-yuan strap, invoice-only variant, student's punishment objection, or course examination advice.",
           "evidence": [
             "input.txt:3-14",
             "A.md:12-20,25-63",
@@ -154,8 +154,8 @@
           ]
         },
         "errors_and_source_identity": {
-          "verdict": "相当",
-          "reason": "均把600/0/400限定为合成题设结论，明确甲案原因来自题设对检修事实的确认，未将所有检修单或发票视为自动证明因果关系；均指出R4的一半出自明文教学规则而非公平口号。没有发现实质错误或来源身份混淆。",
+          "verdict": "comparable",
+          "reason": "Both limit 600/0/400 to synthetic hypothetical conclusions and explain that A's causation comes from the stipulated inspection facts. Neither treats all reports or invoices as automatically proving causation. Both derive R4's half share from an express teaching rule rather than fairness rhetoric. No substantive error or source-identity confusion was found.",
           "evidence": [
             "input.txt:1,4,6-7,13-14",
             "A.md:3,16,20,25,33,57,61,63",
@@ -163,8 +163,8 @@
           ]
         },
         "reasoning_completeness": {
-          "verdict": "相当",
-          "reason": "均逐项说明甲满足R2；乙保留违规和费用而缺因果；丙有共同因果故不能照搬乙的全免，再依R4减半。发票不足变式均列出未证明事项，没有以缺失事实支持确定结果。A 多写不能由证据缺口直接推出全额或全免，B 的判断边界同样清楚。",
+          "verdict": "comparable",
+          "reason": "Both explain each R2 condition for A; B retains breach and costs but lacks causation; C has joint causation, preventing importation of B's full exemption, and R4 then halves the claim. Both invoice-insufficiency variants list unproved matters without using missing facts to support a definite result. Manuscript A additionally rejects inferring full recovery or exemption directly from evidential gaps; B's limits are equally clear.",
           "evidence": [
             "input.txt:7-14",
             "A.md:29-35,44-48,55-61",
@@ -172,8 +172,8 @@
           ]
         },
         "example_function": {
-          "verdict": "相当",
-          "reason": "甲乙保持违规与600元相同而改变原因；乙丙比较独立致损与共同致损；背带收据用于限定主体和费用项目；发票变式用于区分金额与原因证明。两稿均说明比较究竟改变了哪个事实，没有把案例降格成结论清单。",
+          "verdict": "comparable",
+          "reason": "A/B keep breach and 600 yuan constant while changing causation; B/C compare independent with joint causation. The strap receipt limits the claimant and cost category; the invoice variant separates proof of amount from proof of cause. Both manuscripts identify exactly which fact changes, rather than reducing cases to a list of conclusions.",
           "evidence": [
             "input.txt:7-13",
             "A.md:37,44-48,59-61",
@@ -181,8 +181,8 @@
           ]
         },
         "whole_text_coherence": {
-          "verdict": "相当",
-          "reason": "均先定请求与规则，再以甲—乙—丙逐步比较，最后回到作答方法。两稿的段落连接均清楚，金额始终服从条件判断，未见前后矛盾。",
+          "verdict": "comparable",
+          "reason": "Both establish the claim and rules, compare A—B—C progressively, and return to the answer method. Paragraph connections are clear; amounts consistently follow assessment of conditions, with no contradictions observed.",
           "evidence": [
             "A.md:5-20,23-65",
             "B.md:5-25,27-77"
@@ -202,8 +202,8 @@
       },
       "dimensions": {
         "substantive_omissions": {
-          "verdict": "相当",
-          "reason": "两稿均保留2018版与2024版原文、2019年语境、甲乙差异、丙的保密限制及去密副本未决、学生质疑、教材/教师/模拟裁判身份和作业要求。A 把“不要求押中考试结论”改为“不要求猜中教师偏好的结论”，措辞略有移动，但未把比较作业改成标准答案训练，不构成实质遗漏。",
+          "verdict": "comparable",
+          "reason": "Both preserve the 2018 and 2024 wording, 2019 context, A/B distinction, C's confidentiality restriction and unresolved redacted copy, student objection, textbook/teacher/simulated-judgment identities, and assignment. Manuscript A changes 'not predicting an examination conclusion' to 'not guessing the teacher's preferred conclusion,' a slight wording shift that does not turn the comparative assignment into model-answer training or constitute a substantive omission.",
           "evidence": [
             "input.txt:1-13",
             "A.md:3,11-75",
@@ -212,7 +212,7 @@
         },
         "errors_and_source_identity": {
           "verdict": "B",
-          "reason": "两稿均没有把教材资助条件当条文明文、把模拟裁判当真实判例或普遍拘束规范，也没有用2024版替代2019年的题目。B 的局部优势是明确把补写的机构资助辩护标为“教学重建”，且说明教材片段并未实际陈述这个理由。A 以“可以提出”“可能”表示试探性分析，但没有同样明确区分该段新论证与原课堂已有内容；这不是已确认的重大误引。",
+          "reason": "Neither treats the textbook's funding condition as express statutory wording, the simulated judgment as a real precedent or generally binding norm, or 2024 as replacing the 2019 problem. B's local advantage is expressly labeling its added funding-criterion defense as 'teaching reconstruction' and noting that the textbook excerpt did not state that reason. A's 'may propose' and 'possible' signal tentative analysis but do not distinguish the new argument from original classroom content as clearly. This is not an established major misattribution.",
           "evidence": [
             "input.txt:5-7,10-12",
             "A.md:23-41,61-71",
@@ -221,7 +221,7 @@
         },
         "reasoning_completeness": {
           "verdict": "B",
-          "reason": "两稿都完成用途与保密须同时满足、目的不能删除用途门槛、解释与制度评价不能替代规则适用的核心链条。B 对作业所需两种解释比较更完整：不仅提出资助是外部标志及可能排除独立研究，还追问条文未列的额外限制为何合理；对教师解释明确提出实质审查计划、说明判断标准的负担，并区分结构性推论与实测效果。A 已提出主要方向，但对这些解释负担的展开较少。此优势来自具体论证闭合而非篇幅。",
+          "reason": "Both complete the central chain: purpose and confidentiality must both hold; purpose cannot delete the use threshold; interpretation and institutional evaluation cannot replace rule application. B more fully compares the interpretations required by the assignment: Beyond funding as an external indicator that may exclude independent research, it asks why an additional restriction absent from the text is justified. For the teacher's interpretation, it identifies substantive review of plans and the burden of explaining criteria, distinguishing structural inference from measured effects. A gives the main directions but develops these explanatory burdens less. The advantage is closure of specific arguments, not length.",
           "evidence": [
             "input.txt:5-9,13",
             "A.md:25-33,47-53,73",
@@ -229,8 +229,8 @@
           ]
         },
         "example_function": {
-          "verdict": "相当",
-          "reason": "两稿均用甲展示解释选择如何影响所需事实，用乙检验目的解释的边界并跨版本比较，用丙说明研究方案不能抵消保密条件。B 额外把丙置入新版再检查一次，属于有依据的补充；A 已完整实现原课的例子功能，不能仅据多一个应用步骤判定更优。",
+          "verdict": "comparable",
+          "reason": "Both use A to show how interpretive choices change relevant facts, B to test limits of purposive interpretation and compare versions, and C to show that a research proposal cannot cancel confidentiality. B additionally reapplies the new version to C, a supported addition. A already fulfills the original examples' functions, so one extra application step does not alone establish superiority.",
           "evidence": [
             "input.txt:4,8-11",
             "A.md:19,33,47-53,65",
@@ -238,8 +238,8 @@
           ]
         },
         "whole_text_coherence": {
-          "verdict": "相当",
-          "reason": "A 依次铺陈规则、两种解释、模拟裁判、限制、版本、作业；B 将模拟裁判并入解释，并在学生质疑后插入比较示范再做版本对照。两种结构都可跟随，均在结尾回到来源身份和版本边界，没有证据表明一种组织明显更有效。",
+          "verdict": "comparable",
+          "reason": "A proceeds through the rule, two interpretations, simulated judgment, limits, versions, and assignment. B incorporates the simulated judgment into interpretation and adds a comparative demonstration after the student objection before comparing versions. Both structures are followable and end with source identity and version boundaries. No evidence establishes one organization as clearly more effective.",
           "evidence": [
             "A.md:9-75",
             "B.md:8-61"
@@ -254,12 +254,12 @@
         {
           "output": "A",
           "location": "A.md:31",
-          "observation": "对资助标准的潜在辩护是重写新增分析。已有“可以提出”“可能”的语气限制；若再明示不是所引教材原有理由，来源区分会更清楚。"
+          "observation": "The potential defense of the funding standard is analysis added in rewriting. 'May propose' and 'possible' already qualify it; expressly stating that it was not a reason in the cited textbook would clarify source identity further."
         },
         {
           "output": "A",
           "location": "A.md:73",
-          "observation": "原课“不要求押中考试结论”被改为“不要求猜中教师偏好的结论”。保留原来的考试限定会更忠实，但作业仍是比较理由与代价，未形成关键缺陷。"
+          "observation": "The original 'not predicting an examination conclusion' becomes 'not guessing the teacher's preferred conclusion.' Retaining the examination qualification would be more faithful, but the assignment still compares reasons and costs, so no critical defect results."
         }
       ]
     }
@@ -274,5 +274,14 @@
     "Three synthetic lessons and one blind reviewer cannot establish general superiority.",
     "No real-classroom trial or learning-effect measurement occurred in this review.",
     "No original input or candidate output was edited."
-  ]
+  ],
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/comparison/review.json",
+    "original_sha256": "2f961ea5f1948ef2c650bf75230bf2dc17b60e527a9ae2108300494b36f7583e",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/comparison/review.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

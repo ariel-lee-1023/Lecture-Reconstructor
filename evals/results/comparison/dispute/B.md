@@ -1,61 +1,61 @@
-# 南岬档案馆：把规范、解释与制度评价分开
+# South Cape Archives: Distinguishing Rules, Interpretation, and Institutional Evaluation
 
-本讲的机构、资料、规范、观点与裁判事例均为合成教学创作，不是现行规范、真实著作或真实裁判。课程时间语境为2019年，主体是《南岬档案使用练习规则》2018版；另有标示为2024版的后续教学材料，用于版本比较。
+The institutions, materials, rules, views, and judicial examples in this lecture are synthetic teaching creations, not current rules, real publications, or real judgments. The course is set in 2019 and centers on the 2018 South Cape Archives Access Exercise Rules. Later teaching materials labeled 2024 are supplied for version comparison.
 
-研究者能否获得普通档案，看起来只是一个“公开还是不公开”的问题，实际上要先辨明我们在做什么判断：是在适用某一版本的规则，在解释规则中的“学术研究”，还是在评价哪一种制度更好？教师可以赞成扩大利用范围，但这一偏好不会自动改变旧版规则。只有把规范文本、教材解释、教师观点和模拟裁判各自放回合适的位置，讨论才不会在不知不觉中更换前提。
+Whether researchers can obtain ordinary records seems to ask only 'disclose or not,' but first identify the judgment being made: applying one version's rules, interpreting 'academic research,' or evaluating which institution is better? A teacher may favor broader access, but that preference does not automatically change the old rules. Only by placing normative text, textbook interpretation, the teacher's position, and simulated judgments in their proper roles can we avoid silently replacing premises.
 
 <a id="ch-version2018"></a>
-## 一、2018版：原则与例外怎样连接
+## 1. The 2018 version: How principle and exception connect
 
-课堂使用的2018版第2条原文是：“档案原则上不对外提供。申请人证明其用途为学术研究，且不涉及封存的个人秘密的，应准许阅览。”这是一条课内假设规范。第一句给出原则，第二句给出准许阅览的例外条件及其后果，不能只摘取其中半句。
+The classroom's 2018 Article 2 reads: 'In principle, archival records are not provided to outsiders. Inspection shall be permitted if the applicant proves an academic research purpose and no sealed personal secrets are involved.' This is a hypothetical classroom rule. Its first sentence states the principle; its second states the exception's conditions and consequence. Neither half may be extracted alone.
 
-例外要求两个条件同时满足：申请人证明学术研究用途，档案又不涉及封存的个人秘密。“且”将二者连接起来，因此研究用途再充分，也不能抵消保密条件的欠缺；反过来，不涉及封存秘密，也不能单独替代用途证明。条件具备后，规则写的是“应准许阅览”，而不是仅表示教师个人愿意让人阅览。
+The exception requires both proof of academic research purpose and records that do not involve sealed personal secrets. 'And' joins them: Even a fully established research purpose cannot compensate for failure of the confidentiality condition; conversely, absence of sealed secrets cannot alone replace proof of purpose. Once the conditions hold, the rule says inspection 'shall be permitted,' rather than merely expressing the teacher's personal willingness to allow it.
 
-甲提出学术研究计划，所请档案没有封存的个人秘密。这个计划提供了关于用途的材料，与完全没有说明学术用途不同。不过，计划是否足以证明规则所说的“学术研究”，还要结合下文的解释争议；不能先把某一种解释当成所有材料都已认可的答案。若用途条件得到满足，甲又符合不涉及封存秘密的条件，就应依2018版的例外准许阅览。
+A submits an academic research plan, and the requested records contain no sealed personal secrets. The plan supplies evidence about purpose, unlike saying nothing about academic use. But whether it sufficiently establishes 'academic research' depends on the interpretive dispute below. Do not first treat one interpretation as an answer accepted by all materials. If A satisfies the purpose condition as well as the absence-of-secrets condition, inspection should be permitted under the 2018 exception.
 
-乙只说自己好奇，没有说明学术用途。在2018版下，不能因为甲乙都想看档案，就把二人视为同样满足例外。乙的问题不是好奇心有没有价值，而是现有陈述没有满足本条要求的用途证明。即使对知识感兴趣，也不能据此跳过仍然写在规则中的条件。
+B says only that they are curious and identifies no academic purpose. Under the 2018 version, A and B cannot be treated as equally satisfying the exception merely because both want the records. The issue is not curiosity's value but whether B's statement establishes the purpose required by this article. An interest in knowledge does not allow bypassing a condition still written in the rule.
 
-原课还给出丙的教学假设：丙有完整研究方案，但所请档案含封存的个人秘密。即便研究方案满足用途条件，第二个条件仍然不满足，因此不能凭研究方案适用上述准许例外。能否取得去除秘密后的副本，是另一个处理问题；本课规则没有规定，不能从“研究有价值”直接推出有权取得，也不能把未提供的规则补成答案。
+The original class also supplies C's teaching hypothetical: C has a complete research proposal, but the requested records contain sealed personal secrets. Even if the proposal satisfies purpose, the second condition remains unmet, so the proposal cannot activate the inspection exception. Access to a redacted copy is a separate question unaddressed by the course rules. 'Research is valuable' cannot directly create such an entitlement, nor may an absent rule be invented as the answer.
 
 <a id="ch-interpretation"></a>
-## 二、“学术研究”应当怎样解释
+## 2. How should 'academic research' be interpreted?
 
-争议集中在一个前提：什么样的研究属于2018版条文中的“学术研究”？课堂提供的虚构教材《档案制度练习讲义》2018版第7节认为，它只包括受机构资助的项目。这是教材作者的限制解释。条文原文没有写出“机构资助”，所以不能把教材说法直接引成条文原句，也不能因为它来自教材，就省去解释理由。
+The dispute concerns a premise: Which research counts as 'academic research' in the 2018 provision? Section 7 of the fictional 2018 Archival Institutions Exercise Notes supplied in class restricts it to institutionally funded projects. That is the textbook author's restrictive interpretation. The original text does not say 'institutional funding,' so the textbook's statement must not be quoted as the provision itself, nor may its textbook origin eliminate the need for interpretive reasons.
 
-教师则倾向于包括有明确问题和方法的独立研究，理由是避免把机构身份变成准入门槛。这个观点把注意力放在研究活动的内容与组织方式，而非仅看有没有机构资助。不过，它同样是一项解释主张，不能被写成条文明文规定“所有独立研究都可以”。按照教师提出的标准，仍要辨认研究是否有明确问题与方法；“独立”本身既不自动排除资格，也不自动证明资格。
+The teacher favors including independent research with a clear question and method, to avoid institutional status becoming an entry barrier. That focuses on research content and organization rather than funding alone. But it too is an interpretation, not an express rule that 'all independent research qualifies.' The teacher's criterion still requires a clear question and method. 'Independent' neither automatically excludes nor proves eligibility.
 
-两种解释会怎样影响甲？在教材解释下，现有题设若没有交代机构资助，仅凭研究计划还不足以确认其满足教材设定的限制条件；不能把未交代资助直接写成已经证实没有资助。在教师解释下，应当查看计划是否体现明确问题与方法，而不能只查申请人的机构身份。由此可以看到，解释选择影响的是哪些事实与用途判断有关，并且会改变需要说明或查明的事项。
+How do the interpretations affect A? Under the textbook approach, where funding is unstated, the research plan alone cannot establish the textbook's restrictive condition. Unstated funding must not become proven absence of funding. Under the teacher's approach, examine whether the plan presents a clear question and method rather than checking only institutional identity. The interpretive choice thus changes which facts matter to purpose and what must be explained or established.
 
-还有一项不同身份的材料：课堂裁判模拟册中的“甲申请案”摘要。模拟合议庭认为，独立研究者提供研究计划足以证明用途，并援引促进知识使用这一目的。这是该模拟案件中给出的判断与理由，支持独立研究也可能符合研究用途的思路。它不是现实法院判例；摘要没有交代其他案件的事实，也没有宣称对其他案件有约束力。因而，我们可以分析其理由，但不能把这份摘要提升成一项已知普遍拘束其他案件的规范。
+Another material has a different identity: the classroom mock-judgment booklet's summary of 'A's Application.' The simulated panel considered an independent researcher's plan sufficient proof of purpose, citing promotion of the use of knowledge. This is the judgment and reasoning in that simulated case, supporting the possibility that independent research qualifies. It is not a real precedent; the summary gives no facts of other cases and claims no binding force over them. We may analyze its reasons, but cannot elevate it into a rule known to bind other cases generally.
 
-教材解释、教师主张与模拟合议庭观点不能互相冒名。它们可能赞成不同范围，也可能在某个具体结论上相近；即使结论相近，来源身份与理由仍需分清。本课也没有提供真实著作或真实裁判全文供外部核验，以上定位均来自这份合成课堂材料。
+The textbook interpretation, teacher's position, and simulated panel's view must not be attributed to one another. They may favor different scopes or converge on a particular conclusion. Even when conclusions coincide, source identities and reasons remain distinct. No complete real publication or judgment was supplied for external checking; the locations above all come from this synthetic classroom material.
 
 <a id="ch-limits"></a>
-## 三、回应质疑：促进知识使用能否取消用途限制
+## 3. Answering the objection: Can promoting knowledge remove the purpose restriction?
 
-原课堂中的学生提出了一个实质反驳：既然模拟合议庭强调促进知识使用，是否也能把乙的好奇心解释为学术研究？这个反驳追问的不是研究是否有好处，而是目的理由究竟允许我们走多远。
+A student in the original class raised a substantive objection: If the simulated panel emphasizes promoting the use of knowledge, could B's curiosity also be interpreted as academic research? The objection asks not whether research is beneficial but how far a purposive reason allows us to go.
 
-教师的回应区分了两种论证。第一种是在“学术研究”概念内，讨论有明确问题和方法的独立研究能否被包括；第二种则是根本不证明研究用途，却要求借目的取消用途限制。前者仍需说明独立研究为什么符合概念，后者却把条文仍然保留的条件删掉了。因此，促进知识使用可以成为解释理由，却不能仅凭自身就使乙的现有好奇心陈述满足学术研究条件。同样，它不能使含有封存个人秘密的档案因申请人说了一句“研究”就摆脱另一项限制。
+The teacher distinguishes two arguments. One asks, within 'academic research,' whether independent research with clear questions and methods is included. The other proves no research purpose at all, yet invokes purpose to remove the use restriction. The former must still explain conceptual fit; the latter deletes a condition the text retains. Promoting the use of knowledge can therefore supply an interpretive reason, but cannot by itself make B's existing expression of curiosity satisfy the academic-research condition. Likewise, saying 'research' cannot remove the separate restriction on records containing sealed personal secrets.
 
-本课作业要求比较两种解释的理由与代价，而不是猜中某个考试结论。下面给出一个新写的分析示范，其中对可能理由与代价的展开属于教学重建，不冒称教材作者已经说过，也不视为已测量的制度效果。
+The assignment asks for comparison of the reasons and costs of two interpretations, not guessing an examination conclusion. The following is a newly written analytical demonstration. Its development of possible reasons and costs is a teaching reconstruction, not something purportedly already said by the textbook author or measured as an institutional effect.
 
-先把教材解释尽可能讲清楚。可以为“机构资助”标准提出一种可供讨论的理由：它给用途审查提供一个较容易识别的外部标志，有助于形成明确的筛选标准。但这只是一条重建出的辩护路线，课堂所引教材片段并没有实际陈述这个理由。其需要回应的质疑是，资助与研究性质并非同一个概念，条文又没有明列资助条件；若据此排除有明确问题与方法的独立研究，就必须解释为何这种额外限制合理，不能只重复教材结论。
+First explain the textbook approach as clearly as possible. One arguable defense of the institutional-funding criterion is that it supplies an easily identified external indicator for assessing purpose, helping create a clear screening standard. This is a reconstructed defense; the quoted textbook excerpt did not actually give that reason. It must answer the objection that funding and the nature of research are different concepts and the text does not expressly require funding. Excluding independent research with clear questions and methods therefore requires explaining why that additional restriction is justified, not merely repeating the textbook's conclusion.
 
-再看教师的解释。它有原课明确给出的理由：避免机构身份成为门槛，并把有明确问题与方法的独立研究纳入讨论。促进知识使用的目的也与这一方向有关。其可能代价是，判断者需要实质查看计划，而不能仅以资助这一外部标志完成分类；这可能增加判断标准说明的负担。这里所说“可能”是从两种标准的结构作出的分析，并非已有数据证明哪一种审查一定更难。教师观点还必须回应边界问题：怎样说明研究计划体现明确问题与方法，而不是把所有求知愿望都纳入？原课堂对乙的回应就是保留这条边界。
+Now consider the teacher's interpretation. The original class expressly gives its reason: Avoid institutional status as a barrier and consider independent research with clear questions and methods. Promoting knowledge use also bears on this direction. A possible cost is that decision-makers must examine the plan substantively, rather than classify it solely through funding as an external indicator. This may increase the burden of explaining judgment criteria. 'Possible' here is structural analysis of the standards, not data proving one review is necessarily harder. The teacher must also address boundaries: How does a plan show a clear question and method without including every desire for knowledge? The original response to B preserves that boundary.
 
-两边的比较不能止于“我更喜欢公开”或“教材更权威”。完整作答应当指出各自采用的标准、标准与条文字义和目的之间的联系、会纳入或排除什么类型的申请，以及它必须承担的解释负担。材料没有给出一个消除全部争议的最终答案，讲稿也不替它虚构共识。可以有立场，但要把立场及其理由写明。
+Comparison cannot stop at 'I prefer disclosure' or 'the textbook is more authoritative.' A complete answer identifies each criterion, its connection to the text and purpose, which applications it includes or excludes, and its explanatory burden. The materials provide no final answer resolving every disagreement, and the manuscript invents no consensus. A position is permissible, but its content and reasons must be explicit.
 
 <a id="ch-version2024"></a>
-## 四、版本改变以后，哪些判断随之改变
+## 4. Which judgments change when the version changes?
 
-补充讲义中的2024版第2条写道：“普通档案原则上对外提供；涉及封存的个人秘密的，不得提供。”这与2018版有两处重要差别：普通档案由原则不对外提供改为原则对外提供；学术用途门槛被删去。涉及封存个人秘密的保密限制仍然存在。
+Article 2 in the 2024 supplementary handout states: 'Ordinary archival records are in principle provided to outsiders; records involving sealed personal secrets must not be provided.' It differs materially from 2018 in two respects: Ordinary records shift from presumptive non-disclosure to presumptive disclosure, and the academic-purpose threshold is removed. The restriction concerning sealed personal secrets remains.
 
-这里必须先固定时间。课程语境是2019年，主体题目使用2018版；2024版是后续教学版本的对照材料。不能因为手里看到了较新版本，就说2019年已经适用它，也不能悄悄用它改写原来的甲乙丙判断。
+Fix the time context first. The course is set in 2019, and its main problems use the 2018 version. The 2024 version is later teaching material for comparison. Seeing a newer version does not mean it applied in 2019 and does not permit silently rewriting the original A, B, and C judgments.
 
-把同一个乙放在两版规则下，变化便很清楚。乙仍然只是好奇，这个人的用途陈述没有变化；改变的是规则是否要求证明学术研究。2018版下，现有用途陈述不足以满足准许例外。2024版下，好奇心本身不再成为学术用途门槛上的障碍，因为该门槛已被删除。但这不能直接推成乙在任何情况下都获准：仍要看请求是否落在普通档案范围，以及是否涉及封存的个人秘密。对符合普通档案范围且不涉及该秘密的申请，适用新版原则提供的规则；涉及封存个人秘密，则受新版不得提供的限制。原材料没有替乙补齐的秘密状况，不能由我们假装已经查明。
+Place the same B under both versions to see the change. B is still merely curious; the person's purpose statement is unchanged. What changes is whether proof of academic research is required. Under 2018, that statement is insufficient for the exception. Under 2024, curiosity no longer fails an academic-purpose threshold, because the threshold is gone. But that does not guarantee approval in every circumstance. Check whether the request concerns ordinary records and whether sealed personal secrets are involved. Ordinary records without such secrets fall under the new disclosure principle; records involving such secrets remain prohibited. Where the original material does not establish the secrecy facts for B, we must not pretend to have established them.
 
-丙也说明保密限制没有因版本变化而消失。其档案含封存的个人秘密这一事实仍在，新版明确规定涉及该秘密不得提供。研究方案更完整，也不能抵消这一限制。至于去除秘密后的副本，材料仍没有提供相应处理规则，本讲保持原课的未决边界。
+C also shows that confidentiality survives the version change. The fact that the records contain sealed personal secrets remains, and the new text expressly prohibits disclosure of such records. A more complete research proposal cannot cancel that restriction. The materials still supply no rule for redacted copies; this lecture preserves the original unresolved boundary.
 
-教师评价新版更便于利用，是一项制度评价。我们可以看见这种评价所联系的规则变化：用途门槛被移除，普通档案改为原则对外提供。但是否赞成这种改变，与在指定版本下如何处理具体申请，是两类判断；评价不能倒填为旧版条文内容。把“教师赞成公开”写成“2018年所有档案都公开”，既抹去了旧版的用途条件，也抹去了保密限制。
+The teacher's view that the new version facilitates use is an institutional evaluation. Its connection to the rule changes is visible: Removal of the purpose threshold and presumptive disclosure of ordinary records. But approving the change and deciding a specific application under a specified version are different judgments. Evaluation cannot be inserted retrospectively into the old text. Turning 'the teacher favors disclosure' into 'all records were public in 2018' erases both the old purpose condition and confidentiality restriction.
 
-完成本课讨论时，应能分别说出：2018版规则要求什么，教材如何限制解释，教师为什么主张包括符合条件的独立研究，模拟裁判在给定案件中如何说明理由，以及2024版究竟改变了哪些条件。我们没有进行现实法核验，也没有学习者数据证明实际学生赞同哪一方。保留这种身份与证据的边界，正是使解释争议和制度评价能够认真展开的前提。
+By the end of this discussion, distinguish what the 2018 rule requires, how the textbook restricts its interpretation, why the teacher includes qualifying independent research, how the simulated judgment explains its given case, and exactly which conditions changed in 2024. No real-law verification was performed, and no learner data show which view actual students support. Keeping these identities and evidence limits intact enables serious interpretive disagreement and institutional evaluation.

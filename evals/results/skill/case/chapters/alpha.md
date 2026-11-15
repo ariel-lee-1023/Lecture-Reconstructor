@@ -1,17 +1,17 @@
 <a id="ch-alpha"></a>
-## 二、甲案：按期返还为何仍需承担六百元
+## 2. A's case: Why timely return still leaves a 600-yuan obligation
 
-甲在3月1日借相机，约定用于室内拍摄，并于3月3日返还。3月2日，甲把相机拿到雨中拍照，说明书禁止淋雨；3月3日，他按期归还。检修单记录雨水进入电路是唯一损坏原因，实际修复费600元已经支付，没有原有缺陷证据，而且题设明确把检修单所载原因作为已确认事实。
+A borrowed a camera on March 1 for agreed indoor photography, to be returned on March 3. On March 2, A used it in the rain despite the manual's prohibition, then returned it on time on March 3. The inspection report records rainwater entering the circuitry as the sole damage cause. Actual repair costs of 600 yuan have been paid, no pre-existing defect is evidenced, and the problem expressly treats the report's causal account as established.
 
-教师在原课堂给出“甲付600，因为淋雨”的简短结论，写成完整分析时，需要补出三个环节。
+The original teacher briefly concluded, 'A pays 600 because of the rain.' A complete analysis must supply three steps.
 
-第一，甲违反了R1的用途义务。约定为室内拍摄，实际却在雨中使用，并与禁止淋雨的说明相冲突。按期归还只能回答返还是否及时，不能消去已经发生的违规使用。这里认定的损坏也有特定原因，不能改写成R1允许的普通磨损。
+First, A breached R1's use duty. Indoor photography was agreed, but actual use occurred in rain and contradicted the rain prohibition. Timely return answers only whether return was timely; it cannot erase the earlier misuse. The damage also has a specified cause and cannot be relabeled ordinary wear permitted by R1.
 
-第二，存在实际修复费用。题设明确给出600元修复费且已经支付，这支持R2的费用条件。
+Second, actual repair costs exist. The problem expressly gives 600 yuan in repair costs already paid, supporting R2's cost condition.
 
-第三，甲的违规使用造成了这项修复费。桥梁在于题设已确认雨水进入电路是唯一损坏原因：甲在雨中违规使用与本次电路损坏、修复费用之间的联系，不是仅凭时间接近或一张收据推测出来的。本例接受这一因果事实，是因为题设明确作此确认，不是因为任何检修单在所有场景下都能自动确定原因。
+Third, A's misuse caused this repair cost. The bridge is the stipulated fact that rainwater entering the circuitry was the sole damage cause. The connection between prohibited use in rain, circuit damage, and repair costs is not inferred merely from temporal proximity or a receipt. This example accepts that causal fact because the problem expressly establishes it, not because every inspection report automatically determines causation in every setting.
 
-三个条件至此分别得到事实支持。题设也没有给出原有缺陷独立致损，或器材社明知缺陷未告知并与违规共同致损的事实，不能凭空套用R3或R4。因此，按本题已经确认的事实和练习规则，器材社的修复费用请求为600元。
+Each condition now has factual support. The problem supplies no facts of independent damage from a pre-existing defect, or knowing non-disclosure by the Society combined with joint causation. R3 or R4 cannot be invoked without such facts. Under the established facts and exercise rules, the Society's repair-cost claim is therefore 600 yuan.
 
-还有一张容易被漏看、也容易被错加的收据：甲自行购买了一条100元相机背带。没有报销约定，也没有证据说明背带是修复所需。它与器材社已经确认的600元修复费，在支出主体、项目和请求依据上都不同，不能因两张凭证都涉及相机就合计为700元。现有材料同样没有建立甲要求报销这条背带的依据。本例要排除的是把所有收据混成修复费用的算法，而不是否认600元修复费已经查明。
+Another receipt is easy to overlook or wrongly add: A independently bought a 100-yuan camera strap. There is no reimbursement agreement or evidence that it was needed for repair. Its spender, expense category, and claim basis differ from the Society's established 600-yuan repair cost, so the two cannot total 700 merely because both documents concern the camera. Nor do the materials establish A's reimbursement claim. The example rejects adding every receipt as repair costs; it does not deny that the 600-yuan repair cost is established.
 

@@ -23,7 +23,7 @@
           "destinations": [
             "references/teaching-design.md"
           ],
-          "adaptation": "将实时教学的关系辨别、对照、整体任务改为静态成稿；不继承参与阻塞、学习诊断或媒体要求。"
+          "adaptation": "Adapt discernment of relationships, contrasts, and whole tasks from live teaching to static manuscript production; do not inherit participation blocking, learner diagnosis, or media requirements."
         },
         {
           "path": "references/reference-marton-booth-awareness.md",
@@ -37,7 +37,7 @@
           "destinations": [
             "references/teaching-design.md"
           ],
-          "adaptation": "用学习对象、关系与整体组织讲稿；不把经验方式归为固定读者类型。"
+          "adaptation": "Organize manuscripts around objects of learning, relationships, and wholes; do not classify ways of experiencing as fixed reader types."
         },
         {
           "path": "references/reference-ambrose-learning.md",
@@ -51,7 +51,7 @@
           "destinations": [
             "references/teaching-design.md"
           ],
-          "adaptation": "区分不同讲解缺口，补足先修和专家省略步骤；无学生表现时不作诊断。"
+          "adaptation": "Distinguish explanatory gaps, supply prerequisites and steps experts omit, and avoid diagnosis without student performance."
         },
         {
           "path": "references/reference-van-merrienboer-complex.md",
@@ -66,7 +66,7 @@
           "destinations": [
             "references/teaching-design.md"
           ],
-          "adaptation": "先完整示范后增加复杂度，区分支持性与程序性信息，静态稿不声称技能表现已被观察。"
+          "adaptation": "Demonstrate complete tasks before increasing complexity, distinguish supportive and procedural information, and do not claim a static manuscript has observed skill performance."
         },
         {
           "path": "references/reference-alexander-dialogic.md",
@@ -80,7 +80,7 @@
           "destinations": [
             "references/teaching-design.md"
           ],
-          "adaptation": "承接原材料反驳并保留争议；静态稿不模拟不存在的师生互动。"
+          "adaptation": "Address objections in the original material and preserve disagreements; a static manuscript does not simulate nonexistent teacher–student interaction."
         },
         {
           "path": "references/reference-multimedia-handbook.md",
@@ -94,7 +94,7 @@
           "destinations": [
             "references/teaching-design.md"
           ],
-          "adaptation": "按需图表、完整示范、分段与来源归属；保留章节作者和效应外推边界。"
+          "adaptation": "Use diagrams, complete demonstrations, segmentation, and source attribution as needed; preserve chapter authorship and limits on extrapolating effects."
         },
         {
           "path": "LICENSE",
@@ -107,7 +107,7 @@
             "LICENSE",
             "NOTICE.md"
           ],
-          "adaptation": "保留许可与原作者版权声明；不扩张到原书、教材和私人课堂材料。"
+          "adaptation": "Preserve license and original-author copyright notices; do not extend them to original books, textbooks, or private classroom materials."
         }
       ]
     },
@@ -131,7 +131,7 @@
           "destinations": [
             "references/law-reasoning.md"
           ],
-          "adaptation": "将论证检查转为课程解释，区分推论与前提，不继承咨询格式或现行法数据库能力。"
+          "adaptation": "Turn argument checks into course explanations, distinguishing inference from premises without inheriting advice formats or a current-law database capability."
         },
         {
           "path": "references/move-taxonomy.md",
@@ -146,7 +146,7 @@
           "destinations": [
             "references/law-reasoning.md"
           ],
-          "adaptation": "保留支持类型、独立路线、更新与反驳；明确四分类是上游合成。"
+          "adaptation": "Preserve support types, independent routes, updating, and rebuttals; identify the four categories as an upstream synthesis."
         },
         {
           "path": "references/reference-toulmin-uses-of-argument.md",
@@ -160,7 +160,7 @@
           "destinations": [
             "references/law-reasoning.md"
           ],
-          "adaptation": "补出隐含桥梁、依据与限定；上传例改为明确合成课堂规则并保留独立路线。"
+          "adaptation": "Supply implicit bridges, backing, and qualifications; adapt the upload example into explicitly synthetic classroom rules while preserving independent routes."
         },
         {
           "path": "references/hohfeld-toolkit.md",
@@ -174,7 +174,7 @@
           "destinations": [
             "references/law-reasoning.md"
           ],
-          "adaptation": "只在关系含混处使用许可/保护与权能/义务区别；不把分类当实体规则。"
+          "adaptation": "Use permission/protection and power/duty distinctions only where relations are unclear; classification does not create substantive rules."
         },
         {
           "path": "references/reference-maccormick-rhetoric.md",
@@ -189,7 +189,7 @@
           "destinations": [
             "references/law-reasoning.md"
           ],
-          "adaptation": "分清涵摄结构、前提正当化、可普遍化理由及可推翻论证；不设普遍解释层级。"
+          "adaptation": "Distinguish rule-application structure, justification of premises, universalizable reasons, and defeasible arguments; impose no universal hierarchy of interpretation."
         },
         {
           "path": "LICENSE",
@@ -202,7 +202,7 @@
             "LICENSE",
             "NOTICE.md"
           ],
-          "adaptation": "保留许可与原作者版权声明；不扩张到原书、教材和私人课堂材料。"
+          "adaptation": "Preserve license and original-author copyright notices; do not extend them to original books, textbooks, or private classroom materials."
         }
       ]
     },
@@ -226,7 +226,7 @@
           "destinations": [
             "references/transcript-repair.md"
           ],
-          "adaptation": "提取上下文修复、原稿保护、实体记忆与核心歧义处理；校对规则仅限前置修复，不继承英文默认、人物词表和格式约定。"
+          "adaptation": "Extract contextual repair, original preservation, entity memory, and treatment of core ambiguity. Proofreading rules govern only preliminary repair; do not inherit the English default, person-specific glossary, or format conventions."
         },
         {
           "path": "LICENSE",
@@ -239,7 +239,7 @@
             "LICENSE",
             "NOTICE.md"
           ],
-          "adaptation": "保留许可与原作者版权声明；不扩张到原书、教材和私人课堂材料。"
+          "adaptation": "Preserve license and original-author copyright notices; do not extend them to original books, textbooks, or private classroom materials."
         }
       ]
     },
@@ -265,7 +265,7 @@
             "plan.md",
             "fidelity-ledger/validation.md"
           ],
-          "adaptation": "区分规格、结构检查、真实行为和学习效果，保留组合、独立评审及有限返修边界；不加载为运行角色。"
+          "adaptation": "Distinguish specification, structural checks, actual behavior, and learning outcomes. Preserve limits concerning integration, independent review, and bounded revision; do not load this as a runtime persona."
         },
         {
           "path": "references/reference-brooks-design-of-design.md",
@@ -282,7 +282,7 @@
             "plan.md",
             "fidelity-ledger/validation.md"
           ],
-          "adaptation": "区分规格、结构检查、真实行为和学习效果，保留组合、独立评审及有限返修边界；不加载为运行角色。"
+          "adaptation": "Distinguish specification, structural checks, actual behavior, and learning outcomes. Preserve limits concerning integration, independent review, and bounded revision; do not load this as a runtime persona."
         },
         {
           "path": "references/reference-mackenzie-mechanizing-proof.md",
@@ -299,7 +299,7 @@
             "plan.md",
             "fidelity-ledger/validation.md"
           ],
-          "adaptation": "区分规格、结构检查、真实行为和学习效果，保留组合、独立评审及有限返修边界；不加载为运行角色。"
+          "adaptation": "Distinguish specification, structural checks, actual behavior, and learning outcomes. Preserve limits concerning integration, independent review, and bounded revision; do not load this as a runtime persona."
         },
         {
           "path": "LICENSE",
@@ -312,7 +312,7 @@
             "LICENSE",
             "NOTICE.md"
           ],
-          "adaptation": "保留许可与原作者版权声明；不扩张到原书、教材和私人课堂材料。"
+          "adaptation": "Preserve license and original-author copyright notices; do not extend them to original books, textbooks, or private classroom materials."
         }
       ]
     }

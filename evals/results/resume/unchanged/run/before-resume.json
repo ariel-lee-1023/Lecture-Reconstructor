@@ -4,15 +4,15 @@
   "status": "partial",
   "stage": "draft",
   "course": {
-    "title": "学习社规则：关系成立、变动、积分与复核",
-    "scope": "完整21行合成三章材料；本turn只交付第一章正文及全课恢复计划。",
-    "jurisdiction": "本练习封闭规则体系；无现实法域",
-    "time_context": "周一至下周四的合成相对日期，无现实年份",
-    "audience": "大学课程读者；无额外画像",
+    "title": "Study-society rules: establishment, change, points, and review",
+    "scope": "Complete 21-line synthetic three-chapter material; this turn delivers only chapter 1 prose and the whole-course recovery plan.",
+    "jurisdiction": "This exercise's closed rule system; no real jurisdiction",
+    "time_context": "Synthetic relative dates from Monday to the following Thursday, with no real calendar year",
+    "audience": "University-course readers; no additional profile",
     "assumptions": [
-      "全部规则、人物、数据为教学假设。",
-      "没有前后课资料。",
-      "没有音频或外部法律资料。"
+      "All rules, people, and data are teaching hypotheticals.",
+      "No preceding or subsequent class material.",
+      "No audio or external legal materials."
     ]
   },
   "inputs": [
@@ -36,18 +36,18 @@
   "content_units": [
     {
       "id": "u01",
-      "proposition": "全部材料是合成教学假设；非现行法或真实课堂，未提供前后课资料。",
+      "proposition": "All material is synthetic teaching hypotheses, not current law or an actual class; no preceding or subsequent class materials were supplied.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 1,
           "end_line": 1,
-          "excerpt": "【合成三章连续课堂；为中断恢复夹具，全部规则、人物、数据都是教学假设，不是现行法或真实课堂。没有前后课资料。】"
+          "excerpt": "[Synthetic continuous three-chapter class; an interruption-and-resumption fixture. All rules, people, and data are teaching hypotheticals, not current law or an actual class. No preceding or subsequent class materials are available.]"
         }
       ],
-      "type": "范围",
+      "type": "Scope",
       "status": "represented",
-      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "reason": "Written into chapter 1 and locally reviewed for meaning directly against the source; see checks/chapter-1-semantic.md.",
       "targets": [
         {
           "chapter_id": "ch-1",
@@ -60,18 +60,18 @@
     },
     {
       "id": "u02",
-      "proposition": "连接进入、预约、撤销、费用与复核，最终分析庚完整经历；周一确认周三10—12点。",
+      "proposition": "Connect entry, reservation, cancellation, charges, and review, ultimately analyzing G's entire sequence; Monday confirmation for Wednesday 10:00—12:00.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 2,
           "end_line": 2,
-          "excerpt": "第一部分先把整个问题摆出来：学习社如何把进入、预约、撤销、费用与复核串成一个制度？最终要分析庚的完整经历，不能只背五个定义。庚是成员，周一预约周三10至12点，收到成功确认，后来取消失败，周三场地封闭，最后申请退还积分。"
+          "excerpt": "Part one begins with the whole problem: How does the Study Society connect entry, reservations, cancellation, fees, and review into one system? Ultimately we must analyze G's full experience, not merely memorize five definitions. G is a member who reserves Wednesday 10:00–12:00 on Monday and receives successful confirmation. G later fails to cancel, the premises close on Wednesday, and G finally requests a refund of reservation points."
         }
       ],
-      "type": "整体问题",
+      "type": "Whole problem",
       "status": "represented",
-      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "reason": "Written into chapter 1 and locally reviewed for meaning directly against the source; see checks/chapter-1-semantic.md.",
       "targets": [
         {
           "chapter_id": "ch-1",
@@ -84,18 +84,18 @@
     },
     {
       "id": "u03",
-      "proposition": "L1：注册成员可进入公共阅览区，进入许可不保证座位。",
+      "proposition": "L1: registered members may enter the public reading area; permission to enter does not guarantee a seat.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 3,
           "end_line": 3,
-          "excerpt": "本练习规则L1：注册成员享有进入公共阅览区的许可；许可不保证座位。预约系统发出成功确认后，管理人才对该预约人负有在确认时段提供标准座位的义务。点击申请、排队提示和“已接收”消息均不等于成功确认。"
+          "excerpt": "Exercise rule L1: Registered members have permission to enter the common reading area, but permission does not guarantee a seat. Only after the reservation system sends successful confirmation does the manager owe that person a duty to provide a standard seat during the confirmed period. Clicking an application button, a queue message, and an 'application received' message are not successful confirmation."
         }
       ],
-      "type": "规则",
+      "type": "Rule",
       "status": "represented",
-      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "reason": "Written into chapter 1 and locally reviewed for meaning directly against the source; see checks/chapter-1-semantic.md.",
       "targets": [
         {
           "chapter_id": "ch-1",
@@ -108,18 +108,18 @@
     },
     {
       "id": "u04",
-      "proposition": "L1：成功确认才产生管理人对预约人的确认时段标准座位义务；点击、排队及已接收不等于确认。",
+      "proposition": "L1: only successful confirmation creates the manager's duty to provide the reserving person a standard seat during the confirmed period; clicking, queuing, and acknowledgment are not confirmation.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 3,
           "end_line": 3,
-          "excerpt": "本练习规则L1：注册成员享有进入公共阅览区的许可；许可不保证座位。预约系统发出成功确认后，管理人才对该预约人负有在确认时段提供标准座位的义务。点击申请、排队提示和“已接收”消息均不等于成功确认。"
+          "excerpt": "Exercise rule L1: Registered members have permission to enter the common reading area, but permission does not guarantee a seat. Only after the reservation system sends successful confirmation does the manager owe that person a duty to provide a standard seat during the confirmed period. Clicking an application button, a queue message, and an 'application received' message are not successful confirmation."
         }
       ],
-      "type": "规则",
+      "type": "Rule",
       "status": "represented",
-      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "reason": "Written into chapter 1 and locally reviewed for meaning directly against the source; see checks/chapter-1-semantic.md.",
       "targets": [
         {
           "chapter_id": "ch-1",
@@ -132,18 +132,18 @@
     },
     {
       "id": "u05",
-      "proposition": "甲只有注册，不足以推出乙让位义务。",
+      "proposition": "A has only registration, which cannot establish B's duty to yield.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 4,
           "end_line": 4,
-          "excerpt": "先看甲：只有注册，见座位满了，要求乙让座。规则没有从甲的注册推出乙的让位义务。再看丁：有成功确认而座位满了，管理人不能用“大家都可进入”否认自己的预约义务；两层关系并存。"
+          "excerpt": "First consider A: A is merely registered and, finding all seats occupied, demands that B give up a seat. The rules do not derive B's duty to move from A's registration. Now consider D: D has successful confirmation, but all seats are occupied. The manager cannot deny the reservation duty by saying 'everyone may enter'; the two layers of relationship coexist."
         }
       ],
-      "type": "案例",
+      "type": "Case",
       "status": "represented",
-      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "reason": "Written into chapter 1 and locally reviewed for meaning directly against the source; see checks/chapter-1-semantic.md.",
       "targets": [
         {
           "chapter_id": "ch-1",
@@ -156,18 +156,18 @@
     },
     {
       "id": "u06",
-      "proposition": "丁有成功确认，座位满不能用进入许可否定管理人义务；两层关系并存。",
+      "proposition": "D has successful confirmation; with seats full, permission to enter cannot negate the manager's duty. Both relationships coexist.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 4,
           "end_line": 4,
-          "excerpt": "先看甲：只有注册，见座位满了，要求乙让座。规则没有从甲的注册推出乙的让位义务。再看丁：有成功确认而座位满了，管理人不能用“大家都可进入”否认自己的预约义务；两层关系并存。"
+          "excerpt": "First consider A: A is merely registered and, finding all seats occupied, demands that B give up a seat. The rules do not derive B's duty to move from A's registration. Now consider D: D has successful confirmation, but all seats are occupied. The manager cannot deny the reservation duty by saying 'everyone may enter'; the two layers of relationship coexist."
         }
       ],
-      "type": "案例",
+      "type": "Case",
       "status": "represented",
-      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "reason": "Written into chapter 1 and locally reviewed for meaning directly against the source; see checks/chapter-1-semantic.md.",
       "targets": [
         {
           "chapter_id": "ch-1",
@@ -180,18 +180,18 @@
     },
     {
       "id": "u07",
-      "proposition": "借线许可无优先权或对特定人的交付承诺；座位规则不能移植为借线规则。",
+      "proposition": "Permission to borrow a cable includes neither priority nor a promise of delivery to a specific person; the seating rule cannot be transplanted into cable borrowing.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 5,
           "end_line": 5,
-          "excerpt": "一个容易漏掉的边缘例子是借充电线。工作人员说“可以借线”，没有承诺优先权或对某人的交付义务。本课规则只说明座位，不可把借线许可改写成座位确认。"
+          "excerpt": "An easily missed peripheral example concerns borrowing a charging cable. Staff say 'you may borrow a cable,' without promising priority or a duty to deliver to a particular person. The course rules address only seats; permission to borrow a cable must not be rewritten as seat confirmation."
         }
       ],
-      "type": "边缘案例",
+      "type": "Boundary example",
       "status": "represented",
-      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "reason": "Written into chapter 1 and locally reviewed for meaning directly against the source; see checks/chapter-1-semantic.md.",
       "targets": [
         {
           "chapter_id": "ch-1",
@@ -204,18 +204,18 @@
     },
     {
       "id": "u08",
-      "proposition": "许可不是无用：排除本规则下进入禁止，但不保证座位条件充分。",
+      "proposition": "Permission is not useless: it excludes an entry prohibition under this rule, but does not ensure sufficient conditions for seating.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 6,
           "end_line": 6,
-          "excerpt": "学生反问，许可完全没用吗？它排除了本规则下对进入行为的禁止，所以确有作用；只是作用不等于保证条件充分。要准确指出作用对象，避免把概念说成有用与没用的二选一。"
+          "excerpt": "A student asks whether permission is completely useless. It excludes a prohibition on entry under this rule, so it does have an effect. But that effect is not the same as ensuring all conditions are sufficient. Identify precisely what the concept concerns rather than forcing a binary choice between useful and useless."
         }
       ],
-      "type": "实质反驳",
+      "type": "Substantive objection",
       "status": "represented",
-      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "reason": "Written into chapter 1 and locally reviewed for meaning directly against the source; see checks/chapter-1-semantic.md.",
       "targets": [
         {
           "chapter_id": "ch-1",
@@ -228,18 +228,18 @@
     },
     {
       "id": "u09",
-      "proposition": "庚成功确认使关系成立；后续变动尚未分析，不能预判一定坐到12点。",
+      "proposition": "G's successful confirmation establishes the relationship; later changes remain unanalyzed, so a guaranteed seat until 12:00 cannot be predicted.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 7,
           "end_line": 7,
-          "excerpt": "本部分回到庚：成功确认是后续关系的起点。我们尚未知道后续是否撤销、暂停或届满，所以目前只能说预约关系成立，不能预先判他最后一定能坐到12点。"
+          "excerpt": "This part returns to G: Successful confirmation is the starting point for subsequent relationships. We do not yet know whether cancellation, suspension, or expiry follows. For now, we can say only that the reservation relationship arose, not predict that G must ultimately be able to sit until 12:00."
         }
       ],
-      "type": "阶段结论",
+      "type": "Interim conclusion",
       "status": "represented",
-      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "reason": "Written into chapter 1 and locally reviewed for meaning directly against the source; see checks/chapter-1-semantic.md.",
       "targets": [
         {
           "chapter_id": "ch-1",
@@ -252,18 +252,18 @@
     },
     {
       "id": "u10",
-      "proposition": "L2单方撤销须在开始前一日不晚于18:00；附则明确包含18:00整。",
+      "proposition": "L2 permits unilateral cancellation no later than 18:00 on the preceding day; the supplementary provision explicitly includes exactly 18:00.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 8,
           "end_line": 8,
-          "excerpt": "第二部分处理关系如何变动。L2：预约人可在开始前一日18点前单方撤销；撤销在通知到达系统时生效。18点整到达也算“18点前”吗？本练习附则明确包括18点整，因此本课统一按不晚于18:00处理。超过期限只能协商，协商要有双方同意，发送请求不等于同意。"
+          "excerpt": "Part two addresses changes to the relationship. L2: The person who reserved may cancel unilaterally before 18:00 on the preceding day; cancellation takes effect when notice reaches the system. Does receipt at exactly 18:00 count as 'before 18:00'? The exercise's supplementary provision expressly includes that instant, so this class consistently treats the deadline as no later than 18:00. After the deadline, negotiation is required, with both parties' agreement; sending a request is not agreement."
         }
       ],
-      "type": "规则",
+      "type": "Rule",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -274,22 +274,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u11",
-      "proposition": "撤销在通知到达系统时生效，发送不是到达。",
+      "proposition": "Cancellation takes effect when notice reaches the system; sending is not receipt.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 8,
           "end_line": 8,
-          "excerpt": "第二部分处理关系如何变动。L2：预约人可在开始前一日18点前单方撤销；撤销在通知到达系统时生效。18点整到达也算“18点前”吗？本练习附则明确包括18点整，因此本课统一按不晚于18:00处理。超过期限只能协商，协商要有双方同意，发送请求不等于同意。"
+          "excerpt": "Part two addresses changes to the relationship. L2: The person who reserved may cancel unilaterally before 18:00 on the preceding day; cancellation takes effect when notice reaches the system. Does receipt at exactly 18:00 count as 'before 18:00'? The exercise's supplementary provision expressly includes that instant, so this class consistently treats the deadline as no later than 18:00. After the deadline, negotiation is required, with both parties' agreement; sending a request is not agreement."
         }
       ],
-      "type": "条件",
+      "type": "Condition",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -300,22 +300,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u12",
-      "proposition": "超过期限只能协商且须双方同意，发送请求不是同意。",
+      "proposition": "After the deadline, only negotiation with both parties' consent is available; sending a request is not consent.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 8,
           "end_line": 8,
-          "excerpt": "第二部分处理关系如何变动。L2：预约人可在开始前一日18点前单方撤销；撤销在通知到达系统时生效。18点整到达也算“18点前”吗？本练习附则明确包括18点整，因此本课统一按不晚于18:00处理。超过期限只能协商，协商要有双方同意，发送请求不等于同意。"
+          "excerpt": "Part two addresses changes to the relationship. L2: The person who reserved may cancel unilaterally before 18:00 on the preceding day; cancellation takes effect when notice reaches the system. Does receipt at exactly 18:00 count as 'before 18:00'? The exercise's supplementary provision expressly includes that instant, so this class consistently treats the deadline as no later than 18:00. After the deadline, negotiation is required, with both parties' agreement; sending a request is not agreement."
         }
       ],
-      "type": "替代路线",
+      "type": "Alternative route",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -326,22 +326,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u13",
-      "proposition": "戊17:50发出、18:05到达，不能单方消灭预约。",
+      "proposition": "E sends at 17:50 and arrives at 18:05; the reservation cannot be terminated unilaterally.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 9,
           "end_line": 9,
-          "excerpt": "戊17:50发出，18:05到达，不能单方消灭预约；己18:00到达，及时生效。两案改变的是到达时刻，其他条件相同。撤销消灭该预约产生的座位请求和对应义务，不取消成员身份与进入许可。"
+          "excerpt": "E sends notice at 17:50, but it arrives at 18:05 and cannot unilaterally terminate the reservation. F's notice arrives at 18:00 and takes effect in time. Only the receipt time differs; the other conditions are the same. Cancellation ends the seat claim and corresponding duty created by that reservation, not membership or permission to enter."
         }
       ],
-      "type": "案例",
+      "type": "Case",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -352,22 +352,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u14",
-      "proposition": "己18:00到达，及时生效；关键对照是到达时刻，其他条件相同。",
+      "proposition": "F arrives at 18:00 and cancellation takes effect in time; receipt time is the key contrast, with other conditions unchanged.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 9,
           "end_line": 9,
-          "excerpt": "戊17:50发出，18:05到达，不能单方消灭预约；己18:00到达，及时生效。两案改变的是到达时刻，其他条件相同。撤销消灭该预约产生的座位请求和对应义务，不取消成员身份与进入许可。"
+          "excerpt": "E sends notice at 17:50, but it arrives at 18:05 and cannot unilaterally terminate the reservation. F's notice arrives at 18:00 and takes effect in time. Only the receipt time differs; the other conditions are the same. Cancellation ends the seat claim and corresponding duty created by that reservation, not membership or permission to enter."
         }
       ],
-      "type": "边界案例",
+      "type": "Boundary case",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -378,22 +378,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u15",
-      "proposition": "撤销消灭预约产生的座位请求及对应义务，不取消成员身份及进入许可。",
+      "proposition": "Cancellation terminates the reservation-based seat claim and corresponding duty, not membership or permission to enter.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 9,
           "end_line": 9,
-          "excerpt": "戊17:50发出，18:05到达，不能单方消灭预约；己18:00到达，及时生效。两案改变的是到达时刻，其他条件相同。撤销消灭该预约产生的座位请求和对应义务，不取消成员身份与进入许可。"
+          "excerpt": "E sends notice at 17:50, but it arrives at 18:05 and cannot unilaterally terminate the reservation. F's notice arrives at 18:00 and takes effect in time. Only the receipt time differs; the other conditions are the same. Cancellation ends the seat claim and corresponding duty created by that reservation, not membership or permission to enter."
         }
       ],
-      "type": "作用范围",
+      "type": "Scope of effect",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -404,22 +404,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u16",
-      "proposition": "L3即时安全险情须封闭时可暂停提供座位义务，应退实际受影响时段积分。",
+      "proposition": "L3 permits suspension of the seating duty when an immediate safety emergency requires closure; points for the actually affected period must be refunded.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 10,
           "end_line": 10,
-          "excerpt": "L3：即时安全险情使场地必须封闭时，管理员可以暂停提供座位的义务，并应退还实际受影响时段的预约积分。封闭不自动撤销预约；在原确认时段内恢复安全后，剩余时段继续有效，不延长结束时间。"
+          "excerpt": "L3: When an immediate safety hazard requires closing the premises, the manager may suspend the duty to provide seats and must refund reservation points for the period actually affected. Closure does not automatically cancel the reservation. If safety is restored within the original confirmed period, the remaining period remains valid, without extending the end time."
         }
       ],
-      "type": "规则",
+      "type": "Rule",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -430,22 +430,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u17",
-      "proposition": "封闭不自动撤销；确认时段内恢复后剩余时段有效，不延长结束时间。",
+      "proposition": "Closure does not automatically cancel the reservation. If reopening occurs within the confirmed period, the remainder remains valid without extending the end time.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 10,
           "end_line": 10,
-          "excerpt": "L3：即时安全险情使场地必须封闭时，管理员可以暂停提供座位的义务，并应退还实际受影响时段的预约积分。封闭不自动撤销预约；在原确认时段内恢复安全后，剩余时段继续有效，不延长结束时间。"
+          "excerpt": "L3: When an immediate safety hazard requires closing the premises, the manager may suspend the duty to provide seats and must refund reservation points for the period actually affected. Closure does not automatically cancel the reservation. If safety is restored within the original confirmed period, the remaining period remains valid, without extending the end time."
         }
       ],
-      "type": "例外与边界",
+      "type": "Exception and boundary",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -456,22 +456,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u18",
-      "proposition": "辛10—12点预约、10—11点封闭、11点开放，可使用剩余一小时并退受影响一小时积分。",
+      "proposition": "H reserves 10:00—12:00; closure lasts 10:00—11:00 and reopening occurs at 11:00. H may use the remaining hour and receive a refund of reservation points for the affected hour.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 11,
           "end_line": 11,
-          "excerpt": "假设辛预约10至12点；10至11点封闭、11点开放，辛可使用剩余一小时，退回受影响一小时积分。不要把暂停、撤销和届满混用。到了12点预约届满，即便辛11:30才到，也不会顺延半小时。"
+          "excerpt": "Suppose H reserves 10:00–12:00; the premises close from 10:00 to 11:00 and reopen at 11:00. H may use the remaining hour and receives a refund of reservation points for the affected hour. Do not confuse suspension, cancellation, and expiry. The reservation expires at 12:00; even if H arrives only at 11:30, it is not extended by half an hour."
         }
       ],
-      "type": "案例",
+      "type": "Case",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -482,22 +482,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u19",
-      "proposition": "暂停、撤销、届满不同；12点届满，11:30才到不顺延。",
+      "proposition": "Suspension, cancellation, and expiration differ. The period expires at 12:00; arrival at 11:30 does not extend it.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 11,
           "end_line": 11,
-          "excerpt": "假设辛预约10至12点；10至11点封闭、11点开放，辛可使用剩余一小时，退回受影响一小时积分。不要把暂停、撤销和届满混用。到了12点预约届满，即便辛11:30才到，也不会顺延半小时。"
+          "excerpt": "Suppose H reserves 10:00–12:00; the premises close from 10:00 to 11:00 and reopen at 11:00. H may use the remaining hour and receives a refund of reservation points for the affected hour. Do not confuse suspension, cancellation, and expiry. The reservation expires at 12:00; even if H arrives only at 11:30, it is not extended by half an hour."
         }
       ],
-      "type": "反例",
+      "type": "Counterexample",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -508,22 +508,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u20",
-      "proposition": "没坐满不等于退全部；L3依据受封闭影响时段，个人迟到原因不同。",
+      "proposition": "Not using the full period does not imply a full refund. L3 concerns time affected by closure; personal lateness has a different cause.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 12,
           "end_line": 12,
-          "excerpt": "有学生说只要没坐满两小时就退全部积分。老师回应：L3以受安全封闭影响的时段计算，不以本人实际在座时间计算。个人迟到与场地不能提供座位的原因不同。"
+          "excerpt": "A student says that anyone who has not sat for the full two hours should receive all points back. The teacher responds: L3 calculates the period affected by safety closure, not the person's actual seated time. Personal lateness and the premises' inability to provide a seat have different causes."
         }
       ],
-      "type": "实质反驳",
+      "type": "Substantive objection",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -534,22 +534,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u21",
-      "proposition": "庚周二17:58发送、18:02收到，无协商同意证据；周三10—11点封闭、11点恢复，先定关系状态。",
+      "proposition": "G sends Tuesday at 17:58; receipt occurs at 18:02, with no evidence of negotiated consent. Wednesday closure lasts 10:00—11:00, reopening at 11:00. Determine the relationship's status first.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 13,
           "end_line": 13,
-          "excerpt": "庚周二17:58发出取消请求，系统周二18:02收到，没有管理人同意协商的证据。周三10至11点安全封闭，11点恢复。请保留这些时间，后面不能把“发出”换成“到达”。这一部分先决定关系是否仍存在，以及哪些时段暂停。"
+          "excerpt": "G sends a cancellation request at 17:58 on Tuesday; the system receives it at 18:02, and there is no evidence of the manager's agreement to a negotiated cancellation. A safety closure lasts from 10:00 to 11:00 on Wednesday, with reopening at 11:00. Preserve these times; do not replace 'sent' with 'received' later. This part first determines whether the relationship still exists and which periods are suspended."
         }
       ],
-      "type": "阶段案例",
+      "type": "Interim case",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-2",
@@ -560,22 +560,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u22",
-      "proposition": "L4每小时10积分、半小时5积分，只处理整半小时，其他粒度未规定。",
+      "proposition": "L4 charges 10 points per hour and 5 per half-hour, addressing only exact half-hour units; other increments are unspecified.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 14,
           "end_line": 14,
-          "excerpt": "第三部分进入计算与复核。L4：预约计价每小时10积分，半小时按5积分计；本次教学只处理整半小时，其他粒度未规定。L3应退积分以封闭与有效预约的重叠时长计算，封闭在预约开始前的时长不计入。"
+          "excerpt": "Part three turns to calculation and review. L4: Reservations cost 10 points per hour or 5 points per half-hour. This teaching exercise handles only whole half-hour increments; other increments are unspecified. L3 refunds are calculated from the overlap between closure and a valid reservation. Closure before the reservation starts does not count."
         }
       ],
-      "type": "规则与限制",
+      "type": "Rule and limitation",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -586,22 +586,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u23",
-      "proposition": "L3退款取封闭与有效预约重叠，预约开始前封闭不计。",
+      "proposition": "The L3 refund uses overlap between closure and a valid reservation; closure before the reservation starts does not count.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 14,
           "end_line": 14,
-          "excerpt": "第三部分进入计算与复核。L4：预约计价每小时10积分，半小时按5积分计；本次教学只处理整半小时，其他粒度未规定。L3应退积分以封闭与有效预约的重叠时长计算，封闭在预约开始前的时长不计入。"
+          "excerpt": "Part three turns to calculation and review. L4: Reservations cost 10 points per hour or 5 points per half-hour. This teaching exercise handles only whole half-hour increments; other increments are unspecified. L3 refunds are calculated from the overlap between closure and a valid reservation. Closure before the reservation starts does not count."
         }
       ],
-      "type": "计算条件",
+      "type": "Calculation condition",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -612,22 +612,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u24",
-      "proposition": "壬10—12点预约、9:30—10:30封闭，重叠半小时退5；误算10多计预约外半小时，剩余10:30—12点有效。",
+      "proposition": "I reserves 10:00—12:00; closure lasts 9:30—10:30. The half-hour overlap yields a refund of 5. A mistaken refund of 10 includes half an hour outside the reservation; the remaining 10:30—12:00 stays valid.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 15,
           "end_line": 15,
-          "excerpt": "完整示范：壬预约10至12点，9:30至10:30封闭，重叠半小时，退5积分；若误按封闭总一小时算就会退10，错误出在把预约外时段计入。剩余10:30至12点仍有效。"
+          "excerpt": "Complete demonstration: I has a reservation for 10:00–12:00, while closure lasts from 9:30 to 10:30. The overlap is half an hour, so the refund is 5 points. Incorrectly using the entire one-hour closure would yield 10; the error is counting time outside the reservation. The remainder from 10:30 to 12:00 remains valid."
         }
       ],
-      "type": "完整示范",
+      "type": "Complete demonstration",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -638,22 +638,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u25",
-      "proposition": "L5得知次日起七日，第七日结束前到达系统及时。",
+      "proposition": "L5 counts seven days beginning the day after awareness; receipt by the system before the end of day seven is timely.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 16,
           "end_line": 16,
-          "excerpt": "L5：对退分有争议，成员应在得知处理结果后七日内申请复核；期限从得知的次日开始，第七日结束前到达系统即及时。复核机构检查规则适用与时间事实，不推定管理员总是正确。规则未给复核申请自动暂停其他决定的效果。"
+          "excerpt": "L5: A member disputing a refund of reservation points must request review within seven days after learning the decision. Time starts on the following day; receipt by the system before the end of the seventh day is timely. The review body examines rule application and timing facts rather than presuming that the manager is always correct. The rules do not give a review request automatic suspensive effect over other decisions."
         }
       ],
-      "type": "程序规则",
+      "type": "Procedural rule",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -664,22 +664,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u26",
-      "proposition": "复核检查规则适用与时间事实，不推定管理员正确，未规定申请自动暂停其他决定。",
+      "proposition": "Review checks rule application and timing facts, without presuming the administrator correct; no automatic suspension of other decisions upon application is provided.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 16,
           "end_line": 16,
-          "excerpt": "L5：对退分有争议，成员应在得知处理结果后七日内申请复核；期限从得知的次日开始，第七日结束前到达系统即及时。复核机构检查规则适用与时间事实，不推定管理员总是正确。规则未给复核申请自动暂停其他决定的效果。"
+          "excerpt": "L5: A member disputing a refund of reservation points must request review within seven days after learning the decision. Time starts on the following day; receipt by the system before the end of the seventh day is timely. The review body examines rule application and timing facts rather than presuming that the manager is always correct. The rules do not give a review request automatic suspensive effect over other decisions."
         }
       ],
-      "type": "审查与效力",
+      "type": "Review and effect",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -690,22 +690,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u27",
-      "proposition": "癸周四得知，下周四是第七日，当天到达及时；算法仅据练习明文。",
+      "proposition": "J learns of the decision on Thursday; the following Thursday is day seven, and receipt that day is timely. The calculation rests solely on the exercise's express wording.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 17,
           "end_line": 17,
-          "excerpt": "癸周四得知处理结果，下周四为第七日，通知那天到达系统及时。这里的天数算法来自本练习明文，不当作各法域通则；如果缺少得知日期，不能编出期限是否届满。"
+          "excerpt": "J learns the decision on Thursday; the following Thursday is day seven, and notice received by the system that day is timely. This method of counting days comes from the express exercise rule, not a general rule for all jurisdictions. If the date of learning the decision is missing, do not invent whether the deadline has expired."
         }
       ],
-      "type": "期限案例",
+      "type": "Deadline case",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -716,22 +716,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u28",
-      "proposition": "缺得知日期时不能编造期限是否届满。",
+      "proposition": "Without the date of awareness, do not invent whether the deadline has expired.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 17,
           "end_line": 17,
-          "excerpt": "癸周四得知处理结果，下周四为第七日，通知那天到达系统及时。这里的天数算法来自本练习明文，不当作各法域通则；如果缺少得知日期，不能编出期限是否届满。"
+          "excerpt": "J learns the decision on Thursday; the following Thursday is day seven, and notice received by the system that day is timely. This method of counting days comes from the express exercise rule, not a general rule for all jurisdictions. If the date of learning the decision is missing, do not invent whether the deadline has expired."
         }
       ],
-      "type": "证据边界",
+      "type": "Evidence boundary",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -742,22 +742,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u29",
-      "proposition": "庚扣20退5、周四得知、下周三申请当日到达；联系确认、撤销失败及一小时封闭，分开实体与程序判断。",
+      "proposition": "G is charged 20 and refunded 5, learns this on Thursday, and applies the following Wednesday with receipt that day. Connect confirmation, failed cancellation, and one-hour closure, separating substantive and procedural judgments.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 18,
           "end_line": 18,
-          "excerpt": "庚的后续事实是：系统扣20积分后仅退5积分；他周四得知，下周三提出复核且当日到达。按已经给定的事实，应结合第一部分的确认、第二部分的撤销失败与一小时封闭，判断这次扣退是否符合规则，再判断能否复核。不要只算积分而忘记程序期限，也不能因为程序及时便断言所有实体主张都成立。"
+          "excerpt": "G's subsequent facts are these: The system deducts 20 points but refunds only 5. G learns this on Thursday, requests review the following Wednesday, and the request arrives that day. Apply the facts already given—the confirmation in part one, failed cancellation and one-hour closure in part two—to decide whether the deduction and refund comply with the rules, then whether review is available. Do not calculate points while forgetting the procedural deadline, or infer that every substantive claim succeeds merely because the procedure is timely."
         }
       ],
-      "type": "整合案例",
+      "type": "Integrated case",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -768,22 +768,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u30",
-      "proposition": "改成庚周二17:59到达则预约已消灭，不能继续照用有效预约与封闭重叠的分析。",
+      "proposition": "If G's notice instead arrives Tuesday at 17:59, the reservation has ended; the valid-reservation/closure-overlap analysis cannot simply continue.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 19,
           "end_line": 19,
-          "excerpt": "一个小反例：如果庚的撤销通知改为周二17:59到达，则预约已消灭，不能继续照用“有效预约与封闭重叠”的退分分析。L2没有规定及时撤销的积分结算方法，这个变式的结算须记为材料缺口，不能自动套L3。"
+          "excerpt": "A small counterexample: If G's cancellation notice instead arrived at 17:59 on Tuesday, the reservation would have ended. The refund analysis based on 'overlap between a valid reservation and closure' could no longer be carried over. L2 does not specify how points are settled after timely cancellation. Record that variant's settlement as a gap in the materials; do not automatically apply L3."
         }
       ],
-      "type": "反例",
+      "type": "Counterexample",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -794,22 +794,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u31",
-      "proposition": "L2未规定及时撤销的积分结算，不能自动套L3。",
+      "proposition": "L2 does not specify points settlement for timely cancellation; L3 cannot automatically be applied.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 19,
           "end_line": 19,
-          "excerpt": "一个小反例：如果庚的撤销通知改为周二17:59到达，则预约已消灭，不能继续照用“有效预约与封闭重叠”的退分分析。L2没有规定及时撤销的积分结算方法，这个变式的结算须记为材料缺口，不能自动套L3。"
+          "excerpt": "A small counterexample: If G's cancellation notice instead arrived at 17:59 on Tuesday, the reservation would have ended. The refund analysis based on 'overlap between a valid reservation and closure' could no longer be carried over. L2 does not specify how points are settled after timely cancellation. Record that variant's settlement as a gap in the materials; do not automatically apply L3."
         }
       ],
-      "type": "材料缺口",
+      "type": "Material gap",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -820,22 +820,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u32",
-      "proposition": "完整案例按成立—变动—后果—复核，概念比较不机械四段；只解释条件影响，不承诺现实考试评分。",
+      "proposition": "Use establishment—change—consequences—review for a complete case, without mechanically imposing four parts on conceptual comparisons. Explain only how conditions affect results; make no promise about real examination marking.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 20,
           "end_line": 20,
-          "excerpt": "考试提示是本课教师的安排：完整案例按“关系成立—变动—后果—复核”展开，但概念比较题不必机械写四段。教师只要求解释为什么条件影响结果，不承诺任何现实考试会如此评分。"
+          "excerpt": "The examination advice reflects this teacher's arrangements: Develop a complete case through 'formation of the relationship—change—consequences—review,' but do not mechanically write four paragraphs for a conceptual comparison. The teacher asks only for explanations of why conditions affect results and makes no promise that any real examination uses this scoring method."
         }
       ],
-      "type": "教师考试提示",
+      "type": "Teacher's examination advice",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -846,22 +846,22 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     },
     {
       "id": "u33",
-      "proposition": "庚案串起发出/到达、暂停/消灭、在座/受影响、程序/实体四组区别；推论限练习规则，无前课不假装已证明。",
+      "proposition": "G's case connects four distinctions: sent/received, suspended/terminated, seated/affected, and procedural/substantive. Inferences remain within the exercise rules; without earlier-class material, do not pretend something was already proved.",
       "locations": [
         {
           "input_id": "input-1",
           "start_line": 21,
           "end_line": 21,
-          "excerpt": "全课最后请回到最初的庚：读者应能区分发出与到达、暂停与消灭、实际在座与受影响时段、程序及时与实体正确。所有推论都限于上述练习规则；没有提供前课，不能以“上次已证明”替代必要解释。"
+          "excerpt": "At the end of the course, return to the original G. Readers should distinguish sending from receipt, suspension from termination, actual seated time from the affected period, and procedural timeliness from substantive correctness. All inferences are limited to the exercise rules above. No earlier lecture was supplied, so 'we proved this last time' cannot replace a necessary explanation."
         }
       ],
-      "type": "整体回扣",
+      "type": "Whole-course synthesis",
       "status": "unresolved",
-      "reason": "已全课阅读并纳入计划；按用户要求在第一章后暂停，正文尚未写作。",
+      "reason": "The whole course has been read and incorporated into the plan. Generation paused after chapter 1 at the user's request; this prose has not yet been written.",
       "targets": [
         {
           "chapter_id": "ch-3",
@@ -872,7 +872,7 @@
         "source-1"
       ],
       "blocking": true,
-      "blocking_reason": "属于课程实质范围，未写正文，阻止全课complete。"
+      "blocking_reason": "Within the course's substantive scope but not yet written, blocking whole-course complete status."
     }
   ],
   "sources": [
@@ -880,7 +880,7 @@
       "id": "source-1",
       "uri": "input/original.txt",
       "version": "SHA-256 077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
-      "locator": "1—21行；合成三章课堂，所有规则及事实为教学假设。",
+      "locator": "Lines 1—21; synthetic three-chapter lecture, with all rules and facts supplied as teaching hypotheticals.",
       "read_status": "read"
     }
   ],
@@ -890,17 +890,17 @@
       "path": "chapters/01-relations.md",
       "anchor": "ch-1",
       "status": "reviewed",
-      "learning_object": "区分进入许可和成功确认后的座位义务，明确双方、条件及分析范围。",
+      "learning_object": "Distinguish permission to enter from the seating duty after successful confirmation, specifying both parties, conditions, and analytical scope.",
       "relations": [
-        "进入许可不自动推出座位保证",
-        "成功确认使管理人负有确认时段座位义务",
-        "成立起点不等于最终履行结果"
+        "Permission to enter does not automatically imply a seat guarantee",
+        "Successful confirmation creates the manager's seating duty during the confirmed period",
+        "The point of establishment is not the final performance outcome"
       ],
       "prerequisites": [
-        "无需前课；章内补足许可及义务概念"
+        "No preceding class required; explain permission and duty within the chapter"
       ],
-      "approach": "庚整体问题—L1关系解释—甲丁比较—学生反问—借线边界—庚阶段结论",
-      "role": "确定后续撤销、暂停及积分分析的关系对象。",
+      "approach": "G's whole problem—L1 relationship explanation—A/D comparison—student objection—cable-borrowing boundary—G's interim conclusion",
+      "role": "Identify the relationship that subsequent cancellation, suspension, and points analysis concerns.",
       "content_unit_ids": [
         "u01",
         "u02",
@@ -918,17 +918,17 @@
       "path": "chapters/02-changes.md",
       "anchor": "ch-2",
       "status": "planned",
-      "learning_object": "区分到达与发出、撤销与协商、暂停与届满，确定庚关系状态。",
+      "learning_object": "Distinguish receipt/sending, cancellation/negotiation, and suspension/expiration to determine the status of G's relationship.",
       "relations": [
-        "撤销以期限内到达为条件",
-        "单方撤销消灭预约但不取消成员许可",
-        "封闭只暂停且恢复不延长原时段"
+        "Cancellation requires receipt within the deadline",
+        "Unilateral cancellation ends the reservation without removing the member's permission",
+        "Closure only suspends; resumption does not extend the original period"
       ],
       "prerequisites": [
-        "ch-1：预约成立及两层关系"
+        "ch-1: reservation establishment and the two relationships"
       ],
-      "approach": "L2与戊己时间对照、L3与辛完整案例、迟到反驳、庚事实分析",
-      "role": "为第三章确定有效预约及受影响时段。",
+      "approach": "L2 and the E/F timing comparison, L3 and H's complete case, the lateness objection, and analysis of G's facts",
+      "role": "Establish the valid reservation and affected period for chapter 3.",
       "content_unit_ids": [
         "u10",
         "u11",
@@ -949,18 +949,18 @@
       "path": "chapters/03-consequences-review.md",
       "anchor": "ch-3",
       "status": "planned",
-      "learning_object": "按重叠时长计算积分并独立审查复核期限，整合庚完整经历。",
+      "learning_object": "Calculate points from overlap duration and independently assess the review deadline, integrating G's complete sequence.",
       "relations": [
-        "封闭总时长不等于有效预约受影响时长",
-        "程序及时不证明实体正确",
-        "及时撤销变式不能直接套L3"
+        "Total closure duration is not the duration affecting a valid reservation",
+        "Procedural timeliness does not establish substantive correctness",
+        "L3 cannot be applied directly to the timely-cancellation variant"
       ],
       "prerequisites": [
-        "ch-1：成立",
-        "ch-2：关系变动与有效时段"
+        "ch-1: establishment",
+        "ch-2: relationship changes and valid periods"
       ],
-      "approach": "壬计算示范、癸期限示范、庚全案整合、17:59反例与缺口、教师考试提示和全课回扣",
-      "role": "兑现全课整体问题并保留规则边界。",
+      "approach": "I's calculation demonstration, J's deadline demonstration, integration of G's whole case, the 17:59 counterexample and gap, the teacher's examination advice, and whole-course synthesis",
+      "role": "Resolve the whole-course problem while preserving the rules' boundaries.",
       "content_unit_ids": [
         "u22",
         "u23",
@@ -979,88 +979,88 @@
   ],
   "terms": [
     {
-      "term": "进入许可",
-      "decision": "仅指L1下注册成员可进入公共阅览区；不改写为座位保证。"
+      "term": "Permission to enter",
+      "decision": "Means only that registered members may enter the public reading area under L1; do not rewrite it as a seat guarantee."
     },
     {
-      "term": "成功确认",
-      "decision": "预约系统发出的成功确认；点击申请、排队、已接收均不等同。"
+      "term": "Successful confirmation",
+      "decision": "Successful confirmation issued by the reservation system; clicking to apply, queuing, and acknowledgment are not equivalent."
     },
     {
-      "term": "管理人／管理员",
-      "decision": "源材料的同一管理角色：L1称管理人，L3称管理员；不推定存在两个不同机构。"
+      "term": "Manager / administrator",
+      "decision": "The same managing role in the source: L1 says manager and L3 says administrator; do not presume two distinct institutions."
     },
     {
-      "term": "预约人",
-      "decision": "已成功确认且对应具体确认时段的人；分析时说明预约关系是否仍有效。"
+      "term": "Reserving person",
+      "decision": "A person with successful confirmation for a specific period; state whether the reservation relationship remains valid in the analysis."
     },
     {
-      "term": "座位请求与对应义务",
-      "decision": "预约人要求管理人在确认时段提供标准座位；不自动转成其他成员让位义务。"
+      "term": "Seat claim and corresponding duty",
+      "decision": "The reserving person requires the manager to provide a standard seat during the confirmed period; this does not automatically become another member's duty to yield."
     },
     {
-      "term": "发出与到达",
-      "decision": "分别记录，不互换；L2撤销生效看通知到达系统。"
+      "term": "Sending and receipt",
+      "decision": "Record separately, without substitution; cancellation under L2 takes effect on receipt of notice by the system."
     },
     {
-      "term": "不晚于18:00",
-      "decision": "L2的“18点前”依本练习附则包括18:00整，不推广到现实法。"
+      "term": "No later than 18:00",
+      "decision": "L2's wording 'before 18:00' includes exactly 18:00 under this exercise's supplementary provision; do not generalize to real law."
     },
     {
-      "term": "单方撤销",
-      "decision": "满足L2期限与到达条件的关系消灭行为；不是成员身份取消。"
+      "term": "Unilateral cancellation",
+      "decision": "An act terminating a relationship by satisfying L2's deadline and receipt conditions; it does not cancel membership."
     },
     {
-      "term": "协商",
-      "decision": "超过期限的另一条路线，须双方同意；仅发送请求不够。"
+      "term": "Negotiation",
+      "decision": "An alternative route after the deadline requiring both parties' consent; merely sending a request is insufficient."
     },
     {
-      "term": "暂停",
-      "decision": "L3安全封闭时暂停提供座位义务；不自动消灭预约或延长结束时间。"
+      "term": "Suspension",
+      "decision": "Suspension of the seating duty during a safety closure under L3; it neither automatically terminates the reservation nor extends its end time."
     },
     {
-      "term": "届满",
-      "decision": "原确认结束时间到来；迟到不导致顺延。"
+      "term": "Expiration",
+      "decision": "Arrival of the original confirmed end time; lateness does not extend it."
     },
     {
-      "term": "受影响时段",
-      "decision": "安全封闭与有效预约的重叠；不是预约人的实际离座时长。"
+      "term": "Affected period",
+      "decision": "The overlap between safety closure and a valid reservation, not the reserving person's actual time away from a seat."
     },
     {
-      "term": "积分",
-      "decision": "L4小时10积分、半小时5积分；不补造其他粒度规则。"
+      "term": "Points",
+      "decision": "L4 charges 10 points per hour and 5 per half-hour; do not invent rules for other increments."
     },
     {
-      "term": "复核",
-      "decision": "L5规则适用与时间事实审查；程序及时与实体主张成立分开。"
+      "term": "Review",
+      "decision": "Review of rule application and timing facts under L5; procedural timeliness and substantive validity of the claim are separate."
     },
     {
-      "term": "七日",
-      "decision": "得知次日起算，第七日结束前到达；仅限本练习算法。"
+      "term": "Seven days",
+      "decision": "Count from the day after awareness, with receipt before the end of day seven; this calculation is limited to the exercise."
     },
     {
-      "term": "庚",
-      "decision": "贯穿三章的同一成员；后续17:59到达是假设变式，不覆盖主事实18:02到达。"
+      "term": "G",
+      "decision": "The same member across all three chapters; later receipt at 17:59 is a hypothetical variant and does not replace the main fact of receipt at 18:02."
     }
   ],
   "open_issues": [
     {
       "id": "gap-cancel-settlement",
-      "question": "及时撤销后积分如何结算？",
-      "impact": "影响第三章17:59到达变式，不能自动套L3。",
-      "resolution_condition": "在第三章明确材料未规定并限制结论；若用户要求唯一结算数额，则需补充规则。",
+      "question": "How are points settled after timely cancellation?",
+      "impact": "Affects chapter 3's 17:59-receipt variant; L3 cannot automatically be applied.",
+      "resolution_condition": "Explicitly state in chapter 3 that the materials do not provide a rule and limit the conclusion. Additional rules are needed if the user requires a unique settlement amount.",
       "status": "open",
       "blocking": false,
-      "blocking_reason": "可在讲稿如实呈现规则缺口，不妨碍既定教学范围；不得伪造结算。"
+      "blocking_reason": "The manuscript can honestly present the rule gap without obstructing the established teaching scope; do not fabricate a settlement."
     },
     {
       "id": "gap-granularity",
-      "question": "非整半小时如何计价？",
-      "impact": "L4范围外，没有已给定案例需要该规则。",
-      "resolution_condition": "保留本次只处理整半小时的限制；扩展范围须补充规则。",
+      "question": "How are periods other than exact half-hours priced?",
+      "impact": "Outside L4's scope; no supplied case requires that rule.",
+      "resolution_condition": "Retain the limitation to exact half-hours in this run; extending the scope requires additional rules.",
       "status": "open",
       "blocking": false,
-      "blocking_reason": "范围外未规定事项，明确限制即可。"
+      "blocking_reason": "An unspecified matter outside the scope; an explicit limitation suffices."
     }
   ],
   "runtime_revision": {
@@ -1112,7 +1112,7 @@
       "kind": "semantic",
       "scope": "full_manuscript",
       "status": "not_run",
-      "method": "后两章未生成，尚未进行全篇统稿或全篇语义复核。",
+      "method": "The later two chapters have not been generated, and whole-manuscript reconciliation and semantic review have not yet occurred.",
       "date": "2026-11-15T02:12:01.562391+00:00"
     },
     {
@@ -1120,7 +1120,7 @@
       "kind": "mechanical",
       "scope": "partial_checkpoint",
       "status": "not_run",
-      "method": "待运行包内scripts/check_run.py。",
+      "method": "Awaiting execution of the package's scripts/check_run.py.",
       "date": "2026-11-15T02:12:01.562391+00:00"
     },
     {
@@ -1128,7 +1128,7 @@
       "kind": "semantic",
       "scope": "chapter:ch-1",
       "status": "pass",
-      "method": "重新读取原始全源及落盘第一章，按源第1—7行核验内容、否定、条件、案例和整体边界；同代理评审。",
+      "method": "Reread the complete original source and saved chapter 1, checking content, negation, conditions, cases, and overall boundaries against source lines 1—7; review by the same agent.",
       "evidence": "checks/chapter-1-semantic.md",
       "date": "2026-11-15T02:13:50.707858+00:00",
       "chapter_sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
@@ -1138,7 +1138,7 @@
       "kind": "mechanical",
       "scope": "partial_checkpoint",
       "status": "pass",
-      "method": "运行包内check_run.py --json，随后对最终run再次校验；仅有限结构检查。",
+      "method": "Run the package's check_run.py --json, then validate the final run again; limited structural checks only.",
       "evidence": "checks/mechanical.json",
       "date": "2026-11-15T02:13:50.707858+00:00"
     }
@@ -1150,16 +1150,16 @@
   },
   "resume": {
     "completed": [
-      "已阅读全文21行并保存逐字源快照与规范化文本。",
-      "已建立三章整体计划、33项内容映射及16项术语决定。",
-      "第一章完整正文已落盘并完成局部语义复核；机械检查通过，详见证据。"
+      "All 21 lines read; a verbatim source snapshot and normalized text saved.",
+      "A three-chapter whole-course plan, 33 mapped content units, and 16 terminology decisions established.",
+      "Complete chapter 1 prose saved and locally reviewed for meaning; mechanical checks passed, as documented in the evidence."
     ],
     "remaining": [
-      "第二章源第8—13行及u10—u21尚未写正文。",
-      "第三章源第14—21行及u22—u33尚未写正文。",
-      "全部章节完成后须统稿，直接对照全部源文本完成全篇语义复核与机械检查。"
+      "Chapter 2, source lines 8—13 and u10—u21, has not yet been written.",
+      "Chapter 3, source lines 14—21 and u22—u33, has not yet been written.",
+      "After all chapters are finished, reconcile the manuscript and perform whole-manuscript semantic review and mechanical checks directly against the entire source text."
     ],
-    "next_action": "下一独立上下文先读取run.json并执行check_run核对源、SKILL及已读refs哈希；无变化后重读全源和第一章，再按course-plan.md从第二章开始。发现变化先保存旧版本并分析影响，不能只刷新哈希。"
+    "next_action": "The next independent context first reads run.json and runs check_run to verify source, SKILL, and loaded-reference hashes. If unchanged, reread the whole source and chapter 1, then begin chapter 2 according to course-plan.md. If anything changed, preserve the old version and analyze impact first; do not merely refresh hashes."
   },
   "execution": {
     "started_utc": "2026-11-15T02:06:57Z",
@@ -1182,5 +1182,14 @@
     "real_classroom_trial": "not_run",
     "learning_effect": "not_run",
     "end_time_basis": "checkpoint finalization timestamp; final mechanical confirmation follows immediately, with its own timestamp in evidence"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/unchanged/run/before-resume.json",
+    "original_sha256": "92230241f1f85537610a8ce902deabf63476ef8a5c9a2539426529d4dafc70fb",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/unchanged/run/before-resume.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

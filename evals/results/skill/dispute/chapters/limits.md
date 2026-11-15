@@ -1,15 +1,15 @@
 <a id="ch-limits"></a>
-## 三、回应质疑：促进知识使用能否取消用途限制
+## 3. Answering the objection: Can promoting knowledge remove the purpose restriction?
 
-原课堂中的学生提出了一个实质反驳：既然模拟合议庭强调促进知识使用，是否也能把乙的好奇心解释为学术研究？这个反驳追问的不是研究是否有好处，而是目的理由究竟允许我们走多远。
+A student in the original class raised a substantive objection: If the simulated panel emphasizes promoting the use of knowledge, could B's curiosity also be interpreted as academic research? The objection asks not whether research is beneficial but how far a purposive reason allows us to go.
 
-教师的回应区分了两种论证。第一种是在“学术研究”概念内，讨论有明确问题和方法的独立研究能否被包括；第二种则是根本不证明研究用途，却要求借目的取消用途限制。前者仍需说明独立研究为什么符合概念，后者却把条文仍然保留的条件删掉了。因此，促进知识使用可以成为解释理由，却不能仅凭自身就使乙的现有好奇心陈述满足学术研究条件。同样，它不能使含有封存个人秘密的档案因申请人说了一句“研究”就摆脱另一项限制。
+The teacher distinguishes two arguments. One asks, within 'academic research,' whether independent research with clear questions and methods is included. The other proves no research purpose at all, yet invokes purpose to remove the use restriction. The former must still explain conceptual fit; the latter deletes a condition the text retains. Promoting the use of knowledge can therefore supply an interpretive reason, but cannot by itself make B's existing expression of curiosity satisfy the academic-research condition. Likewise, saying 'research' cannot remove the separate restriction on records containing sealed personal secrets.
 
-本课作业要求比较两种解释的理由与代价，而不是猜中某个考试结论。下面给出一个新写的分析示范，其中对可能理由与代价的展开属于教学重建，不冒称教材作者已经说过，也不视为已测量的制度效果。
+The assignment asks for comparison of the reasons and costs of two interpretations, not guessing an examination conclusion. The following is a newly written analytical demonstration. Its development of possible reasons and costs is a teaching reconstruction, not something purportedly already said by the textbook author or measured as an institutional effect.
 
-先把教材解释尽可能讲清楚。可以为“机构资助”标准提出一种可供讨论的理由：它给用途审查提供一个较容易识别的外部标志，有助于形成明确的筛选标准。但这只是一条重建出的辩护路线，课堂所引教材片段并没有实际陈述这个理由。其需要回应的质疑是，资助与研究性质并非同一个概念，条文又没有明列资助条件；若据此排除有明确问题与方法的独立研究，就必须解释为何这种额外限制合理，不能只重复教材结论。
+First explain the textbook approach as clearly as possible. One arguable defense of the institutional-funding criterion is that it supplies an easily identified external indicator for assessing purpose, helping create a clear screening standard. This is a reconstructed defense; the quoted textbook excerpt did not actually give that reason. It must answer the objection that funding and the nature of research are different concepts and the text does not expressly require funding. Excluding independent research with clear questions and methods therefore requires explaining why that additional restriction is justified, not merely repeating the textbook's conclusion.
 
-再看教师的解释。它有原课明确给出的理由：避免机构身份成为门槛，并把有明确问题与方法的独立研究纳入讨论。促进知识使用的目的也与这一方向有关。其可能代价是，判断者需要实质查看计划，而不能仅以资助这一外部标志完成分类；这可能增加判断标准说明的负担。这里所说“可能”是从两种标准的结构作出的分析，并非已有数据证明哪一种审查一定更难。教师观点还必须回应边界问题：怎样说明研究计划体现明确问题与方法，而不是把所有求知愿望都纳入？原课堂对乙的回应就是保留这条边界。
+Now consider the teacher's interpretation. The original class expressly gives its reason: Avoid institutional status as a barrier and consider independent research with clear questions and methods. Promoting knowledge use also bears on this direction. A possible cost is that decision-makers must examine the plan substantively, rather than classify it solely through funding as an external indicator. This may increase the burden of explaining judgment criteria. 'Possible' here is structural analysis of the standards, not data proving one review is necessarily harder. The teacher must also address boundaries: How does a plan show a clear question and method without including every desire for knowledge? The original response to B preserves that boundary.
 
-两边的比较不能止于“我更喜欢公开”或“教材更权威”。完整作答应当指出各自采用的标准、标准与条文字义和目的之间的联系、会纳入或排除什么类型的申请，以及它必须承担的解释负担。材料没有给出一个消除全部争议的最终答案，讲稿也不替它虚构共识。可以有立场，但要把立场及其理由写明。
+Comparison cannot stop at 'I prefer disclosure' or 'the textbook is more authoritative.' A complete answer identifies each criterion, its connection to the text and purpose, which applications it includes or excludes, and its explanatory burden. The materials provide no final answer resolving every disagreement, and the manuscript invents no consensus. A position is permissible, but its content and reasons must be explicit.
 

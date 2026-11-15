@@ -1,6 +1,16 @@
 {
-  "kind": "synthetic_changed_reference_runtime_snapshot",
+  "kind": "english_translation_of_synthetic_changed_reference_runtime_snapshot",
   "archive": "runtime-fixture.zip",
-  "sha256": "c623fa3e504620e99e139f3afc42ba41032828e0fdd151487a042298bc1d495c",
-  "note": "Test-only runtime in archive; root SKILL.md remains sole installed entry. Extract into .work to validate changed-reference run."
+  "sha256": "35208b6934b37ce1d3b5a688b2f8b2a8493279d2bae7702a213a31698ab843d2",
+  "note": "sha256 identifies the current English reading-copy archive. original_archive_sha256 identifies the actually executed archive at the source commit. The historical run hashes remain unchanged; extracting this translated archive does not recreate the original passing run. Root SKILL.md remains the sole current runtime entry point.",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/reference_changed/runtime-fixture.json",
+    "original_sha256": "80364acbb53bcf04ba2b637a53fcf403a9cfe5d64c73f77bcace9dff0799514c",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/reference_changed/runtime-fixture.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  },
+  "original_archive_sha256": "c623fa3e504620e99e139f3afc42ba41032828e0fdd151487a042298bc1d495c"
 }

@@ -30,5 +30,14 @@
     }
   ],
   "missing_path_verified": true,
-  "empty_input_bytes": 0
+  "empty_input_bytes": 0,
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/edges/execution.json",
+    "original_sha256": "b5bff767a2510b987a3c11234390b86c7c400e946e065ed09dc8e03d04d771b3",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/edges/execution.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

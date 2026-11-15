@@ -1,13 +1,13 @@
 <a id="ch-interpretation"></a>
-## 二、“学术研究”应当怎样解释
+## 2. How should 'academic research' be interpreted?
 
-争议集中在一个前提：什么样的研究属于2018版条文中的“学术研究”？课堂提供的虚构教材《档案制度练习讲义》2018版第7节认为，它只包括受机构资助的项目。这是教材作者的限制解释。条文原文没有写出“机构资助”，所以不能把教材说法直接引成条文原句，也不能因为它来自教材，就省去解释理由。
+The dispute concerns a premise: Which research counts as 'academic research' in the 2018 provision? Section 7 of the fictional 2018 Archival Institutions Exercise Notes supplied in class restricts it to institutionally funded projects. That is the textbook author's restrictive interpretation. The original text does not say 'institutional funding,' so the textbook's statement must not be quoted as the provision itself, nor may its textbook origin eliminate the need for interpretive reasons.
 
-教师则倾向于包括有明确问题和方法的独立研究，理由是避免把机构身份变成准入门槛。这个观点把注意力放在研究活动的内容与组织方式，而非仅看有没有机构资助。不过，它同样是一项解释主张，不能被写成条文明文规定“所有独立研究都可以”。按照教师提出的标准，仍要辨认研究是否有明确问题与方法；“独立”本身既不自动排除资格，也不自动证明资格。
+The teacher favors including independent research with a clear question and method, to avoid institutional status becoming an entry barrier. That focuses on research content and organization rather than funding alone. But it too is an interpretation, not an express rule that 'all independent research qualifies.' The teacher's criterion still requires a clear question and method. 'Independent' neither automatically excludes nor proves eligibility.
 
-两种解释会怎样影响甲？在教材解释下，现有题设若没有交代机构资助，仅凭研究计划还不足以确认其满足教材设定的限制条件；不能把未交代资助直接写成已经证实没有资助。在教师解释下，应当查看计划是否体现明确问题与方法，而不能只查申请人的机构身份。由此可以看到，解释选择影响的是哪些事实与用途判断有关，并且会改变需要说明或查明的事项。
+How do the interpretations affect A? Under the textbook approach, where funding is unstated, the research plan alone cannot establish the textbook's restrictive condition. Unstated funding must not become proven absence of funding. Under the teacher's approach, examine whether the plan presents a clear question and method rather than checking only institutional identity. The interpretive choice thus changes which facts matter to purpose and what must be explained or established.
 
-还有一项不同身份的材料：课堂裁判模拟册中的“甲申请案”摘要。模拟合议庭认为，独立研究者提供研究计划足以证明用途，并援引促进知识使用这一目的。这是该模拟案件中给出的判断与理由，支持独立研究也可能符合研究用途的思路。它不是现实法院判例；摘要没有交代其他案件的事实，也没有宣称对其他案件有约束力。因而，我们可以分析其理由，但不能把这份摘要提升成一项已知普遍拘束其他案件的规范。
+Another material has a different identity: the classroom mock-judgment booklet's summary of 'A's Application.' The simulated panel considered an independent researcher's plan sufficient proof of purpose, citing promotion of the use of knowledge. This is the judgment and reasoning in that simulated case, supporting the possibility that independent research qualifies. It is not a real precedent; the summary gives no facts of other cases and claims no binding force over them. We may analyze its reasons, but cannot elevate it into a rule known to bind other cases generally.
 
-教材解释、教师主张与模拟合议庭观点不能互相冒名。它们可能赞成不同范围，也可能在某个具体结论上相近；即使结论相近，来源身份与理由仍需分清。本课也没有提供真实著作或真实裁判全文供外部核验，以上定位均来自这份合成课堂材料。
+The textbook interpretation, teacher's position, and simulated panel's view must not be attributed to one another. They may favor different scopes or converge on a particular conclusion. Even when conclusions coincide, source identities and reasons remain distinct. No complete real publication or judgment was supplied for external checking; the locations above all come from this synthetic classroom material.
 

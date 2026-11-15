@@ -34,5 +34,14 @@
       "sha256": "0ab2c6b9c0c6b6fbd773b8edbec5cb7f1ebca8c7daa8743c8a7c9ddd6a7689d2"
     }
   ],
-  "meaning": "Final authored runtime identity for this build. A hash proves bytes, not teaching or legal correctness."
+  "meaning": "Final authored runtime identity for this build. A hash proves bytes, not teaching or legal correctness.",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "fidelity-ledger/runtime-revision.pre-language-policy.json",
+    "original_sha256": "0ac2c43937d0360e2aa8924150110a1781dbd93a6709bd601c8ccaeea960f110",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/fidelity-ledger/runtime-revision.pre-language-policy.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

@@ -1,24 +1,24 @@
-# 第一章局部语义复核
+# Local semantic review of chapter 1
 
-评审时间：2026-11-15T02:13:50.707858+00:00
-评审者：本次执行代理（Codex desktop；精确模型unknown）。此为同代理直接对源复核，不是独立人类评审。
+Review time: 2026-11-15T02:13:50.707858+00:00
+Reviewer: the executing agent (Codex desktop; exact model unknown). This is direct source comparison by the same agent, not independent human review.
 
-实际重新读取原始输入全21行及实际落盘的chapters/01-relations.md；第一章核验范围为第1—7行，后14行用于确认不把成立结论误当最终结果。所评章稿SHA-256：ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042。当前lecture.md与该章相同；不构成full_manuscript复核。
+Actually reread all 21 lines of the original input and the saved chapters/01-relations.md. Chapter 1 verification covers lines 1—7; the remaining 14 lines were used to ensure that establishment was not mistaken for the final outcome. Reviewed chapter SHA-256: ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042. The current lecture.md is identical to this chapter; this does not constitute full_manuscript review.
 
-| 源定位 | 稿件定位 | 直接核验与结论 |
+| Source location | Manuscript location | Direct verification and conclusion |
 |---|---|---|
-| 第1行 | ch1-scope | 明确合成、非现行法、无真实课堂及前课假设；pass。 |
-| 第2行 | ch1-whole-task | 保留庚周一确认周三10—12点、取消/封闭/退款的整体任务。取消失败的条件分析已明确留在第二章，并非把失败改写成成功；pass。 |
-| 第3行前半 | ch1-permission | 注册许可针对进入，既未推出座位保证，也未说许可无作用；pass。 |
-| 第3行后半 | ch1-confirmation | 保留成功确认、管理人、预约人、确认时段、标准座位及三种不等于确认的情形；pass。 |
-| 第4行甲 | ch1-jia | 从注册推不出乙让位义务，未扩写为现实绝对规则；pass。 |
-| 第4行丁 | ch1-ding | 不用进入许可否认确认义务；指出两案还涉及义务相对人不同，没有假称严格只改变一个变量；pass。 |
-| 第5行 | ch1-cable | 保留借线小例、无优先或交付承诺及座位规则边界；pass。 |
-| 第6行 | ch1-student-objection | 保留合成材料的实质反问，并解释进入不受禁止与座位保障不同；pass。 |
-| 第7行 | ch1-geng | 仅确认预约成立，未断言一定坐到12点；与后续撤销、暂停、届满相容；pass。 |
+| Line 1 | ch1-scope | Explicitly synthetic, not current law, with no real-classroom or preceding-class assumptions; pass. |
+| Line 2 | ch1-whole-task | Retains G's Monday confirmation for Wednesday 10:00—12:00 and the complete task of cancellation/closure/refund. Analysis of the failed cancellation is explicitly deferred to chapter 2, not rewritten as success; pass. |
+| First half of line 3 | ch1-permission | Registration permission concerns entry; neither a seat guarantee nor the uselessness of permission is asserted; pass. |
+| Second half of line 3 | ch1-confirmation | Retains successful confirmation, manager, reserving person, confirmed period, standard seat, and three situations not equivalent to confirmation; pass. |
+| A in line 4 | ch1-jia | Registration does not establish B's duty to yield; no absolute real-world rule is added; pass. |
+| D in line 4 | ch1-ding | Permission to enter does not negate the confirmation-based duty. The two cases also involve different duty bearers; no false claim is made that exactly one variable changes; pass. |
+| Line 5 | ch1-cable | Retains the small cable example, absence of priority or a delivery promise, and the seating rule's boundary; pass. |
+| Line 6 | ch1-student-objection | Retains the substantive objection in the synthetic material and explains the distinction between nonprohibited entry and guaranteed seating; pass. |
+| Line 7 | ch1-geng | Confirms only establishment of the reservation, not a guaranteed seat until 12:00; compatible with later cancellation, suspension, and expiration; pass. |
 
-新增解释检查：消息性质决定是否满足确认条件、不得把管理人义务转给乙、类比不创设规则，均为对已给L1和案例的解释；无新增现实法规则或案例、无伪造学生学习反馈。正文可直接讲授，非提纲或编辑建议。
+Check of added explanations: the message's nature determines whether confirmation is established; the manager's duty cannot be transferred to B; analogy does not create rules. All explain the supplied L1 and cases. No real legal rule or case was added, and no student learning feedback was fabricated. The prose can be taught directly; it is not an outline or editing advice.
 
-发现关键缺陷：无。正文修订轮数：0。第一章局部语义结果：pass。
+Critical defects found: none. Prose revision rounds: 0. Local semantic result for chapter 1: pass.
 
-第二章、第三章、全篇统稿及全篇语义复核：not_run。真实课堂试用及学习效果：not_run。机械通过不替代上述判断。
+Chapter 2, chapter 3, whole-manuscript reconciliation, and whole-manuscript semantic review: not_run. Real classroom pilot and learning outcomes: not_run. A mechanical pass does not replace these judgments.

@@ -1,170 +1,170 @@
-# 学习社规则：关系成立、变动、积分与复核
+# Study Society rules: formation, changes, points, and review
 
 <a id="ch-1"></a>
-# 第一章　可以进入，为什么还不等于有人必须提供座位？
+# Chapter 1: Why permission to enter does not yet mean someone must provide a seat
 
 <a id="ch1-scope"></a>
-本课讨论一个学习社怎样把进入、预约、撤销、积分与复核连接起来。以下规则、人物、数据都来自一份合成教学材料，属于教学假设，不是现行法律，也不是真实课堂或真实案件的记录。我们只在这套练习规则的范围内推理。没有前后课资料，因此理解本课所需的关系，要在这里说明。
+This lecture examines how a study society connects entry, reservations, cancellation, points, and review. All rules, people, and data below come from synthetic teaching material. They are teaching hypotheticals, not current law or a record of an actual class or case. We reason only within this exercise's rules. No materials from preceding or subsequent classes are available, so the relationships needed to understand this lecture must be explained here.
 
 <a id="ch1-whole-task"></a>
-先把最终需要处理的事情摆在面前。庚是学习社成员，周一预约了周三10点至12点的座位，并收到成功确认。此后，他又尝试取消，周三场地发生封闭，最后还涉及退还积分。这个经历把几个问题连在了一起：庚起初取得了什么？这项关系后来有没有改变？哪些后果由哪些条件触发？如果对处理结果有异议，应怎样复核？
+First place the eventual problem before us. G is a society member who reserves a seat on Monday for Wednesday 10:00–12:00 and receives successful confirmation. G later attempts cancellation; the premises close on Wednesday, and a points refund is ultimately involved. The sequence connects several questions: what did G acquire initially? Did that relationship later change? Which conditions trigger which consequences? How should an objection to the result be reviewed?
 
-现有材料在这里有一处会改变答案的矛盾：它将庚的取消称为“失败”，但后面的明确时刻写的是周二17:59到达系统，按本练习的撤销规则属于及时。以下先讲清能够独立确定的规则和案例，再把这处矛盾的后果说明白；不能先把“失败”当成已证事实。
+The current source contains a contradiction that changes the answer: it labels G's cancellation 'failed,' but later explicitly says the notice reached the system Tuesday at 17:59, which is timely under the exercise's cancellation rule. The following first explains independently determinable rules and cases, then makes this contradiction's consequences clear. 'Failed' cannot be treated as an established fact in advance.
 
-我们先从起点讲起。如果连“可以进入”和“可以要求谁提供什么”都没有分清，后面的撤销、费用与复核就会失去分析对象。第一章的任务是确定关系如何成立；后续发生什么，将在具备相关规则和事实后继续判断。
+Begin at the starting point. Unless we distinguish 'may enter' from 'may require whom to provide what,' later analysis of cancellation, charges, and review will lose its object. Chapter 1 identifies how the relationship is established. Later developments will be assessed once the relevant rules and facts are available.
 
 <a id="ch1-permission"></a>
-## 一、进入许可的作用，要对准进入行为
+## 1. Direct permission to enter toward the act of entering
 
-练习规则L1先规定：注册成员享有进入公共阅览区的许可，但许可不保证座位。这两句话一起限定了许可的内容。
+Exercise Rule L1 first provides that registered members have permission to enter the public reading area, but that permission does not guarantee a seat. Together, these statements delimit the permission's content.
 
-注册成员可以进入，意味着在本规则下，成员的进入行为不受到禁止。这里回答的是“成员可不可以进入”。它没有同时回答“是否一定有空座位”，也没有指定某个他人必须为了成员的进入而完成某种给付。把进入许可写成座位保证，就把许可的作用对象从进入行为悄悄换成了座位供给。
+Registered members may enter, meaning that this rule does not prohibit their act of entry. It answers 'May the member enter?' It does not also answer 'Will a seat necessarily be available?' or designate someone else who must provide something for the member's entry. Rewriting permission to enter as a seat guarantee silently shifts its object from entering to supplying a seat.
 
 <a id="ch1-student-objection"></a>
-合成材料安排了一个学生反问：“许可完全没用吗？”这个反问值得保留，因为只说“许可不保证座位”，容易让人误以为许可没有任何作用。它确实有作用：它排除了本规则下对进入行为的禁止。问题在于，这种作用还不足以保证另一个结果——一定有座位可用。能够进入和能够获得座位是两个不同的问题；说明前一个条件不保证后一个结果，并没有否认前一个条件本身的意义。
+The synthetic material includes a student's objection: 'Is permission completely useless?' This objection deserves preservation because saying only that permission does not guarantee a seat may suggest that permission has no effect at all. It does have an effect: it excludes a prohibition on entry under this rule. That effect simply does not suffice to guarantee a different result: that a seat will be available. Being able to enter and being able to obtain a seat are different questions. Explaining that the first condition does not guarantee the second result does not deny the first condition's significance.
 
-因此，分析时不要急着把概念分成“有用”与“没用”。先说清它改变了谁、对什么行为、处于什么位置。L1中的进入许可改变的是注册成员对进入行为的位置；座位是否有保障，还要看另一个条件。
+Do not rush to divide concepts into 'useful' and 'useless.' First identify whose position changes and with respect to which conduct. L1's permission to enter changes the registered member's position concerning entry. Whether seating is guaranteed depends on another condition.
 
 <a id="ch1-confirmation"></a>
-## 二、成功确认，才是座位义务成立的条件
+## 2. Successful confirmation is the condition establishing the seating duty
 
-L1接着规定：预约系统发出成功确认后，管理人才对该预约人负有在确认时段提供标准座位的义务。这里已经指明了关系两端：一端是得到成功确认的预约人，另一端是管理人；义务的内容是在确认时段提供标准座位。
+L1 then provides that only after the reservation system issues successful confirmation does the manager owe that reserving member a standard seat during the confirmed period. Both sides of the relationship are specified: the person receiving successful confirmation and the manager. The duty is to provide a standard seat during that period.
 
-相应地，说预约人可以要求管理人提供座位，不是从“他可以进入”推出来的，而是依据L1中这一项独立规定。它要求一个特定事实成立：系统已经发出成功确认。点击申请、看到排队提示，或者收到“已接收”消息，都不等于满足这个条件。申请进入处理过程和预约获得成功确认，不能混用。
+Accordingly, the reserving member's ability to require a seat from the manager follows from this independent provision of L1, not from 'this person may enter.' It requires a specific fact: the system has issued successful confirmation. Clicking to apply, seeing a queue notice, and receiving a 'received' message do not satisfy that condition. An application entering processing and a reservation receiving successful confirmation must not be conflated.
 
-这也说明为什么必须保留消息的具体性质。若材料只写“收到消息”，就不能擅自把它解释为成功确认；若材料明确写了成功确认，则应承认这个条件已经满足。关系判断取决于规则要求的事实，而不只取决于当事人主观上觉得预约已经办好。
+This also explains why the message's specific character matters. If the material says only 'a message was received,' do not assume it was successful confirmation. If successful confirmation is expressly stated, acknowledge that the condition is satisfied. The relationship depends on the fact required by the rule, not merely the person's subjective belief that the reservation is settled.
 
 <a id="ch1-jia"></a>
-## 三、甲与丁：座位同样满了，依据却不同
+## 3. A and D: the seats are equally full, but the grounds differ
 
-先看甲。甲只是注册成员，看到座位坐满了，就要求乙让座。甲的注册使他取得进入公共阅览区的许可；但在给定的L1中，没有一条规则把甲的注册身份转化成乙的让位义务。因此，不能仅凭甲是成员，就推出乙必须让出自己的座位。
+Consider A first. A is only a registered member and demands that B yield after seeing all seats occupied. Registration gives A permission to enter the public reading area, but the supplied L1 contains no rule turning A's membership into B's duty to give way. A's membership alone therefore cannot establish that B must surrender the seat.
 
-这个判断的范围需要说准：我们是在指出甲目前给出的依据不足以推出乙让位，而不是凭空断言一切情形下任何人都绝不可能负有让位义务。本课只给出了这些规则，不能替甲补造另一项义务依据。
+State this judgment's scope precisely: A's presently supplied grounds do not establish B's duty to yield. This is not an unsupported assertion that no one could ever owe such a duty in any circumstances. Only these rules are provided, and we cannot invent another basis for A's demanded duty.
 
 <a id="ch1-ding"></a>
-再看丁。丁已经收到成功确认，到场时座位也满了。这一次，除了进入许可，还存在L1规定的预约关系。管理人不能只用“大家都可以进入”来否认自己在确认时段向丁提供标准座位的义务，因为进入许可没有取代成功确认所产生的义务。
+Now consider D. D has received successful confirmation, and the seats are also full on arrival. This time, besides permission to enter, the reservation relationship under L1 exists. The manager cannot deny the duty to provide D a standard seat during the confirmed period merely because 'everyone may enter.' Permission to enter has not replaced the duty created by successful confirmation.
 
-甲与丁面前都出现了“座位满了”这个事实，但决定分析结果的条件不同：甲只有注册，丁还有成功确认；同时，甲提出的是让乙让位，丁对应的是管理人的座位义务。两案并不是只替换了人名的同一道题。应当分别指出义务是否有依据，以及义务相对人是谁。不能把管理人的义务再自动转移给正在使用座位的乙。
+Both A and D face the same fact of full occupancy, but the decisive conditions differ: A has only registration, whereas D also has successful confirmation. Moreover, A demands that B yield, while D's relationship concerns the manager's seating duty. The cases are not identical problems with names merely swapped. Identify separately whether a duty has a basis and who owes it. The manager's duty must not automatically be transferred to B, who currently occupies a seat.
 
-这两层关系可以并存。一个人能够进入，和管理人必须向这个人提供确认时段内的标准座位，并不相互排斥。前者不会自动产生后者；后者也不会因为前者同样存在而消失。
+These two relationships can coexist. A person's ability to enter and the manager's duty to provide that person a standard seat during the confirmed period do not exclude each other. The former does not automatically create the latter, and the latter does not disappear because the former also exists.
 
 <a id="ch1-cable"></a>
-## 四、借充电线：不能靠相似用语扩大规则
+## 4. Borrowing a charging cable: similar wording cannot expand a rule
 
-材料还安排了一个边缘例子。工作人员说“可以借线”，却没有承诺优先权，也没有承诺对某个人负有交付充电线的义务。不能一听到“可以借”，就补上“工作人员必须立即交给我”或“我享有优先取得”的结论。
+The material includes a boundary example. An employee says 'you may borrow a cable,' but promises neither priority nor a duty to deliver a charging cable to a specific person. Hearing 'may borrow' does not authorize adding 'the employee must give it to me immediately' or 'I have priority in obtaining it.'
 
-这个例子与座位问题相连的地方，是许可性表述不自动等于他人的给付义务。它的边界同样重要：L1关于成功确认后提供标准座位的规定，只说明座位关系。不能因为两件事都发生在学习社，就把借线许可改写成座位预约成功确认，也不能把座位规则直接移植成充电线交付规则。比较帮助我们检查推论，但比较本身不会创设材料没有给出的规则。
+The connection to seating is that permissive language does not automatically establish another person's duty to provide something. The boundary is equally important: L1's provision of a standard seat after successful confirmation governs only the seating relationship. Both activities occurring in the society does not turn cable-borrowing permission into successful seat-reservation confirmation, nor turn the seating rule into a cable-delivery rule. Comparison helps test an inference; it does not create rules absent from the materials.
 
 <a id="ch1-geng"></a>
-## 五、回到庚：现在可以确定什么？
+## 5. Return to G: what can we establish now?
 
-回到开头的庚。他是成员，因此在L1下具有进入公共阅览区的许可。他还在周一为周三10点至12点的预约收到成功确认，这又满足了预约关系成立的条件。依据L1，管理人由此对庚负有在该确认时段提供标准座位的义务。
+Return to G from the opening. As a member, G has permission under L1 to enter the public reading area. On Monday, G also received successful confirmation for Wednesday 10:00–12:00, satisfying the condition establishing the reservation relationship. Under L1, the manager consequently owes G a standard seat during that confirmed period.
 
-到这里，我们已经找到了后续分析的起点，却还不能把这个起点直接写成最终结果。关系成立之后，是否发生有效撤销，是否在某个时段暂停，以及何时届满，都需要对应的规则和事实。第一章尚未展开这些规则，所以此时准确的结论是“预约关系已经成立”，不能提前断言庚最终一定能够坐到12点。
+We have now established the starting point for later analysis, but cannot treat it as the final outcome. After establishment, valid cancellation, suspension during a particular period, and expiration each require their corresponding rules and facts. Chapter 1 has not yet developed those rules, so the accurate conclusion now is 'the reservation relationship was established,' not that G must ultimately be able to remain seated until 12:00.
 
-接下来要分析的，正是一个已经成立的关系怎样变动。继续分析时，要带着本章已经区分的两个对象：成员的进入许可，以及成功确认产生的座位请求和管理人的对应义务。只有把对象分清，才能判断后来某项行为究竟改变了哪一层关系。
+The next question is precisely how an established relationship changes. Carry forward the two objects distinguished here: the member's permission to enter, and the seat claim created by successful confirmation with the manager's corresponding duty. Distinguishing them is necessary to determine which relationship a later act changes.
 
 <a id="ch-2"></a>
-# 第二章　成立之后：撤销、暂停与届满改变什么？
+# Chapter 2: After establishment—what do cancellation, suspension, and expiration change?
 
-第一章确定了关系的起点：成功确认产生管理人的座位义务。现在要追问，这项关系后来是否仍在。分析顺序不能倒置；先确定关系状态，才知道后面的封闭究竟影响了什么。
+Chapter 1 established the relationship's starting point: successful confirmation creates the manager's seating duty. We now ask whether that relationship persists. Do not reverse the analytical order: first establish the relationship's status to know what the later closure affects.
 
 <a id="ch2-withdrawal"></a>
-## 一、撤销看到达，协商看同意
+## 1. Cancellation turns on receipt; negotiation turns on consent
 
-本练习L2规定，预约人可以在预约开始前一日18点前单方撤销，撤销在通知到达系统时生效。“18点前”是否包括18点整，本来可能形成边界疑问，但本练习附则已经明确包括。因此，本课统一把条件写成：通知在开始前一日不晚于18:00到达系统。这是本练习的明确约定，不能把这一读法推广成现实法律的一般规则。
+This exercise's L2 allows the reserving person to cancel unilaterally before 18:00 on the preceding day, with effect when notice reaches the system. Whether 'before 18:00' includes exactly 18:00 might otherwise be a boundary question, but this exercise's supplement expressly includes it. This lecture therefore consistently states the condition as receipt by the system no later than 18:00 on the preceding day. This is the exercise's express convention, not a reading to generalize into real law.
 
-发送和到达是两个事实。发送表示预约人已经把通知发出去；到达才是L2选定的生效条件。因此，发送得早不一定意味着撤销及时，必须核对系统收到的时刻。若通知及时到达，预约人便可单方撤销，无须另找管理人的同意。若超过期限，材料只给出协商这条路线，而协商必须有双方同意。发出协商请求，只说明有人提出建议，不能代替对方同意。
+Sending and receipt are separate facts. Sending means the reserving person has dispatched the notice; receipt is L2's chosen condition for effectiveness. Sending early does not necessarily mean timely cancellation: verify when the system received it. Timely receipt permits unilateral cancellation without additional consent from the manager. After the deadline, the materials provide only negotiation, which requires both parties' consent. Sending a negotiation request means merely that a proposal was made; it cannot substitute for the other party's agreement.
 
 <a id="ch2-arrival-comparison"></a>
-看戊和己。戊在17:50发出通知，系统18:05才收到。虽然发出时还没到18点，规则要求的到达却已超期，所以他不能凭这份通知单方消灭预约。己的通知18:00到达，正好落在附则包括的边界上，撤销及时生效。这个对照保持其他条件相同，改变的是到达时刻；影响结果的也正是这个条件，不是提前发出多久。
+Consider E and F. E sends at 17:50, but the system receives the notice only at 18:05. Although dispatch preceded 18:00, receipt occurred after the deadline, so this notice cannot unilaterally terminate the reservation. F's notice arrives at 18:00, exactly the boundary included by the supplementary provision, and cancellation takes effect in time. With other conditions unchanged, the contrast changes the receipt time. That is the condition affecting the outcome, not how early dispatch occurred.
 
 <a id="ch2-withdrawal-scope"></a>
-撤销的对象同样要说清。它消灭的是该次预约产生的座位请求和管理人的对应义务，既没有取消成员身份，也没有取消L1给成员的进入许可。因此，“预约已经撤销”不能改写成“这个人再也不能进入”。前一章的两层关系，在这里分别接受检验。
+The object of cancellation also needs precision. It terminates the seat claim and the manager's corresponding duty arising from that reservation, not membership or the permission to enter given by L1. 'The reservation has been cancelled' cannot become 'this person can never enter again.' The two relationships distinguished in the preceding chapter are tested separately here.
 
 <a id="ch2-suspension"></a>
-## 二、暂停没有把预约消灭
+## 2. Suspension does not terminate the reservation
 
-L3处理另一种变化：即时安全险情使场地必须封闭时，管理员可以暂停提供座位的义务，并应退还实际受影响时段的预约积分。这里既有启动条件，也有对应后果。不能把一般的不方便当作安全封闭；满足给定条件后，暂停座位义务还伴随退还受影响积分的要求。
+L3 addresses a different change: when an immediate safety emergency requires closing the premises, the administrator may suspend the duty to provide seats and must refund reservation points for the actually affected period. The rule specifies both triggering conditions and corresponding consequences. General inconvenience cannot be treated as a safety closure. Once the stated conditions are met, suspension of the seating duty also entails refunding the affected points.
 
-暂停不同于撤销。封闭不自动撤销预约；在原确认时段内恢复安全后，剩余时段继续有效。不过，恢复也不把结束时间往后推。判断时须同时记住：关系没有被封闭消灭，原来约定的时间边界也没有被延长。
+Suspension differs from cancellation. Closure does not automatically cancel a reservation; if safety is restored during the original confirmed period, the remainder remains valid. Resumption does not, however, move the end time later. Keep both propositions in view: closure has not terminated the relationship, and the originally agreed time boundary has not been extended.
 
 <a id="ch2-xin"></a>
-辛预约10点至12点，10点至11点因安全封闭，11点恢复开放。在这个例子中，预约仍然有效，受封闭影响的是10点至11点，辛可以使用11点至12点的剩余一小时，并获退受影响一小时的积分。到12点，预约按原时间届满。
+H reserves 10:00–12:00. A safety closure lasts 10:00–11:00, with reopening at 11:00. The reservation remains valid; closure affects 10:00–11:00. H may use the remaining hour, 11:00–12:00, and receive a refund of the points for the affected hour. At 12:00, the reservation expires as originally scheduled.
 
-再把辛的到场时间改为11:30。这个改变不会把结束时间变成12:30，也不会把剩余时段重新扩成一小时。11点至11:30场地已经可以提供座位，只是辛尚未到场；迟到半小时与安全封闭半小时的原因不同。此时他实际可用的是11:30至12点，预约仍在12点结束。
+Now change H's arrival time to 11:30. This does not move the end time to 12:30 or expand the remainder back into a full hour. From 11:00 to 11:30, the premises could already provide seating; H simply had not arrived. Half an hour of lateness and half an hour of safety closure have different causes. H can now actually use 11:30–12:00, and the reservation still ends at 12:00.
 
 <a id="ch2-lateness-objection"></a>
-合成材料中的学生据此提出：“只要没坐满两小时，就应退全部积分。”这个反驳把实际坐了多久当成退分的标准。教师回应的关键是，L3选定的是受安全封闭影响的时段，而不是本人实际在座的时长。辛迟到不能把已经恢复开放的半小时算成安全封闭；同样，未坐满两小时本身也不能证明整个两小时都受到了封闭影响。要算积分，先查原因与时段，不能只统计个人坐了多少分钟。
+The synthetic student objects: 'Whenever the full two hours are not used, all points should be refunded.' This treats actual seated duration as the refund criterion. The teacher's central response is that L3 selects the period affected by safety closure, not the person's actual time seated. H's lateness cannot turn an already reopened half-hour into a safety closure. Likewise, failing to use all two hours does not itself establish that closure affected the whole period. Before calculating points, identify the cause and period rather than merely counting the individual's seated minutes.
 
 <a id="ch2-geng"></a>
-## 三、庚的17:59为何改变后续路线？
+## 3. Why does G's 17:59 receipt change the subsequent route?
 
-当前材料给出的明确事实是：庚周二17:58发出取消请求，系统周二17:59收到；没有管理人同意协商的证据。周三10点至11点安全封闭，11点恢复。发出是17:58，到达是17:59，两者都必须保留，不能互换。
+The current material explicitly states that G sent the cancellation request Tuesday at 17:58 and the system received it Tuesday at 17:59, with no evidence of the manager's agreement to negotiation. Wednesday's safety closure lasts 10:00–11:00, with reopening at 11:00. Sending is 17:58 and receipt is 17:59. Both must be retained without substitution.
 
-若按这组明确时刻适用L2，庚预约的开始时间是周三10点，单方撤销截止时间就是前一日即周二18:00；17:59早于这一截止时间。故这份通知及时到达，撤销在周二17:59生效。没有管理人协商同意的证据，不妨碍这条单方撤销路线成立，因为双方同意是超期协商所需的条件，不能移植成及时撤销的额外条件。
+Applying L2 to these explicit times, G's reservation begins Wednesday at 10:00, so unilateral cancellation must occur no later than Tuesday at 18:00. Receipt at 17:59 precedes that deadline. The notice therefore arrives in time, and cancellation takes effect Tuesday at 17:59. Absence of evidence that the manager consented to negotiation does not defeat this unilateral route: bilateral consent belongs to negotiation after the deadline and must not be imported as an extra condition for timely cancellation.
 
-于是，在当前时刻成立的前提下，周三安全封闭发生前，庚这次预约产生的座位请求与对应义务已经消灭。不能再把他直接放进辛那种“有效预约先暂停、再恢复剩余时段”的结构。他仍是成员，但成员的进入许可不会自行恢复已经消灭的预约。
+Thus, assuming the current time is correct, the seat claim and corresponding duty created by G's reservation had already ended before Wednesday's safety closure. G cannot simply be placed in H's structure of a valid reservation being suspended and then resuming for its remaining period. G remains a member, but membership permission to enter does not itself revive a terminated reservation.
 
-材料开头及后续整合案例又把这次取消称为“失败”，与上述时间及L2产生直接冲突。这里无法把两种说法同时当作成立。我们保留冲突，以17:59这一明确事实展示可成立的推导，并将事实口径留待确认，而不擅自把时间改晚来迎合“失败”的标签。第三章将说明：这一差异既改变积分问题的规则依据，也不影响可以独立判断的复核期限。
+The opening and subsequent integrated case nevertheless label this cancellation 'failed,' directly conflicting with the stated time and L2. Both accounts cannot be accepted as true. We preserve the conflict, use the explicit 17:59 fact to demonstrate the supported inference, and leave the factual account pending confirmation rather than making the time later to fit the 'failed' label. Chapter 3 explains how this difference changes the legal basis for the points question while leaving an independently determinable review deadline intact.
 
 <a id="ch-3"></a>
-# 第三章　积分与复核：先找计算前提，再判断数额
+# Chapter 3: Points and review—identify the calculation's premises before deciding the amount
 
-前两章把成立和变动接在一起。这一步不是计算前可有可无的概念介绍：只有知道哪一项预约仍有效，才能判断封闭影响了哪一段应当提供座位的时间。算术正确，不会补上缺失的规则前提。
+The first two chapters connected establishment with change. This is not an optional conceptual preface to calculation. Only by knowing which reservation remains valid can we determine which period of owed seating the closure affected. Correct arithmetic cannot supply a missing rule premise.
 
 <a id="ch3-calculation"></a>
-## 一、取两个时段的重叠，才谈退分
+## 1. Identify the overlap between two periods before discussing the return of reservation points
 
-L4给出计价：每小时10积分，半小时5积分。本次教学只处理整半小时，其他时间粒度没有规定。因此，我们可以算半小时、一小时等已给范围，不能自行创造按分钟计价、进位或舍去的规则。
+L4 supplies the rate: 10 points per hour and 5 per half-hour. This teaching exercise covers only exact half-hour units; other time increments are unspecified. We may therefore calculate half-hours, hours, and other supplied units, but must not invent per-minute pricing, rounding-up, or rounding-down rules.
 
-在L3的安全封闭退分路线中，要先确认有效预约，再取它与封闭时段的重叠。封闭落在预约开始之前的部分，不影响本次预约的座位义务；有效预约中未受封闭影响的部分，也不能因为旁边发生过封闭就一并算入。最后，才对重叠时长使用L4的计价。
+Under L3's safety-closure route for returning reservation points, first establish a valid reservation, then find its overlap with closure. Closure before the reservation starts does not affect this reservation's seating duty. An unaffected portion of a valid reservation cannot be included merely because closure occurred nearby in time. Only then apply L4's rate to the overlapping duration.
 
 <a id="ch3-ren"></a>
-用壬作完整示范。壬预约10点至12点，场地9:30至10:30封闭。先看9:30至10点：虽然封闭确实发生，但预约尚未开始，不计入本次受影响时段。再看10点至10:30：它同时处在预约和封闭中，应计入。10:30恢复开放，10:30至12点的剩余预约继续有效。因此，重叠为半小时，按L4应退5积分。
+Use I for a complete demonstration. I reserves 10:00–12:00, while the premises are closed 9:30–10:30. First consider 9:30–10:00: closure occurred, but the reservation had not begun, so this does not count as affected reservation time. Then consider 10:00–10:30: it falls within both reservation and closure, so it counts. The premises reopen at 10:30, and the remainder, 10:30–12:00, stays valid. The overlap is therefore half an hour, requiring a refund of 5 points under L4.
 
-如果把9:30至10:30整个一小时乘以每小时10积分，就会得到10积分。这一步乘法没有错，错误发生在乘法之前：把预约之外的半小时也当成了预约受影响的时间。纠正方法是修正时段依据，不能只把结果从10改成5而不解释为何要改。
+Multiplying the entire closure hour, 9:30–10:30, by 10 points per hour produces 10 points. The multiplication is correct; the mistake precedes it, when half an hour outside the reservation is counted as affected reservation time. Correct the temporal basis, rather than merely replacing 10 with 5 without explaining why.
 
-辛的例子也可在这里完成金额计算：10点至12点预约中，10点至11点安全封闭，重叠一小时，按L3、L4退10积分。辛11:30才到不会扩大这一安全封闭时段。这个结论以辛的预约仍有效为前提，不能仅凭另一个人的场地也封闭一小时就直接移用。
+H's amount can also now be calculated: the 10:00–12:00 reservation overlaps the safety closure from 10:00–11:00 for one hour, yielding a refund of 10 points under L3 and L4. H's arrival at 11:30 does not expand the safety-closure period. This conclusion assumes H's reservation remains valid and cannot be transferred merely because another person's premises also closed for an hour.
 
 <a id="ch3-review"></a>
-## 二、复核可以检验处理结果，及时申请并不替代实体理由
+## 2. Review can test the decision; a timely application does not replace substantive reasons
 
-L5规定，成员对退分有争议，应在得知处理结果后七日内申请复核。起算点是得知的次日，第七日结束前到达系统即及时。这里同样要分别检查得知时点和申请到达时点，不能拿提出或发出的日期替代到达日期。
+L5 requires a member disputing a points refund to apply for review within seven days after learning the result. Counting begins the next day; receipt by the system before the end of day seven is timely. Again, check awareness and receipt separately. The date of making or sending an application cannot substitute for the receipt date.
 
-复核机构检查规则适用与时间事实，并不推定管理员总是正确。所以，系统已经给出一个结果，不等于结果的理由已经成立。反过来，申请及时只说明这一程序期限得到满足，也不等于申请人要求的所有数额都有实体根据。材料还没有赋予复核申请自动暂停其他决定的效果，不能从“已经申请”自行补出“其他决定都暂停”。
+The reviewing body examines rule application and timing facts; it does not presume the administrator is always correct. A system-issued result therefore does not establish the grounds for that result. Conversely, timely application shows only compliance with the procedural deadline, not a substantive basis for every amount the applicant seeks. The materials give review applications no automatic power to suspend other decisions. 'An application has been made' cannot be expanded into 'all other decisions are suspended.'
 
 <a id="ch3-gui"></a>
-癸周四得知结果，次日周五是第一日，周六第二日，周日第三日，下周一第四日，下周二第五日，下周三第六日，下周四第七日。因此，下周四当天、在该日结束前到达系统是及时的。这个算法直接来自练习明文，不是任何现实法域都适用的期限通则。若连得知日期都没有，就缺少起算事实，不能凭猜测宣布已经过期或尚未过期。
+J learns the result on Thursday. Friday is day 1, Saturday day 2, Sunday day 3, the following Monday day 4, Tuesday day 5, Wednesday day 6, and Thursday day 7. Receipt by the system before that following Thursday ends is therefore timely. This calculation comes directly from the exercise's wording, not a deadline rule applicable in every real jurisdiction. Without an awareness date, the starting fact is missing; do not guess that the deadline has or has not expired.
 
 <a id="ch3-geng"></a>
-## 三、把庚的完整经历重新接起来
+## 3. Reconnect G's complete sequence
 
-庚周一收到周三10点至12点的成功确认，L1所规定的预约关系成立。接着，当前材料明写他的取消通知周二17:58发出、17:59到达。按第二章的L2分析，这一时刻支持及时单方撤销；若这一事实正确，座位请求与对应义务在周二即已消灭。
+On Monday, G receives successful confirmation for Wednesday 10:00–12:00, establishing the reservation relationship under L1. The current material then explicitly states that G's cancellation notice was sent Tuesday at 17:58 and received at 17:59. Under chapter 2's L2 analysis, that time supports timely unilateral cancellation. If this fact is correct, the seat claim and corresponding duty ended on Tuesday.
 
-后续仍有几个确定给出的事件：周三10点至11点安全封闭、11点恢复；系统扣了20积分，只退了5积分。扣20、退5是材料描述的处理结果，不能因已经发生就把它们升级为符合规则的应然结果。尤其不能从“一小时封闭”直接算出庚应退10积分，再断言少退5积分，因为这条L3计算路线要求安全封闭与有效预约重叠，而当前17:59及时撤销使该前提不能照用。
+Several subsequent events are still clearly given: Wednesday's safety closure lasts 10:00–11:00, followed by reopening; the system deducts 20 points and refunds only 5. The deduction and refund are described outcomes, not necessarily the outcomes the rules require merely because they occurred. In particular, a 'one-hour closure' does not directly establish that G should receive 10 points and was short-refunded 5. That L3 route requires overlap between closure and a valid reservation, a premise that cannot simply be carried over after timely cancellation at 17:59.
 
-这也不意味着庚必然不退积分或必须全退20积分。L2规定了及时撤销如何消灭预约，却没有规定及时撤销后的积分结算。座位关系消灭和积分如何清算是不同问题；只有前一个问题的答案，无法替后一个问题创设规则。因此，按当前17:59时刻，庚究竟应退多少、扣20退5是否合规，现有材料不足以得出唯一结论。还须确认主案时间口径，并在17:59正确时补充及时撤销的结算规则。
+Nor does this mean G necessarily receives no refund or must receive all 20 points. L2 specifies how timely cancellation terminates the reservation, but not how points are settled afterward. Termination of the seating relationship and settlement of points are distinct questions. An answer to the first cannot create a rule for the second. On the current 17:59 time, the materials therefore do not establish a unique refund amount or whether deducting 20 and refunding 5 complies with the rules. Confirm the main case's timing account and, if 17:59 is correct, supply the settlement rule for timely cancellation.
 
-程序期限则可以独立判断。庚周四得知处理结果，下周三提出复核且当日到达。沿刚才的算法，下周三是第六日，尚在七日期限内，所以按L5他的申请及时。他仍保有成员身份，及时撤销没有取消这一身份。可以申请复核，不等于能够预先确定复核应支持多少积分；实体结算的缺口也不把已经明确的程序期限变成未知。
+The procedural deadline can be decided independently. G learns the outcome on Thursday, applies the following Wednesday, and the application arrives that day. Under the calculation above, Wednesday is day 6, within the seven-day limit, so the application is timely under L5. G still has membership; timely cancellation did not remove it. Eligibility to seek review does not predetermine how many points review should award. The substantive settlement gap likewise does not turn a clear procedural deadline into an unknown.
 
-材料第18行仍要求结合“撤销失败”计算。如果确实要采用失败路线，需要先有与之相符的时间事实或其他规则依据，不能仅凭这个标签抹去当前17:59记录。现在能够完成的判断是：既有确认成立、按明确时刻撤销及时的推导、L3不能直接套用、积分结算缺规则、L5复核及时。最后数额保留未决，恰好避免用熟悉的计算结果掩盖已经改变的前提。
+Line 18 still asks for calculation based on 'failed cancellation.' Using that route would first require consistent timing facts or another rule basis; the label alone cannot erase the current 17:59 record. What can now be established is: confirmation originally arose, the explicit time supports timely cancellation, L3 cannot be applied directly, points settlement lacks a rule, and review under L5 is timely. Leaving the final amount unresolved avoids concealing changed premises beneath a familiar calculation.
 
 <a id="ch3-variant"></a>
-## 四、原来的“小反例”，现在照亮了主案缺口
+## 4. The original 'small counterexample' now reveals the main case's gap
 
-材料还写了一个小反例：“如果庚的撤销通知改为周二17:59到达”，预约便已消灭，不能再使用有效预约与封闭重叠的退分分析。它同时明确指出，L2没有规定及时撤销的积分结算。这个限制必须保留。
+The material also gives a small counterexample: 'If G's cancellation notice instead arrives Tuesday at 17:59,' the reservation has ended and the valid-reservation/closure-overlap refund analysis no longer applies. It also expressly notes that L2 does not specify points settlement after timely cancellation. This limitation must be preserved.
 
-但当前主案本身已经写成17:59到达。因此，这个所谓“改为17:59”的反例不再改变条件，而是与主案重合；不能仍把它当作与主案结果相反的独立对照，更不能把缺口只留给反例、主案却照旧算10积分。它所揭示的规则缺口现已进入主案。这说明比较不取决于有没有另起一个例子，而取决于相关条件是否真的变化。
+But the current main case itself now says receipt occurred at 17:59. The supposed change to 17:59 no longer changes a condition; it coincides with the main case. It cannot still serve as a separate contrast yielding the opposite result, nor can the gap be left only in the counterexample while the main case continues to receive 10 points. The missing rule now affects the main case. A comparison depends on whether a relevant condition actually changes, not whether another example has been introduced.
 
 <a id="ch3-exam"></a>
-## 五、用分析顺序服务问题
+## 5. Let the order of analysis serve the problem
 
-合成材料中教师给出的考试提示是：完整案例可按“关系成立—变动—后果—复核”展开。这个顺序有具体理由。成立确定分析对象，变动确认它后来是否仍在，后果需要前面的状态判断作为前提，复核则检查程序条件并重新审查事实和规则。跳过其中一步，可能使后面的计算准确却没有依据。
+The synthetic teacher advises developing a complete case through 'relationship establishment—change—consequences—review.' There are concrete reasons for this order. Establishment identifies the object of analysis; change determines whether it persists; consequences depend on that prior status judgment; review checks procedural conditions and reassesses facts and rules. Skipping a step may leave a later calculation arithmetically correct but unsupported.
 
-概念比较题却不必机械写四段。例如，只问发出与到达为何不同，就应说明L2选择到达作为生效条件，并用戊和己展示边界；无需凭空添加没有争议的积分和复核。教师要求的是解释条件为何影响结果，这只是本练习的教学安排，不承诺现实考试会按这种形式评分。
+A conceptual-comparison question need not mechanically use four parts. If asked only why sending and receipt differ, explain that L2 selects receipt as the condition of effectiveness and use E and F to show the boundary. Do not invent an unneeded dispute over points and review. The teacher asks for an explanation of why conditions affect outcomes. This is merely the exercise's teaching arrangement, not a promise that real examinations use this marking format.
 
 <a id="ch3-synthesis"></a>
-回到最初的庚，本课串起了四组区别。发出与到达是不同事实，L2以到达控制撤销生效；暂停与消灭是不同关系变化，仍有效的预约才可能在封闭结束后继续剩余时段；实际在座与受影响时段采用不同标准，L3计算的是封闭与有效预约重叠；程序及时与实体正确需要分别论证，及时复核不会补出缺失的结算规则。
+Return to G from the opening. The course connects four distinctions. Sending and receipt are different facts, and L2 makes receipt control cancellation's effectiveness. Suspension and termination are different changes in relationships; only a still-valid reservation can resume for its remainder after closure. Actual seated time and affected time use different criteria: L3 calculates overlap between closure and a valid reservation. Procedural timeliness and substantive correctness require separate arguments; timely review does not supply a missing settlement rule.
 
-本课没有前课资料，每一步所需依据都在本次练习中展开。我们已经完成全部给定规则和独立案例的解释，但庚的最终数额仍受源内冲突与结算规则缺失限制。保留这个边界，不会削弱推理；它让我们看清哪一步能够成立，哪一步还需要新的事实或规则。所有上述推论均限于这套合成教学规则，不能移作现行法律结论。
+No previous-lesson materials were provided for this lesson; the grounds needed at every step are explained within this exercise. We have explained all the supplied rules and independent cases, but G's final amount remains limited by the internal source conflict and the missing settlement rule. Retaining this boundary does not weaken the reasoning; it shows which steps are supported and which still need new facts or rules. All these inferences are confined to this set of synthetic teaching rules and cannot be treated as conclusions about current law.

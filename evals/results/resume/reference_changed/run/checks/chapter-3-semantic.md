@@ -1,16 +1,16 @@
-# 第三章直接对源复核
+# Chapter 3 direct review against the source
 
-UTC：2026-11-15T02:25:59.925616+00:00；本次执行代理自查（Codex desktop，精确模型unknown），不是独立评审。实际章稿SHA：56935b264e4595052afa3b1ed49f741ac3131b60986bc4f5c64130f6e9b1641a。已重读落盘章稿，对照源14—21行并核查前两章前提。
+UTC: 2026-11-15T02:25:59.925616+00:00. Self-review by the executing agent (Codex desktop, exact model unknown), not independent review. Actual chapter SHA: 56935b264e4595052afa3b1ed49f741ac3131b60986bc4f5c64130f6e9b1641a. Reread the saved chapter, compared source lines 14–21, and checked the preceding two chapters' premises.
 
-| 源行 | 锚点 | 实际核对 |
+| Source line | Anchor | Actual checks |
 |---|---|---|
-| 14 | ch3-calculation | 每小时10/半小时5；仅整半小时；有效预约与封闭重叠，未计预约前。pass |
-| 15 | ch3-ren | 壬预约10—12，封闭9:30—10:30，重叠10—10:30退5；错误退10来自多计预约外半小时；10:30—12仍有效。pass |
-| 16 | ch3-review | 得知次日起算，申请到达触发及时性；检查事实和规则，不推定管理员正确，不增设自动暂停。pass |
-| 17 | ch3-gui | 周四得知→周五第1日至下周四第7日逐日展开；当天结束前到达及时；得知日期缺失不能判断。pass |
-| 18 | ch3-geng | 主事实17:58发出、18:02到达未换；一小时封闭应退10，已退5还应退5，净扣10；下周三提出且到达第6日，程序与实体分开。pass |
-| 19 | ch3-variant | 仅17:59到达改变撤销条件；预约消灭使L3有效预约前提不成立；不自动算退10或退0，保留L2结算缺口。pass |
-| 20 | ch3-exam | 保留教师归属、完整案例四步及概念比较例外、不承诺现实评分。pass |
-| 21 | ch3-synthesis | 回扣庚及四组区别，推论限合成规则，无前课假说。pass |
+| 14 | ch3-calculation | 10 per hour/5 per half-hour; whole half-hours only; overlap of valid reservation and closure, excluding time before the reservation. pass |
+| 15 | ch3-ren | I reserves 10:00–12:00; closure 9:30–10:30; overlap 10:00–10:30 yields a refund of 5. Refunding 10 wrongly includes a half-hour outside the reservation; 10:30–12:00 remains valid. pass |
+| 16 | ch3-review | Counting starts the day after knowledge; application receipt determines timeliness. Checks facts and rules, presumes no administrator correctness, and adds no automatic suspension. pass |
+| 17 | ch3-gui | Thursday knowledge → Friday day 1 through the next Thursday day 7, shown day by day. Receipt before that day's end is timely; without a knowledge date, timeliness cannot be judged. pass |
+| 18 | ch3-geng | Main facts remain sending at 17:58 and receipt at 18:02. One hour of closure requires refund 10; 5 already refunded leaves another 5, net debit 10. Submission and receipt the next Wednesday fall on day 6; procedure and substance remain separate. pass |
+| 19 | ch3-variant | Only receipt at 17:59 changes the cancellation condition. Extinction of the reservation removes L3's valid-reservation prerequisite; no automatic refund of 10 or 0, and L2's settlement gap is retained. pass |
+| 20 | ch3-exam | Retains teacher attribution, four steps for complete cases, the conceptual-comparison exception, and no promise about actual marking. pass |
+| 21 | ch3-synthesis | Returns to G and four distinctions; inferences are confined to synthetic rules, without prior-lecture assumptions. pass |
 
-新增计算（辛退10、庚补退5/净扣10）均由已给L3/L4与时段直接推出，非新增外部规则。完整段落解释了条件如何进入推理。没有关键缺陷；pass；修订轮数0。真实课堂试用、学习效果not_run。
+Added calculations (H's refund of 10, G's additional refund of 5/net debit of 10) follow directly from the supplied L3/L4 and intervals, not new external rules. Full paragraphs explain how conditions enter the reasoning. No critical defects; pass; revision rounds 0. Real classroom trial and learning outcomes: not_run.

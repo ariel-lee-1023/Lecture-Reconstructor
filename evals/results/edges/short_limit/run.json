@@ -5,12 +5,12 @@
   "stage": "ingest",
   "course": {
     "title": "short_limit",
-    "scope": "给定合成材料",
-    "jurisdiction": "教学假设，无现实法域",
+    "scope": "Supplied synthetic material",
+    "jurisdiction": "Teaching hypothetical, with no real jurisdiction",
     "time_context": "unknown",
-    "audience": "大学课程读者",
+    "audience": "University course readers",
     "assumptions": [
-      "只用输入给定规则，不外推现实法"
+      "Use only the rules supplied in the input; do not extrapolate to real law"
     ]
   },
   "inputs": [
@@ -34,7 +34,7 @@
   "content_units": [
     {
       "id": "u-scope",
-      "proposition": "案例课R1–R4、甲乙丙、背带收据与证据限制待完整重构",
+      "proposition": "The case lecture's R1–R4, A, B, C, strap receipt, and evidentiary limitations await complete reconstruction",
       "locations": [
         {
           "input_id": "in1",
@@ -44,11 +44,11 @@
       ],
       "type": "scope",
       "status": "unresolved",
-      "reason": "100字主交付与完整正文冲突，已给配套方案等待取舍",
+      "reason": "The 100-character primary deliverable conflicts with the full manuscript; an accompanying-manuscript proposal has been provided and awaits a tradeoff decision",
       "targets": [],
       "source_ids": [],
       "blocking": true,
-      "blocking_reason": "尚未获知配套正文是否符合篇幅需求"
+      "blocking_reason": "It is not yet known whether an accompanying manuscript satisfies the length requirement"
     }
   ],
   "sources": [
@@ -65,12 +65,12 @@
   "open_issues": [
     {
       "id": "issue1",
-      "question": "是否允许100字导读加完整配套正文？",
-      "impact": "缺口阻止完整成稿",
-      "resolution_condition": "用户提供必要文字或确认篇幅取舍",
+      "question": "Is a 100-character introduction plus a complete accompanying manuscript permitted?",
+      "impact": "The gap prevents completion of the full manuscript",
+      "resolution_condition": "The user supplies the necessary text or confirms the length tradeoff",
       "status": "open",
       "blocking": true,
-      "blocking_reason": "核心含义、可读材料或交付范围未确定"
+      "blocking_reason": "The core meaning, readable material, or delivery scope remains undetermined"
     }
   ],
   "runtime_revision": {
@@ -108,7 +108,7 @@
       "kind": "semantic",
       "scope": "edge_behavior",
       "status": "pass",
-      "method": "独立新上下文对照请求、原输入与实际输出；见限制",
+      "method": "An independent fresh context compares the request, original input, and actual output; see limitations",
       "evidence": "semantic-review.md",
       "date": "2026-11-15",
       "output_sha256": "2b35cc48af1786bb8fa737d192dee44b92f4e650ad900c0ee15233fa0a984563"
@@ -120,12 +120,21 @@
   },
   "resume": {
     "completed": [
-      "可读材料检查",
-      "已保存实际响应"
+      "Readable-material check",
+      "Actual response saved"
     ],
     "remaining": [
-      "核心缺口"
+      "Core gap"
     ],
-    "next_action": "是否允许100字导读加完整配套正文？"
+    "next_action": "Is a 100-character introduction plus a complete accompanying manuscript permitted?"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/edges/short_limit/run.json",
+    "original_sha256": "8e1654525153abed3aa3dbc513ff7fc05e730940601c867cbebd888893fd38f4",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/edges/short_limit/run.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

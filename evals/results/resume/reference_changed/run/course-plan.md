@@ -1,37 +1,37 @@
-# 全课计划与完成状态
+# Whole-course plan and completion status
 
-完整三章已写作并统稿；已重新对照全部21行。原规划保留在history/before-resume/course-plan.md。
+All three chapters have been written and reconciled; all 21 lines were checked again. The original plan remains in history/before-resume/course-plan.md.
 
-整体问题：把庚的经历按关系成立—变动—后果—复核连接起来，解释每个条件为何影响结果。
+Whole problem: connect G's experience through formation—change—consequences—review, explaining why each condition affects the result.
 
-## ch-1（assembled）
+## ch-1(assembled)
 
-学习对象：区分进入许可和成功确认后的座位义务，明确双方、条件及分析范围。
+Object of learning: distinguish entry permission from the seat duty following successful confirmation, identifying both parties, conditions, and analytical scope.
 
-关系：进入许可不自动推出座位保证；成功确认使管理人负有确认时段座位义务；成立起点不等于最终履行结果。
+Relationships: entry permission does not automatically guarantee a seat; successful confirmation creates the administrator's seat duty for the confirmed interval; initial formation is not the final performance outcome.
 
-先修：无需前课；章内补足许可及义务概念。讲法：庚整体问题—L1关系解释—甲丁比较—学生反问—借线边界—庚阶段结论。全课作用：确定后续撤销、暂停及积分分析的关系对象。
+Prerequisites: no earlier lecture needed; permission and duty are explained within the chapter. Approach: G's whole problem—L1 relationships—A/D comparison—student objection—cable boundary—G's interim conclusion. Role in the course: establish the relationships for later cancellation, suspension, and points analysis.
 
-正文：chapters/01-relations.md；内容项：u01, u02, u03, u04, u05, u06, u07, u08, u09。
+Prose: chapters/01-relations.md; content items: u01, u02, u03, u04, u05, u06, u07, u08, u09.
 
-## ch-2（assembled）
+## ch-2(assembled)
 
-学习对象：区分到达与发出、撤销与协商、暂停与届满，确定庚关系状态。
+Object of learning: distinguish receipt/sending, cancellation/negotiation, and suspension/expiry to determine G's relationship status.
 
-关系：撤销以期限内到达为条件；单方撤销消灭预约但不取消成员许可；封闭只暂停且恢复不延长原时段。
+Relationships: cancellation requires timely receipt; unilateral cancellation extinguishes the reservation but not membership permission; closure only suspends performance, and reopening does not extend the original interval.
 
-先修：ch-1：预约成立及两层关系。讲法：L2与戊己时间对照、L3与辛完整案例、迟到反驳、庚事实分析。全课作用：为第三章确定有效预约及受影响时段。
+Prerequisites: ch-1, reservation formation and the two relationships. Approach: L2 and E/F's timing comparison, L3 and H's complete case, the lateness objection, and analysis of G's facts. Role in the course: establish the valid reservation and affected interval for chapter 3.
 
-正文：chapters/02-changes.md；内容项：u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21。
+Prose: chapters/02-changes.md; content items: u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21.
 
-## ch-3（assembled）
+## ch-3(assembled)
 
-学习对象：按重叠时长计算积分并独立审查复核期限，整合庚完整经历。
+Object of learning: calculate points from overlapping duration, independently check the review deadline, and integrate G's complete experience.
 
-关系：封闭总时长不等于有效预约受影响时长；程序及时不证明实体正确；及时撤销变式不能直接套L3。
+Relationships: total closure duration differs from the affected part of a valid reservation; procedural timeliness does not prove substantive correctness; L3 cannot directly govern the timely-cancellation variant.
 
-先修：ch-1：成立；ch-2：关系变动与有效时段。讲法：壬计算示范、癸期限示范、庚全案整合、17:59反例与缺口、教师考试提示和全课回扣。全课作用：兑现全课整体问题并保留规则边界。
+Prerequisites: ch-1, formation; ch-2, relationship changes and valid intervals. Approach: I's calculation, J's deadline, integration of G's full case, the 17:59 counterexample and gap, the teacher's examination advice, and whole-course synthesis. Role: resolve the course's whole problem while retaining rule boundaries.
 
-正文：chapters/03-consequences-review.md；内容项：u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33。
+Prose: chapters/03-consequences-review.md; content items: u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33.
 
-三章与全篇均完成当前版本直接对源自查；机械结果独立保存。真实课堂与学习效果尚未运行。
+All three chapters and the whole manuscript have completed direct source self-review under the current version. Mechanical results are saved separately. Real classroom trials and learning outcomes have not been run.

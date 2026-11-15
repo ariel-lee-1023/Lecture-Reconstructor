@@ -1,28 +1,28 @@
-# 最终工程审阅
+# Final engineering review
 
-日期：2026-11-15。审阅角色：独立只读工程审阅；未参与本轮 A08 生成或独立行为评审。审阅对象为 spec.md R01–R15、SKILL.md、四份 references、运行 schema、两个检查器及其测试，并核对 README、NOTICE、LICENSE、来源 manifest 和忽略规则。
+Date: 2026-11-15. Review role: independent, read-only engineering review; no participation in this round's A08 generation or independent behavior review. Reviewed spec.md R01–R15, SKILL.md, the four references, run schema, both checkers and their tests, and checked README, NOTICE, LICENSE, the source manifest, and ignore rules.
 
-结论：发现 **1 项可复现 P2 工程缺陷，已由主代理修复并经本审阅者定向复核关闭**。本报告保留发现时证据，并单独记录修复后结果；未发现剩余需要阻止交付的实际工程矛盾。A08 验收由其他独立评审负责，本报告不替代其结论。
+Conclusion: **1 reproducible P2 engineering defect was identified, repaired by the lead agent, and closed after this reviewer's targeted verification**. This report preserves evidence from discovery and records post-fix results separately. No remaining actual engineering contradiction requiring delivery to be blocked was found. Other independent reviewers handle A08 acceptance; this report does not replace their conclusions.
 
-## 已关闭 P2：历史全篇通过记录误拦截已经重新评审的新稿
+## Closed P2: a historical whole-manuscript pass incorrectly blocks a revised manuscript that has been reviewed again
 
-- 位置：`scripts/check_run.py:358–367`，直接触发点为第 364 行；相关测试位于 `tests/test_check_run.py:117–128`。
-- 规则对应：R14；`references/reconstruction-workflow.md:49,72` 要求主稿变化后失效旧评审、保留旧记录与稿件并重新复核。检查器第 359–360 行将 checks 明确解释为按时间追加的证据序列。
-- 触发条件：第一次主稿已有全篇 semantic/pass；修改主稿后保留旧 pass 及原哈希，追加一次匹配新稿哈希的新 full_manuscript/pass。
-- 实际行为：检查器对每一条历史 pass 都与当前主稿比较。最新评审虽有效，旧条目仍产生 `STALE_REVIEW`，最终退出 1。只有删除/移走旧条目或改写它才能避开，这与检查器自己的追加式历史解释不一致。
-- 必要修复：仅由**最新的全篇语义记录**决定当前稿能否完成；历史记录继续保留自身的哈希格式及证据文件检查，但不强求其哈希等于新稿。最新记录为 stale、fail 或 not_run 时仍必须拒绝 complete，不能让历史 pass 恢复效力。
-- 建议回归：旧 pass + 新稿 + 新 pass 应通过；旧 pass + 新稿 + 最新 stale/fail/not_run 应拒绝。单独旧稿 pass 不能为改动后的稿件放行。
+- Location: `scripts/check_run.py:358–367`, directly triggered at line 364; related tests are at `tests/test_check_run.py:117–128`.
+- Corresponding requirement: R14; `references/reconstruction-workflow.md:49,72` requires invalidating old reviews after manuscript changes, preserving old records and manuscripts, and reviewing again. Checker lines 359–360 explicitly describe checks as an evidence sequence appended over time.
+- Trigger: the initial manuscript has a full-manuscript semantic/pass; after modifying the manuscript, retain the old pass and its original hash, then append a new full_manuscript/pass matching the revised manuscript's hash.
+- Actual behavior: the checker compares every historical pass with the current manuscript. Although the latest review is valid, the old entry still produces `STALE_REVIEW` and exit code 1. Avoiding this requires deleting, relocating, or rewriting the old entry, contradicting the checker's own account of append-only history.
+- Required fix: only the **latest whole-manuscript semantic record** determines whether the current manuscript can be complete. Historical records still undergo checks of their own hash format and evidence files, but their hashes need not equal the new manuscript's hash. A latest stale, fail, or not_run record must still reject complete; a historical pass must not regain authority.
+- Suggested regression: old pass + revised manuscript + new pass should succeed; old pass + revised manuscript + latest stale/fail/not_run should fail. A pass for the old manuscript alone must not authorize the modified manuscript.
 
-### 定向复现
+### Targeted reproduction
 
-使用 `tests/test_check_run.py` 的合成 `build_fixture` 在系统临时目录生成文件，没有修改仓库夹具或真实运行。未重跑完整测试套件。
+Used the synthetic `build_fixture` in `tests/test_check_run.py` to generate files in a system temporary directory. Repository fixtures and real runs were not modified. The complete test suite was not rerun.
 
-1. 对原 complete 夹具调用 `validate_run`：退出码 **0**。
-2. 给 `lecture.md` 增加一段，保留 checks[0] 的原哈希。
-3. 新建非空 `review-v2.md`，追加 checks[1]，其 `output_sha256` 使用新稿实际 SHA-256。
-4. 再次调用 `validate_run`：退出码 **1**，唯一错误是 `STALE_REVIEW`，位置为 `checks[0].output_sha256`。
+1. Call `validate_run` on the original complete fixture: exit code **0**.
+2. Add a paragraph to `lecture.md`, retaining the original hash in checks[0].
+3. Create a nonempty `review-v2.md` and append checks[1], using the revised manuscript's actual SHA-256 as its `output_sha256`.
+4. Call `validate_run` again: exit code **1**; the sole error is `STALE_REVIEW` at `checks[0].output_sha256`.
 
-复现输出的关键值：
+Key values from the reproduction output:
 
 ```json
 {
@@ -36,46 +36,46 @@
 }
 ```
 
-发现时 `scripts/check_run.py` SHA-256：`265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5`。完整受审文件哈希已保存至本机外置审阅备份目录；不进入发布包。
+SHA-256 of `scripts/check_run.py` at discovery: `265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5`. Hashes of all reviewed files were saved to a local review backup outside the repository; they are not included in the publication package.
 
-### 修复后定向复核
+### Targeted post-fix verification
 
-主代理修改了检查器与回归测试。本审阅者重新读取 `scripts/check_run.py:345–375` 及 `tests/test_check_run.py:122–134`：检查器先确定最新 full_manuscript 记录的位置，仅该记录的 pass 绑定当前稿哈希；历史 pass 仍验证原哈希格式和证据文件。后续 fail/not_run 仍不能继承旧 pass。
+The lead agent modified the checker and regression tests. This reviewer reread `scripts/check_run.py:345–375` and `tests/test_check_run.py:122–134`: the checker first identifies the latest full_manuscript record and binds only that record's pass to the current manuscript hash. Historical passes still have their original hash format and evidence files checked. A subsequent fail/not_run still cannot inherit an old pass.
 
-本审阅者实际运行：
+This reviewer actually ran:
 
 ```sh
 python3 -B -m unittest discover -s tests -p 'test_check_run.py' -k historical -v
 ```
 
-结果：**1 个定向测试通过，退出码 0**。该用例同时覆盖“保留旧哈希 + 新稿新 pass 通过”以及“最新 stale/fail/not_run 拒绝”。未重复完整套件；主代理另行报告 40 项完整测试通过，本报告不将那次全套运行归为本审阅者执行。
+Result: **1 targeted test passed, exit code 0**. The case covers both 'retain old hash + new manuscript with a new pass succeeds' and 'latest stale/fail/not_run is rejected.' The complete suite was not repeated. The lead agent separately reported all 40 tests passing; this report does not attribute that full-suite execution to this reviewer.
 
-修复后检查器 SHA-256：`497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7`；测试文件 SHA-256：`d327c9e5613ce8f376545f1cede32959b90c8fb44f6b3ba87a38f245907a647e`。该问题关闭。
+Post-fix checker SHA-256: `497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7`; test-file SHA-256: `d327c9e5613ce8f376545f1cede32959b90c8fb44f6b3ba87a38f245907a647e`. The issue is closed.
 
-## 需求覆盖核对
+## Requirements coverage check
 
-| 要求 | 核对结果与实际承载位置 |
+| Requirement | Check result and actual implementation location |
 |---|---|
-| R01 自足运行 | SKILL 链接四份包内方法；没有兄弟仓库运行依赖。脚本仅使用 Python 标准库，README 明示 Python 3.10+。无写文件能力时的文本交付边界清楚。 |
-| R02–R04 输入、澄清、有限补充 | SKILL:12,21–22；重构流程:7–13,39；转录修复:7–22 明确非空可读输入、字幕保全、可选资料与核心歧义、有限查证和来源冲突归属。 |
-| R05–R06 主稿与附属材料 | SKILL:8,16,30；重构流程:25,43；教学设计:25,33 禁止用提纲或建议替代正文，要求例子分析、问题解析；notes 与内部记录不取代主稿。指定输出位置与 run 路径限制通过流程:78 的运行目录/副本规则衔接。 |
-| R07 完成状态 | 检查器对 complete 的阶段、非空输入/输出、全源区间、未决阻塞、章节状态、映射锚点、当前全篇语义证据和 resume.remaining 均有明确约束。发现的问题是历史评审导致误拒绝，而不是凭空授予 complete。 |
-| R08 内容覆盖 | 重构流程:11–13,27–37,45；检查器:186–205,241–295 支持完整源区间记录、五类去向、定位、合并无环、映射互相对应；语义漏项仍由重读原材料发现。 |
-| R09 转录修复 | 转录修复模块区分恢复输入与后续重构授权，保留原稿、上下文依据、实体一致性及关键歧义；没有音频不声称听过。 |
-| R10 教学重构 | 教学设计明确学习对象、关系、先修、整体任务、变化/不变、完整示范及适用边界；schema/检查器具有相应章计划字段。 |
-| R11–R12 法学与来源 | 法学推理明确前提/推论分工、来源身份、涵摄桥梁、反驳和独立理由；历史法语境及 Hohfeld/Toulmin 的限制保留，未引入排除的法律来源依赖。 |
-| R13–R14 长文与恢复 | 全课规划、按意义分章、章间检查、落盘顺序、原子替换、输入/runtime 改变后的影响分析及无法判定时重审全课均已写明；检查器检测实际哈希改变。R14 的历史评审续接 P2 已修复并定向复核关闭。 |
-| R15 材料中的指令 | SKILL:26 明确材料命令、角色及旧授权不改变任务，也不授予发送、安装或发布权限。 |
+| R01 Self-contained operation | SKILL links four methods inside the package, with no runtime dependency on sibling repositories. Scripts use only the Python standard library, and README specifies Python 3.10+. The text-delivery boundary for hosts without file-writing capabilities is clear. |
+| R02–R04 Inputs, clarification, and bounded supplementation | SKILL:12,21–22; reconstruction workflow:7–13,39; transcript repair:7–22 specify nonempty readable input, subtitle preservation, optional materials and core ambiguity, bounded verification, and attribution of source conflicts. |
+| R05–R06 Main manuscript and supporting materials | SKILL:8,16,30; reconstruction workflow:25,43; teaching design:25,33 prohibit replacing prose with outlines or advice and require analysis of examples and explanations of questions. Notes and internal records do not replace the manuscript. The run-directory/copy rule in workflow:78 reconciles the specified output location with run-path restrictions. |
+| R07 Completion state | The checker explicitly constrains complete status through the stage, nonempty inputs/output, full source-range coverage, unresolved blocking items, chapter states, mapping anchors, current full-manuscript semantic evidence, and resume.remaining. The identified problem was false rejection caused by historical reviews, not unsupported granting of complete status. |
+| R08 Content coverage | Reconstruction workflow:11–13,27–37,45 and checker:186–205,241–295 support complete source-range records, five dispositions, locators, acyclic merges, and consistent mappings. Semantic omissions still require rereading the original materials. |
+| R09 Transcript repair | The repair module distinguishes restoring input from authorization for subsequent reconstruction, preserves originals, contextual grounds, entity consistency, and consequential ambiguity, and forbids claiming to have listened without audio. |
+| R10 Teaching reconstruction | Teaching design specifies learning objects, relationships, prerequisites, whole tasks, variation/invariance, complete demonstrations, and applicability limits. The schema/checker provides corresponding chapter-plan fields. |
+| R11–R12 Legal reasoning and sources | Legal reasoning separates premises from inference, and specifies source identity, bridges applying rules to facts, rebuttals, and independent reasons. Historical-law context and Hohfeld/Toulmin limitations are preserved; no excluded legal-source dependency is introduced. |
+| R13–R14 Long manuscripts and recovery | Whole-course planning, division by meaning, cross-chapter checks, save order, atomic replacement, impact analysis after input/runtime changes, and re-review of the whole course when impact is unclear are explicit. The checker detects actual hash changes. R14's P2 concerning continuation with historical reviews has been repaired and closed after targeted verification. |
+| R15 Instructions in materials | SKILL:26 explicitly states that commands, roles, and earlier authorizations in materials do not change the task or authorize sending messages, installation, or publication. |
 
-## 许可、来源与检查边界
+## Licensing, sources, and verification boundaries
 
-- LICENSE 保留 Ariel Lee 的 MIT 版权与完整许可；NOTICE 区分上游方法、项目新增流程以及第三方书籍/课堂材料的权利边界。四类上游角色未被合并成完整运行人设。
-- 来源 manifest 使用仓库相对身份、实际文件哈希、上游 HEAD、工作树状态、选用章节、目的地及改编理由；本轮没有重新读取上游或原书，不能把本次审阅当作原书独立核验。
-- 运行说明未发现本机绝对路径或兄弟仓库依赖；测试内的 `/Users/example/` 是明确的故障夹具。`.work/`、私有本机清单和私人运行有忽略规则。未发现把资料中的命令视为本轮授权的要求。
-- schema 是格式说明，两个脚本均明确有限检查范围。脚本检查记录中的声明和文件一致性，不能证明参考资料确实被宿主阅读、法律结论正确、所有实质意义已经覆盖或学习效果已发生；这些属于已明示的能力边界，不另报缺陷。
-- 两轮常规修订上限属于宿主执行要求；检查器只验证 revision_round 为非负整数。规格并未把轮数上限列为必须由检查器拦截的有限约束，本次不将这一差异升级为独立阻断项。
-- 本次未复跑完整单元测试、未进行课堂效果评估、未重审巨大历史运行，未对在途 A08 或尚待更新的 validation 字段作失败判定。
+- LICENSE preserves Ariel Lee's MIT copyright and complete license. NOTICE distinguishes upstream methods, this project's new workflow, and the rights boundaries for third-party books/classroom materials. The four upstream roles were not merged into a complete runtime persona.
+- The source manifest records repository-relative identities, actual file hashes, upstream HEAD, worktree state, selected sections, destinations, and adaptation reasons. This round did not reread upstream sources or original books; the review must not be represented as independent verification of the books.
+- No local absolute paths or sibling-repository dependencies were found in runtime instructions; `/Users/example/` inside tests is an explicit fault fixture. Ignore rules cover `.work/`, private local inventories, and private runs. No instruction was found treating commands in source materials as authorization for this round.
+- The schema describes the format, and both scripts explicitly bound their checks. They check recorded claims and file consistency; they cannot establish that the host actually read references, that legal conclusions are correct, that all substantive meaning is covered, or that learning outcomes occurred. These are stated capability limits, not additional defects.
+- The limit of two routine revision rounds is a host-execution requirement; the checker verifies only that revision_round is a nonnegative integer. The specification does not list enforcement of the upper limit among the checker's required bounded constraints, so this difference is not escalated to a separate blocking issue.
+- This review did not rerun the full unit suite, evaluate classroom effectiveness, or re-review the extensive historical runs. It did not mark the ongoing A08 work or validation fields awaiting updates as failures.
 
-## 交接
+## Handoff
 
-主代理已按上述方向修复检查器并补充回归，本审阅者完成了定向复核。本审阅者仅新增及更新本报告，未改动运行核心、脚本、测试或上游。完整机械检查及最终行为验收状态由主代理另行记录；发现时证据和修复后证据保持区分。
+The lead agent repaired the checker and added regression coverage as described above, and this reviewer completed targeted verification. This reviewer only created and updated this report, without changing the runtime core, scripts, tests, or upstream sources. The lead agent records full mechanical checks and final behavior-acceptance status separately. Discovery evidence and post-fix evidence remain distinct.

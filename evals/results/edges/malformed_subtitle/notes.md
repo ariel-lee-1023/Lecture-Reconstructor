@@ -1,1 +1,1 @@
-读取了完整字幕文本，包括末尾没有编号的一行。首条时间先后倒置，第二条起点不可解析，编号7重复且一处缺时间码。原文件已保留；内容按原文本行追踪，没有猜测或修造真实时间戳。损坏的是时间定位，注册与预约条件的可读文字仍可用于本稿。
+The entire subtitle text was read, including the final unnumbered line. The first cue's times are reversed, the second cue's start is unparseable, cue number 7 is repeated, and one timecode is missing. The original file is retained; content is traced by original text lines, without guessing or fabricating accurate timestamps. Temporal locations are damaged, but the readable text about registration and reservation conditions can still support this manuscript.

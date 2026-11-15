@@ -4,15 +4,15 @@
   "status": "complete",
   "stage": "deliver",
   "course": {
-    "title": "安澜学习社的“有权”：许可、请求与关系变动",
-    "scope": "完整重构给定合成转录；仅使用安澜学习社四项练习规则和原例。",
-    "jurisdiction": "不适用：合成学习社练习规则，不对应现行法",
-    "time_context": "unknown；只有规则内部相对时间",
-    "audience": "大学课程读者；无具体学习者数据",
+    "title": "Having a 'right' in the Calmwater Study Society: permission, claims, and changes in relationships",
+    "scope": "Fully reconstruct the supplied synthetic transcript using only the Calmwater Study Society's four exercise rules and original examples.",
+    "jurisdiction": "Not applicable: synthetic study-society exercise rules, not current law",
+    "time_context": "unknown; only relative times internal to the rules",
+    "audience": "University-course readers; no specific learner data",
     "assumptions": [
-      "不补充外部实体法。",
-      "己的17:50与前述预约开始前一日的截止时间在同一语境中。",
-      "为解释规则四新增14:00至16:00时段假设，正文明确标识。"
+      "Do not add external substantive law.",
+      "F's 17:50 occurs in the same context as the preceding deadline on the day before the reservation starts.",
+      "An added 14:00–16:00 hypothetical explains Rule 4 and is explicitly identified in the manuscript."
     ]
   },
   "inputs": [
@@ -36,18 +36,18 @@
   "content_units": [
     {
       "id": "u01",
-      "proposition": "合成材料身份与封闭规则范围",
+      "proposition": "Synthetic material identity and the scope of the closed rule set",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 1,
           "end_line": 2,
-          "excerpt": "【合成课堂转录；全部人物、机构、规则和事例均为测试创作，不对应现行法或真实课堂。没有配套教材、音频或学习者数据。】"
+          "excerpt": "[Synthetic classroom transcript; all people, institutions, rules, and examples were created for testing and do not represent current law or a real class. No accompanying textbook, audio, or learner data is available.]"
         }
       ],
       "type": "scope",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "permission",
@@ -60,18 +60,18 @@
     },
     {
       "id": "u02",
-      "proposition": "注册成员有进入许可，但不保证空位或他人搬离",
+      "proposition": "Registered members have permission to enter, without a guarantee of available seats or others moving away",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 3,
           "end_line": 3,
-          "excerpt": "规则一：注册成员可以进入公共阅览区；这里的“可以”只表示社内没有禁止成员进入，不保证空位，也不要求别人搬走。"
+          "excerpt": "Rule One: Registered members may enter the common reading area. Here, 'may' means only that the Society does not prohibit members from entering; it guarantees neither a vacant seat nor that anyone else must move."
         }
       ],
       "type": "rule",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "permission",
@@ -84,18 +84,18 @@
     },
     {
       "id": "u03",
-      "proposition": "许可指自己没有不进入义务，保留教师自我修正",
+      "proposition": "Permission means the person's own absence of a duty not to enter; retain the teacher's self-correction",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 6,
           "end_line": 6,
-          "excerpt": "先记下义务对应请求，许可与没有义务，哎不是说别人没有义务，就是自己没有不进入的义务。我们回头再解释。"
+          "excerpt": "For now, note that a duty corresponds to a claim, while permission corresponds to absence of a duty—no, I do not mean that other people have no duties, but that you have no duty not to enter. We will explain this later."
         }
       ],
       "type": "clarification",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "permission",
@@ -108,18 +108,18 @@
     },
     {
       "id": "u04",
-      "proposition": "甲不能仅凭成员身份要求乙让座，须说清欠缺的权利种类",
+      "proposition": "A cannot demand that B yield merely on the basis of membership; identify precisely which type of right is missing",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 7,
           "end_line": 7,
-          "excerpt": "甲今天上午到阅览区，没预约，见乙坐着，说我也是成员，所以你得让座。成员可以进入，乙也是成员，规则一没给甲这个结论。别只在答案里写“甲没有权”，要说清缺的是哪一种"
+          "excerpt": "A comes to the reading area this morning without a reservation, sees B seated, and says: I am a member too, so you must yield. Members may enter, and B is also a member; Rule 1 does not give A that conclusion. Do not answer only 'A has no right'; explain which kind is missing"
         }
       ],
       "type": "case",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "permission",
@@ -132,18 +132,18 @@
     },
     {
       "id": "u05",
-      "proposition": "规则二的主体、标准座位、两小时、请求和提供义务",
+      "proposition": "Rule 2's parties, standard seat, two-hour period, claim, and duty of provision",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 4,
           "end_line": 4,
-          "excerpt": "规则二：成员取得系统的预约确认后，在确认写明的两小时内可以要求管理人提供一个标准座位，管理人负有提供座位的义务；确认从成功回执发出时成立，不是从点击预约键时成立"
+          "excerpt": "Rule 2: after obtaining the system's reservation confirmation, a member may require the manager to provide a standard seat during the two hours specified, and the manager owes a duty to provide it. Confirmation is established when the success receipt is issued, not when the reservation button is clicked"
         }
       ],
       "type": "rule",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "reservation",
@@ -156,18 +156,18 @@
     },
     {
       "id": "u06",
-      "proposition": "确认从成功回执发出成立，不能以点击预约键代替",
+      "proposition": "Confirmation is established when the success receipt is issued; clicking the reservation button cannot substitute for it",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 4,
           "end_line": 4,
-          "excerpt": "规则二：成员取得系统的预约确认后，在确认写明的两小时内可以要求管理人提供一个标准座位，管理人负有提供座位的义务；确认从成功回执发出时成立，不是从点击预约键时成立"
+          "excerpt": "Rule 2: after obtaining the system's reservation confirmation, a member may require the manager to provide a standard seat during the two hours specified, and the manager owes a duty to provide it. Confirmation is established when the success receipt is issued, not when the reservation button is clicked"
         }
       ],
       "type": "condition",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "reservation",
@@ -180,18 +180,18 @@
     },
     {
       "id": "u07",
-      "proposition": "丙仅有申请已接收，处理速度预期不能补成预约确认",
+      "proposition": "C has only 'application received'; an expectation of processing speed cannot supply reservation confirmation",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 8,
           "end_line": 8,
-          "excerpt": "刚才讲预约之前，还有个很小的事：丙只收到“申请已接收”，没收到“预约确认”。虽然工作人员说系统一般很快，丙还不能据此要求标准座位。这与丙有没有进入许可是两回事。"
+          "excerpt": "Before the discussion of reservations, there was another small point: C received only 'application received,' not 'reservation confirmed.' Although staff say the system is usually quick, C cannot yet demand a standard seat on that basis. This is separate from whether C has permission to enter."
         }
       ],
       "type": "small_case",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "reservation",
@@ -204,18 +204,18 @@
     },
     {
       "id": "u08",
-      "proposition": "丁的有效确认与成员许可并存；无险情的满座不能抹去义务",
+      "proposition": "D's valid confirmation coexists with membership permission; full occupancy without an emergency does not eliminate the duty",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 10,
           "end_line": 10,
-          "excerpt": "丁拿着确认来，座位满了，但不存在险情。管理员说“每个人都有进入自由，所以我不用给你安排”。这个理由不成立。注册资格与确认产生的关系可以同时存在，不能拿前者消去后"
+          "excerpt": "D arrives with confirmation; seats are full, but there is no emergency. The administrator says, 'Everyone is free to enter, so I do not have to arrange a seat for you.' That reason fails. Membership and the relationship created by confirmation can coexist; the former cannot eliminate the latter"
         }
       ],
       "type": "case",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "reservation",
@@ -228,18 +228,18 @@
     },
     {
       "id": "u09",
-      "proposition": "学生反驳及教师回应：许可不自动要求配合",
+      "proposition": "Student objection and teacher response: permission does not automatically require cooperation",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 11,
           "end_line": 11,
-          "excerpt": "学生问：大家都有进入许可，那我的进入不是总能迫使别人让开吗？老师：你把自己不受禁止，与别人必须配合混在一起了。规则里没给别人让位义务。入口被物品堵住是否另有义务"
+          "excerpt": "Student: If everyone has permission to enter, does my entry not always force others to make way? Teacher: You confuse being free from a prohibition with requiring others to cooperate. The rules impose no duty to yield. Whether objects blocking the entrance create a separate duty"
         }
       ],
       "type": "substantive_objection",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "objection",
@@ -252,18 +252,18 @@
     },
     {
       "id": "u10",
-      "proposition": "入口堵塞是否另有义务缺材料，不扩展结论",
+      "proposition": "The materials do not establish whether a blocked entrance gives rise to another duty; do not extend the conclusion",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 11,
           "end_line": 11,
-          "excerpt": "学生问：大家都有进入许可，那我的进入不是总能迫使别人让开吗？老师：你把自己不受禁止，与别人必须配合混在一起了。规则里没给别人让位义务。入口被物品堵住是否另有义务"
+          "excerpt": "Student: If everyone has permission to enter, does my entry not always force others to make way? Teacher: You confuse being free from a prohibition with requiring others to cooperate. The rules impose no duty to yield. Whether objects blocking the entrance create a separate duty"
         }
       ],
       "type": "scope_limit",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "objection",
@@ -276,18 +276,18 @@
     },
     {
       "id": "u11",
-      "proposition": "借充电线许可不含优先请求，不移植到仅承诺座位的规则二",
+      "proposition": "Permission to borrow a charging cable does not include a priority claim and must not be imported into Rule 2, which promises only a seat",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 12,
           "end_line": 12,
-          "excerpt": "顺便，充电线可以借用只是教学中的口头例子，没有给借线者对他人的优先请求；这一点也能看出许可和请求的差别。这个小例子不要带到规则二中去，规则二只承诺座位。"
+          "excerpt": "Incidentally, permission to borrow a charging cable is only an oral teaching example. It gives the borrower no priority claim against anyone else, and also illustrates the difference between permission and a claim. Do not import this small example into Rule Two, which promises only a seat."
         }
       ],
       "type": "small_example",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "objection",
@@ -300,18 +300,18 @@
     },
     {
       "id": "u12",
-      "proposition": "有效撤销的期限、到达条件及双方关系消灭",
+      "proposition": "Valid cancellation's deadline, receipt condition, and termination of both sides of the relationship",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 5,
           "end_line": 5,
-          "excerpt": "规则三：预约人可在开始前一日18点之前撤销预约。撤销通知到达系统后，规则二的双方关系消灭。超过18点，单方撤销不产生这个效果；双方仍可另行协商。"
+          "excerpt": "Rule Three: The person who reserved may cancel before 18:00 on the day before the reservation begins. Once the cancellation notice reaches the system, both parties' relationship under Rule Two ends. After 18:00, unilateral cancellation does not have that effect, although the parties may still negotiate separately."
         }
       ],
       "type": "rule",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "cancellation",
@@ -324,18 +324,18 @@
     },
     {
       "id": "u13",
-      "proposition": "超期单方撤销无效于关系消灭，但保留另行协商",
+      "proposition": "Late unilateral cancellation does not terminate the relationship, while separate negotiation remains possible",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 5,
           "end_line": 5,
-          "excerpt": "规则三：预约人可在开始前一日18点之前撤销预约。撤销通知到达系统后，规则二的双方关系消灭。超过18点，单方撤销不产生这个效果；双方仍可另行协商。"
+          "excerpt": "Rule Three: The person who reserved may cancel before 18:00 on the day before the reservation begins. Once the cancellation notice reaches the system, both parties' relationship under Rule Two ends. After 18:00, unilateral cancellation does not have that effect, although the parties may still negotiate separately."
         }
       ],
       "type": "alternative_route",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "cancellation",
@@ -348,18 +348,18 @@
     },
     {
       "id": "u14",
-      "proposition": "戊发出及时却到达逾期；己及时到达，结果不同",
+      "proposition": "E sends in time but arrives late; F arrives in time, producing a different outcome",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 13,
           "end_line": 13,
-          "excerpt": "撤销是另一层：戊提前一天17:50发出，18:05才到达系统，不合条件。己17:50到达系统，关系随之消灭。改变的是对座位的请求和提供义务，不是成员身份与进入许"
+          "excerpt": "Cancellation is another layer: E sends at 17:50 the preceding day, but the system receives the notice only at 18:05, failing the conditions. F's notice reaches the system at 17:50, terminating the relationship. What changes is the seat claim and duty of provision, not membership or permission to enter"
         }
       ],
       "type": "contrast_case",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "cancellation",
@@ -372,18 +372,18 @@
     },
     {
       "id": "u15",
-      "proposition": "撤销不改变成员身份和进入许可",
+      "proposition": "Cancellation does not change membership or permission to enter",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 13,
           "end_line": 13,
-          "excerpt": "撤销是另一层：戊提前一天17:50发出，18:05才到达系统，不合条件。己17:50到达系统，关系随之消灭。改变的是对座位的请求和提供义务，不是成员身份与进入许"
+          "excerpt": "Cancellation is another layer: E sends at 17:50 the preceding day, but the system receives the notice only at 18:05, failing the conditions. F's notice reaches the system at 17:50, terminating the relationship. What changes is the seat claim and duty of provision, not membership or permission to enter"
         }
       ],
       "type": "scope_limit",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "cancellation",
@@ -396,18 +396,18 @@
     },
     {
       "id": "u16",
-      "proposition": "即时安全险情必须封闭的暂停例外及积分退还",
+      "proposition": "The suspension exception for closure required by an immediate safety emergency, and the points refund",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 9,
           "end_line": 9,
-          "excerpt": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不"
+          "excerpt": "Rule 4 is an exception: when an immediate safety emergency requires closing the premises, the administrator may suspend Rule 2's seat-provision duty and must refund the corresponding reservation points. Whether the remaining period resumes after closure depends on whether the confirmed two hours have expired; no"
         }
       ],
       "type": "exception",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "exception",
@@ -420,18 +420,18 @@
     },
     {
       "id": "u17",
-      "proposition": "解除封闭后只恢复未届满的剩余时段，不另加时",
+      "proposition": "After reopening, restore only the unexpired remainder; do not add time",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 9,
           "end_line": 9,
-          "excerpt": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不"
+          "excerpt": "Rule 4 is an exception: when an immediate safety emergency requires closing the premises, the administrator may suspend Rule 2's seat-provision duty and must refund the corresponding reservation points. Whether the remaining period resumes after closure depends on whether the confirmed two hours have expired; no"
         }
       ],
       "type": "time_condition",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "exception",
@@ -444,18 +444,18 @@
     },
     {
       "id": "u18",
-      "proposition": "新增时段假设解释原规则的剩余时段，不新增实体规则",
+      "proposition": "The added timing hypothetical explains the original rule's remaining period without adding a substantive rule",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 9,
           "end_line": 9,
-          "excerpt": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不"
+          "excerpt": "Rule 4 is an exception: when an immediate safety emergency requires closing the premises, the administrator may suspend Rule 2's seat-provision duty and must refund the corresponding reservation points. Whether the remaining period resumes after closure depends on whether the confirmed two hours have expired; no"
         }
       ],
       "type": "added_explanation",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "exception",
@@ -468,18 +468,18 @@
     },
     {
       "id": "u19",
-      "proposition": "教师考试提示：双方、行为、种类、条件，不以背术语多少计分",
+      "proposition": "Teacher's examination advice: parties, conduct, type, and conditions; marks are not based on the number of terms recited",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 14,
           "end_line": 14,
-          "excerpt": "本课考试提示只代表本课教师的安排：题目如果问“有权吗”，先写双方是谁、针对什么行为、是进入许可还是请求座位或撤销关系，再写成立条件，不以背下术语多少计分。"
+          "excerpt": "This examination advice reflects only this teacher's arrangements: If a question asks 'Is there a right?', first identify both parties, the conduct concerned, and whether the issue is permission to enter, a claim to a seat, or cancellation of the relationship. Then state the conditions under which it arises. Scores do not depend on how many terms you memorize."
         }
       ],
       "type": "exam_hint",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "synthesis",
@@ -492,18 +492,18 @@
     },
     {
       "id": "u20",
-      "proposition": "满座下甲丁对照：义务成立条件而非需求强弱，另查安全例外",
+      "proposition": "Compare A and D under full occupancy: conditions establishing the duty, not degree of need; check the safety exception separately",
       "locations": [
         {
           "input_id": "transcript",
           "start_line": 15,
           "end_line": 15,
-          "excerpt": "好，最后回到甲和丁。面对同一间满座的阅览室，一个只凭成员资格，一个取得有效确认，差别不在谁更需要座位，而在产生他人义务的条件是否具备。安全险情的例外还要另查，不"
+          "excerpt": "Finally, return to A and D. In the same full reading room, one relies only on membership, while the other has valid confirmation. The difference is not who needs a seat more, but whether the conditions creating another person's duty are met. The safety-emergency exception still requires separate checking; not"
         }
       ],
       "type": "synthesis",
       "status": "represented",
-      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "reason": "The original propositions, conditions, and examples are explained in the relevant sections; additions only elaborate the supplied premises.",
       "targets": [
         {
           "chapter_id": "synthesis",
@@ -519,8 +519,8 @@
     {
       "id": "transcript-source",
       "uri": "input/transcript.txt",
-      "version": "输入快照 SHA-256 8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620",
-      "locator": "1–15行",
+      "version": "Input snapshot SHA-256 8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620",
+      "locator": "Lines 1–15",
       "read_status": "read"
     }
   ],
@@ -530,13 +530,13 @@
       "path": "lecture.md",
       "anchor": "ch-permission",
       "status": "assembled",
-      "learning_object": "区分进入许可与要求他人让座的请求",
+      "learning_object": "Distinguish permission to enter from a claim that another person yield a seat",
       "relations": [
-        "自己没有不进入义务不推出他人有让座义务"
+        "Having no duty not to enter does not imply that others have a duty to yield"
       ],
       "prerequisites": [],
-      "approach": "用规则一、教师自我修正和甲乙事例解释关系",
-      "role": "提出全课问题并建立概念起点",
+      "approach": "Explain the relationship through Rule 1, the teacher's self-correction, and the A/B example",
+      "role": "Introduce the course's central question and establish its conceptual starting point",
       "content_unit_ids": [
         "u01",
         "u02",
@@ -549,16 +549,16 @@
       "path": "lecture.md",
       "anchor": "ch-reservation",
       "status": "assembled",
-      "learning_object": "理解预约确认成立并产生请求与义务的条件",
+      "learning_object": "Understand the conditions that establish reservation confirmation and create a claim and duty",
       "relations": [
-        "确认与许可可以并存",
-        "接收申请和点击预约不等于确认"
+        "Confirmation and permission can coexist",
+        "Receipt of an application and clicking the reservation button are not confirmation"
       ],
       "prerequisites": [
-        "进入许可"
+        "Permission to enter"
       ],
-      "approach": "以丙和丁对照展示条件、相对人及行为",
-      "role": "建立通常的座位请求关系",
+      "approach": "Contrast C and D to show the conditions, counterpart, and conduct",
+      "role": "Establish the ordinary seat-claim relationship",
       "content_unit_ids": [
         "u05",
         "u06",
@@ -571,16 +571,16 @@
       "path": "lecture.md",
       "anchor": "ch-objection",
       "status": "assembled",
-      "learning_object": "回应配合义务的推论并保留材料边界",
+      "learning_object": "Answer the inference about a duty to cooperate while preserving the materials' boundary",
       "relations": [
-        "许可不自动创设配合义务",
-        "缺少某规则依据不证明其他关系均不存在"
+        "Permission does not automatically create a duty to cooperate",
+        "Lack of support under one rule does not prove that all other relationships are absent"
       ],
       "prerequisites": [
-        "许可与请求"
+        "Permission and claims"
       ],
-      "approach": "承接真实合成转录中的学生反驳，分析入口和充电线",
-      "role": "防止概念区分被扩成无依据结论",
+      "approach": "Take up the student objection actually present in the synthetic transcript and analyze the entrance and charging-cable examples",
+      "role": "Prevent a conceptual distinction from expanding into an unsupported conclusion",
       "content_unit_ids": [
         "u09",
         "u10",
@@ -592,16 +592,16 @@
       "path": "lecture.md",
       "anchor": "ch-cancellation",
       "status": "assembled",
-      "learning_object": "按到达时间判断关系是否消灭",
+      "learning_object": "Determine whether the relationship ends by the time of receipt",
       "relations": [
-        "通知有效到达改变预约关系而非成员身份",
-        "超期单方行为与另行协商是不同路径"
+        "Valid receipt of notice changes the reservation relationship, not membership",
+        "A late unilateral act and separate negotiation are different routes"
       ],
       "prerequisites": [
-        "预约请求和提供义务"
+        "Reservation claim and duty of provision"
       ],
-      "approach": "对照戊己发出、到达时点和效果",
-      "role": "展示通过有效行为改变关系",
+      "approach": "Compare E and F's sending times, receipt times, and effects",
+      "role": "Show how a valid act changes a relationship",
       "content_unit_ids": [
         "u12",
         "u13",
@@ -614,16 +614,16 @@
       "path": "lecture.md",
       "anchor": "ch-exception",
       "status": "assembled",
-      "learning_object": "把安全暂停、积分和剩余时段纳入判断",
+      "learning_object": "Include safety suspension, points, and the remaining period in the assessment",
       "relations": [
-        "即时险情且必须封闭允许暂停",
-        "封闭结束时段未届满才有剩余时段可恢复"
+        "An immediate emergency requiring closure permits suspension",
+        "A remainder can resume only if the period has not expired when closure ends"
       ],
       "prerequisites": [
-        "确认和撤销"
+        "Confirmation and cancellation"
       ],
-      "approach": "解释复合条件，以明确标示的新增时间假设完整示范",
-      "role": "限制通常结论并避免自动延时",
+      "approach": "Explain the combined conditions through a complete demonstration using an explicitly identified added timing hypothetical",
+      "role": "Limit the ordinary conclusion and prevent automatic extensions",
       "content_unit_ids": [
         "u16",
         "u17",
@@ -635,15 +635,15 @@
       "path": "lecture.md",
       "anchor": "ch-synthesis",
       "status": "assembled",
-      "learning_object": "完整回答权利种类、对象和成立条件",
+      "learning_object": "Answer completely by identifying the type of right, its object, and its conditions of establishment",
       "relations": [
-        "相同满座事实下不同关系来自不同条件"
+        "Under the same full-occupancy facts, different relationships arise from different conditions"
       ],
       "prerequisites": [
-        "许可、请求、撤销和安全例外"
+        "Permission, claims, cancellation, and the safety exception"
       ],
-      "approach": "完整示范甲丁戊己答案，保留本课考试提示归属",
-      "role": "兑现全课学习对象",
+      "approach": "Give complete model answers for A, D, E, and F while retaining attribution of this course's examination advice",
+      "role": "Fulfill the course's overall object of learning",
       "content_unit_ids": [
         "u19",
         "u20"
@@ -652,24 +652,24 @@
   ],
   "terms": [
     {
-      "term": "进入许可",
-      "decision": "指成员没有不进入公共阅览区的义务；不表述为笼统的他人无义务。"
+      "term": "Permission to enter",
+      "decision": "Means a member has no duty not to enter the public reading area; do not express this as a general absence of duties on others."
     },
     {
-      "term": "座位请求",
-      "decision": "指规则二下向管理人请求在确认的两小时内提供一个标准座位。"
+      "term": "Seat claim",
+      "decision": "Means a claim under Rule 2 against the manager for one standard seat during the two confirmed hours."
     },
     {
-      "term": "预约确认",
-      "decision": "依原课从成功回执发出时成立；不与点击预约或申请已接收等同。"
+      "term": "Reservation confirmation",
+      "decision": "Under the original lecture, it is established when the success receipt is issued; it is not equivalent to clicking to reserve or to 'application received.'"
     },
     {
-      "term": "撤销",
-      "decision": "指规则三条件下消灭预约请求与提供义务；不消灭成员身份和进入许可。"
+      "term": "Cancellation",
+      "decision": "Means termination of the reservation claim and duty of provision under Rule 3's conditions; membership and permission to enter do not end."
     },
     {
-      "term": "管理人／管理员",
-      "decision": "保留原课两种用词，均按对应规则中的管理方叙述；不据此增设职务权限差异。"
+      "term": "Manager / administrator",
+      "decision": "Retain both terms from the original class, treating each as the managing party under the corresponding rule; do not infer additional differences in occupational authority."
     }
   ],
   "open_issues": [],
@@ -719,7 +719,7 @@
       "kind": "semantic",
       "scope": "full_manuscript",
       "status": "pass",
-      "method": "同一写作者再次直接读取原输入全文和全部正文对照，保存逐项证据；非独立评审。",
+      "method": "The same writer reread the entire original input and all manuscript prose for direct comparison and saved item-level evidence; this was not independent review.",
       "evidence": "semantic-review.md",
       "date": "2026-11-15T02:18:19.383907+00:00",
       "output_sha256": "7f1e76ed0469f9e8db2f5278e5c01dd2eedc56654d6add8d6d9fd65d973f59d0"
@@ -729,7 +729,7 @@
       "kind": "mechanical",
       "scope": "run_record",
       "status": "pass",
-      "method": "执行隔离包 scripts/check_run.py；exit code 0，仅有限结构检查。",
+      "method": "Executed the isolated package's scripts/check_run.py; exit code 0, limited structural checks only.",
       "evidence": "mechanical-check.txt",
       "date": "2026-11-15T02:18:19.421501+00:00"
     },
@@ -738,7 +738,7 @@
       "kind": "semantic",
       "scope": "full_manuscript",
       "status": "pass",
-      "method": "新上下文生成后由另一评审对照原文与完整输出；读取白名单检查",
+      "method": "After generation in a fresh context, another reviewer compared the original with the complete output; reading-allowlist check",
       "evidence": "independent-review.md",
       "date": "2026-11-15",
       "output_sha256": "7f1e76ed0469f9e8db2f5278e5c01dd2eedc56654d6add8d6d9fd65d973f59d0"
@@ -750,23 +750,32 @@
   },
   "resume": {
     "completed": [
-      "全部15行原输入读取",
-      "20项内容映射",
-      "6节完整正文",
-      "全稿直接对照及1轮措辞修订",
-      "全篇语义自查",
-      "check_run.py 有限结构检查通过"
+      "All 15 lines of original input read",
+      "20 mapped content items",
+      "6 complete prose sections",
+      "Direct comparison of the whole manuscript and 1 wording-revision round",
+      "Whole-manuscript semantic self-review",
+      "check_run.py passed its limited structural checks"
     ],
     "remaining": [],
-    "next_action": "交付完整讲稿；独立评审由后续人员另行执行。"
+    "next_action": "Deliver the complete manuscript; subsequent personnel will perform independent review separately."
   },
   "execution": {
     "started_at_utc": "2026-11-15T02:11:48.749316+00:00",
     "ended_at_utc": "2026-11-15T02:18:19.421509+00:00",
-    "read_scope": "仅指定隔离包运行核心、references、schema、checker及指定输入；之后复核本次生成文件。",
-    "isolation_claim": "遵守指定读取范围；不声称操作系统级沙箱。",
-    "independent_review": "not_run；由后续独立评审执行。",
+    "read_scope": "Only the specified isolated package's runtime core, references, schema, checker, and specified input; subsequently reviewed files generated in this run.",
+    "isolation_claim": "Complied with the specified reading scope; no claim of an operating-system sandbox.",
+    "independent_review": "not_run; to be performed by a subsequent independent reviewer.",
     "classroom_trial": "not_run",
     "learning_effect": "not_run"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/isolated/run-before-checker-history-fix.json",
+    "original_sha256": "93f6a06e5c587434590004232365886257155ce98f2143a3c680bc37a652bcca",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/isolated/run-before-checker-history-fix.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

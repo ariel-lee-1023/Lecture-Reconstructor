@@ -1,7 +1,7 @@
 {
   "status": "pass",
   "scope": "package_structure_and_source_registration",
-  "limitation": "仅检查包结构、有限路径及来源登记；哈希是内容身份记录，不证明来源正确性、教学质量或学习效果。",
+  "limitation": "Checks only package structure, bounded paths, and source registration; hashes record content identity, not source correctness, teaching quality, or learning outcomes.",
   "errors": [],
   "exit_code": 0
 }

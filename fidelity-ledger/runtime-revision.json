@@ -27,14 +27,14 @@
     },
     {
       "path": "scripts/check_run.py",
-      "sha256": "497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7"
+      "sha256": "225b0fd86c00c822c54876074e3bf4161a2dba5fd1e09e409b2af2f12317ca9a"
     },
     {
       "path": "scripts/validate_repo.py",
-      "sha256": "0ab2c6b9c0c6b6fbd773b8edbec5cb7f1ebca8c7daa8743c8a7c9ddd6a7689d2"
+      "sha256": "0e607db5d10083d5461cd1c96b7f09eace236cc1efac770578d79e2be9929e2e"
     }
   ],
-  "meaning": "Current runtime after English translation of the core and four method references; manuscript language selection is unchanged, and historical behavioral evidence retains its original hashes.",
-  "revision": "english-runtime-course-language-default",
-  "previous_revision": "fidelity-ledger/runtime-revision.pre-english-core.json"
+  "meaning": "Current English runtime with translated checker messages. The five instruction files and manuscript language policy are unchanged from the preceding English-runtime revision; historical run hashes remain source identities.",
+  "revision": "repository-english-complete",
+  "previous_revision": "fidelity-ledger/runtime-revision.pre-repository-english.json"
 }

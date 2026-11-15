@@ -7,7 +7,7 @@
     "settings": "unknown"
   },
   "date": "2026-11-15",
-  "method": "实际重新读取全部原始输入和落盘主稿，逐行对照并检查章间关系、否定、条件、例外、来源身份及新增解释；首次合并输出被截断后重读concept/case完整原文与主稿。concept修正后再次完整读取落盘稿。",
+  "method": "Actually reread every original input and saved main manuscript, comparing line by line and checking chapter relationships, negation, conditions, exceptions, source identity, and added explanations. After the first combined output was truncated, reread the complete concept/case originals and manuscripts. Reread the entire saved concept manuscript again after its correction.",
   "scope": "full_manuscript",
   "output_sha256": "679e5c56c46f45d9e7bb0880b4e003b127fc8dee1d850c26ffeead4941e6cd42",
   "status": "pass",
@@ -21,7 +21,7 @@
         9
       ],
       "anchor": "ch-version2018",
-      "finding": "明确2019年课程/2018版；条文逐字保留，两项累积条件；甲乙有别，丙秘密阻却研究例外，副本问题仍未决。"
+      "finding": "Identify the 2019 course and 2018 version explicitly. Retain the provision verbatim and its two cumulative conditions. Distinguish A from B; C's secrecy condition blocks the research exception, while the copy question remains unresolved."
     },
     {
       "lines": [
@@ -29,28 +29,28 @@
         6
       ],
       "anchor": "ch-interpretation",
-      "finding": "资助是教材限制解释，有明确问题方法的独立研究是教师主张，二者均未冒充条文明文；未虚构甲是否受资助。"
+      "finding": "Funding is the textbook's restrictive interpretation; independent research with a clear question and method is the teacher's position. Neither is presented as express statutory wording, and A's funding status is not invented."
     },
     {
       "lines": [
         7
       ],
       "anchor": "ch-interpretation",
-      "finding": "模拟合议庭研究计划证明用途、促进知识使用理由保留；无他案事实、无已知普遍约束力、非真实判例。"
+      "finding": "Retain the simulated panel's reliance on a research plan to establish purpose and its reason of promoting the use of knowledge. Add no facts from another case, no known general binding force, and no claim of real precedent."
     },
     {
       "lines": [
         8
       ],
       "anchor": "ch-limits",
-      "finding": "承接乙好奇心反驳，明确目的不能删除用途条件或秘密条件。"
+      "finding": "Address B's curiosity objection and state that purpose cannot erase the use-purpose or secrecy conditions."
     },
     {
       "lines": [
         13
       ],
       "anchor": "ch-limits",
-      "finding": "作业是理由与代价比较；给出完整分析示范，额外标准识别/审查负担均明示为新写可能论证，不归给教材、不声称实测。"
+      "finding": "The assignment compares reasons and costs. Provide a complete worked analysis, explicitly labeling additional arguments about identifying the criterion and review burdens as newly written possibilities rather than attributing them to the textbook or claiming measurement."
     },
     {
       "lines": [
@@ -58,7 +58,7 @@
         11
       ],
       "anchor": "ch-version2024",
-      "finding": "保留新版原文、普通档案范围、原则改变、去用途门槛、秘密限制；同一个乙比较仍用条件式处理未给出的秘密状况。"
+      "finding": "Retain the new version's wording, ordinary-records scope, changed general rule, removal of the purpose threshold, and confidentiality restriction. Comparison of the same B remains conditional because confidentiality status was not supplied."
     },
     {
       "lines": [
@@ -66,7 +66,7 @@
         13
       ],
       "anchor": "ch-version2024",
-      "finding": "教师便于利用评价与版本适用分开；无真实法核验和学习者赞同数据，明确批评把教师偏好改成旧版普遍公开。"
+      "finding": "Separate the teacher's evaluation favoring easier access from version applicability. There was no real-law verification or evidence of learner agreement. Explicitly criticize converting the teacher's preference into general disclosure under the old version."
     }
   ],
   "defects_found_and_resolved": [],
@@ -74,5 +74,14 @@
   "independent_review": "not_run",
   "classroom_trial": "not_run",
   "learning_effects": "not_run",
-  "limitations": "同一生成者自查，不等同独立评审、真实课堂试用或学习效果证据。"
+  "limitations": "Self-review by the same generator is not independent review, a real classroom trial, or evidence of learning outcomes.",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/dispute/semantic-review.json",
+    "original_sha256": "02a6f172343c3969a841d0415ebb0c27ab62684c34e803d582ff5e7776743018",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/dispute/semantic-review.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

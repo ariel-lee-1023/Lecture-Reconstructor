@@ -13,7 +13,7 @@
   "stdout": {
     "status": "needs_review",
     "scope": "finite_structural_checks",
-    "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+    "limitation": "Only limited structural checks passed; this does not establish legal correctness, coverage of meaning, teaching quality, or learning outcomes.",
     "errors": [
       {
         "code": "INPUT_CHANGED",
@@ -28,5 +28,14 @@
     ],
     "exit_code": 2
   },
-  "stderr": ""
+  "stderr": "",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/input_changed/run/checks/resume-precheck.json",
+    "original_sha256": "37caf8e566086d479258542710a7109f5721812cbe36407c44daf4d51ebb7be4",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/input_changed/run/checks/resume-precheck.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

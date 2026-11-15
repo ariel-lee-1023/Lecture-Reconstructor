@@ -1,11 +1,11 @@
-# 来源、版本与未决说明
+# Sources, versions, and unresolved issues
 
-唯一内容来源是当前合成课堂21行，所有规则、人物、学生与教师情节均属教学假设。未听音频，未查询网络、现行法、判决或教材；四份reference是本次方法来源，未重读其所列原书。精确模型及采样设置unknown。
+The sole content source is the current 21-line synthetic lecture; all rules, people, student exchanges, and teacher events are teaching hypotheticals. No audio was heard and no network, current law, judgments, or textbooks were consulted. The four references supplied methods, without rereading the original books they list. Exact model and sampling settings are unknown.
 
-恢复前实际check_run返回2，发现输入哈希变化；先保存before-resume.json、旧稿证据与invalidated-run.json，再做影响分析。旧输入从旧run的21行摘录重建并匹配旧SHA-256，具体见checks/impact-review.md与input/input-version.diff。当前原始文件未覆盖，另存v2。
+Before resumption, the actual check_run returned 2 and detected changed input hashes. before-resume.json, old-manuscript evidence, and invalidated-run.json were saved before impact analysis. The old input was reconstructed from the old run's 21 line excerpts and matched the old SHA-256; see checks/impact-review.md and input/input-version.diff. The current original file was not overwritten; v2 was saved separately.
 
-唯一输入差异为第13行18:02变为17:59，令L2路线改变。第2、18行失败标签未同步，第19行原变式与主案同值。没有证据可将它判为ASR错误或擅自恢复18:02。第一章公开冲突，第二章按明确时刻作条件推导，第三章保留未决结算。
+The sole input difference is line 13's change from 18:02 to 17:59, changing the L2 route. The failure labels in lines 2 and 18 were not updated; line 19's former variant now matches the main case. No evidence permits treating this as an ASR error or restoring 18:02 without authorization. Chapter 1 exposes the conflict, Chapter 2 derives conditional consequences from the explicit time, and Chapter 3 retains unresolved settlement.
 
-最小澄清：庚的到达时间是否确为周二17:59？若是，及时撤销时积分如何结算？这两点分别解决事实口径与缺失规则。范围外非整半小时计价仍未规定，本次未自行补规则。
+Minimum clarification: Is G's receipt time really 17:59 Tuesday? If so, how are points settled after timely cancellation? These resolve the factual inconsistency and missing rule respectively. Rates for non-whole-half-hour increments remain unspecified and outside scope; no rule was invented.
 
-机械、同代理语义复核、真实课堂试用、学习效果分别记录；后两者not_run。旧局部通过保留原哈希，不移作当前通过。所有新写入均在本分支run内，package只读。
+Mechanical checks, same-agent semantic review, real classroom trials, and learning outcomes are recorded separately; the latter two are not_run. Old partial passes keep their original hashes and are not transferred to the current version. All new writes stayed within this branch's run; package was read-only.

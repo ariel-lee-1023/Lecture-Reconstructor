@@ -1,39 +1,39 @@
-# 全课内容映射（当前输入v2）
+# Whole-course content map (current input v2)
 
-已覆盖全部21行；unresolved项已解释但核心结论未闭合，不能视为complete。
+All 21 lines are covered; unresolved items have been explained, but their central conclusions remain open and cannot be treated as complete.
 
-| ID | 源行 | 命题 | 目标 | 状态 |
+| ID | Source line | Proposition | Target | Status |
 |---|---|---|---|---|
-| u01 | 1 | 全部材料是合成教学假设；非现行法或真实课堂，未提供前后课资料。 | ch-1#ch1-scope | represented |
-| u02 | 2 | 连接进入、预约、撤销、费用与复核，最终分析庚完整经历；周一确认周三10—12点。 | ch-1#ch1-whole-task | unresolved |
-| u03 | 3 | L1：注册成员可进入公共阅览区，进入许可不保证座位。 | ch-1#ch1-permission | represented |
-| u04 | 3 | L1：成功确认才产生管理人对预约人的确认时段标准座位义务；点击、排队及已接收不等于确认。 | ch-1#ch1-confirmation | represented |
-| u05 | 4 | 甲只有注册，不足以推出乙让位义务。 | ch-1#ch1-jia | represented |
-| u06 | 4 | 丁有成功确认，座位满不能用进入许可否定管理人义务；两层关系并存。 | ch-1#ch1-ding | represented |
-| u07 | 5 | 借线许可无优先权或对特定人的交付承诺；座位规则不能移植为借线规则。 | ch-1#ch1-cable | represented |
-| u08 | 6 | 许可不是无用：排除本规则下进入禁止，但不保证座位条件充分。 | ch-1#ch1-student-objection | represented |
-| u09 | 7 | 庚成功确认使关系成立；后续变动尚未分析，不能预判一定坐到12点。 | ch-1#ch1-geng | represented |
-| u10 | 8 | L2单方撤销须在开始前一日不晚于18:00；附则明确包含18:00整。 | ch-2#ch2-withdrawal | represented |
-| u11 | 8 | 撤销在通知到达系统时生效，发送不是到达。 | ch-2#ch2-withdrawal | represented |
-| u12 | 8 | 超过期限只能协商且须双方同意，发送请求不是同意。 | ch-2#ch2-withdrawal | represented |
-| u13 | 9 | 戊17:50发出、18:05到达，不能单方消灭预约。 | ch-2#ch2-arrival-comparison | represented |
-| u14 | 9 | 己18:00到达，及时生效；关键对照是到达时刻，其他条件相同。 | ch-2#ch2-arrival-comparison | represented |
-| u15 | 9 | 撤销消灭预约产生的座位请求及对应义务，不取消成员身份及进入许可。 | ch-2#ch2-withdrawal-scope | represented |
-| u16 | 10 | L3即时安全险情须封闭时可暂停提供座位义务，应退实际受影响时段积分。 | ch-2#ch2-suspension | represented |
-| u17 | 10 | 封闭不自动撤销；确认时段内恢复后剩余时段有效，不延长结束时间。 | ch-2#ch2-suspension | represented |
-| u18 | 11 | 辛10—12点预约、10—11点封闭、11点开放，可使用剩余一小时并退受影响一小时积分。 | ch-2#ch2-xin | represented |
-| u19 | 11 | 暂停、撤销、届满不同；12点届满，11:30才到不顺延。 | ch-2#ch2-xin | represented |
-| u20 | 12 | 没坐满不等于退全部；L3依据受封闭影响时段，个人迟到原因不同。 | ch-2#ch2-lateness-objection | represented |
-| u21 | 13 | 当前庚周二17:58发出、17:59到达，按L2支持及时撤销；与源内失败标签冲突，周三封闭不能自动沿用旧分析。 | ch-2#ch2-geng | unresolved |
-| u22 | 14 | L4每小时10积分、半小时5积分，只处理整半小时，其他粒度未规定。 | ch-3#ch3-calculation | represented |
-| u23 | 14 | L3退款取封闭与有效预约重叠，预约开始前封闭不计。 | ch-3#ch3-calculation | represented |
-| u24 | 15 | 壬10—12点预约、9:30—10:30封闭，重叠半小时退5；误算10多计预约外半小时，剩余10:30—12点有效。 | ch-3#ch3-ren | represented |
-| u25 | 16 | L5得知次日起七日，第七日结束前到达系统及时。 | ch-3#ch3-review | represented |
-| u26 | 16 | 复核检查规则适用与时间事实，不推定管理员正确，未规定申请自动暂停其他决定。 | ch-3#ch3-review | represented |
-| u27 | 17 | 癸周四得知，下周四是第七日，当天到达及时；算法仅据练习明文。 | ch-3#ch3-gui | represented |
-| u28 | 17 | 缺得知日期时不能编造期限是否届满。 | ch-3#ch3-gui | represented |
-| u29 | 18 | 庚扣20退5的处理结果已给；复核第六日到达及时；实体结算因及时撤销规则缺失及时间口径冲突未定。 | ch-3#ch3-geng | unresolved |
-| u30 | 19 | 第19行17:59所谓变式已与第13行主事实重合，不能继续假称条件已改变。 | ch-3#ch3-variant | corrected |
-| u31 | 19 | L2未规定及时撤销的积分结算，不能自动套L3。 | ch-3#ch3-variant | unresolved |
-| u32 | 20 | 完整案例按成立—变动—后果—复核，概念比较不机械四段；只解释条件影响，不承诺现实考试评分。 | ch-3#ch3-exam | represented |
-| u33 | 21 | 庚案串起发出/到达、暂停/消灭、在座/受影响、程序/实体四组区别；推论限练习规则，无前课不假装已证明。 | ch-3#ch3-synthesis | represented |
+| u01 | 1 | All materials are synthetic teaching hypotheticals, not current law or a real classroom; no materials from preceding or subsequent lessons were provided. | ch-1#ch1-scope | represented |
+| u02 | 2 | Connect entry, reservation, cancellation, charges, and review, ultimately analyzing G's complete experience; Monday confirmation for Wednesday 10:00–12:00. | ch-1#ch1-whole-task | unresolved |
+| u03 | 3 | L1: registered members may enter the public reading area; permission to enter does not guarantee a seat. | ch-1#ch1-permission | represented |
+| u04 | 3 | L1: only successful confirmation creates the manager's duty to provide the reservation holder with a standard seat during the confirmed period; clicking, queuing, and acknowledgment of receipt do not equal confirmation. | ch-1#ch1-confirmation | represented |
+| u05 | 4 | A is merely registered, which does not establish a duty for B to yield a seat. | ch-1#ch1-jia | represented |
+| u06 | 4 | D has successful confirmation; when all seats are occupied, permission to enter cannot be used to deny the manager's duty; both layers of relationship coexist. | ch-1#ch1-ding | represented |
+| u07 | 5 | Permission to borrow a cable creates no priority or promise of delivery by a particular person; the seat rule cannot be transplanted into a cable-borrowing rule. | ch-1#ch1-cable | represented |
+| u08 | 6 | Permission is not useless: it removes the prohibition on entry under this rule but does not guarantee that sufficient conditions for a seat are met. | ch-1#ch1-student-objection | represented |
+| u09 | 7 | G's successful confirmation establishes the relationship; subsequent changes have not yet been analyzed, so use until 12:00 cannot be prejudged as certain. | ch-1#ch1-geng | represented |
+| u10 | 8 | L2 unilateral cancellation must occur no later than 18:00 on the day before the reservation starts; the supplementary provision explicitly includes exactly 18:00. | ch-2#ch2-withdrawal | represented |
+| u11 | 8 | Cancellation takes effect when the system receives the notice; sending is not receipt. | ch-2#ch2-withdrawal | represented |
+| u12 | 8 | After the deadline, cancellation can only be negotiated and requires both parties' consent; sending a request is not consent. | ch-2#ch2-withdrawal | represented |
+| u13 | 9 | E's notice was sent at 17:50 and received at 18:05, so it cannot unilaterally extinguish the reservation. | ch-2#ch2-arrival-comparison | represented |
+| u14 | 9 | F's notice was received at 18:00 and took effect in time; receipt time is the crucial contrast, with all other conditions the same. | ch-2#ch2-arrival-comparison | represented |
+| u15 | 9 | Cancellation extinguishes the seating claim and corresponding duty arising from the reservation; it does not terminate membership or permission to enter. | ch-2#ch2-withdrawal-scope | represented |
+| u16 | 10 | L3 allows suspension of the duty to provide a seat when an immediate safety emergency requires closure, and requires a refund of points for the period actually affected. | ch-2#ch2-suspension | represented |
+| u17 | 10 | Closure does not automatically cancel the reservation; if reopening occurs during the confirmed period, the remaining period remains valid without extending the end time. | ch-2#ch2-suspension | represented |
+| u18 | 11 | H has a 10:00–12:00 reservation, closure occurs from 10:00–11:00, and reopening is at 11:00; H can use the remaining hour and receive a refund of reservation points for the affected hour. | ch-2#ch2-xin | represented |
+| u19 | 11 | Suspension, cancellation, and expiry differ; the reservation expires at 12:00, without extension if H arrives only at 11:30. | ch-2#ch2-xin | represented |
+| u20 | 12 | Not using the full period does not mean all points must be refunded; L3 uses the period affected by closure, whereas personal lateness has a different cause. | ch-2#ch2-lateness-objection | represented |
+| u21 | 13 | In the current version, G's notice was sent at 17:58 on Tuesday and received at 17:59, supporting timely cancellation under L2; this conflicts with the source's failure labels, so the old analysis cannot automatically be carried over to Wednesday's closure. | ch-2#ch2-geng | unresolved |
+| u22 | 14 | L4 specifies 10 points per hour and 5 points per half-hour, covering only exact half-hour increments; other increments are unspecified. | ch-3#ch3-calculation | represented |
+| u23 | 14 | L3 refunds points for the overlap between closure and a valid reservation, excluding closure before the reservation starts. | ch-3#ch3-calculation | represented |
+| u24 | 15 | I has a 10:00–12:00 reservation and closure occurs from 9:30–10:30; the half-hour overlap yields a 5-point refund; the erroneous 10-point calculation includes an extra half-hour outside the reservation, and the remaining 10:30–12:00 period remains valid. | ch-3#ch3-ren | represented |
+| u25 | 16 | L5 allows seven days starting the day after awareness; receipt by the system before the end of day seven is timely. | ch-3#ch3-review | represented |
+| u26 | 16 | Review examines rule application and timing facts, does not presume the administrator correct, and contains no provision that an application automatically suspends other decisions. | ch-3#ch3-review | represented |
+| u27 | 17 | J learns of the decision on Thursday, making the following Thursday day seven; receipt that day is timely; this calculation relies solely on the exercise's express wording. | ch-3#ch3-gui | represented |
+| u28 | 17 | If the date of awareness is missing, do not invent a conclusion about whether the deadline has expired. | ch-3#ch3-gui | represented |
+| u29 | 18 | The stated decision for G deducted 20 points and refunded 5; receipt of the review application on day six is timely; substantive settlement remains undecided because the rule for timely cancellation is missing and the timing account conflicts with the failure labels. | ch-3#ch3-geng | unresolved |
+| u30 | 19 | The supposed 17:59 variant on line 19 now coincides with the main fact on line 13; do not continue falsely claiming that a condition has changed. | ch-3#ch3-variant | corrected |
+| u31 | 19 | L2 does not specify points settlement after timely cancellation; L3 cannot be applied automatically. | ch-3#ch3-variant | unresolved |
+| u32 | 20 | Analyze the complete case through establishment—change—consequences—review, without mechanically imposing four parts on conceptual comparisons; explain only the effects of conditions, with no promise of real exam scores. | ch-3#ch3-exam | represented |
+| u33 | 21 | G's case connects four distinctions: sent/received, suspension/extinguishment, seated time/affected time, and procedure/substance; inferences are limited to the exercise's rules, and without previous-lesson materials nothing is presented as already proven there. | ch-3#ch3-synthesis | represented |

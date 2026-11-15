@@ -1,10 +1,10 @@
-# 注册与预约：进入许可和座位请求
+# Registration and Reservation: Permission to Enter and a Claim for a Seat
 
 <a id="ch-registration"></a>
-本课只使用给定的合成练习规则。注册与预约都与进入阅览区有关，但它们产生的地位不同：注册允许进入，预约确认才使管理人在确认的时段负有提供座位的义务。判断时应先识别持有哪一种资格，再看它支持针对谁、要求什么行为。
+This lecture uses only the supplied synthetic exercise rules. Registration and reservation both concern entry to the reading area, but they create different positions: registration permits entry, while reservation confirmation creates a duty for the manager to provide a seat during the confirmed period. First identify which status is held, then determine against whom it supports a claim and for what conduct.
 
-甲只有注册，没有预约确认，因此可以进入阅览区，却不能根据这两条规则要求管理人提供标准座位。这里的结论并不是甲完全没有许可，而是进入许可缺少让管理人必须提供座位的条件。空位是否事实上存在，与规则是否已经赋予请求资格也应分别判断。
+A has registration but no reservation confirmation and may therefore enter the reading area, yet cannot demand that the manager provide a standard seat under these two rules. The conclusion is not that A has no permission at all, but that permission to enter lacks the condition that would require the manager to provide a seat. Whether a vacant seat actually exists and whether the rules have already conferred entitlement to claim one must also be assessed separately.
 
-乙取得了成功预约确认，所以能够在确认时段请求管理人提供座位。将甲与乙并列，改变判断的是有没有预约确认，而不是姓名或需要座位的迫切程度。乙的请求带有时段限制，不能从“有确认”推成全天都可以请求。材料没有给出其他时段或其他座位种类的承诺，不应扩展。
+B has obtained successful reservation confirmation and can therefore require the manager to provide a seat during the confirmed period. Comparing A and B, the factor that changes the assessment is the presence or absence of reservation confirmation, not their names or the urgency of their need for a seat. B's claim is time-limited; 'has confirmation' cannot be expanded into a claim available throughout the day. The material makes no promise for other periods or other types of seat, so none should be added.
 
-这组对照表明，解释“可以进入”时，不能悄悄替换成“别人必须替我安排座位”。先把注册与确认分别连到它们的后果，再检查事实是否满足条件，才能保留规则的实际差别。
+This comparison shows that explaining 'may enter' must not quietly substitute 'someone else must arrange a seat for me'. Connect registration and confirmation to their respective consequences first, then check whether the facts satisfy the conditions; this preserves the rules' actual distinctions.

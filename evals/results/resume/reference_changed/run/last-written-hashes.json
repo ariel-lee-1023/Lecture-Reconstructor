@@ -44,5 +44,14 @@
   "history/before-resume/input/transcript.txt": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
   "history/before-resume/chapters/01-relations.md": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042",
   "history/before-resume/checks/chapter-1-semantic.md": "aabd3c9e67aa4799b4e6ca227e0a7bed28ca7af8df3c95700dd56c916f124131",
-  "history/before-resume/checks/mechanical.json": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb"
+  "history/before-resume/checks/mechanical.json": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/reference_changed/run/last-written-hashes.json",
+    "original_sha256": "8b9d1a99552469666b7c552999f5c2b397e599b45685f6e8202ae1ddfdec5a8c",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/reference_changed/run/last-written-hashes.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

@@ -43,7 +43,7 @@
         "evals/results/resume/input_changed-review.md",
         "evals/results/resume/reference_changed-review.md"
       ],
-      "note": "输入变化分支因真实核心冲突/结算缺口保持needs_input；通过的是检测/失效/重审与受限交付行为"
+      "note": "The input-change branch remains needs_input because of a genuine core conflict and settlement gap; the pass concerns detection, invalidation, review, and bounded delivery behavior"
     },
     "A09": {
       "status": "pass",
@@ -76,5 +76,14 @@
     "baseline and skill observed resource use differs"
   ],
   "remaining_critical_engineering_defects": [],
-  "engineering_review": "evals/results/mechanical/final-engineering-review.md"
+  "engineering_review": "evals/results/mechanical/final-engineering-review.md",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "fidelity-ledger/validation.pre-language-policy.json",
+    "original_sha256": "c9863ce264ef184c10ec4d43df6a310acfb0eabd820286614b6f4ddccaf730c4",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/fidelity-ledger/validation.pre-language-policy.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

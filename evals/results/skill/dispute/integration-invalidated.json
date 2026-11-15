@@ -4,14 +4,14 @@
   "status": "in_progress",
   "stage": "review",
   "course": {
-    "title": "南岬档案馆：规范解释、版本变化与制度评价",
-    "scope": "仅重构实际提供的合成课堂转录，不引入现实法或真实案例",
-    "jurisdiction": "课内虚构规则，不对应现实法域",
-    "time_context": "2019年课程语境，主体为2018版，2024版为后续教学版本对照",
-    "audience": "大学课程读者；无实际学习者数据",
+    "title": "South Cape Archives: interpretation, version changes, and institutional evaluation",
+    "scope": "Reconstruct only the synthetic classroom transcript actually supplied, without importing real law or real cases",
+    "jurisdiction": "Fictional classroom rules, not a real jurisdiction",
+    "time_context": "The course context is 2019, primarily studying the 2018 version; the 2024 version is a later teaching version used for comparison",
+    "audience": "University-course readers; no actual learner data",
     "assumptions": [
-      "原输入明确标示全部规则、人物与课堂事例为合成材料",
-      "不假定提供了音频、独立教材全文或真实学习表现"
+      "The original input expressly identifies all rules, people, and classroom examples as synthetic",
+      "Do not assume audio, a separate complete textbook, or actual learning performance was supplied"
     ]
   },
   "inputs": [
@@ -35,11 +35,11 @@
   "content_units": [
     {
       "id": "u01",
-      "proposition": "【合成争议与制度沿革课；以下机构、资料和观点均为测试创作，不是现行规范、真实著作或真实裁判。课程时间语境为2019年，主题是2018版练习规则。】",
-      "excerpt": "【合成争议与制度沿革课；以下机构、资料和观点均为测试创作，不是现行规范、真实著作或真实裁判。课程时间语境为2019年，主题是2018版练习规则。】",
+      "proposition": "[Synthetic lecture on disagreement and institutional development; all institutions, materials, and views below were created for testing. They are not current rules, real publications, or real judgments. The course is set in 2019 and concerns the 2018 exercise rules.]",
+      "excerpt": "[Synthetic lecture on disagreement and institutional development; all institutions, materials, and views below were created for testing. They are not current rules, real publications, or real judgments. The course is set in 2019 and concerns the 2018 exercise rules.]",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -59,11 +59,11 @@
     },
     {
       "id": "u02",
-      "proposition": "我想先讲公开比较好，但上课不能把我的偏好直接写成规则。今天南岬档案馆的练习题，核心是研究者能否获得普通档案。",
-      "excerpt": "我想先讲公开比较好，但上课不能把我的偏好直接写成规则。今天南岬档案馆的练习题，核心是研究者能否获得普通档案。",
+      "proposition": "I want to start by saying disclosure is better, but a class must not turn my preference directly into a rule. Today's exercise about South Cape Archives asks whether researchers can obtain ordinary archival records.",
+      "excerpt": "I want to start by saying disclosure is better, but a class must not turn my preference directly into a rule. Today's exercise about South Cape Archives asks whether researchers can obtain ordinary archival records.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -83,11 +83,11 @@
     },
     {
       "id": "u03",
-      "proposition": "课堂使用的《南岬档案使用练习规则》2018版第2条原文：“档案原则上不对外提供。申请人证明其用途为学术研究，且不涉及封存的个人秘密的，应准许阅览。”这只是课内假设规范。",
-      "excerpt": "课堂使用的《南岬档案使用练习规则》2018版第2条原文：“档案原则上不对外提供。申请人证明其用途为学术研究，且不涉及封存的个人秘密的，应准许阅览。”这只是课内假设规范。",
+      "proposition": "Article 2 of the 2018 South Cape Archives Access Exercise Rules used in class states: 'In principle, archival records are not provided to outsiders. Inspection shall be permitted if the applicant proves an academic research purpose and no sealed personal secrets are involved.' This is only a hypothetical classroom rule.",
+      "excerpt": "Article 2 of the 2018 South Cape Archives Access Exercise Rules used in class states: 'In principle, archival records are not provided to outsiders. Inspection shall be permitted if the applicant proves an academic research purpose and no sealed personal secrets are involved.' This is only a hypothetical classroom rule.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -107,11 +107,11 @@
     },
     {
       "id": "u04",
-      "proposition": "甲提出学术研究计划，所请档案没有封存的个人秘密；乙只说自己好奇，没有说明学术用途。2018版下不能因为二人都想看，就同样适用例外。",
-      "excerpt": "甲提出学术研究计划，所请档案没有封存的个人秘密；乙只说自己好奇，没有说明学术用途。2018版下不能因为二人都想看，就同样适用例外。",
+      "proposition": "A submits an academic research plan, and the requested records contain no sealed personal secrets. B says only that they are curious and identifies no academic purpose. Under the 2018 version, the exception cannot apply to both merely because both want to inspect the records.",
+      "excerpt": "A submits an academic research plan, and the requested records contain no sealed personal secrets. B says only that they are curious and identifies no academic purpose. Under the 2018 version, the exception cannot apply to both merely because both want to inspect the records.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -131,11 +131,11 @@
     },
     {
       "id": "u05",
-      "proposition": "课堂教材片段来自虚构的《档案制度练习讲义》2018版第7节，称“学术研究”只含受机构资助的项目。这是教材作者的限制解释，条文本身没有写资助条件。",
-      "excerpt": "课堂教材片段来自虚构的《档案制度练习讲义》2018版第7节，称“学术研究”只含受机构资助的项目。这是教材作者的限制解释，条文本身没有写资助条件。",
+      "proposition": "The classroom textbook excerpt comes from section 7 of the fictional 2018 Archival Institutions Exercise Notes, which says that 'academic research' includes only institutionally funded projects. This is the textbook author's restrictive interpretation; the provision itself contains no funding condition.",
+      "excerpt": "The classroom textbook excerpt comes from section 7 of the fictional 2018 Archival Institutions Exercise Notes, which says that 'academic research' includes only institutionally funded projects. This is the textbook author's restrictive interpretation; the provision itself contains no funding condition.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -155,11 +155,11 @@
     },
     {
       "id": "u06",
-      "proposition": "教师观点：我倾向于把有明确问题和方法的独立研究也算学术研究，以避免把机构身份变成门槛；这个看法需要解释理由，不能说是条文明文。",
-      "excerpt": "教师观点：我倾向于把有明确问题和方法的独立研究也算学术研究，以避免把机构身份变成门槛；这个看法需要解释理由，不能说是条文明文。",
+      "proposition": "Teacher's position: I favor including independent research with a clear question and method as academic research, to avoid making institutional status a barrier. That view requires interpretive reasons; it is not the express wording of the provision.",
+      "excerpt": "Teacher's position: I favor including independent research with a clear question and method as academic research, to avoid making institutional status a barrier. That view requires interpretive reasons; it is not the express wording of the provision.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -179,11 +179,11 @@
     },
     {
       "id": "u07",
-      "proposition": "课堂裁判模拟册中的“甲申请案”摘要：模拟合议庭认为独立研究者提供研究计划足以证明用途，援引目的在于促进知识使用；摘要没有交代他案事实，也没有宣称对其他案件有约束力。这里讲的是模拟裁判观点，不是真实法院判例。",
-      "excerpt": "课堂裁判模拟册中的“甲申请案”摘要：模拟合议庭认为独立研究者提供研究计划足以证明用途，援引目的在于促进知识使用；摘要没有交代他案事实，也没有宣称对其他案件有约束力。这里讲的是模拟裁判观点，不是真实法院判例。",
+      "proposition": "The classroom mock-judgment booklet summarizes 'A's Application': The simulated panel considered an independent researcher's research plan sufficient proof of purpose, invoking the aim of promoting the use of knowledge. The summary gives no facts of other cases and does not claim to bind them. This is a simulated judicial view, not a real court precedent.",
+      "excerpt": "The classroom mock-judgment booklet summarizes 'A's Application': The simulated panel considered an independent researcher's research plan sufficient proof of purpose, invoking the aim of promoting the use of knowledge. The summary gives no facts of other cases and does not claim to bind them. This is a simulated judicial view, not a real court precedent.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -203,11 +203,11 @@
     },
     {
       "id": "u08",
-      "proposition": "有学生问：促进知识使用的目的，难道也能让乙的好奇心变成学术研究吗？教师：目的不能直接删除规范里还存在的用途限制；独立研究是否符合概念与根本不以研究为目的，是两种问题。另一方面，隐私例外也不是只要说一句“研究”就可以越过。",
-      "excerpt": "有学生问：促进知识使用的目的，难道也能让乙的好奇心变成学术研究吗？教师：目的不能直接删除规范里还存在的用途限制；独立研究是否符合概念与根本不以研究为目的，是两种问题。另一方面，隐私例外也不是只要说一句“研究”就可以越过。",
+      "proposition": "A student asks: Can the purpose of promoting the use of knowledge also turn B's curiosity into academic research? Teacher: A purpose cannot directly erase a use restriction still present in the rule. Whether independent research fits the concept and whether a person has no research purpose at all are different questions. Nor can the privacy exception be bypassed merely by saying 'research.'",
+      "excerpt": "A student asks: Can the purpose of promoting the use of knowledge also turn B's curiosity into academic research? Teacher: A purpose cannot directly erase a use restriction still present in the rule. Whether independent research fits the concept and whether a person has no research purpose at all are different questions. Nor can the privacy exception be bypassed merely by saying 'research.'",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -227,11 +227,11 @@
     },
     {
       "id": "u09",
-      "proposition": "课堂另有教学假设：丙有完整研究方案，但档案含封存的个人秘密。2018版的两个条件要同时满足；前一项不能抵消后一项。是否能取得去除秘密的副本，本课规则没有规定，暂不下结论。",
-      "excerpt": "课堂另有教学假设：丙有完整研究方案，但档案含封存的个人秘密。2018版的两个条件要同时满足；前一项不能抵消后一项。是否能取得去除秘密的副本，本课规则没有规定，暂不下结论。",
+      "proposition": "Another classroom hypothetical: C has a complete research proposal, but the records contain sealed personal secrets. The 2018 version requires both conditions to be satisfied; the first cannot cancel the second. The course rules do not address access to a copy with the secrets removed, so no conclusion is reached on that question.",
+      "excerpt": "Another classroom hypothetical: C has a complete research proposal, but the records contain sealed personal secrets. The 2018 version requires both conditions to be satisfied; the first cannot cancel the second. The course rules do not address access to a copy with the secrets removed, so no conclusion is reached on that question.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -251,11 +251,11 @@
     },
     {
       "id": "u10",
-      "proposition": "刚发的补充讲义标着2024版第2条，写的是：“普通档案原则上对外提供；涉及封存的个人秘密的，不得提供。”这是与本课时间不同的后续教学版本，不是2019年已经生效的条文。不要把我刚才的2018版题目默默改成2024版。",
-      "excerpt": "刚发的补充讲义标着2024版第2条，写的是：“普通档案原则上对外提供；涉及封存的个人秘密的，不得提供。”这是与本课时间不同的后续教学版本，不是2019年已经生效的条文。不要把我刚才的2018版题目默默改成2024版。",
+      "proposition": "The supplementary handout just distributed is labeled Article 2, 2024 version: 'Ordinary archival records are in principle provided to outsiders; records involving sealed personal secrets must not be provided.' This is a later teaching version from a different time, not a provision already effective in 2019. Do not silently change the preceding 2018 problem into a 2024 problem.",
+      "excerpt": "The supplementary handout just distributed is labeled Article 2, 2024 version: 'Ordinary archival records are in principle provided to outsiders; records involving sealed personal secrets must not be provided.' This is a later teaching version from a different time, not a provision already effective in 2019. Do not silently change the preceding 2018 problem into a 2024 problem.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -275,11 +275,11 @@
     },
     {
       "id": "u11",
-      "proposition": "2024版还删去了学术用途门槛。用同样的乙作对照可以看见：变化发生在申请资格条件，保密限制仍在。是否应当这样改，属于制度评价；改后如何判断，属于依该版本规则适用。",
-      "excerpt": "2024版还删去了学术用途门槛。用同样的乙作对照可以看见：变化发生在申请资格条件，保密限制仍在。是否应当这样改，属于制度评价；改后如何判断，属于依该版本规则适用。",
+      "proposition": "The 2024 version also removes the academic-purpose requirement. Using the same B as a comparison reveals what changed: applicant eligibility conditions, while the confidentiality restriction remains. Whether the rules should have changed this way is an institutional evaluation; how to decide under the amended version is an application of that version's rules.",
+      "excerpt": "The 2024 version also removes the academic-purpose requirement. Using the same B as a comparison reveals what changed: applicant eligibility conditions, while the confidentiality restriction remains. Whether the rules should have changed this way is an institutional evaluation; how to decide under the amended version is an application of that version's rules.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -299,11 +299,11 @@
     },
     {
       "id": "u12",
-      "proposition": "我的评价是新版本更便于利用；教材的资助标准、新旧规则和模拟裁判的解释理由仍各有身份。我们没有做任何现实法核验，也没有资料证明实际学习者赞同哪一方。",
-      "excerpt": "我的评价是新版本更便于利用；教材的资助标准、新旧规则和模拟裁判的解释理由仍各有身份。我们没有做任何现实法核验，也没有资料证明实际学习者赞同哪一方。",
+      "proposition": "My evaluation is that the new version facilitates use. The textbook's funding criterion, the old and new rules, and the simulated judgment's interpretive reasons still have distinct identities. We have verified no real law and have no evidence showing which position actual learners support.",
+      "excerpt": "My evaluation is that the new version facilitates use. The textbook's funding criterion, the old and new rules, and the simulated judgment's interpretive reasons still have distinct identities. We have verified no real law and have no evidence showing which position actual learners support.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -323,11 +323,11 @@
     },
     {
       "id": "u13",
-      "proposition": "本课作业要求比较两种解释的理由与代价，不要求押中考试结论。若把“教师赞成公开”写成“2018年所有档案都公开”，就是把评价偷换成规范命题。",
-      "excerpt": "本课作业要求比较两种解释的理由与代价，不要求押中考试结论。若把“教师赞成公开”写成“2018年所有档案都公开”，就是把评价偷换成规范命题。",
+      "proposition": "The assignment for this lecture asks you to compare the reasons and costs of the two interpretations, not predict an examination conclusion. Turning 'the teacher favors disclosure' into 'all records were public in 2018' substitutes a normative proposition for an evaluation.",
+      "excerpt": "The assignment for this lecture asks you to compare the reasons and costs of the two interpretations, not predict an examination conclusion. Turning 'the teacher favors disclosure' into 'all records were public in 2018' substitutes a normative proposition for an evaluation.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -350,25 +350,25 @@
     {
       "id": "original-class",
       "uri": "input/original.txt",
-      "version": "隔离输入原始快照",
-      "locator": "1–13行；书名、条文与裁判均只由该输入提供",
+      "version": "Original snapshot of the isolated input",
+      "locator": "Lines 1–13; titles, provisions, and judgments are supplied solely by this input",
       "read_status": "read"
     }
   ],
   "chapters": [
     {
       "id": "ch-version2018",
-      "title": "先按2018版辨认规则结构",
+      "title": "First identify the rule structure under the 2018 version",
       "anchor": "ch-version2018",
       "path": "chapters/version2018.md",
       "status": "needs_review",
-      "learning_object": "识别原则、两个累积条件与课程时间",
+      "learning_object": "Identify the general rule, two cumulative conditions, and the course date",
       "relations": [
-        "识别原则、两个累积条件与课程时间"
+        "Identify the general rule, two cumulative conditions, and the course date"
       ],
       "prerequisites": [],
-      "approach": "解释甲乙丙在各条件上的差别",
-      "role": "固定整课规范与事实基线",
+      "approach": "Explain how A, B, and C differ on each condition",
+      "role": "Fix the normative and factual baseline for the whole course",
       "content_unit_ids": [
         "u01",
         "u02",
@@ -379,19 +379,19 @@
     },
     {
       "id": "ch-interpretation",
-      "title": "学术研究的两种解释",
+      "title": "Two interpretations of academic research",
       "anchor": "ch-interpretation",
       "path": "chapters/interpretation.md",
       "status": "needs_review",
-      "learning_object": "区分教材解释、教师主张和模拟裁判理由",
+      "learning_object": "Distinguish textbook interpretation, the teacher's position, and the simulated judgment's reasoning",
       "relations": [
-        "区分教材解释、教师主张和模拟裁判理由"
+        "Distinguish textbook interpretation, the teacher's position, and the simulated judgment's reasoning"
       ],
       "prerequisites": [
-        "识别原则、两个累积条件与课程时间"
+        "Identify the general rule, two cumulative conditions, and the course date"
       ],
-      "approach": "比较资助标准与实质研究标准并区分来源身份",
-      "role": "使解释争议保持为可论证的分歧",
+      "approach": "Compare the funding criterion with the substantive-research criterion while distinguishing source identities",
+      "role": "Preserve the interpretive dispute as a disagreement that can be reasoned about",
       "content_unit_ids": [
         "u05",
         "u06",
@@ -400,19 +400,19 @@
     },
     {
       "id": "ch-limits",
-      "title": "目的理由能走到哪里",
+      "title": "How far purposive reasons can go",
       "anchor": "ch-limits",
       "path": "chapters/limits.md",
       "status": "needs_review",
-      "learning_object": "说明目的解释边界并完成两种解释理由与代价的示范",
+      "learning_object": "Explain the limits of purposive interpretation and fully demonstrate the reasons and costs of both interpretations",
       "relations": [
-        "说明目的解释边界并完成两种解释理由与代价的示范"
+        "Explain the limits of purposive interpretation and fully demonstrate the reasons and costs of both interpretations"
       ],
       "prerequisites": [
-        "区分教材解释、教师主张和模拟裁判理由"
+        "Distinguish textbook interpretation, the teacher's position, and the simulated judgment's reasoning"
       ],
-      "approach": "回应原课堂好奇心反驳，给出明确标注的新写分析",
-      "role": "承接质疑而不消除文本条件",
+      "approach": "Respond to the original classroom curiosity objection with explicitly labeled new analysis",
+      "role": "Take up the objection without eliminating textual conditions",
       "content_unit_ids": [
         "u08",
         "u13"
@@ -420,19 +420,19 @@
     },
     {
       "id": "ch-version2024",
-      "title": "2024版的变化与制度评价",
+      "title": "Changes in the 2024 version and institutional evaluation",
       "anchor": "ch-version2024",
       "path": "chapters/version2024.md",
       "status": "needs_review",
-      "learning_object": "分开版本适用、解释和制度评价",
+      "learning_object": "Separate version applicability, interpretation, and institutional evaluation",
       "relations": [
-        "分开版本适用、解释和制度评价"
+        "Separate version applicability, interpretation, and institutional evaluation"
       ],
       "prerequisites": [
-        "说明目的解释边界并完成两种解释理由与代价的示范"
+        "Explain the limits of purposive interpretation and fully demonstrate the reasons and costs of both interpretations"
       ],
-      "approach": "以同一个乙对照两个版本，保留保密限制",
-      "role": "在时间与来源身份清晰的条件下理解沿革",
+      "approach": "Compare the same B under both versions, retaining the confidentiality restriction",
+      "role": "Understand development with clear time context and source identities",
       "content_unit_ids": [
         "u10",
         "u11",
@@ -442,24 +442,24 @@
   ],
   "terms": [
     {
-      "term": "2018版",
-      "decision": "2019年课程主体规则"
+      "term": "2018 version",
+      "decision": "The principal rules studied in the 2019 course"
     },
     {
-      "term": "2024版",
-      "decision": "后续教学版本，只用于显式对照"
+      "term": "2024 version",
+      "decision": "A later teaching version used only for explicit comparison"
     },
     {
-      "term": "教材限制解释",
-      "decision": "机构资助标准不属于条文原文"
+      "term": "The textbook's restrictive interpretation",
+      "decision": "The institutional-funding criterion is not part of the provision's text"
     },
     {
-      "term": "教师观点",
-      "decision": "包括符合问题与方法标准的独立研究，不冒充规范"
+      "term": "The teacher's view",
+      "decision": "Includes independent research meeting the question-and-method criteria, without presenting this view as the rule itself"
     },
     {
-      "term": "模拟裁判观点",
-      "decision": "只保留摘要所述判断与理由，不称真实判例"
+      "term": "The simulated judgment's view",
+      "decision": "Retain only the judgment and reasoning stated in the summary; do not call it real precedent"
     }
   ],
   "open_issues": [],
@@ -512,7 +512,7 @@
       "kind": "semantic",
       "scope": "full_manuscript",
       "status": "pass",
-      "method": "同一生成者实际对照原输入与落盘全文，非独立评审",
+      "method": "The same generator actually compared the original input with the complete saved manuscript; this was not independent review",
       "date": "2026-11-15",
       "evidence": "semantic-review.json",
       "output_sha256": "679e5c56c46f45d9e7bb0880b4e003b127fc8dee1d850c26ffeead4941e6cd42"
@@ -522,7 +522,7 @@
       "kind": "mechanical",
       "scope": "finite_structural_checks",
       "status": "pass",
-      "method": "运行包内 scripts/check_run.py",
+      "method": "scripts/check_run.py inside the runtime package",
       "date": "2026-11-15",
       "evidence": "check-run.json"
     },
@@ -531,7 +531,7 @@
       "kind": "semantic",
       "scope": "independent_full_manuscript",
       "status": "not_run",
-      "method": "待主任务安排独立输入—成稿对照",
+      "method": "Awaiting independent input-to-manuscript review arranged by the parent task",
       "date": "2026-11-15"
     }
   ],
@@ -541,11 +541,20 @@
   },
   "resume": {
     "completed": [
-      "完整正文",
-      "原输入全文对照",
-      "同一生成者全篇语义复核"
+      "Complete manuscript",
+      "Comparison against the entire original input",
+      "Whole-manuscript semantic review by the same generator"
     ],
     "remaining": [],
-    "next_action": "生成任务已完成；独立评审由主任务另行安排"
+    "next_action": "Generation is complete; the parent task will arrange independent review separately"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/dispute/integration-invalidated.json",
+    "original_sha256": "ef984dd7af6ab74a9d9a76b470255c3eaac28865c7784073e24edc58ee7285f4",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/dispute/integration-invalidated.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

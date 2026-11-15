@@ -5,12 +5,12 @@
   "stage": "ingest",
   "course": {
     "title": "missing",
-    "scope": "给定合成材料",
-    "jurisdiction": "教学假设，无现实法域",
+    "scope": "Supplied synthetic material",
+    "jurisdiction": "Teaching hypothetical, with no real jurisdiction",
     "time_context": "unknown",
-    "audience": "大学课程读者",
+    "audience": "University course readers",
     "assumptions": [
-      "只用输入给定规则，不外推现实法"
+      "Use only the rules supplied in the input; do not extrapolate to real law"
     ]
   },
   "inputs": [],
@@ -22,12 +22,12 @@
   "open_issues": [
     {
       "id": "issue1",
-      "question": "请提供有效转录路径或文字",
-      "impact": "缺口阻止完整成稿",
-      "resolution_condition": "用户提供必要文字或确认篇幅取舍",
+      "question": "Please provide a valid transcript path or text",
+      "impact": "The gap prevents completion of the full manuscript",
+      "resolution_condition": "The user supplies the necessary text or confirms the length tradeoff",
       "status": "open",
       "blocking": true,
-      "blocking_reason": "核心含义、可读材料或交付范围未确定"
+      "blocking_reason": "The core meaning, readable material, or delivery scope remains undetermined"
     }
   ],
   "runtime_revision": {
@@ -65,7 +65,7 @@
       "kind": "semantic",
       "scope": "edge_behavior",
       "status": "pass",
-      "method": "独立新上下文对照请求、原输入与实际输出；见限制",
+      "method": "An independent fresh context compares the request, original input, and actual output; see limitations",
       "evidence": "semantic-review.md",
       "date": "2026-11-15",
       "output_sha256": "be40a241903d5ac953ea699c8fbd96d06b2957c8795bf0d570e07931edf7c443"
@@ -77,12 +77,21 @@
   },
   "resume": {
     "completed": [
-      "可读材料检查",
-      "已保存实际响应"
+      "Readable-material check",
+      "Actual response saved"
     ],
     "remaining": [
-      "核心缺口"
+      "Core gap"
     ],
-    "next_action": "请提供有效转录路径或文字"
+    "next_action": "Please provide a valid transcript path or text"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/edges/missing/run.json",
+    "original_sha256": "29d691edf3b97bf05e12b5d54987a71a26e42cede1039c1be0fa25329294635a",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/edges/missing/run.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

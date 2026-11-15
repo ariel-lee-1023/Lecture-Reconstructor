@@ -1,77 +1,77 @@
-# 从规则到费用：三起相机借用案例
+# From Rules to Costs: Three Camera-Borrowing Cases
 
-> 合成案例课讲稿：岚桥器材社、规则、人物与凭证均为测试创作，不是任何真实法律或判决。以下金额只适用于各自题设，不是现实案件的赔偿标准。
+> Synthetic case-lecture manuscript: Mistbridge Equipment Society, its rules, people, and documents were created for testing and are not real law or judgments. Each amount applies only to its own hypothetical facts, not compensation standards for real cases.
 
-今天讨论三起相机借用案例。它们的计算都很简单，最后分别得到600元、0元和400元。但是，如果只记住这三个数字，就没有抓住本课的重点。
+Today we discuss three camera-borrowing cases. Their arithmetic is simple, yielding 600 yuan, 0 yuan, and 400 yuan respectively. But remembering only those three numbers misses the point of this lecture.
 
-我们要解决的是：器材社能否向借用人请求一笔修复费用，为什么可以请求，或者为什么不能请求。为此，需要先区分谁的费用、费用因何发生，以及是否存在影响请求成立或数额的特殊情形。
+We need to decide whether the Equipment Society can claim a particular repair cost from a borrower, and why that claim succeeds or fails. This requires distinguishing whose cost it is, why it arose, and whether special circumstances affect the claim's existence or amount.
 
-## 一、先明确请求成立的条件
+## 1. First identify the conditions for the claim
 
-岚桥器材社练习规则R1要求借用人按约定用途使用器材，并按期返还。普通磨损不构成违反义务。这里包含不同的履行要求：按期归还，不代表使用过程中就一定遵守了约定；器材出现使用痕迹，也不能不加区分地认定借用人违约。
+Mistbridge Equipment Society exercise rule R1 requires borrowers to use equipment for the agreed purpose and return it on time. Ordinary wear is not a breach. These are distinct performance requirements: timely return does not establish compliance during use, and signs of use do not indiscriminately establish a breach.
 
-规则R2进一步规定，只有同时满足以下三项条件，器材社才有修复费用请求：
+Rule R2 further provides that the Society has a claim for repair costs only if all three of the following conditions are satisfied:
 
-1. 借用人违反R1；
-2. 器材发生实际修复费用；
-3. 该违反行为造成这项修复费用。
+1. The borrower breached R1;
+2. Actual repair costs were incurred for the equipment;
+3. The breach caused those repair costs.
 
-这三个条件必须分别判断。借用人有违规行为，不能代替对实际费用的确认；存在一张修复发票，也不能代替对损坏原因的判断。发票只证明其上列载的收费，不单独证明这笔费用是由借用人的行为造成的。
+Judge these three conditions separately. A breach does not substitute for establishing actual costs, and a repair invoice does not substitute for determining the cause of damage. The invoice proves only its listed charges, not by itself that the borrower's conduct caused them.
 
-R3专门处理一种容易误判的情况：如果费用由器材原有的隐蔽缺陷独立造成，那么，即使借用人另有违反R1的行为，也仍然不满足R2的因果条件。这个规则不是奖励违规，而是要求我们只在请求条件具备时认定这笔修复费用应由借用人承担。
+R3 addresses an easily misunderstood situation: If a pre-existing latent defect independently caused the costs, R2's causal condition remains unsatisfied even if the borrower separately breached R1. The rule does not reward breaches; it requires the conditions for a claim to be met before assigning these repair costs to the borrower.
 
-R4则处理另一种情况：器材社明知缺陷却未告知，该缺陷与借用人的违规行为共同造成同一笔不可分的修复费用。这时，器材社只能请求该费用的一半。“一半”是本课规则的明确选择，不能只凭一个抽象的公平判断自行推出。
+R4 addresses a different situation: The Society knew of a defect but failed to disclose it, and the defect and the borrower's breach jointly caused the same indivisible repair cost. The Society may then claim only half the cost. 'Half' is an express choice in the course rules, not a proportion inferred merely from abstract fairness.
 
-有了这四条规则，我们再看三组事实。
+With those four rules established, we can examine the three sets of facts.
 
-## 二、甲案：按期返还不能消除违规使用的责任
+## 2. A's case: Timely return does not eliminate responsibility for misuse
 
-3月1日，甲借用相机，约定用于室内拍摄，并于3月3日归还。3月2日，甲把相机拿到雨中拍照，而说明书禁止淋雨。甲随后在3月3日按期返还。
+On March 1, A borrowed a camera for agreed indoor photography, to be returned on March 3. On March 2, A took it out to photograph in the rain, although the manual prohibited rain exposure. A then returned it on time on March 3.
 
-检修单记载，雨水进入电路是唯一损坏原因。实际修复费用为600元，已经支付，没有原有缺陷的证据。题设明确把检修单中的上述原因记载作为已经确认的事实。
+The inspection report records rainwater entering the circuitry as the sole cause of damage. Actual repair costs of 600 yuan have been paid, and there is no evidence of a pre-existing defect. The problem expressly treats the report's causal account as an established fact.
 
-课堂上可以很快说出“甲应承担600元，因为淋雨”，但完整作答不能省略其中的三步。
+One can quickly say in class that 'A must bear 600 yuan because of the rain,' but a complete answer must not omit the three steps involved.
 
-第一，甲虽然按期返还，却把约定用于室内拍摄的相机拿到雨中使用，违反了约定用途要求。因此，R1中的使用义务受到违反。按期履行返还义务，并不能说明使用义务也已经履行。
+First, although A returned the camera on time, A used a camera designated for indoor photography in the rain, breaching the agreed-use requirement. The use duty under R1 was therefore breached. Timely performance of the return duty does not establish performance of the use duty.
 
-第二，题设确认相机发生了600元实际修复费用，而且这笔费用已经支付。
+Second, the problem establishes that actual repair costs of 600 yuan arose for the camera and were paid.
 
-第三，题设已经确认雨水进入电路是唯一损坏原因，甲在雨中使用相机与这笔修复费用之间具备R2要求的因果关系。这里的原因判断来自题设确认的检修事实，并非仅仅因为存在收费凭证。
+Third, the problem establishes rainwater entering the circuitry as the sole cause of damage. A's use in the rain thus has the causal relationship to these repair costs required by R2. This causal judgment rests on the inspection facts established in the problem, not merely on the existence of a payment document.
 
-三项条件均满足，又没有题设所支持的R3或R4情形，所以器材社可以向甲请求600元修复费用。
+All three conditions are satisfied, and the facts support neither R3 nor R4. The Society may therefore claim 600 yuan in repair costs from A.
 
-还有一项容易混入计算的支出：甲自行购买了一条100元相机背带。双方没有约定报销，也没有证据表明背带是修复所需。它不能被直接加进器材社的修复费用请求。看到收据就把金额相加，会把不同主体、不同用途的支出混成同一项损失。本案已确认的600元修复费用，与甲自行购买背带的100元，应当分开处理；现有材料也不足以凭空认定甲享有背带报销请求。
+Another expense can easily slip into the calculation: A independently bought a camera strap for 100 yuan. There was no reimbursement agreement or evidence that the strap was necessary for repair. It cannot simply be added to the Society's repair-cost claim. Adding amounts whenever a receipt appears confuses expenditures by different people and for different purposes as one loss. Keep the established 600-yuan repair cost separate from A's 100-yuan strap purchase; the materials also do not justify inventing a reimbursement claim for A.
 
-## 三、乙案：违规事实不能补足因果关系
+## 3. B's case: A breach cannot supply the missing causal relationship
 
-乙也违反了室内使用约定，把相机带到干燥的室外。不过，检修已经确认，电路断裂完全源于交付前存在的隐蔽焊接缺陷，户外使用对损坏没有贡献。实际修复费用同样是600元。
+B also breached the indoor-use agreement by taking the camera outdoors in dry conditions. But inspection established that the circuit break arose entirely from a latent soldering defect existing before delivery; outdoor use contributed nothing to the damage. Actual repair costs were again 600 yuan.
 
-这次，R2的第一项条件满足，因为乙确有违反约定用途的行为；第二项条件也满足，因为实际发生了修复费用。但第三项条件不满足：乙的违规使用没有造成这项费用，费用完全由原有隐蔽缺陷独立造成。R3正是对此种情形的说明。
+Here R2's first condition is met because B did breach the agreed use. Its second condition is also met because repair costs arose. But its third condition fails: B's misuse did not cause these costs, which were independently caused entirely by the pre-existing latent defect. R3 explains precisely this situation.
 
-因此，器材社不能依这些规则向乙请求这笔600元修复费用。本案结果为0元，指的是这项修复费用请求不成立，而不是认定乙所有行为都符合约定。
+The Society therefore cannot claim these 600 yuan in repair costs from B under these rules. The result of 0 yuan means this particular repair-cost claim fails, not that everything B did complied with the agreement.
 
-有同学提出：“乙既然违规，为什么不让他承担一点，以免鼓励违规？”这是一种关于处罚的愿望，却不是R2的请求条件。我们正在判断的是这笔特定修复费用能否向乙请求。没有因果关系，就不能用惩罚违规的理由补出因果关系。是否另有处罚措施，本课规则没有规定，不能自行添加。
+A student asks, 'Since B broke the rules, why not make B bear some cost to avoid encouraging breaches?' That expresses a wish to punish, not a condition of R2's claim. The question is whether this particular repair cost may be claimed from B. A punitive reason cannot create a missing causal relationship. The course rules do not specify other penalties, so none may be added independently.
 
-甲和乙都存在违规行为，也都发生了600元修复费用，但损坏原因不同，结论就不能照抄。甲的违规行为造成了费用，乙的违规行为没有造成费用，这才是两案的关键差异。
+A and B both breached the rules, and both cases involved 600 yuan in repair costs. But their causes of damage differ, so their conclusions cannot be copied. A's breach caused the cost; B's breach did not. That is the decisive difference between the cases.
 
-## 四、丙案：共同原因下为什么只能请求一半
+## 4. C's case: Why joint causation permits only a half-cost claim
 
-丙违规在雨中拍照。与此同时，器材社明知相机密封圈已经开裂，却没有向丙告知。题设确认，雨水与裂纹共同造成了一笔不可分的800元修复费用；其中任何一个因素单独存在，都不会造成这次损坏。
+C breached the rules by photographing in the rain. The Society meanwhile knew the camera's sealing ring was cracked but did not tell C. The problem establishes that the rain and crack jointly caused one indivisible repair cost of 800 yuan. Neither factor alone would have caused this damage.
 
-丙案与乙案不同。乙案中，原有缺陷独立造成损坏，违规行为对损坏没有贡献；丙案中，违规使用与器材缺陷共同作用，丙的行为并没有被排除在损坏原因之外。因此，不能把乙案的全免结论直接搬到丙案。
+C's case differs from B's. In B's case, a pre-existing defect independently caused the damage, with no contribution from the breach. In C's case, misuse and the defect acted jointly; C's conduct remains part of the cause. B's conclusion of complete exemption therefore cannot simply be imported into C's case.
 
-丙违反约定用途，实际发生了修复费用，违规行为参与造成了这笔费用。同时，器材社明知密封圈开裂却未告知，且缺陷与违规行为造成的是同一笔不可分费用，符合R4规定的情形。
+C breached the agreed use, actual repair costs arose, and the breach contributed to causing them. At the same time, the Society knew of the cracked sealing ring without disclosing it, and the defect and breach caused the same indivisible cost. These facts satisfy R4.
 
-按照R4，器材社只能请求800元的一半，即400元。这一数额既不是因为丙完全无责任，也不是教师临时认为“一人承担一半比较公平”，而是因为题设事实满足了规则明确规定的减半条件。
+Under R4, the Society may claim only half of 800 yuan: 400 yuan. This is neither because C bears no responsibility nor because the teacher improvises that 'splitting the cost is fairer.' It follows because the facts satisfy the rule's express conditions for halving the claim.
 
-如果把事实换一下：丙案只有一张800元发票，没有查明损坏原因，那么还能直接判定请求400元吗？不能。发票本身不能证明缺陷与违规行为共同造成损坏，也不能证明器材社明知缺陷却未告知，更不能单独说明费用具有题设要求的不可分性。
+Change the facts: Suppose C's case contains only an 800-yuan invoice and the cause of damage has not been established. Can we directly award a 400-yuan claim? No. The invoice alone does not prove that defect and breach jointly caused the damage, that the Society knowingly failed to disclose the defect, or that the cost is indivisible as the problem requires.
 
-在这种材料不足的情况下，我们可以列出需要查明的事项，包括缺陷是否存在、器材社是否明知且未告知、违规行为与缺陷如何导致损坏、两者是否共同造成同一笔不可分费用。可以说明证明方向，却不能把尚缺的事实写成已经查明。
+With insufficient material, we can identify what needs establishing: whether a defect existed, whether the Society knew of it and failed to disclose it, how misuse and defect caused the damage, and whether both jointly caused the same indivisible cost. We may identify the direction of proof, but must not present missing facts as established.
 
-## 五、把结论写成有根据的判断
+## 5. Turn the conclusion into a supported judgment
 
-按照本课的考试安排，作答时先列出R2的三项要件，再把已知事实逐项放进去，并检查R3、R4是否影响判断。
+Under this course's examination arrangements, first list R2's three conditions, then match the known facts to each and check whether R3 or R4 changes the judgment.
 
-甲案的600元，建立在违规使用、实际修复费用及其因果关系均已确认的基础上。乙案的0元，来自因果条件缺失；违规行为仍然存在，但不能支持这笔修复费用请求。丙案的400元，则来自违规行为与已知未告知缺陷共同造成不可分费用，满足R4的减半条件。
+The 600 yuan in A's case rests on established misuse, actual repair costs, and causation. B's 0 yuan follows from the missing causal condition: the breach remains, but does not support this repair-cost claim. C's 400 yuan follows because the breach and a known, undisclosed defect jointly caused an indivisible cost, satisfying R4's halving conditions.
 
-所以，答案不仅要写出金额，还必须分别解释乙缺少哪个条件，以及丙为什么不能全部免除。学会这一步，才能在事实发生变化时重新判断，而不是把三组题设的数字当成可以套用的赔偿标准。
+An answer must therefore give more than the amounts. It must separately explain which condition is missing for B and why C is not completely exempt. Understanding that step allows a fresh judgment when facts change, instead of treating the three hypothetical amounts as reusable compensation standards.

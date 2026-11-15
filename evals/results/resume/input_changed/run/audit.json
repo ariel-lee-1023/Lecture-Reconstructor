@@ -188,7 +188,7 @@
       "current_sha256": "db133a1e47834d4d2bf51ea9f57d9a38fe507dd4cd7b1db003f9311d818c07e4"
     }
   ],
-  "read_range": "当前源21/21行及最终主稿全篇已实际重新读取",
+  "read_range": "All 21/21 current source lines and the entire final manuscript were actually reread",
   "source_versions": {
     "old_verified_reconstructed": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
     "current": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b"
@@ -201,7 +201,7 @@
     "stdout": {
       "status": "pass",
       "scope": "finite_structural_checks",
-      "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+      "limitation": "Only limited structural checks passed; this does not establish legal correctness, coverage of meaning, teaching quality, or learning outcomes.",
       "errors": [],
       "exit_code": 0
     },
@@ -248,5 +248,14 @@
       "sha256": "15836847aea13069d09746d6187e8563b0a1591449c1e9599d3731b5e6dd3c40"
     }
   ],
-  "restoration_performed": false
+  "restoration_performed": false,
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/input_changed/run/audit.json",
+    "original_sha256": "046f93bae69efb372427e439f23676ab2da664a1855932ed2755f282021aca57",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/input_changed/run/audit.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

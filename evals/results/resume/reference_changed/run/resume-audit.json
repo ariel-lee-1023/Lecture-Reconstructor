@@ -217,5 +217,14 @@
   "output_sha256": "0c90bb769e3e96f28a8066e6222a2ca84b179a859a4e7cf3e419e9f3a35d53eb",
   "final_run_sha256": "c60e5cea7bb9b8d29dd6f955b91e47aad5fbcad28b01f233b67382fec1fd76c1",
   "revision_round": 0,
-  "final_status": "complete"
+  "final_status": "complete",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/reference_changed/run/resume-audit.json",
+    "original_sha256": "138acc89c7f636a1e6d1639d9a780904d43246b5c3e0d2121c61659606be51de",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/reference_changed/run/resume-audit.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

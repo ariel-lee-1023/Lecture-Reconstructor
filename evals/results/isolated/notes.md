@@ -1,8 +1,8 @@
-# 重构说明
+# Reconstruction notes
 
-- 输入为明确标识的合成材料；没有音频、教材、学习者数据或外部资料。规范化快照与原输入逐字相同。
-- 第6行是教师在同一句中的口头自我修正，正文保留其澄清后的含义；未把它认定为已经通过音频确认的 ASR 错误。
-- 第13行“己17:50到达”依紧邻的撤销截止时间语境解释为开始前一日；正文显式写出“同一截止日前提”。没有推断恰好18:00这一材料未举出的边界事例。
-- 第9行的剩余时段用新增14:00至16:00的教学假设展开；这是假设，不是原课遗漏事件。未新增积分计算公式、违约补救、清障义务或充电线优先权。
-- 管理人和管理员沿用输入，不添加两个角色之间的权限差异。
-- 本次自查不等于独立评审、真实课堂试用或学习效果验证。后三者为 not_run；后续独立评审另行执行。
+- The input is explicitly synthetic. No audio, textbook, learner data, or external material was available. The normalized snapshot is textually identical to the original input.
+- Line 6 contains the teacher's spoken self-correction within the same sentence. The manuscript retains the clarified meaning; it does not classify this as an ASR error confirmed through audio.
+- Line 13's 'F arrives at 17:50' is interpreted as referring to the preceding day from the immediately adjacent cancellation-deadline context. The manuscript explicitly states 'under the same deadline.' No inference was made about the unprovided boundary case of exactly 18:00.
+- The remaining period in line 9 is explained through an added 14:00–16:00 teaching hypothetical. It is a hypothetical, not an omitted event from the original class. No points formula, breach remedy, duty to clear obstructions, or cable-borrowing priority was added.
+- The input's terms 'manager' and 'administrator' are retained without adding differences in authority between the roles.
+- This self-review is not independent review, a real classroom trial, or validation of learning outcomes. Those three are not_run; subsequent independent review is performed separately.

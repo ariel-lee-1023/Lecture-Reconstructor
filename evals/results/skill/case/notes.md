@@ -1,7 +1,7 @@
-# 重构说明
+# Reconstruction notes
 
-只有合成原课堂文本，没有实际检修单、发票或真实案件卷宗。对甲原因事实的确认来自题设，不是独立证据核验。乙的0元仅针对该项修复费；背带收据不并入；丙仅有发票的变式不作缺证已补齐处理。没有新增现实法或处罚规则。
+Only the synthetic original classroom text was available, with no actual inspection report, invoice, or real case file. Confirmation of A's causal facts comes from the stated problem, not independent evidence verification. B's zero yuan concerns only this repair-cost claim; the strap receipt is excluded. C's invoice-only variant does not treat missing evidence as supplied. No real-world law or punishment rule was added.
 
-只有本次生成者做过全篇输入—成稿对照；独立评审、真实课堂试用、学习效果测量均为 not_run。
+Only this generator has compared the entire input and manuscript; independent review, a real classroom trial, and measurement of learning outcomes are all not_run.
 
-执行环境先缺少 schemas/run.schema.json，随后主任务补入并实际读取；SKILL、四份 references 及原记录的脚本哈希重新核对均未变化。
+The execution environment initially lacked schemas/run.schema.json; the parent task subsequently supplied it and it was actually read. Rechecking SKILL, all four references, and the original recorded script hashes found no changes.

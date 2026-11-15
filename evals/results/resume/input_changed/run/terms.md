@@ -1,18 +1,18 @@
-# 全课术语决定（当前输入v2）
+# Whole-course terminology decisions (current input v2)
 
-- **进入许可**：仅指L1下注册成员可进入公共阅览区；不改写为座位保证。
-- **成功确认**：预约系统发出的成功确认；点击申请、排队、已接收均不等同。
-- **管理人／管理员**：源材料的同一管理角色：L1称管理人，L3称管理员；不推定存在两个不同机构。
-- **预约人**：已成功确认且对应具体确认时段的人；分析时说明预约关系是否仍有效。
-- **座位请求与对应义务**：预约人要求管理人在确认时段提供标准座位；不自动转成其他成员让位义务。
-- **发出与到达**：分别记录，不互换；L2撤销生效看通知到达系统。
-- **不晚于18:00**：L2的“18点前”依本练习附则包括18:00整，不推广到现实法。
-- **单方撤销**：满足L2期限与到达条件的关系消灭行为；不是成员身份取消。
-- **协商**：超过期限的另一条路线，须双方同意；仅发送请求不够。
-- **暂停**：L3安全封闭时暂停提供座位义务；不自动消灭预约或延长结束时间。
-- **届满**：原确认结束时间到来；迟到不导致顺延。
-- **受影响时段**：安全封闭与有效预约的重叠；不是预约人的实际离座时长。
-- **积分**：L4小时10积分、半小时5积分；不补造其他粒度规则。
-- **复核**：L5规则适用与时间事实审查；程序及时与实体主张成立分开。
-- **七日**：得知次日起算，第七日结束前到达；仅限本练习算法。
-- **庚**：贯穿三章同一成员；当前第13行明确周二17:59到达，与第2/18行撤销失败冲突；第19行17:59变式与当前主事实重合，不能恢复旧18:02作为主事实。
+- **Permission to enter**: means only that registered members may enter the public reading area under L1; do not rewrite it as a seat guarantee.
+- **Successful confirmation**: successful confirmation issued by the reservation system; clicking to apply, queuing, and acknowledgment are not equivalent.
+- **Manager / administrator**: the same managing role in the source: L1 says manager and L3 says administrator; do not presume two distinct institutions.
+- **Reserving person**: a person with successful confirmation for a specific period; state whether the reservation relationship remains valid in the analysis.
+- **Seat claim and corresponding duty**: the reserving person requires the manager to provide a standard seat during the confirmed period; this does not automatically become another member's duty to yield.
+- **Sending and receipt**: record separately, without substitution; cancellation under L2 takes effect on receipt of notice by the system.
+- **No later than 18:00**: L2's wording 'before 18:00' includes exactly 18:00 under this exercise's supplementary provision; do not generalize to real law.
+- **Unilateral cancellation**: an act terminating a relationship by satisfying L2's deadline and receipt conditions; it does not cancel membership.
+- **Negotiation**: an alternative route after the deadline requiring both parties' consent; merely sending a request is insufficient.
+- **Suspension**: suspension of the seating duty during a safety closure under L3; it neither automatically terminates the reservation nor extends its end time.
+- **Expiration**: arrival of the original confirmed end time; lateness does not extend it.
+- **Affected period**: the overlap between safety closure and a valid reservation, not the reserving person's actual time away from a seat.
+- **Points**: L4 charges 10 points per hour and 5 per half-hour; do not invent rules for other increments.
+- **Review**: review of rule application and timing facts under L5; procedural timeliness and substantive validity of the claim are separate.
+- **Seven days**: count from the day after awareness, with receipt before the end of day seven; this calculation is limited to the exercise.
+- **G**: The same member throughout all three chapters. Current line 13 explicitly states receipt at 17:59 Tuesday, conflicting with cancellation-failure statements in lines 2/18. Line 19's 17:59 variant coincides with the current main fact; do not restore the old 18:02 as the main fact.

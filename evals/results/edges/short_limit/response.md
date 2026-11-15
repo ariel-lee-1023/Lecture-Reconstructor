@@ -1,1 +1,1 @@
-完整覆盖三案、例外与推理无法压入100字。建议以本段为短导读，另附完整讲稿：依次解释请求三要件、甲乙丙差异、背带收据及证据限制。请确认可否采用配套正文。
+Complete coverage of the three cases, exceptions, and reasoning cannot fit into 100 Chinese characters. I suggest using this paragraph as a short introduction with a separate complete lecture manuscript: explain the three elements of the claim, the differences among A, B, and C, the strap receipt, and evidentiary limitations in turn. Please confirm whether an accompanying manuscript is acceptable.

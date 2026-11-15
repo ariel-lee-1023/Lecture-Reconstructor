@@ -1,3 +1,3 @@
-状态：`needs_input`。已修复“请球权”为“请求权”，并写好可确定的讲解与两种条件分析。
+Status: `needs_input`. 'Clame-right' has been repaired to 'claim-right', and the explanations that can be established and both conditional analyses have been written.
 
-请确认原课规则是“通知发出时生效”还是“通知到达时生效”？这决定甲能否依据该规则要求周二交付。
+Please confirm whether the original lecture's rule is 'notice takes effect when sent' or 'notice takes effect when received'. This determines whether A can demand delivery on Tuesday under that rule.

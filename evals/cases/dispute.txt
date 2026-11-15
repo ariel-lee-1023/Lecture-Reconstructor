@@ -1,13 +1,13 @@
-【合成争议与制度沿革课；以下机构、资料和观点均为测试创作，不是现行规范、真实著作或真实裁判。课程时间语境为2019年，主题是2018版练习规则。】
-我想先讲公开比较好，但上课不能把我的偏好直接写成规则。今天南岬档案馆的练习题，核心是研究者能否获得普通档案。
-课堂使用的《南岬档案使用练习规则》2018版第2条原文：“档案原则上不对外提供。申请人证明其用途为学术研究，且不涉及封存的个人秘密的，应准许阅览。”这只是课内假设规范。
-甲提出学术研究计划，所请档案没有封存的个人秘密；乙只说自己好奇，没有说明学术用途。2018版下不能因为二人都想看，就同样适用例外。
-课堂教材片段来自虚构的《档案制度练习讲义》2018版第7节，称“学术研究”只含受机构资助的项目。这是教材作者的限制解释，条文本身没有写资助条件。
-教师观点：我倾向于把有明确问题和方法的独立研究也算学术研究，以避免把机构身份变成门槛；这个看法需要解释理由，不能说是条文明文。
-课堂裁判模拟册中的“甲申请案”摘要：模拟合议庭认为独立研究者提供研究计划足以证明用途，援引目的在于促进知识使用；摘要没有交代他案事实，也没有宣称对其他案件有约束力。这里讲的是模拟裁判观点，不是真实法院判例。
-有学生问：促进知识使用的目的，难道也能让乙的好奇心变成学术研究吗？教师：目的不能直接删除规范里还存在的用途限制；独立研究是否符合概念与根本不以研究为目的，是两种问题。另一方面，隐私例外也不是只要说一句“研究”就可以越过。
-课堂另有教学假设：丙有完整研究方案，但档案含封存的个人秘密。2018版的两个条件要同时满足；前一项不能抵消后一项。是否能取得去除秘密的副本，本课规则没有规定，暂不下结论。
-刚发的补充讲义标着2024版第2条，写的是：“普通档案原则上对外提供；涉及封存的个人秘密的，不得提供。”这是与本课时间不同的后续教学版本，不是2019年已经生效的条文。不要把我刚才的2018版题目默默改成2024版。
-2024版还删去了学术用途门槛。用同样的乙作对照可以看见：变化发生在申请资格条件，保密限制仍在。是否应当这样改，属于制度评价；改后如何判断，属于依该版本规则适用。
-我的评价是新版本更便于利用；教材的资助标准、新旧规则和模拟裁判的解释理由仍各有身份。我们没有做任何现实法核验，也没有资料证明实际学习者赞同哪一方。
-本课作业要求比较两种解释的理由与代价，不要求押中考试结论。若把“教师赞成公开”写成“2018年所有档案都公开”，就是把评价偷换成规范命题。
+[Synthetic lecture on disagreement and institutional development; all institutions, materials, and views below were created for testing. They are not current rules, real publications, or real judgments. The course is set in 2019 and concerns the 2018 exercise rules.]
+I want to start by saying disclosure is better, but a class must not turn my preference directly into a rule. Today's exercise about South Cape Archives asks whether researchers can obtain ordinary archival records.
+Article 2 of the 2018 South Cape Archives Access Exercise Rules used in class states: 'In principle, archival records are not provided to outsiders. Inspection shall be permitted if the applicant proves an academic research purpose and no sealed personal secrets are involved.' This is only a hypothetical classroom rule.
+A submits an academic research plan, and the requested records contain no sealed personal secrets. B says only that they are curious and identifies no academic purpose. Under the 2018 version, the exception cannot apply to both merely because both want to inspect the records.
+The classroom textbook excerpt comes from section 7 of the fictional 2018 Archival Institutions Exercise Notes, which says that 'academic research' includes only institutionally funded projects. This is the textbook author's restrictive interpretation; the provision itself contains no funding condition.
+Teacher's position: I favor including independent research with a clear question and method as academic research, to avoid making institutional status a barrier. That view requires interpretive reasons; it is not the express wording of the provision.
+The classroom mock-judgment booklet summarizes 'A's Application': The simulated panel considered an independent researcher's research plan sufficient proof of purpose, invoking the aim of promoting the use of knowledge. The summary gives no facts of other cases and does not claim to bind them. This is a simulated judicial view, not a real court precedent.
+A student asks: Can the purpose of promoting the use of knowledge also turn B's curiosity into academic research? Teacher: A purpose cannot directly erase a use restriction still present in the rule. Whether independent research fits the concept and whether a person has no research purpose at all are different questions. Nor can the privacy exception be bypassed merely by saying 'research.'
+Another classroom hypothetical: C has a complete research proposal, but the records contain sealed personal secrets. The 2018 version requires both conditions to be satisfied; the first cannot cancel the second. The course rules do not address access to a copy with the secrets removed, so no conclusion is reached on that question.
+The supplementary handout just distributed is labeled Article 2, 2024 version: 'Ordinary archival records are in principle provided to outsiders; records involving sealed personal secrets must not be provided.' This is a later teaching version from a different time, not a provision already effective in 2019. Do not silently change the preceding 2018 problem into a 2024 problem.
+The 2024 version also removes the academic-purpose requirement. Using the same B as a comparison reveals what changed: applicant eligibility conditions, while the confidentiality restriction remains. Whether the rules should have changed this way is an institutional evaluation; how to decide under the amended version is an application of that version's rules.
+My evaluation is that the new version facilitates use. The textbook's funding criterion, the old and new rules, and the simulated judgment's interpretive reasons still have distinct identities. We have verified no real law and have no evidence showing which position actual learners support.
+The assignment for this lecture asks you to compare the reasons and costs of the two interpretations, not predict an examination conclusion. Turning 'the teacher favors disclosure' into 'all records were public in 2018' substitutes a normative proposition for an evaluation.

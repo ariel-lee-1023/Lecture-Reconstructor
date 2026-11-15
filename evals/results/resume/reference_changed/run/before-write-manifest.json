@@ -64,7 +64,7 @@
     "resume-audit.json": "absent"
   },
   "backup_location": "history/before-resume",
-  "write_constraint": "所有写入限本分支run；旧文件在run内独立history快照保存，不修改包。",
+  "write_constraint": "All writes are confined to this branch's run. Old files are preserved in separate history snapshots inside the run; the package is not modified.",
   "new_paths": {
     "resume-audit.json": "absent",
     "invalidated-run.json": "absent",
@@ -86,5 +86,14 @@
     "history/after-chapter-2-reviewed.json": "absent",
     "history/after-chapter-1.json": "absent",
     "history/after-chapter-3-reviewed.json": "absent"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/reference_changed/run/before-write-manifest.json",
+    "original_sha256": "d4915c88696d625bd7ab77116cbc622ccba2d445b8fae354b0e157b562f384e2",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/reference_changed/run/before-write-manifest.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

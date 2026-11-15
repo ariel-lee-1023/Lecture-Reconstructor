@@ -1,56 +1,56 @@
-# A08 reference_changed 独立评审
+# A08 reference_changed independent review
 
-结论：**pass**。未发现阻塞缺陷。直接读取全部21行原文与当前186行完整讲稿后，核对规则、反例、时间事件和全课衔接；此结论不以内容映射或生成代理自报通过替代正文审查。
+Conclusion: **pass**. No blocking defect found. After directly reading all 21 original lines and the current complete 186-line manuscript, checked rules, counterexamples, timed events, and whole-course connections. Content mappings and the generator's self-reported pass did not replace manuscript review.
 
-主稿：`resume-reference_changed/run/lecture.md`  
-SHA-256：`0c90bb769e3e96f28a8066e6222a2ca84b179a859a4e7cf3e419e9f3a35d53eb`  
-评审UTC：`2026-11-15T02:33:10.916977+00:00`
+Main manuscript: `resume-reference_changed/run/lecture.md`<br/>
+SHA-256: `0c90bb769e3e96f28a8066e6222a2ca84b179a859a4e7cf3e419e9f3a35d53eb`<br/>
+Review UTC: `2026-11-15T02:33:10.916977+00:00`
 
-## 恢复证据
+## Recovery evidence
 
-1. **输入未变。** 原断点、分支历史副本与当前原始/规范化输入均为 `077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6`。原断点run、第一章、第一章旧评审与历史副本逐字一致，旧证据未覆写。
-2. **Reference确变。** 原记录哈希为 `d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3`，当前为 `07a2fa38245585dc499dbd47b1ad7c34015a199a3790421fff32a3d9e1b08f07`。独立去除新增“本轮恢复复核：时间条件案例须逐项核对事件名称、时刻与规则触发点，不能仅核对数字是否相同。”精确后缀，可重新算得旧哈希；其余已记录runtime文件未变。
-3. **先检出、失效再刷新。** `pre-resume-check.json`与`checks/resume-initial.json`记录RUNTIME_CHANGED/退出2。本评审对`before-resume-run.json`、`invalidated-run.json`分别实际运行当前检查器，两者都返回2。失效快照仍保留旧reference哈希、三章needs_review、活动全篇语义not_run，旧pass/date/章哈希转入historical_checks，hash_refresh_status为not_yet_refreshed。
-4. **影响分析具体。** `impact-analysis.md`准确定位新增要求，检查对象覆盖确认、发出/到达、封闭/恢复/届满、重叠区间、得知/申请到达和17:59变式；没有把方法变化当作规则事实变化。
-5. **有新的复核证据。** `checks/chapter-1-resumed-semantic.md`重新核对周一确认与周三履行、L1触发点；第一章正文哈希保持原值，但新评审独立记录，未改绑旧pass。第二、三章有drafted→reviewed快照与逐源证据；全篇证据绑定当前主稿哈希。最后run三章assembled、status complete，本评审独立运行最终检查器返回0。
+1. **Input unchanged.** The original checkpoint, historical branch copies, and current raw/normalized inputs all have `077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6`. The original checkpoint run, Chapter 1, its old review, and historical copies match byte for byte; old evidence was not overwritten.
+2. **The reference genuinely changed.** The recorded original hash is `d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3`; the current hash is `07a2fa38245585dc499dbd47b1ad7c34015a199a3790421fff32a3d9e1b08f07`. Independently removing the exact added suffix, “Review for this resumption: for cases involving time conditions, check each event name, time, and rule trigger; do not merely check whether the numbers match,” reproduces the old hash. All other recorded runtime files are unchanged.
+3. **Detection and invalidation preceded refreshing.** `pre-resume-check.json` and `checks/resume-initial.json` record RUNTIME_CHANGED/exit 2. This reviewer actually ran the current checker on `before-resume-run.json` and `invalidated-run.json`; both returned 2. The invalidated snapshot still retains the old reference hash, needs_review for all three chapters, and not_run for the active whole-manuscript semantic review. The old pass/date/chapter hashes were moved into historical_checks, and hash_refresh_status is not_yet_refreshed.
+4. **The impact analysis is specific.** `impact-analysis.md` accurately identifies the new requirement. Its checks cover confirmation, sending/receipt, closure/reopening/expiry, overlapping intervals, learning of the decision/receipt of the application, and the 17:59 variant. It does not treat a method change as a change to rules or facts.
+5. **There is new review evidence.** `checks/chapter-1-resumed-semantic.md` rechecks Monday confirmation, Wednesday performance, and the L1 trigger. Chapter 1 retains its original body hash, but the new review is recorded independently rather than rebinding an old pass. Chapters 2 and 3 have drafted-to-reviewed snapshots and source-by-source evidence; whole-manuscript evidence is bound to the current manuscript hash. The final run records all three chapters as assembled and status complete; this reviewer independently ran the final checker, which returned 0.
 
-这些证据支持本次确有影响分析与新复核，不能解释成只刷新哈希盲续。历史时间顺序仍属于保留快照与日期所支持的结论，并非外部不可篡改执行日志证明。
+This evidence supports actual impact analysis and fresh review, rather than merely refreshing hashes and continuing blindly. The historical sequence remains a conclusion supported by preserved snapshots and dates, not proof from an external tamper-proof execution log.
 
-## 直接对源核验
+## Direct verification against the source
 
-| 原文行 | 主稿行 | 核验结果 |
+| Original line | Manuscript line | Verification result |
 |---|---|---|
-| 1 | 7, 7 | 合成身份、非现行法/真实课堂、无前后课材料均保留。 |
-| 2 | 10, 12, 153, 161 | 周一成功确认周三10—12的整体任务在第三章兑现。 |
-| 3 | 17, 19, 29, 33 | L1区分许可与管理人标准座位义务；点击、排队、已接收不等于成功确认。 |
-| 4 | 38, 47 | 甲无乙让位依据、丁对应管理人义务；两层关系并存且未把义务转移给乙。 |
-| 5 | 52, 54 | 借充电线边缘例保留，无优先/交付承诺，禁止移植座位规则。 |
-| 6 | 22, 24 | 许可无用反问及作用对象回应完整。 |
-| 7 | 59, 63 | 第一章只确认关系成立，未预判一定履行至12点。 |
-| 8 | 73, 77 | L2前一日不晚于18:00到达，含整点；发送不等于到达，协商需双方同意。 |
-| 9 | 82, 87 | 戊17:50发出/18:05到达失败；己18:00到达成功；撤销不取消成员/许可。 |
-| 10 | 92, 94 | L3即时安全险情、可暂停/应退、非自动撤销、剩余有效且不延时均保留。 |
-| 11 | 97, 99, 127, 127 | 辛10—12预约、10—11封闭、11开放；11:30迟到仍12届满，给出L4后才算退10。 |
-| 12 | 102, 102 | 没坐满即全退的反驳保留，个人迟到不等于封闭影响。 |
-| 13 | 107, 113, 155, 155 | 庚周二17:58发出/18:02收到，无合意证据；周三10—11暂停、11恢复、12届满。 |
-| 14 | 123, 127 | L4每小时10/半小时5，仅整半小时；L3只取有效预约与封闭重叠。 |
-| 15 | 132, 136 | 壬9:30—10:30封闭与10—12预约重叠半小时，退5；错误退10的原因及剩余有效均解释。 |
-| 16 | 141, 143 | L5得知次日起算、第七日结束前到达；检查规则/时间事实，不推定管理员正确、不增设自动暂停。 |
-| 17 | 146, 148 | 癸周四得知，下周四为第七日；缺得知日期不能编造期限结论，限练习算法。 |
-| 18 | 153, 161 | 庚扣20对应计价，应退10、已退5、补退5、正确净扣10；下周三申请且到达为第六日，程序及时与实体根据分开。 |
-| 19 | 166, 170 | 17:59到达明确为变式，及时撤销后L3前提失效；L2结算缺口保留，未造退0/退10/全退。 |
-| 20 | 175, 177 | 教师提示归属、完整案例四步、概念比较例外及不保证现实评分均保留。 |
-| 21 | 182, 186 | 回扣四组区别、限定合成规则，无未提供前课假说；未声称实际学习效果。 |
+| 1 | 7, 7 | Retains the synthetic identity, exclusion of current law/real classroom claims, and absence of preceding or subsequent lecture materials. |
+| 2 | 10, 12, 153, 161 | The whole task of Monday confirmation for Wednesday 10:00–12:00 is resolved in chapter 3. |
+| 3 | 17, 19, 29, 33 | L1 distinguishes permission from the administrator's duty to provide a standard seat; clicking, queuing, and receipt do not equal successful confirmation. |
+| 4 | 38, 47 | A has no basis to demand that B give up a seat; D has a corresponding claim against the administrator. Both relationships coexist, and the duty is not transferred to B. |
+| 5 | 52, 54 | Retains the peripheral charging-cable example: no priority or delivery promise, and no transplantation of the seat rule. |
+| 6 | 22, 24 | Fully retains the objection that permission is useless and the response distinguishing what each relationship concerns. |
+| 7 | 59, 63 | Chapter 1 establishes only formation of the relationship, without prejudging guaranteed performance through 12:00. |
+| 8 | 73, 77 | L2 requires receipt no later than 18:00 on the preceding day, including exactly 18:00. Sending differs from receipt, and negotiation requires both parties' agreement. |
+| 9 | 82, 87 | E's notice sent at 17:50/received at 18:05 fails; F's received at 18:00 succeeds. Cancellation does not terminate membership or permission. |
+| 10 | 92, 94 | Retains L3's immediate safety hazard, power to suspend/duty to refund, absence of automatic cancellation, continuing validity of the remaining interval, and no extension. |
+| 11 | 97, 99, 127, 127 | H reserves 10:00–12:00; closure lasts 10:00–11:00 and reopening occurs at 11:00. Arrival at 11:30 still leaves expiry at 12:00; the refund of 10 is calculated only after L4 supplies the rate. |
+| 12 | 102, 102 | Retains the objection demanding a full refund whenever the entire reserved time is unused; personal lateness is distinguished from closure effects. |
+| 13 | 107, 113, 155, 155 | G sends on Tuesday at 17:58; receipt is at 18:02, with no evidence of agreement. Wednesday suspension is 10:00–11:00, reopening 11:00, expiry 12:00. |
+| 14 | 123, 127 | L4 charges 10 per hour/5 per half-hour, using whole half-hours only. L3 counts only the overlap of valid reservation and closure. |
+| 15 | 132, 136 | I's closure at 9:30–10:30 overlaps the 10:00–12:00 reservation by half an hour, yielding a refund of 5. Explains why refunding 10 is wrong and why the remainder stays valid. |
+| 16 | 141, 143 | L5 counts from the day after learning of the decision, requiring receipt before the end of day 7. It checks rules/time facts, presumes no administrator correctness, and adds no automatic suspension. |
+| 17 | 146, 148 | J learns on Thursday, making the following Thursday day 7. A missing knowledge date cannot be replaced with an invented deadline conclusion; the calculation is limited to the exercise. |
+| 18 | 153, 161 | G's debit of 20 follows the rate; refund due 10, already refunded 5, additional refund 5, correct net debit 10. An application sent and received the next Wednesday falls on day 6; procedural timeliness is separate from substantive grounds. |
+| 19 | 166, 170 | Receipt at 17:59 is explicitly a variant. Timely cancellation removes L3's prerequisite; L2's settlement gap remains, with no invented refund of 0/10/all points. |
+| 20 | 175, 177 | Retains attribution of the teacher's advice, the four steps for complete cases, the exception for conceptual comparisons, and no guarantee about real examination marking. |
+| 21 | 182, 186 | Returns to four distinctions, stays within the synthetic rules, invents no prior-lecture premises, and claims no actual learning outcomes. |
 
-三章衔接见主稿10—12、61—68、113—118、153—161、182—186行：关系成立提供后续对象，撤销/暂停判断提供有效时段，第三章再计算并独立审查复核期限。开头庚的整体任务与辛的计价伏笔均兑现，未假设前课已经证明。庚主事实始终为17:58发出、18:02到达；17:59明确限定为变式。
+Connections across the three chapters appear at manuscript lines 10–12, 61–68, 113–118, 153–161, and 182–186: formation establishes the relationship for later analysis; cancellation/suspension determines valid intervals; chapter 3 then calculates and separately reviews the application deadline. G's opening whole task and H's foreshadowed rate calculation are completed without assuming an earlier lecture proved anything. G's main facts consistently remain sending at 17:58 and receipt at 18:02; 17:59 is expressly confined to a variant.
 
-缺陷：无已发现的阻塞或非阻塞内容缺陷。此为有限直接对源评审，不能穷尽未来材料可能触发的问题。
+Defects: no blocking or nonblocking content defects identified. This is a bounded direct source review and cannot exhaust problems that future materials might trigger.
 
-## 独立性与结论范围
+## Independence and scope of the conclusion
 
-- 本评审代理未参与该分支生成；先直接读原21行与完整186行主稿，再读生成代理自查证据。生成过程与本次评审属于同一模型体系，不是独立人类评审或跨模型复现。
-- 只读取指定原断点run、reference_changed的run/pre-resume-check及必要package SKILL/references/checker；初始文件清单列出其他package路径但未打开其内容；未读取其他恢复分支、未联网。
-- 历史执行先后依据保留快照、记录日期、不同状态及可重复哈希检查；本评审没有当场见证原恢复过程，记录不是外部不可篡改日志。
-- 结论限此21行合成恢复夹具与当前主稿，不证明上下文极限、真实课堂试用或学习效果。机械退出0仅证明有限结构约束。
+- This review agent did not participate in generating the branch. It first directly read the original 21 lines and complete 186-line manuscript, then the generating agent's self-review evidence. Generation and this review belong to the same model system; they are neither independent human review nor cross-model replication.
+- Read only the designated original checkpoint run, the reference_changed run/pre-resume-check, and necessary package SKILL/references/checker. The initial inventory listed other package paths without opening their contents. No other recovery branches were read and no online research was performed.
+- The historical sequence is based on preserved snapshots, recorded dates, different states, and reproducible hash checks. This reviewer did not witness the original recovery as it happened; the records are not an external tamper-proof log.
+- Conclusions are limited to this 21-line synthetic recovery fixture and the current manuscript. They establish neither context limits, real classroom trials, nor learning outcomes. Mechanical exit 0 establishes only bounded structural constraints.
 
-真实课堂试用：not_run。学习效果：not_run。上下文极限测试：not_run。
+Real classroom trial: not_run. Learning outcomes: not_run. Context-limit test: not_run.

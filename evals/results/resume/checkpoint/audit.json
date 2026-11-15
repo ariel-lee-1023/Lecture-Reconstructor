@@ -118,5 +118,14 @@
       "path": "checks/mechanical.json",
       "sha256": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb"
     }
-  ]
+  ],
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/checkpoint/audit.json",
+    "original_sha256": "f3a3116699096b96b7809708c14c81c7ee30687d06098b0ce65cb7e767334869",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/checkpoint/audit.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

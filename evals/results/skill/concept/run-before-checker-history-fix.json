@@ -4,14 +4,14 @@
   "status": "complete",
   "stage": "deliver",
   "course": {
-    "title": "安澜学习社：许可、请求与关系变动",
-    "scope": "仅重构实际提供的合成课堂转录，不引入现实法或真实案例",
-    "jurisdiction": "课内虚构规则，不对应现实法域",
+    "title": "Calmwater Study Society: permission, claims, and changes in legal relations",
+    "scope": "Reconstruct only the synthetic classroom transcript actually supplied, without importing real law or real cases",
+    "jurisdiction": "Fictional classroom rules, not a real jurisdiction",
     "time_context": "unknown",
-    "audience": "大学课程读者；无实际学习者数据",
+    "audience": "University-course readers; no actual learner data",
     "assumptions": [
-      "原输入明确标示全部规则、人物与课堂事例为合成材料",
-      "不假定提供了音频、独立教材全文或真实学习表现"
+      "The original input expressly identifies all rules, people, and classroom examples as synthetic",
+      "Do not assume audio, a separate complete textbook, or actual learning performance was supplied"
     ]
   },
   "inputs": [
@@ -35,11 +35,11 @@
   "content_units": [
     {
       "id": "u01",
-      "proposition": "【合成课堂转录；全部人物、机构、规则和事例均为测试创作，不对应现行法或真实课堂。没有配套教材、音频或学习者数据。】",
-      "excerpt": "【合成课堂转录；全部人物、机构、规则和事例均为测试创作，不对应现行法或真实课堂。没有配套教材、音频或学习者数据。】",
+      "proposition": "[Synthetic classroom transcript; all people, institutions, rules, and examples were created for testing and do not represent current law or a real class. No accompanying textbook, audio, or learner data is available.]",
+      "excerpt": "[Synthetic classroom transcript; all people, institutions, rules, and examples were created for testing and do not represent current law or a real class. No accompanying textbook, audio, or learner data is available.]",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -59,11 +59,11 @@
     },
     {
       "id": "u02",
-      "proposition": "今天说学习社的“有权”。我先说答案吧，允许进去，不一定就有座位。我们只使用这套安澜学习社练习规则，不讨论外部法律。",
-      "excerpt": "今天说学习社的“有权”。我先说答案吧，允许进去，不一定就有座位。我们只使用这套安澜学习社练习规则，不讨论外部法律。",
+      "proposition": "Today we discuss 'having a right' in the Study Society. Let me give the answer first: permission to enter does not necessarily mean having a seat. We use only these Calmwater Study Society exercise rules, without discussing external law.",
+      "excerpt": "Today we discuss 'having a right' in the Study Society. Let me give the answer first: permission to enter does not necessarily mean having a seat. We use only these Calmwater Study Society exercise rules, without discussing external law.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -83,11 +83,11 @@
     },
     {
       "id": "u03",
-      "proposition": "规则一：注册成员可以进入公共阅览区；这里的“可以”只表示社内没有禁止成员进入，不保证空位，也不要求别人搬走。",
-      "excerpt": "规则一：注册成员可以进入公共阅览区；这里的“可以”只表示社内没有禁止成员进入，不保证空位，也不要求别人搬走。",
+      "proposition": "Rule One: Registered members may enter the common reading area. Here, 'may' means only that the Society does not prohibit members from entering; it guarantees neither a vacant seat nor that anyone else must move.",
+      "excerpt": "Rule One: Registered members may enter the common reading area. Here, 'may' means only that the Society does not prohibit members from entering; it guarantees neither a vacant seat nor that anyone else must move.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -107,11 +107,11 @@
     },
     {
       "id": "u04",
-      "proposition": "规则二：成员取得系统的预约确认后，在确认写明的两小时内可以要求管理人提供一个标准座位，管理人负有提供座位的义务；确认从成功回执发出时成立，不是从点击预约键时成立。",
-      "excerpt": "规则二：成员取得系统的预约确认后，在确认写明的两小时内可以要求管理人提供一个标准座位，管理人负有提供座位的义务；确认从成功回执发出时成立，不是从点击预约键时成立。",
+      "proposition": "Rule Two: After obtaining the system's reservation confirmation, a member may require the manager to provide one standard seat during the two hours stated in the confirmation, and the manager has a duty to provide it. Confirmation arises when the successful receipt is sent, not when the reservation button is clicked.",
+      "excerpt": "Rule Two: After obtaining the system's reservation confirmation, a member may require the manager to provide one standard seat during the two hours stated in the confirmation, and the manager has a duty to provide it. Confirmation arises when the successful receipt is sent, not when the reservation button is clicked.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -131,11 +131,11 @@
     },
     {
       "id": "u05",
-      "proposition": "规则三：预约人可在开始前一日18点之前撤销预约。撤销通知到达系统后，规则二的双方关系消灭。超过18点，单方撤销不产生这个效果；双方仍可另行协商。",
-      "excerpt": "规则三：预约人可在开始前一日18点之前撤销预约。撤销通知到达系统后，规则二的双方关系消灭。超过18点，单方撤销不产生这个效果；双方仍可另行协商。",
+      "proposition": "Rule Three: The person who reserved may cancel before 18:00 on the day before the reservation begins. Once the cancellation notice reaches the system, both parties' relationship under Rule Two ends. After 18:00, unilateral cancellation does not have that effect, although the parties may still negotiate separately.",
+      "excerpt": "Rule Three: The person who reserved may cancel before 18:00 on the day before the reservation begins. Once the cancellation notice reaches the system, both parties' relationship under Rule Two ends. After 18:00, unilateral cancellation does not have that effect, although the parties may still negotiate separately.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -155,11 +155,11 @@
     },
     {
       "id": "u06",
-      "proposition": "先记下义务对应请求，许可与没有义务，哎不是说别人没有义务，就是自己没有不进入的义务。我们回头再解释。",
-      "excerpt": "先记下义务对应请求，许可与没有义务，哎不是说别人没有义务，就是自己没有不进入的义务。我们回头再解释。",
+      "proposition": "For now, note that a duty corresponds to a claim, while permission corresponds to absence of a duty—no, I do not mean that other people have no duties, but that you have no duty not to enter. We will explain this later.",
+      "excerpt": "For now, note that a duty corresponds to a claim, while permission corresponds to absence of a duty—no, I do not mean that other people have no duties, but that you have no duty not to enter. We will explain this later.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -179,11 +179,11 @@
     },
     {
       "id": "u07",
-      "proposition": "甲今天上午到阅览区，没预约，见乙坐着，说我也是成员，所以你得让座。成员可以进入，乙也是成员，规则一没给甲这个结论。别只在答案里写“甲没有权”，要说清缺的是哪一种。",
-      "excerpt": "甲今天上午到阅览区，没预约，见乙坐着，说我也是成员，所以你得让座。成员可以进入，乙也是成员，规则一没给甲这个结论。别只在答案里写“甲没有权”，要说清缺的是哪一种。",
+      "proposition": "A arrives at the reading area this morning without a reservation, sees B seated, and says, 'I am a member too, so you must give up your seat.' Members may enter, and B is also a member, but Rule One does not support A's conclusion. Do not simply write 'A has no right'; explain which kind of right is missing.",
+      "excerpt": "A arrives at the reading area this morning without a reservation, sees B seated, and says, 'I am a member too, so you must give up your seat.' Members may enter, and B is also a member, but Rule One does not support A's conclusion. Do not simply write 'A has no right'; explain which kind of right is missing.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -203,11 +203,11 @@
     },
     {
       "id": "u08",
-      "proposition": "刚才讲预约之前，还有个很小的事：丙只收到“申请已接收”，没收到“预约确认”。虽然工作人员说系统一般很快，丙还不能据此要求标准座位。这与丙有没有进入许可是两回事。",
-      "excerpt": "刚才讲预约之前，还有个很小的事：丙只收到“申请已接收”，没收到“预约确认”。虽然工作人员说系统一般很快，丙还不能据此要求标准座位。这与丙有没有进入许可是两回事。",
+      "proposition": "Before the discussion of reservations, there was another small point: C received only 'application received,' not 'reservation confirmed.' Although staff say the system is usually quick, C cannot yet demand a standard seat on that basis. This is separate from whether C has permission to enter.",
+      "excerpt": "Before the discussion of reservations, there was another small point: C received only 'application received,' not 'reservation confirmed.' Although staff say the system is usually quick, C cannot yet demand a standard seat on that basis. This is separate from whether C has permission to enter.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -227,11 +227,11 @@
     },
     {
       "id": "u09",
-      "proposition": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不另加时。",
-      "excerpt": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不另加时。",
+      "proposition": "Rule Four is an exception: When an immediate safety hazard requires closing the premises, the manager may suspend the duty to provide seats under Rule Two and must refund the corresponding reservation points. Whether the remaining period resumes after closure depends on whether the confirmed two hours have expired; no extra time is added.",
+      "excerpt": "Rule Four is an exception: When an immediate safety hazard requires closing the premises, the manager may suspend the duty to provide seats under Rule Two and must refund the corresponding reservation points. Whether the remaining period resumes after closure depends on whether the confirmed two hours have expired; no extra time is added.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -251,11 +251,11 @@
     },
     {
       "id": "u10",
-      "proposition": "丁拿着确认来，座位满了，但不存在险情。管理员说“每个人都有进入自由，所以我不用给你安排”。这个理由不成立。注册资格与确认产生的关系可以同时存在，不能拿前者消去后者。",
-      "excerpt": "丁拿着确认来，座位满了，但不存在险情。管理员说“每个人都有进入自由，所以我不用给你安排”。这个理由不成立。注册资格与确认产生的关系可以同时存在，不能拿前者消去后者。",
+      "proposition": "D arrives with confirmation, but all seats are occupied and there is no hazard. The manager says, 'Everyone has freedom to enter, so I need not arrange a seat for you.' That reason fails. Membership status and the relationship created by confirmation can coexist; the former cannot erase the latter.",
+      "excerpt": "D arrives with confirmation, but all seats are occupied and there is no hazard. The manager says, 'Everyone has freedom to enter, so I need not arrange a seat for you.' That reason fails. Membership status and the relationship created by confirmation can coexist; the former cannot erase the latter.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -275,11 +275,11 @@
     },
     {
       "id": "u11",
-      "proposition": "学生问：大家都有进入许可，那我的进入不是总能迫使别人让开吗？老师：你把自己不受禁止，与别人必须配合混在一起了。规则里没给别人让位义务。入口被物品堵住是否另有义务，我们没有材料，不扩展成结论。",
-      "excerpt": "学生问：大家都有进入许可，那我的进入不是总能迫使别人让开吗？老师：你把自己不受禁止，与别人必须配合混在一起了。规则里没给别人让位义务。入口被物品堵住是否另有义务，我们没有材料，不扩展成结论。",
+      "proposition": "Student: If everyone has permission to enter, does my entry not always force others to make way? Teacher: You are confusing not being prohibited yourself with other people's duty to cooperate. The rules impose no duty on others to give up their places. Whether objects blocking the entrance create some other duty is beyond the materials we have; do not extend this into a conclusion.",
+      "excerpt": "Student: If everyone has permission to enter, does my entry not always force others to make way? Teacher: You are confusing not being prohibited yourself with other people's duty to cooperate. The rules impose no duty on others to give up their places. Whether objects blocking the entrance create some other duty is beyond the materials we have; do not extend this into a conclusion.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -299,11 +299,11 @@
     },
     {
       "id": "u12",
-      "proposition": "顺便，充电线可以借用只是教学中的口头例子，没有给借线者对他人的优先请求；这一点也能看出许可和请求的差别。这个小例子不要带到规则二中去，规则二只承诺座位。",
-      "excerpt": "顺便，充电线可以借用只是教学中的口头例子，没有给借线者对他人的优先请求；这一点也能看出许可和请求的差别。这个小例子不要带到规则二中去，规则二只承诺座位。",
+      "proposition": "Incidentally, permission to borrow a charging cable is only an oral teaching example. It gives the borrower no priority claim against anyone else, and also illustrates the difference between permission and a claim. Do not import this small example into Rule Two, which promises only a seat.",
+      "excerpt": "Incidentally, permission to borrow a charging cable is only an oral teaching example. It gives the borrower no priority claim against anyone else, and also illustrates the difference between permission and a claim. Do not import this small example into Rule Two, which promises only a seat.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -323,11 +323,11 @@
     },
     {
       "id": "u13",
-      "proposition": "撤销是另一层：戊提前一天17:50发出，18:05才到达系统，不合条件。己17:50到达系统，关系随之消灭。改变的是对座位的请求和提供义务，不是成员身份与进入许可。",
-      "excerpt": "撤销是另一层：戊提前一天17:50发出，18:05才到达系统，不合条件。己17:50到达系统，关系随之消灭。改变的是对座位的请求和提供义务，不是成员身份与进入许可。",
+      "proposition": "Cancellation is another layer: E sends notice at 17:50 on the preceding day, but it reaches the system only at 18:05, so the conditions are not met. F's notice reaches the system at 17:50, and the relationship ends accordingly. What changes is the claim to a seat and the duty to provide one, not membership or permission to enter.",
+      "excerpt": "Cancellation is another layer: E sends notice at 17:50 on the preceding day, but it reaches the system only at 18:05, so the conditions are not met. F's notice reaches the system at 17:50, and the relationship ends accordingly. What changes is the claim to a seat and the duty to provide one, not membership or permission to enter.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -347,11 +347,11 @@
     },
     {
       "id": "u14",
-      "proposition": "本课考试提示只代表本课教师的安排：题目如果问“有权吗”，先写双方是谁、针对什么行为、是进入许可还是请求座位或撤销关系，再写成立条件，不以背下术语多少计分。",
-      "excerpt": "本课考试提示只代表本课教师的安排：题目如果问“有权吗”，先写双方是谁、针对什么行为、是进入许可还是请求座位或撤销关系，再写成立条件，不以背下术语多少计分。",
+      "proposition": "This examination advice reflects only this teacher's arrangements: If a question asks 'Is there a right?', first identify both parties, the conduct concerned, and whether the issue is permission to enter, a claim to a seat, or cancellation of the relationship. Then state the conditions under which it arises. Scores do not depend on how many terms you memorize.",
+      "excerpt": "This examination advice reflects only this teacher's arrangements: If a question asks 'Is there a right?', first identify both parties, the conduct concerned, and whether the issue is permission to enter, a claim to a seat, or cancellation of the relationship. Then state the conditions under which it arises. Scores do not depend on how many terms you memorize.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -371,11 +371,11 @@
     },
     {
       "id": "u15",
-      "proposition": "好，最后回到甲和丁。面对同一间满座的阅览室，一个只凭成员资格，一个取得有效确认，差别不在谁更需要座位，而在产生他人义务的条件是否具备。安全险情的例外还要另查，不能从“有确认”一步跳到任何情况下都必须安排。",
-      "excerpt": "好，最后回到甲和丁。面对同一间满座的阅览室，一个只凭成员资格，一个取得有效确认，差别不在谁更需要座位，而在产生他人义务的条件是否具备。安全险情的例外还要另查，不能从“有确认”一步跳到任何情况下都必须安排。",
+      "proposition": "Finally, return to A and D. They face the same full reading room: one relies only on membership, while the other has valid confirmation. The difference is not who needs a seat more, but whether the conditions creating another person's duty are met. The safety-hazard exception must also be checked separately; do not jump from 'has confirmation' to a duty to provide a seat in every circumstance.",
+      "excerpt": "Finally, return to A and D. They face the same full reading room: one relies only on membership, while the other has valid confirmation. The difference is not who needs a seat more, but whether the conditions creating another person's duty are met. The safety-hazard exception must also be checked separately; do not jump from 'has confirmation' to a duty to provide a seat in every circumstance.",
       "type": "source_content",
       "status": "represented",
-      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "reason": "Expressed in the prose and checked against the original input by the same generator; see semantic-review.json",
       "locations": [
         {
           "input_id": "transcript",
@@ -398,25 +398,25 @@
     {
       "id": "original-class",
       "uri": "input/original.txt",
-      "version": "隔离输入原始快照",
-      "locator": "1–15行；书名、条文与裁判均只由该输入提供",
+      "version": "Original snapshot of the isolated input",
+      "locator": "Lines 1–15; titles, provisions, and judgments are supplied solely by this input",
       "read_status": "read"
     }
   ],
   "chapters": [
     {
       "id": "ch-permission",
-      "title": "进入许可究竟允许什么",
+      "title": "What permission to enter actually permits",
       "anchor": "ch-permission",
       "path": "chapters/permission.md",
       "status": "assembled",
-      "learning_object": "区分自己的行为许可与他人的配合义务",
+      "learning_object": "Distinguish permission for one's own conduct from another person's duty to cooperate",
       "relations": [
-        "区分自己的行为许可与他人的配合义务"
+        "Distinguish permission for one's own conduct from another person's duty to cooperate"
       ],
       "prerequisites": [],
-      "approach": "以甲的让座主张和原课堂反驳作完整对照",
-      "role": "为座位请求的独立依据建立概念起点",
+      "approach": "Use A's demand for a seat to be yielded and the original classroom objection as a complete contrast",
+      "role": "Establish a conceptual starting point for the independent grounds of a claim to a seat",
       "content_unit_ids": [
         "u01",
         "u02",
@@ -429,19 +429,19 @@
     },
     {
       "id": "ch-reservation",
-      "title": "从申请到座位请求",
+      "title": "From application to a claim to a seat",
       "anchor": "ch-reservation",
       "path": "chapters/reservation.md",
       "status": "assembled",
-      "learning_object": "识别确认成立、请求对象、时间与给付内容",
+      "learning_object": "Identify formation by confirmation, the person against whom the claim lies, the time, and the required performance",
       "relations": [
-        "识别确认成立、请求对象、时间与给付内容"
+        "Identify formation by confirmation, the person against whom the claim lies, the time, and the required performance"
       ],
       "prerequisites": [
-        "区分自己的行为许可与他人的配合义务"
+        "Distinguish permission for one's own conduct from another person's duty to cooperate"
       ],
-      "approach": "将丙的申请接收和丁的有效确认放在相同进入许可背景中比较",
-      "role": "显示许可与请求可以并存",
+      "approach": "Compare receipt of C's application with D's effective confirmation against the same background permission to enter",
+      "role": "Show that permission and a claim-right can coexist",
       "content_unit_ids": [
         "u04",
         "u08",
@@ -450,19 +450,19 @@
     },
     {
       "id": "ch-cancellation",
-      "title": "撤销如何改变双方关系",
+      "title": "How cancellation changes the parties' relationship",
       "anchor": "ch-cancellation",
       "path": "chapters/cancellation.md",
       "status": "assembled",
-      "learning_object": "判断到达时间及撤销效果的范围",
+      "learning_object": "Assess receipt time and the scope of cancellation's effects",
       "relations": [
-        "判断到达时间及撤销效果的范围"
+        "Assess receipt time and the scope of cancellation's effects"
       ],
       "prerequisites": [
-        "识别确认成立、请求对象、时间与给付内容"
+        "Identify formation by confirmation, the person against whom the claim lies, the time, and the required performance"
       ],
-      "approach": "逐一分析戊与己的通知时刻",
-      "role": "区分关系变动与成员身份",
+      "approach": "Analyze the notice times for E and F individually",
+      "role": "Distinguish a change in the relationship from membership status",
       "content_unit_ids": [
         "u05",
         "u13"
@@ -470,19 +470,19 @@
     },
     {
       "id": "ch-exception",
-      "title": "安全例外与完整作答",
+      "title": "The safety exception and a complete answer",
       "anchor": "ch-exception",
       "path": "chapters/exception.md",
       "status": "assembled",
-      "learning_object": "同时检查请求成立、关系存续和安全例外",
+      "learning_object": "Check claim formation, continuation of the relationship, and the safety exception together",
       "relations": [
-        "同时检查请求成立、关系存续和安全例外"
+        "Check claim formation, continuation of the relationship, and the safety exception together"
       ],
       "prerequisites": [
-        "判断到达时间及撤销效果的范围"
+        "Assess receipt time and the scope of cancellation's effects"
       ],
-      "approach": "恢复甲丁完整对比并讲解本课考试要求",
-      "role": "整合判断而不以术语或单一条件替代分析",
+      "approach": "Return to the complete A/D comparison and explain this course's examination requirements",
+      "role": "Integrate the judgments instead of substituting terminology or a single condition for analysis",
       "content_unit_ids": [
         "u09",
         "u14",
@@ -492,20 +492,20 @@
   ],
   "terms": [
     {
-      "term": "许可",
-      "decision": "仅表示本人没有相反行为义务，不自动推出他人配合义务"
+      "term": "Permission",
+      "decision": "Means only that the person has no duty to refrain from that conduct; it does not automatically create another person's duty to cooperate"
     },
     {
-      "term": "请求座位",
-      "decision": "规则二成员对管理人的一个标准座位请求，限确认两小时"
+      "term": "Claim to a seat",
+      "decision": "Under Rule 2, a member's claim against the administrator for one standard seat, limited to the two confirmed hours"
     },
     {
-      "term": "撤销",
-      "decision": "通知依规则三及时到达后消灭预约双方关系"
+      "term": "Cancellation",
+      "decision": "Timely receipt of notice under Rule 3 terminates the reservation relationship between the parties"
     },
     {
-      "term": "退还预约积分",
-      "decision": "保留规则四的积分单位，不写现金退款"
+      "term": "Return reservation points",
+      "decision": "Retain points as Rule 4's unit; do not describe a cash refund"
     }
   ],
   "open_issues": [],
@@ -558,7 +558,7 @@
       "kind": "semantic",
       "scope": "full_manuscript",
       "status": "pass",
-      "method": "同一生成者实际对照原输入与落盘全文，非独立评审",
+      "method": "The same generator actually compared the original input with the complete saved manuscript; this was not independent review",
       "date": "2026-11-15",
       "evidence": "semantic-review.json",
       "output_sha256": "8611c165f82ff0e998026455f8f1e17f658a2825b55dfea0c54a3a44b0c00282"
@@ -568,7 +568,7 @@
       "kind": "mechanical",
       "scope": "finite_structural_checks",
       "status": "pass",
-      "method": "运行包内 scripts/check_run.py",
+      "method": "scripts/check_run.py inside the runtime package",
       "date": "2026-11-15",
       "evidence": "check-run.json"
     },
@@ -577,7 +577,7 @@
       "kind": "semantic",
       "scope": "independent_full_manuscript",
       "status": "not_run",
-      "method": "待主任务安排独立输入—成稿对照",
+      "method": "Awaiting independent input-to-manuscript review arranged by the parent task",
       "date": "2026-11-15"
     },
     {
@@ -585,7 +585,7 @@
       "kind": "semantic",
       "scope": "full_manuscript",
       "status": "pass",
-      "method": "独立于生成者的原文与全稿对照，含检查器版本变化影响分析",
+      "method": "Comparison of original text and complete manuscript independent of the generator, including impact analysis for the checker-version change",
       "evidence": "independent-review.md",
       "date": "2026-11-15",
       "output_sha256": "8611c165f82ff0e998026455f8f1e17f658a2825b55dfea0c54a3a44b0c00282"
@@ -595,7 +595,7 @@
       "kind": "mechanical",
       "scope": "runtime_impact",
       "status": "pass",
-      "method": "实际差异核对：仅包路径检查器，正文与教学依赖字节未变；39项测试",
+      "method": "Actual difference check: only the package-path checker changed; manuscript and teaching-dependency bytes were unchanged; 39 tests",
       "evidence": "portability-impact.json",
       "date": "2026-11-15"
     }
@@ -606,12 +606,21 @@
   },
   "resume": {
     "completed": [
-      "全部章节",
-      "全篇统稿",
-      "独立语义复核",
-      "检查器升级影响复核"
+      "All chapters",
+      "Full-manuscript editing",
+      "Independent semantic review",
+      "Impact review of the checker upgrade"
     ],
     "remaining": [],
-    "next_action": "交付"
+    "next_action": "Delivery"
+  },
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/concept/run-before-checker-history-fix.json",
+    "original_sha256": "10738a482a5e7e8241cf35c141665fa605766daa7a2c8caf7744e0e00151cb94",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/concept/run-before-checker-history-fix.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
   }
 }

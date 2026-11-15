@@ -33,7 +33,7 @@
     "resume-write.py": "absent"
   },
   "backup_location": "resume-backup",
-  "boundary_note": "本任务明确限定所有写入在run内；因此旧稿备份放run/resume-backup，未写run外。所有旧输入不覆盖。",
+  "boundary_note": "The task explicitly limited all writes to run, so old manuscripts were backed up under run/resume-backup rather than outside run. No old input was overwritten.",
   "last_written": {
     "before-resume.json": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630",
     "invalidated-run.json": "ef102cb96081f8b4fc8f89eac2459334385ae0a94d524e59c38d12af231e95d9",
@@ -184,5 +184,14 @@
       "before_sha256": "341cd5ff6aeb31b635fdd9cc7b98fee1d72db662f32114a51ca21fa881e6ee79",
       "after_sha256": "a2e0f5e11f04c931922ffdbb0d301fa71e50486a9c21bbb12ecaac7b9e244d1c"
     }
-  ]
+  ],
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/resume/input_changed/run/resume-mutations.json",
+    "original_sha256": "cf972fc438fa70d705d65cf236aaa16f20721bca6f66f1ca8ccabd44d46ef850",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/resume/input_changed/run/resume-mutations.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

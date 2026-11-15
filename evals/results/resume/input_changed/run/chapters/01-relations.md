@@ -1,63 +1,63 @@
 <a id="ch-1"></a>
-# 第一章　可以进入，为什么还不等于有人必须提供座位？
+# Chapter 1: Why permission to enter does not yet mean someone must provide a seat
 
 <a id="ch1-scope"></a>
-本课讨论一个学习社怎样把进入、预约、撤销、积分与复核连接起来。以下规则、人物、数据都来自一份合成教学材料，属于教学假设，不是现行法律，也不是真实课堂或真实案件的记录。我们只在这套练习规则的范围内推理。没有前后课资料，因此理解本课所需的关系，要在这里说明。
+This lecture examines how a study society connects entry, reservations, cancellation, points, and review. All rules, people, and data below come from synthetic teaching material. They are teaching hypotheticals, not current law or a record of an actual class or case. We reason only within this exercise's rules. No materials from preceding or subsequent classes are available, so the relationships needed to understand this lecture must be explained here.
 
 <a id="ch1-whole-task"></a>
-先把最终需要处理的事情摆在面前。庚是学习社成员，周一预约了周三10点至12点的座位，并收到成功确认。此后，他又尝试取消，周三场地发生封闭，最后还涉及退还积分。这个经历把几个问题连在了一起：庚起初取得了什么？这项关系后来有没有改变？哪些后果由哪些条件触发？如果对处理结果有异议，应怎样复核？
+First place the eventual problem before us. G is a society member who reserves a seat on Monday for Wednesday 10:00–12:00 and receives successful confirmation. G later attempts cancellation; the premises close on Wednesday, and a points refund is ultimately involved. The sequence connects several questions: what did G acquire initially? Did that relationship later change? Which conditions trigger which consequences? How should an objection to the result be reviewed?
 
-现有材料在这里有一处会改变答案的矛盾：它将庚的取消称为“失败”，但后面的明确时刻写的是周二17:59到达系统，按本练习的撤销规则属于及时。以下先讲清能够独立确定的规则和案例，再把这处矛盾的后果说明白；不能先把“失败”当成已证事实。
+The current source contains a contradiction that changes the answer: it labels G's cancellation 'failed,' but later explicitly says the notice reached the system Tuesday at 17:59, which is timely under the exercise's cancellation rule. The following first explains independently determinable rules and cases, then makes this contradiction's consequences clear. 'Failed' cannot be treated as an established fact in advance.
 
-我们先从起点讲起。如果连“可以进入”和“可以要求谁提供什么”都没有分清，后面的撤销、费用与复核就会失去分析对象。第一章的任务是确定关系如何成立；后续发生什么，将在具备相关规则和事实后继续判断。
+Begin at the starting point. Unless we distinguish 'may enter' from 'may require whom to provide what,' later analysis of cancellation, charges, and review will lose its object. Chapter 1 identifies how the relationship is established. Later developments will be assessed once the relevant rules and facts are available.
 
 <a id="ch1-permission"></a>
-## 一、进入许可的作用，要对准进入行为
+## 1. Direct permission to enter toward the act of entering
 
-练习规则L1先规定：注册成员享有进入公共阅览区的许可，但许可不保证座位。这两句话一起限定了许可的内容。
+Exercise Rule L1 first provides that registered members have permission to enter the public reading area, but that permission does not guarantee a seat. Together, these statements delimit the permission's content.
 
-注册成员可以进入，意味着在本规则下，成员的进入行为不受到禁止。这里回答的是“成员可不可以进入”。它没有同时回答“是否一定有空座位”，也没有指定某个他人必须为了成员的进入而完成某种给付。把进入许可写成座位保证，就把许可的作用对象从进入行为悄悄换成了座位供给。
+Registered members may enter, meaning that this rule does not prohibit their act of entry. It answers 'May the member enter?' It does not also answer 'Will a seat necessarily be available?' or designate someone else who must provide something for the member's entry. Rewriting permission to enter as a seat guarantee silently shifts its object from entering to supplying a seat.
 
 <a id="ch1-student-objection"></a>
-合成材料安排了一个学生反问：“许可完全没用吗？”这个反问值得保留，因为只说“许可不保证座位”，容易让人误以为许可没有任何作用。它确实有作用：它排除了本规则下对进入行为的禁止。问题在于，这种作用还不足以保证另一个结果——一定有座位可用。能够进入和能够获得座位是两个不同的问题；说明前一个条件不保证后一个结果，并没有否认前一个条件本身的意义。
+The synthetic material includes a student's objection: 'Is permission completely useless?' This objection deserves preservation because saying only that permission does not guarantee a seat may suggest that permission has no effect at all. It does have an effect: it excludes a prohibition on entry under this rule. That effect simply does not suffice to guarantee a different result: that a seat will be available. Being able to enter and being able to obtain a seat are different questions. Explaining that the first condition does not guarantee the second result does not deny the first condition's significance.
 
-因此，分析时不要急着把概念分成“有用”与“没用”。先说清它改变了谁、对什么行为、处于什么位置。L1中的进入许可改变的是注册成员对进入行为的位置；座位是否有保障，还要看另一个条件。
+Do not rush to divide concepts into 'useful' and 'useless.' First identify whose position changes and with respect to which conduct. L1's permission to enter changes the registered member's position concerning entry. Whether seating is guaranteed depends on another condition.
 
 <a id="ch1-confirmation"></a>
-## 二、成功确认，才是座位义务成立的条件
+## 2. Successful confirmation is the condition establishing the seating duty
 
-L1接着规定：预约系统发出成功确认后，管理人才对该预约人负有在确认时段提供标准座位的义务。这里已经指明了关系两端：一端是得到成功确认的预约人，另一端是管理人；义务的内容是在确认时段提供标准座位。
+L1 then provides that only after the reservation system issues successful confirmation does the manager owe that reserving member a standard seat during the confirmed period. Both sides of the relationship are specified: the person receiving successful confirmation and the manager. The duty is to provide a standard seat during that period.
 
-相应地，说预约人可以要求管理人提供座位，不是从“他可以进入”推出来的，而是依据L1中这一项独立规定。它要求一个特定事实成立：系统已经发出成功确认。点击申请、看到排队提示，或者收到“已接收”消息，都不等于满足这个条件。申请进入处理过程和预约获得成功确认，不能混用。
+Accordingly, the reserving member's ability to require a seat from the manager follows from this independent provision of L1, not from 'this person may enter.' It requires a specific fact: the system has issued successful confirmation. Clicking to apply, seeing a queue notice, and receiving a 'received' message do not satisfy that condition. An application entering processing and a reservation receiving successful confirmation must not be conflated.
 
-这也说明为什么必须保留消息的具体性质。若材料只写“收到消息”，就不能擅自把它解释为成功确认；若材料明确写了成功确认，则应承认这个条件已经满足。关系判断取决于规则要求的事实，而不只取决于当事人主观上觉得预约已经办好。
+This also explains why the message's specific character matters. If the material says only 'a message was received,' do not assume it was successful confirmation. If successful confirmation is expressly stated, acknowledge that the condition is satisfied. The relationship depends on the fact required by the rule, not merely the person's subjective belief that the reservation is settled.
 
 <a id="ch1-jia"></a>
-## 三、甲与丁：座位同样满了，依据却不同
+## 3. A and D: the seats are equally full, but the grounds differ
 
-先看甲。甲只是注册成员，看到座位坐满了，就要求乙让座。甲的注册使他取得进入公共阅览区的许可；但在给定的L1中，没有一条规则把甲的注册身份转化成乙的让位义务。因此，不能仅凭甲是成员，就推出乙必须让出自己的座位。
+Consider A first. A is only a registered member and demands that B yield after seeing all seats occupied. Registration gives A permission to enter the public reading area, but the supplied L1 contains no rule turning A's membership into B's duty to give way. A's membership alone therefore cannot establish that B must surrender the seat.
 
-这个判断的范围需要说准：我们是在指出甲目前给出的依据不足以推出乙让位，而不是凭空断言一切情形下任何人都绝不可能负有让位义务。本课只给出了这些规则，不能替甲补造另一项义务依据。
+State this judgment's scope precisely: A's presently supplied grounds do not establish B's duty to yield. This is not an unsupported assertion that no one could ever owe such a duty in any circumstances. Only these rules are provided, and we cannot invent another basis for A's demanded duty.
 
 <a id="ch1-ding"></a>
-再看丁。丁已经收到成功确认，到场时座位也满了。这一次，除了进入许可，还存在L1规定的预约关系。管理人不能只用“大家都可以进入”来否认自己在确认时段向丁提供标准座位的义务，因为进入许可没有取代成功确认所产生的义务。
+Now consider D. D has received successful confirmation, and the seats are also full on arrival. This time, besides permission to enter, the reservation relationship under L1 exists. The manager cannot deny the duty to provide D a standard seat during the confirmed period merely because 'everyone may enter.' Permission to enter has not replaced the duty created by successful confirmation.
 
-甲与丁面前都出现了“座位满了”这个事实，但决定分析结果的条件不同：甲只有注册，丁还有成功确认；同时，甲提出的是让乙让位，丁对应的是管理人的座位义务。两案并不是只替换了人名的同一道题。应当分别指出义务是否有依据，以及义务相对人是谁。不能把管理人的义务再自动转移给正在使用座位的乙。
+Both A and D face the same fact of full occupancy, but the decisive conditions differ: A has only registration, whereas D also has successful confirmation. Moreover, A demands that B yield, while D's relationship concerns the manager's seating duty. The cases are not identical problems with names merely swapped. Identify separately whether a duty has a basis and who owes it. The manager's duty must not automatically be transferred to B, who currently occupies a seat.
 
-这两层关系可以并存。一个人能够进入，和管理人必须向这个人提供确认时段内的标准座位，并不相互排斥。前者不会自动产生后者；后者也不会因为前者同样存在而消失。
+These two relationships can coexist. A person's ability to enter and the manager's duty to provide that person a standard seat during the confirmed period do not exclude each other. The former does not automatically create the latter, and the latter does not disappear because the former also exists.
 
 <a id="ch1-cable"></a>
-## 四、借充电线：不能靠相似用语扩大规则
+## 4. Borrowing a charging cable: similar wording cannot expand a rule
 
-材料还安排了一个边缘例子。工作人员说“可以借线”，却没有承诺优先权，也没有承诺对某个人负有交付充电线的义务。不能一听到“可以借”，就补上“工作人员必须立即交给我”或“我享有优先取得”的结论。
+The material includes a boundary example. An employee says 'you may borrow a cable,' but promises neither priority nor a duty to deliver a charging cable to a specific person. Hearing 'may borrow' does not authorize adding 'the employee must give it to me immediately' or 'I have priority in obtaining it.'
 
-这个例子与座位问题相连的地方，是许可性表述不自动等于他人的给付义务。它的边界同样重要：L1关于成功确认后提供标准座位的规定，只说明座位关系。不能因为两件事都发生在学习社，就把借线许可改写成座位预约成功确认，也不能把座位规则直接移植成充电线交付规则。比较帮助我们检查推论，但比较本身不会创设材料没有给出的规则。
+The connection to seating is that permissive language does not automatically establish another person's duty to provide something. The boundary is equally important: L1's provision of a standard seat after successful confirmation governs only the seating relationship. Both activities occurring in the society does not turn cable-borrowing permission into successful seat-reservation confirmation, nor turn the seating rule into a cable-delivery rule. Comparison helps test an inference; it does not create rules absent from the materials.
 
 <a id="ch1-geng"></a>
-## 五、回到庚：现在可以确定什么？
+## 5. Return to G: what can we establish now?
 
-回到开头的庚。他是成员，因此在L1下具有进入公共阅览区的许可。他还在周一为周三10点至12点的预约收到成功确认，这又满足了预约关系成立的条件。依据L1，管理人由此对庚负有在该确认时段提供标准座位的义务。
+Return to G from the opening. As a member, G has permission under L1 to enter the public reading area. On Monday, G also received successful confirmation for Wednesday 10:00–12:00, satisfying the condition establishing the reservation relationship. Under L1, the manager consequently owes G a standard seat during that confirmed period.
 
-到这里，我们已经找到了后续分析的起点，却还不能把这个起点直接写成最终结果。关系成立之后，是否发生有效撤销，是否在某个时段暂停，以及何时届满，都需要对应的规则和事实。第一章尚未展开这些规则，所以此时准确的结论是“预约关系已经成立”，不能提前断言庚最终一定能够坐到12点。
+We have now established the starting point for later analysis, but cannot treat it as the final outcome. After establishment, valid cancellation, suspension during a particular period, and expiration each require their corresponding rules and facts. Chapter 1 has not yet developed those rules, so the accurate conclusion now is 'the reservation relationship was established,' not that G must ultimately be able to remain seated until 12:00.
 
-接下来要分析的，正是一个已经成立的关系怎样变动。继续分析时，要带着本章已经区分的两个对象：成员的进入许可，以及成功确认产生的座位请求和管理人的对应义务。只有把对象分清，才能判断后来某项行为究竟改变了哪一层关系。
+The next question is precisely how an established relationship changes. Carry forward the two objects distinguished here: the member's permission to enter, and the seat claim created by successful confirmation with the manager's corresponding duty. Distinguishing them is necessary to determine which relationship a later act changes.

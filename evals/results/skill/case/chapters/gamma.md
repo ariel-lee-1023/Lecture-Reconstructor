@@ -1,16 +1,16 @@
 <a id="ch-gamma"></a>
-## 四、丙案：为什么减半，而不是全部免除
+## 4. C's case: Why halve the claim rather than exempt C completely?
 
-丙在雨中违规使用相机，器材社明知密封圈已经裂开，却没有告知。题设进一步确认：雨水与裂纹共同造成一笔不可分的800元修复费，单独任一因素都不会造成该次损坏。
+C misused the camera in the rain. The Society knew the sealing ring was cracked but did not disclose it. The problem further establishes that rain and crack jointly caused one indivisible repair cost of 800 yuan; neither factor alone would have caused this damage.
 
-这一次，R2的三个条件都有对应事实：雨中违规使用构成违反R1；存在实际800元修复费；违规使用是与裂纹共同造成损坏的原因。不能因为另有原有缺陷，就把第三项条件抹去。因果关系可以存在于共同作用之中，题设并未要求违规行为必须是唯一原因才与费用相关。
+This time all three R2 conditions have corresponding facts: Prohibited rain use breaches R1; actual repair costs are 800 yuan; and misuse jointly with the crack caused the damage. A pre-existing defect does not erase the third condition. Causation can operate jointly; the problem does not require the breach to be the sole cause to be connected with the cost.
 
-再检查R4的专门条件：器材社明知密封圈裂开却未告知；裂纹与丙的违规行为共同致损；造成的是同一笔不可分费用。上述事实均已明确给出，所以器材社只能请求800元的一半，即400元。这个比例由R4决定，而非由我们自行衡量双方谁更值得同情。
+Next examine R4's specific conditions: The Society knowingly failed to disclose the cracked ring; the crack and C's breach jointly caused damage; and the resulting cost is the same indivisible expense. All these facts are expressly supplied, so the Society may claim only half of 800 yuan, or 400 yuan. R4 sets that proportion, not our personal judgment about which party deserves more sympathy.
 
-丙为何不与乙一样全免？乙案已经确认原有缺陷独立造成损坏，违规户外使用没有任何贡献；丙案恰好改变了这个条件，违规雨中使用与裂纹共同致损，单独任一因素都不足以造成这次损坏。把“原有缺陷独立致损”与“原有缺陷参与共同致损”都缩成“相机本来有问题”，就会失去决定两案差别的事实。丙案不能照搬R3的零元结论，而应适用R4的减半后果。
+Why is C not entirely exempt like B? In B's case, the pre-existing defect independently caused damage and prohibited outdoor use contributed nothing. C's case changes precisely that condition: Prohibited rain use and the crack jointly caused damage, neither alone being sufficient. Compressing 'independent damage from a pre-existing defect' and 'joint damage involving a pre-existing defect' into 'the camera already had a problem' erases the decisive factual distinction. C cannot import R3's zero result; R4's halving consequence applies.
 
-现在保留一个证据不足的变式。假如丙案只有800元发票，没有上述原因查明，就不能仅凭发票宣布R4适用。还需要确定是否存在违规使用、是否存在缺陷、器材社是否明知而未告知，以及缺陷与违规是否共同导致同一不可分修复费用。列出这些需要证明的事项，不等于已经证明它们；也不能反过来从证据缺口直接认定器材社一定全额胜诉或借用人一定全免。本变式可以确定的是，发票不足以完成现有因果与R4条件的判断。
+Now retain a variant with insufficient evidence. If C's case contains only an 800-yuan invoice without the causal findings above, the invoice alone cannot establish that R4 applies. We must also establish misuse, a defect, the Society's knowing non-disclosure, and whether defect and misuse jointly caused the same indivisible repair cost. Listing matters to prove does not prove them. Nor can evidential gaps establish that the Society necessarily wins the full amount or the borrower is fully exempt. What this variant does establish is that the invoice is insufficient to decide causation and R4's conditions.
 
-按本课教师的考试提示，答案先列R2三项要件，再逐项绑定已知事实，最后检查R3或R4的相关情形。对乙要明确指出缺少因果条件，对丙要说明共同原因为什么排除了直接照搬乙案全免的可能，并写出减半的规则依据。甲600元、乙0元、丙400元，是三组特定题设的结果，不是现实案件的一般赔偿标准。
+Following this teacher's examination advice, first list R2's three conditions, connect each to known facts, then examine R3 or R4. For B, identify the missing causal condition. For C, explain why joint causation prevents importing B's complete exemption, and identify the rule supporting halving. A's 600 yuan, B's 0 yuan, and C's 400 yuan are results of three specific hypotheticals, not general compensation standards for real cases.
 
-这三案共同展示了同一种写作方法：先固定请求，再把事实送入相应条件，随后检查特殊规则与证据限制，最后才计算金额。只把“违规”“有发票”“相机有缺陷”写进答案，还没有完成论证；必须说出这些事实各自支持什么，又不能支持什么。
+All three cases demonstrate one writing method: Fix the claim, match facts to the relevant conditions, examine special rules and evidential limits, and only then calculate the amount. Listing 'breach,' 'invoice,' and 'camera defect' does not complete the argument. Explain what each fact supports and what it cannot support.

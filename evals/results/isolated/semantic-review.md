@@ -1,27 +1,27 @@
-# 全稿语义自查证据
+# Whole-manuscript semantic self-review evidence
 
-- 评审者：本次生成讲稿的同一 Codex 子代理；独立评审为 not_run。
-- 时间：2026-11-15T02:18:19.383907+00:00
-- 所评主稿 SHA-256：7f1e76ed0469f9e8db2f5278e5c01dd2eedc56654d6add8d6d9fd65d973f59d0
-- 方法：再次实际读取原始 concept.txt 全部15行与完整 lecture.md，直接逐段对照；不是只核对预先制作的内容清单。之后仅将两处编辑提示式措辞改为讲解式过渡，并复核修改段。未读取外部规则、教材、evals或独立参考答案。
-- 结论：本次自查 pass，未发现待修关键缺陷；不证明外部法律正确性、真实课堂效果或学习效果。
+- Reviewer: the same Codex subagent that generated this manuscript; independent review is not_run.
+- Time: 2026-11-15T02:18:19.383907+00:00
+- Reviewed main-manuscript SHA-256: 7f1e76ed0469f9e8db2f5278e5c01dd2eedc56654d6add8d6d9fd65d973f59d0
+- Method: reread all 15 lines of the original concept.txt and the complete lecture.md, comparing them directly paragraph by paragraph rather than checking only the prepared content inventory. Then changed only two editor-style prompts into explanatory transitions and reviewed the revised passages. No external rules, textbooks, evals, or independent model answers were read.
+- Conclusion: this self-review is pass, with no critical defect found that requires repair; it does not establish external legal correctness, real classroom effectiveness, or learning outcomes.
 
-| 输入定位 | 正文定位与实际核对证据 | 结果 |
+| Input location | Manuscript location and actual comparison evidence | Result |
 |---|---|---|
-| 1–2 | 开头明确全部合成、无教材音频或学习者数据；第一节及结尾只讨论给定学习社规则。 | 保留范围 |
-| 3、6 | ch-permission 写明注册成员不负不进入义务，同时保留不保证空位、不要求搬走；把教师同句自我修正落实为主体明确的解释，未当作音频核验。 | 否定及主体未变 |
-| 7 | ch-permission 和 ch-synthesis 保留甲、乙、无预约及乙在座；结论限定为无让座依据，同时承认进入许可。 | 原例完整 |
-| 4 | ch-reservation 保留成员、管理人、一个标准座位、确认写明的两小时和请求对应义务；明确成功回执发出时成立而非点击时。 | 时间触发未偷换 |
-| 8 | ch-reservation 单独解释丙收到申请接收、没有确认；工作人员一般很快不补足确认，进入许可另判。 | 小案例及区别完整 |
-| 10、15 | ch-reservation、ch-exception、ch-synthesis 保留丁、满座、有效确认、无险情；许可与请求并存，决定因素为义务成立条件而非需求强弱。 | 原结论与理由完整 |
-| 11 | ch-objection 实际承接原有学生反驳，指出从不受禁止跳到他人配合的缺口；入口堵物有无其他义务明确无材料，未作正反扩张。 | 实质反驳及边界完整 |
-| 12 | ch-objection 保留充电线口头例子、无优先请求，并说明规则二只承诺座位，不移植借线关系。 | 小例子未遗失 |
-| 5、13 | ch-cancellation 保留开始前一日18点之前、到达时消灭关系，戊17:50发出18:05到达不合条件、己17:50到达生效；己日期语境作为显式前提；不改变成员身份或进入许可。 | 发出与到达未混同 |
-| 5 | ch-cancellation 保留超期单方撤销不能消灭关系和双方仍可协商；未将可能协商冒充达成协议。 | 独立路径保留 |
-| 9 | ch-exception 保留即时险情且必须封闭、可暂停提供、应退相应积分；解除后看原两小时是否届满，只恢复剩余时段，不加时。 | 例外全部要素完整 |
-| 9的解释 | ch-exception 的14:00–16:00假设明确为新增教学假设；15:30解除仅剩半小时，16:10解除已无剩余；未增加积分公式或新规则。 | 新增身份及推理清楚 |
-| 14 | ch-synthesis 明确考试提示只属本课教师，保留双方、行为、权利种类、条件及不以背术语数量计分；给出完整示范答案。 | 提示未泛化 |
+| 1–2 | The opening identifies all material as synthetic, with no textbook, audio, or learner data; section 1 and the conclusion discuss only the supplied society rules. | Scope preserved |
+| 3, 6 | ch-permission states that registered members have no duty not to enter while retaining the lack of a seat guarantee or duty to move. The teacher's self-correction within the same sentence becomes an explanation with an explicit subject, not an audio-verification claim. | Negation and subject unchanged |
+| 7 | ch-permission and ch-synthesis retain A, B, the absence of a reservation, and B's occupied seat. The conclusion is limited to the absence of a basis for demanding that B yield, while acknowledging permission to enter. | Original example complete |
+| 4 | ch-reservation retains the member, manager, one standard seat, two confirmed hours, and the duty corresponding to the claim. It explicitly establishes confirmation on issuance of the success receipt, not on clicking. | Timing trigger not substituted |
+| 8 | ch-reservation separately explains that C received an application acknowledgment but no confirmation. The employee's statement about usual speed does not supply confirmation; permission to enter is assessed separately. | Small case and distinction complete |
+| 10, 15 | ch-reservation, ch-exception, and ch-synthesis retain D, full occupancy, valid confirmation, and no emergency. Permission and a claim coexist; the decisive factor is the conditions establishing the duty, not greater need. | Original conclusion and reasons complete |
+| 11 | ch-objection actually addresses the original student objection, identifying the gap between absence of a prohibition and others' cooperation. The lack of material on any separate duty concerning a blocked entrance is explicit, with no extension in either direction. | Substantive objection and boundary complete |
+| 12 | ch-objection retains the spoken charging-cable example and absence of a priority claim, explaining that Rule 2 promises only a seat and does not import the cable-borrowing relationship. | Small example retained |
+| 5, 13 | ch-cancellation retains the deadline before 18:00 on the preceding day and termination on receipt. E sends at 17:50 but arrives at 18:05 and fails the conditions; F arrives at 17:50 and cancellation takes effect. F's date context is an explicit premise. Membership and permission to enter do not change. | Sending and receipt not conflated |
+| 5 | ch-cancellation retains both the inability of late unilateral cancellation to end the relationship and the parties' ability to negotiate. Possible negotiation is not represented as an agreement already reached. | Independent route retained |
+| 9 | ch-exception retains the immediate emergency requiring closure, permission to suspend provision, and duty to refund corresponding points. After reopening, check whether the original two hours have expired; restore only the remainder, without extra time. | All exception elements complete |
+| Explanation of 9 | ch-exception explicitly identifies the 14:00–16:00 example as an added teaching hypothetical. Reopening at 15:30 leaves half an hour; reopening at 16:10 leaves none. No points formula or new rule is added. | Added status and reasoning clear |
+| 14 | ch-synthesis explicitly attributes the examination advice only to this course's teacher, retaining the parties, conduct, right type, conditions, and absence of marks for merely reciting terms; complete model answers are provided. | Advice not generalized |
 
-全篇额外检查：六节均为可直接阅读的解释性正文；后章使用前章已解释的许可、请求与义务，未引入空悬先修。管理人/管理员沿输入称谓，不添加机构层级。原学生问答没有冒充本次真实学习者互动；新增时段没有冒充原课事实。正文中的未知补救、清障、积分公式均保持边界，没有把外部法律常识移植进合成规则。
+Additional whole-manuscript checks: all six sections contain explanatory prose that can be read directly. Later sections use permission, claims, and duties already explained earlier, without introducing unsupported prerequisites. 'Manager' and 'administrator' follow the input's wording without adding an institutional hierarchy. The original student dialogue is not presented as an actual interaction with the current learner, and the added timing example is not presented as an original classroom fact. Unknown remedies, obstruction-clearing duties, and points formulas remain outside the established scope. External legal assumptions were not imported into the synthetic rules.
 
-聚焦修订第1轮只改两处讲授过渡：将“丙就是一个容易遗漏的小例子”改为“丙的情形可以帮助我们辨认这几个环节”；将“充电线的口头小例子也要保留”改为“再看原课提到的充电线例子”。实体命题、条件和案例没有变化。本轮后未留关键缺陷。
+Focused revision round 1 changed only two teaching transitions: 'C is an easily missed small example' became 'C's situation helps distinguish these stages'; 'The spoken charging-cable example must also be retained' became 'Next consider the charging-cable example from the original class.' Substantive propositions, conditions, and cases did not change. No critical defect remained after this round.

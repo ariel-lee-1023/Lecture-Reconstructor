@@ -1,14 +1,14 @@
 <a id="ch-version2024"></a>
-## 四、版本改变以后，哪些判断随之改变
+## 4. Which judgments change when the version changes?
 
-补充讲义中的2024版第2条写道：“普通档案原则上对外提供；涉及封存的个人秘密的，不得提供。”这与2018版有两处重要差别：普通档案由原则不对外提供改为原则对外提供；学术用途门槛被删去。涉及封存个人秘密的保密限制仍然存在。
+Article 2 in the 2024 supplementary handout states: 'Ordinary archival records are in principle provided to outsiders; records involving sealed personal secrets must not be provided.' It differs materially from 2018 in two respects: Ordinary records shift from presumptive non-disclosure to presumptive disclosure, and the academic-purpose threshold is removed. The restriction concerning sealed personal secrets remains.
 
-这里必须先固定时间。课程语境是2019年，主体题目使用2018版；2024版是后续教学版本的对照材料。不能因为手里看到了较新版本，就说2019年已经适用它，也不能悄悄用它改写原来的甲乙丙判断。
+Fix the time context first. The course is set in 2019, and its main problems use the 2018 version. The 2024 version is later teaching material for comparison. Seeing a newer version does not mean it applied in 2019 and does not permit silently rewriting the original A, B, and C judgments.
 
-把同一个乙放在两版规则下，变化便很清楚。乙仍然只是好奇，这个人的用途陈述没有变化；改变的是规则是否要求证明学术研究。2018版下，现有用途陈述不足以满足准许例外。2024版下，好奇心本身不再成为学术用途门槛上的障碍，因为该门槛已被删除。但这不能直接推成乙在任何情况下都获准：仍要看请求是否落在普通档案范围，以及是否涉及封存的个人秘密。对符合普通档案范围且不涉及该秘密的申请，适用新版原则提供的规则；涉及封存个人秘密，则受新版不得提供的限制。原材料没有替乙补齐的秘密状况，不能由我们假装已经查明。
+Place the same B under both versions to see the change. B is still merely curious; the person's purpose statement is unchanged. What changes is whether proof of academic research is required. Under 2018, that statement is insufficient for the exception. Under 2024, curiosity no longer fails an academic-purpose threshold, because the threshold is gone. But that does not guarantee approval in every circumstance. Check whether the request concerns ordinary records and whether sealed personal secrets are involved. Ordinary records without such secrets fall under the new disclosure principle; records involving such secrets remain prohibited. Where the original material does not establish the secrecy facts for B, we must not pretend to have established them.
 
-丙也说明保密限制没有因版本变化而消失。其档案含封存的个人秘密这一事实仍在，新版明确规定涉及该秘密不得提供。研究方案更完整，也不能抵消这一限制。至于去除秘密后的副本，材料仍没有提供相应处理规则，本讲保持原课的未决边界。
+C also shows that confidentiality survives the version change. The fact that the records contain sealed personal secrets remains, and the new text expressly prohibits disclosure of such records. A more complete research proposal cannot cancel that restriction. The materials still supply no rule for redacted copies; this lecture preserves the original unresolved boundary.
 
-教师评价新版更便于利用，是一项制度评价。我们可以看见这种评价所联系的规则变化：用途门槛被移除，普通档案改为原则对外提供。但是否赞成这种改变，与在指定版本下如何处理具体申请，是两类判断；评价不能倒填为旧版条文内容。把“教师赞成公开”写成“2018年所有档案都公开”，既抹去了旧版的用途条件，也抹去了保密限制。
+The teacher's view that the new version facilitates use is an institutional evaluation. Its connection to the rule changes is visible: Removal of the purpose threshold and presumptive disclosure of ordinary records. But approving the change and deciding a specific application under a specified version are different judgments. Evaluation cannot be inserted retrospectively into the old text. Turning 'the teacher favors disclosure' into 'all records were public in 2018' erases both the old purpose condition and confidentiality restriction.
 
-完成本课讨论时，应能分别说出：2018版规则要求什么，教材如何限制解释，教师为什么主张包括符合条件的独立研究，模拟裁判在给定案件中如何说明理由，以及2024版究竟改变了哪些条件。我们没有进行现实法核验，也没有学习者数据证明实际学生赞同哪一方。保留这种身份与证据的边界，正是使解释争议和制度评价能够认真展开的前提。
+By the end of this discussion, distinguish what the 2018 rule requires, how the textbook restricts its interpretation, why the teacher includes qualifying independent research, how the simulated judgment explains its given case, and exactly which conditions changed in 2024. No real-law verification was performed, and no learner data show which view actual students support. Keeping these identities and evidence limits intact enables serious interpretive disagreement and institutional evaluation.

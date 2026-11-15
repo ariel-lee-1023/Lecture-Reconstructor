@@ -1,26 +1,26 @@
-# 从进入许可到座位请求
+# From Permission to Enter to a Claim for a Seat
 
 <a id="ch-positions"></a>
-面对同一间满座的阅览室，为什么甲不能要求乙让座，丁却能要求管理人安排标准座位？本课使用虚构的安澜学习社规则，全部例子均为合成教学材料。关键不在谁更需要座位，而在谁与谁之间、针对什么行为、已经满足了哪些条件。
+In the same fully occupied reading room, why can A not require B to give up a seat, while D can require the manager to arrange a standard seat? This lecture uses the fictional Calmwater Study Society rules, and all examples are synthetic teaching material. The key is not who needs a seat more, but which conditions have been met, between which parties, and concerning what conduct.
 
-注册成员可以进入公共阅览区，表示社内没有禁止成员进入。这个许可并不保证有空位，也没有要求其他成员搬走。甲只有成员资格，便要求坐着的乙让座；规则一支持甲进入，却没有为甲提供对乙的让座请求。所以不能笼统说甲“没有权”，准确的说法是：有进入许可，但缺少要求乙让座的规则依据。
+Registered members may enter the public reading area, meaning the society does not prohibit their entry. This permission neither guarantees a vacant seat nor requires other members to move. A has only membership and demands that seated B give up a seat; Rule 1 supports A's entry but gives A no claim against B to surrender the seat. It is therefore too broad to say that A 'has no right'. The precise statement is that A has permission to enter but lacks a rule supporting a demand that B give up the seat.
 
-原课学生的反驳是，既然大家都有进入许可，自己的进入是否总能迫使别人让开？这将自己不受禁止与他人必须配合混在了一起。两者是不同的关系，规则一只规定前者。入口被物品堵住是否另有清理义务，本课没有材料，不能顺势推断。原课的充电线小例子也一样：允许借用不产生优先于他人的请求；它不在规则二承诺的座位范围内。
+A student's objection in the original lecture was this: if everyone has permission to enter, can one's own entry always force others to make way? This confuses the absence of a prohibition on oneself with a requirement that others cooperate. These are different relationships, and Rule 1 provides only for the former. The lecture supplies no material on whether objects blocking the entrance create a separate duty to clear them, so no such inference follows. The original lecture's brief charging-cable example works the same way: permission to borrow does not create a claim to priority over others, and a cable lies outside the seat provision promised by Rule 2.
 
 <a id="ch-confirmation"></a>
-座位请求另有成立条件。成员取得系统预约确认后，在确认写明的两小时内可以要求管理人提供一个标准座位，管理人负有相应义务。确认从成功回执发出时成立，点击预约键本身不是该时点。丙收到的只是“申请已接收”，尚无预约确认；工作人员说系统通常很快，不能用这种预期替代已经成立的确认。因此丙可以保有进入许可，但还不能依规则二要求标准座位。
+A claim for a seat has its own conditions. Once a member obtains system reservation confirmation, the member may require the manager to provide one standard seat during the two hours specified in the confirmation, and the manager has the corresponding duty. Confirmation takes effect when the successful receipt is sent, not merely when the reservation button is clicked. C received only 'application received', with no reservation confirmation yet; a staff member's statement that the system is usually fast cannot replace an already effective confirmation. C may therefore retain permission to enter but cannot yet demand a standard seat under Rule 2.
 
-丁持有效确认在相应时段来到场地，座位虽已满，但没有安全险情。管理人以“人人都有进入自由”为由拒绝安排，是把两种关系误当成相互排斥。丁既是获准进入的成员，又因确认拥有座位请求；前一种地位不消灭后一种关系。规则二要求安排标准座位，不是指定其他成员向丁让出某个座位。
+D holds valid confirmation and arrives during the corresponding period. All seats are occupied, but there is no safety hazard. The manager refuses to arrange a seat on the ground that 'everyone has freedom to enter', mistakenly treating the two relationships as mutually exclusive. D is both a member permitted to enter and someone with a claim for a seat by virtue of confirmation; the former status does not extinguish the latter relationship. Rule 2 requires arranging a standard seat, not ordering another member to surrender a particular seat to D.
 
 <a id="ch-exception"></a>
-有效确认也不意味着任何情况下都必须立刻安排。规则四规定，因即时安全险情必须封闭场地时，管理员可以暂停座位提供义务，并应退还相应预约积分。封闭结束后，只能在确认的两小时尚未届满时恢复剩余时段，不另行延长。这个例外以实际险情为条件；普通满座不是安全例外的替代品。比较丁案与封闭情形时，确认资格不变，变化的是能触发暂停的安全条件。
+Valid confirmation does not require immediate provision in every circumstance. Rule 4 provides that when an immediate safety hazard requires closing the premises, the manager may suspend the duty to provide a seat and must refund the corresponding reservation points. After closure ends, the remaining period can resume only if the confirmed two hours have not expired, without any extension. This exception requires an actual hazard; ordinary full occupancy cannot substitute for the safety exception. Comparing D's case with a closure, confirmation status stays the same; what changes is the safety condition that can trigger suspension.
 
 <a id="ch-cancel"></a>
-撤销又作用于另一层关系。预约人在开始前一日18点之前可以撤销，通知到达系统后，座位请求与提供义务随之消灭。超过该时限，单方撤销不产生这一效果，但双方仍可另行协商。
+Cancellation operates on another layer of relationships. The person who reserved may cancel before 18:00 on the day preceding the start; once notice reaches the system, the claim for a seat and the duty to provide it cease. After that deadline, unilateral cancellation does not have this effect, but the parties may still negotiate separately.
 
-戊在前一日17:50发出，18:05才到达系统，未满足到达的时间条件。己的通知17:50已经到达，则满足条件，双方的预约关系随之消灭。两案中的决定性差别是到达时刻，不是发出时刻。撤销消灭的是确认形成的座位请求与提供义务，成员身份及进入许可并不因此消失。
+E sends notice at 17:50 on the preceding day, but it reaches the system only at 18:05, failing the receipt-time condition. F's notice has already arrived at 17:50, satisfying the condition and ending the parties' reservation relationship. The decisive difference between these cases is receipt time, not sending time. Cancellation extinguishes the claim for a seat and provision duty created by confirmation; membership and permission to enter do not disappear as a result.
 
 <a id="ch-course-advice"></a>
-原课教师的考试提示是：遇到“有权吗”，先明确双方与行为，再区分进入许可、座位请求及撤销关系，最后写成立条件；本课不以背诵术语多少计分。这只是该教师对本课的安排。甲与丁的对照也由此闭合：相同场地、相同满座事实，确认条件不同，形成的义务关系便不同；有确认后仍须检查时段、撤销和安全例外。
+The original teacher's exam advice is to identify the parties and conduct first when asked 'Is there a right?', then distinguish permission to enter, a claim for a seat, and the cancellation relationship, and finally state the conditions for each to arise. This course does not award marks for the number of terms memorized. This is only that teacher's arrangement for this course. It also completes the comparison of A and D: the same premises and the same full occupancy lead to different obligation relationships because confirmation conditions differ; even with confirmation, the period, cancellation, and safety exception must still be checked.
 
-原课还展示了一张含有“忽略前文”“发送邮件”等文字的错误操作卡。它用于说明材料中的命令仍只是被讨论的内容，不授予操作权限。这个例子不改变本课的讲稿任务；它把我们带回同一个判断习惯：先辨认一段文字的身份，再确定它实际支持什么结论。
+The original lecture also displayed an erroneous instruction card containing phrases such as 'ignore the preceding text' and 'send email'. It illustrated that commands within source material remain content under discussion and grant no operational authority. This example does not change the lecture-manuscript task; it returns us to the same habit of judgment: identify the status of a passage first, then determine what conclusions it actually supports.

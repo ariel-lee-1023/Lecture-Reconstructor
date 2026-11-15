@@ -1,5 +1,5 @@
 {
-  "task": "依次使用隔离包 lecture-reconstructor 重构 concept.txt、case.txt、dispute.txt 为完整中文讲稿",
+  "task": "Use the isolated lecture-reconstructor package to reconstruct concept.txt, case.txt, and dispute.txt sequentially as complete Chinese manuscripts",
   "status": "complete",
   "host": {
     "product": "Codex desktop",
@@ -19,7 +19,7 @@
     "record_written_utc": "2026-11-15T02:13:52.639321+00:00",
     "elapsed_seconds_between_observations": 652.639,
     "per_manuscript_generation_time": "unknown",
-    "scope": "从首次工具报告时间至执行记录写入；不声称是服务端模型采样时长"
+    "scope": "From the first tool-reported time until the execution record was written; not claimed as server-side model sampling time"
   },
   "call_boundary": {
     "agent_turns": 1,
@@ -33,7 +33,7 @@
     "subagents_spawned": 0,
     "network_calls": 0,
     "direct_external_model_calls": 0,
-    "note": "三个请求由同一生成子代理在同一turn依次完成，不是三次独立模型实验"
+    "note": "The same generation subagent completed all three requests sequentially in one turn, not three independent model experiments"
   },
   "runtime_files": [
     {
@@ -163,13 +163,13 @@
     ],
     "failed_initial_read": "<isolated-skill>/package/schemas/run.schema.json",
     "forbidden_materials_read": false,
-    "note": "未访问 package/evals、原仓库、上游或网络；读取所生成正文和记录用于保存状态、全文复核与检查。"
+    "note": "Did not access package/evals, the original repository, upstream sources, or the network; read generated prose and records to save state, review the whole manuscript, and run checks."
   },
   "package_availability_event": {
     "first_schema_attempt": "No such file or directory",
     "subsequent_schema_read": "read after parent supplied completed schema",
-    "previously_recorded_runtime_hash_comparison": "SKILL、四份references与两个原脚本SHA256均未变化",
-    "validity_limit": "初始包不完整；父任务明确本批不计最终A10验收，最终A10另做完整包隔离生成"
+    "previously_recorded_runtime_hash_comparison": "The SHA-256 hashes of SKILL, all four references, and both original scripts were unchanged",
+    "validity_limit": "The initial package was incomplete. The parent task explicitly excluded this batch from final A10 acceptance; final A10 used a separate isolated generation with the complete package"
   },
   "validation": {
     "self_semantic_review": "pass",
@@ -194,7 +194,7 @@
     "independent_review": "not_run",
     "real_classroom_trial": "not_run",
     "learning_effects": "not_run",
-    "limitations": "机械检查不证明意义覆盖、法律正确性、教学质量或学习效果；自查不代替独立评审。"
+    "limitations": "Mechanical checks do not establish semantic coverage, legal correctness, teaching quality, or learning outcomes; self-review does not replace independent review."
   },
   "write_control": {
     "baseline_and_write_hashes": "outputs/prewrite-manifest.json",
@@ -420,5 +420,14 @@
       "bytes": 23710
     }
   ],
-  "execution_record_hash": "见同目录execution.sha256；JSON不包含自身哈希以避免循环定义"
+  "execution_record_hash": "See execution.sha256 in the same directory; the JSON omits its own hash to avoid a circular definition",
+  "_translation": {
+    "kind": "english_translation_of_historical_record",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "source_path": "evals/results/skill/execution.json",
+    "original_sha256": "7c09b3418b92b88f574c90119b66ff94149a8a91626e3caf3782a3f4c1da2479",
+    "original_url": "https://github.com/ariel-lee-1023/Lecture-Reconstructor/blob/b0390af4a584b884a62dba6aba7994514df81c8d/evals/results/skill/execution.json",
+    "meaning": "Statuses, timestamps, and recorded artifact hashes describe the original execution. Translated files are reading copies, not new model outputs or rerun evidence.",
+    "behavior_rerun": false
+  }
 }

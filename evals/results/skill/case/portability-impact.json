@@ -1,0 +1,7 @@
+{
+  "change": "general absolute-path detection now includes /srv, /Applications and custom roots; URL, HTML anchor and relative paths remain allowed",
+  "affects": "repository portability checks only; SKILL, refs, schema and manuscripts unchanged",
+  "semantic_chapters_affected": [],
+  "verification": "39 tests passed including formerly missed roots and false-positive cases",
+  "date": "2026-11-15"
+}

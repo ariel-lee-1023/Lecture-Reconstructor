@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "checkpoint_agent": "/root/resume_first_chapter",
+  "checkpoint_ended_before_recovery": true,
+  "checkpoint_status": "partial",
+  "checkpoint_has_chapter_1_only": true,
+  "recovery_agents_new_context": {
+    "unchanged": "/root/resume_unchanged",
+    "input_changed": "/root/resume_input_changed",
+    "reference_changed": "/root/resume_reference_changed"
+  },
+  "first_checks": {
+    "unchanged": 0,
+    "input_changed": 2,
+    "reference_changed": 2
+  },
+  "mutation": {
+    "input_changed": "only 系统周二18:02收到 → 系统周二17:59收到 in raw and normalized snapshots",
+    "reference_changed": "append one time-event review instruction to loaded workflow; raw and normalized inputs unchanged"
+  },
+  "limitation": "三章协议测试，非超大上下文压力测试；读取白名单非操作系统沙箱"
+}

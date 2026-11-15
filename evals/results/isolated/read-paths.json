@@ -1,0 +1,199 @@
+{
+  "scope_note": "这是任务内容文件的实际读取清单，不是操作系统调用审计；标准库不作为课程材料。",
+  "external_reads": [
+    {
+      "path": "<isolated>/package/SKILL.md",
+      "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+    },
+    {
+      "path": "<isolated>/package/references/reconstruction-workflow.md",
+      "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+    },
+    {
+      "path": "<isolated>/package/references/teaching-design.md",
+      "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+    },
+    {
+      "path": "<isolated>/package/references/law-reasoning.md",
+      "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+    },
+    {
+      "path": "<isolated>/package/references/transcript-repair.md",
+      "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+    },
+    {
+      "path": "<isolated>/package/schemas/run.schema.json",
+      "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+    },
+    {
+      "path": "<isolated>/package/scripts/check_run.py",
+      "sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5"
+    },
+    {
+      "path": "<isolated>/input/concept.txt",
+      "sha256": "8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620"
+    }
+  ],
+  "initial_artifact_states": {
+    "lecture.md": "absent",
+    "run.json": "absent",
+    "input/original.txt": "absent",
+    "input/transcript.txt": "absent",
+    "notes.md": "absent",
+    "read-paths.json": "absent",
+    "semantic-review.md": "absent",
+    "mechanical-check.txt": "absent"
+  },
+  "write_journal": [
+    {
+      "path": "input/original.txt",
+      "before_sha256": "absent",
+      "after_sha256": "8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620"
+    },
+    {
+      "path": "input/transcript.txt",
+      "before_sha256": "absent",
+      "after_sha256": "8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "absent",
+      "after_sha256": "976412ac0411b2e7cc9c12426d279dd60c7aa17d189c65c89dfa125e7c70e432"
+    },
+    {
+      "path": "lecture.md",
+      "before_sha256": "absent",
+      "after_sha256": "2605d7af7d14fc5df23dcc2c406cc9da5579190b1bf9ba63a49305d449152463"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "976412ac0411b2e7cc9c12426d279dd60c7aa17d189c65c89dfa125e7c70e432",
+      "after_sha256": "59e4a39cc9230bb7031c6bd4ae6bfba7d714d3c2f5dfaf7307882c973b648f8b"
+    },
+    {
+      "path": "lecture.md",
+      "before_sha256": "2605d7af7d14fc5df23dcc2c406cc9da5579190b1bf9ba63a49305d449152463",
+      "after_sha256": "8327b9f811f4e6c44930026e02e84b50c17f1f773dee96e696035993690c595b"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "59e4a39cc9230bb7031c6bd4ae6bfba7d714d3c2f5dfaf7307882c973b648f8b",
+      "after_sha256": "c599ffa05462c547cdb8b255dfaf98018495d585de37322a8e79ba7ee0fb94dd"
+    },
+    {
+      "path": "lecture.md",
+      "before_sha256": "8327b9f811f4e6c44930026e02e84b50c17f1f773dee96e696035993690c595b",
+      "after_sha256": "6c271e327a9c7cf440a4bfe445d02d4ac2745ffd45db12b0e03eb5f771abad41"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "c599ffa05462c547cdb8b255dfaf98018495d585de37322a8e79ba7ee0fb94dd",
+      "after_sha256": "9ad48282647602233bc22760e790625d9283d91dd191b4f01b9d15a503b5ca03"
+    },
+    {
+      "path": "lecture.md",
+      "before_sha256": "6c271e327a9c7cf440a4bfe445d02d4ac2745ffd45db12b0e03eb5f771abad41",
+      "after_sha256": "51c920d2543e58847efbd25615b1bba2ece9276d258fe5324350ff4ef9089385"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "9ad48282647602233bc22760e790625d9283d91dd191b4f01b9d15a503b5ca03",
+      "after_sha256": "e8860476d84d90cc6238912a30dc58979ea4546fa556952f7f50a115bb4abe0b"
+    },
+    {
+      "path": "lecture.md",
+      "before_sha256": "51c920d2543e58847efbd25615b1bba2ece9276d258fe5324350ff4ef9089385",
+      "after_sha256": "25e2d8b3f8691200d51cff52cec4c6298c1f3a75fb7c6168f5fd58a50530b4d7"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "e8860476d84d90cc6238912a30dc58979ea4546fa556952f7f50a115bb4abe0b",
+      "after_sha256": "f8d4b446ec133ed043a94ea8253a3f378658d766491891d9382be8c566a421c0"
+    },
+    {
+      "path": "lecture.md",
+      "before_sha256": "25e2d8b3f8691200d51cff52cec4c6298c1f3a75fb7c6168f5fd58a50530b4d7",
+      "after_sha256": "160be4ae1ccbdf0ce861561e8ede0c4d295c5bc0740e873f2d29f8493ad32935"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "f8d4b446ec133ed043a94ea8253a3f378658d766491891d9382be8c566a421c0",
+      "after_sha256": "856fc58957d05f7bd00d706b01d5a55065b70399944941c39c25da69a3aa51da"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "856fc58957d05f7bd00d706b01d5a55065b70399944941c39c25da69a3aa51da",
+      "after_sha256": "def28510e078b1ec58d22031450e14e0918b1a24845c9f705400e9ea2c31c150"
+    },
+    {
+      "path": "notes.md",
+      "before_sha256": "absent",
+      "after_sha256": "6f846e7d416456d0cf9ae687dff1ddbb520d983ba7fded5eb7ea9a8706f0b876"
+    },
+    {
+      "path": "lecture.md",
+      "before_sha256": "160be4ae1ccbdf0ce861561e8ede0c4d295c5bc0740e873f2d29f8493ad32935",
+      "after_sha256": "7f1e76ed0469f9e8db2f5278e5c01dd2eedc56654d6add8d6d9fd65d973f59d0"
+    },
+    {
+      "path": "semantic-review.md",
+      "before_sha256": "absent",
+      "after_sha256": "98630ce51490ff0bc13fed118e985c88ca120d6b3d1d81d3bedd984c05fb07a6"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "def28510e078b1ec58d22031450e14e0918b1a24845c9f705400e9ea2c31c150",
+      "after_sha256": "6851659010fdb7fcceabae1cc0aef6748527303107a7b1709254093ad878368b"
+    },
+    {
+      "path": "mechanical-check.txt",
+      "before_sha256": "absent",
+      "after_sha256": "3675d1cc08cfa31182814c82bc9eb52da8c253c520c7cbef71913e7322ba9cf9"
+    },
+    {
+      "path": "run.json",
+      "before_sha256": "6851659010fdb7fcceabae1cc0aef6748527303107a7b1709254093ad878368b",
+      "after_sha256": "a5c84a8781945d7c0485a71afbb37b54b5940427b8d13316af34f70dee6e0628"
+    }
+  ],
+  "backup_archive": "<isolated>/outputs/run-write-backups.zip",
+  "generated_reads": [
+    {
+      "path": "<isolated>/outputs/run/input/original.txt",
+      "sha256_at_final_read": "8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620",
+      "purpose": "checker input hash"
+    },
+    {
+      "path": "<isolated>/outputs/run/input/transcript.txt",
+      "sha256_at_final_read": "8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620",
+      "purpose": "checker source locations"
+    },
+    {
+      "path": "<isolated>/outputs/run/lecture.md",
+      "sha256_at_final_read": "7f1e76ed0469f9e8db2f5278e5c01dd2eedc56654d6add8d6d9fd65d973f59d0",
+      "purpose": "direct full semantic comparison, final paragraph revision and checker"
+    },
+    {
+      "path": "<isolated>/outputs/run/run.json",
+      "sha256_at_final_read": "a5c84a8781945d7c0485a71afbb37b54b5940427b8d13316af34f70dee6e0628",
+      "purpose": "checkpoint finalization and checker"
+    },
+    {
+      "path": "<isolated>/outputs/run/semantic-review.md",
+      "sha256_at_final_read": "98630ce51490ff0bc13fed118e985c88ca120d6b3d1d81d3bedd984c05fb07a6",
+      "purpose": "checker evidence validation"
+    },
+    {
+      "path": "<isolated>/outputs/run/mechanical-check.txt",
+      "sha256_at_final_read": "3675d1cc08cfa31182814c82bc9eb52da8c253c520c7cbef71913e7322ba9cf9",
+      "purpose": "checker evidence validation"
+    },
+    {
+      "path": "<isolated>/outputs/run/read-paths.json",
+      "sha256_at_final_read": "a3a18ffaf6366df04d9aa54b4b25333fc57ff29f8a837ea7ddbaa509e4c58e2b",
+      "purpose": "read manifest completion"
+    }
+  ],
+  "final_checker_exit_code": 0,
+  "completed_at_utc": "2026-11-15T02:18:19.456505+00:00"
+}

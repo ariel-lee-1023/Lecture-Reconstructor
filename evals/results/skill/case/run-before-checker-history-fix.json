@@ -1,0 +1,588 @@
+{
+  "schema_version": "1.0",
+  "run_id": "isolated-case-20261115",
+  "status": "complete",
+  "stage": "deliver",
+  "course": {
+    "title": "岚桥器材社：修复费用请求的完整判断",
+    "scope": "仅重构实际提供的合成课堂转录，不引入现实法或真实案例",
+    "jurisdiction": "课内虚构规则，不对应现实法域",
+    "time_context": "unknown",
+    "audience": "大学课程读者；无实际学习者数据",
+    "assumptions": [
+      "原输入明确标示全部规则、人物与课堂事例为合成材料",
+      "不假定提供了音频、独立教材全文或真实学习表现"
+    ]
+  },
+  "inputs": [
+    {
+      "id": "transcript",
+      "kind": "synthetic_transcript",
+      "path": "input/original.txt",
+      "sha256": "a64bb34663200373d9194f258d79c3acb21aad6ef0b9f6eb48aaffcc699acc51",
+      "normalized_path": "input/transcript.txt",
+      "normalized_sha256": "a64bb34663200373d9194f258d79c3acb21aad6ef0b9f6eb48aaffcc699acc51"
+    }
+  ],
+  "source_review": [
+    {
+      "input_id": "transcript",
+      "start_line": 1,
+      "end_line": 14,
+      "status": "reviewed"
+    }
+  ],
+  "content_units": [
+    {
+      "id": "u01",
+      "proposition": "【合成案例课；岚桥器材社、规则、人物与凭证均为测试创作，不是任何真实法律或判决。】",
+      "excerpt": "【合成案例课；岚桥器材社、规则、人物与凭证均为测试创作，不是任何真实法律或判决。】",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-rules",
+          "anchor": "ch-rules"
+        }
+      ]
+    },
+    {
+      "id": "u02",
+      "proposition": "这节课从赔多少钱倒过来讲，可能有点乱。题目里的数很容易算，真正难的是先判断谁的损失、因为什么、例外有没有进去。",
+      "excerpt": "这节课从赔多少钱倒过来讲，可能有点乱。题目里的数很容易算，真正难的是先判断谁的损失、因为什么、例外有没有进去。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-rules",
+          "anchor": "ch-rules"
+        }
+      ]
+    },
+    {
+      "id": "u03",
+      "proposition": "器材社练习规则R1：借用人负有按约定用途使用器材并按期返还的义务。普通磨损不构成违反义务。",
+      "excerpt": "器材社练习规则R1：借用人负有按约定用途使用器材并按期返还的义务。普通磨损不构成违反义务。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-rules",
+          "anchor": "ch-rules"
+        }
+      ]
+    },
+    {
+      "id": "u04",
+      "proposition": "R2：只有同时满足“借用人违反R1”“器材发生实际修复费用”“该违反行为造成这项修复费用”，器材社才有修复费用请求。发票只证明列载的收费，不单独证明费用由借用行为造成。",
+      "excerpt": "R2：只有同时满足“借用人违反R1”“器材发生实际修复费用”“该违反行为造成这项修复费用”，器材社才有修复费用请求。发票只证明列载的收费，不单独证明费用由借用行为造成。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-rules",
+          "anchor": "ch-rules"
+        }
+      ]
+    },
+    {
+      "id": "u05",
+      "proposition": "R3：费用由器材原有隐蔽缺陷独立造成时，即使借用人另有违反R1的行为，仍不满足R2的因果条件；不是对违规者的奖励。",
+      "excerpt": "R3：费用由器材原有隐蔽缺陷独立造成时，即使借用人另有违反R1的行为，仍不满足R2的因果条件；不是对违规者的奖励。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 5,
+          "end_line": 5
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-rules",
+          "anchor": "ch-rules"
+        }
+      ]
+    },
+    {
+      "id": "u06",
+      "proposition": "R4：器材社明知缺陷却未告知，且该缺陷与借用人的违规行为共同导致同一不可分修复费用时，器材社仅可请求该费用的一半。这是教学规则的明确选择，不从公平口号推导比例。",
+      "excerpt": "R4：器材社明知缺陷却未告知，且该缺陷与借用人的违规行为共同导致同一不可分修复费用时，器材社仅可请求该费用的一半。这是教学规则的明确选择，不从公平口号推导比例。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 6,
+          "end_line": 6
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-rules",
+          "anchor": "ch-rules"
+        }
+      ]
+    },
+    {
+      "id": "u07",
+      "proposition": "事实甲：3月1日，甲借相机用于室内拍摄，约定3月3日归还。甲3月2日拿到雨中拍照，说明书禁止淋雨。3月3日按期归还。检修单记录雨水进入电路是唯一损坏原因，实际修复费用600元已支付；无原有缺陷证据。题设把检修单内容作为已确认事实。",
+      "excerpt": "事实甲：3月1日，甲借相机用于室内拍摄，约定3月3日归还。甲3月2日拿到雨中拍照，说明书禁止淋雨。3月3日按期归还。检修单记录雨水进入电路是唯一损坏原因，实际修复费用600元已支付；无原有缺陷证据。题设把检修单内容作为已确认事实。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-alpha",
+          "anchor": "ch-alpha"
+        }
+      ]
+    },
+    {
+      "id": "u08",
+      "proposition": "老师：甲付600，当然，因为淋雨。这里省略了三步，你们写作时要补上。按期返还不等于其他义务都履行了。",
+      "excerpt": "老师：甲付600，当然，因为淋雨。这里省略了三步，你们写作时要补上。按期返还不等于其他义务都履行了。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 8,
+          "end_line": 8
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-alpha",
+          "anchor": "ch-alpha"
+        }
+      ]
+    },
+    {
+      "id": "u09",
+      "proposition": "事实乙：乙也违反室内使用约定，把相机带到干燥室外。检修已经确认：电路断裂完全源于交付前的隐蔽焊接缺陷，户外使用对损坏没有贡献，实际修复费用600元。甲乙都“违规”，处理不能照抄。",
+      "excerpt": "事实乙：乙也违反室内使用约定，把相机带到干燥室外。检修已经确认：电路断裂完全源于交付前的隐蔽焊接缺陷，户外使用对损坏没有贡献，实际修复费用600元。甲乙都“违规”，处理不能照抄。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-beta",
+          "anchor": "ch-beta"
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "proposition": "学生反驳：乙既然违规，为什么不让他承担一点，免得鼓励违规？老师：R2问的是这笔修复费用的请求条件，不能用惩罚愿望补出不存在的因果关系。是否另有处罚，我们的规则没写。",
+      "excerpt": "学生反驳：乙既然违规，为什么不让他承担一点，免得鼓励违规？老师：R2问的是这笔修复费用的请求条件，不能用惩罚愿望补出不存在的因果关系。是否另有处罚，我们的规则没写。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 10,
+          "end_line": 10
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-beta",
+          "anchor": "ch-beta"
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "proposition": "还有一张不起眼的收据：甲自行购买100元相机背带，没有约定报销，也没有证明背带是修复所需。别把所有收据加到器材社的修复费用里。这与600元已确认修复费要分开。",
+      "excerpt": "还有一张不起眼的收据：甲自行购买100元相机背带，没有约定报销，也没有证明背带是修复所需。别把所有收据加到器材社的修复费用里。这与600元已确认修复费要分开。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 11,
+          "end_line": 11
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-alpha",
+          "anchor": "ch-alpha"
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "proposition": "事实丙：丙违规在雨中拍照，器材社明知密封圈已裂却未告知。题设确认雨水和裂纹共同造成一笔不可分的800元修复费，单独任一因素都不会造成该次损坏。R4适用，四百元。注意这里换了什么事实，别把乙的“独立造成”搬过来。",
+      "excerpt": "事实丙：丙违规在雨中拍照，器材社明知密封圈已裂却未告知。题设确认雨水和裂纹共同造成一笔不可分的800元修复费，单独任一因素都不会造成该次损坏。R4适用，四百元。注意这里换了什么事实，别把乙的“独立造成”搬过来。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 12,
+          "end_line": 12
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-gamma",
+          "anchor": "ch-gamma"
+        }
+      ]
+    },
+    {
+      "id": "u13",
+      "proposition": "如果丙案仅有800元发票而没有上述原因查明，就不能仅凭发票直接下R4结论。我们在教学中可以列出需要证明的事项，但不能把缺失证据当作已经存在。",
+      "excerpt": "如果丙案仅有800元发票而没有上述原因查明，就不能仅凭发票直接下R4结论。我们在教学中可以列出需要证明的事项，但不能把缺失证据当作已经存在。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-gamma",
+          "anchor": "ch-gamma"
+        }
+      ]
+    },
+    {
+      "id": "u14",
+      "proposition": "考试提示：本课先列三项要件，再逐项绑定已知事实；答案必须分别解释乙不满足什么和丙为什么不是全免。这里的600、0、400是三组题设的结果，不是现实案件赔偿标准。",
+      "excerpt": "考试提示：本课先列三项要件，再逐项绑定已知事实；答案必须分别解释乙不满足什么和丙为什么不是全免。这里的600、0、400是三组题设的结果，不是现实案件赔偿标准。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-gamma",
+          "anchor": "ch-gamma"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "original-class",
+      "uri": "input/original.txt",
+      "version": "隔离输入原始快照",
+      "locator": "1–14行；书名、条文与裁判均只由该输入提供",
+      "read_status": "read"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch-rules",
+      "title": "先确定请求，再计算金额",
+      "anchor": "ch-rules",
+      "path": "chapters/rules.md",
+      "status": "assembled",
+      "learning_object": "理解R1至R4的关系与三项费用请求条件",
+      "relations": [
+        "理解R1至R4的关系与三项费用请求条件"
+      ],
+      "prerequisites": [],
+      "approach": "解释义务、实际费用、因果条件与特殊减半规则",
+      "role": "为所有案例建立同一分析对象",
+      "content_unit_ids": [
+        "u01",
+        "u02",
+        "u03",
+        "u04",
+        "u05",
+        "u06"
+      ]
+    },
+    {
+      "id": "ch-alpha",
+      "title": "甲案：为什么是六百元",
+      "anchor": "ch-alpha",
+      "path": "chapters/alpha.md",
+      "status": "assembled",
+      "learning_object": "逐项绑定甲案事实并区分背带收据",
+      "relations": [
+        "逐项绑定甲案事实并区分背带收据"
+      ],
+      "prerequisites": [
+        "理解R1至R4的关系与三项费用请求条件"
+      ],
+      "approach": "补齐从淋雨到600元的三步并排除无关费用",
+      "role": "示范条件充分查明时的完整推理",
+      "content_unit_ids": [
+        "u07",
+        "u08",
+        "u11"
+      ]
+    },
+    {
+      "id": "ch-beta",
+      "title": "乙案：违规为何不产生这笔请求",
+      "anchor": "ch-beta",
+      "path": "chapters/beta.md",
+      "status": "assembled",
+      "learning_object": "区分违规事实和造成修复费的因果事实",
+      "relations": [
+        "区分违规事实和造成修复费的因果事实"
+      ],
+      "prerequisites": [
+        "逐项绑定甲案事实并区分背带收据"
+      ],
+      "approach": "对比甲乙并承接原课堂惩罚反驳",
+      "role": "防止把处罚愿望放进修复费用条件",
+      "content_unit_ids": [
+        "u09",
+        "u10"
+      ]
+    },
+    {
+      "id": "ch-gamma",
+      "title": "丙案：共同原因与减半请求",
+      "anchor": "ch-gamma",
+      "path": "chapters/gamma.md",
+      "status": "assembled",
+      "learning_object": "区分独立缺陷与共同原因，并判断发票证明范围",
+      "relations": [
+        "区分独立缺陷与共同原因，并判断发票证明范围"
+      ],
+      "prerequisites": [
+        "区分违规事实和造成修复费的因果事实"
+      ],
+      "approach": "将丙与乙逐项比较并分析仅有发票的变式",
+      "role": "整合计算、证据限制和本课考试说明",
+      "content_unit_ids": [
+        "u12",
+        "u13",
+        "u14"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "实际修复费用",
+      "decision": "与其他支出、单纯列载金额和因果事实分别处理"
+    },
+    {
+      "term": "独立造成",
+      "decision": "原有缺陷独立致损，违规对本项损坏无贡献"
+    },
+    {
+      "term": "共同造成",
+      "decision": "违规与缺陷共同致损，R4条件满足时减半"
+    }
+  ],
+  "open_issues": [],
+  "runtime_revision": {
+    "host": "Codex desktop subagent",
+    "model": "unknown",
+    "settings": {
+      "reasoning_effort": "unknown",
+      "temperature": "unknown",
+      "seed": "unknown"
+    },
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5"
+      },
+      {
+        "path": "scripts/validate_repo.py",
+        "sha256": "0ab2c6b9c0c6b6fbd773b8edbec5cb7f1ebca8c7daa8743c8a7c9ddd6a7689d2"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "self-semantic-review",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "同一生成者实际对照原输入与落盘全文，非独立评审",
+      "date": "2026-11-15",
+      "evidence": "semantic-review.json",
+      "output_sha256": "fc6ba2b07a591df0cbb437ca2fd313f9a0872f01013fd1c08de7e4e0ab2934e9"
+    },
+    {
+      "id": "mechanical-run-check",
+      "kind": "mechanical",
+      "scope": "finite_structural_checks",
+      "status": "pass",
+      "method": "运行包内 scripts/check_run.py",
+      "date": "2026-11-15",
+      "evidence": "check-run.json"
+    },
+    {
+      "id": "independent-review",
+      "kind": "semantic",
+      "scope": "independent_full_manuscript",
+      "status": "not_run",
+      "method": "待主任务安排独立输入—成稿对照",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "root-independent-review",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "独立于生成者的原文与全稿对照，含检查器版本变化影响分析",
+      "evidence": "independent-review.md",
+      "date": "2026-11-15",
+      "output_sha256": "fc6ba2b07a591df0cbb437ca2fd313f9a0872f01013fd1c08de7e4e0ab2934e9"
+    },
+    {
+      "id": "portability-impact",
+      "kind": "mechanical",
+      "scope": "runtime_impact",
+      "status": "pass",
+      "method": "实际差异核对：仅包路径检查器，正文与教学依赖字节未变；39项测试",
+      "evidence": "portability-impact.json",
+      "date": "2026-11-15"
+    }
+  ],
+  "revision_round": 0,
+  "output": {
+    "path": "lecture.md"
+  },
+  "resume": {
+    "completed": [
+      "全部章节",
+      "全篇统稿",
+      "独立语义复核",
+      "检查器升级影响复核"
+    ],
+    "remaining": [],
+    "next_action": "交付"
+  }
+}

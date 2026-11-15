@@ -1,0 +1,7 @@
+.work/
+source-inventory.local.json
+handoff-check.json
+evals/runs/
+__pycache__/
+*.pyc
+.DS_Store

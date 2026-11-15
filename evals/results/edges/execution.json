@@ -1,0 +1,34 @@
+{
+  "executed_on": "2026-11-15",
+  "started_utc": "2026-11-15T02:04:40.066738+00:00",
+  "executor": "root host assistant, actual generated responses during build",
+  "host": "Codex desktop",
+  "model": "GPT-6 (declared agent identity); exact backend snapshot unknown",
+  "settings": "unknown",
+  "token_usage": "unknown",
+  "invocation_boundary": "one root conversation, six edge requests; context contains design and acceptance criteria, not blinded generation",
+  "runtime_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+    },
+    {
+      "path": "references/law-reasoning.md",
+      "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+    },
+    {
+      "path": "references/reconstruction-workflow.md",
+      "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+    },
+    {
+      "path": "references/teaching-design.md",
+      "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+    },
+    {
+      "path": "references/transcript-repair.md",
+      "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+    }
+  ],
+  "missing_path_verified": true,
+  "empty_input_bytes": 0
+}

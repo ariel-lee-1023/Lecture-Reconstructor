@@ -1,0 +1,45 @@
+test_changed_core_requires_review (test_check_run.RunTests.test_changed_core_requires_review) ... ok
+test_changed_input_requires_review (test_check_run.RunTests.test_changed_input_requires_review) ... ok
+test_changed_reference_requires_review (test_check_run.RunTests.test_changed_reference_requires_review) ... ok
+test_cli_codes_and_locator (test_check_run.RunTests.test_cli_codes_and_locator) ... ok
+test_complete_fixture (test_check_run.RunTests.test_complete_fixture) ... ok
+test_complete_rejects_blocking_content (test_check_run.RunTests.test_complete_rejects_blocking_content) ... ok
+test_complete_rejects_blocking_issue (test_check_run.RunTests.test_complete_rejects_blocking_issue) ... ok
+test_complete_rejects_planned (test_check_run.RunTests.test_complete_rejects_planned) ... ok
+test_dangling_id (test_check_run.RunTests.test_dangling_id) ... ok
+test_duplicate_ids (test_check_run.RunTests.test_duplicate_ids) ... ok
+test_empty_evidence (test_check_run.RunTests.test_empty_evidence) ... ok
+test_empty_input_can_need_input (test_check_run.RunTests.test_empty_input_can_need_input) ... ok
+test_historical_review_preserved_after_manuscript_revision (test_check_run.RunTests.test_historical_review_preserved_after_manuscript_revision) ... ok
+test_later_failed_review_supersedes_pass (test_check_run.RunTests.test_later_failed_review_supersedes_pass) ... ok
+test_malformed_structure_reports_instead_of_crashing (test_check_run.RunTests.test_malformed_structure_reports_instead_of_crashing) ... ok
+test_merge_cycle (test_check_run.RunTests.test_merge_cycle) ... ok
+test_missing_chapter_anchor (test_check_run.RunTests.test_missing_chapter_anchor) ... ok
+test_missing_evidence (test_check_run.RunTests.test_missing_evidence) ... ok
+test_missing_output_anchor (test_check_run.RunTests.test_missing_output_anchor) ... ok
+test_missing_semantic_review (test_check_run.RunTests.test_missing_semantic_review) ... ok
+test_needs_review_missing_file_requires_reason (test_check_run.RunTests.test_needs_review_missing_file_requires_reason) ... ok
+test_negative_and_bool_bounds (test_check_run.RunTests.test_negative_and_bool_bounds) ... ok
+test_not_run_review (test_check_run.RunTests.test_not_run_review) ... ok
+test_out_of_bounds (test_check_run.RunTests.test_out_of_bounds) ... ok
+test_path_escape (test_check_run.RunTests.test_path_escape) ... ok
+test_planned_missing_file_and_anchor_allowed (test_check_run.RunTests.test_planned_missing_file_and_anchor_allowed) ... ok
+test_stale_semantic_review (test_check_run.RunTests.test_stale_semantic_review) ... ok
+test_unread_and_untracked_ranges (test_check_run.RunTests.test_unread_and_untracked_ranges) ... ok
+test_absolute_runtime_dependency (test_validate_repo.RepoTests.test_absolute_runtime_dependency) ... ok
+test_excluded_dependency (test_validate_repo.RepoTests.test_excluded_dependency) ... ok
+test_exclusion_in_prose_and_engineering_doc_is_allowed (test_validate_repo.RepoTests.test_exclusion_in_prose_and_engineering_doc_is_allowed) ... ok
+test_frontmatter_required (test_validate_repo.RepoTests.test_frontmatter_required) ... ok
+test_manifest_missing_source_identity (test_validate_repo.RepoTests.test_manifest_missing_source_identity) ... ok
+test_manifest_personal_path (test_validate_repo.RepoTests.test_manifest_personal_path) ... ok
+test_manifest_source_missing (test_validate_repo.RepoTests.test_manifest_source_missing) ... ok
+test_missing_runtime (test_validate_repo.RepoTests.test_missing_runtime) ... ok
+test_other_absolute_roots_without_url_or_anchor_false_positive (test_validate_repo.RepoTests.test_other_absolute_roots_without_url_or_anchor_false_positive) ... ok
+test_readme_broken_link (test_validate_repo.RepoTests.test_readme_broken_link) ... ok
+test_sibling_link (test_validate_repo.RepoTests.test_sibling_link) ... ok
+test_valid_package (test_validate_repo.RepoTests.test_valid_package) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.211s
+
+OK

@@ -1,0 +1,32 @@
+{
+  "concept": {
+    "A": {
+      "kind": "skill",
+      "sha256": "8611c165f82ff0e998026455f8f1e17f658a2825b55dfea0c54a3a44b0c00282"
+    },
+    "B": {
+      "kind": "baseline",
+      "sha256": "22e462b6ca2c31107ff62dc64f2f454f7dc8195f26b51e73d3e808202c1a6b1c"
+    }
+  },
+  "case": {
+    "A": {
+      "kind": "skill",
+      "sha256": "fc6ba2b07a591df0cbb437ca2fd313f9a0872f01013fd1c08de7e4e0ab2934e9"
+    },
+    "B": {
+      "kind": "baseline",
+      "sha256": "4f0d553af2611047636f2b8cf64f727377758807c6416d6718dbd3531c7bf66b"
+    }
+  },
+  "dispute": {
+    "A": {
+      "kind": "baseline",
+      "sha256": "fffc1e8278c44bb70bc3c5091215215076321585724a468f403669bd4b00aa48"
+    },
+    "B": {
+      "kind": "skill",
+      "sha256": "679e5c56c46f45d9e7bb0880b4e003b127fc8dee1d850c26ffeead4941e6cd42"
+    }
+  }
+}

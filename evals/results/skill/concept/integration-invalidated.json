@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "run_id": "isolated-concept-20261115",
+  "status": "in_progress",
+  "stage": "review",
+  "course": {
+    "title": "安澜学习社：许可、请求与关系变动",
+    "scope": "仅重构实际提供的合成课堂转录，不引入现实法或真实案例",
+    "jurisdiction": "课内虚构规则，不对应现实法域",
+    "time_context": "unknown",
+    "audience": "大学课程读者；无实际学习者数据",
+    "assumptions": [
+      "原输入明确标示全部规则、人物与课堂事例为合成材料",
+      "不假定提供了音频、独立教材全文或真实学习表现"
+    ]
+  },
+  "inputs": [
+    {
+      "id": "transcript",
+      "kind": "synthetic_transcript",
+      "path": "input/original.txt",
+      "sha256": "8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620",
+      "normalized_path": "input/transcript.txt",
+      "normalized_sha256": "8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620"
+    }
+  ],
+  "source_review": [
+    {
+      "input_id": "transcript",
+      "start_line": 1,
+      "end_line": 15,
+      "status": "reviewed"
+    }
+  ],
+  "content_units": [
+    {
+      "id": "u01",
+      "proposition": "【合成课堂转录；全部人物、机构、规则和事例均为测试创作，不对应现行法或真实课堂。没有配套教材、音频或学习者数据。】",
+      "excerpt": "【合成课堂转录；全部人物、机构、规则和事例均为测试创作，不对应现行法或真实课堂。没有配套教材、音频或学习者数据。】",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-permission",
+          "anchor": "ch-permission"
+        }
+      ]
+    },
+    {
+      "id": "u02",
+      "proposition": "今天说学习社的“有权”。我先说答案吧，允许进去，不一定就有座位。我们只使用这套安澜学习社练习规则，不讨论外部法律。",
+      "excerpt": "今天说学习社的“有权”。我先说答案吧，允许进去，不一定就有座位。我们只使用这套安澜学习社练习规则，不讨论外部法律。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-permission",
+          "anchor": "ch-permission"
+        }
+      ]
+    },
+    {
+      "id": "u03",
+      "proposition": "规则一：注册成员可以进入公共阅览区；这里的“可以”只表示社内没有禁止成员进入，不保证空位，也不要求别人搬走。",
+      "excerpt": "规则一：注册成员可以进入公共阅览区；这里的“可以”只表示社内没有禁止成员进入，不保证空位，也不要求别人搬走。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-permission",
+          "anchor": "ch-permission"
+        }
+      ]
+    },
+    {
+      "id": "u04",
+      "proposition": "规则二：成员取得系统的预约确认后，在确认写明的两小时内可以要求管理人提供一个标准座位，管理人负有提供座位的义务；确认从成功回执发出时成立，不是从点击预约键时成立。",
+      "excerpt": "规则二：成员取得系统的预约确认后，在确认写明的两小时内可以要求管理人提供一个标准座位，管理人负有提供座位的义务；确认从成功回执发出时成立，不是从点击预约键时成立。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-reservation",
+          "anchor": "ch-reservation"
+        }
+      ]
+    },
+    {
+      "id": "u05",
+      "proposition": "规则三：预约人可在开始前一日18点之前撤销预约。撤销通知到达系统后，规则二的双方关系消灭。超过18点，单方撤销不产生这个效果；双方仍可另行协商。",
+      "excerpt": "规则三：预约人可在开始前一日18点之前撤销预约。撤销通知到达系统后，规则二的双方关系消灭。超过18点，单方撤销不产生这个效果；双方仍可另行协商。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 5,
+          "end_line": 5
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-cancellation",
+          "anchor": "ch-cancellation"
+        }
+      ]
+    },
+    {
+      "id": "u06",
+      "proposition": "先记下义务对应请求，许可与没有义务，哎不是说别人没有义务，就是自己没有不进入的义务。我们回头再解释。",
+      "excerpt": "先记下义务对应请求，许可与没有义务，哎不是说别人没有义务，就是自己没有不进入的义务。我们回头再解释。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 6,
+          "end_line": 6
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-permission",
+          "anchor": "ch-permission"
+        }
+      ]
+    },
+    {
+      "id": "u07",
+      "proposition": "甲今天上午到阅览区，没预约，见乙坐着，说我也是成员，所以你得让座。成员可以进入，乙也是成员，规则一没给甲这个结论。别只在答案里写“甲没有权”，要说清缺的是哪一种。",
+      "excerpt": "甲今天上午到阅览区，没预约，见乙坐着，说我也是成员，所以你得让座。成员可以进入，乙也是成员，规则一没给甲这个结论。别只在答案里写“甲没有权”，要说清缺的是哪一种。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-permission",
+          "anchor": "ch-permission"
+        }
+      ]
+    },
+    {
+      "id": "u08",
+      "proposition": "刚才讲预约之前，还有个很小的事：丙只收到“申请已接收”，没收到“预约确认”。虽然工作人员说系统一般很快，丙还不能据此要求标准座位。这与丙有没有进入许可是两回事。",
+      "excerpt": "刚才讲预约之前，还有个很小的事：丙只收到“申请已接收”，没收到“预约确认”。虽然工作人员说系统一般很快，丙还不能据此要求标准座位。这与丙有没有进入许可是两回事。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 8,
+          "end_line": 8
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-reservation",
+          "anchor": "ch-reservation"
+        }
+      ]
+    },
+    {
+      "id": "u09",
+      "proposition": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不另加时。",
+      "excerpt": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不另加时。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-exception",
+          "anchor": "ch-exception"
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "proposition": "丁拿着确认来，座位满了，但不存在险情。管理员说“每个人都有进入自由，所以我不用给你安排”。这个理由不成立。注册资格与确认产生的关系可以同时存在，不能拿前者消去后者。",
+      "excerpt": "丁拿着确认来，座位满了，但不存在险情。管理员说“每个人都有进入自由，所以我不用给你安排”。这个理由不成立。注册资格与确认产生的关系可以同时存在，不能拿前者消去后者。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 10,
+          "end_line": 10
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-reservation",
+          "anchor": "ch-reservation"
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "proposition": "学生问：大家都有进入许可，那我的进入不是总能迫使别人让开吗？老师：你把自己不受禁止，与别人必须配合混在一起了。规则里没给别人让位义务。入口被物品堵住是否另有义务，我们没有材料，不扩展成结论。",
+      "excerpt": "学生问：大家都有进入许可，那我的进入不是总能迫使别人让开吗？老师：你把自己不受禁止，与别人必须配合混在一起了。规则里没给别人让位义务。入口被物品堵住是否另有义务，我们没有材料，不扩展成结论。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 11,
+          "end_line": 11
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-permission",
+          "anchor": "ch-permission"
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "proposition": "顺便，充电线可以借用只是教学中的口头例子，没有给借线者对他人的优先请求；这一点也能看出许可和请求的差别。这个小例子不要带到规则二中去，规则二只承诺座位。",
+      "excerpt": "顺便，充电线可以借用只是教学中的口头例子，没有给借线者对他人的优先请求；这一点也能看出许可和请求的差别。这个小例子不要带到规则二中去，规则二只承诺座位。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 12,
+          "end_line": 12
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-permission",
+          "anchor": "ch-permission"
+        }
+      ]
+    },
+    {
+      "id": "u13",
+      "proposition": "撤销是另一层：戊提前一天17:50发出，18:05才到达系统，不合条件。己17:50到达系统，关系随之消灭。改变的是对座位的请求和提供义务，不是成员身份与进入许可。",
+      "excerpt": "撤销是另一层：戊提前一天17:50发出，18:05才到达系统，不合条件。己17:50到达系统，关系随之消灭。改变的是对座位的请求和提供义务，不是成员身份与进入许可。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-cancellation",
+          "anchor": "ch-cancellation"
+        }
+      ]
+    },
+    {
+      "id": "u14",
+      "proposition": "本课考试提示只代表本课教师的安排：题目如果问“有权吗”，先写双方是谁、针对什么行为、是进入许可还是请求座位或撤销关系，再写成立条件，不以背下术语多少计分。",
+      "excerpt": "本课考试提示只代表本课教师的安排：题目如果问“有权吗”，先写双方是谁、针对什么行为、是进入许可还是请求座位或撤销关系，再写成立条件，不以背下术语多少计分。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-exception",
+          "anchor": "ch-exception"
+        }
+      ]
+    },
+    {
+      "id": "u15",
+      "proposition": "好，最后回到甲和丁。面对同一间满座的阅览室，一个只凭成员资格，一个取得有效确认，差别不在谁更需要座位，而在产生他人义务的条件是否具备。安全险情的例外还要另查，不能从“有确认”一步跳到任何情况下都必须安排。",
+      "excerpt": "好，最后回到甲和丁。面对同一间满座的阅览室，一个只凭成员资格，一个取得有效确认，差别不在谁更需要座位，而在产生他人义务的条件是否具备。安全险情的例外还要另查，不能从“有确认”一步跳到任何情况下都必须安排。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 15,
+          "end_line": 15
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-exception",
+          "anchor": "ch-exception"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "original-class",
+      "uri": "input/original.txt",
+      "version": "隔离输入原始快照",
+      "locator": "1–15行；书名、条文与裁判均只由该输入提供",
+      "read_status": "read"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch-permission",
+      "title": "进入许可究竟允许什么",
+      "anchor": "ch-permission",
+      "path": "chapters/permission.md",
+      "status": "needs_review",
+      "learning_object": "区分自己的行为许可与他人的配合义务",
+      "relations": [
+        "区分自己的行为许可与他人的配合义务"
+      ],
+      "prerequisites": [],
+      "approach": "以甲的让座主张和原课堂反驳作完整对照",
+      "role": "为座位请求的独立依据建立概念起点",
+      "content_unit_ids": [
+        "u01",
+        "u02",
+        "u03",
+        "u06",
+        "u07",
+        "u11",
+        "u12"
+      ]
+    },
+    {
+      "id": "ch-reservation",
+      "title": "从申请到座位请求",
+      "anchor": "ch-reservation",
+      "path": "chapters/reservation.md",
+      "status": "needs_review",
+      "learning_object": "识别确认成立、请求对象、时间与给付内容",
+      "relations": [
+        "识别确认成立、请求对象、时间与给付内容"
+      ],
+      "prerequisites": [
+        "区分自己的行为许可与他人的配合义务"
+      ],
+      "approach": "将丙的申请接收和丁的有效确认放在相同进入许可背景中比较",
+      "role": "显示许可与请求可以并存",
+      "content_unit_ids": [
+        "u04",
+        "u08",
+        "u10"
+      ]
+    },
+    {
+      "id": "ch-cancellation",
+      "title": "撤销如何改变双方关系",
+      "anchor": "ch-cancellation",
+      "path": "chapters/cancellation.md",
+      "status": "needs_review",
+      "learning_object": "判断到达时间及撤销效果的范围",
+      "relations": [
+        "判断到达时间及撤销效果的范围"
+      ],
+      "prerequisites": [
+        "识别确认成立、请求对象、时间与给付内容"
+      ],
+      "approach": "逐一分析戊与己的通知时刻",
+      "role": "区分关系变动与成员身份",
+      "content_unit_ids": [
+        "u05",
+        "u13"
+      ]
+    },
+    {
+      "id": "ch-exception",
+      "title": "安全例外与完整作答",
+      "anchor": "ch-exception",
+      "path": "chapters/exception.md",
+      "status": "needs_review",
+      "learning_object": "同时检查请求成立、关系存续和安全例外",
+      "relations": [
+        "同时检查请求成立、关系存续和安全例外"
+      ],
+      "prerequisites": [
+        "判断到达时间及撤销效果的范围"
+      ],
+      "approach": "恢复甲丁完整对比并讲解本课考试要求",
+      "role": "整合判断而不以术语或单一条件替代分析",
+      "content_unit_ids": [
+        "u09",
+        "u14",
+        "u15"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "许可",
+      "decision": "仅表示本人没有相反行为义务，不自动推出他人配合义务"
+    },
+    {
+      "term": "请求座位",
+      "decision": "规则二成员对管理人的一个标准座位请求，限确认两小时"
+    },
+    {
+      "term": "撤销",
+      "decision": "通知依规则三及时到达后消灭预约双方关系"
+    },
+    {
+      "term": "退还预约积分",
+      "decision": "保留规则四的积分单位，不写现金退款"
+    }
+  ],
+  "open_issues": [],
+  "runtime_revision": {
+    "host": "Codex desktop subagent",
+    "model": "unknown",
+    "settings": {
+      "reasoning_effort": "unknown",
+      "temperature": "unknown",
+      "seed": "unknown"
+    },
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "fe0c12d16c2c9db3532f72132853f2452a09f8bc576c0867584bfb83cc441a02"
+      },
+      {
+        "path": "scripts/validate_repo.py",
+        "sha256": "819c56f5ecb67dbcdbc46fa4e42c3bbc30ae01c62da2a03c3a7efdb98cdba7ca"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "self-semantic-review",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "同一生成者实际对照原输入与落盘全文，非独立评审",
+      "date": "2026-11-15",
+      "evidence": "semantic-review.json",
+      "output_sha256": "8611c165f82ff0e998026455f8f1e17f658a2825b55dfea0c54a3a44b0c00282"
+    },
+    {
+      "id": "mechanical-run-check",
+      "kind": "mechanical",
+      "scope": "finite_structural_checks",
+      "status": "pass",
+      "method": "运行包内 scripts/check_run.py",
+      "date": "2026-11-15",
+      "evidence": "check-run.json"
+    },
+    {
+      "id": "independent-review",
+      "kind": "semantic",
+      "scope": "independent_full_manuscript",
+      "status": "not_run",
+      "method": "待主任务安排独立输入—成稿对照",
+      "date": "2026-11-15"
+    }
+  ],
+  "revision_round": 1,
+  "output": {
+    "path": "lecture.md"
+  },
+  "resume": {
+    "completed": [
+      "完整正文",
+      "原输入全文对照",
+      "同一生成者全篇语义复核"
+    ],
+    "remaining": [],
+    "next_action": "生成任务已完成；独立评审由主任务另行安排"
+  }
+}

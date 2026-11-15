@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "run_id": "edge-asr",
+  "status": "needs_input",
+  "stage": "review",
+  "course": {
+    "title": "asr",
+    "scope": "给定合成材料",
+    "jurisdiction": "教学假设，无现实法域",
+    "time_context": "unknown",
+    "audience": "大学课程读者",
+    "assumptions": [
+      "只用输入给定规则，不外推现实法"
+    ]
+  },
+  "inputs": [
+    {
+      "id": "in1",
+      "path": "input/asr.txt",
+      "sha256": "db2b5a2e4f46674f5cf619e957407d1d6cad3e6c6cb9d8472c946cb43187bcb4",
+      "kind": "synthetic_transcript",
+      "normalized_path": "input/asr.txt",
+      "normalized_sha256": "db2b5a2e4f46674f5cf619e957407d1d6cad3e6c6cb9d8472c946cb43187bcb4"
+    }
+  ],
+  "source_review": [
+    {
+      "input_id": "in1",
+      "start_line": 1,
+      "end_line": 7,
+      "status": "reviewed"
+    }
+  ],
+  "content_units": [
+    {
+      "id": "u1",
+      "proposition": "术语修复：请求权",
+      "locations": [
+        {
+          "input_id": "in1",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "type": "substantive",
+      "status": "corrected",
+      "reason": "原文对照后写入实际正文",
+      "targets": [
+        {
+          "chapter_id": "ch-notice",
+          "anchor": "ch-notice"
+        }
+      ],
+      "source_ids": [],
+      "original_meaning": "请球权",
+      "correction_basis": "同一行给出请求权定义及后续统一术语"
+    },
+    {
+      "id": "u2",
+      "proposition": "有效通知是交付义务成立条件",
+      "locations": [
+        {
+          "input_id": "in1",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "type": "substantive",
+      "status": "represented",
+      "reason": "原文对照后写入实际正文",
+      "targets": [
+        {
+          "chapter_id": "ch-notice",
+          "anchor": "ch-notice"
+        }
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "u3",
+      "proposition": "甲题的发出或到达标准不明",
+      "locations": [
+        {
+          "input_id": "in1",
+          "start_line": 4,
+          "end_line": 5
+        }
+      ],
+      "type": "substantive",
+      "status": "unresolved",
+      "reason": "原文对照后写入实际正文",
+      "targets": [
+        {
+          "chapter_id": "ch-notice",
+          "anchor": "ch-notice"
+        }
+      ],
+      "source_ids": [],
+      "blocking": true,
+      "blocking_reason": "生效点决定甲题结论，只有文字无法确认"
+    },
+    {
+      "id": "u4",
+      "proposition": "丙没有任何通知；不能忽略生效点差异",
+      "locations": [
+        {
+          "input_id": "in1",
+          "start_line": 6,
+          "end_line": 7
+        }
+      ],
+      "type": "substantive",
+      "status": "represented",
+      "reason": "原文对照后写入实际正文",
+      "targets": [
+        {
+          "chapter_id": "ch-notice",
+          "anchor": "ch-notice"
+        }
+      ],
+      "source_ids": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "uri": "input/asr.txt",
+      "version": "db2b5a2e4f46674f5cf619e957407d1d6cad3e6c6cb9d8472c946cb43187bcb4",
+      "locator": "lines 1–7",
+      "read_status": "read"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch-notice",
+      "path": "lecture.md",
+      "anchor": "ch-notice",
+      "status": "drafted",
+      "learning_object": "ch-notice",
+      "relations": [
+        "主体、行为及条件与后果的关系"
+      ],
+      "prerequisites": [
+        "材料给定的合成规则"
+      ],
+      "approach": "完整解释与关键条件对照",
+      "role": "解释课程的实质关系",
+      "content_unit_ids": [
+        "u1",
+        "u2",
+        "u3",
+        "u4"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "请求权",
+      "decision": "要求特定相对人实施指定行为的地位"
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "issue1",
+      "question": "通知生效点为发出还是到达？",
+      "impact": "缺口阻止完整成稿",
+      "resolution_condition": "用户提供必要文字或确认篇幅取舍",
+      "status": "open",
+      "blocking": true,
+      "blocking_reason": "核心含义、可读材料或交付范围未确定"
+    }
+  ],
+  "runtime_revision": {
+    "host": "Codex desktop",
+    "model": "GPT-6; exact backend snapshot unknown",
+    "settings": {
+      "sampling": "unknown"
+    },
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      }
+    ]
+  },
+  "checks": [],
+  "revision_round": 0,
+  "output": {
+    "path": "lecture.md"
+  },
+  "resume": {
+    "completed": [
+      "可读材料检查",
+      "已保存实际响应"
+    ],
+    "remaining": [
+      "核心缺口"
+    ],
+    "next_action": "通知生效点为发出还是到达？"
+  }
+}

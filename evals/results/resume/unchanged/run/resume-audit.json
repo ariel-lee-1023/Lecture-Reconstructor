@@ -1,0 +1,362 @@
+{
+  "started_utc": "2026-11-15T02:16:39.552799+00:00",
+  "time_basis": "first actual UTC sample in this continuation; initial reads and first mechanical execution preceded sample; exact turn start unknown",
+  "host": "Codex desktop",
+  "model": "unknown",
+  "model_family": "GPT-6 (developer-described family only)",
+  "settings": "unknown",
+  "read_paths": [
+    {
+      "path": "<isolated-eval>/resume-unchanged/package/SKILL.md",
+      "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/package/references/reconstruction-workflow.md",
+      "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/package/references/teaching-design.md",
+      "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/package/references/law-reasoning.md",
+      "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/package/references/transcript-repair.md",
+      "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/package/schemas/run.schema.json",
+      "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/package/scripts/check_run.py",
+      "sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/pre-resume-check.json",
+      "sha256": "e12b405e8550df300ac6312da77723ea5b560cd3363aa03ff87f809d035248b5"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/audit.json",
+      "sha256": "341cd5ff6aeb31b635fdd9cc7b98fee1d72db662f32114a51ca21fa881e6ee79"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/chapters/01-relations.md",
+      "sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checkpoint.md",
+      "sha256": "c45f989255d834e2877dec6dbde1d297a000e27b35dd54bfc2b75c1f5d17b25e"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/chapter-1-semantic.md",
+      "sha256": "aabd3c9e67aa4799b4e6ca227e0a7bed28ca7af8df3c95700dd56c916f124131"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/mechanical.json",
+      "sha256": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/content-map.md",
+      "sha256": "9b793ec39320919ea5f4e8de48a266d97b7f95bd7c9060908f9a61f7179c4bad"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/course-plan.md",
+      "sha256": "8f359e2f4d5274bb76fbbc6a4d83c476e3b6ea8363f1b4c690b5d60550093995"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/input/original.txt",
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/notes.md",
+      "sha256": "f209592119e871e3789dc75dc9192955925ca0180ee779abf9c9c3798a42a460"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/run.json",
+      "sha256": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/terms.md",
+      "sha256": "a35b7f986ce4f52b055a1b718bdbdcf79e28d6ac53304eec3f801573ed0b79c3"
+    }
+  ],
+  "hash_comparison": [
+    {
+      "path": "SKILL.md",
+      "before": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8",
+      "current": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8",
+      "changed": false
+    },
+    {
+      "path": "references/reconstruction-workflow.md",
+      "before": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3",
+      "current": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3",
+      "changed": false
+    },
+    {
+      "path": "references/teaching-design.md",
+      "before": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118",
+      "current": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118",
+      "changed": false
+    },
+    {
+      "path": "references/law-reasoning.md",
+      "before": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62",
+      "current": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62",
+      "changed": false
+    },
+    {
+      "path": "schemas/run.schema.json",
+      "before": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142",
+      "current": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142",
+      "changed": false
+    },
+    {
+      "path": "scripts/check_run.py",
+      "before": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5",
+      "current": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5",
+      "changed": false
+    },
+    {
+      "path": "input/original.txt",
+      "before": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "current": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "changed": false
+    },
+    {
+      "path": "input/transcript.txt",
+      "before": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "current": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "changed": false
+    }
+  ],
+  "backup_manifest": "<isolated-eval>/resume-unchanged/backups/before-resume/manifest.json",
+  "before_resume_sha256": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630",
+  "network_used": false,
+  "package_modified": false,
+  "self_review": true,
+  "independent_review": "not_run",
+  "real_classroom_trial": "not_run",
+  "learning_effect": "not_run",
+  "write_events": [
+    {
+      "utc": "2026-11-15T02:18:11.731508+00:00",
+      "event": "chapter_2_saved_then_run_atomic_replaced",
+      "chapter_sha256": "f0050b8fe3dc871a1d2fc7f1065353e3278c547d9793cb5b0225517fcb3f0d62",
+      "run_sha256": "1e090f0f3ea0a326528cc76babf8a456782f364867fe5c0b006c5a0ef545d40e"
+    },
+    {
+      "utc": "2026-11-15T02:18:55.624701+00:00",
+      "event": "chapter_2_self_review_saved_then_run_atomic_replaced",
+      "run_sha256": "ee7a3d2c48698d3f7cb5d42addf24993bb9aa3daa22abc957ac83e01a0741fa9"
+    },
+    {
+      "utc": "2026-11-15T02:20:37.413870+00:00",
+      "event": "chapter_3_saved_then_run_atomic_replaced",
+      "chapter_sha256": "0900899509155aa305d5f6813a4926452f11812c6487773f6ba8c8ac65d1e554",
+      "run_sha256": "b8b86e595e26560db78d5946576fc3cea21f12ecb6723a96b017cb42511dc800"
+    },
+    {
+      "utc": "2026-11-15T02:22:12.733177+00:00",
+      "event": "chapter_3_self_review_and_assembly_saved_then_run_atomic_replaced",
+      "output_sha256": "7d8bae4dd4159c369fc7a3f15d730d2875bce374cc917b20b746be9e3125799d",
+      "run_sha256": "86839cde3856cb1a422e58aa7cb6f2b99c7f829e628b2441b822e62d85f9574c"
+    },
+    {
+      "utc": "2026-11-15T02:24:37.573443+00:00",
+      "event": "full_self_review_saved_complete_record_final_mechanical_pass",
+      "output_sha256": "7d8bae4dd4159c369fc7a3f15d730d2875bce374cc917b20b746be9e3125799d",
+      "run_sha256": "768a15b7edd0a36af5a0959738331ad9895f1c7dcb7263f63881312a09b34e0e"
+    }
+  ],
+  "ended_utc": "2026-11-15T02:24:37.573443+00:00",
+  "status": "complete",
+  "output_sha256": "7d8bae4dd4159c369fc7a3f15d730d2875bce374cc917b20b746be9e3125799d",
+  "full_manuscript_semantic": "pass",
+  "full_manuscript_semantic_evidence": "checks/full-semantic.md",
+  "mechanical_returncode": 0,
+  "old_chapter_1_preserved": true,
+  "old_run_preserved": true,
+  "scope_note": "Only current branch package allowed files, branch run and pre-resume-check supplied data were consulted. Newly generated own backup manifest was read once to check pre-write hashes; no other branch/network/evals content was read.",
+  "final_files_hash_inventory": [
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/audit.json",
+      "sha256": "341cd5ff6aeb31b635fdd9cc7b98fee1d72db662f32114a51ca21fa881e6ee79",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/before-resume.json",
+      "sha256": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/chapters/01-relations.md",
+      "sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/chapters/02-changes.md",
+      "sha256": "f0050b8fe3dc871a1d2fc7f1065353e3278c547d9793cb5b0225517fcb3f0d62",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/chapters/03-consequences-review.md",
+      "sha256": "0900899509155aa305d5f6813a4926452f11812c6487773f6ba8c8ac65d1e554",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checkpoint.md",
+      "sha256": "46b19fd7851846690e7fe40facbe7a96cf81b6c10077d21038fb35af9f7ee155",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/chapter-1-semantic.md",
+      "sha256": "aabd3c9e67aa4799b4e6ca227e0a7bed28ca7af8df3c95700dd56c916f124131",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/chapter-2-semantic.md",
+      "sha256": "0a27e9c2bbf7017051deea05c77d357be24cc6dda65ae1e791ebfe4d4b6502a8",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/chapter-3-semantic.md",
+      "sha256": "8be6c3f728f07f90ab4bdefc08b53feb66aac7f502c9a68e9ca51b0b518af201",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/full-semantic.md",
+      "sha256": "20ddf67f2b0b5eaefdac978601efff0ba9b00b2246fe3ed17f0a69e182c4e5bb",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/mechanical.json",
+      "sha256": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/resume-final-mechanical.json",
+      "sha256": "6daba6efa8b14c66685d211a797fc7b47ea25a3fe58431d42a931d1ea36d1cec",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/resume-impact.md",
+      "sha256": "8523cdf477217852ea9dda0d9f813ed3656f343fd81e41c3804d73a5f9cecfdd",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/checks/resume-initial-mechanical.json",
+      "sha256": "62f57802a600faea579c321c7b9c670127889d8335eb43d57beeb44b964ca893",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/content-map.md",
+      "sha256": "4527311276ca88469fb9362f886c31fb3993a452c055cc0a279c6c312f510d48",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/course-plan.md",
+      "sha256": "157e5dad7d6fcac49546654e6dc32fdd3fe18209f88061e41e65917f72ed687f",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/input/original.txt",
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "sha256": "7d8bae4dd4159c369fc7a3f15d730d2875bce374cc917b20b746be9e3125799d",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/notes.md",
+      "sha256": "71ad9cc6cd5388b4f83adcc1f1fe0bc097e18309893201fedf3277018c639e63",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/resume-chapter-2.json",
+      "sha256": "ee7a3d2c48698d3f7cb5d42addf24993bb9aa3daa22abc957ac83e01a0741fa9",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/resume-chapter-3.json",
+      "sha256": "f66c0f4cad5aceccfc2bd3801c0c0355a4920808ddc0ded6aa5f39bd8af041f7",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/run.json",
+      "sha256": "768a15b7edd0a36af5a0959738331ad9895f1c7dcb7263f63881312a09b34e0e",
+      "access_kind": "hash_read_for_final_audit"
+    },
+    {
+      "path": "<isolated-eval>/resume-unchanged/run/terms.md",
+      "sha256": "a35b7f986ce4f52b055a1b718bdbdcf79e28d6ac53304eec3f801573ed0b79c3",
+      "access_kind": "hash_read_for_final_audit"
+    }
+  ],
+  "runtime_revision": {
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      }
+    ],
+    "host": "Codex desktop",
+    "model": "unknown",
+    "settings": {
+      "exact_model_id": "unknown",
+      "reasoning_effort": "unknown",
+      "temperature": "unknown",
+      "model_family": "GPT-6 (developer-described family only)",
+      "network_used": false,
+      "references_loaded": [
+        "reconstruction-workflow.md",
+        "teaching-design.md",
+        "law-reasoning.md",
+        "transcript-repair.md"
+      ],
+      "transcript_repair_loaded": true
+    }
+  }
+}

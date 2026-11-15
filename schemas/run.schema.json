@@ -1,0 +1,767 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lecture-reconstructor:run:1.0",
+  "title": "Lecture reconstruction run record",
+  "description": "Documented record format. scripts/check_run.py implements explicit finite invariants, NOT a general JSON Schema evaluator. complete requires deliver, reviewed source ranges, finished chapters, no blocking open items, and a current full-manuscript semantic pass with evidence.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "status",
+    "stage",
+    "course",
+    "inputs",
+    "source_review",
+    "content_units",
+    "sources",
+    "chapters",
+    "terms",
+    "open_issues",
+    "runtime_revision",
+    "checks",
+    "revision_round",
+    "output",
+    "resume"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "in_progress",
+        "needs_input",
+        "partial",
+        "complete"
+      ]
+    },
+    "stage": {
+      "type": "string",
+      "enum": [
+        "ingest",
+        "map",
+        "plan",
+        "draft",
+        "review",
+        "assemble",
+        "deliver"
+      ]
+    },
+    "course": {
+      "type": "object",
+      "required": [
+        "title",
+        "scope",
+        "jurisdiction",
+        "time_context",
+        "audience",
+        "assumptions"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time_context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "audience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/input"
+      }
+    },
+    "source_review": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source_review"
+      }
+    },
+    "content_units": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unit"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/chapter"
+      }
+    },
+    "terms": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/term"
+      }
+    },
+    "open_issues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/issue"
+      }
+    },
+    "runtime_revision": {
+      "type": "object",
+      "required": [
+        "files",
+        "host",
+        "model",
+        "settings"
+      ],
+      "properties": {
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/runtime_file"
+          }
+        },
+        "host": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "settings": {
+          "type": "object"
+        }
+      },
+      "description": "Use unknown for unavailable configuration. Record SKILL.md and every reference actually loaded."
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/check"
+      }
+    },
+    "revision_round": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "output": {
+      "type": "object",
+      "required": [
+        "path"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative to run.json and confined to the run directory. Runtime paths are relative to --repo-root. Symlinks escaping a declared root are rejected."
+        }
+      }
+    },
+    "resume": {
+      "type": "object",
+      "required": [
+        "completed",
+        "remaining",
+        "next_action"
+      ],
+      "properties": {
+        "completed": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "remaining": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "next_action": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "$defs": {
+    "location": {
+      "type": "object",
+      "required": [
+        "input_id",
+        "start_line",
+        "end_line"
+      ],
+      "properties": {
+        "input_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "start_line": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "end_line": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "excerpt": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "description": "Inclusive, 1-based line range in normalized UTF-8 text. Actual bounds checked against the file."
+    },
+    "input": {
+      "type": "object",
+      "required": [
+        "id",
+        "path",
+        "sha256",
+        "kind",
+        "normalized_path",
+        "normalized_sha256"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative to run.json and confined to the run directory. Runtime paths are relative to --repo-root. Symlinks escaping a declared root are rejected."
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalized_path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative to run.json and confined to the run directory. Runtime paths are relative to --repo-root. Symlinks escaping a declared root are rejected."
+        },
+        "normalized_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "description": "Original and normalized snapshot can be the same file for plain UTF-8 input. Never overwrite an original transcript."
+    },
+    "source_review": {
+      "type": "object",
+      "required": [
+        "input_id",
+        "start_line",
+        "end_line",
+        "status"
+      ],
+      "properties": {
+        "input_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "start_line": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "end_line": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "reviewed",
+            "unread"
+          ]
+        }
+      },
+      "description": "All input lines must be represented, including unread ranges. This declaration does not prove semantic reading."
+    },
+    "target": {
+      "type": "object",
+      "required": [
+        "chapter_id",
+        "anchor"
+      ],
+      "properties": {
+        "chapter_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "description": "Explicit stable anchor, e.g. <a id=\"c1\"></a> or {#c1}. Planned chapters do not yet require an existing file or anchor."
+    },
+    "unit": {
+      "type": "object",
+      "required": [
+        "id",
+        "proposition",
+        "locations",
+        "type",
+        "status",
+        "reason",
+        "targets",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "proposition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/location"
+          }
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "represented",
+            "merged",
+            "corrected",
+            "excluded",
+            "unresolved"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "targets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/target"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "merge_into": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_meaning": {
+          "type": "string",
+          "minLength": 1
+        },
+        "correction_basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blocking": {
+          "type": "boolean"
+        },
+        "blocking_reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "merged"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "merge_into"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "corrected"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "original_meaning",
+              "correction_basis"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "unresolved"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "blocking",
+              "blocking_reason"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "represented",
+                  "merged",
+                  "corrected"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "targets": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "id",
+        "uri",
+        "version",
+        "locator",
+        "read_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uri": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "read_status": {
+          "type": "string",
+          "enum": [
+            "read",
+            "unread",
+            "unavailable"
+          ]
+        }
+      },
+      "description": "URI is an actually obtained URL or local path confined to the run directory; version and location must be specific or explicitly unknown."
+    },
+    "chapter": {
+      "type": "object",
+      "required": [
+        "id",
+        "path",
+        "anchor",
+        "status",
+        "learning_object",
+        "relations",
+        "prerequisites",
+        "approach",
+        "role",
+        "content_unit_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative to run.json and confined to the run directory. Runtime paths are relative to --repo-root. Symlinks escaping a declared root are rejected."
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "planned",
+            "drafted",
+            "needs_review",
+            "reviewed",
+            "assembled"
+          ]
+        },
+        "learning_object": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "approach": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "content_unit_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "missing_reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "term": {
+      "type": "object",
+      "required": [
+        "term",
+        "decision"
+      ],
+      "properties": {
+        "term": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "issue": {
+      "type": "object",
+      "required": [
+        "id",
+        "question",
+        "impact",
+        "resolution_condition",
+        "status",
+        "blocking",
+        "blocking_reason"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "impact": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resolution_condition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "open",
+            "resolved"
+          ]
+        },
+        "blocking": {
+          "type": "boolean"
+        },
+        "blocking_reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "runtime_file": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative to run.json and confined to the run directory. Runtime paths are relative to --repo-root. Symlinks escaping a declared root are rejected."
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "check": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "scope",
+        "status",
+        "method",
+        "date"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "mechanical",
+            "semantic"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "not_run"
+          ]
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative to run.json and confined to the run directory. Runtime paths are relative to --repo-root. Symlinks escaping a declared root are rejected."
+        },
+        "date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "pass",
+                  "fail"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "evidence"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "semantic"
+              },
+              "scope": {
+                "const": "full_manuscript"
+              },
+              "status": {
+                "const": "pass"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "output_sha256"
+            ]
+          }
+        }
+      ],
+      "description": "full_manuscript semantic pass requires review evidence and the exact reviewed manuscript SHA-256. A check cannot establish legal truth or learning effects."
+    }
+  }
+}

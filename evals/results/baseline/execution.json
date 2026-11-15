@@ -1,0 +1,80 @@
+{
+  "execution_kind": "actual_synthetic_generation",
+  "agent_task": "/root/baseline_generation",
+  "request_applied_to_each_input": "请把这份课堂转录直接改写成一篇完整、清晰的中文课程讲稿，保留重要内容。",
+  "started_at_utc": "2026-11-15T02:02:36Z",
+  "document_generation_finished_at_utc": "2026-11-15T02:06:19Z",
+  "finished_at_utc": "2026-11-15T02:06:54Z",
+  "model": {
+    "runtime_model_identifier": "unknown",
+    "declared_agent_identity": "Codex, an agent based on GPT-6",
+    "exact_model_version": "unknown"
+  },
+  "host": {
+    "application": "Codex desktop app",
+    "application_version": "unknown",
+    "observed_environment": "macOS path layout; zsh shell declared in environment context"
+  },
+  "settings": {
+    "temperature": "unknown",
+    "top_p": "unknown",
+    "seed": "unknown",
+    "reasoning_effort": "unknown",
+    "max_output_tokens": "unknown",
+    "model_weights_or_snapshot": "unknown"
+  },
+  "call_boundary": {
+    "agent_task_turn_count": 1,
+    "documents_in_same_agent_turn": [
+      "concept.md",
+      "case.md",
+      "dispute.md"
+    ],
+    "separate_model_call_per_document": false,
+    "underlying_model_api_request_count": "unknown",
+    "description": "One controlled agent task turn read all three input texts and generated all three complete lecture manuscripts. The three manuscripts were written together in one file-writing tool invocation; metadata was subsequently written in the same agent turn. This is not three isolated model invocations."
+  },
+  "usage": {
+    "input_tokens": "unknown",
+    "output_tokens": "unknown",
+    "total_tokens": "unknown"
+  },
+  "read_scope": {
+    "input_files": [
+      "../../cases/concept.txt",
+      "../../cases/case.txt",
+      "../../cases/dispute.txt"
+    ],
+    "additional_content_reads": "Only the generated manuscript output files were read back for SHA-256 verification.",
+    "repository_read": false,
+    "skill_read": false,
+    "web_browsing": false,
+    "input_embedded_commands_executed": false
+  },
+  "outputs": [
+    {
+      "path": "concept.md",
+      "pre_write_state": "absent",
+      "sha256": "22e462b6ca2c31107ff62dc64f2f454f7dc8195f26b51e73d3e808202c1a6b1c",
+      "bytes": 7455,
+      "characters": 2555
+    },
+    {
+      "path": "case.md",
+      "pre_write_state": "absent",
+      "sha256": "4f0d553af2611047636f2b8cf64f727377758807c6416d6718dbd3531c7bf66b",
+      "bytes": 7881,
+      "characters": 2769
+    },
+    {
+      "path": "dispute.md",
+      "pre_write_state": "absent",
+      "sha256": "fffc1e8278c44bb70bc3c5091215215076321585724a468f403669bd4b00aa48",
+      "bytes": 8678,
+      "characters": 3030
+    }
+  ],
+  "execution_record_pre_write_state": "absent",
+  "execution_record_hash": "not included to avoid a self-referential hash",
+  "verification": "UTF-8 decoding, nonempty manuscript file lengths, synthetic-material labels, terminal newlines, and SHA-256 values checked. No behavior score or learning-effect claim is made."
+}

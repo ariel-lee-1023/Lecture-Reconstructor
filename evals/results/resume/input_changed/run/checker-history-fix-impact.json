@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-15",
+  "change": "Only latest full-manuscript semantic review binds current manuscript hash; historical passes retain original identity and evidence checks",
+  "affected_semantic_chapters": [],
+  "reason": "SKILL/references, input and manuscript bytes are unchanged; this is record-validation correction after independent code reproduction",
+  "regression": "40 tests passed; old-pass + new-manuscript + new-pass succeeds; latest stale/fail/not_run still rejected",
+  "old_sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5",
+  "new_sha256": "497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7"
+}

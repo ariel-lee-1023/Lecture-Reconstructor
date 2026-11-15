@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-15",
+  "repository_checks": "pass",
+  "behavior_acceptance": "pass",
+  "real_classroom_pilot": "not_run",
+  "learning_outcomes": "not_run",
+  "scope": "synthetic fixtures only",
+  "unit_test_count": 40,
+  "acceptance": {
+    "A01": {
+      "status": "pass",
+      "evidence": "evals/results/skill/independent-review.md"
+    },
+    "A02": {
+      "status": "pass",
+      "evidence": "evals/results/skill/independent-review.md"
+    },
+    "A03": {
+      "status": "pass",
+      "evidence": "evals/results/skill/independent-review.md"
+    },
+    "A04": {
+      "status": "pass",
+      "evidence": "evals/results/edges/independent-review.md"
+    },
+    "A05": {
+      "status": "pass",
+      "evidence": "evals/results/skill/independent-review.md"
+    },
+    "A06": {
+      "status": "pass",
+      "evidence": "evals/results/skill/independent-review.md"
+    },
+    "A07": {
+      "status": "pass",
+      "evidence": "evals/results/skill/independent-review.md"
+    },
+    "A08": {
+      "status": "pass",
+      "evidence": [
+        "evals/results/resume/unchanged-review.md",
+        "evals/results/resume/input_changed-review.md",
+        "evals/results/resume/reference_changed-review.md"
+      ],
+      "note": "输入变化分支因真实核心冲突/结算缺口保持needs_input；通过的是检测/失效/重审与受限交付行为"
+    },
+    "A09": {
+      "status": "pass",
+      "evidence": "evals/results/edges/independent-review.md"
+    },
+    "A10": {
+      "status": "pass",
+      "evidence": "evals/results/isolated/independent-review.md"
+    },
+    "A11": {
+      "status": "pass",
+      "evidence": "evals/results/edges/independent-review.md"
+    },
+    "A12": {
+      "status": "pass",
+      "evidence": "evals/results/edges/independent-review.md"
+    }
+  },
+  "quality_comparison": "evals/results/comparison/summary.json",
+  "unknown": [
+    "exact backend model snapshot",
+    "sampling parameters",
+    "token usage"
+  ],
+  "known_limitations": [
+    "A09 output reviewed; no complete independent external-side-effect audit",
+    "A10 read allowlist, not OS sandbox",
+    "three-chapter restore, not large-context stress",
+    "edge generation author knew design and acceptance criteria",
+    "baseline and skill observed resource use differs"
+  ],
+  "remaining_critical_engineering_defects": [],
+  "engineering_review": "evals/results/mechanical/final-engineering-review.md"
+}

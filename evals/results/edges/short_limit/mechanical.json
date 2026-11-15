@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "scope": "finite_structural_checks",
+  "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+  "errors": [],
+  "exit_code": 0
+}

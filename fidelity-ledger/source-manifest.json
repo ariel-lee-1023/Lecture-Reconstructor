@@ -1,0 +1,320 @@
+{
+  "schema_version": "1.0",
+  "recorded_on": "2026-11-15",
+  "identity_note": "Hashes describe actually read working-tree bytes; source texts are reference data. No verified remote URL was provided. Original books were not reread.",
+  "sources": [
+    {
+      "repo": "indwell-via-shared-discern",
+      "role": "teaching_core",
+      "head": "86674940acaf1b7e7eff15f89be03a811146742e",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Ariel Lee",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "7fb95bf47eff6442bae8bcd7778fda20fa2fd815fc43504805bc16eb0d30be31",
+          "worktree_status": "clean",
+          "sections": [
+            "Choose from the actual problem",
+            "Make examples reveal differences",
+            "Present clearly without distorting facts",
+            "Loading depth evidence boundary"
+          ],
+          "destinations": [
+            "references/teaching-design.md"
+          ],
+          "adaptation": "将实时教学的关系辨别、对照、整体任务改为静态成稿；不继承参与阻塞、学习诊断或媒体要求。"
+        },
+        {
+          "path": "references/reference-marton-booth-awareness.md",
+          "sha256": "9c19d02ce9a356f0d141f79819e8ea5a6d02d17d30f9a9ad585cf18e1c6c755e",
+          "worktree_status": "clean",
+          "sections": [
+            "Mental Model",
+            "Decision Rules & Judgment: Chapter 5, Chapter 7, epilogue",
+            "Teaching design and evidence limits"
+          ],
+          "destinations": [
+            "references/teaching-design.md"
+          ],
+          "adaptation": "用学习对象、关系与整体组织讲稿；不把经验方式归为固定读者类型。"
+        },
+        {
+          "path": "references/reference-ambrose-learning.md",
+          "sha256": "62b472f0f709cda94109b1cfe5bfaabcaeae316764d050736e5ad06f27a267a0",
+          "worktree_status": "clean",
+          "sections": [
+            "Frameworks & Structure: Chapters 1, 2, 4, 5",
+            "Prior knowledge and organization",
+            "Mastery is more than one component"
+          ],
+          "destinations": [
+            "references/teaching-design.md"
+          ],
+          "adaptation": "区分不同讲解缺口，补足先修和专家省略步骤；无学生表现时不作诊断。"
+        },
+        {
+          "path": "references/reference-van-merrienboer-complex.md",
+          "sha256": "b3a139fae578edbb7f090a429bba91d21523e0eacaa2bb924970a866b4e842d0",
+          "worktree_status": "clean",
+          "sections": [
+            "Four components",
+            "Ten design activities: Chapters 4, 6, 7, 10",
+            "Simplifying whole tasks versus splitting tasks",
+            "Assessment and transfer"
+          ],
+          "destinations": [
+            "references/teaching-design.md"
+          ],
+          "adaptation": "先完整示范后增加复杂度，区分支持性与程序性信息，静态稿不声称技能表现已被观察。"
+        },
+        {
+          "path": "references/reference-alexander-dialogic.md",
+          "sha256": "ecbaf55113eac814c3c26c9eb502b0ce99f3d8d568c17df7ce3e9951a88b75a4",
+          "worktree_status": "clean",
+          "sections": [
+            "Six mutually constraining principles",
+            "Decision Rules & Judgment: uptake",
+            "Social context and evidence limits"
+          ],
+          "destinations": [
+            "references/teaching-design.md"
+          ],
+          "adaptation": "承接原材料反驳并保留争议；静态稿不模拟不存在的师生互动。"
+        },
+        {
+          "path": "references/reference-multimedia-handbook.md",
+          "sha256": "da65ca50fcb2b6b0ef14247a5b332ea6c469246308cd9cb6d71c50bd922b553f",
+          "worktree_status": "clean",
+          "sections": [
+            "Select a representation for a learning need: Chapters 14, 17, 18, 19",
+            "Do not drop Chapter 14 boundaries",
+            "Assessment multiple sources and media limits: Chapter 44"
+          ],
+          "destinations": [
+            "references/teaching-design.md"
+          ],
+          "adaptation": "按需图表、完整示范、分段与来源归属；保留章节作者和效应外推边界。"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "5ce6c5f9438d25e4b122b4637ce0c27b8392a5adbe2eb70cb710d4f65bbe4ed1",
+          "worktree_status": "clean",
+          "sections": [
+            "full MIT notice"
+          ],
+          "destinations": [
+            "LICENSE",
+            "NOTICE.md"
+          ],
+          "adaptation": "保留许可与原作者版权声明；不扩张到原书、教材和私人课堂材料。"
+        }
+      ]
+    },
+    {
+      "repo": "legal-reasoning-advisor",
+      "role": "law_method",
+      "head": "1c58ba9400d1d9d2c1087d649baef16ad120ec76",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Ariel Lee",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f9fd59f1e3c4328400f658f30bfb28b9d77e6438ce9822dbac2faa36cf678563",
+          "worktree_status": "clean",
+          "sections": [
+            "I distinguish a sound inference from justified premises",
+            "A legal position has a counterpart and a particular content",
+            "Objections and updates must change the right part of the argument",
+            "Scope and currency"
+          ],
+          "destinations": [
+            "references/law-reasoning.md"
+          ],
+          "adaptation": "将论证检查转为课程解释，区分推论与前提，不继承咨询格式或现行法数据库能力。"
+        },
+        {
+          "path": "references/move-taxonomy.md",
+          "sha256": "ee01aaaa9f52eee1ba630b1176bcf9790b4d058e965745b0b35053a3814e88e8",
+          "worktree_status": "clean",
+          "sections": [
+            "Four moves with their different warrants",
+            "Make the dependency visible",
+            "Integrated demonstration",
+            "Revision record and stopping rule"
+          ],
+          "destinations": [
+            "references/law-reasoning.md"
+          ],
+          "adaptation": "保留支持类型、独立路线、更新与反驳；明确四分类是上游合成。"
+        },
+        {
+          "path": "references/reference-toulmin-uses-of-argument.md",
+          "sha256": "f821f401a927a86f0c4ac6b2bbf61824477b59f40065424750fd92ee9665ffe4",
+          "worktree_status": "clean",
+          "sections": [
+            "III. The Layout of Arguments pp.87–134",
+            "Constructed legal reconstruction: an automated receipt",
+            "Decision Rules & Judgment"
+          ],
+          "destinations": [
+            "references/law-reasoning.md"
+          ],
+          "adaptation": "补出隐含桥梁、依据与限定；上传例改为明确合成课堂规则并保留独立路线。"
+        },
+        {
+          "path": "references/hohfeld-toolkit.md",
+          "sha256": "e719cfdd4759f73b32aaf8aa079cf0183e4e4c94a07f690c9a981151af58db72",
+          "worktree_status": "clean",
+          "sections": [
+            "Legal Conceptions Contrasted with Non-Legal Conceptions pp.20–25",
+            "Operative Facts Contrasted with Evidential Facts pp.25–28",
+            "Fundamental Jural Relations Contrasted with One Another pp.28–59"
+          ],
+          "destinations": [
+            "references/law-reasoning.md"
+          ],
+          "adaptation": "只在关系含混处使用许可/保护与权能/义务区别；不把分类当实体规则。"
+        },
+        {
+          "path": "references/reference-maccormick-rhetoric.md",
+          "sha256": "c914a09906ea9823c69b9da03d28c5e9c12adb57ac32c3ae3da89ecc4b0e9617",
+          "worktree_status": "clean",
+          "sections": [
+            "Chapters 3–4 pp.32–77",
+            "Chapters 5–7 pp.78–142",
+            "Chapter 10 pp.189–212",
+            "Chapters 12–13 pp.237–280"
+          ],
+          "destinations": [
+            "references/law-reasoning.md"
+          ],
+          "adaptation": "分清涵摄结构、前提正当化、可普遍化理由及可推翻论证；不设普遍解释层级。"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "5ce6c5f9438d25e4b122b4637ce0c27b8392a5adbe2eb70cb710d4f65bbe4ed1",
+          "worktree_status": "clean",
+          "sections": [
+            "full MIT notice"
+          ],
+          "destinations": [
+            "LICENSE",
+            "NOTICE.md"
+          ],
+          "adaptation": "保留许可与原作者版权声明；不扩张到原书、教材和私人课堂材料。"
+        }
+      ]
+    },
+    {
+      "repo": "transcript-proofreader",
+      "role": "optional_input_repair",
+      "head": "666eeae172a9c9019836d3840733c0420ba148d1",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Ariel Lee",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "42a089c56a800aeda57c20677d6adc4501026cf31b7ce166ad617790fc3d18b7",
+          "worktree_status": "clean",
+          "sections": [
+            "Default: a clean oral record",
+            "Repair obvious ASR damage proactively",
+            "Make the evidence change the decision",
+            "Carry decisions through the whole job"
+          ],
+          "destinations": [
+            "references/transcript-repair.md"
+          ],
+          "adaptation": "提取上下文修复、原稿保护、实体记忆与核心歧义处理；校对规则仅限前置修复，不继承英文默认、人物词表和格式约定。"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "5ce6c5f9438d25e4b122b4637ce0c27b8392a5adbe2eb70cb710d4f65bbe4ed1",
+          "worktree_status": "clean",
+          "sections": [
+            "full MIT notice"
+          ],
+          "destinations": [
+            "LICENSE",
+            "NOTICE.md"
+          ],
+          "adaptation": "保留许可与原作者版权声明；不扩张到原书、教材和私人课堂材料。"
+        }
+      ]
+    },
+    {
+      "repo": "Models-and-Machines-colleague",
+      "role": "engineering_design_only",
+      "head": "c7ba3364c6ff5a5a4c19cb63ca7fbe85890e35b1",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2026 Ariel Lee",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "45cb3fc155b44abe1ac46299242f9f6370ad325316bd45bf37de6cf1367ce9f0",
+          "worktree_status": "clean",
+          "sections": [
+            "What the claim actually commits us to",
+            "The work at the boundaries",
+            "How I make the analysis useful"
+          ],
+          "destinations": [
+            "intent.md",
+            "spec.md",
+            "plan.md",
+            "fidelity-ledger/validation.md"
+          ],
+          "adaptation": "区分规格、结构检查、真实行为和学习效果，保留组合、独立评审及有限返修边界；不加载为运行角色。"
+        },
+        {
+          "path": "references/reference-brooks-design-of-design.md",
+          "sha256": "56f78fce4c7f98906859471e20593a39770efa257db1e20d2d73ea61c00d952c",
+          "worktree_status": "clean",
+          "sections": [
+            "Part I chapters 1–5",
+            "Part II chapter 6",
+            "Part III chapters 8–10,16"
+          ],
+          "destinations": [
+            "intent.md",
+            "spec.md",
+            "plan.md",
+            "fidelity-ledger/validation.md"
+          ],
+          "adaptation": "区分规格、结构检查、真实行为和学习效果，保留组合、独立评审及有限返修边界；不加载为运行角色。"
+        },
+        {
+          "path": "references/reference-mackenzie-mechanizing-proof.md",
+          "sha256": "9f8d9ec4a58023ff88b4ad41e195e74ba92e6b38fcda468cf3a6fbd639e7c74e",
+          "worktree_status": "clean",
+          "sections": [
+            "Chapters 1–2 specification and need",
+            "Chapter 5 System Z / excluded channels",
+            "Chapter 7 correspondence steps"
+          ],
+          "destinations": [
+            "intent.md",
+            "spec.md",
+            "plan.md",
+            "fidelity-ledger/validation.md"
+          ],
+          "adaptation": "区分规格、结构检查、真实行为和学习效果，保留组合、独立评审及有限返修边界；不加载为运行角色。"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "5ce6c5f9438d25e4b122b4637ce0c27b8392a5adbe2eb70cb710d4f65bbe4ed1",
+          "worktree_status": "clean",
+          "sections": [
+            "full MIT notice"
+          ],
+          "destinations": [
+            "LICENSE",
+            "NOTICE.md"
+          ],
+          "adaptation": "保留许可与原作者版权声明；不扩张到原书、教材和私人课堂材料。"
+        }
+      ]
+    }
+  ]
+}

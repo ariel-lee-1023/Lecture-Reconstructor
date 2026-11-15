@@ -1,0 +1,6 @@
+{
+  "kind": "synthetic_changed_reference_runtime_snapshot",
+  "archive": "runtime-fixture.zip",
+  "sha256": "c623fa3e504620e99e139f3afc42ba41032828e0fdd151487a042298bc1d495c",
+  "note": "Test-only runtime in archive; root SKILL.md remains sole installed entry. Extract into .work to validate changed-reference run."
+}

@@ -1,0 +1,188 @@
+{
+  "recorded_utc": "2026-11-15T02:21:19.914185+00:00",
+  "existing_files": {
+    "audit.json": "341cd5ff6aeb31b635fdd9cc7b98fee1d72db662f32114a51ca21fa881e6ee79",
+    "content-map.md": "9b793ec39320919ea5f4e8de48a266d97b7f95bd7c9060908f9a61f7179c4bad",
+    "checkpoint.md": "c45f989255d834e2877dec6dbde1d297a000e27b35dd54bfc2b75c1f5d17b25e",
+    "terms.md": "a35b7f986ce4f52b055a1b718bdbdcf79e28d6ac53304eec3f801573ed0b79c3",
+    "course-plan.md": "8f359e2f4d5274bb76fbbc6a4d83c476e3b6ea8363f1b4c690b5d60550093995",
+    "notes.md": "f209592119e871e3789dc75dc9192955925ca0180ee779abf9c9c3798a42a460",
+    "run.json": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630",
+    "lecture.md": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042",
+    "input/original.txt": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b",
+    "input/transcript.txt": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b",
+    "chapters/01-relations.md": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042",
+    "checks/chapter-1-semantic.md": "aabd3c9e67aa4799b4e6ca227e0a7bed28ca7af8df3c95700dd56c916f124131",
+    "checks/mechanical.json": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb"
+  },
+  "new_files_before": {
+    "before-resume.json": "absent",
+    "invalidated-run.json": "absent",
+    "resume-mutations.json": "absent",
+    "checks/resume-precheck.json": "absent",
+    "checks/impact-review.md": "absent",
+    "input/recovered-original-v1.txt": "absent",
+    "input/original-v2.txt": "absent",
+    "input/transcript-v2.txt": "absent",
+    "input/input-version.diff": "absent",
+    "chapters/02-changes.md": "absent",
+    "chapters/03-consequences-review.md": "absent",
+    "checks/resume-semantic.md": "absent",
+    "checks/resume-mechanical.json": "absent",
+    "checks/resume-chapter-review.md": "absent",
+    "resume-write.py": "absent"
+  },
+  "backup_location": "resume-backup",
+  "boundary_note": "本任务明确限定所有写入在run内；因此旧稿备份放run/resume-backup，未写run外。所有旧输入不覆盖。",
+  "last_written": {
+    "before-resume.json": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630",
+    "invalidated-run.json": "ef102cb96081f8b4fc8f89eac2459334385ae0a94d524e59c38d12af231e95d9",
+    "checks/resume-precheck.json": "15be28d3961bb0676e04f9c31bbc540bb738431109e550786a889c40883d650a",
+    "checks/impact-review.md": "62a69f663649974b0d3784c6e2bdf9f076f5e30dd07736e46ba93c0c5bbd3033",
+    "input/recovered-original-v1.txt": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+    "input/original-v2.txt": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b",
+    "input/transcript-v2.txt": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b",
+    "input/input-version.diff": "9e236f9ca0dbcb3f3da436df9857f81a98e9ae961fcc9598ebd740451cf71c80",
+    "run.json": "a636c6a84d3b76bad5af965e5e05f40764db7ed80b0192825de0e862881c82cf",
+    "chapters/01-relations.md": "4a8c9774fdaad3cbe005d560613777ecfb795cfed1d029a4d44e86823bea10a1",
+    "chapters/02-changes.md": "3e49ca2fbc66919fb4d8f2eded094e9a5a309506d0a94ec1fc18679cf91557a5",
+    "chapters/03-consequences-review.md": "d26004da42933aa8cabf01e5dc970ccce61ea98cabc0b53584aa7bd4522eb78f",
+    "lecture.md": "597d110f47daf6353344ea7510645efe15e8494d757bbcc800fe546d50b3bb0d",
+    "terms.md": "a5bf610be7db152dc7f72b7cc293f9ac68418682df91c9e35199e35b9941204d",
+    "content-map.md": "032331a51019193306006ea7e987731e1ddc81840453c9872ca06ae570fb4cd4",
+    "course-plan.md": "e9181286cd71600350ee3346386419b086384a17bce0d35c439674512f9e934c",
+    "notes.md": "7b07881ad59f03ae1a2b687db3ec5898ee20736860f0b0bc46f0e4788c2f4909",
+    "checks/resume-semantic.md": "f6ad6f6b9bd8e8a178f68a55127c683a9dfef2621a9f264b837a9ca1a72f143a",
+    "checks/resume-chapter-review.md": "0d295d5851a0c502ea81ad23ca08ad811e9a1739353ef70572454ae2077ca964",
+    "checkpoint.md": "d03928c2c2e569aff63953a93c55e68ce31c796b9ab3ac9a51959768e6ec0c40",
+    "checks/resume-mechanical.json": "15836847aea13069d09746d6187e8563b0a1591449c1e9599d3731b5e6dd3c40",
+    "audit.json": "a2e0f5e11f04c931922ffdbb0d301fa71e50486a9c21bbb12ecaac7b9e244d1c"
+  },
+  "mutations": [
+    {
+      "utc": "2026-11-15T02:21:19.914185+00:00",
+      "stage": "preserve_and_invalidate",
+      "record_sha256": "ef102cb96081f8b4fc8f89eac2459334385ae0a94d524e59c38d12af231e95d9"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.026565+00:00",
+      "path": "chapters/01-relations.md",
+      "before_sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042",
+      "after_sha256": "4a8c9774fdaad3cbe005d560613777ecfb795cfed1d029a4d44e86823bea10a1"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.027270+00:00",
+      "path": "run.json",
+      "before_sha256": "ef102cb96081f8b4fc8f89eac2459334385ae0a94d524e59c38d12af231e95d9",
+      "after_sha256": "61a35a70b73ed5d90d1cd53fe14a97c33748d9274b8bfcb35898fc872d627dbf"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.027662+00:00",
+      "path": "chapters/02-changes.md",
+      "before_sha256": "absent",
+      "after_sha256": "3e49ca2fbc66919fb4d8f2eded094e9a5a309506d0a94ec1fc18679cf91557a5"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.028295+00:00",
+      "path": "run.json",
+      "before_sha256": "61a35a70b73ed5d90d1cd53fe14a97c33748d9274b8bfcb35898fc872d627dbf",
+      "after_sha256": "b603fd8d4bb303f8423ba087545d03d0d724aa3bf4bcdb0db68b3248f6429874"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.028669+00:00",
+      "path": "chapters/03-consequences-review.md",
+      "before_sha256": "absent",
+      "after_sha256": "d26004da42933aa8cabf01e5dc970ccce61ea98cabc0b53584aa7bd4522eb78f"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.029240+00:00",
+      "path": "run.json",
+      "before_sha256": "b603fd8d4bb303f8423ba087545d03d0d724aa3bf4bcdb0db68b3248f6429874",
+      "after_sha256": "b559ad25b3dfaa607f031e29adae2604c52be2c31a265b44b748be6eb889a149"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.029703+00:00",
+      "path": "lecture.md",
+      "before_sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042",
+      "after_sha256": "597d110f47daf6353344ea7510645efe15e8494d757bbcc800fe546d50b3bb0d"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.030323+00:00",
+      "path": "run.json",
+      "before_sha256": "b559ad25b3dfaa607f031e29adae2604c52be2c31a265b44b748be6eb889a149",
+      "after_sha256": "74b33f64c677548037fa0f905b1984ac98cfac6920bde711b41a9cc4fbe3701a"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.030830+00:00",
+      "path": "terms.md",
+      "before_sha256": "a35b7f986ce4f52b055a1b718bdbdcf79e28d6ac53304eec3f801573ed0b79c3",
+      "after_sha256": "a5bf610be7db152dc7f72b7cc293f9ac68418682df91c9e35199e35b9941204d"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.031285+00:00",
+      "path": "content-map.md",
+      "before_sha256": "9b793ec39320919ea5f4e8de48a266d97b7f95bd7c9060908f9a61f7179c4bad",
+      "after_sha256": "032331a51019193306006ea7e987731e1ddc81840453c9872ca06ae570fb4cd4"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.031764+00:00",
+      "path": "course-plan.md",
+      "before_sha256": "8f359e2f4d5274bb76fbbc6a4d83c476e3b6ea8363f1b4c690b5d60550093995",
+      "after_sha256": "e9181286cd71600350ee3346386419b086384a17bce0d35c439674512f9e934c"
+    },
+    {
+      "utc": "2026-11-15T02:25:03.032178+00:00",
+      "path": "notes.md",
+      "before_sha256": "f209592119e871e3789dc75dc9192955925ca0180ee779abf9c9c3798a42a460",
+      "after_sha256": "7b07881ad59f03ae1a2b687db3ec5898ee20736860f0b0bc46f0e4788c2f4909"
+    },
+    {
+      "utc": "2026-11-15T02:28:05.899630+00:00",
+      "path": "checks/resume-semantic.md",
+      "before_sha256": "absent",
+      "after_sha256": "f6ad6f6b9bd8e8a178f68a55127c683a9dfef2621a9f264b837a9ca1a72f143a"
+    },
+    {
+      "utc": "2026-11-15T02:28:05.900217+00:00",
+      "path": "checks/resume-chapter-review.md",
+      "before_sha256": "absent",
+      "after_sha256": "0d295d5851a0c502ea81ad23ca08ad811e9a1739353ef70572454ae2077ca964"
+    },
+    {
+      "utc": "2026-11-15T02:28:05.900997+00:00",
+      "path": "run.json",
+      "before_sha256": "74b33f64c677548037fa0f905b1984ac98cfac6920bde711b41a9cc4fbe3701a",
+      "after_sha256": "e3cc153f2527a3ba7a71c0dbbc61bd25459eba4fd8d9be3bb6f9d651d5957aaa"
+    },
+    {
+      "utc": "2026-11-15T02:28:05.901664+00:00",
+      "path": "checkpoint.md",
+      "before_sha256": "c45f989255d834e2877dec6dbde1d297a000e27b35dd54bfc2b75c1f5d17b25e",
+      "after_sha256": "d03928c2c2e569aff63953a93c55e68ce31c796b9ab3ac9a51959768e6ec0c40"
+    },
+    {
+      "utc": "2026-11-15T02:28:05.934445+00:00",
+      "path": "checks/resume-mechanical.json",
+      "before_sha256": "absent",
+      "after_sha256": "98f9750dee53c7cb43c3ed5f4bbb9f7b7c1e36c910f64ff634997187803ebefc"
+    },
+    {
+      "utc": "2026-11-15T02:28:05.935243+00:00",
+      "path": "run.json",
+      "before_sha256": "e3cc153f2527a3ba7a71c0dbbc61bd25459eba4fd8d9be3bb6f9d651d5957aaa",
+      "after_sha256": "a636c6a84d3b76bad5af965e5e05f40764db7ed80b0192825de0e862881c82cf"
+    },
+    {
+      "utc": "2026-11-15T02:28:05.967720+00:00",
+      "path": "checks/resume-mechanical.json",
+      "before_sha256": "98f9750dee53c7cb43c3ed5f4bbb9f7b7c1e36c910f64ff634997187803ebefc",
+      "after_sha256": "15836847aea13069d09746d6187e8563b0a1591449c1e9599d3731b5e6dd3c40"
+    },
+    {
+      "utc": "2026-11-15T02:28:05.971242+00:00",
+      "path": "audit.json",
+      "before_sha256": "341cd5ff6aeb31b635fdd9cc7b98fee1d72db662f32114a51ca21fa881e6ee79",
+      "after_sha256": "a2e0f5e11f04c931922ffdbb0d301fa71e50486a9c21bbb12ecaac7b9e244d1c"
+    }
+  ]
+}

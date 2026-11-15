@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-15",
+  "python": "Python 3.13.1",
+  "unit_tests": 40,
+  "checks": [
+    {
+      "name": "unit-tests",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "evidence": "unit-tests.txt"
+    },
+    {
+      "name": "repo-check",
+      "command": [
+        "python3",
+        "scripts/validate_repo.py",
+        ".",
+        "--json"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "evidence": "repo-check.txt"
+    },
+    {
+      "name": "skill-check",
+      "command": [
+        "python3",
+        "<skill-creator>/scripts/quick_validate.py",
+        "."
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "evidence": "skill-check.txt"
+    }
+  ]
+}

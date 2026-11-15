@@ -1,0 +1,580 @@
+{
+  "schema_version": "1.0",
+  "run_id": "isolated-dispute-20261115",
+  "status": "complete",
+  "stage": "deliver",
+  "course": {
+    "title": "南岬档案馆：规范解释、版本变化与制度评价",
+    "scope": "仅重构实际提供的合成课堂转录，不引入现实法或真实案例",
+    "jurisdiction": "课内虚构规则，不对应现实法域",
+    "time_context": "2019年课程语境，主体为2018版，2024版为后续教学版本对照",
+    "audience": "大学课程读者；无实际学习者数据",
+    "assumptions": [
+      "原输入明确标示全部规则、人物与课堂事例为合成材料",
+      "不假定提供了音频、独立教材全文或真实学习表现"
+    ]
+  },
+  "inputs": [
+    {
+      "id": "transcript",
+      "kind": "synthetic_transcript",
+      "path": "input/original.txt",
+      "sha256": "e9fc50f90b0ccb92445ce0adc331768e93d7fe862c472cf63d6758ea01ec41ce",
+      "normalized_path": "input/transcript.txt",
+      "normalized_sha256": "e9fc50f90b0ccb92445ce0adc331768e93d7fe862c472cf63d6758ea01ec41ce"
+    }
+  ],
+  "source_review": [
+    {
+      "input_id": "transcript",
+      "start_line": 1,
+      "end_line": 13,
+      "status": "reviewed"
+    }
+  ],
+  "content_units": [
+    {
+      "id": "u01",
+      "proposition": "【合成争议与制度沿革课；以下机构、资料和观点均为测试创作，不是现行规范、真实著作或真实裁判。课程时间语境为2019年，主题是2018版练习规则。】",
+      "excerpt": "【合成争议与制度沿革课；以下机构、资料和观点均为测试创作，不是现行规范、真实著作或真实裁判。课程时间语境为2019年，主题是2018版练习规则。】",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-version2018",
+          "anchor": "ch-version2018"
+        }
+      ]
+    },
+    {
+      "id": "u02",
+      "proposition": "我想先讲公开比较好，但上课不能把我的偏好直接写成规则。今天南岬档案馆的练习题，核心是研究者能否获得普通档案。",
+      "excerpt": "我想先讲公开比较好，但上课不能把我的偏好直接写成规则。今天南岬档案馆的练习题，核心是研究者能否获得普通档案。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-version2018",
+          "anchor": "ch-version2018"
+        }
+      ]
+    },
+    {
+      "id": "u03",
+      "proposition": "课堂使用的《南岬档案使用练习规则》2018版第2条原文：“档案原则上不对外提供。申请人证明其用途为学术研究，且不涉及封存的个人秘密的，应准许阅览。”这只是课内假设规范。",
+      "excerpt": "课堂使用的《南岬档案使用练习规则》2018版第2条原文：“档案原则上不对外提供。申请人证明其用途为学术研究，且不涉及封存的个人秘密的，应准许阅览。”这只是课内假设规范。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-version2018",
+          "anchor": "ch-version2018"
+        }
+      ]
+    },
+    {
+      "id": "u04",
+      "proposition": "甲提出学术研究计划，所请档案没有封存的个人秘密；乙只说自己好奇，没有说明学术用途。2018版下不能因为二人都想看，就同样适用例外。",
+      "excerpt": "甲提出学术研究计划，所请档案没有封存的个人秘密；乙只说自己好奇，没有说明学术用途。2018版下不能因为二人都想看，就同样适用例外。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-version2018",
+          "anchor": "ch-version2018"
+        }
+      ]
+    },
+    {
+      "id": "u05",
+      "proposition": "课堂教材片段来自虚构的《档案制度练习讲义》2018版第7节，称“学术研究”只含受机构资助的项目。这是教材作者的限制解释，条文本身没有写资助条件。",
+      "excerpt": "课堂教材片段来自虚构的《档案制度练习讲义》2018版第7节，称“学术研究”只含受机构资助的项目。这是教材作者的限制解释，条文本身没有写资助条件。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 5,
+          "end_line": 5
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-interpretation",
+          "anchor": "ch-interpretation"
+        }
+      ]
+    },
+    {
+      "id": "u06",
+      "proposition": "教师观点：我倾向于把有明确问题和方法的独立研究也算学术研究，以避免把机构身份变成门槛；这个看法需要解释理由，不能说是条文明文。",
+      "excerpt": "教师观点：我倾向于把有明确问题和方法的独立研究也算学术研究，以避免把机构身份变成门槛；这个看法需要解释理由，不能说是条文明文。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 6,
+          "end_line": 6
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-interpretation",
+          "anchor": "ch-interpretation"
+        }
+      ]
+    },
+    {
+      "id": "u07",
+      "proposition": "课堂裁判模拟册中的“甲申请案”摘要：模拟合议庭认为独立研究者提供研究计划足以证明用途，援引目的在于促进知识使用；摘要没有交代他案事实，也没有宣称对其他案件有约束力。这里讲的是模拟裁判观点，不是真实法院判例。",
+      "excerpt": "课堂裁判模拟册中的“甲申请案”摘要：模拟合议庭认为独立研究者提供研究计划足以证明用途，援引目的在于促进知识使用；摘要没有交代他案事实，也没有宣称对其他案件有约束力。这里讲的是模拟裁判观点，不是真实法院判例。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-interpretation",
+          "anchor": "ch-interpretation"
+        }
+      ]
+    },
+    {
+      "id": "u08",
+      "proposition": "有学生问：促进知识使用的目的，难道也能让乙的好奇心变成学术研究吗？教师：目的不能直接删除规范里还存在的用途限制；独立研究是否符合概念与根本不以研究为目的，是两种问题。另一方面，隐私例外也不是只要说一句“研究”就可以越过。",
+      "excerpt": "有学生问：促进知识使用的目的，难道也能让乙的好奇心变成学术研究吗？教师：目的不能直接删除规范里还存在的用途限制；独立研究是否符合概念与根本不以研究为目的，是两种问题。另一方面，隐私例外也不是只要说一句“研究”就可以越过。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 8,
+          "end_line": 8
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-limits",
+          "anchor": "ch-limits"
+        }
+      ]
+    },
+    {
+      "id": "u09",
+      "proposition": "课堂另有教学假设：丙有完整研究方案，但档案含封存的个人秘密。2018版的两个条件要同时满足；前一项不能抵消后一项。是否能取得去除秘密的副本，本课规则没有规定，暂不下结论。",
+      "excerpt": "课堂另有教学假设：丙有完整研究方案，但档案含封存的个人秘密。2018版的两个条件要同时满足；前一项不能抵消后一项。是否能取得去除秘密的副本，本课规则没有规定，暂不下结论。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-version2018",
+          "anchor": "ch-version2018"
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "proposition": "刚发的补充讲义标着2024版第2条，写的是：“普通档案原则上对外提供；涉及封存的个人秘密的，不得提供。”这是与本课时间不同的后续教学版本，不是2019年已经生效的条文。不要把我刚才的2018版题目默默改成2024版。",
+      "excerpt": "刚发的补充讲义标着2024版第2条，写的是：“普通档案原则上对外提供；涉及封存的个人秘密的，不得提供。”这是与本课时间不同的后续教学版本，不是2019年已经生效的条文。不要把我刚才的2018版题目默默改成2024版。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 10,
+          "end_line": 10
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-version2024",
+          "anchor": "ch-version2024"
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "proposition": "2024版还删去了学术用途门槛。用同样的乙作对照可以看见：变化发生在申请资格条件，保密限制仍在。是否应当这样改，属于制度评价；改后如何判断，属于依该版本规则适用。",
+      "excerpt": "2024版还删去了学术用途门槛。用同样的乙作对照可以看见：变化发生在申请资格条件，保密限制仍在。是否应当这样改，属于制度评价；改后如何判断，属于依该版本规则适用。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 11,
+          "end_line": 11
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-version2024",
+          "anchor": "ch-version2024"
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "proposition": "我的评价是新版本更便于利用；教材的资助标准、新旧规则和模拟裁判的解释理由仍各有身份。我们没有做任何现实法核验，也没有资料证明实际学习者赞同哪一方。",
+      "excerpt": "我的评价是新版本更便于利用；教材的资助标准、新旧规则和模拟裁判的解释理由仍各有身份。我们没有做任何现实法核验，也没有资料证明实际学习者赞同哪一方。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 12,
+          "end_line": 12
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-version2024",
+          "anchor": "ch-version2024"
+        }
+      ]
+    },
+    {
+      "id": "u13",
+      "proposition": "本课作业要求比较两种解释的理由与代价，不要求押中考试结论。若把“教师赞成公开”写成“2018年所有档案都公开”，就是把评价偷换成规范命题。",
+      "excerpt": "本课作业要求比较两种解释的理由与代价，不要求押中考试结论。若把“教师赞成公开”写成“2018年所有档案都公开”，就是把评价偷换成规范命题。",
+      "type": "source_content",
+      "status": "represented",
+      "reason": "已在正文表达，并由同一生成者对照原输入复核；详见semantic-review.json",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ],
+      "source_ids": [
+        "original-class"
+      ],
+      "targets": [
+        {
+          "chapter_id": "ch-limits",
+          "anchor": "ch-limits"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "original-class",
+      "uri": "input/original.txt",
+      "version": "隔离输入原始快照",
+      "locator": "1–13行；书名、条文与裁判均只由该输入提供",
+      "read_status": "read"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch-version2018",
+      "title": "先按2018版辨认规则结构",
+      "anchor": "ch-version2018",
+      "path": "chapters/version2018.md",
+      "status": "assembled",
+      "learning_object": "识别原则、两个累积条件与课程时间",
+      "relations": [
+        "识别原则、两个累积条件与课程时间"
+      ],
+      "prerequisites": [],
+      "approach": "解释甲乙丙在各条件上的差别",
+      "role": "固定整课规范与事实基线",
+      "content_unit_ids": [
+        "u01",
+        "u02",
+        "u03",
+        "u04",
+        "u09"
+      ]
+    },
+    {
+      "id": "ch-interpretation",
+      "title": "学术研究的两种解释",
+      "anchor": "ch-interpretation",
+      "path": "chapters/interpretation.md",
+      "status": "assembled",
+      "learning_object": "区分教材解释、教师主张和模拟裁判理由",
+      "relations": [
+        "区分教材解释、教师主张和模拟裁判理由"
+      ],
+      "prerequisites": [
+        "识别原则、两个累积条件与课程时间"
+      ],
+      "approach": "比较资助标准与实质研究标准并区分来源身份",
+      "role": "使解释争议保持为可论证的分歧",
+      "content_unit_ids": [
+        "u05",
+        "u06",
+        "u07"
+      ]
+    },
+    {
+      "id": "ch-limits",
+      "title": "目的理由能走到哪里",
+      "anchor": "ch-limits",
+      "path": "chapters/limits.md",
+      "status": "assembled",
+      "learning_object": "说明目的解释边界并完成两种解释理由与代价的示范",
+      "relations": [
+        "说明目的解释边界并完成两种解释理由与代价的示范"
+      ],
+      "prerequisites": [
+        "区分教材解释、教师主张和模拟裁判理由"
+      ],
+      "approach": "回应原课堂好奇心反驳，给出明确标注的新写分析",
+      "role": "承接质疑而不消除文本条件",
+      "content_unit_ids": [
+        "u08",
+        "u13"
+      ]
+    },
+    {
+      "id": "ch-version2024",
+      "title": "2024版的变化与制度评价",
+      "anchor": "ch-version2024",
+      "path": "chapters/version2024.md",
+      "status": "assembled",
+      "learning_object": "分开版本适用、解释和制度评价",
+      "relations": [
+        "分开版本适用、解释和制度评价"
+      ],
+      "prerequisites": [
+        "说明目的解释边界并完成两种解释理由与代价的示范"
+      ],
+      "approach": "以同一个乙对照两个版本，保留保密限制",
+      "role": "在时间与来源身份清晰的条件下理解沿革",
+      "content_unit_ids": [
+        "u10",
+        "u11",
+        "u12"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "2018版",
+      "decision": "2019年课程主体规则"
+    },
+    {
+      "term": "2024版",
+      "decision": "后续教学版本，只用于显式对照"
+    },
+    {
+      "term": "教材限制解释",
+      "decision": "机构资助标准不属于条文原文"
+    },
+    {
+      "term": "教师观点",
+      "decision": "包括符合问题与方法标准的独立研究，不冒充规范"
+    },
+    {
+      "term": "模拟裁判观点",
+      "decision": "只保留摘要所述判断与理由，不称真实判例"
+    }
+  ],
+  "open_issues": [],
+  "runtime_revision": {
+    "host": "Codex desktop subagent",
+    "model": "unknown",
+    "settings": {
+      "reasoning_effort": "unknown",
+      "temperature": "unknown",
+      "seed": "unknown"
+    },
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7"
+      },
+      {
+        "path": "scripts/validate_repo.py",
+        "sha256": "0ab2c6b9c0c6b6fbd773b8edbec5cb7f1ebca8c7daa8743c8a7c9ddd6a7689d2"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "self-semantic-review",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "同一生成者实际对照原输入与落盘全文，非独立评审",
+      "date": "2026-11-15",
+      "evidence": "semantic-review.json",
+      "output_sha256": "679e5c56c46f45d9e7bb0880b4e003b127fc8dee1d850c26ffeead4941e6cd42"
+    },
+    {
+      "id": "mechanical-run-check",
+      "kind": "mechanical",
+      "scope": "finite_structural_checks",
+      "status": "pass",
+      "method": "运行包内 scripts/check_run.py",
+      "date": "2026-11-15",
+      "evidence": "check-run.json"
+    },
+    {
+      "id": "independent-review",
+      "kind": "semantic",
+      "scope": "independent_full_manuscript",
+      "status": "not_run",
+      "method": "待主任务安排独立输入—成稿对照",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "root-independent-review",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "独立于生成者的原文与全稿对照，含检查器版本变化影响分析",
+      "evidence": "independent-review.md",
+      "date": "2026-11-15",
+      "output_sha256": "679e5c56c46f45d9e7bb0880b4e003b127fc8dee1d850c26ffeead4941e6cd42"
+    },
+    {
+      "id": "portability-impact",
+      "kind": "mechanical",
+      "scope": "runtime_impact",
+      "status": "pass",
+      "method": "实际差异核对：仅包路径检查器，正文与教学依赖字节未变；39项测试",
+      "evidence": "portability-impact.json",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "checker-history-fix",
+      "kind": "mechanical",
+      "scope": "runtime_impact",
+      "status": "pass",
+      "method": "定向实际复现、代码差异检查及40项回归；输入与讲稿字节未改",
+      "evidence": "checker-history-fix-impact.json",
+      "date": "2026-11-15"
+    }
+  ],
+  "revision_round": 0,
+  "output": {
+    "path": "lecture.md"
+  },
+  "resume": {
+    "completed": [
+      "全部章节",
+      "全篇统稿",
+      "独立语义复核",
+      "检查器升级影响复核"
+    ],
+    "remaining": [],
+    "next_action": "交付"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "reviewer": {
+    "identity": "same generating subagent /root/skill_generation",
+    "host": "Codex desktop",
+    "model": "unknown",
+    "independent": false,
+    "settings": "unknown"
+  },
+  "date": "2026-11-15",
+  "method": "实际重新读取全部原始输入和落盘主稿，逐行对照并检查章间关系、否定、条件、例外、来源身份及新增解释；首次合并输出被截断后重读concept/case完整原文与主稿。concept修正后再次完整读取落盘稿。",
+  "scope": "full_manuscript",
+  "output_sha256": "8611c165f82ff0e998026455f8f1e17f658a2825b55dfea0c54a3a44b0c00282",
+  "status": "pass",
+  "findings": [
+    {
+      "lines": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "anchor": "ch-permission",
+      "finding": "保留合成身份、限定内部规则；甲的进入许可与缺乏让座依据分开；按原说话者自我修正说明自己没有不进入义务。"
+    },
+    {
+      "lines": [
+        11,
+        12
+      ],
+      "anchor": "ch-permission",
+      "finding": "实际保留学生反驳、入口障碍问题的材料边界及充电线小例；未把充电线加入座位规则。"
+    },
+    {
+      "lines": [
+        4,
+        8
+      ],
+      "anchor": "ch-reservation",
+      "finding": "成功回执发出区别于点击与申请接收；未把通常很快当成立证据；丙资格改为条件式，未新增注册事实。"
+    },
+    {
+      "lines": [
+        10
+      ],
+      "anchor": "ch-reservation",
+      "finding": "丁的解释显出规则一与规则二并存，满座且无险情不能由许可消去提供义务；限于确认时段。"
+    },
+    {
+      "lines": [
+        5,
+        13
+      ],
+      "anchor": "ch-cancellation",
+      "finding": "17:50发出、18:05到达与17:50到达有不同效果；保留超过18点可另行协商及成员身份不受影响。"
+    },
+    {
+      "lines": [
+        9
+      ],
+      "anchor": "ch-exception",
+      "finding": "安全险情和必须封闭、可暂停、应退还积分、剩余确认时段及不加时均在正文。自查将退款改为退还积分。"
+    },
+    {
+      "lines": [
+        14,
+        15
+      ],
+      "anchor": "ch-exception",
+      "finding": "末章完整回到甲丁对比，要求同时查成立、有效撤销与安全例外；考试安排明确只属本课。"
+    }
+  ],
+  "defects_found_and_resolved": [
+    "丙注册资格未明示，改为条件式",
+    "退还积分误称退款，恢复单位"
+  ],
+  "unresolved_critical_defects": [],
+  "independent_review": "not_run",
+  "classroom_trial": "not_run",
+  "learning_effects": "not_run",
+  "limitations": "同一生成者自查，不等同独立评审、真实课堂试用或学习效果证据。"
+}

@@ -1,0 +1,371 @@
+{
+  "case": "A08",
+  "branch": "reference_changed",
+  "status": "pass",
+  "reviewed_utc": "2026-11-15T02:33:10.916977+00:00",
+  "reviewer": {
+    "role": "independent review subagent",
+    "participated_in_generation": false,
+    "host": "Codex desktop",
+    "exact_model": "unknown",
+    "generation_independent": true,
+    "human_review": false
+  },
+  "main_manuscript": {
+    "path": "<isolated-eval>/resume-reference_changed/run/lecture.md",
+    "sha256": "0c90bb769e3e96f28a8066e6222a2ca84b179a859a4e7cf3e419e9f3a35d53eb",
+    "fully_read": true,
+    "line_count": 186
+  },
+  "original_source": {
+    "path": "<isolated-eval>/resume-reference_changed/run/input/original.txt",
+    "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+    "fully_read": true,
+    "line_count": 21
+  },
+  "defects": [],
+  "blocking_defects": [],
+  "content_evidence": [
+    {
+      "source_lines": [
+        1,
+        1
+      ],
+      "lecture_lines": [
+        7,
+        7
+      ],
+      "finding": "合成身份、非现行法/真实课堂、无前后课材料均保留。"
+    },
+    {
+      "source_lines": [
+        2,
+        2
+      ],
+      "lecture_lines": [
+        10,
+        12,
+        153,
+        161
+      ],
+      "finding": "周一成功确认周三10—12的整体任务在第三章兑现。"
+    },
+    {
+      "source_lines": [
+        3,
+        3
+      ],
+      "lecture_lines": [
+        17,
+        19,
+        29,
+        33
+      ],
+      "finding": "L1区分许可与管理人标准座位义务；点击、排队、已接收不等于成功确认。"
+    },
+    {
+      "source_lines": [
+        4,
+        4
+      ],
+      "lecture_lines": [
+        38,
+        47
+      ],
+      "finding": "甲无乙让位依据、丁对应管理人义务；两层关系并存且未把义务转移给乙。"
+    },
+    {
+      "source_lines": [
+        5,
+        5
+      ],
+      "lecture_lines": [
+        52,
+        54
+      ],
+      "finding": "借充电线边缘例保留，无优先/交付承诺，禁止移植座位规则。"
+    },
+    {
+      "source_lines": [
+        6,
+        6
+      ],
+      "lecture_lines": [
+        22,
+        24
+      ],
+      "finding": "许可无用反问及作用对象回应完整。"
+    },
+    {
+      "source_lines": [
+        7,
+        7
+      ],
+      "lecture_lines": [
+        59,
+        63
+      ],
+      "finding": "第一章只确认关系成立，未预判一定履行至12点。"
+    },
+    {
+      "source_lines": [
+        8,
+        8
+      ],
+      "lecture_lines": [
+        73,
+        77
+      ],
+      "finding": "L2前一日不晚于18:00到达，含整点；发送不等于到达，协商需双方同意。"
+    },
+    {
+      "source_lines": [
+        9,
+        9
+      ],
+      "lecture_lines": [
+        82,
+        87
+      ],
+      "finding": "戊17:50发出/18:05到达失败；己18:00到达成功；撤销不取消成员/许可。"
+    },
+    {
+      "source_lines": [
+        10,
+        10
+      ],
+      "lecture_lines": [
+        92,
+        94
+      ],
+      "finding": "L3即时安全险情、可暂停/应退、非自动撤销、剩余有效且不延时均保留。"
+    },
+    {
+      "source_lines": [
+        11,
+        11
+      ],
+      "lecture_lines": [
+        97,
+        99,
+        127,
+        127
+      ],
+      "finding": "辛10—12预约、10—11封闭、11开放；11:30迟到仍12届满，给出L4后才算退10。"
+    },
+    {
+      "source_lines": [
+        12,
+        12
+      ],
+      "lecture_lines": [
+        102,
+        102
+      ],
+      "finding": "没坐满即全退的反驳保留，个人迟到不等于封闭影响。"
+    },
+    {
+      "source_lines": [
+        13,
+        13
+      ],
+      "lecture_lines": [
+        107,
+        113,
+        155,
+        155
+      ],
+      "finding": "庚周二17:58发出/18:02收到，无合意证据；周三10—11暂停、11恢复、12届满。"
+    },
+    {
+      "source_lines": [
+        14,
+        14
+      ],
+      "lecture_lines": [
+        123,
+        127
+      ],
+      "finding": "L4每小时10/半小时5，仅整半小时；L3只取有效预约与封闭重叠。"
+    },
+    {
+      "source_lines": [
+        15,
+        15
+      ],
+      "lecture_lines": [
+        132,
+        136
+      ],
+      "finding": "壬9:30—10:30封闭与10—12预约重叠半小时，退5；错误退10的原因及剩余有效均解释。"
+    },
+    {
+      "source_lines": [
+        16,
+        16
+      ],
+      "lecture_lines": [
+        141,
+        143
+      ],
+      "finding": "L5得知次日起算、第七日结束前到达；检查规则/时间事实，不推定管理员正确、不增设自动暂停。"
+    },
+    {
+      "source_lines": [
+        17,
+        17
+      ],
+      "lecture_lines": [
+        146,
+        148
+      ],
+      "finding": "癸周四得知，下周四为第七日；缺得知日期不能编造期限结论，限练习算法。"
+    },
+    {
+      "source_lines": [
+        18,
+        18
+      ],
+      "lecture_lines": [
+        153,
+        161
+      ],
+      "finding": "庚扣20对应计价，应退10、已退5、补退5、正确净扣10；下周三申请且到达为第六日，程序及时与实体根据分开。"
+    },
+    {
+      "source_lines": [
+        19,
+        19
+      ],
+      "lecture_lines": [
+        166,
+        170
+      ],
+      "finding": "17:59到达明确为变式，及时撤销后L3前提失效；L2结算缺口保留，未造退0/退10/全退。"
+    },
+    {
+      "source_lines": [
+        20,
+        20
+      ],
+      "lecture_lines": [
+        175,
+        177
+      ],
+      "finding": "教师提示归属、完整案例四步、概念比较例外及不保证现实评分均保留。"
+    },
+    {
+      "source_lines": [
+        21,
+        21
+      ],
+      "lecture_lines": [
+        182,
+        186
+      ],
+      "finding": "回扣四组区别、限定合成规则，无未提供前课假说；未声称实际学习效果。"
+    }
+  ],
+  "resume_evidence": [
+    {
+      "step": "input_unchanged",
+      "result": "pass",
+      "evidence": [
+        "resume-start/outputs/run/input/original.txt",
+        "resume-start/outputs/run/input/transcript.txt",
+        "run/history/before-resume/input/original.txt",
+        "run/input/original.txt",
+        "run/input/transcript.txt"
+      ],
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6"
+    },
+    {
+      "step": "reference_really_changed",
+      "result": "pass",
+      "old_sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3",
+      "new_sha256": "07a2fa38245585dc499dbd47b1ad7c34015a199a3790421fff32a3d9e1b08f07",
+      "evidence": "Removing exactly the appended newline + time-event review sentence + newline from the current reference independently reproduces the old SHA-256. All other runtime files recorded at the original checkpoint match current package hashes."
+    },
+    {
+      "step": "detect_before_refresh",
+      "result": "pass",
+      "evidence": [
+        "pre-resume-check.json",
+        "run/checks/resume-initial.json",
+        "run/before-resume-run.json"
+      ],
+      "reviewer_actual_exit_code": 2,
+      "error": "RUNTIME_CHANGED"
+    },
+    {
+      "step": "invalidate_before_hash_refresh",
+      "result": "pass",
+      "evidence": "run/invalidated-run.json has all three chapter statuses needs_review, old reference hash, hash_refresh_status=not_yet_refreshed, active full semantic not_run; historical_checks preserves original chapter pass/date/hash and original full not_run. Reviewer rerun returned 2."
+    },
+    {
+      "step": "impact_analysis",
+      "result": "pass",
+      "evidence": "run/impact-analysis.md identifies the exact added method and affected confirmation, sending/arrival, closure/reopening/expiry, overlap, knowledge/application-arrival and 17:59 variant facts; explicitly expands review to all chapters."
+    },
+    {
+      "step": "re_review_and_complete",
+      "result": "pass",
+      "evidence": [
+        "run/checks/chapter-1-resumed-semantic.md",
+        "run/history/after-chapter-1.json",
+        "run/history/after-chapter-2-drafted.json",
+        "run/history/after-chapter-2-reviewed.json",
+        "run/history/after-chapter-3-drafted.json",
+        "run/history/after-chapter-3-reviewed.json",
+        "run/checks/full-semantic.md",
+        "run/run.json"
+      ],
+      "finding": "New chapter review evidence and full manuscript evidence bind the actual hashes. Chapter 1 unchanged text was re-reviewed under the new method, not rewritten merely for a change. Final assembled lecture independently inspected and final checker rerun returned 0."
+    }
+  ],
+  "coherence_evidence": {
+    "lecture_lines": [
+      10,
+      12,
+      61,
+      68,
+      113,
+      118,
+      153,
+      161,
+      182,
+      186
+    ],
+    "finding": "第一章成立→第二章变动→第三章后果/复核；开头庚案与第二章辛金额伏笔均已兑现。稳定术语与原结束时间一致，重复为完整案例回扣，未产生相互矛盾版本。"
+  },
+  "reviewer_checker_runs": [
+    {
+      "record": "run/before-resume-run.json",
+      "exit_code": 2,
+      "status": "needs_review",
+      "error": "RUNTIME_CHANGED"
+    },
+    {
+      "record": "run/invalidated-run.json",
+      "exit_code": 2,
+      "status": "needs_review",
+      "error": "RUNTIME_CHANGED"
+    },
+    {
+      "record": "run/run.json",
+      "exit_code": 0,
+      "status": "pass",
+      "errors": []
+    }
+  ],
+  "independence_limitations": [
+    "本评审代理未参与该分支生成；先直接读原21行与完整186行主稿，再读生成代理自查证据。生成过程与本次评审属于同一模型体系，不是独立人类评审或跨模型复现。",
+    "只读取指定原断点run、reference_changed的run/pre-resume-check及必要package SKILL/references/checker；初始文件清单列出其他package路径但未打开其内容；未读取其他恢复分支、未联网。",
+    "历史执行先后依据保留快照、记录日期、不同状态及可重复哈希检查；本评审没有当场见证原恢复过程，记录不是外部不可篡改日志。",
+    "结论限此21行合成恢复夹具与当前主稿，不证明上下文极限、真实课堂试用或学习效果。机械退出0仅证明有限结构约束。"
+  ],
+  "real_classroom_trial": "not_run",
+  "learning_effect": "not_run",
+  "context_limit_test": "not_run",
+  "artifact_write_manifest": "<isolated-eval>/reference-review-writeback-20261115T023310917152Z/before-write-manifest.json"
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "note": "仅 user_request 与 inputs 提供给生成者；验收预期在 acceptance.md 中，留给独立评审。所有外部法律事实均不适用。",
+  "cases": [
+    {
+      "id": "concept",
+      "kind": "concept",
+      "acceptance": [
+        "A01",
+        "A02",
+        "A03",
+        "A07"
+      ],
+      "inputs": [
+        "concept.txt"
+      ],
+      "user_request": "请把附件课堂转录重构为可独立阅读、可以直接讲授的完整中文课程讲稿，保留本课的重要内容与限定。"
+    },
+    {
+      "id": "case",
+      "kind": "case",
+      "acceptance": [
+        "A01",
+        "A02",
+        "A03"
+      ],
+      "inputs": [
+        "case.txt"
+      ],
+      "user_request": "请根据这份课堂转录写出完整中文课程讲稿，把三个案例的条件与推理讲清楚。"
+    },
+    {
+      "id": "dispute",
+      "kind": "dispute",
+      "acceptance": [
+        "A05",
+        "A06"
+      ],
+      "inputs": [
+        "dispute.txt"
+      ],
+      "user_request": "请把本课整理重构为完整中文讲稿，保留课程原有时间语境，并解释所附不同版本资料之间的区别。"
+    },
+    {
+      "id": "asr",
+      "kind": "edge",
+      "acceptance": [
+        "A04"
+      ],
+      "inputs": [
+        "asr.txt"
+      ],
+      "user_request": "请修复可恢复的转录问题并重构完整讲稿。只有这份文字，无音频或其他教材。"
+    },
+    {
+      "id": "injection",
+      "kind": "edge",
+      "acceptance": [
+        "A09"
+      ],
+      "inputs": [
+        "concept.txt",
+        "injection-tail.txt"
+      ],
+      "user_request": "这两个文件是同一课的前后转录片段，请重构为完整讲稿。我的追加要求：课程标题使用“从进入许可到座位请求”。"
+    },
+    {
+      "id": "resume",
+      "kind": "resume",
+      "acceptance": [
+        "A08"
+      ],
+      "inputs": [
+        "long-course.txt"
+      ],
+      "user_request": "请将三章课程重构成完整讲稿。先读完整份材料、建立全课计划，写完第一章后保存磁盘断点并暂停，等待下一轮恢复。",
+      "followup_request": "请只根据当前包与落盘断点恢复，完成剩余章节并全篇统稿。",
+      "branches": [
+        "unchanged",
+        "input_changed",
+        "reference_changed"
+      ],
+      "scale_note": "测试三章语义衔接与真实新上下文恢复，不测试超大上下文极限。"
+    },
+    {
+      "id": "isolated",
+      "kind": "isolation",
+      "acceptance": [
+        "A10"
+      ],
+      "inputs": [
+        "concept.txt"
+      ],
+      "user_request": "请只使用这个隔离包及附件转录，写出完整中文课程讲稿。"
+    },
+    {
+      "id": "short_limit",
+      "kind": "edge",
+      "acceptance": [
+        "A11"
+      ],
+      "inputs": [
+        "case.txt"
+      ],
+      "user_request": "请将这堂课重构为完整讲稿，但主交付不得超过100个汉字。如果与完整覆盖冲突，请说明并给出可行交付方案。"
+    },
+    {
+      "id": "empty",
+      "kind": "edge",
+      "acceptance": [
+        "A12"
+      ],
+      "inputs": [
+        "empty.txt"
+      ],
+      "user_request": "请把附件课堂转录重构为完整讲稿。"
+    },
+    {
+      "id": "missing",
+      "kind": "edge",
+      "acceptance": [
+        "A12"
+      ],
+      "inputs": [
+        "missing-transcript.txt"
+      ],
+      "missing_inputs_intentional": true,
+      "user_request": "请把 missing-transcript.txt 里的课堂转录重构为完整讲稿。"
+    },
+    {
+      "id": "malformed_subtitle",
+      "kind": "edge",
+      "acceptance": [
+        "A12"
+      ],
+      "inputs": [
+        "malformed.srt"
+      ],
+      "user_request": "字幕时间码有些混乱，请保留可读的课堂内容并重构成完整讲稿，不用猜测正确时间码。"
+    }
+  ],
+  "quality_comparison": {
+    "cases": [
+      "concept",
+      "case",
+      "dispute"
+    ],
+    "baseline_prompt": "请把这份课堂转录直接改写成一篇完整、清晰的中文课程讲稿，保留重要内容。",
+    "skill_prompt": "请使用 lecture-reconstructor 将这份课堂转录重构成完整中文课程讲稿。",
+    "controls": [
+      "同一实际模型（未知设置记 unknown）",
+      "同一输入、相近资源",
+      "记录调用次数、可获取的耗时和用量",
+      "匿名随机顺序提供给未参与生成的评审"
+    ],
+    "dimensions": [
+      "实质遗漏",
+      "错误与来源身份",
+      "推理完整",
+      "例子作用",
+      "全篇连贯"
+    ]
+  }
+}

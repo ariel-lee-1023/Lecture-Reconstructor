@@ -1,0 +1,78 @@
+{
+  "reviewer": {
+    "identity": "same generating subagent /root/skill_generation",
+    "host": "Codex desktop",
+    "model": "unknown",
+    "independent": false,
+    "settings": "unknown"
+  },
+  "date": "2026-11-15",
+  "method": "实际重新读取全部原始输入和落盘主稿，逐行对照并检查章间关系、否定、条件、例外、来源身份及新增解释；首次合并输出被截断后重读concept/case完整原文与主稿。concept修正后再次完整读取落盘稿。",
+  "scope": "full_manuscript",
+  "output_sha256": "679e5c56c46f45d9e7bb0880b4e003b127fc8dee1d850c26ffeead4941e6cd42",
+  "status": "pass",
+  "findings": [
+    {
+      "lines": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "anchor": "ch-version2018",
+      "finding": "明确2019年课程/2018版；条文逐字保留，两项累积条件；甲乙有别，丙秘密阻却研究例外，副本问题仍未决。"
+    },
+    {
+      "lines": [
+        5,
+        6
+      ],
+      "anchor": "ch-interpretation",
+      "finding": "资助是教材限制解释，有明确问题方法的独立研究是教师主张，二者均未冒充条文明文；未虚构甲是否受资助。"
+    },
+    {
+      "lines": [
+        7
+      ],
+      "anchor": "ch-interpretation",
+      "finding": "模拟合议庭研究计划证明用途、促进知识使用理由保留；无他案事实、无已知普遍约束力、非真实判例。"
+    },
+    {
+      "lines": [
+        8
+      ],
+      "anchor": "ch-limits",
+      "finding": "承接乙好奇心反驳，明确目的不能删除用途条件或秘密条件。"
+    },
+    {
+      "lines": [
+        13
+      ],
+      "anchor": "ch-limits",
+      "finding": "作业是理由与代价比较；给出完整分析示范，额外标准识别/审查负担均明示为新写可能论证，不归给教材、不声称实测。"
+    },
+    {
+      "lines": [
+        10,
+        11
+      ],
+      "anchor": "ch-version2024",
+      "finding": "保留新版原文、普通档案范围、原则改变、去用途门槛、秘密限制；同一个乙比较仍用条件式处理未给出的秘密状况。"
+    },
+    {
+      "lines": [
+        12,
+        13
+      ],
+      "anchor": "ch-version2024",
+      "finding": "教师便于利用评价与版本适用分开；无真实法核验和学习者赞同数据，明确批评把教师偏好改成旧版普遍公开。"
+    }
+  ],
+  "defects_found_and_resolved": [],
+  "unresolved_critical_defects": [],
+  "independent_review": "not_run",
+  "classroom_trial": "not_run",
+  "learning_effects": "not_run",
+  "limitations": "同一生成者自查，不等同独立评审、真实课堂试用或学习效果证据。"
+}

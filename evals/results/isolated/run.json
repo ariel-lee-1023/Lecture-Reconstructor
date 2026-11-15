@@ -1,0 +1,781 @@
+{
+  "schema_version": "1.0",
+  "run_id": "isolated-concept-20261115",
+  "status": "complete",
+  "stage": "deliver",
+  "course": {
+    "title": "安澜学习社的“有权”：许可、请求与关系变动",
+    "scope": "完整重构给定合成转录；仅使用安澜学习社四项练习规则和原例。",
+    "jurisdiction": "不适用：合成学习社练习规则，不对应现行法",
+    "time_context": "unknown；只有规则内部相对时间",
+    "audience": "大学课程读者；无具体学习者数据",
+    "assumptions": [
+      "不补充外部实体法。",
+      "己的17:50与前述预约开始前一日的截止时间在同一语境中。",
+      "为解释规则四新增14:00至16:00时段假设，正文明确标识。"
+    ]
+  },
+  "inputs": [
+    {
+      "id": "transcript",
+      "path": "input/original.txt",
+      "sha256": "8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620",
+      "kind": "synthetic_utf8_transcript",
+      "normalized_path": "input/transcript.txt",
+      "normalized_sha256": "8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620"
+    }
+  ],
+  "source_review": [
+    {
+      "input_id": "transcript",
+      "start_line": 1,
+      "end_line": 15,
+      "status": "reviewed"
+    }
+  ],
+  "content_units": [
+    {
+      "id": "u01",
+      "proposition": "合成材料身份与封闭规则范围",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 1,
+          "end_line": 2,
+          "excerpt": "【合成课堂转录；全部人物、机构、规则和事例均为测试创作，不对应现行法或真实课堂。没有配套教材、音频或学习者数据。】"
+        }
+      ],
+      "type": "scope",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "permission",
+          "anchor": "ch-permission"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u02",
+      "proposition": "注册成员有进入许可，但不保证空位或他人搬离",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 3,
+          "end_line": 3,
+          "excerpt": "规则一：注册成员可以进入公共阅览区；这里的“可以”只表示社内没有禁止成员进入，不保证空位，也不要求别人搬走。"
+        }
+      ],
+      "type": "rule",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "permission",
+          "anchor": "ch-permission"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u03",
+      "proposition": "许可指自己没有不进入义务，保留教师自我修正",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 6,
+          "end_line": 6,
+          "excerpt": "先记下义务对应请求，许可与没有义务，哎不是说别人没有义务，就是自己没有不进入的义务。我们回头再解释。"
+        }
+      ],
+      "type": "clarification",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "permission",
+          "anchor": "ch-permission"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u04",
+      "proposition": "甲不能仅凭成员身份要求乙让座，须说清欠缺的权利种类",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 7,
+          "end_line": 7,
+          "excerpt": "甲今天上午到阅览区，没预约，见乙坐着，说我也是成员，所以你得让座。成员可以进入，乙也是成员，规则一没给甲这个结论。别只在答案里写“甲没有权”，要说清缺的是哪一种"
+        }
+      ],
+      "type": "case",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "permission",
+          "anchor": "ch-permission"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u05",
+      "proposition": "规则二的主体、标准座位、两小时、请求和提供义务",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "规则二：成员取得系统的预约确认后，在确认写明的两小时内可以要求管理人提供一个标准座位，管理人负有提供座位的义务；确认从成功回执发出时成立，不是从点击预约键时成立"
+        }
+      ],
+      "type": "rule",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "reservation",
+          "anchor": "ch-reservation"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u06",
+      "proposition": "确认从成功回执发出成立，不能以点击预约键代替",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "规则二：成员取得系统的预约确认后，在确认写明的两小时内可以要求管理人提供一个标准座位，管理人负有提供座位的义务；确认从成功回执发出时成立，不是从点击预约键时成立"
+        }
+      ],
+      "type": "condition",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "reservation",
+          "anchor": "ch-reservation"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u07",
+      "proposition": "丙仅有申请已接收，处理速度预期不能补成预约确认",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 8,
+          "end_line": 8,
+          "excerpt": "刚才讲预约之前，还有个很小的事：丙只收到“申请已接收”，没收到“预约确认”。虽然工作人员说系统一般很快，丙还不能据此要求标准座位。这与丙有没有进入许可是两回事。"
+        }
+      ],
+      "type": "small_case",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "reservation",
+          "anchor": "ch-reservation"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u08",
+      "proposition": "丁的有效确认与成员许可并存；无险情的满座不能抹去义务",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 10,
+          "end_line": 10,
+          "excerpt": "丁拿着确认来，座位满了，但不存在险情。管理员说“每个人都有进入自由，所以我不用给你安排”。这个理由不成立。注册资格与确认产生的关系可以同时存在，不能拿前者消去后"
+        }
+      ],
+      "type": "case",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "reservation",
+          "anchor": "ch-reservation"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u09",
+      "proposition": "学生反驳及教师回应：许可不自动要求配合",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 11,
+          "end_line": 11,
+          "excerpt": "学生问：大家都有进入许可，那我的进入不是总能迫使别人让开吗？老师：你把自己不受禁止，与别人必须配合混在一起了。规则里没给别人让位义务。入口被物品堵住是否另有义务"
+        }
+      ],
+      "type": "substantive_objection",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "objection",
+          "anchor": "ch-objection"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u10",
+      "proposition": "入口堵塞是否另有义务缺材料，不扩展结论",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 11,
+          "end_line": 11,
+          "excerpt": "学生问：大家都有进入许可，那我的进入不是总能迫使别人让开吗？老师：你把自己不受禁止，与别人必须配合混在一起了。规则里没给别人让位义务。入口被物品堵住是否另有义务"
+        }
+      ],
+      "type": "scope_limit",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "objection",
+          "anchor": "ch-objection"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u11",
+      "proposition": "借充电线许可不含优先请求，不移植到仅承诺座位的规则二",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 12,
+          "end_line": 12,
+          "excerpt": "顺便，充电线可以借用只是教学中的口头例子，没有给借线者对他人的优先请求；这一点也能看出许可和请求的差别。这个小例子不要带到规则二中去，规则二只承诺座位。"
+        }
+      ],
+      "type": "small_example",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "objection",
+          "anchor": "ch-objection"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u12",
+      "proposition": "有效撤销的期限、到达条件及双方关系消灭",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "规则三：预约人可在开始前一日18点之前撤销预约。撤销通知到达系统后，规则二的双方关系消灭。超过18点，单方撤销不产生这个效果；双方仍可另行协商。"
+        }
+      ],
+      "type": "rule",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "cancellation",
+          "anchor": "ch-cancellation"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u13",
+      "proposition": "超期单方撤销无效于关系消灭，但保留另行协商",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "规则三：预约人可在开始前一日18点之前撤销预约。撤销通知到达系统后，规则二的双方关系消灭。超过18点，单方撤销不产生这个效果；双方仍可另行协商。"
+        }
+      ],
+      "type": "alternative_route",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "cancellation",
+          "anchor": "ch-cancellation"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u14",
+      "proposition": "戊发出及时却到达逾期；己及时到达，结果不同",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 13,
+          "end_line": 13,
+          "excerpt": "撤销是另一层：戊提前一天17:50发出，18:05才到达系统，不合条件。己17:50到达系统，关系随之消灭。改变的是对座位的请求和提供义务，不是成员身份与进入许"
+        }
+      ],
+      "type": "contrast_case",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "cancellation",
+          "anchor": "ch-cancellation"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u15",
+      "proposition": "撤销不改变成员身份和进入许可",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 13,
+          "end_line": 13,
+          "excerpt": "撤销是另一层：戊提前一天17:50发出，18:05才到达系统，不合条件。己17:50到达系统，关系随之消灭。改变的是对座位的请求和提供义务，不是成员身份与进入许"
+        }
+      ],
+      "type": "scope_limit",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "cancellation",
+          "anchor": "ch-cancellation"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u16",
+      "proposition": "即时安全险情必须封闭的暂停例外及积分退还",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 9,
+          "end_line": 9,
+          "excerpt": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不"
+        }
+      ],
+      "type": "exception",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "exception",
+          "anchor": "ch-exception"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u17",
+      "proposition": "解除封闭后只恢复未届满的剩余时段，不另加时",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 9,
+          "end_line": 9,
+          "excerpt": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不"
+        }
+      ],
+      "type": "time_condition",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "exception",
+          "anchor": "ch-exception"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u18",
+      "proposition": "新增时段假设解释原规则的剩余时段，不新增实体规则",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 9,
+          "end_line": 9,
+          "excerpt": "规则四是例外：因即时安全险情必须封闭场地时，管理员可暂停规则二的座位提供义务；应退还相应预约积分。封闭结束后是否恢复剩余时段，取决于确认的两小时是否尚未届满，不"
+        }
+      ],
+      "type": "added_explanation",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "exception",
+          "anchor": "ch-exception"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u19",
+      "proposition": "教师考试提示：双方、行为、种类、条件，不以背术语多少计分",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 14,
+          "end_line": 14,
+          "excerpt": "本课考试提示只代表本课教师的安排：题目如果问“有权吗”，先写双方是谁、针对什么行为、是进入许可还是请求座位或撤销关系，再写成立条件，不以背下术语多少计分。"
+        }
+      ],
+      "type": "exam_hint",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "synthesis",
+          "anchor": "ch-synthesis"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    },
+    {
+      "id": "u20",
+      "proposition": "满座下甲丁对照：义务成立条件而非需求强弱，另查安全例外",
+      "locations": [
+        {
+          "input_id": "transcript",
+          "start_line": 15,
+          "end_line": 15,
+          "excerpt": "好，最后回到甲和丁。面对同一间满座的阅览室，一个只凭成员资格，一个取得有效确认，差别不在谁更需要座位，而在产生他人义务的条件是否具备。安全险情的例外还要另查，不"
+        }
+      ],
+      "type": "synthesis",
+      "status": "represented",
+      "reason": "已在相应章节解释原命题、条件与例子；补写仅展开给定前提。",
+      "targets": [
+        {
+          "chapter_id": "synthesis",
+          "anchor": "ch-synthesis"
+        }
+      ],
+      "source_ids": [
+        "transcript-source"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "transcript-source",
+      "uri": "input/transcript.txt",
+      "version": "输入快照 SHA-256 8ce04f987713bdb0ae7382edd3bd8b4a09de760510cd04fcb05cab6575197620",
+      "locator": "1–15行",
+      "read_status": "read"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "permission",
+      "path": "lecture.md",
+      "anchor": "ch-permission",
+      "status": "assembled",
+      "learning_object": "区分进入许可与要求他人让座的请求",
+      "relations": [
+        "自己没有不进入义务不推出他人有让座义务"
+      ],
+      "prerequisites": [],
+      "approach": "用规则一、教师自我修正和甲乙事例解释关系",
+      "role": "提出全课问题并建立概念起点",
+      "content_unit_ids": [
+        "u01",
+        "u02",
+        "u03",
+        "u04"
+      ]
+    },
+    {
+      "id": "reservation",
+      "path": "lecture.md",
+      "anchor": "ch-reservation",
+      "status": "assembled",
+      "learning_object": "理解预约确认成立并产生请求与义务的条件",
+      "relations": [
+        "确认与许可可以并存",
+        "接收申请和点击预约不等于确认"
+      ],
+      "prerequisites": [
+        "进入许可"
+      ],
+      "approach": "以丙和丁对照展示条件、相对人及行为",
+      "role": "建立通常的座位请求关系",
+      "content_unit_ids": [
+        "u05",
+        "u06",
+        "u07",
+        "u08"
+      ]
+    },
+    {
+      "id": "objection",
+      "path": "lecture.md",
+      "anchor": "ch-objection",
+      "status": "assembled",
+      "learning_object": "回应配合义务的推论并保留材料边界",
+      "relations": [
+        "许可不自动创设配合义务",
+        "缺少某规则依据不证明其他关系均不存在"
+      ],
+      "prerequisites": [
+        "许可与请求"
+      ],
+      "approach": "承接真实合成转录中的学生反驳，分析入口和充电线",
+      "role": "防止概念区分被扩成无依据结论",
+      "content_unit_ids": [
+        "u09",
+        "u10",
+        "u11"
+      ]
+    },
+    {
+      "id": "cancellation",
+      "path": "lecture.md",
+      "anchor": "ch-cancellation",
+      "status": "assembled",
+      "learning_object": "按到达时间判断关系是否消灭",
+      "relations": [
+        "通知有效到达改变预约关系而非成员身份",
+        "超期单方行为与另行协商是不同路径"
+      ],
+      "prerequisites": [
+        "预约请求和提供义务"
+      ],
+      "approach": "对照戊己发出、到达时点和效果",
+      "role": "展示通过有效行为改变关系",
+      "content_unit_ids": [
+        "u12",
+        "u13",
+        "u14",
+        "u15"
+      ]
+    },
+    {
+      "id": "exception",
+      "path": "lecture.md",
+      "anchor": "ch-exception",
+      "status": "assembled",
+      "learning_object": "把安全暂停、积分和剩余时段纳入判断",
+      "relations": [
+        "即时险情且必须封闭允许暂停",
+        "封闭结束时段未届满才有剩余时段可恢复"
+      ],
+      "prerequisites": [
+        "确认和撤销"
+      ],
+      "approach": "解释复合条件，以明确标示的新增时间假设完整示范",
+      "role": "限制通常结论并避免自动延时",
+      "content_unit_ids": [
+        "u16",
+        "u17",
+        "u18"
+      ]
+    },
+    {
+      "id": "synthesis",
+      "path": "lecture.md",
+      "anchor": "ch-synthesis",
+      "status": "assembled",
+      "learning_object": "完整回答权利种类、对象和成立条件",
+      "relations": [
+        "相同满座事实下不同关系来自不同条件"
+      ],
+      "prerequisites": [
+        "许可、请求、撤销和安全例外"
+      ],
+      "approach": "完整示范甲丁戊己答案，保留本课考试提示归属",
+      "role": "兑现全课学习对象",
+      "content_unit_ids": [
+        "u19",
+        "u20"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "进入许可",
+      "decision": "指成员没有不进入公共阅览区的义务；不表述为笼统的他人无义务。"
+    },
+    {
+      "term": "座位请求",
+      "decision": "指规则二下向管理人请求在确认的两小时内提供一个标准座位。"
+    },
+    {
+      "term": "预约确认",
+      "decision": "依原课从成功回执发出时成立；不与点击预约或申请已接收等同。"
+    },
+    {
+      "term": "撤销",
+      "decision": "指规则三条件下消灭预约请求与提供义务；不消灭成员身份和进入许可。"
+    },
+    {
+      "term": "管理人／管理员",
+      "decision": "保留原课两种用词，均按对应规则中的管理方叙述；不据此增设职务权限差异。"
+    }
+  ],
+  "open_issues": [],
+  "runtime_revision": {
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7"
+      }
+    ],
+    "host": "Codex desktop (from supplied host context)",
+    "model": "unknown",
+    "settings": {
+      "model_version": "unknown",
+      "reasoning_effort": "unknown",
+      "temperature": "unknown",
+      "network_used": false
+    }
+  },
+  "checks": [
+    {
+      "id": "self-semantic",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "同一写作者再次直接读取原输入全文和全部正文对照，保存逐项证据；非独立评审。",
+      "evidence": "semantic-review.md",
+      "date": "2026-11-15T02:18:19.383907+00:00",
+      "output_sha256": "7f1e76ed0469f9e8db2f5278e5c01dd2eedc56654d6add8d6d9fd65d973f59d0"
+    },
+    {
+      "id": "structural",
+      "kind": "mechanical",
+      "scope": "run_record",
+      "status": "pass",
+      "method": "执行隔离包 scripts/check_run.py；exit code 0，仅有限结构检查。",
+      "evidence": "mechanical-check.txt",
+      "date": "2026-11-15T02:18:19.421501+00:00"
+    },
+    {
+      "id": "root-independent-isolation",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "新上下文生成后由另一评审对照原文与完整输出；读取白名单检查",
+      "evidence": "independent-review.md",
+      "date": "2026-11-15",
+      "output_sha256": "7f1e76ed0469f9e8db2f5278e5c01dd2eedc56654d6add8d6d9fd65d973f59d0"
+    },
+    {
+      "id": "checker-history-fix",
+      "kind": "mechanical",
+      "scope": "runtime_impact",
+      "status": "pass",
+      "method": "定向实际复现、代码差异检查及40项回归；输入与讲稿字节未改",
+      "evidence": "checker-history-fix-impact.json",
+      "date": "2026-11-15"
+    }
+  ],
+  "revision_round": 1,
+  "output": {
+    "path": "lecture.md"
+  },
+  "resume": {
+    "completed": [
+      "全部15行原输入读取",
+      "20项内容映射",
+      "6节完整正文",
+      "全稿直接对照及1轮措辞修订",
+      "全篇语义自查",
+      "check_run.py 有限结构检查通过"
+    ],
+    "remaining": [],
+    "next_action": "交付完整讲稿；独立评审由后续人员另行执行。"
+  },
+  "execution": {
+    "started_at_utc": "2026-11-15T02:11:48.749316+00:00",
+    "ended_at_utc": "2026-11-15T02:18:19.421509+00:00",
+    "read_scope": "仅指定隔离包运行核心、references、schema、checker及指定输入；之后复核本次生成文件。",
+    "isolation_claim": "遵守指定读取范围；不声称操作系统级沙箱。",
+    "independent_review": "not_run；由后续独立评审执行。",
+    "classroom_trial": "not_run",
+    "learning_effect": "not_run"
+  }
+}

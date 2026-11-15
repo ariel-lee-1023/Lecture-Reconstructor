@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "run_id": "edge-malformed_subtitle",
+  "status": "complete",
+  "stage": "deliver",
+  "course": {
+    "title": "malformed_subtitle",
+    "scope": "给定合成材料",
+    "jurisdiction": "教学假设，无现实法域",
+    "time_context": "unknown",
+    "audience": "大学课程读者",
+    "assumptions": [
+      "只用输入给定规则，不外推现实法"
+    ]
+  },
+  "inputs": [
+    {
+      "id": "in1",
+      "path": "input/malformed.srt",
+      "sha256": "57b4ea6746797aa7b294255237b0589c05b74dac5469ceeb308352108a1bb066",
+      "kind": "synthetic_transcript",
+      "normalized_path": "input/malformed.srt",
+      "normalized_sha256": "57b4ea6746797aa7b294255237b0589c05b74dac5469ceeb308352108a1bb066"
+    }
+  ],
+  "source_review": [
+    {
+      "input_id": "in1",
+      "start_line": 1,
+      "end_line": 17,
+      "status": "reviewed"
+    }
+  ],
+  "content_units": [
+    {
+      "id": "u1",
+      "proposition": "注册许可不保证座位",
+      "locations": [
+        {
+          "input_id": "in1",
+          "start_line": 6,
+          "end_line": 7
+        }
+      ],
+      "type": "substantive",
+      "status": "represented",
+      "reason": "原文对照后写入实际正文",
+      "targets": [
+        {
+          "chapter_id": "ch-registration",
+          "anchor": "ch-registration"
+        }
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "u2",
+      "proposition": "确认时段内提供座位的义务",
+      "locations": [
+        {
+          "input_id": "in1",
+          "start_line": 10,
+          "end_line": 11
+        }
+      ],
+      "type": "substantive",
+      "status": "represented",
+      "reason": "原文对照后写入实际正文",
+      "targets": [
+        {
+          "chapter_id": "ch-registration",
+          "anchor": "ch-registration"
+        }
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "u3",
+      "proposition": "甲乙对照与缺损时间定位",
+      "locations": [
+        {
+          "input_id": "in1",
+          "start_line": 14,
+          "end_line": 17
+        }
+      ],
+      "type": "substantive",
+      "status": "represented",
+      "reason": "原文对照后写入实际正文",
+      "targets": [
+        {
+          "chapter_id": "ch-registration",
+          "anchor": "ch-registration"
+        }
+      ],
+      "source_ids": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "uri": "input/malformed.srt",
+      "version": "57b4ea6746797aa7b294255237b0589c05b74dac5469ceeb308352108a1bb066",
+      "locator": "lines 1–17",
+      "read_status": "read"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch-registration",
+      "path": "lecture.md",
+      "anchor": "ch-registration",
+      "status": "assembled",
+      "learning_object": "ch-registration",
+      "relations": [
+        "主体、行为及条件与后果的关系"
+      ],
+      "prerequisites": [
+        "材料给定的合成规则"
+      ],
+      "approach": "完整解释与关键条件对照",
+      "role": "解释课程的实质关系",
+      "content_unit_ids": [
+        "u1",
+        "u2",
+        "u3"
+      ]
+    }
+  ],
+  "terms": [],
+  "open_issues": [],
+  "runtime_revision": {
+    "host": "Codex desktop",
+    "model": "GPT-6; exact backend snapshot unknown",
+    "settings": {
+      "sampling": "unknown"
+    },
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "independent-20261115",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "独立新上下文对照请求、原输入与实际输出；见限制",
+      "evidence": "semantic-review.md",
+      "date": "2026-11-15",
+      "output_sha256": "8c428b542afb380d6a410476e776a1954e1bf9205301d89dcb7b3e9b1a7a454b"
+    }
+  ],
+  "revision_round": 0,
+  "output": {
+    "path": "lecture.md"
+  },
+  "resume": {
+    "completed": [
+      "原文对照",
+      "全篇统稿",
+      "独立语义复核"
+    ],
+    "remaining": [],
+    "next_action": "交付"
+  }
+}

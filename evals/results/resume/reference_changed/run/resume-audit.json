@@ -1,0 +1,221 @@
+{
+  "recorded_utc": "2026-11-15T02:28:49.080259+00:00",
+  "first_sample_utc": "2026-11-15T02:20:48.069497+00:00",
+  "exact_start_utc": "unknown",
+  "timing_caveat": "Initial reads preceded first explicit UTC sample; do not infer exact task start.",
+  "host": "Codex desktop",
+  "model": "unknown",
+  "model_family": "GPT-6 (developer description only)",
+  "settings": "unknown",
+  "prior_generation_context_available": false,
+  "read_records": [
+    {
+      "path": "package/SKILL.md",
+      "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8",
+      "read_scope": "content inspected; schema initial output included truncation, relevant definitions inspected"
+    },
+    {
+      "path": "package/references/reconstruction-workflow.md",
+      "sha256": "07a2fa38245585dc499dbd47b1ad7c34015a199a3790421fff32a3d9e1b08f07",
+      "read_scope": "content inspected; schema initial output included truncation, relevant definitions inspected"
+    },
+    {
+      "path": "package/references/teaching-design.md",
+      "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118",
+      "read_scope": "content inspected; schema initial output included truncation, relevant definitions inspected"
+    },
+    {
+      "path": "package/references/law-reasoning.md",
+      "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62",
+      "read_scope": "content inspected; schema initial output included truncation, relevant definitions inspected"
+    },
+    {
+      "path": "package/schemas/run.schema.json",
+      "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142",
+      "read_scope": "content inspected; schema initial output included truncation, relevant definitions inspected"
+    },
+    {
+      "path": "package/scripts/check_run.py",
+      "sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5",
+      "read_scope": "content inspected; schema initial output included truncation, relevant definitions inspected"
+    },
+    {
+      "path": "pre-resume-check.json",
+      "sha256": "ec0fc44317b2185404d6d4b8db05b71917b53fd9e2658a18913e5f32d672594d",
+      "read_scope": "content inspected; schema initial output included truncation, relevant definitions inspected"
+    },
+    {
+      "path": "run/run.json",
+      "sha256_at_initial_read": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630",
+      "historical_copy": "run/history/before-resume/run.json",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/checkpoint.md",
+      "sha256_at_initial_read": "c45f989255d834e2877dec6dbde1d297a000e27b35dd54bfc2b75c1f5d17b25e",
+      "historical_copy": "run/history/before-resume/checkpoint.md",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/audit.json",
+      "sha256_at_initial_read": "341cd5ff6aeb31b635fdd9cc7b98fee1d72db662f32114a51ca21fa881e6ee79",
+      "historical_copy": "run/history/before-resume/audit.json",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/notes.md",
+      "sha256_at_initial_read": "f209592119e871e3789dc75dc9192955925ca0180ee779abf9c9c3798a42a460",
+      "historical_copy": "run/history/before-resume/notes.md",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/lecture.md",
+      "sha256_at_initial_read": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042",
+      "historical_copy": "run/history/before-resume/lecture.md",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/input/transcript.txt",
+      "sha256_at_initial_read": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "historical_copy": "run/history/before-resume/input/transcript.txt",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/input/original.txt",
+      "sha256_at_initial_read": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "historical_copy": "run/history/before-resume/input/original.txt",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/chapters/01-relations.md",
+      "sha256_at_initial_read": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042",
+      "historical_copy": "run/history/before-resume/chapters/01-relations.md",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/checks/chapter-1-semantic.md",
+      "sha256_at_initial_read": "aabd3c9e67aa4799b4e6ca227e0a7bed28ca7af8df3c95700dd56c916f124131",
+      "historical_copy": "run/history/before-resume/checks/chapter-1-semantic.md",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/course-plan.md",
+      "sha256_at_initial_read": "8f359e2f4d5274bb76fbbc6a4d83c476e3b6ea8363f1b4c690b5d60550093995",
+      "historical_copy": "run/history/before-resume/course-plan.md",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/terms.md",
+      "sha256_at_initial_read": "a35b7f986ce4f52b055a1b718bdbdcf79e28d6ac53304eec3f801573ed0b79c3",
+      "historical_copy": "run/history/before-resume/terms.md",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/content-map.md",
+      "sha256_at_initial_read": "9b793ec39320919ea5f4e8de48a266d97b7f95bd7c9060908f9a61f7179c4bad",
+      "historical_copy": "run/history/before-resume/content-map.md",
+      "read_scope": "initial disk checkpoint read"
+    },
+    {
+      "path": "run/chapters/02-changes.md",
+      "sha256": "950d3968fab2c7d3d62e5dbdef3ffa871238ca474443bc0eaf75a411e2dc19b0",
+      "read_scope": "actual saved text re-read after writing; lecture read whole alongside original input"
+    },
+    {
+      "path": "run/chapters/03-consequences-review.md",
+      "sha256": "56935b264e4595052afa3b1ed49f741ac3131b60986bc4f5c64130f6e9b1641a",
+      "read_scope": "actual saved text re-read after writing; lecture read whole alongside original input"
+    },
+    {
+      "path": "run/lecture.md",
+      "sha256": "0c90bb769e3e96f28a8066e6222a2ca84b179a859a4e7cf3e419e9f3a35d53eb",
+      "read_scope": "actual saved text re-read after writing; lecture read whole alongside original input"
+    }
+  ],
+  "scope": "Only this branch current package SKILL/references/schema/scripts, run files and pre-resume-check.json; no other branch contents or network. Initial rg inventory returned package filenames including excluded categories; their contents were not opened.",
+  "command_events": [
+    {
+      "command": "python3 package/scripts/check_run.py run",
+      "exit_code": 1,
+      "reason": "Initial argument mistake: directory instead of run.json; RUN_READ."
+    },
+    {
+      "command": "python3 package/scripts/check_run.py run/run.json --repo-root package",
+      "exit_code": 2,
+      "reason": "RUNTIME_CHANGED before refresh."
+    },
+    {
+      "command": "check_run after invalidation, before refresh",
+      "exit_code": 2,
+      "evidence": "checks/resume-initial.json"
+    },
+    {
+      "command": "check_run after assembly/self-review",
+      "exit_code": 0,
+      "evidence": "checks/mechanical-resumed.json"
+    },
+    {
+      "command": "check_run on final complete record",
+      "exit_code": 0,
+      "evidence": "checks/mechanical-final.json"
+    }
+  ],
+  "runtime_revision": {
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "07a2fa38245585dc499dbd47b1ad7c34015a199a3790421fff32a3d9e1b08f07"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5"
+      }
+    ],
+    "host": "Codex desktop",
+    "model": "unknown",
+    "settings": {
+      "exact_model_id": "unknown",
+      "reasoning_effort": "unknown",
+      "temperature": "unknown",
+      "model_family": "GPT-6 (developer-described family only)",
+      "network_used": false,
+      "references_loaded": [
+        "reconstruction-workflow.md",
+        "teaching-design.md",
+        "law-reasoning.md"
+      ],
+      "transcript_repair_loaded": false
+    }
+  },
+  "invalidation_evidence": "invalidated-run.json",
+  "before_record": "before-resume.json",
+  "before_manifest": "before-write-manifest.json",
+  "impact_evidence": "impact-analysis.md",
+  "self_review": "pass",
+  "full_semantic_evidence": "checks/full-semantic.md",
+  "independent_review": "not_run",
+  "real_classroom_trial": "not_run",
+  "learning_effect": "not_run",
+  "package_modified": false,
+  "network_used": false,
+  "output_sha256": "0c90bb769e3e96f28a8066e6222a2ca84b179a859a4e7cf3e419e9f3a35d53eb",
+  "final_run_sha256": "c60e5cea7bb9b8d29dd6f955b91e47aad5fbcad28b01f233b67382fec1fd76c1",
+  "revision_round": 0,
+  "final_status": "complete"
+}

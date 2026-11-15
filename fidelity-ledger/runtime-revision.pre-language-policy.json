@@ -1,0 +1,38 @@
+{
+  "recorded_on": "2026-11-15",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+    },
+    {
+      "path": "references/law-reasoning.md",
+      "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+    },
+    {
+      "path": "references/reconstruction-workflow.md",
+      "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+    },
+    {
+      "path": "references/teaching-design.md",
+      "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+    },
+    {
+      "path": "references/transcript-repair.md",
+      "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+    },
+    {
+      "path": "schemas/run.schema.json",
+      "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+    },
+    {
+      "path": "scripts/check_run.py",
+      "sha256": "497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7"
+    },
+    {
+      "path": "scripts/validate_repo.py",
+      "sha256": "0ab2c6b9c0c6b6fbd773b8edbec5cb7f1ebca8c7daa8743c8a7c9ddd6a7689d2"
+    }
+  ],
+  "meaning": "Final authored runtime identity for this build. A hash proves bytes, not teaching or legal correctness."
+}

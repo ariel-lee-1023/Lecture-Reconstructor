@@ -1,0 +1,38 @@
+{
+  "command": [
+    "python3",
+    "<isolated-eval>/resume-input_changed/package/scripts/check_run.py",
+    "<isolated-eval>/resume-input_changed/run/run.json",
+    "--repo-root",
+    "<isolated-eval>/resume-input_changed/package",
+    "--json"
+  ],
+  "attempts": [
+    {
+      "checked_utc": "2026-11-15T02:28:05.901870+00:00",
+      "run_sha256": "e3cc153f2527a3ba7a71c0dbbc61bd25459eba4fd8d9be3bb6f9d651d5957aaa",
+      "returncode": 0,
+      "stdout": {
+        "status": "pass",
+        "scope": "finite_structural_checks",
+        "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+        "errors": [],
+        "exit_code": 0
+      },
+      "stderr": ""
+    },
+    {
+      "checked_utc": "2026-11-15T02:28:05.935490+00:00",
+      "run_sha256": "a636c6a84d3b76bad5af965e5e05f40764db7ed80b0192825de0e862881c82cf",
+      "returncode": 0,
+      "stdout": {
+        "status": "pass",
+        "scope": "finite_structural_checks",
+        "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+        "errors": [],
+        "exit_code": 0
+      },
+      "stderr": ""
+    }
+  ]
+}

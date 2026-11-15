@@ -1,0 +1,252 @@
+{
+  "recorded_utc": "2026-11-15T02:28:05.970324+00:00",
+  "started_utc": "unknown",
+  "first_sampled_utc": "2026-11-15T02:21:19.914185+00:00",
+  "ended_utc": "2026-11-15T02:28:05.898857+00:00",
+  "initial_tool_check_utc": "unknown",
+  "initial_check_result": "exit 2 INPUT_CHANGED; reproduced with exact UTC in checks/resume-precheck.json",
+  "model": {
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      }
+    ],
+    "host": "Codex desktop",
+    "model": "unknown",
+    "settings": {
+      "exact_model_id": "unknown",
+      "reasoning_effort": "unknown",
+      "temperature": "unknown",
+      "model_family": "GPT-6 (developer-described family only)",
+      "network_used": false,
+      "references_loaded": [
+        "reconstruction-workflow.md",
+        "teaching-design.md",
+        "law-reasoning.md",
+        "transcript-repair.md"
+      ],
+      "transcript_repair_loaded": true
+    }
+  },
+  "read_paths": [
+    {
+      "path": "<isolated-eval>/resume-input_changed/package/SKILL.md",
+      "current_sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/package/references/reconstruction-workflow.md",
+      "current_sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/package/references/teaching-design.md",
+      "current_sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/package/references/law-reasoning.md",
+      "current_sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/package/references/transcript-repair.md",
+      "current_sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/package/schemas/run.schema.json",
+      "current_sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/package/scripts/check_run.py",
+      "current_sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/pre-resume-check.json",
+      "current_sha256": "ba6b0892d2f734e317329195f25359cdfcff94fd82c815aaa0ca9ecaca572bbc"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/run.json",
+      "current_sha256": "a636c6a84d3b76bad5af965e5e05f40764db7ed80b0192825de0e862881c82cf",
+      "initial_read_sha256": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/input/original.txt",
+      "current_sha256": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b",
+      "initial_read_sha256": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/input/transcript.txt",
+      "current_sha256": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b",
+      "initial_read_sha256": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/content-map.md",
+      "current_sha256": "032331a51019193306006ea7e987731e1ddc81840453c9872ca06ae570fb4cd4",
+      "initial_read_sha256": "9b793ec39320919ea5f4e8de48a266d97b7f95bd7c9060908f9a61f7179c4bad"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/course-plan.md",
+      "current_sha256": "e9181286cd71600350ee3346386419b086384a17bce0d35c439674512f9e934c",
+      "initial_read_sha256": "8f359e2f4d5274bb76fbbc6a4d83c476e3b6ea8363f1b4c690b5d60550093995"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/checkpoint.md",
+      "current_sha256": "d03928c2c2e569aff63953a93c55e68ce31c796b9ab3ac9a51959768e6ec0c40",
+      "initial_read_sha256": "c45f989255d834e2877dec6dbde1d297a000e27b35dd54bfc2b75c1f5d17b25e"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/terms.md",
+      "current_sha256": "a5bf610be7db152dc7f72b7cc293f9ac68418682df91c9e35199e35b9941204d",
+      "initial_read_sha256": "a35b7f986ce4f52b055a1b718bdbdcf79e28d6ac53304eec3f801573ed0b79c3"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/notes.md",
+      "current_sha256": "7b07881ad59f03ae1a2b687db3ec5898ee20736860f0b0bc46f0e4788c2f4909",
+      "initial_read_sha256": "f209592119e871e3789dc75dc9192955925ca0180ee779abf9c9c3798a42a460"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/audit.json",
+      "current_sha256": "341cd5ff6aeb31b635fdd9cc7b98fee1d72db662f32114a51ca21fa881e6ee79",
+      "initial_read_sha256": "341cd5ff6aeb31b635fdd9cc7b98fee1d72db662f32114a51ca21fa881e6ee79"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/chapters/01-relations.md",
+      "current_sha256": "4a8c9774fdaad3cbe005d560613777ecfb795cfed1d029a4d44e86823bea10a1",
+      "initial_read_sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/lecture.md",
+      "current_sha256": "597d110f47daf6353344ea7510645efe15e8494d757bbcc800fe546d50b3bb0d",
+      "initial_read_sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/checks/chapter-1-semantic.md",
+      "current_sha256": "aabd3c9e67aa4799b4e6ca227e0a7bed28ca7af8df3c95700dd56c916f124131",
+      "initial_read_sha256": "aabd3c9e67aa4799b4e6ca227e0a7bed28ca7af8df3c95700dd56c916f124131"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/checks/mechanical.json",
+      "current_sha256": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb",
+      "initial_read_sha256": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/input/transcript-v2.txt",
+      "current_sha256": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/input/original-v2.txt",
+      "current_sha256": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/input/recovered-original-v1.txt",
+      "current_sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/chapters/02-changes.md",
+      "current_sha256": "3e49ca2fbc66919fb4d8f2eded094e9a5a309506d0a94ec1fc18679cf91557a5"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/chapters/03-consequences-review.md",
+      "current_sha256": "d26004da42933aa8cabf01e5dc970ccce61ea98cabc0b53584aa7bd4522eb78f"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/before-resume.json",
+      "current_sha256": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/invalidated-run.json",
+      "current_sha256": "ef102cb96081f8b4fc8f89eac2459334385ae0a94d524e59c38d12af231e95d9"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/resume-mutations.json",
+      "current_sha256": "b18ffc31a3c4c3277d832a9f146a7464dd840d3bc6a043aa4604233d378eb34e"
+    },
+    {
+      "path": "<isolated-eval>/resume-input_changed/run/resume-write.py",
+      "current_sha256": "db133a1e47834d4d2bf51ea9f57d9a38fe507dd4cd7b1db003f9311d818c07e4"
+    }
+  ],
+  "read_range": "当前源21/21行及最终主稿全篇已实际重新读取",
+  "source_versions": {
+    "old_verified_reconstructed": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+    "current": "2d6da28a2ec83c41afaf184a1b3c0c64920217e22ea3ba7e76358500f28ad75b"
+  },
+  "status": "needs_input",
+  "mechanical": {
+    "checked_utc": "2026-11-15T02:28:05.935490+00:00",
+    "run_sha256": "a636c6a84d3b76bad5af965e5e05f40764db7ed80b0192825de0e862881c82cf",
+    "returncode": 0,
+    "stdout": {
+      "status": "pass",
+      "scope": "finite_structural_checks",
+      "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+      "errors": [],
+      "exit_code": 0
+    },
+    "stderr": ""
+  },
+  "full_manuscript_semantic": "fail",
+  "semantic_fail_cause": "core input conflict and missing timely cancellation settlement rule",
+  "supported_content_semantic": "pass",
+  "independent_review": "not_run",
+  "real_classroom_trial": "not_run",
+  "learning_effect": "not_run",
+  "network_used": false,
+  "package_modified": false,
+  "all_writes_within_current_run": true,
+  "backup_manifest": "resume-mutations.json",
+  "legacy_audit": "resume-backup/audit.json",
+  "files": [
+    {
+      "path": "run.json",
+      "sha256": "a636c6a84d3b76bad5af965e5e05f40764db7ed80b0192825de0e862881c82cf"
+    },
+    {
+      "path": "lecture.md",
+      "sha256": "597d110f47daf6353344ea7510645efe15e8494d757bbcc800fe546d50b3bb0d"
+    },
+    {
+      "path": "before-resume.json",
+      "sha256": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630"
+    },
+    {
+      "path": "invalidated-run.json",
+      "sha256": "ef102cb96081f8b4fc8f89eac2459334385ae0a94d524e59c38d12af231e95d9"
+    },
+    {
+      "path": "checks/impact-review.md",
+      "sha256": "62a69f663649974b0d3784c6e2bdf9f076f5e30dd07736e46ba93c0c5bbd3033"
+    },
+    {
+      "path": "checks/resume-semantic.md",
+      "sha256": "f6ad6f6b9bd8e8a178f68a55127c683a9dfef2621a9f264b837a9ca1a72f143a"
+    },
+    {
+      "path": "checks/resume-mechanical.json",
+      "sha256": "15836847aea13069d09746d6187e8563b0a1591449c1e9599d3731b5e6dd3c40"
+    }
+  ],
+  "restoration_performed": false
+}

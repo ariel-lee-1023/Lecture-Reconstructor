@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "run_id": "edge-missing",
+  "status": "needs_input",
+  "stage": "ingest",
+  "course": {
+    "title": "missing",
+    "scope": "给定合成材料",
+    "jurisdiction": "教学假设，无现实法域",
+    "time_context": "unknown",
+    "audience": "大学课程读者",
+    "assumptions": [
+      "只用输入给定规则，不外推现实法"
+    ]
+  },
+  "inputs": [],
+  "source_review": [],
+  "content_units": [],
+  "sources": [],
+  "chapters": [],
+  "terms": [],
+  "open_issues": [
+    {
+      "id": "issue1",
+      "question": "请提供有效转录路径或文字",
+      "impact": "缺口阻止完整成稿",
+      "resolution_condition": "用户提供必要文字或确认篇幅取舍",
+      "status": "open",
+      "blocking": true,
+      "blocking_reason": "核心含义、可读材料或交付范围未确定"
+    }
+  ],
+  "runtime_revision": {
+    "host": "Codex desktop",
+    "model": "GPT-6; exact backend snapshot unknown",
+    "settings": {
+      "sampling": "unknown"
+    },
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "independent-20261115",
+      "kind": "semantic",
+      "scope": "edge_behavior",
+      "status": "pass",
+      "method": "独立新上下文对照请求、原输入与实际输出；见限制",
+      "evidence": "semantic-review.md",
+      "date": "2026-11-15",
+      "output_sha256": "be40a241903d5ac953ea699c8fbd96d06b2957c8795bf0d570e07931edf7c443"
+    }
+  ],
+  "revision_round": 0,
+  "output": {
+    "path": "response.md"
+  },
+  "resume": {
+    "completed": [
+      "可读材料检查",
+      "已保存实际响应"
+    ],
+    "remaining": [
+      "核心缺口"
+    ],
+    "next_action": "请提供有效转录路径或文字"
+  }
+}

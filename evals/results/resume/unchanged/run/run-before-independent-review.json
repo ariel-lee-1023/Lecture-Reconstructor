@@ -1,0 +1,1217 @@
+{
+  "schema_version": "1.0",
+  "run_id": "resume-start-20261115-first-chapter",
+  "status": "complete",
+  "stage": "deliver",
+  "course": {
+    "title": "学习社规则：关系成立、变动、积分与复核",
+    "scope": "完整21行合成三章材料；本次恢复续写剩余章节并统稿。",
+    "jurisdiction": "本练习封闭规则体系；无现实法域",
+    "time_context": "周一至下周四的合成相对日期，无现实年份",
+    "audience": "大学课程读者；无额外画像",
+    "assumptions": [
+      "全部规则、人物、数据为教学假设。",
+      "没有前后课资料。",
+      "没有音频或外部法律资料。"
+    ]
+  },
+  "inputs": [
+    {
+      "id": "input-1",
+      "path": "input/original.txt",
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "kind": "synthetic_utf8_txt",
+      "normalized_path": "input/transcript.txt",
+      "normalized_sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6"
+    }
+  ],
+  "source_review": [
+    {
+      "input_id": "input-1",
+      "start_line": 1,
+      "end_line": 21,
+      "status": "reviewed"
+    }
+  ],
+  "content_units": [
+    {
+      "id": "u01",
+      "proposition": "全部材料是合成教学假设；非现行法或真实课堂，未提供前后课资料。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 1,
+          "end_line": 1,
+          "excerpt": "【合成三章连续课堂；为中断恢复夹具，全部规则、人物、数据都是教学假设，不是现行法或真实课堂。没有前后课资料。】"
+        }
+      ],
+      "type": "范围",
+      "status": "represented",
+      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-1",
+          "anchor": "ch1-scope"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u02",
+      "proposition": "连接进入、预约、撤销、费用与复核，最终分析庚完整经历；周一确认周三10—12点。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 2,
+          "end_line": 2,
+          "excerpt": "第一部分先把整个问题摆出来：学习社如何把进入、预约、撤销、费用与复核串成一个制度？最终要分析庚的完整经历，不能只背五个定义。庚是成员，周一预约周三10至12点，收到成功确认，后来取消失败，周三场地封闭，最后申请退还积分。"
+        }
+      ],
+      "type": "整体问题",
+      "status": "represented",
+      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-1",
+          "anchor": "ch1-whole-task"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u03",
+      "proposition": "L1：注册成员可进入公共阅览区，进入许可不保证座位。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 3,
+          "end_line": 3,
+          "excerpt": "本练习规则L1：注册成员享有进入公共阅览区的许可；许可不保证座位。预约系统发出成功确认后，管理人才对该预约人负有在确认时段提供标准座位的义务。点击申请、排队提示和“已接收”消息均不等于成功确认。"
+        }
+      ],
+      "type": "规则",
+      "status": "represented",
+      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-1",
+          "anchor": "ch1-permission"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u04",
+      "proposition": "L1：成功确认才产生管理人对预约人的确认时段标准座位义务；点击、排队及已接收不等于确认。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 3,
+          "end_line": 3,
+          "excerpt": "本练习规则L1：注册成员享有进入公共阅览区的许可；许可不保证座位。预约系统发出成功确认后，管理人才对该预约人负有在确认时段提供标准座位的义务。点击申请、排队提示和“已接收”消息均不等于成功确认。"
+        }
+      ],
+      "type": "规则",
+      "status": "represented",
+      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-1",
+          "anchor": "ch1-confirmation"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u05",
+      "proposition": "甲只有注册，不足以推出乙让位义务。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "先看甲：只有注册，见座位满了，要求乙让座。规则没有从甲的注册推出乙的让位义务。再看丁：有成功确认而座位满了，管理人不能用“大家都可进入”否认自己的预约义务；两层关系并存。"
+        }
+      ],
+      "type": "案例",
+      "status": "represented",
+      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-1",
+          "anchor": "ch1-jia"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u06",
+      "proposition": "丁有成功确认，座位满不能用进入许可否定管理人义务；两层关系并存。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "先看甲：只有注册，见座位满了，要求乙让座。规则没有从甲的注册推出乙的让位义务。再看丁：有成功确认而座位满了，管理人不能用“大家都可进入”否认自己的预约义务；两层关系并存。"
+        }
+      ],
+      "type": "案例",
+      "status": "represented",
+      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-1",
+          "anchor": "ch1-ding"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u07",
+      "proposition": "借线许可无优先权或对特定人的交付承诺；座位规则不能移植为借线规则。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "一个容易漏掉的边缘例子是借充电线。工作人员说“可以借线”，没有承诺优先权或对某人的交付义务。本课规则只说明座位，不可把借线许可改写成座位确认。"
+        }
+      ],
+      "type": "边缘案例",
+      "status": "represented",
+      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-1",
+          "anchor": "ch1-cable"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u08",
+      "proposition": "许可不是无用：排除本规则下进入禁止，但不保证座位条件充分。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 6,
+          "end_line": 6,
+          "excerpt": "学生反问，许可完全没用吗？它排除了本规则下对进入行为的禁止，所以确有作用；只是作用不等于保证条件充分。要准确指出作用对象，避免把概念说成有用与没用的二选一。"
+        }
+      ],
+      "type": "实质反驳",
+      "status": "represented",
+      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-1",
+          "anchor": "ch1-student-objection"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u09",
+      "proposition": "庚成功确认使关系成立；后续变动尚未分析，不能预判一定坐到12点。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 7,
+          "end_line": 7,
+          "excerpt": "本部分回到庚：成功确认是后续关系的起点。我们尚未知道后续是否撤销、暂停或届满，所以目前只能说预约关系成立，不能预先判他最后一定能坐到12点。"
+        }
+      ],
+      "type": "阶段结论",
+      "status": "represented",
+      "reason": "已写入第一章并直接对源完成局部语义复核，见checks/chapter-1-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-1",
+          "anchor": "ch1-geng"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u10",
+      "proposition": "L2单方撤销须在开始前一日不晚于18:00；附则明确包含18:00整。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 8,
+          "end_line": 8,
+          "excerpt": "第二部分处理关系如何变动。L2：预约人可在开始前一日18点前单方撤销；撤销在通知到达系统时生效。18点整到达也算“18点前”吗？本练习附则明确包括18点整，因此本课统一按不晚于18:00处理。超过期限只能协商，协商要有双方同意，发送请求不等于同意。"
+        }
+      ],
+      "type": "规则",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-withdrawal"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u11",
+      "proposition": "撤销在通知到达系统时生效，发送不是到达。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 8,
+          "end_line": 8,
+          "excerpt": "第二部分处理关系如何变动。L2：预约人可在开始前一日18点前单方撤销；撤销在通知到达系统时生效。18点整到达也算“18点前”吗？本练习附则明确包括18点整，因此本课统一按不晚于18:00处理。超过期限只能协商，协商要有双方同意，发送请求不等于同意。"
+        }
+      ],
+      "type": "条件",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-withdrawal"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u12",
+      "proposition": "超过期限只能协商且须双方同意，发送请求不是同意。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 8,
+          "end_line": 8,
+          "excerpt": "第二部分处理关系如何变动。L2：预约人可在开始前一日18点前单方撤销；撤销在通知到达系统时生效。18点整到达也算“18点前”吗？本练习附则明确包括18点整，因此本课统一按不晚于18:00处理。超过期限只能协商，协商要有双方同意，发送请求不等于同意。"
+        }
+      ],
+      "type": "替代路线",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-withdrawal"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u13",
+      "proposition": "戊17:50发出、18:05到达，不能单方消灭预约。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 9,
+          "end_line": 9,
+          "excerpt": "戊17:50发出，18:05到达，不能单方消灭预约；己18:00到达，及时生效。两案改变的是到达时刻，其他条件相同。撤销消灭该预约产生的座位请求和对应义务，不取消成员身份与进入许可。"
+        }
+      ],
+      "type": "案例",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-arrival-comparison"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u14",
+      "proposition": "己18:00到达，及时生效；关键对照是到达时刻，其他条件相同。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 9,
+          "end_line": 9,
+          "excerpt": "戊17:50发出，18:05到达，不能单方消灭预约；己18:00到达，及时生效。两案改变的是到达时刻，其他条件相同。撤销消灭该预约产生的座位请求和对应义务，不取消成员身份与进入许可。"
+        }
+      ],
+      "type": "边界案例",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-arrival-comparison"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u15",
+      "proposition": "撤销消灭预约产生的座位请求及对应义务，不取消成员身份及进入许可。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 9,
+          "end_line": 9,
+          "excerpt": "戊17:50发出，18:05到达，不能单方消灭预约；己18:00到达，及时生效。两案改变的是到达时刻，其他条件相同。撤销消灭该预约产生的座位请求和对应义务，不取消成员身份与进入许可。"
+        }
+      ],
+      "type": "作用范围",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-withdrawal-scope"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u16",
+      "proposition": "L3即时安全险情须封闭时可暂停提供座位义务，应退实际受影响时段积分。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 10,
+          "end_line": 10,
+          "excerpt": "L3：即时安全险情使场地必须封闭时，管理员可以暂停提供座位的义务，并应退还实际受影响时段的预约积分。封闭不自动撤销预约；在原确认时段内恢复安全后，剩余时段继续有效，不延长结束时间。"
+        }
+      ],
+      "type": "规则",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-suspension"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u17",
+      "proposition": "封闭不自动撤销；确认时段内恢复后剩余时段有效，不延长结束时间。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 10,
+          "end_line": 10,
+          "excerpt": "L3：即时安全险情使场地必须封闭时，管理员可以暂停提供座位的义务，并应退还实际受影响时段的预约积分。封闭不自动撤销预约；在原确认时段内恢复安全后，剩余时段继续有效，不延长结束时间。"
+        }
+      ],
+      "type": "例外与边界",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-suspension"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u18",
+      "proposition": "辛10—12点预约、10—11点封闭、11点开放，可使用剩余一小时并退受影响一小时积分。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 11,
+          "end_line": 11,
+          "excerpt": "假设辛预约10至12点；10至11点封闭、11点开放，辛可使用剩余一小时，退回受影响一小时积分。不要把暂停、撤销和届满混用。到了12点预约届满，即便辛11:30才到，也不会顺延半小时。"
+        }
+      ],
+      "type": "案例",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-xin"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u19",
+      "proposition": "暂停、撤销、届满不同；12点届满，11:30才到不顺延。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 11,
+          "end_line": 11,
+          "excerpt": "假设辛预约10至12点；10至11点封闭、11点开放，辛可使用剩余一小时，退回受影响一小时积分。不要把暂停、撤销和届满混用。到了12点预约届满，即便辛11:30才到，也不会顺延半小时。"
+        }
+      ],
+      "type": "反例",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-xin"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u20",
+      "proposition": "没坐满不等于退全部；L3依据受封闭影响时段，个人迟到原因不同。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 12,
+          "end_line": 12,
+          "excerpt": "有学生说只要没坐满两小时就退全部积分。老师回应：L3以受安全封闭影响的时段计算，不以本人实际在座时间计算。个人迟到与场地不能提供座位的原因不同。"
+        }
+      ],
+      "type": "实质反驳",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-lateness-objection"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u21",
+      "proposition": "庚周二17:58发送、18:02收到，无协商同意证据；周三10—11点封闭、11点恢复，先定关系状态。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 13,
+          "end_line": 13,
+          "excerpt": "庚周二17:58发出取消请求，系统周二18:02收到，没有管理人同意协商的证据。周三10至11点安全封闭，11点恢复。请保留这些时间，后面不能把“发出”换成“到达”。这一部分先决定关系是否仍存在，以及哪些时段暂停。"
+        }
+      ],
+      "type": "阶段案例",
+      "status": "represented",
+      "reason": "第二章完整解释并逐项直接对源自查，见checks/chapter-2-semantic.md。",
+      "targets": [
+        {
+          "chapter_id": "ch-2",
+          "anchor": "ch2-geng"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u22",
+      "proposition": "L4每小时10积分、半小时5积分，只处理整半小时，其他粒度未规定。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 14,
+          "end_line": 14,
+          "excerpt": "第三部分进入计算与复核。L4：预约计价每小时10积分，半小时按5积分计；本次教学只处理整半小时，其他粒度未规定。L3应退积分以封闭与有效预约的重叠时长计算，封闭在预约开始前的时长不计入。"
+        }
+      ],
+      "type": "规则与限制",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-calculation"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u23",
+      "proposition": "L3退款取封闭与有效预约重叠，预约开始前封闭不计。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 14,
+          "end_line": 14,
+          "excerpt": "第三部分进入计算与复核。L4：预约计价每小时10积分，半小时按5积分计；本次教学只处理整半小时，其他粒度未规定。L3应退积分以封闭与有效预约的重叠时长计算，封闭在预约开始前的时长不计入。"
+        }
+      ],
+      "type": "计算条件",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-calculation"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u24",
+      "proposition": "壬10—12点预约、9:30—10:30封闭，重叠半小时退5；误算10多计预约外半小时，剩余10:30—12点有效。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 15,
+          "end_line": 15,
+          "excerpt": "完整示范：壬预约10至12点，9:30至10:30封闭，重叠半小时，退5积分；若误按封闭总一小时算就会退10，错误出在把预约外时段计入。剩余10:30至12点仍有效。"
+        }
+      ],
+      "type": "完整示范",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-ren"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u25",
+      "proposition": "L5得知次日起七日，第七日结束前到达系统及时。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 16,
+          "end_line": 16,
+          "excerpt": "L5：对退分有争议，成员应在得知处理结果后七日内申请复核；期限从得知的次日开始，第七日结束前到达系统即及时。复核机构检查规则适用与时间事实，不推定管理员总是正确。规则未给复核申请自动暂停其他决定的效果。"
+        }
+      ],
+      "type": "程序规则",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-review"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u26",
+      "proposition": "复核检查规则适用与时间事实，不推定管理员正确，未规定申请自动暂停其他决定。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 16,
+          "end_line": 16,
+          "excerpt": "L5：对退分有争议，成员应在得知处理结果后七日内申请复核；期限从得知的次日开始，第七日结束前到达系统即及时。复核机构检查规则适用与时间事实，不推定管理员总是正确。规则未给复核申请自动暂停其他决定的效果。"
+        }
+      ],
+      "type": "审查与效力",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-review"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u27",
+      "proposition": "癸周四得知，下周四是第七日，当天到达及时；算法仅据练习明文。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 17,
+          "end_line": 17,
+          "excerpt": "癸周四得知处理结果，下周四为第七日，通知那天到达系统及时。这里的天数算法来自本练习明文，不当作各法域通则；如果缺少得知日期，不能编出期限是否届满。"
+        }
+      ],
+      "type": "期限案例",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-gui"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u28",
+      "proposition": "缺得知日期时不能编造期限是否届满。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 17,
+          "end_line": 17,
+          "excerpt": "癸周四得知处理结果，下周四为第七日，通知那天到达系统及时。这里的天数算法来自本练习明文，不当作各法域通则；如果缺少得知日期，不能编出期限是否届满。"
+        }
+      ],
+      "type": "证据边界",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-gui"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u29",
+      "proposition": "庚扣20退5、周四得知、下周三申请当日到达；联系确认、撤销失败及一小时封闭，分开实体与程序判断。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 18,
+          "end_line": 18,
+          "excerpt": "庚的后续事实是：系统扣20积分后仅退5积分；他周四得知，下周三提出复核且当日到达。按已经给定的事实，应结合第一部分的确认、第二部分的撤销失败与一小时封闭，判断这次扣退是否符合规则，再判断能否复核。不要只算积分而忘记程序期限，也不能因为程序及时便断言所有实体主张都成立。"
+        }
+      ],
+      "type": "整合案例",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-geng"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u30",
+      "proposition": "改成庚周二17:59到达则预约已消灭，不能继续照用有效预约与封闭重叠的分析。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 19,
+          "end_line": 19,
+          "excerpt": "一个小反例：如果庚的撤销通知改为周二17:59到达，则预约已消灭，不能继续照用“有效预约与封闭重叠”的退分分析。L2没有规定及时撤销的积分结算方法，这个变式的结算须记为材料缺口，不能自动套L3。"
+        }
+      ],
+      "type": "反例",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-variant"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u31",
+      "proposition": "L2未规定及时撤销的积分结算，不能自动套L3。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 19,
+          "end_line": 19,
+          "excerpt": "一个小反例：如果庚的撤销通知改为周二17:59到达，则预约已消灭，不能继续照用“有效预约与封闭重叠”的退分分析。L2没有规定及时撤销的积分结算方法，这个变式的结算须记为材料缺口，不能自动套L3。"
+        }
+      ],
+      "type": "材料缺口",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-variant"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u32",
+      "proposition": "完整案例按成立—变动—后果—复核，概念比较不机械四段；只解释条件影响，不承诺现实考试评分。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 20,
+          "end_line": 20,
+          "excerpt": "考试提示是本课教师的安排：完整案例按“关系成立—变动—后果—复核”展开，但概念比较题不必机械写四段。教师只要求解释为什么条件影响结果，不承诺任何现实考试会如此评分。"
+        }
+      ],
+      "type": "教师考试提示",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-exam"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    },
+    {
+      "id": "u33",
+      "proposition": "庚案串起发出/到达、暂停/消灭、在座/受影响、程序/实体四组区别；推论限练习规则，无前课不假装已证明。",
+      "locations": [
+        {
+          "input_id": "input-1",
+          "start_line": 21,
+          "end_line": 21,
+          "excerpt": "全课最后请回到最初的庚：读者应能区分发出与到达、暂停与消灭、实际在座与受影响时段、程序及时与实体正确。所有推论都限于上述练习规则；没有提供前课，不能以“上次已证明”替代必要解释。"
+        }
+      ],
+      "type": "整体回扣",
+      "status": "represented",
+      "reason": "第三章完整解释并逐项直接对源自查，见checks/chapter-3-semantic.md；u31按原课要求呈现未规定结算而非补造答案。",
+      "targets": [
+        {
+          "chapter_id": "ch-3",
+          "anchor": "ch3-synthesis"
+        }
+      ],
+      "source_ids": [
+        "source-1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "uri": "input/original.txt",
+      "version": "SHA-256 077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+      "locator": "1—21行；合成三章课堂，所有规则及事实为教学假设。",
+      "read_status": "read"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch-1",
+      "path": "chapters/01-relations.md",
+      "anchor": "ch-1",
+      "status": "assembled",
+      "learning_object": "区分进入许可和成功确认后的座位义务，明确双方、条件及分析范围。",
+      "relations": [
+        "进入许可不自动推出座位保证",
+        "成功确认使管理人负有确认时段座位义务",
+        "成立起点不等于最终履行结果"
+      ],
+      "prerequisites": [
+        "无需前课；章内补足许可及义务概念"
+      ],
+      "approach": "庚整体问题—L1关系解释—甲丁比较—学生反问—借线边界—庚阶段结论",
+      "role": "确定后续撤销、暂停及积分分析的关系对象。",
+      "content_unit_ids": [
+        "u01",
+        "u02",
+        "u03",
+        "u04",
+        "u05",
+        "u06",
+        "u07",
+        "u08",
+        "u09"
+      ]
+    },
+    {
+      "id": "ch-2",
+      "path": "chapters/02-changes.md",
+      "anchor": "ch-2",
+      "status": "assembled",
+      "learning_object": "区分到达与发出、撤销与协商、暂停与届满，确定庚关系状态。",
+      "relations": [
+        "撤销以期限内到达为条件",
+        "单方撤销消灭预约但不取消成员许可",
+        "封闭只暂停且恢复不延长原时段"
+      ],
+      "prerequisites": [
+        "ch-1：预约成立及两层关系"
+      ],
+      "approach": "L2与戊己时间对照、L3与辛完整案例、迟到反驳、庚事实分析",
+      "role": "为第三章确定有效预约及受影响时段。",
+      "content_unit_ids": [
+        "u10",
+        "u11",
+        "u12",
+        "u13",
+        "u14",
+        "u15",
+        "u16",
+        "u17",
+        "u18",
+        "u19",
+        "u20",
+        "u21"
+      ]
+    },
+    {
+      "id": "ch-3",
+      "path": "chapters/03-consequences-review.md",
+      "anchor": "ch-3",
+      "status": "assembled",
+      "learning_object": "按重叠时长计算积分并独立审查复核期限，整合庚完整经历。",
+      "relations": [
+        "封闭总时长不等于有效预约受影响时长",
+        "程序及时不证明实体正确",
+        "及时撤销变式不能直接套L3"
+      ],
+      "prerequisites": [
+        "ch-1：成立",
+        "ch-2：关系变动与有效时段"
+      ],
+      "approach": "壬计算示范、癸期限示范、庚全案整合、17:59反例与缺口、教师考试提示和全课回扣",
+      "role": "兑现全课整体问题并保留规则边界。",
+      "content_unit_ids": [
+        "u22",
+        "u23",
+        "u24",
+        "u25",
+        "u26",
+        "u27",
+        "u28",
+        "u29",
+        "u30",
+        "u31",
+        "u32",
+        "u33"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "进入许可",
+      "decision": "仅指L1下注册成员可进入公共阅览区；不改写为座位保证。"
+    },
+    {
+      "term": "成功确认",
+      "decision": "预约系统发出的成功确认；点击申请、排队、已接收均不等同。"
+    },
+    {
+      "term": "管理人／管理员",
+      "decision": "源材料的同一管理角色：L1称管理人，L3称管理员；不推定存在两个不同机构。"
+    },
+    {
+      "term": "预约人",
+      "decision": "已成功确认且对应具体确认时段的人；分析时说明预约关系是否仍有效。"
+    },
+    {
+      "term": "座位请求与对应义务",
+      "decision": "预约人要求管理人在确认时段提供标准座位；不自动转成其他成员让位义务。"
+    },
+    {
+      "term": "发出与到达",
+      "decision": "分别记录，不互换；L2撤销生效看通知到达系统。"
+    },
+    {
+      "term": "不晚于18:00",
+      "decision": "L2的“18点前”依本练习附则包括18:00整，不推广到现实法。"
+    },
+    {
+      "term": "单方撤销",
+      "decision": "满足L2期限与到达条件的关系消灭行为；不是成员身份取消。"
+    },
+    {
+      "term": "协商",
+      "decision": "超过期限的另一条路线，须双方同意；仅发送请求不够。"
+    },
+    {
+      "term": "暂停",
+      "decision": "L3安全封闭时暂停提供座位义务；不自动消灭预约或延长结束时间。"
+    },
+    {
+      "term": "届满",
+      "decision": "原确认结束时间到来；迟到不导致顺延。"
+    },
+    {
+      "term": "受影响时段",
+      "decision": "安全封闭与有效预约的重叠；不是预约人的实际离座时长。"
+    },
+    {
+      "term": "积分",
+      "decision": "L4小时10积分、半小时5积分；不补造其他粒度规则。"
+    },
+    {
+      "term": "复核",
+      "decision": "L5规则适用与时间事实审查；程序及时与实体主张成立分开。"
+    },
+    {
+      "term": "七日",
+      "decision": "得知次日起算，第七日结束前到达；仅限本练习算法。"
+    },
+    {
+      "term": "庚",
+      "decision": "贯穿三章的同一成员；后续17:59到达是假设变式，不覆盖主事实18:02到达。"
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "gap-cancel-settlement",
+      "question": "及时撤销后积分如何结算？",
+      "impact": "影响第三章17:59到达变式，不能自动套L3。",
+      "resolution_condition": "在第三章明确材料未规定并限制结论；若用户要求唯一结算数额，则需补充规则。",
+      "status": "open",
+      "blocking": false,
+      "blocking_reason": "可在讲稿如实呈现规则缺口，不妨碍既定教学范围；不得伪造结算。"
+    },
+    {
+      "id": "gap-granularity",
+      "question": "非整半小时如何计价？",
+      "impact": "L4范围外，没有已给定案例需要该规则。",
+      "resolution_condition": "保留本次只处理整半小时的限制；扩展范围须补充规则。",
+      "status": "open",
+      "blocking": false,
+      "blocking_reason": "范围外未规定事项，明确限制即可。"
+    }
+  ],
+  "runtime_revision": {
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7"
+      },
+      {
+        "path": "references/transcript-repair.md",
+        "sha256": "353254a14d483264fe9e725a7536ba6fd49bff676016cf478b9e6aaabb53fcec"
+      }
+    ],
+    "host": "Codex desktop",
+    "model": "unknown",
+    "settings": {
+      "exact_model_id": "unknown",
+      "reasoning_effort": "unknown",
+      "temperature": "unknown",
+      "model_family": "GPT-6 (developer-described family only)",
+      "network_used": false,
+      "references_loaded": [
+        "reconstruction-workflow.md",
+        "teaching-design.md",
+        "law-reasoning.md",
+        "transcript-repair.md"
+      ],
+      "transcript_repair_loaded": true
+    }
+  },
+  "checks": [
+    {
+      "id": "semantic-full-not-run",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "not_run",
+      "method": "后两章未生成，尚未进行全篇统稿或全篇语义复核。",
+      "date": "2026-11-15T02:12:01.562391+00:00"
+    },
+    {
+      "id": "mechanical-pending",
+      "kind": "mechanical",
+      "scope": "partial_checkpoint",
+      "status": "not_run",
+      "method": "待运行包内scripts/check_run.py。",
+      "date": "2026-11-15T02:12:01.562391+00:00"
+    },
+    {
+      "id": "semantic-chapter-1",
+      "kind": "semantic",
+      "scope": "chapter:ch-1",
+      "status": "pass",
+      "method": "重新读取原始全源及落盘第一章，按源第1—7行核验内容、否定、条件、案例和整体边界；同代理评审。",
+      "evidence": "checks/chapter-1-semantic.md",
+      "date": "2026-11-15T02:13:50.707858+00:00",
+      "chapter_sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
+    },
+    {
+      "id": "mechanical-partial",
+      "kind": "mechanical",
+      "scope": "partial_checkpoint",
+      "status": "pass",
+      "method": "运行包内check_run.py --json，随后对最终run再次校验；仅有限结构检查。",
+      "evidence": "checks/mechanical.json",
+      "date": "2026-11-15T02:13:50.707858+00:00"
+    },
+    {
+      "id": "mechanical-resume-initial",
+      "kind": "mechanical",
+      "scope": "resume_checkpoint",
+      "status": "pass",
+      "method": "当前包check_run实际运行，源与旧runtime逐一比对未变；有限机械检查。",
+      "evidence": "checks/resume-initial-mechanical.json",
+      "date": "2026-11-15T02:18:11.730456+00:00"
+    },
+    {
+      "id": "semantic-chapter-2",
+      "kind": "semantic",
+      "scope": "chapter:ch-2",
+      "status": "pass",
+      "method": "重新读取落盘第二章及源第8—13行，同代理对源语义自查。",
+      "evidence": "checks/chapter-2-semantic.md",
+      "date": "2026-11-15T02:18:55.624701+00:00",
+      "chapter_sha256": "f0050b8fe3dc871a1d2fc7f1065353e3278c547d9793cb5b0225517fcb3f0d62"
+    },
+    {
+      "id": "semantic-chapter-3",
+      "kind": "semantic",
+      "scope": "chapter:ch-3",
+      "status": "pass",
+      "method": "重新读取落盘第三章及源第14—21行，同代理对源语义自查。",
+      "evidence": "checks/chapter-3-semantic.md",
+      "date": "2026-11-15T02:22:12.730366+00:00",
+      "chapter_sha256": "0900899509155aa305d5f6813a4926452f11812c6487773f6ba8c8ac65d1e554"
+    },
+    {
+      "id": "semantic-full-resumed",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "实际重新读取全部21行规范化原文与落盘主稿全文；逐行与33项对照，查漏边缘案例、反驳、时间条件、考试提示与新增解释；同代理自查，非独立评审。",
+      "evidence": "checks/full-semantic.md",
+      "date": "2026-11-15T02:24:37.486812+00:00",
+      "output_sha256": "7d8bae4dd4159c369fc7a3f15d730d2875bce374cc917b20b746be9e3125799d"
+    },
+    {
+      "id": "mechanical-resume-final",
+      "kind": "mechanical",
+      "scope": "complete_record",
+      "status": "pass",
+      "method": "当前包check_run --json实际运行于complete记录；仅有限结构检查，随后再核验最终记录。",
+      "evidence": "checks/resume-final-mechanical.json",
+      "date": "2026-11-15T02:24:37.530414+00:00"
+    },
+    {
+      "id": "checker-history-fix",
+      "kind": "mechanical",
+      "scope": "runtime_impact",
+      "status": "pass",
+      "method": "定向实际复现、代码差异检查及40项回归；输入与讲稿字节未改",
+      "evidence": "checker-history-fix-impact.json",
+      "date": "2026-11-15"
+    }
+  ],
+  "revision_round": 0,
+  "output": {
+    "path": "lecture.md",
+    "scope": "complete_within_supplied_synthetic_course_scope; explicit_unspecified_rule_limits_retained",
+    "sha256": "7d8bae4dd4159c369fc7a3f15d730d2875bce374cc917b20b746be9e3125799d"
+  },
+  "resume": {
+    "completed": [
+      "已从无哈希变化断点恢复；before-resume.json保留原记录及哈希。",
+      "第一章原字节保留；第二、三章完整正文已逐章保存并自查。",
+      "三章全篇统稿完成，21行源与33项内容全部覆盖并直接全文复核。",
+      "两项明确规则边界已呈现；无未完成正文或待修关键缺陷。"
+    ],
+    "remaining": [],
+    "next_action": "当前任务已完成；仅如需及时撤销的唯一结算金额或非整半小时计价，另补对应规则后分析影响并重审。"
+  },
+  "execution_history": [
+    {
+      "started_utc": "2026-11-15T02:06:57Z",
+      "start_time_basis": "first UTC sampled in this run; initial material reads preceded this sample, exact earlier turn start unknown",
+      "ended_utc": "2026-11-15T02:13:50.744394+00:00",
+      "requested_stop": "first_chapter",
+      "read_paths": [
+        "<isolated-eval>/resume-start/package/SKILL.md",
+        "<isolated-eval>/resume-start/package/references/reconstruction-workflow.md",
+        "<isolated-eval>/resume-start/package/references/teaching-design.md",
+        "<isolated-eval>/resume-start/package/references/law-reasoning.md",
+        "<isolated-eval>/resume-start/package/schemas/run.schema.json",
+        "<isolated-eval>/resume-start/package/scripts/check_run.py",
+        "<isolated-eval>/resume-start/inputs/long-course.txt",
+        "<isolated-eval>/resume-start/outputs/run/run.json",
+        "<isolated-eval>/resume-start/outputs/run/chapters/01-relations.md",
+        "<isolated-eval>/resume-start/outputs/run/input/transcript.txt"
+      ],
+      "path_inventory_note": "Initial rg --files listed package filenames including evals path names; no evals contents or expected results were opened.",
+      "real_classroom_trial": "not_run",
+      "learning_effect": "not_run",
+      "end_time_basis": "checkpoint finalization timestamp; final mechanical confirmation follows immediately, with its own timestamp in evidence"
+    }
+  ],
+  "execution": {
+    "started_utc": "2026-11-15T02:16:39.552799+00:00",
+    "time_basis": "first continuation UTC sample; initial reads preceded it",
+    "host": "Codex desktop",
+    "model": "unknown",
+    "model_family": "GPT-6 (developer-described family only)",
+    "network_used": false,
+    "requested_action": "根据当前包与落盘断点恢复，完成剩余章节并全篇统稿",
+    "real_classroom_trial": "not_run",
+    "learning_effect": "not_run",
+    "audit": "resume-audit.json",
+    "semantic_review_utc": "2026-11-15T02:24:37.486812+00:00",
+    "independent_review": "not_run",
+    "read_paths_and_versions": "resume-audit.json",
+    "before_resume_record": "before-resume.json",
+    "ended_utc": "2026-11-15T02:24:37.530955+00:00"
+  }
+}

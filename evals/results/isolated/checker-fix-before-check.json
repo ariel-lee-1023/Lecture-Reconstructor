@@ -1,0 +1,13 @@
+{
+  "status": "needs_review",
+  "scope": "finite_structural_checks",
+  "limitation": "仅通过有限结构检查；不证明法律正确性、意义覆盖、教学质量或学习效果。",
+  "errors": [
+    {
+      "code": "RUNTIME_CHANGED",
+      "at": "runtime_revision.files[6].sha256",
+      "message": "needs_review: expected 265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5, actual 497cd2191e84e7179584762566bbd07bcd2a4768f4b95ef0e28f808f9012fba7; perform impact review before updating hashes"
+    }
+  ],
+  "exit_code": 2
+}

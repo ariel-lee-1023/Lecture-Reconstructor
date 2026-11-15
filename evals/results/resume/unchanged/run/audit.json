@@ -1,0 +1,122 @@
+{
+  "recorded_utc": "2026-11-15T02:13:50.781073+00:00",
+  "started_utc": "2026-11-15T02:06:57Z",
+  "ended_utc": "2026-11-15T02:13:50.744394+00:00",
+  "timing_caveat": "first UTC sampled in this run; initial material reads preceded this sample, exact earlier turn start unknown",
+  "read_paths": [
+    "<isolated-eval>/resume-start/package/SKILL.md",
+    "<isolated-eval>/resume-start/package/references/reconstruction-workflow.md",
+    "<isolated-eval>/resume-start/package/references/teaching-design.md",
+    "<isolated-eval>/resume-start/package/references/law-reasoning.md",
+    "<isolated-eval>/resume-start/package/schemas/run.schema.json",
+    "<isolated-eval>/resume-start/package/scripts/check_run.py",
+    "<isolated-eval>/resume-start/inputs/long-course.txt",
+    "<isolated-eval>/resume-start/outputs/run/run.json",
+    "<isolated-eval>/resume-start/outputs/run/chapters/01-relations.md",
+    "<isolated-eval>/resume-start/outputs/run/input/transcript.txt"
+  ],
+  "runtime_revision": {
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2ec41fcde29d32470fbd97dce3d69bea1eeec781e2b767d899264225dccbc1a8"
+      },
+      {
+        "path": "references/reconstruction-workflow.md",
+        "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      },
+      {
+        "path": "references/teaching-design.md",
+        "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      },
+      {
+        "path": "references/law-reasoning.md",
+        "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "265ddd2731169446a97f5a863d582a33f5ddd295eba9b5061fe5ddefbb6fb2e5"
+      }
+    ],
+    "host": "Codex desktop",
+    "model": "unknown",
+    "settings": {
+      "exact_model_id": "unknown",
+      "reasoning_effort": "unknown",
+      "temperature": "unknown",
+      "model_family": "GPT-6 (developer-described family only)",
+      "network_used": false,
+      "references_loaded": [
+        "reconstruction-workflow.md",
+        "teaching-design.md",
+        "law-reasoning.md"
+      ],
+      "transcript_repair_loaded": false
+    }
+  },
+  "original_source_path": "<isolated-eval>/resume-start/inputs/long-course.txt",
+  "source_sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+  "backup_manifest": "<isolated-eval>/resume-start/outputs/backups/resume-start-before-write/before.json",
+  "package_modified": false,
+  "network_used": false,
+  "chapter_2_written": false,
+  "chapter_3_written": false,
+  "self_review": true,
+  "full_manuscript_semantic": "not_run",
+  "real_classroom_trial": "not_run",
+  "learning_effect": "not_run",
+  "files": [
+    {
+      "path": "content-map.md",
+      "sha256": "9b793ec39320919ea5f4e8de48a266d97b7f95bd7c9060908f9a61f7179c4bad"
+    },
+    {
+      "path": "checkpoint.md",
+      "sha256": "c45f989255d834e2877dec6dbde1d297a000e27b35dd54bfc2b75c1f5d17b25e"
+    },
+    {
+      "path": "terms.md",
+      "sha256": "a35b7f986ce4f52b055a1b718bdbdcf79e28d6ac53304eec3f801573ed0b79c3"
+    },
+    {
+      "path": "course-plan.md",
+      "sha256": "8f359e2f4d5274bb76fbbc6a4d83c476e3b6ea8363f1b4c690b5d60550093995"
+    },
+    {
+      "path": "notes.md",
+      "sha256": "f209592119e871e3789dc75dc9192955925ca0180ee779abf9c9c3798a42a460"
+    },
+    {
+      "path": "run.json",
+      "sha256": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630"
+    },
+    {
+      "path": "lecture.md",
+      "sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
+    },
+    {
+      "path": "input/original.txt",
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6"
+    },
+    {
+      "path": "input/transcript.txt",
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6"
+    },
+    {
+      "path": "chapters/01-relations.md",
+      "sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
+    },
+    {
+      "path": "checks/chapter-1-semantic.md",
+      "sha256": "aabd3c9e67aa4799b4e6ca227e0a7bed28ca7af8df3c95700dd56c916f124131"
+    },
+    {
+      "path": "checks/mechanical.json",
+      "sha256": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb"
+    }
+  ]
+}

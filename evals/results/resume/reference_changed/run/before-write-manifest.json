@@ -1,0 +1,90 @@
+{
+  "recorded_utc": "2026-11-15T02:20:48.069497+00:00",
+  "files": [
+    {
+      "path": "audit.json",
+      "sha256": "341cd5ff6aeb31b635fdd9cc7b98fee1d72db662f32114a51ca21fa881e6ee79"
+    },
+    {
+      "path": "chapters/01-relations.md",
+      "sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
+    },
+    {
+      "path": "checkpoint.md",
+      "sha256": "c45f989255d834e2877dec6dbde1d297a000e27b35dd54bfc2b75c1f5d17b25e"
+    },
+    {
+      "path": "checks/chapter-1-semantic.md",
+      "sha256": "aabd3c9e67aa4799b4e6ca227e0a7bed28ca7af8df3c95700dd56c916f124131"
+    },
+    {
+      "path": "checks/mechanical.json",
+      "sha256": "2ec74670b1623f65b2a663119f0b0c5e041e4331a9aec7a425cd2e1090176dfb"
+    },
+    {
+      "path": "content-map.md",
+      "sha256": "9b793ec39320919ea5f4e8de48a266d97b7f95bd7c9060908f9a61f7179c4bad"
+    },
+    {
+      "path": "course-plan.md",
+      "sha256": "8f359e2f4d5274bb76fbbc6a4d83c476e3b6ea8363f1b4c690b5d60550093995"
+    },
+    {
+      "path": "input/original.txt",
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6"
+    },
+    {
+      "path": "input/transcript.txt",
+      "sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6"
+    },
+    {
+      "path": "lecture.md",
+      "sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042"
+    },
+    {
+      "path": "notes.md",
+      "sha256": "f209592119e871e3789dc75dc9192955925ca0180ee779abf9c9c3798a42a460"
+    },
+    {
+      "path": "run.json",
+      "sha256": "3280b7b6ef2398e75f429ca7fab37b3b1b25a93953a299463d1af5832ca70630"
+    },
+    {
+      "path": "terms.md",
+      "sha256": "a35b7f986ce4f52b055a1b718bdbdcf79e28d6ac53304eec3f801573ed0b79c3"
+    }
+  ],
+  "planned_new_paths": {
+    "before-resume.json": "absent",
+    "invalidated-run.json": "absent",
+    "impact-analysis.md": "absent",
+    "chapters/02-changes.md": "absent",
+    "chapters/03-consequences-review.md": "absent",
+    "checks/full-semantic.md": "absent",
+    "resume-audit.json": "absent"
+  },
+  "backup_location": "history/before-resume",
+  "write_constraint": "所有写入限本分支run；旧文件在run内独立history快照保存，不修改包。",
+  "new_paths": {
+    "resume-audit.json": "absent",
+    "invalidated-run.json": "absent",
+    "impact-analysis.md": "absent",
+    "before-write-manifest.json": "absent",
+    "before-resume.json": "absent",
+    "before-resume-run.json": "absent",
+    "chapters/03-consequences-review.md": "absent",
+    "chapters/02-changes.md": "absent",
+    "checks/chapter-2-semantic.md": "absent",
+    "checks/mechanical-resumed.json": "absent",
+    "checks/chapter-1-resumed-semantic.md": "absent",
+    "checks/mechanical-final.json": "absent",
+    "checks/resume-initial.json": "absent",
+    "checks/chapter-3-semantic.md": "absent",
+    "checks/full-semantic.md": "absent",
+    "history/after-chapter-3-drafted.json": "absent",
+    "history/after-chapter-2-drafted.json": "absent",
+    "history/after-chapter-2-reviewed.json": "absent",
+    "history/after-chapter-1.json": "absent",
+    "history/after-chapter-3-reviewed.json": "absent"
+  }
+}

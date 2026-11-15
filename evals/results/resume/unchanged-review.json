@@ -1,0 +1,294 @@
+{
+  "review_id": "A08-resume-unchanged-independent",
+  "status": "pass",
+  "reviewed_utc": "2026-11-15T02:30:01.066346+00:00",
+  "scope": "21行、1915字符原文的三章合成课堂；从仅第一章正文的落盘断点恢复为三章完整讲稿。",
+  "reviewer": {
+    "agent": "/root/resume_independent_review",
+    "independent_of_generation": true,
+    "participated_in_generation": false,
+    "blind_review": false,
+    "independence_note": "独立子代理未参与断点或恢复稿生成。先读取完整原文及第一章和完整恢复稿，再将run/audit/checks用作过程与哈希佐证。读到了执行者自查报告，故不是盲审；本结论依据21行原文与196行主稿逐项核对，不以字段pass代替内容判断。",
+    "assessed_artifacts_modified": false
+  },
+  "artifacts": {
+    "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+    "source_sha256": "077c32eeca35ff419d727aeb8fe93e4aff404deb67943a64a28978098741a0d6",
+    "initial_lecture_path": "<isolated-eval>/resume-start/outputs/run/lecture.md",
+    "initial_lecture_sha256": "ad0c53407276eb2077a45c91a7bc8a13c0a6223c4c4b220c1eeb4d6ef8722042",
+    "final_lecture_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+    "final_lecture_sha256": "7d8bae4dd4159c369fc7a3f15d730d2875bce374cc917b20b746be9e3125799d",
+    "final_run_sha256": "768a15b7edd0a36af5a0959738331ad9895f1c7dcb7263f63881312a09b34e0e",
+    "resume_audit_sha256": "9a231c394cfdf7d5166a369d421063faab5934699352f8d526330f33f9a08d52",
+    "full_self_review_sha256": "20ddf67f2b0b5eaefdac978601efff0ba9b00b2246fe3ed17f0a69e182c4e5bb"
+  },
+  "continuation_evidence": {
+    "initial_chapter_files": [
+      "01-relations.md"
+    ],
+    "final_chapter_files": [
+      "01-relations.md",
+      "02-changes.md",
+      "03-consequences-review.md"
+    ],
+    "before_resume_json_identical_to_initial_run": true,
+    "chapter_1_bytes_unchanged": true,
+    "chapter_1_old_semantic_evidence_unchanged": true,
+    "source_snapshots_unchanged": true,
+    "initial_lecture_is_exact_prefix_of_final": true,
+    "final_lecture_equals_three_chapter_join": true,
+    "chapter_1_heading_occurs_once": true,
+    "intermediate_snapshots": "resume-chapter-2.json尚留第三章planned；resume-chapter-3.json留全篇统稿未完；最终run才为complete/deliver。",
+    "process_inference_limit": "落盘产物及顺序记录支持从第一章断点续写的判断；本次内容审查不能独立证明宿主是否清空上下文，也不能仅凭自报审计排除一切未记录访问。没有把当前完整稿反当成初始断点。"
+  },
+  "coverage": [
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 1,
+      "source_text": "【合成三章连续课堂；为中断恢复夹具，全部规则、人物、数据都是教学假设，不是现行法或真实课堂。没有前后课资料。】",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "5",
+      "output_anchor": "ch1-scope",
+      "finding": "明确合成规则、非现行法/真实课堂，并说明无前后课；无材料身份偷换。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 2,
+      "source_text": "第一部分先把整个问题摆出来：学习社如何把进入、预约、撤销、费用与复核串成一个制度？最终要分析庚的完整经历，不能只背五个定义。庚是成员，周一预约周三10至12点，收到成功确认，后来取消失败，周三场地封闭，最后申请退还积分。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "8—10、161—169",
+      "output_anchor": "ch1-whole-task; ch3-geng",
+      "finding": "周一确认周三10—12点的庚成为贯穿任务；最后完成撤销、封闭、积分和复核分析。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 3,
+      "source_text": "本练习规则L1：注册成员享有进入公共阅览区的许可；许可不保证座位。预约系统发出成功确认后，管理人才对该预约人负有在确认时段提供标准座位的义务。点击申请、排队提示和“已接收”消息均不等于成功确认。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "15—17、27—31",
+      "output_anchor": "ch1-permission; ch1-confirmation",
+      "finding": "进入许可不保证座位；成功确认后才有管理人对预约人的确认时段标准座位义务；申请/排队/已接收三项否定保留。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 4,
+      "source_text": "先看甲：只有注册，见座位满了，要求乙让座。规则没有从甲的注册推出乙的让位义务。再看丁：有成功确认而座位满了，管理人不能用“大家都可进入”否认自己的预约义务；两层关系并存。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "36—45",
+      "output_anchor": "ch1-jia; ch1-ding",
+      "finding": "甲不能由注册推出乙让位；丁的确认义务与进入许可并存，义务人未偷换为其他成员。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 5,
+      "source_text": "一个容易漏掉的边缘例子是借充电线。工作人员说“可以借线”，没有承诺优先权或对某人的交付义务。本课规则只说明座位，不可把借线许可改写成座位确认。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "50—52",
+      "output_anchor": "ch1-cable",
+      "finding": "借线小例保留无优先、无对某人的交付承诺，并明说座位规则不能移植到借线。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 6,
+      "source_text": "学生反问，许可完全没用吗？它排除了本规则下对进入行为的禁止，所以确有作用；只是作用不等于保证条件充分。要准确指出作用对象，避免把概念说成有用与没用的二选一。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "20—22",
+      "output_anchor": "ch1-student-objection",
+      "finding": "保留“许可完全没用吗”反问并解释排除进入禁止的实际作用，未落入有用/没用二分。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 7,
+      "source_text": "本部分回到庚：成功确认是后续关系的起点。我们尚未知道后续是否撤销、暂停或届满，所以目前只能说预约关系成立，不能预先判他最后一定能坐到12点。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "57—61、66",
+      "output_anchor": "ch1-geng; ch-2",
+      "finding": "第一章只确立成立起点，不提前保证坐到12点；第二章接续关系变动，阶段性结论没有与最后结论冲突。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 8,
+      "source_text": "第二部分处理关系如何变动。L2：预约人可在开始前一日18点前单方撤销；撤销在通知到达系统时生效。18点整到达也算“18点前”吗？本练习附则明确包括18点整，因此本课统一按不晚于18:00处理。超过期限只能协商，协商要有双方同意，发送请求不等于同意。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "71—75",
+      "output_anchor": "ch2-withdrawal",
+      "finding": "开始前一日、不晚于18:00且含整点、通知到达生效、超期须双方同意四个关键条件齐全。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 9,
+      "source_text": "戊17:50发出，18:05到达，不能单方消灭预约；己18:00到达，及时生效。两案改变的是到达时刻，其他条件相同。撤销消灭该预约产生的座位请求和对应义务，不取消成员身份与进入许可。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "80—85",
+      "output_anchor": "ch2-arrival-comparison; ch2-withdrawal-scope",
+      "finding": "戊17:50发出/18:05到达失败，己18:00到达及时；撤销只消灭预约请求及义务，身份与许可保留。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 10,
+      "source_text": "L3：即时安全险情使场地必须封闭时，管理员可以暂停提供座位的义务，并应退还实际受影响时段的预约积分。封闭不自动撤销预约；在原确认时段内恢复安全后，剩余时段继续有效，不延长结束时间。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "90—94",
+      "output_anchor": "ch2-suspension",
+      "finding": "即时安全险情且必须封闭的条件、可以暂停与应退积分、封闭不自动撤销、余段有效与不延长均保留。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 11,
+      "source_text": "假设辛预约10至12点；10至11点封闭、11点开放，辛可使用剩余一小时，退回受影响一小时积分。不要把暂停、撤销和届满混用。到了12点预约届满，即便辛11:30才到，也不会顺延半小时。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "99—103",
+      "output_anchor": "ch2-xin",
+      "finding": "辛10—12、10—11封闭、11开放、12届满完整；11:30迟到只剩半小时，未顺延。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 12,
+      "source_text": "有学生说只要没坐满两小时就退全部积分。老师回应：L3以受安全封闭影响的时段计算，不以本人实际在座时间计算。个人迟到与场地不能提供座位的原因不同。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "106",
+      "output_anchor": "ch2-lateness-objection",
+      "finding": "“没坐满就全退”的学生反驳有回应；受封闭影响和个人迟到原因分开，未虚构其他退分规则。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 13,
+      "source_text": "庚周二17:58发出取消请求，系统周二18:02收到，没有管理人同意协商的证据。周三10至11点安全封闭，11点恢复。请保留这些时间，后面不能把“发出”换成“到达”。这一部分先决定关系是否仍存在，以及哪些时段暂停。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "111—117、165—167",
+      "output_anchor": "ch2-geng; ch3-geng",
+      "finding": "庚周二17:58发出与18:02收到没有互换，无协商同意证据；周三10—11暂停、11—12有效。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 14,
+      "source_text": "第三部分进入计算与复核。L4：预约计价每小时10积分，半小时按5积分计；本次教学只处理整半小时，其他粒度未规定。L3应退积分以封闭与有效预约的重叠时长计算，封闭在预约开始前的时长不计入。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "127—131",
+      "output_anchor": "ch3-calculation",
+      "finding": "每小时10、半小时5及只处理整半小时限制保留；先找有效预约与封闭重叠，明确剔除预约开始前时长。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 15,
+      "source_text": "完整示范：壬预约10至12点，9:30至10:30封闭，重叠半小时，退5积分；若误按封闭总一小时算就会退10，错误出在把预约外时段计入。剩余10:30至12点仍有效。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "136—140",
+      "output_anchor": "ch3-ren",
+      "finding": "壬9:30—10:30封闭与10—12预约仅重叠半小时，退5；说明误退10多算何处，10:30—12仍有效。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 16,
+      "source_text": "L5：对退分有争议，成员应在得知处理结果后七日内申请复核；期限从得知的次日开始，第七日结束前到达系统即及时。复核机构检查规则适用与时间事实，不推定管理员总是正确。规则未给复核申请自动暂停其他决定的效果。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "145—149",
+      "output_anchor": "ch3-review",
+      "finding": "得知次日起七日、第七日结束前到达；复核检查规则与时间，不推定管理员正确，未增加自动暂停效果。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 17,
+      "source_text": "癸周四得知处理结果，下周四为第七日，通知那天到达系统及时。这里的天数算法来自本练习明文，不当作各法域通则；如果缺少得知日期，不能编出期限是否届满。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "154—156",
+      "output_anchor": "ch3-gui",
+      "finding": "周四得知至下周四第七日的逐日计算正确；算法限于练习，未知得知日期就不能断言届满或及时。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 18,
+      "source_text": "庚的后续事实是：系统扣20积分后仅退5积分；他周四得知，下周三提出复核且当日到达。按已经给定的事实，应结合第一部分的确认、第二部分的撤销失败与一小时封闭，判断这次扣退是否符合规则，再判断能否复核。不要只算积分而忘记程序期限，也不能因为程序及时便断言所有实体主张都成立。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "163—171",
+      "output_anchor": "ch3-geng",
+      "finding": "扣20仅退5事实未变；由确认、撤销失败与一小时封闭推导应总退10、再退5；下周三为第六日，及时性单独说明。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 19,
+      "source_text": "一个小反例：如果庚的撤销通知改为周二17:59到达，则预约已消灭，不能继续照用“有效预约与封闭重叠”的退分分析。L2没有规定及时撤销的积分结算方法，这个变式的结算须记为材料缺口，不能自动套L3。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "176—180",
+      "output_anchor": "ch3-variant",
+      "finding": "17:59到达变式使预约消灭；明确不能继续套L3且不能编造退0/10/20，及时撤销结算作为材料缺口保留。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 20,
+      "source_text": "考试提示是本课教师的安排：完整案例按“关系成立—变动—后果—复核”展开，但概念比较题不必机械写四段。教师只要求解释为什么条件影响结果，不承诺任何现实考试会如此评分。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "185—187",
+      "output_anchor": "ch3-exam",
+      "finding": "完整案例成立—变动—后果—复核及概念比较题不机械四段均保留；未许诺现实考试评分。",
+      "status": "pass"
+    },
+    {
+      "source_path": "<isolated-eval>/resume-unchanged/run/input/transcript.txt",
+      "source_line": 21,
+      "source_text": "全课最后请回到最初的庚：读者应能区分发出与到达、暂停与消灭、实际在座与受影响时段、程序及时与实体正确。所有推论都限于上述练习规则；没有提供前课，不能以“上次已证明”替代必要解释。",
+      "output_path": "<isolated-eval>/resume-unchanged/run/lecture.md",
+      "output_lines": "192—196",
+      "output_anchor": "ch3-synthesis",
+      "finding": "四组区别逐一回扣庚；结论限合成规则，不以虚构前课代替解释。",
+      "status": "pass"
+    }
+  ],
+  "critical_defects": [],
+  "minor_defects": [],
+  "cross_chapter_result": {
+    "status": "pass",
+    "evidence": "lecture.md:57—66建立成立到变动衔接；111—122确定有效预约后再进入计算；163—180汇总原案并明确17:59为变式；192—196回扣全课。重复庚事实用于分步分析与整合，没有对象、时段或数额冲突。"
+  },
+  "fabricated_source_result": {
+    "status": "pass",
+    "evidence": "lecture.md:5、20、106、187、196持续明确合成身份。新增退10/再退5和第六日是给定规则与事实的可复算推论；未发现外部法条、书籍归属、前课或真实学生反馈的虚构。"
+  },
+  "audit_result": {
+    "status": "pass",
+    "initial_audit_files_checked": 12,
+    "initial_audit_hash_mismatches": [],
+    "resume_final_inventory_files_checked": 24,
+    "resume_final_inventory_hash_mismatches": [],
+    "initial_runtime_files_checked": 6,
+    "resume_runtime_files_checked": 7,
+    "runtime_hash_mismatches": [],
+    "chapter_evidence_hashes_match": true,
+    "final_mechanical_record_run_hash_matches": true,
+    "full_self_review_hash_matches_final_lecture": true,
+    "mechanical_reexecuted_by_reviewer": false,
+    "explanation": "读取已有机械结果并复算文件哈希；本次未另跑check_run，内容结论不来自其返回码。历史not_run保留旧日期，最终全篇自查单独绑7d8bae…主稿，没有挪用旧第一章pass为全篇pass。"
+  },
+  "limitations": [
+    "仅21行、1915字符合成原文与三章恢复，不是长输入或上下文极限压力测试。",
+    "初始断点已经有全源、全课计划与映射；只能说明在这些恢复资料可用的条件下续成了完整稿。",
+    "没有对未经历中断的对照分支进行质量或效率比较，不能主张中断恢复更优。",
+    "未观察独立会话隔离的底层实现；过程真实性受落盘证据边界限制。",
+    "真实课堂试用not_run；学习效果not_run；外部现实法律正确性不在本合成材料评审范围。"
+  ],
+  "real_classroom_trial": "not_run",
+  "learning_effect": "not_run",
+  "context_limit_stress_test": "not_run",
+  "focused_revision_required": false,
+  "read_scope": "仅指定resume-start/outputs/run、resume-unchanged/run及对应package核心文件哈希；未读取其他恢复分支或package/evals。",
+  "prewrite_record": "<private-review-backup>/unchanged-20261115T023001066447Z/before.json"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "meaning": "comparison actually executed, not universal skill superiority",
+  "concept": "相当",
+  "case": "相当",
+  "dispute": "skill 在新增论证身份及解释理由/代价上局部较优，其他维度相当",
+  "critical_defects": [],
+  "resource_comparison": {
+    "baseline": {
+      "agent_turns": 1,
+      "manuscripts": 3,
+      "observed_seconds": 258,
+      "tokens": "unknown"
+    },
+    "skill": {
+      "agent_turns": 1,
+      "manuscripts": 3,
+      "observed_seconds": 652.639,
+      "tokens": "unknown"
+    },
+    "model_configuration": "两者继承同一父模型配置，无覆盖；后端精确ID与采样参数不可见",
+    "limits": [
+      "起止区间含工具与记录写入，不是纯模型耗时",
+      "skill首次schema尚未复制，后补；三篇正文核心与refs未变",
+      "skill执行了更多记录和检查工作，资源不等，不能隔离归因",
+      "每组仅一个实际样本/方法，无重复采样；三个请求在同一agent turn中完成",
+      "评审与生成均为模型，未提供实际学习者数据"
+    ]
+  }
+}

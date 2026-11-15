@@ -1,53 +1,53 @@
-# 把原课重建成可独立讲授的正文
+# Rebuild the original lecture as a standalone manuscript ready to teach
 
-用于规划、写章与全篇语义复核。教学主干改编自 `indwell-via-shared-discern`，保留辨别关系、整体与局部、对照和完整示范，改为静态讲稿生产。以下写作步骤属于本项目设计；来源研究未验证本项目的讲稿效果。无需读取任何兄弟仓库。
+Use this reference when planning, writing chapters, and reviewing the whole manuscript for meaning. The teaching backbone is adapted from `indwell-via-shared-discern`: it retains attention to relationships, wholes and parts, contrasts, and complete demonstrations, while adapting them to the production of static manuscripts. The writing procedures below are this project's design; the source research has not validated the effectiveness of this project's manuscripts. No sibling repository needs to be read.
 
-## 先决定本节要讲清什么
+## Decide what this section must explain
 
-在章记录中写明学习对象、要看见的关系或条件、必要先修、解释方式及全课作用。例如，“区分许可与他人协助义务；说明前者不自动推出后者；先说明关系双方；用同一事实下两条规则的对照；为下一章的违约分析铺垫”。这些是写作判断，不是对未知读者能力的诊断，不进入正文当作工程表格。
+In the chapter record, identify the object of learning, the relationship or condition to make visible, necessary prerequisites, the explanatory approach, and the section's role in the whole course. For example: “Distinguish permission from another person's duty to assist; explain why the former does not automatically entail the latter; first identify both parties to the relationship; contrast two rules applied to the same facts; prepare for the next chapter's analysis of breach.” These are writing judgments, not diagnoses of an unknown reader's ability. They should not appear as an engineering table in the manuscript.
 
-| 原课的实际缺口 | 写作动作 | 完成的可见证据 |
+| Actual gap in the original lecture | Writing action | Observable evidence of completion |
 |---|---|---|
-| 缺少进入论题所需背景 | 就近补足必要概念与语境 | 读者不用先查陌生术语才能理解下一步 |
-| 术语齐全而关系缺失 | 把双方、条件、整体作用写成完整解释 | 能说清为何此概念不能替代彼概念 |
-| 规则已给而适用跳步 | 示范事实如何满足条件、例外如何改变结果 | 关键判断均有中间理由 |
-| 案例有趣却不解释论点 | 明确例子所揭示的差别，解释其意义 | 改变关键条件后，结论变化有理由 |
-| 分项解释遮蔽全课问题 | 先给可理解的整体问题，局部解释后回到整体 | 章节之间有必要联系而非标题拼接 |
+| Background needed to enter the topic is missing | Supply the necessary concepts and context close to where they are needed | The reader need not look up unfamiliar terms before understanding the next step |
+| Terms are present but their relationships are missing | Explain the parties, conditions, and role within the whole in complete prose | The explanation makes clear why one concept cannot replace another |
+| A rule is given but its application skips steps | Demonstrate how facts satisfy conditions and how exceptions change the result | Intermediate reasons support each key judgment |
+| A case is interesting but does not explain the point | Identify the difference the example reveals and explain its significance | When a key condition changes, there is a reason for the changed conclusion |
+| Separate explanations obscure the course's overall problem | Start with an intelligible whole problem and return to it after explaining the parts | Chapters have necessary connections rather than merely adjacent headings |
 
-默认面向大学课程读者；有真实背景信息才调整支持量。术语熟悉不等于关系已被理解，也不等于必须再考读者一次。没有学生回应时直接写出解释和示范，不等待画像、作业或同意。
+Assume university-course readers by default; adjust the amount of support only when actual background information is available. Familiarity with terms does not establish that their relationships are understood, nor does it require testing the reader again. Without student responses, write the explanations and demonstrations directly rather than waiting for a profile, assignment, or consent.
 
-## 对照必须让判断条件可见
+## Contrasts must make the conditions for judgment visible
 
-先确定要比较的关系，再选择例子。说明变了什么、什么保持不变，以及差别为何重要。可以用外观相似而关系不同的情形，也可以用外观不同但结构相同的情形。控制变量是可用设计，不是所有教学的通则。
+First identify the relationship to compare, then choose examples. Explain what changes, what remains the same, and why the difference matters. Situations may look similar while differing in their relationships, or look different while sharing a structure. Controlling variables is an available design choice, not a universal rule for all teaching.
 
-**本项目合成示范，非现实法律规则：** 假设校园规则甲只说“学生可以进入阅览室”；规则乙另说“值班员应为获准学生开门”。在甲下，学生没有不得进入的义务，单凭这句话还不能推出值班员负有开门义务。在甲加乙下，开门义务才有独立依据。比较保留同一个学生、时间和门，改变的是规则是否规定对方的义务。换成教师进入而规则对象仍仅限学生，则改变了适用对象；这一次不能沿用前一结论。
+**Synthetic demonstration created for this project, not a real legal rule:** Suppose campus Rule A says only, “Students may enter the reading room,” while Rule B additionally says, “The attendant must open the door for authorized students.” Under A, the student has no duty not to enter, but that statement alone does not establish an attendant's duty to open the door. With A and B together, the door-opening duty has its own basis. The comparison keeps the student, time, and door unchanged; what changes is whether a rule imposes a duty on the other party. If a teacher enters instead while the rules still apply only to students, the person to whom the rule applies has changed. The preceding conclusion cannot simply be carried over.
 
-选用的对照必须实际写出解释，不能只留下“建议用许可与义务对照”；这个示范本身不要求进入其他主题的讲稿。若用“钥匙”等类比，要解释类比只帮助理解进入能力；拿到钥匙这种事实能力并不等于获得法律许可或他人协助请求权。类比失效时回到原概念。
+The chosen contrast must include the actual explanation; do not leave an instruction such as “consider contrasting permission and duty.” This demonstration need not appear in manuscripts on other topics. If using an analogy such as a key, explain that it helps only with understanding the ability to enter. The factual ability conferred by possessing a key is not the same as legal permission or a claim to another person's assistance. Return to the original concept when the analogy breaks down.
 
-## 保留完整任务，安排合适支持
+## Preserve complete tasks and provide appropriate support
 
-概念课可从一个容易混淆的判断进入，逐步显出关系；案例课可从完整问题进入，解释事实、规则、涵摄和后果；制度沿革课应按所需时间与因果关系组织；争议课保留不同立场的论据和互相回应。不要强制每课采用同一顺序。
+A concept lecture can begin with a judgment that is easy to confuse and progressively reveal the relationships. A case lecture can begin with the whole problem and explain facts, rules, application, and consequences. A lecture on institutional development should follow the relevant temporal and causal relationships. A lecture on a dispute should retain the arguments for different positions and their responses to one another. Do not force every course into the same sequence.
 
-复杂分析先示范一个条件较少但完整的任务，再增加有意义的限制。背景和分析方法可放在任务前或旁边；某一步立即需要的程序信息放在该步骤。增加复杂度时可以恢复解释支持，不画成支持量只会一路减少的课程。孤立练习仅在某组成部分确需熟练化时有用；静态讲稿不声称读者已经完成练习。
+For complex analysis, first demonstrate a complete task with fewer conditions, then add meaningful constraints. Background and analytical methods may appear before or alongside the task; procedural information needed immediately for a particular step belongs at that step. Explanatory support can be restored as complexity increases; do not depict a course in which support can only decrease. Isolated practice is useful only when a component actually requires fluency. A static manuscript must not claim that the reader has completed such practice.
 
-完整示范应显示为何选择这一步，尤其补出熟练教师容易省略的判断。思考题可以帮助比较，但同时给出完整解析或明确的答案位置。不要用连续问句代替讲解，也不要把 AI 写出的解析算成学生自己的推理。
+A complete demonstration should show why each step was chosen, especially judgments that an experienced lecturer may omit. Reflection questions can support comparison, but must be accompanied by full explanations or a clearly identified answer location. Do not replace teaching with successive questions, and do not count an AI-written explanation as the student's own reasoning.
 
-## 承接问题和呈现关系
+## Take up questions and show relationships
 
-原材料中的学生反驳应改变后续解释：指出它挑战的是事实、条件、推论还是结论，给出回应；回应不能消除争议时保留争议。原课确有问答才称课堂问答。新增问题标为教学设问，不编造学生发言、反馈或掌握程度。静态稿能保留理由之间的回应，不能复制真实对话中随回应调整的过程。
+Student objections in the original materials should affect the explanation that follows. Identify whether the objection challenges a fact, a condition, an inference, or a conclusion, then respond. Preserve disagreement when the response does not resolve it. Call an exchange classroom dialogue only if it actually occurred in the original lecture. Label added questions as teaching prompts; do not invent student statements, feedback, or levels of mastery. A static manuscript can preserve how reasons respond to one another, but cannot reproduce a live dialogue's adaptation to each response.
 
-比较表适合并列关系，图适合组成、次序或分支；正文负责解释。每条箭头说清是因果、先后、条件还是包含，名称保持一致。相关文字与图表就近放置，突出关键差别，删掉无关装饰但保留必要条件。没有显示需求时不强制生成图片、HTML 或交互。画面丰富、阅读顺畅和模型评审偏好均不证明学习效果。
+Comparison tables suit relationships placed side by side; diagrams suit composition, sequence, or branches. The prose remains responsible for explanation. Make each arrow's meaning clear: causation, sequence, condition, or inclusion. Keep names consistent. Place related text and visuals close together, emphasize important differences, and remove irrelevant decoration while retaining necessary conditions. Do not require images, HTML, or interactivity when no visual need has been established. Rich visuals, smooth reading, and model reviewers' preferences do not establish learning outcomes.
 
-## 来源与适用范围
+## Sources and scope of application
 
-以下定位由实际读取的上游参考文件继承；未声称本次重新通读原书或核验原书 PDF。页码遵循上游标注，PDF 页码含封面。完整源版本见 [来源清单](../fidelity-ledger/source-manifest.json)。
+The locations below are inherited from the upstream reference files actually read. This project does not claim to have reread the original books or checked their PDFs. Page numbers follow the upstream annotations; PDF page counts include covers. See the [source manifest](../fidelity-ledger/source-manifest.json) for the exact source versions.
 
-| 来源原命题与定位 | 本项目采用方式及限制 |
+| Source claims and locations | Use in this project and limits |
 |---|---|
-| Ference Marton、Shirley Booth，*Learning and Awareness*（1997），第 5 章学习对象与意识结构，第 7 章整体赋予部分意义，Epilogue 的辨别、同时性和变异；上游原文定位 L4380–4450、L4780–4850、L6915–6990、L10250–10332 | 选择本节必须显出的关系，把变化和不变放在同一解释中；不把研究中的经验方式分类当作固定读者类型，不将后来的完整变异理论倒归给本书 |
-| Susan A. Ambrose、Michael W. Bridges、Michele DiPietro、Marsha C. Lovett、Marie K. Norman，*How Learning Works*（2010），第 1 章 pp.15–38，第 2 章 pp.46–65，第 4 章 pp.95–96、107、120，第 5 章 pp.141–142、152 | 分别处理背景缺失、组织关系、整合与适用条件；显出专家盲点。实践与反馈原则不能在无读者表现时变成能力诊断；收到讲稿不等于已经练习 |
-| Jeroen J. G. van Merriënboer、Paul A. Kirschner、Jimmy Frèrejean，*Ten Steps to Complex Learning*，第 4 版（2025），第 2–3 章四成分，第 4 章完整任务，第 6 章排序，第 7、10 章支持性/程序性信息；上游 PDF31–33、61–63、75、105、141、155、173、235–248 | 保留完整分析，先简化条件，再提高复杂度；支持在任务类内减弱、进入更复杂任务类时可恢复。它针对复杂技能，不是每节必走的十步，也不证明阅读等于独立表现 |
-| Robin Alexander，*A Dialogic Teaching Companion*（2020），第 7 章六原则、话语 repertoire 与 third-turn uptake；上游 L1538–1604、L1820–1860、L1920–1958 | 承接已有疑问、反驳和争议，解释回应为何改变论证。静态稿不是互惠课堂，不虚构群体共同建构 |
-| Richard E. Mayer、Logan Fiorella 编，*The Cambridge Handbook of Multimedia Learning*，第 3 版（2022）；第 14 章 Fiorella/Mayer（上游 PDF216），第 17 章 Tamara van Gog（PDF243），第 18 章 Alexander Renkl（PDF259），第 19 章 Mayer/Fiorella，第 44 章 Jean-François Rouet/Anne Britt（PDF542） | 需要时采用贴近说明的图表、关系提示、完整示范和有意义分段；保留章节作者归属。短材料、近期测验等研究条件不能直接外推为完整 AI 课程的效果；多文档冲突仍需来源判断 |
+| Ference Marton and Shirley Booth, *Learning and Awareness* (1997), chapter 5 on the object of learning and the structure of awareness, chapter 7 on the whole giving meaning to its parts, and the Epilogue on discernment, simultaneity, and variation; upstream text locations L4380–4450, L4780–4850, L6915–6990, L10250–10332 | Select the relationships that must become visible in the section and bring variation and invariance into the same explanation. Do not treat the research's categories of ways of experiencing as fixed reader types, or retrospectively attribute the later full theory of variation to this book. |
+| Susan A. Ambrose, Michael W. Bridges, Michele DiPietro, Marsha C. Lovett, and Marie K. Norman, *How Learning Works* (2010), chapter 1 pp.15–38, chapter 2 pp.46–65, chapter 4 pp.95–96, 107, 120, and chapter 5 pp.141–142, 152 | Address missing background, organizational relationships, integration, and conditions of application separately; expose expert blind spots. Principles of practice and feedback cannot become diagnoses of ability without reader performance. Receiving a manuscript is not the same as having practiced. |
+| Jeroen J. G. van Merriënboer, Paul A. Kirschner, and Jimmy Frèrejean, *Ten Steps to Complex Learning*, 4th edition (2025), chapters 2–3 on the four components, chapter 4 on whole tasks, chapter 6 on sequencing, and chapters 7 and 10 on supportive/procedural information; upstream PDF31–33, 61–63, 75, 105, 141, 155, 173, 235–248 | Preserve complete analysis, simplify conditions initially, and then increase complexity. Support fades within a task class and may be restored on entering a more complex class. The framework addresses complex skills; it is not a mandatory ten-step sequence for every section and does not establish that reading is equivalent to independent performance. |
+| Robin Alexander, *A Dialogic Teaching Companion* (2020), chapter 7 on six principles, the discourse repertoire, and third-turn uptake; upstream L1538–1604, L1820–1860, L1920–1958 | Take up existing questions, objections, and disagreements, and explain why a response changes the argument. A static manuscript is not a reciprocal classroom; do not invent collective construction of understanding. |
+| Richard E. Mayer and Logan Fiorella, editors, *The Cambridge Handbook of Multimedia Learning*, 3rd edition (2022); chapter 14 by Fiorella/Mayer (upstream PDF216), chapter 17 by Tamara van Gog (PDF243), chapter 18 by Alexander Renkl (PDF259), chapter 19 by Mayer/Fiorella, and chapter 44 by Jean-François Rouet/Anne Britt (PDF542) | When useful, place diagrams near their explanations, signal relationships, provide complete demonstrations, and segment meaningfully. Retain chapter-level authorship. Research conditions such as short materials and near-term tests cannot be directly extrapolated to the effectiveness of a complete AI-generated course. Conflicts across documents still require judgments about sources. |
 
-五类来源研究对象和理论不同。本项目把它们用于具体写作选择，不宣称它们共享一套理论或其效果可以相加。
+These five source groups have different research objects and theories. This project uses them for specific writing decisions; it does not claim that they share one theory or that their effects can be added together.

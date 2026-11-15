@@ -4,14 +4,18 @@
 
 语言规则已按用户要求更新为“明确指定优先，否则采用课程语言”。本次只检查格式、包结构及规则一致性，未重跑模型行为验收。下文A01–A12、匿名对照与恢复结果均属于[更新前版本](runtime-revision.pre-language-policy.json)，[旧验证状态](validation.pre-language-policy.json)及原始运行哈希保持不变。
 
+**Current revision — English runtime and documentation (2026-11-15):** The user requested English versions of the core, four method references, requirements documents, and maintenance agreement. The manuscript language policy is unchanged. Translation changes the model instructions, so the current runtime has new hashes and behavior acceptance remains `not_run`. The [preceding runtime](runtime-revision.pre-english-core.json), [preceding validation status](validation.pre-english-core.json), and all historical evaluation artifacts retain their original identities. Textual equivalence and mechanical checks are not model behavior tests.
+
+For this translation, all 40 unit tests, the repository checker, and the skill-format checker passed. Independent comparison with the prior text identified two wording changes that were corrected: quiz questions remain distinct from clarification, and inspecting the test fixtures remains optional. Source locations, links, record identifiers, and executable examples were checked for preservation. No model behavior scenarios were rerun.
+
 | 状态字段 | 结果 | 证据与范围 |
 |---|---|---|
 | repository_checks | pass | 40项标准库测试、包结构检查、skill格式检查；见[机械证据](../evals/results/mechanical/summary.json) |
-| behavior_acceptance | not_run | 当前语言规则版本未重跑模型行为验收；构建基线A01–A12通过证据保留原版本身份 |
+| behavior_acceptance | not_run | The current English runtime has not been behavior-tested; the baseline A01–A12 passes retain their original runtime identities. |
 | real_classroom_pilot | not_run | 未提供真实课堂材料；所有实际执行均为明示合成样本 |
 | learning_outcomes | not_run | 未测量真实学习者理解、迁移或延迟表现 |
 
-## 工程范围
+## Historical engineering scope at the initial build
 
 已实现唯一运行入口SKILL、四份自足references、运行schema、两个标准库检查器、维护约定、README、MIT许可、来源manifest及有内容的验收材料。本地Git初始化为main，无提交、远程仓库、推送或全局安装。intent.md与spec.md已同步本次用户指定的语言规则；更新前基线已备份，plan.md登记实施状态。
 

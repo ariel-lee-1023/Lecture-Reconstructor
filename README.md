@@ -177,7 +177,7 @@ flowchart LR
 | [Intent](intent.md), [specification](spec.md), [plan](plan.md), [BUILD](BUILD.md) | Product requirements, implementation record, and historical handoff. |
 | [AGENTS.md](AGENTS.md), [validation ledger](fidelity-ledger/validation.md), [source manifest](fidelity-ledger/source-manifest.json) | Maintenance rules, evidence boundaries, and source provenance. |
 
-The four references are task-specific adaptations, not one file per original book. `.work/`, local source inventories, and private runs are ignored by Git. Public evaluation artifacts contain explicitly synthetic materials. The README is in English; linked method documents and historical examples may use another language.
+The four references are task-specific adaptations, not one file per original book. `.work/`, local source inventories, and private runs are ignored by Git. Public evaluation artifacts contain explicitly synthetic materials. The README, runtime core, four method references, requirements documents, and maintenance agreement are in English; historical examples and other maintainer records may use another language.
 
 ## Sources and their responsibilities
 
@@ -255,9 +255,9 @@ The implementation has four adapted method references and 19 recorded upstream s
 
 | Evidence layer | Actual status |
 |---|---|
-| Structural checks | The build baseline passed 40 automated tests. The checkers are unchanged by the language-policy and README edits; package and skill-format checks were rerun after those edits. |
+| Structural checks | The build baseline passed 40 automated tests. The checkers are unchanged by the language-policy, English translation, and README edits; package and skill-format checks were rerun after those edits. |
 | Historical behavior acceptance | A01–A12 passed on explicitly synthetic inputs for the earlier runtime, including actual chapter interruption, recovery, and an isolated-package generation. Original inputs, outputs, and hashes are preserved. |
-| Current language-policy behavior | `not_run`: model behavior was not rerun after changing the default from Chinese to the course's language. Earlier passes are not reassigned to the revised core. |
+| Current runtime behavior | `not_run`: model behavior was not rerun after changing the default from Chinese to the course's language or translating the runtime instructions into English. Earlier passes are not reassigned to the revised core. |
 | Real classroom pilot | `not_run`: no real classroom transcript was supplied. |
 | Learning outcomes | `not_run`: no learner understanding, transfer, or delayed performance was measured. |
 

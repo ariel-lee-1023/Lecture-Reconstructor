@@ -1,58 +1,58 @@
-# 全课重构、记录与恢复
+# Whole-Course Reconstruction, Records, and Recovery
 
-本文件是本项目新增的生产流程；来源中的教学原则不自动推出这些文件格式、阶段或质量门槛。流程服务于完整讲稿，可以按素材组织章节，不要求读者看工程字段。
+This file defines a production workflow newly designed for this project. The teaching principles in the sources do not automatically imply these file formats, stages, or quality thresholds. The workflow serves a complete lecture manuscript; chapters may follow the material's needs, and readers do not need to see engineering fields.
 
-## 1. 输入与边界：ingest → map
+## 1. Input and boundaries: ingest → map
 
-为本次任务建 `.work/runs/<run-id>/`。原始输入保存为 `input/original.*`，规范化文本保存为 `input/transcript.txt`；两者分别计算 SHA-256。粘贴文本也保存快照。规范化只处理编码、字幕结构和必要的可读性，不删除重要文字；保留时间码文本以便追溯，不推测缺失时间。每个 `inputs` 项用 `path`、`sha256` 指向原始文件，用 `normalized_path`、`normalized_sha256` 指向实际建立行定位的文本。相同文本可用同一路径。
+Create `.work/runs/<run-id>/` for the task. Save original input as `input/original.*` and normalized text as `input/transcript.txt`; calculate a separate SHA-256 for each. Save a snapshot of pasted text as well. Normalization addresses only encoding, subtitle structure, and necessary readability; it must not remove important text. Preserve timestamp text for traceability without guessing missing times. Each `inputs` entry uses `path` and `sha256` for the original file, and `normalized_path` and `normalized_sha256` for the text actually used to establish line locations. Identical text may use the same path.
 
-空输入或路径失效时记录 `needs_input` 与确切缺口，不生成假课堂。缺少教材、背景画像等不阻止工作。未知课程法域/年代填 `unknown`；假设写进 `course.assumptions`，可撤回。重要含义不明时只问改变判断的最小问题；保存其余可处理内容。
+For empty input or an invalid path, record `needs_input` and the precise gap; do not invent a class. Missing textbooks, learner profiles, or similar optional material do not block work. Record an unknown course jurisdiction or period as `unknown`; put retractable assumptions in `course.assumptions`. When an important meaning is unclear, ask only the smallest question that changes the judgment, and preserve the other content that can be processed.
 
-全文读取后，`source_review` 对每个输入的规范化文本记录 1 起算、两端包含的 `start_line/end_line` 和 `reviewed/unread`；这些字段只是读稿记录，不是理解的证明。无需逐句建数据库项，但所有输入行都应有覆盖记录，正文之外的标题和字幕也不能留下误判为未读的空隙。
+After reading the whole text, use `source_review` to record one-based, inclusive `start_line/end_line` ranges and `reviewed/unread` status for each input's normalized text. These fields record reading, not proof of understanding. A database item is not required for every sentence, but all input lines should have coverage records. Titles and subtitle lines outside the main prose must not leave gaps that are mistakenly treated as unread.
 
-`content_units` 按实际意义切分：定义、命题、推理、案例、例外、反例、实质疑问、教师考试提示。每项保存稳定 ID、简短命题、输入行范围与短摘录、类型。重构前的暂存项可以为 `unresolved`，说明尚未写作并判断是否 blocking，不能假装已完成。
+Divide `content_units` by actual meaning: definitions, propositions, reasoning, cases, exceptions, counterexamples, substantive questions, and the teacher's examination advice. Save a stable ID, a brief proposition, input line ranges and a short excerpt, and the type for each item. Pending items before reconstruction may be `unresolved`; explain that they have not yet been written and assess whether they are blocking. Do not present them as complete.
 
-## 2. 教学规划：plan
+## 2. Teaching plan: plan
 
-建立全课整体问题、章节顺序和术语表，再分章写。每章写入 `learning_object`、`relations`、`prerequisites`、`approach`、`role` 与 `content_unit_ids`。例如学习对象是“同意与请求权的区别”，关系是“免于不当干预不等于对方负有给付义务”；以同一借用事实中授权与承诺的变化作对照。具体正文如何解释，参照 [教学设计](teaching-design.md)。
+Establish the whole-course problem, chapter order, and glossary before writing individual chapters. For each chapter, record `learning_object`, `relations`, `prerequisites`, `approach`, `role`, and `content_unit_ids`. For example, the learning object is “the distinction between consent and a claim-right,” and the relation is “freedom from improper interference does not mean that another party owes a performance.” Contrast changes in authorization and promises within the same borrowing situation. For how to explain these in the prose, see [Teaching design](teaching-design.md).
 
-章使用稳定 ID 与显式 HTML 锚点，如 `<a id="ch-consent"></a>`；细节项可指向节锚点。章文件通常为 `chapters/01-consent.md`。`planned` 允许没有章文件与锚点；写入正文后必须验证其实际存在。新章顺序变动不改 ID；术语决定写 `terms`，同一实体不用近义词随机替换。
+Use stable chapter IDs and explicit HTML anchors, such as `<a id="ch-consent"></a>`; detailed items may point to section anchors. A typical chapter path is `chapters/01-consent.md`. A `planned` chapter may lack a file and anchor; once prose is written, verify that they actually exist. Changing chapter order does not change IDs. Record terminology decisions in `terms`, and do not randomly substitute synonyms for the same entity.
 
-长课按完整概念或论证单元分章。只在实际有前后课材料时写跨课衔接。目标篇幅不足以容纳实质内容时，保存完整范围并明确采用分册/配套扩展稿，或提出关键取舍；不得用“精简版”掩盖遗漏。
+Divide long courses at complete conceptual or argumentative units. Add connections to preceding or subsequent classes only when those materials actually exist. If the target length cannot accommodate substantive content, preserve the full scope and explicitly use separate volumes or a complete companion manuscript, or ask for a decisive scope choice. Do not conceal omissions behind a “condensed version.”
 
-## 3. 写作与来源：draft
+## 3. Writing and sources: draft
 
-按章写可直接朗读的解释性段落，不输出供别人完成的建议。开场交代本课问题，结尾兑现学习对象，章间解释当前步骤怎样服务全课。例子要分析事实、改变的条件和不变因素；思考题有完整解析。
+Write explanatory paragraphs that can be read aloud directly, chapter by chapter. Do not output suggestions for someone else to complete. The opening establishes the course problem, the ending fulfills the learning object, and chapter transitions explain how the current step serves the whole course. Analyze the facts, changed conditions, and unchanged factors in examples; provide complete explanations for learning questions.
 
-内容项的处理只用以下状态：
+Use only the following content-item treatment states:
 
-| 状态 | 记录与成稿责任 |
+| State | Record and manuscript responsibility |
 |---|---|
-| represented | 已解释，`targets` 指向章 ID 和真实锚点 |
-| merged | 与另一项合并；保留原定位，`merge_into` 指向目标内容 ID，`targets` 指实际正文；不能形成环 |
-| corrected | 保存 `original_meaning`、修改理由和 `correction_basis`，`source_ids` 关联实际读到的依据，并指向修正后正文 |
-| excluded | 写出与课程无关或纯重复等具体理由；不能因困难、篇幅或争议排除实质内容 |
-| unresolved | 给出 `blocking` 和 `blocking_reason`；会改变核心论证时须阻止 complete |
+| represented | Explained; `targets` points to a chapter ID and a real anchor. |
+| merged | Combined with another item; retain the original location, point `merge_into` to the destination content ID, and use `targets` for the actual prose. Cycles are prohibited. |
+| corrected | Save `original_meaning`, the reason for the change, and `correction_basis`; associate `source_ids` with grounds actually read, and point to the corrected prose. |
+| excluded | Give a specific reason, such as irrelevance to the course or pure repetition. Do not exclude substantive content because it is difficult, lengthy, or disputed. |
+| unresolved | Provide `blocking` and `blocking_reason`; if the issue changes the core argument, it must prevent complete status. |
 
-`locations` 保留原课定位，`targets` 记录重排后的成稿定位。重要新增命题可新建解释项并关联实际输入或补充来源，但不能为其编造原文行号。没有原课定位的纯补充项用空 `locations`、真实 `source_ids` 与明确新增身份。
+`locations` retains original course locations; `targets` records manuscript locations after reordering. Important new propositions may become new explanatory items linked to actual input or supplementary sources, but must not have invented original line numbers. Purely supplementary items with no original course location use empty `locations`, real `source_ids`, and an explicit identity as added material.
 
-`sources` 保存 ID、实际路径或 URL、版本、准确定位和 `read_status`。输入原课也可登记为来源。精确法律事实或学说归属必须有已读支持；教学假设标为假设，解释性推理说明从哪些前提得到。正文保留会影响结论的法域、时间、条件与归属；细节审计放 `notes.md`。查阅链接不等于命题获得支持。
+`sources` records the ID, actual path or URL, version, precise location, and `read_status`. The original course input may also be registered as a source. Precise legal facts and attribution of scholarly positions require support that has been read. Label teaching assumptions as assumptions, and explain which premises support explanatory inferences. Preserve jurisdiction, time, conditions, and attribution in the prose wherever they affect the conclusion; put detailed audit notes in `notes.md`. Opening a link does not establish support for a proposition.
 
-## 4. 每章检查与全篇复核：review → assemble → deliver
+## 4. Chapter checks and whole-manuscript review: review → assemble → deliver
 
-章完成先写文件，再把 `chapters.status` 改 `drafted`。检查遗漏与推理后改 `reviewed`，待重审则用 `needs_review`；若文件不在则填 `missing_reason`。全篇统稿处理重复定义、矛盾、术语漂移、未兑现铺垫和突兀衔接，合并到 `lecture.md`，保持目标锚点。
+When a chapter is finished, write its file before changing `chapters.status` to `drafted`. After checking omissions and reasoning, change it to `reviewed`; use `needs_review` when re-review is required, and provide `missing_reason` if its file is absent. Reconcile the whole manuscript for repeated definitions, contradictions, drifting terminology, unfulfilled setup, and abrupt transitions. Assemble it into `lecture.md` while retaining target anchors.
 
-语义复核必须重新对照实际输入与实际主稿，特别检查清单之外可能漏掉的小案例、反驳、考试提示、否定和例外。核对每条重要新增事实的来源身份；判断推理是否完整、对照是否说明关键条件。可用独立评审，但不能用只看成稿的“很好”代替对照。记录评审者身份已知范围、方法、逐项证据和缺陷；未知设置填 `unknown`。
+Semantic review must compare the actual input with the actual main manuscript again, paying particular attention to small cases, objections, examination advice, negations, and exceptions that the content list itself might have missed. Check the source identity of every important added fact, whether reasoning is complete, and whether contrasts explain the decisive conditions. An independent reviewer may be used, but praise based only on reading the manuscript cannot replace comparison. Record what is known about the reviewer's identity, the method, item-level evidence, and defects; use `unknown` for unknown settings.
 
-先执行 `python3 scripts/check_run.py .work/runs/<run-id>/run.json --repo-root .`。退出码 0 是结构通过，1 是记录或文件错误，2 是输入/runtime 改变需重审。脚本不会替你判断法律或教学正确性，也不会自动改状态。
+First run `python3 scripts/check_run.py .work/runs/<run-id>/run.json --repo-root .`. Exit code 0 means structural checks passed, 1 means a record or file error, and 2 means that input/runtime changes require re-review. The script does not judge legal or teaching correctness for you and does not change status automatically.
 
-`checks` 区分 mechanical / semantic，状态 pass / fail / not_run。全篇语义复核记录 `kind: semantic`、`scope: full_manuscript`、证据文件相对路径、日期与所评 `lecture.md` 的 `output_sha256`。之后任何主稿变化都使旧哈希不再匹配，必须重做受影响检查和全篇复核。完成状态同时要求源文本全部已检查、无 blocking 未决、章全部 reviewed/assembled、主稿与锚点存在、真实的全篇语义 pass 与对应证据。机械通过本身不能授予 complete。
+`checks` distinguishes mechanical / semantic checks, with pass / fail / not_run status. A whole-manuscript semantic review records `kind: semantic`, `scope: full_manuscript`, the evidence file's relative path, the date, and the `output_sha256` of the reviewed `lecture.md`. Any subsequent change to the main manuscript makes the old hash no longer match; rerun affected checks and the whole-manuscript review. Complete status also requires that all source text has been reviewed, no blocking issue remains unresolved, all chapters are reviewed/assembled, the main manuscript and anchors exist, and an actual full-manuscript semantic pass has corresponding evidence. A mechanical pass alone cannot confer complete status.
 
-常规检查后最多两轮聚焦返修，`revision_round` 记录 0–2。按规格、方法、阶段衔接、缺失材料、宿主限制分类修正原因。两轮后关键缺陷仍在则 partial 或 needs_input，保留最好稿及下一步，不伪造通过。
+After routine checks, allow at most two focused revision rounds; `revision_round` records 0–2. Classify the reason for each correction as specification, method, stage integration, missing material, or host limits. If critical defects remain after two rounds, use partial or needs_input, preserve the best manuscript and next action, and do not fabricate a pass.
 
-## 5. 断点与版本变化
+## 5. Checkpoints and version changes
 
-每章结束和每轮检查后保存 `run.json`。其中 `resume.completed/remaining/next_action`、全课计划、术语、源定位、来源及问题必须足以让新上下文继续。用同目录临时文件加原子替换，例如：
+Save `run.json` at the end of each chapter and after each review round. Its `resume.completed/remaining/next_action`, whole-course plan, terminology, source locations, sources, and issues must be sufficient for a fresh context to continue. Use a temporary file in the same directory followed by atomic replacement, for example:
 
 ```python
 from pathlib import Path
@@ -67,14 +67,14 @@ with temporary.open("w", encoding="utf-8") as stream:
 os.replace(temporary, path)
 ```
 
-先保存章节再更新记录，避免记录指向尚不存在的内容。`runtime_revision.files` 必须包括 SKILL.md 和实际加载的 refs 的包内相对路径及 SHA-256，不要把模型名称猜成已知事实。`host/model/settings` 只记已知值。
+Save chapters before updating the record, so that it does not point to content that does not yet exist. `runtime_revision.files` must include package-relative paths and SHA-256 hashes for SKILL.md and the references actually loaded. Do not present a guessed model name as known fact. Record only known values in `host/model/settings`.
 
-恢复时先读落盘记录并运行检查器，随后读取相应原文及已有章稿。哈希变化返回需重审：保存旧记录与稿件，比较实际变化，列出影响项，将依赖章节置 `needs_review`，使旧全篇复核失效；记录变更理由后才更新输入/runtime 版本。原始快照不能被新的来稿覆盖，更新写新文件。若无法判断影响范围，重审全课结构及所有章，不能只刷新哈希继续。
+To resume, first read the saved record and run the checker, then read the relevant original text and existing chapter manuscripts. A changed hash requires re-review: preserve old records and manuscripts, compare actual changes, list affected items, set dependent chapters to `needs_review`, and invalidate the old whole-manuscript review. Update input/runtime versions only after recording the reason for the change. New input must not overwrite the original snapshot; write updates to new files. If the scope of impact is unclear, review the whole-course structure and all chapters again. Do not merely refresh hashes and continue.
 
-无变化时从 `resume.next_action` 继续，但仍需核对已有章与待写项，防止重复。完成后必须再次全篇统稿。无文件读写能力时交付文本及真实未完范围，明确无法提供磁盘断点。
+When nothing has changed, continue from `resume.next_action`, while still checking existing chapters against pending items to prevent duplication. Reconcile the whole manuscript again before completion. Without file-reading/writing capabilities, deliver text and an honest account of unfinished scope, explicitly stating that a disk checkpoint cannot be provided.
 
-## 6. 记录结构速查
+## 6. Record structure quick reference
 
-[run.schema.json](../schemas/run.schema.json) 是格式说明，`check_run.py` 是显式有限检查器，并非完整 JSON Schema 实现。全部文件路径相对 `run.json`；runtime 文件路径相对 `--repo-root`。外部来源 URI 用于身份记录，不能自动执行。输出到用户指定目录时，以该目录组织运行包或使用允许的相对位置，并将输出文件保存在记录所在运行目录内；需要第二份交付副本时拷贝，记录以可验证原稿为准。
+[run.schema.json](../schemas/run.schema.json) describes the format. `check_run.py` is an explicit, bounded checker, not a complete JSON Schema implementation. All file paths are relative to `run.json`; runtime file paths are relative to `--repo-root`. External source URIs record identity and must not execute automatically. When delivering to a user-specified directory, organize the run package there or use permitted relative locations, and keep output files within the run directory containing the record. Copy a second delivery version if needed; the record must refer to the verifiable original manuscript.
 
-必要字段为 `schema_version/run_id/status/stage/course/inputs/source_review/content_units/sources/chapters/terms/open_issues/runtime_revision/checks/revision_round/output/resume`。新任务不应复制旧 run 的身份、哈希或 pass 记录。可运行 `python3 -m unittest discover -s tests -v` 查看结构夹具和故障行为；它们是工程样本，不是课堂成稿证明。
+Required fields are `schema_version/run_id/status/stage/course/inputs/source_review/content_units/sources/chapters/terms/open_issues/runtime_revision/checks/revision_round/output/resume`. A new task must not copy an old run's identity, hashes, or pass records. You may run `python3 -m unittest discover -s tests -v` to inspect structural fixtures and failure behavior. These are engineering examples, not evidence of a completed classroom manuscript.

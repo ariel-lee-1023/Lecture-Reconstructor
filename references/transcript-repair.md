@@ -1,34 +1,34 @@
-# 可选的转录修复
+# Optional Transcript Repair
 
-仅当转录损坏影响理解时加载。方法改编自 `transcript-proofreader/SKILL.md`。校对阶段保留原转录语言；后续讲稿采用用户明确指定的语言，未指定时采用课程所使用的语言。此阶段恢复可读的课堂记录，之后仍须进入课程重构。它不限制已获授权的重排、补写或讲授声音重建。
+Load this reference only when transcription damage affects understanding. Its methods are adapted from `transcript-proofreader/SKILL.md`. Proofreading preserves the original transcript language; the subsequent manuscript uses the language explicitly requested by the user, or the course language when none is specified. This stage restores a readable classroom record, after which course reconstruction is still required. It does not restrict authorized reordering, added explanation, or reconstruction of the teaching voice.
 
-## 保存证据再修复
+## Preserve evidence before repairing
 
-原文件只读保留，另存规范化文本与必要清理稿，保持原稿到派生稿的对应。TXT、Markdown 直接读取；SRT/VTT 的时间行、说话人标签和有效文本保留为定位信息。时间码混乱时说明可读范围和不可用的时间定位，按原文本行定位继续；不推测新时间戳、不声称听过未提供的音频。
+Keep the original file unchanged and read-only. Save normalized text and any necessary cleaned version separately, maintaining correspondence between original and derived texts. Read TXT and Markdown directly; preserve SRT/VTT timestamp lines, speaker labels, and valid text as location information. If timestamps are damaged, describe the readable scope and unavailable time locations, then continue using original text line locations. Do not infer new timestamps or claim to have listened to audio that was not supplied.
 
-先读前后文，区分 ASR 损坏、可接受口语、说话者记忆或事实错误、实质观点。删去不承载意义的卡顿和空填词可以改善可读性；否定、自我修正、逻辑连接、强调及“这个”的实际指代不能机械删除。原课重复的实质命题可在重构阶段合并并记录去向；校对不能先悄悄删掉小例子或反驳。
+Read surrounding context first, distinguishing ASR damage, acceptable spoken language, the speaker's memory or factual errors, and substantive positions. Removing meaningless stumbles and empty fillers can improve readability; do not mechanically delete negations, self-corrections, logical connections, emphasis, or the actual referent of “this.” Repeated substantive propositions may be merged during reconstruction with their destinations recorded; proofreading must not silently delete small examples or objections first.
 
-## 修、留、问取决于证据
+## Repair, preserve, or ask according to the evidence
 
-| 情形 | 处理 |
+| Situation | Action |
 |---|---|
-| 上下文、句法、重复术语和已确认实体共同支持可恢复意思 | 作最小修复。意义清楚而原措辞不唯一，记录“上下文推定”，无需把常规修复都交回用户 |
-| 只是少见但有意义的说法，或存在争议的观点 | 保留其归属，不把不同意当作 ASR 错误 |
-| 两种读法改变主体、事件、数字、否定、因果或核心术语 | 保留未决处和候选，提出能解决该歧义的最小问题；设置阻塞与理由 |
-| 外部资料只能确认名称拼写 | 只用来确定拼写或背景，不能据此证明讲者说了该名称 |
+| Context, syntax, repeated terminology, and confirmed entities jointly support a recoverable meaning | Make the smallest repair. When meaning is clear but the original wording is not unique, record it as “inferred from context”; routine repairs need not all be returned to the user. |
+| The wording is unusual but meaningful, or the position is disputed | Preserve its attribution; disagreement is not evidence of an ASR error. |
+| Two readings change the actor, event, number, negation, causation, or core term | Preserve the unresolved passage and candidates, ask the smallest question that resolves the ambiguity, and record blocking status and its reason. |
+| External material can confirm only a name's spelling | Use it only to establish spelling or background; it does not prove that the speaker said that name. |
 
-有真实候选时比较原词与候选的近似发音、局部句法、主题和同课用法，也考虑原读法可能正确。不要为凑数制造候选，不能因熟悉某个故事就补造情节。数字、百分比/百分点、单位和范围需要单独检查；算术正确不能证明讲者原来想说哪个数字。
+When there are real candidates, compare the original wording and candidates for phonetic similarity, local syntax, topic, and usage elsewhere in the course; also consider that the original reading may be correct. Do not invent candidates to fill a quota or add events merely because a story is familiar. Numbers, percentages versus percentage points, units, and ranges require separate checking. Correct arithmetic does not establish which number the speaker intended.
 
-**本项目合成例子：** 原文为“这项请求犬对应对方的义务”，且前后反复出现“请求权”，可将“请求犬”修为“请求权”，依据是同课术语和句义。另一句是“这项转让有效／无效”，转录同时保留这两个读法、后文又没有可区分依据时，不能选更符合常识的一项。这改变核心法律后果，应先写可确定的概念解释，把该例结论留为待确认；整稿状态为 `needs_input` 或 `partial`，不可标完整。两种情形都不能写成“已听音频确认”。
+**English adaptation of this project's synthetic example:** The transcript says “This clam corresponds to the other party's duty,” while surrounding passages repeatedly use “claim.” Repair “clam” to “claim” on the basis of the course's terminology and the sentence's meaning. In another sentence, “This transfer is valid / invalid,” both readings remain in the transcript and later material provides no basis for distinguishing them. Do not choose the one that seems more plausible. This changes the core legal consequence: first write the concept explanations that can be established, and leave the example's conclusion pending confirmation. The whole manuscript's status is `needs_input` or `partial`, not complete. Neither situation permits a claim of “confirmed by listening to the audio.”
 
-## 决定跨章保持一致
+## Carry decisions consistently across chapters
 
-运行记录 `terms` 保存观察到的变体、采用写法、确认或未决状态、依据与受影响位置；尚未确认的身份不会因重复出现而自动确认。新证据改变一个术语时，查回已写章节。关键修复保存原文、修复、理由及依据定位；普通标点无需逐项列账。
+The run record's `terms` stores observed variants, the chosen form, confirmed or unresolved status, grounds, and affected locations. An unconfirmed identity does not become confirmed merely through repetition. When new evidence changes a term, revisit chapters already written. For consequential repairs, preserve the original text, correction, reason, and location of the supporting evidence; ordinary punctuation does not require an itemized ledger.
 
-修复结束把规范化文本、重大修改及未决问题交给 [重构流程](reconstruction-workflow.md)。后续可以重新组织论证、补解释、合并重复，但仍不能冒充原话或消除未解决的核心意思。`notes.md` 仅记录重要修正与未决事项，主交付是 `lecture.md`；不继承校对技能的英文默认、人物专用词表、编辑说明主交付和 Word/PDF 联动要求。
+After repair, hand the normalized text, significant changes, and unresolved issues to the [Reconstruction workflow](reconstruction-workflow.md). Subsequent work may reorganize arguments, add explanations, and merge repetition, but must not impersonate the original wording or erase unresolved core meaning. `notes.md` records only important corrections and unresolved issues; the main deliverable is `lecture.md`. Do not inherit the proofreading skill's English default, person-specific glossaries, editorial notes as the main deliverable, or linked Word/PDF requirements.
 
-## 来源与边界
+## Sources and boundaries
 
-实际改编来源为上游 `transcript-proofreader/SKILL.md`（2026-11-11 修订）中的 **Default: a clean oral record、Repair obvious ASR damage proactively、Make the evidence change the decision、Carry decisions through the whole job**。上下文主动恢复、实体记忆和跨段决定属于该上游项目的编辑设计，不能说成经过测量的 ASR 效果。
+The actual adaptation source is the upstream `transcript-proofreader/SKILL.md`, revised November 11, 2026, specifically **Default: a clean oral record**, **Repair obvious ASR damage proactively**, **Make the evidence change the decision**, and **Carry decisions through the whole job**. Proactive contextual repair, entity memory, and decisions carried across passages are editorial designs of that upstream project; do not describe them as measured ASR performance.
 
-上游说明其编辑原则涉及 Einsohn 与 Schwartz 的 *The Copyeditor's Handbook*（2019）、Carol Fisher Saller 的 *The Subversive Copy Editor*（2009）、Hill 与 King 的 *Guide to the Transcripts of the Black Women Oral History Project*（1991），但本项目未读取这些书籍模块，**不据此继承书籍细节或新补章节定位**。本文件的方法归属止于实际读取的 SKILL 章节；完整版本身份见 [来源清单](../fidelity-ledger/source-manifest.json)。它提供审慎修复方法，不证明转录准确率，也不替代对课程事实的实质查证。
+The upstream skill states that its editing principles draw on Einsohn and Schwartz's *The Copyeditor's Handbook* (2019), Carol Fisher Saller's *The Subversive Copy Editor* (2009), and Hill and King's *Guide to the Transcripts of the Black Women Oral History Project* (1991). This project did not read those book modules and **does not inherit book-level details or add new chapter locations on that basis**. Attribution for this file's methods stops at the SKILL sections actually read; see the [Source manifest](../fidelity-ledger/source-manifest.json) for full version identities. These methods support careful repair; they do not establish transcription accuracy or replace substantive verification of course facts.

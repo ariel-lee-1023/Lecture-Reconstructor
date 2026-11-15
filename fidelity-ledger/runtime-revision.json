@@ -3,23 +3,23 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "9eb4af908df724309ae9b9d7e59a7b67904074de5e765f7c570980aefd3de864"
+      "sha256": "abae1662491ae46b099239ba77b890dbe53024afa7cb17f6035ad9817893f9f9"
     },
     {
       "path": "references/law-reasoning.md",
-      "sha256": "da3621f26a2c111de8ee36a933c4ba75ecc48597b9337dab2911d4a792b0fe62"
+      "sha256": "498d45960148e44713134a636d714f29ffa9a940f34b51fceb9fe235422ceb7a"
     },
     {
       "path": "references/reconstruction-workflow.md",
-      "sha256": "d4330c05bc80cb47834ba627f2a4290d004a2b2ad48bd85bc352586a91af66e3"
+      "sha256": "48ca3328fdd0a000e891e68ff41be161fa5f79eabf62c5e105f5d45258fff78a"
     },
     {
       "path": "references/teaching-design.md",
-      "sha256": "4b0950609ea09fa5f066bdba2bf523e68b84e151416c1ae237ce010e670db118"
+      "sha256": "bc29145f5b036a6d3f16bbd4873f47618438920443571cc10cae39902fd0320e"
     },
     {
       "path": "references/transcript-repair.md",
-      "sha256": "64e0f54af6e262f0351f0a46645a99274dc76255cf97ff45eda2fcc814618827"
+      "sha256": "0c6f98644d0279991a7ccbf2260395917044991a68882f9ed0f3e3f92524a153"
     },
     {
       "path": "schemas/run.schema.json",
@@ -34,6 +34,7 @@
       "sha256": "0ab2c6b9c0c6b6fbd773b8edbec5cb7f1ebca8c7daa8743c8a7c9ddd6a7689d2"
     }
   ],
-  "meaning": "Current runtime after user-requested language-policy change; previous behavior evidence keeps its original hashes.",
-  "revision": "course-language-default"
+  "meaning": "Current runtime after English translation of the core and four method references; manuscript language selection is unchanged, and historical behavioral evidence retains its original hashes.",
+  "revision": "english-runtime-course-language-default",
+  "previous_revision": "fidelity-ledger/runtime-revision.pre-english-core.json"
 }

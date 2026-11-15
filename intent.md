@@ -1,62 +1,62 @@
-# lecture-reconstructor — 需求意图
+# lecture-reconstructor — Product intent
 
-版本：工程基线 v0.1；日期：2026-11-15；状态：待构建。本文记录已确认的产品方向，不代表运行能力已实现。
+Version: engineering baseline v0.1; date: 2026-11-15; status at that baseline: awaiting construction. This document records the confirmed product direction; it does not itself establish that the runtime capabilities have been implemented.
 
-## 为什么做
+## Why this project exists
 
-用户已经拥有大学课堂录音的 transcript，但原课堂可能存在术语不清、概念关系缺失、推理跳步、例子不能解释规则、顺序混乱等问题。校对能恢复老师说过的话，摘要能减少阅读量；用户需要的是一份与原课对应、教学质量更高、综合完整的课程讲稿成品。
+Users already have transcripts of university classroom recordings, but the original lectures may contain unclear terminology, missing conceptual relationships, skipped reasoning steps, examples that do not explain the rules, or a confusing sequence. Proofreading can recover what the lecturer said, and summarization can reduce the reading load. Users need a complete, integrated lecture manuscript that corresponds to the original course and improves its teaching quality.
 
-目标用户是希望通过完整讲稿理解并运用课程内容的大学生。首版以法学课为主，结构上保留以后扩展其他学科的空间。讲稿默认采用课程所使用的语言；用户明确指定讲稿语言时优先采用指定语言，保留必要的原文术语。
+The target users are university students who want to understand and apply course content through a complete manuscript. The first release focuses on law courses, while leaving room in the architecture to extend to other disciplines. The manuscript defaults to the course's language; an explicitly requested manuscript language takes precedence, with necessary original terms retained.
 
-## 产品承诺
+## Product commitment
 
-给定可读的课堂 transcript，以及可选的教材、课件、课程大纲，重建一篇可独立阅读、可以直接讲授的完整正文：保留本课实质内容及课程对应关系，重组讲解次序，补足必要背景、概念关系、推理、案例分析和衔接。
+Given a readable classroom transcript and optional textbooks, slides, and syllabus, reconstruct a complete manuscript that can be read independently and taught directly. Preserve the lecture's substantive content and its correspondence to the course, reorganize the explanation, and supply the necessary background, conceptual relationships, reasoning, case analysis, and transitions.
 
-“完整”指本课实质内容获得恰当处理，不要求保留所有口头重复；也不意味着穷尽整个学科。“提升”至少应体现在必要关系和推理被讲清楚，不能仅表现为篇幅增长或措辞变得专业。
+“Complete” means that the lecture's substantive content receives appropriate treatment. It does not require preserving every spoken repetition or covering the entire discipline exhaustively. “Improvement” must at least make necessary relationships and reasoning clear; greater length or more technical wording alone does not qualify.
 
-最终交付不能由点评、编辑意见、提纲或“这里建议增加……”替代。来源与重大修正记录属于附属材料，不占据讲稿主体。
+The final deliverable cannot be replaced by commentary, editing advice, an outline, or instructions such as “add an explanation here.” Source records and significant corrections are supporting materials, not the main body of the lecture.
 
-## 已确认的架构决定
+## Confirmed architectural decisions
 
-1. 新建独立 `lecture-reconstructor` repo，首版是自足的 `SKILL.md + references + 必要检查脚本`，由具备文本理解和文件读写能力的宿主执行。首版不开发独立模型调用服务。
-2. `indwell-via-shared-discern` 是教学方法主干：辨别关系和条件、连接整体与局部、安排有目的的对照和完整示范。将它的实时互动机制改编为完整讲稿写作方法。
-3. `legal-reasoning-advisor` 提供按需使用的法学概念与论证方法，不继承法律咨询的交付格式。
-4. `transcript-proofreader` 提供可选输入修复方法；它对忠实口述记录的限制只作用于校对阶段，不能阻止已经授权的课程重构。
-5. `prc-legal-sources` 不进入构建依赖、运行依赖或资料包。课程可以使用实际提供的教材、课件及必要补充材料，具体疑点按需查证。
-6. Feynman、Cognitive、Presentation、Books-to-Skill-Refs 等不列为首版必需依赖。首版不为未来可能的扩展预建空适配器。
-7. Models and Machines 用于工程判断与验收设计，不作为每次生成讲稿都要加载的角色。
+1. Create an independent `lecture-reconstructor` repository. Its first release is a self-contained package of `SKILL.md + references + necessary checking scripts`, executed by a host that can understand text and read and write files. The first release does not implement a separate model API service.
+2. `indwell-via-shared-discern` provides the teaching backbone: discern relationships and conditions, connect wholes and parts, and arrange purposeful contrasts and complete demonstrations. Adapt its live interaction mechanisms into methods for writing complete lecture manuscripts.
+3. `legal-reasoning-advisor` supplies legal concepts and argumentation methods as needed. Its legal-advice delivery format is not inherited.
+4. `transcript-proofreader` supplies optional input repair methods. Its restrictions for faithful records of speech apply only to proofreading and must not prevent course reconstruction that the user has authorized.
+5. `prc-legal-sources` is excluded from build dependencies, runtime dependencies, and the source package. A course may use textbooks, slides, and necessary supplementary materials that are actually supplied; investigate specific uncertainties as needed.
+6. Feynman, Cognitive, Presentation, Books-to-Skill-Refs, and similar sources are not required dependencies of the first release. Do not prebuild empty adapters for possible future extensions.
+7. Models and Machines informs engineering judgment and acceptance design. It is not a persona that must be loaded for every lecture generation.
 
-## 优先级与取舍
+## Priorities and tradeoffs
 
-依次保证：实质内容与重要限定不丢失；来源身份和事实表述可靠；关键关系与推理讲清；整篇连贯；语言流畅。
+Preserve these priorities in order: retain substantive content and important qualifications; maintain reliable source identities and factual statements; explain key relationships and reasoning; make the whole manuscript coherent; make the language fluent.
 
-当这几项冲突时，应修改结构、分章或保留必要解释。不能为了短、顺、像名师讲课而省略例外、抹平争议或虚构论据。用户明确的篇幅和时间约束必须被处理，不能默默忽略；与完整覆盖冲突时说明取舍并采用分册或配套扩展正文。
+When these priorities conflict, revise the structure, divide the material into chapters, or retain the necessary explanation. Do not omit exceptions, erase disagreements, or invent evidence to make the manuscript shorter, smoother, or more like a celebrated lecturer's performance. Address the user's explicit length and time constraints instead of silently ignoring them. If they conflict with full coverage, explain the tradeoff and use separate volumes or an accompanying extended manuscript.
 
-## 这一版不做什么
+## What this release does not do
 
-- 不做音频识别、说话人分离、录音上传或音视频制作；输入起点是 transcript。
-- 不建设法规数据库，不默认把历史课程更新成最新法律，不开展无边界的补充研究。
-- 不搭建网站、账号、付费系统、向量数据库、模型供应商接口或多智能体调度平台。
-- 不强制用户先答题、填写学习者画像或完成练习才提供正文。
-- 不承诺准确预测考试，不把教师强调点当成普遍法律结论。
-- 不默认生成幻灯片、Word、PDF、互动 HTML；首版标准成品是 Markdown 讲稿。已有宿主的导出能力可另按用户要求使用。
-- 不默认修改上游 repo、全局安装、commit、push 或公开发布；上游文档中的旧授权不扩大本项目授权。
-- 不宣称经过验证的学习效果、零错误或优于所有教师。
+- It does not perform speech recognition, speaker separation, recording uploads, or audio/video production. Input begins with a transcript.
+- It does not build a legal database, update historical lectures to current law by default, or conduct unbounded supplementary research.
+- It does not build websites, accounts, payment systems, vector databases, model-provider interfaces, or multi-agent orchestration platforms.
+- It does not require the user to answer quiz questions, complete a learner profile, or finish exercises before receiving the manuscript.
+- It does not promise accurate examination predictions or treat a lecturer's emphasis as a general legal conclusion.
+- It does not generate slides, Word files, PDFs, or interactive HTML by default. The standard first-release deliverable is a Markdown manuscript. Existing host export capabilities may be used separately at the user's request.
+- It does not modify upstream repositories, install globally, commit, push, or publish by default. Earlier authorizations in upstream documents do not expand this project's authorization.
+- It does not claim demonstrated learning outcomes, zero errors, or superiority to all teachers.
 
-## 如何判断这件事做成了
+## How to determine whether the project has succeeded
 
-必须区分三种结论：
+Three conclusions must remain distinct:
 
-| 层次 | 证据 | 能说明什么 |
+| Layer | Evidence | What it establishes |
 |---|---|---|
-| 仓库与记录可用 | 文件、路径、结构化记录和隔离加载检查 | 工程包具有正确的结构，检查器能发现已定义的机械错误 |
-| 真实生成行为符合规格 | 实际输入、实际完整输出、对照原材料的独立评审 | 所测场景中交付了符合要求的讲稿，而非只写了好看的指令 |
-| 学习效果改善 | 实际学习者的解释、变式判断或延迟表现 | 在所测条件下产生了相应效果，不能由前两层代替 |
+| Repository and records are usable | Checks of files, paths, structured records, and loading in isolation | The engineering package has the correct structure, and the checkers can detect the defined mechanical errors |
+| Actual generation behavior meets the specification | Actual inputs, complete generated outputs, and independent review against the original materials | The tested scenarios produced manuscripts that meet the requirements, rather than merely well-written instructions |
+| Learning outcomes improve | Actual learners' explanations, judgments on varied cases, or delayed performance | The corresponding effects occurred under the tested conditions; the first two layers cannot substitute for this evidence |
 
-首版构建与行为验收按 `spec.md` 执行。缺少真实课堂样本时，可以完成仓库并验证合成场景；真实课堂试用和学习效果明确记为未运行。
+Follow `spec.md` for first-release construction and behavioral acceptance. Without real classroom samples, the repository can still be completed and synthetic scenarios validated. Record real classroom trials and learning outcomes explicitly as `not_run`.
 
-若文件检查全部通过，却仍然产出教材摘要或编辑意见，应修改任务约定或教学方法。若同一份规格在组合后发生遗漏、重复或身份混淆，应检查阶段接口与全篇统稿。这些是 Models and Machines 方法在本项目中的工程应用，不是已被来源验证的效果结论。
+If all file checks pass but the output still consists of textbook summaries or editing advice, revise the task contract or teaching methods. If combining stages under the same specification causes omissions, duplication, or confusion about source identities, inspect the stage interfaces and review of the whole manuscript. These are engineering applications of Models and Machines methods in this project, not effectiveness conclusions already established by the sources.
 
-## 文档关系与变更
+## Document relationships and changes
 
-本文件定义目的与边界；`spec.md` 定义行为与验收；`plan.md` 定义实施、测试和恢复顺序。出现冲突时以用户明确要求为先，并同步修正文档，不静默选一个执行。实现阶段允许调整不改变目的的组织细节；扩大首版范围须先指出新需求及其代价。
+This document defines purpose and boundaries; `spec.md` defines behavior and acceptance; `plan.md` defines the order of implementation, testing, and recovery. If they conflict, prioritize the user's explicit requirements and update the documents together, rather than silently choosing one to follow. During implementation, organizational details may change without changing the purpose. Before expanding the first-release scope, identify the new requirement and its cost.

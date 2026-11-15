@@ -1,56 +1,56 @@
-# 法学课的概念、推理与来源身份
+# Concepts, reasoning, and source identity in law lectures
 
-在法律概念、涵摄、案例、规范解释或学说争议处使用。改编自 `legal-reasoning-advisor` 的有限模块，输出仍是课程讲稿，不改成咨询意见、案件报告或统一 IRAC 模板。无须访问上游仓库；方法本身不是现行法数据库。
+Use this reference for legal concepts, application of rules to facts, cases, interpretation, or doctrinal disputes. It adapts a limited set of modules from `legal-reasoning-advisor`. The output remains a lecture manuscript, not legal advice, a case report, or a uniform IRAC template. No access to the upstream repository is required; the methods themselves are not a database of current law.
 
-## 先分清谁在说什么
+## First distinguish who is saying what
 
-把教师观点、教材学说、规范文本、裁判观点、事实假设和本项目新增解释区分开。保存可识别的法域、时间与版本。来源不明的教师断言不能因重写后更流畅就升级成规范结论；课堂考试提示保留教师归属。
+Distinguish the teacher's views, textbook doctrines, normative texts, judicial views, factual assumptions, and explanations added by this project. Preserve identifiable jurisdiction, time, and version. A teacher's assertion of unclear origin must not become an authoritative statement of a rule merely because rewriting makes it more fluent. Keep classroom examination advice attributed to the teacher.
 
-历史课程按其时间语境讲清；新旧版本冲突时说明适用对象、差异和材料支持的范围，不自动以较新版本覆盖原课。实质条文、判决、数据和作者观点只能据实际取得并读取的材料写入，定位到相应段落、条款或页码。未核验现行效力就不声称核验过。新写解释可以直接服务正文，新增案例明示教学假设，不能伪装真实裁判。
+Explain historical courses within their own temporal context. When old and new versions conflict, explain their applicability, differences, and the scope supported by the materials; do not automatically replace the original course with a newer version. Substantive provisions, judgments, data, and authors' views may be added only from materials actually obtained and read, with a location in the relevant paragraph, provision, or page. Do not claim to have verified current validity without doing so. New explanations may directly serve the manuscript; label added cases as teaching hypotheticals rather than presenting them as real judgments.
 
-## 把缺失的那一步写出来
+## Write out the missing step
 
-先问结论是否从给定前提推出，再问前提为什么成立。按当前困难选择检查，无须把下面全部展示给读者：
+First ask whether the conclusion follows from the given premises, then ask why those premises hold. Choose checks for the difficulty at hand; the reader need not see every item below:
 
-| 当前跳跃 | 需要补出的说明 |
+| Current leap | Explanation to supply |
 |---|---|
-| 某人这样说，所以事件发生 | 这是陈述、假定还是认定？记录实际支持哪个事实？ |
-| 事件发生，所以满足法律条件 | 条件的含义及事实与条件的对应；不能只重复法条 |
-| 有许可，所以别人负有协助义务 | 权利主体、相对人、行为内容及独立义务依据 |
-| 违反义务，所以行为无效 | 义务与改变法律关系的权能分别来自何处？ |
-| 一条理由被反驳，所以相反结论成立 | 被削弱的是哪个前提或推论？有无独立成立的另一条路线？ |
-| 结果值得追求，所以机构有权作出 | 价值理由在现有规范中的作用，以及机构权限来源 |
+| Someone says it happened, so it happened | Is this a statement, an assumption, or a finding? Which fact does the record actually support? |
+| An event occurred, so a legal condition is satisfied | Explain the condition's meaning and the correspondence between the facts and the condition; do not merely repeat the legal provision. |
+| Someone has permission, so another person has a duty to assist | Identify the holder, the counterpart, the conduct at issue, and the independent basis for the duty. |
+| A duty was breached, so the act is invalid | Where do the duty and the power to change legal relations each come from? |
+| One reason has been rebutted, so the opposite conclusion holds | Which premise or inference has been weakened? Is another independently sufficient route available? |
+| An outcome is desirable, so an institution has authority to produce it | Explain the value-based reason's role within the existing rules and the source of the institution's authority. |
 
-对隐含桥梁，可用 Toulmin 的功能区分：根据支持一个结论，推论规则说明为什么能跨到结论，依据支撑该规则，限定语和反驳条件说明适用范围。这是分析工具，不必把六个术语当课程目标。重建出的前提标为重建；改进原论证是修正，不冒充老师原话。再多事实也不能补足一条未获支持的法律规则。
+For implicit bridges, Toulmin's functional distinctions can help: data support a claim, a warrant explains the inferential step to that claim, backing supports the warrant, and qualifiers and rebuttal conditions delimit its application. This is an analytical tool; learning all six terms need not become a course objective. Label reconstructed premises as reconstructed. Improving an original argument is a correction, not the teacher's verbatim statement. More facts cannot compensate for an unsupported legal rule.
 
-遇到前提争议，进一步定位是事实证明、解释、分类还是法律相关性。对规范解释保留文字、体系、目的等理由的具体作用，不宣布跨法域的普遍优先顺序。对学说争议写出强版本的依据和回应，不为追求易读把分歧消去；没有根据时也不硬造“另一派”。
+When premises are disputed, identify whether the issue concerns proof of facts, interpretation, classification, or legal relevance. In interpreting rules, retain the specific role of textual, systematic, purposive, and other reasons without declaring a universal order of priority across jurisdictions. For doctrinal disputes, present the grounds and responses of the strongest versions of the positions rather than erasing disagreement for readability. Do not invent an “opposing school” without support.
 
-## 仅在关系含混时使用 Hohfeld
+## Use Hohfeld only when relations are unclear
 
-固定主体、相对人、内容、时间及条件后再区分：请求权对应他人的义务；自由/许可是没有相反内容的义务；权能能够通过有效行为改变法律关系；豁免是特定他人缺乏改变该关系的权能。权能的相对方所处的 liability 是承受法律变动的位置，不必然指过错、债务或已有行为义务。
+Fix the holder, counterpart, content, time, and conditions before distinguishing the relations: a claim corresponds to another person's duty; a liberty or permission is the absence of a duty to the contrary; a power can change legal relations through a valid act; an immunity means that a specified other person lacks the power to change that relation. The counterpart's liability to a power is a position of being subject to legal change, not necessarily fault, debt, or an existing duty to act.
 
-例如，允许某人进入不自动要求另一人开门；承诺不转让不自动消灭有效转让的权能；触发某项权能的条件出现，也不等于该权能已被行使。这些区分发现缺口，不创设实体规则。规则明确时直接解释，不强制填八格表。证据与法律事实也分开：今天看到一份签名文件，不必然证明它在某个期限前已有效送达。
+For example, allowing someone to enter does not automatically require another person to open the door. A promise not to transfer does not automatically remove the power to make a valid transfer. The occurrence of a condition that activates a power does not mean that the power has been exercised. These distinctions reveal gaps; they do not create substantive rules. Explain clear rules directly rather than requiring an eight-cell table. Keep evidence distinct from operative legal facts as well: seeing a signed document today does not necessarily prove that it was validly delivered before a particular deadline.
 
-## 一段完整示范：从上传到有效提交
+## A complete demonstration: from upload to valid submission
 
-**以下规则与事实均为本项目教学假设，不描述现实法律或真实判决。** 某模拟课程规则规定：“完整申请须在 17:00 前收到；仅上传草稿不算提交；有经过确认的系统故障时，可在下一工作日补交。”记录表明草稿在 16:58 上传，完整申请在 17:04 收到。
+**The following rules and facts are teaching hypotheticals created for this project. They do not describe real law or an actual judgment.** A simulated course rule states: “A complete application must be received before 17:00. Uploading a draft alone does not count as submission. If a system failure has been confirmed, the application may be submitted on the next working day.” The record shows that a draft was uploaded at 16:58 and the complete application was received at 17:04.
 
-“上传在 17:00 前，所以申请及时”遗漏了上传与有效提交之间的桥梁。规则要求收到完整申请；16:58 的事实只满足上传草稿，不能满足完整提交。因此普通期限路线不成立。17:04 才收到完整申请是判断这条路线的关键事实；换掉申请人的名字不会改变结果。
+“The upload was before 17:00, so the application was timely” omits the bridge between uploading and valid submission. The rule requires receipt of a complete application. The 16:58 event establishes only the upload of a draft, not complete submission. The ordinary-deadline route therefore fails. Receipt of the complete application only at 17:04 is a key fact for that route; changing the applicant's name would not change the result.
 
-这还不能推出“补交一定无效”：故障规则提供另一条可能路线。只有材料证明确认故障并且在下一工作日内补交，才能据该规则认可及时性；不能把“也许有故障”当已证事实。若材料补充了这两个条件，应据此修改结论，不能继续堆积已解决的怀疑。若仅将 16:58 的记录改成“完整申请已收到”，原期限路线本身即成立，故障规则不再是该结论必要的依据。
+This does not yet establish that “the later submission must be invalid”: the system-failure rule provides another possible route. That rule supports timeliness only if the materials establish both a confirmed failure and submission within the next working day. “There may have been a failure” cannot be treated as an established fact. If the materials add those two conditions, revise the conclusion accordingly rather than continuing to accumulate doubts that have already been resolved. If instead the 16:58 record is changed to “the complete application was received,” the original deadline route succeeds by itself, and the failure rule is no longer necessary to that conclusion.
 
-这里实际解释了事实、条件、涵摄、独立路线和更新，不仅列出方法名称。若真实课堂的类似例子缺少有效提交规则，应保留条件式解释并记录核心缺口，不能把上述假设规则移植为真实法。
+This explanation actually addresses facts, conditions, application, independent routes, and updating; it does not merely list method names. If a similar example in a real lecture lacks a rule for valid submission, keep the explanation conditional and record the core gap. Do not transplant the hypothetical rule above into real law.
 
-## 写完后对照原材料
+## Check against the original materials after writing
 
-检查否定、且/或、必要/充分、可以/应当、时间、主体和例外是否被改变。分别追踪同一结论的独立理由；一个反驳成功不自动推翻全部结论。对照一个关键条件变化和一个无关细节变化，讲清结论为何变或不变。检查每条实质新增命题的来源，重要更正的原说法、依据与去向均进入运行记录。流畅叙述、术语分类和格式检查均不能证明法律正确性。
+Check whether negation, and/or, necessity/sufficiency, may/must, time, parties, or exceptions have changed. Track independent reasons for the same conclusion separately; successfully rebutting one reason does not automatically defeat every conclusion. Compare a change to a key condition with a change to an irrelevant detail, explaining why the conclusion changes or remains the same. Check the source of each substantive added proposition. Record the original statement, grounds, and resulting location of significant corrections in the run record. Fluent narrative, terminological classification, and format checks cannot establish legal correctness.
 
-## 来源定位与改编边界
+## Source locations and adaptation boundaries
 
-本次读取的是上游技能与参考模块，以下原书定位由这些模块继承；不宣称本次重读原书。实际文件版本见 [来源清单](../fidelity-ledger/source-manifest.json)。
+This project read the upstream skill and reference modules. The original-book locations below are inherited from those modules; it does not claim to have reread the books. See the [source manifest](../fidelity-ledger/source-manifest.json) for the actual file versions.
 
-- **Stephen E. Toulmin，*The Uses of Argument*，2003 updated edition（原版 1958），Essay III，pp.87–134，尤 pp.89–114。** 原书区分根据、结论、推论规则、依据、限定和反驳条件。这里将其用于补写讲稿中被略过的桥梁；工具不决定法律上的证明责任，也不把分析图当有效规则的证据。上例为本项目合成改编，并非原书案件。
-- **Wesley Newcomb Hohfeld，*Some Fundamental Legal Conceptions as Applied in Judicial Reasoning*，23 Yale Law Journal 16–59（1913），pp.20–28、28–59，尤 pp.32–55。** 保留法律事实/证据事实、许可/保护、权能/义务的区别。历史例子及该文概念分析不建立当代任何法域的实体法；不把后来的全部 Hohfeld 理论归给 1913 年文本。
-- **Neil MacCormick，*Rhetoric and the Rule of Law*（2005），第 3–4 章 pp.32–77，第 5–7 章 pp.78–142，第 10 章 pp.189–212，第 12–13 章 pp.237–280。** 原书将推论结构与前提正当化区分，并讨论一致性、融贯性、可普遍化理由、后果与可推翻论证。这里转为涵摄和争议讲解，不设分数或普遍解释层级；终局性、约束力与理由正确性保持不同。
-- **上游 `move-taxonomy.md` 的 Four moves、Make the dependency visible、Integrated demonstration、Revision record。** 事实、解释/分类、判例、政策四类为上游仓库合成，非某本书原有的统一框架。这里只采用定位支持缺口、保留独立理由与更新路线，不引入其余书籍模块作为运行依赖。
-- **上游 `SKILL.md` 的 sound inference / justified premises、counterpart、objections and updates、scope。** 将法律咨询中的论证检查改为完整讲稿中的解释；不继承默认咨询交付格式、现行法核验能力或上游其他授权。
+- **Stephen E. Toulmin, *The Uses of Argument*, 2003 updated edition (originally 1958), Essay III, pp.87–134, especially pp.89–114.** The book distinguishes data, claims, warrants, backing, qualifiers, and rebuttal conditions. Here those distinctions support writing out bridges omitted from a lecture. The tool does not determine legal burdens of proof, and an analytical diagram is not evidence that a rule is legally valid. The demonstration above is this project's synthetic adaptation, not a case from the book.
+- **Wesley Newcomb Hohfeld, *Some Fundamental Legal Conceptions as Applied in Judicial Reasoning*, 23 Yale Law Journal 16–59 (1913), pp.20–28 and 28–59, especially pp.32–55.** Retain the distinctions between operative legal facts and evidential facts, permission and protection, and powers and duties. Historical examples and the article's conceptual analysis do not establish contemporary substantive law in any jurisdiction. Do not attribute the entirety of later Hohfeldian theory to the 1913 text.
+- **Neil MacCormick, *Rhetoric and the Rule of Law* (2005), chapters 3–4 pp.32–77, chapters 5–7 pp.78–142, chapter 10 pp.189–212, and chapters 12–13 pp.237–280.** The book distinguishes inferential structure from justification of premises and discusses consistency, coherence, universalizable reasons, consequences, and defeasible argument. Here those methods support explanation of application and disputes, without scores or a universal hierarchy of interpretation. Keep finality, binding force, and correctness of reasons distinct.
+- **The upstream `move-taxonomy.md` sections Four moves, Make the dependency visible, Integrated demonstration, and Revision record.** The four categories of fact, interpretation/classification, precedent, and policy are a synthesis in the upstream repository, not a unified framework originally supplied by a single book. This project uses only the methods for locating gaps in support, retaining independent reasons, and updating routes. It does not introduce the other book modules as runtime dependencies.
+- **The upstream `SKILL.md` sections sound inference / justified premises, counterpart, objections and updates, and scope.** Adapt argument checks from legal advice into explanations within a complete lecture manuscript. Do not inherit the default advice format, a capability to verify current law, or any other upstream authorizations.

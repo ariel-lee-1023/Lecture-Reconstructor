@@ -1,0 +1,1237 @@
+{
+  "recorded_on": "2026-11-19",
+  "basis": "Targeted direct reading of the listed editions. Each source-team register is preserved in full under modules, including its original filename, byte digest, edition and locator conventions. Search texts and OCR companions belong to the same publication as their PDF.",
+  "verification_method": "Recomputed SHA-256 from each recorded local source and all three canonical references. Opened every listed PDF, checked its page count and checked the bounds of numeric PDF page ranges in the structured law and editorial registers. Readability of each listed text companion was checked as UTF-8. Passage review scope, degraded extraction and the limits of conclusions are recorded per module. File identity does not certify the origin or completeness of a supplied scan or OCR.",
+  "totals": {
+    "included_publications": 15,
+    "publication_pdfs": 15,
+    "included_searchable_companions": 8,
+    "excluded_mislabeled_files": 2
+  },
+  "modules": {
+    "teaching": {
+      "input_record_filename": "teaching-originals.json",
+      "input_record_sha256": "9d9ea45da1f77b2d17ce4ab82f886814fef7e7b8c4c79ec966b1d834f3740dbd",
+      "record": {
+        "review_date": "2026-11-19",
+        "runtime": "references/reference-teaching-design.md",
+        "runtime_sha256": "15f5776bd903a9f061afe11fa90b3e0e65ea82473a5a0f8e7de0b3871812eceb",
+        "whitespace_words_including_source_notes": 4809,
+        "depth": "study",
+        "review_method": "Searched the full supplied book texts, read selected original passages and checked bibliographic details, worked examples, and consequential comparisons against the original PDF pages. Compared these passages with the earlier method modules to identify missing detail. Original-book text is the evidential basis of the runtime. No claim was made to complete close reading of all pages.",
+        "books": [
+          {
+            "title": "Learning and Awareness",
+            "authors_or_editors": [
+              "Ference Marton",
+              "Shirley Booth"
+            ],
+            "supplied_edition": "Lawrence Erlbaum Associates, 1997. Title and copyright verified on PDF pp. 7–8.",
+            "original_pdf": {
+              "filename": "Learning and awareness (Marton, Ference, Booth etc.).pdf",
+              "sha256": "2cd4100ecfe4bac82d94bf8a148d35598a13eb12a455913c0f2ec437d6d4177a"
+            },
+            "searchable_full_book_text": {
+              "filename": "Learning-and-awareness-Marton-Ference-Booth-etc.md",
+              "sha256": "375a0ba6d68068be0b9a96db268b82845507b6f0a1038b7c2384f27ca0df7cf1"
+            },
+            "inspected_source_spans": [
+              "Figs. 2.7–2.8, printed p. 25 / PDF p. 41, thematic vs textual ordering; chs. 4–5, examples 4.2 and 5.5, printed pp. 71–73, 94–95 / PDF pp. 87–89, 110–111, recursion and the distinction between aspects of experience.",
+              "Ch. 8, example 8.6, printed pp. 189–192 / PDF pp. 205–208. Followed the original sequence of the dolls, ordinal labels, strokes, equals sign, hands and toes. Checked the author’s qualifications and the separate scope of the longer classroom comparison.",
+              "Epilogue, printed pp. 208–210 / PDF pp. 224–226, discernment, simultaneity and variation."
+            ],
+            "new_or_substantially_developed_material": [
+              "The complete Jenny/Neuman case supplies what looked wrong, why Jenny’s answer was intelligible, what did not settle the issue, what changed in the activity, and what was actually observed for a new set. The preceding reference did not develop this passage. It replaces the batch-processing illustration in full."
+            ],
+            "limits": "Reports what the book says about Neuman 1994 and its participants. No claim of visiting that underlying study, establishing a universal lesson, isolating the effect of a symbol, or dating a change in cognition."
+          },
+          {
+            "title": "How Learning Works: Seven Research-Based Principles for Smart Teaching",
+            "authors_or_editors": [
+              "Susan A. Ambrose",
+              "Michael W. Bridges",
+              "Michele DiPietro",
+              "Marsha C. Lovett",
+              "Marie K. Norman"
+            ],
+            "supplied_edition": "Jossey-Bass, 2010, PDF p. 6.",
+            "original_pdf": {
+              "filename": "How Learning Works Seven Research-Based Principles for Smart Teaching (Ambrose, Susan A.).pdf",
+              "sha256": "89a90373268cffb800fded247597930770ac0c4527c0e97e6914877554eb5720"
+            },
+            "searchable_full_book_text": {
+              "filename": "How-Learning-Works-Seven-Research-Based-Principles-for-Smart-Teaching-Ambrose-Su.md",
+              "sha256": "1a2fb07ad7df1daea9079b302ff5fc026776eeeae18040a41658c1bc7965fa90"
+            },
+            "inspected_source_spans": [
+              "Ch. 1, printed pp. 24–27 / PDF pp. 50–53: why an entrenched explanation can survive direct correction, the seasons essay revision and Clement’s intermediate analogies.",
+              "Ch. 2, p. 47 / PDF p. 73: kinship organization. Ch. 4, pp. 98–101 / PDF pp. 124–127: the case-analysis sequence, Lovett’s statistics finding, and component decisions.",
+              "Ch. 4, pp. 107–111 and 118–119 / PDF pp. 133–137 and 144–145: deep-structure comparison, management negotiation study, cued transfer and contrasting mechanics problems.",
+              "Ch. 5, pp. 141–142, 152 / PDF pp. 167–168, 178: feedback in time for another performance and the relationship between feedback and practice."
+            ],
+            "new_or_substantially_developed_material": [
+              "Adds the actual spring–foam–wood–table bridge, the seasons correction whose persistence was checked in revised essays, the statistics decision before choosing a procedure, and the management-student comparison of cases with cases studied separately. The earlier module names force of misconceptions, expert blind spots and transfer but does not supply these mechanisms and cases."
+            ],
+            "limits": "The original cited experiments were encountered through the book. Classroom findings retain their task and population boundaries."
+          },
+          {
+            "title": "Ten Steps to Complex Learning: A Systematic Approach to Four-Component Instructional Design",
+            "authors_or_editors": [
+              "Jeroen J. G. van Merriënboer",
+              "Paul A. Kirschner",
+              "Jimmy Frèrejean"
+            ],
+            "supplied_edition": "Fourth edition. The supplied PDF title page (p. 4) and copyright page (p. 5) show Routledge, fourth edition published 2025, © 2025 Taylor & Francis. ISBN 978-1-032-34508-6, DOI 10.4324/9781003322481.",
+            "original_pdf": {
+              "filename": "Ten Steps to Complex Learning A Systematic Approach to Four-Component Instructional Design (Jeroen J. G. van Merriënboer etc.).pdf",
+              "sha256": "be7f2d254115cafa86cd3bad94055ab69d0e42b64f34eb473069fdf0030f32df"
+            },
+            "searchable_full_book_text": {
+              "filename": "Ten-Steps-to-Complex-Learning-A-Systematic-Approach-to-Four-Component-Instructio.md",
+              "sha256": "755eedcdde29a1d0c41ba4a3e60c036da5b73435be82013992733a4c5b6150d7"
+            },
+            "inspected_source_spans": [
+              "Chs. 2–4, PDF pp. 31–33, 61–63 and 75, especially fig. 2.1 on four components, task classes and fading.",
+              "Ch. 4, printed pp. 79–90 / PDF pp. 94–105: table 4.5 on built-in task support and independent process guidance for a bakery video, case studies, reverse tasks, modeling examples, process worksheets and performance constraints.",
+              "Ch. 4, table 4.6, printed p. 88 / PDF p. 103, a process worksheet for preparing a legal plea, adapted in the book from Nadolski et al. (2001). Ch. 15, printed p. 322 / PDF p. 337, integral assessment under stated standards."
+            ],
+            "new_or_substantially_developed_material": [
+              "Develops product support and process guidance as independent design dimensions, including the reverse task from finished video to plausible brief. The book’s legal-plea process worksheet shows how to reveal professional decisions without treating a heuristic as a mandatory solution. The earlier module had the simpler video approval and completion examples but not these instructional comparisons."
+            ],
+            "limits": "The failed commercial is an illustrative possibility in the book, not an event ascribed to the bakery. The legal worksheet illustrates complex-learning design, not substantive or current legal advice."
+          },
+          {
+            "title": "A Dialogic Teaching Companion",
+            "authors_or_editors": [
+              "Robin Alexander"
+            ],
+            "supplied_edition": "Routledge, 2020. Publication and copyright verified on PDF p. 5.",
+            "original_pdf": {
+              "filename": "A Dialogic Teaching Companion (Robin Alexander).pdf",
+              "sha256": "e93b1235634a974b3748d3f704e25836a6644af4057d758e8267d14c73c8b236"
+            },
+            "searchable_full_book_text": {
+              "filename": "A-Dialogic-Teaching-Companion-Robin-Alexander.md",
+              "sha256": "24e98c7d32f02192195f995088fa134b55e9af5f56382848430602e49d7db02c"
+            },
+            "inspected_source_spans": [
+              "Ch. 2, printed pp. 16–18 / PDF pp. 27–29: PRINDEP observation of fabric under magnifying lenses, the limits of coding an open question in isolation, and the difference intonation can make.",
+              "Ch. 6, pp. 114–121 / PDF pp. 125–132: third turn, reasoning and the unanswered student contribution. Ch. 7, pp. 130–132, 145, 149–153 / PDF pp. 141–143, 156, 160–164: principles, repertoires, Michaels and O’Connor, accountable and cumulative work."
+            ],
+            "new_or_substantially_developed_material": [
+              "Replaces the synthetic format-check conversation with the actual published observation of twenty minutes of pseudo-enquiry. The sequence of question, varied contributions and return to the expected answer shows how the handling of answers identifies the real instructional move. The specific episode was absent from the earlier method module."
+            ],
+            "limits": "No invented pupil wording, response, learning effect, or guaranteed translation of reciprocal classroom work into a static manuscript."
+          },
+          {
+            "title": "The Cambridge Handbook of Multimedia Learning",
+            "authors_or_editors": [
+              "Richard E. Mayer (editor)",
+              "Logan Fiorella (editor)"
+            ],
+            "supplied_edition": "Third edition, Cambridge University Press, 2022, PDF pp. 2, 4–5.",
+            "original_pdf": {
+              "filename": "The Cambridge Handbook of Multimedia Learning (Cambridge Handbooks in Psychology) (Richard E. Mayer, Logan Fiorella).pdf",
+              "sha256": "ea2529b884d7fed84ef05e76078ad872d501bdd494b3d188e1fbfd362c785a28"
+            },
+            "searchable_full_book_text": {
+              "filename": "The-Cambridge-Handbook-of-Multimedia-Learning-Cambridge-Handbooks-in-Psychology-.md",
+              "sha256": "e98940ebfe3beeaa008bf9d69d4594346a087a9beb303f8360da73206c07e71e"
+            },
+            "inspected_source_spans": [
+              "Mayer, ch. 5, PDF pp. 79–87. Fiorella and Mayer, ch. 14, p. 195 / PDF p. 216 and table 14.1. Ayres and Sweller, ch. 15, PDF p. 221. Kalyuga and Sweller, ch. 16, PDF p. 234. Van Gog, ch. 17, PDF p. 243. Renkl, ch. 18, PDF pp. 255–259, table 18.1, explanation-help and limits on fading. Mayer and Fiorella, ch. 19, segments and pretraining.",
+              "Leutner and Schmeck, ch. 30, PDF p. 383. Chi, ch. 32, pp. 381ff. / PDF pp. 402–410. Lindner, ch. 46, PDF p. 583.",
+              "Johnson and Marraffino, ch. 34, printed pp. 406–409 / PDF pp. 427–430. Engineering meta-level feedback after the first error, whole-sequence review in picture ordering, different degrees of help, mixed findings, and the sixth-grade comprehension result.",
+              "Rouet and Britt, ch. 44, printed pp. 526–533 / PDF pp. 547–554, especially tables 44.3 and 44.4, printed pp. 528 and 531. Four intertextual relations, Panama documents, contrasting opera reception accounts, D-ISC and the measured differences in source processing and short-interval recall."
+            ],
+            "new_or_substantially_developed_material": [
+              "Adds a four-way discrimination among complementation, redundancy, support and contradiction, an original chapter example that separates reporting conflict from adjudicating it, and the comparison and limits of several response-contingent feedback studies. The previous sources summarized multiple-document comprehension and explanatory feedback but omitted the two concrete tables and these experimental contrasts."
+            ],
+            "limits": "The chapter authors and edited-volume status are preserved. Additional references cited by chapter authors were not independently read. Self-explanation and prompting findings apply under reported conditions."
+          }
+        ]
+      }
+    },
+    "law": {
+      "input_record_filename": "law-originals.json",
+      "input_record_sha256": "fa72d28e73409264a8699b20f96c6609dcf1607c07c04f3ee999d2a6ecdc51c9",
+      "record": {
+        "reference": "references/reference-law-reasoning.md",
+        "runtime_sha256": "4108316eb5e990b2c7a1fafd4161287b6fc1e1fb604758ec69bdc61b41871511",
+        "sources": [
+          {
+            "title": "Rhetoric and the Rule of Law: A Theory of Legal Reasoning",
+            "authors": [
+              "Neil MacCormick"
+            ],
+            "edition": "Oxford University Press, 2005",
+            "relative_filename": "Rhetoric and the Rule of Law A Theory of Legal Reasoning (Law, State, and Practical Reason) (MacCormick, Sir Neil).pdf",
+            "sha256": "f65b13725c0d278e97ef49ed0c00a5e865d99522e99ac0f5a81dcd62445d8fd6",
+            "front_matter_pdf_pages": [
+              3,
+              4
+            ],
+            "review_mode": "Targeted examination of PDF page text and matching passages, not a continuous full-book read. Page pairs are inclusive; the review sampled passages within each listed range.",
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  32,
+                  33
+                ],
+                "pdf_file_pages": [
+                  47,
+                  48
+                ]
+              },
+              {
+                "printed_pages": [
+                  49,
+                  52
+                ],
+                "pdf_file_pages": [
+                  64,
+                  67
+                ]
+              },
+              {
+                "printed_pages": [
+                  56,
+                  59
+                ],
+                "pdf_file_pages": [
+                  71,
+                  74
+                ]
+              },
+              {
+                "printed_pages": [
+                  88,
+                  91
+                ],
+                "pdf_file_pages": [
+                  103,
+                  106
+                ]
+              },
+              {
+                "printed_pages": [
+                  104,
+                  106
+                ],
+                "pdf_file_pages": [
+                  119,
+                  121
+                ]
+              },
+              {
+                "printed_pages": [
+                  120,
+                  124
+                ],
+                "pdf_file_pages": [
+                  135,
+                  139
+                ]
+              },
+              {
+                "printed_pages": [
+                  128,
+                  135
+                ],
+                "pdf_file_pages": [
+                  143,
+                  150
+                ]
+              },
+              {
+                "printed_pages": [
+                  189,
+                  194
+                ],
+                "pdf_file_pages": [
+                  204,
+                  209
+                ]
+              },
+              {
+                "printed_pages": [
+                  254,
+                  255
+                ],
+                "pdf_file_pages": [
+                  269,
+                  270
+                ]
+              },
+              {
+                "printed_pages": [
+                  264,
+                  265
+                ],
+                "pdf_file_pages": [
+                  279,
+                  280
+                ]
+              },
+              {
+                "printed_pages": [
+                  273,
+                  273
+                ],
+                "pdf_file_pages": [
+                  288,
+                  288
+                ]
+              }
+            ],
+            "content_checked": "Dignity Funerals Ltd v Bruce; Daniels v White and Tarbard; deduction and contested premises; universalization, juridical consequences, interpretation, coherence and judicial finality."
+          },
+          {
+            "title": "Some Fundamental Legal Conceptions as Applied in Judicial Reasoning",
+            "authors": [
+              "Wesley Newcomb Hohfeld"
+            ],
+            "edition": "The Yale Law Journal, vol. 23, no. 1 (November 1913), pp. 16–59",
+            "relative_filename": "Wesley Newcomb Hohfeld/Some Fundamental Legal Conceptions as Applied in Judicial Reasoning.pdf",
+            "sha256": "fc6b12d0eae7523fc5e1f6fa8a070c7c39751f34668be5ffc3105a2418813b83",
+            "front_matter_pdf_pages": [
+              1,
+              2
+            ],
+            "review_mode": "Targeted examination of PDF page text and matching passages, not a continuous full-book read. Page pairs are inclusive; the review sampled passages within each listed range.",
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  25,
+                  28
+                ],
+                "pdf_file_pages": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "printed_pages": [
+                  30,
+                  34
+                ],
+                "pdf_file_pages": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "printed_pages": [
+                  44,
+                  45
+                ],
+                "pdf_file_pages": [
+                  30,
+                  31
+                ]
+              },
+              {
+                "printed_pages": [
+                  48,
+                  53
+                ],
+                "pdf_file_pages": [
+                  34,
+                  39
+                ]
+              },
+              {
+                "printed_pages": [
+                  55,
+                  56
+                ],
+                "pdf_file_pages": [
+                  41,
+                  42
+                ]
+              }
+            ],
+            "content_checked": "January instrument; affirmative and negative operative facts; correlatives; right of entry; ordinary offer and irrevocable option; landowner’s covenant not to alienate; immunity."
+          },
+          {
+            "title": "The Uses of Argument",
+            "authors": [
+              "Stephen E. Toulmin"
+            ],
+            "edition": "Cambridge University Press, updated edition 2003; original 1958",
+            "relative_filename": "Uses of Argument (Stephen Edelston Toulmin).pdf",
+            "sha256": "59c6fdbc72c17f0426cc1612b3fde3c71404def93501866d87f969749f7f4a3f",
+            "front_matter_pdf_pages": [
+              3,
+              4
+            ],
+            "review_mode": "Targeted examination of PDF page text and matching passages, not a continuous full-book read. Page pairs are inclusive; the review sampled passages within each listed range.",
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  89,
+                  98
+                ],
+                "pdf_file_pages": [
+                  101,
+                  110
+                ]
+              },
+              {
+                "printed_pages": [
+                  100,
+                  103
+                ],
+                "pdf_file_pages": [
+                  112,
+                  115
+                ]
+              },
+              {
+                "printed_pages": [
+                  111,
+                  112
+                ],
+                "pdf_file_pages": [
+                  123,
+                  124
+                ]
+              }
+            ],
+            "content_checked": "Bermuda example including qualification, statutory backing and rebuttals; warrant-using versus warrant-establishing arguments; independently established grounds and outcomes."
+          },
+          {
+            "title": "Analysis of Evidence",
+            "authors": [
+              "Terence Anderson",
+              "David Schum",
+              "William Twining"
+            ],
+            "edition": "Cambridge University Press, second edition, 2005",
+            "relative_filename": "Analysis of evidence (Terence Anderson, David Schum etc.).pdf",
+            "sha256": "9e07d672cb95038fb2ae9434121c91ca11d98dc11de8795981d3457568a8e54b",
+            "front_matter_pdf_pages": [
+              7,
+              8
+            ],
+            "review_mode": "Targeted examination of PDF page text and matching passages, not a continuous full-book read. Page pairs are inclusive; the review sampled passages within each listed range.",
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  63,
+                  71
+                ],
+                "pdf_file_pages": [
+                  97,
+                  105
+                ]
+              },
+              {
+                "printed_pages": [
+                  75,
+                  76
+                ],
+                "pdf_file_pages": [
+                  109,
+                  110
+                ]
+              },
+              {
+                "printed_pages": [
+                  96,
+                  98
+                ],
+                "pdf_file_pages": [
+                  130,
+                  132
+                ]
+              },
+              {
+                "printed_pages": [
+                  105,
+                  108
+                ],
+                "pdf_file_pages": [
+                  139,
+                  142
+                ]
+              },
+              {
+                "printed_pages": [
+                  125,
+                  132
+                ],
+                "pdf_file_pages": [
+                  159,
+                  166
+                ]
+              },
+              {
+                "printed_pages": [
+                  159,
+                  162
+                ],
+                "pdf_file_pages": [
+                  193,
+                  196
+                ]
+              },
+              {
+                "printed_pages": [
+                  195,
+                  199
+                ],
+                "pdf_file_pages": [
+                  229,
+                  233
+                ]
+              },
+              {
+                "printed_pages": [
+                  208,
+                  212
+                ],
+                "pdf_file_pages": [
+                  242,
+                  246
+                ]
+              },
+              {
+                "printed_pages": [
+                  224,
+                  226
+                ],
+                "pdf_file_pages": [
+                  258,
+                  260
+                ]
+              },
+              {
+                "printed_pages": [
+                  235,
+                  244
+                ],
+                "pdf_file_pages": [
+                  269,
+                  278
+                ]
+              }
+            ],
+            "content_checked": "Material and interim probanda; three credentials of evidence and three aspects of testimonial credibility; convergence, dependence and chain structure; Bywaters/Thompson testimony about drastic measures; changing evidentiary thresholds; United States v Able classroom problem with actual sums, the provisional defense theory, check endorsement and dual uses of the old tax returns."
+          },
+          {
+            "title": "The Nature and Authority of Precedent",
+            "authors": [
+              "Neil Duxbury"
+            ],
+            "edition": "Cambridge University Press, 2008",
+            "relative_filename": "Nature and authority precedent (Neil Duxbury.pdf",
+            "sha256": "609c5415b94c43333173453cebba554159b796d90e1103bd4c2cf2cdf5dffb76",
+            "front_matter_pdf_pages": [
+              4,
+              5
+            ],
+            "review_mode": "Targeted examination of PDF page text and matching passages, not a continuous full-book read. Page pairs are inclusive; the review sampled passages within each listed range.",
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  67,
+                  73
+                ],
+                "pdf_file_pages": [
+                  84,
+                  90
+                ]
+              },
+              {
+                "printed_pages": [
+                  76,
+                  85
+                ],
+                "pdf_file_pages": [
+                  93,
+                  102
+                ]
+              },
+              {
+                "printed_pages": [
+                  90,
+                  92
+                ],
+                "pdf_file_pages": [
+                  107,
+                  109
+                ]
+              },
+              {
+                "printed_pages": [
+                  114,
+                  116
+                ],
+                "pdf_file_pages": [
+                  131,
+                  133
+                ]
+              }
+            ],
+            "content_checked": "Status of ratio/dicta and necessity tests; independent grounds; Dodd votes on the legal trigger and record, Harper court’s subsequent treatment; permissible narrowing and compatibility with earlier order."
+          },
+          {
+            "title": "Argumentation Schemes",
+            "authors": [
+              "Douglas Walton",
+              "Chris Reed",
+              "Fabrizio Macagno"
+            ],
+            "edition": "Cambridge University Press, 2008",
+            "relative_filename": "Argumentation Schemes (Douglas Walton, Professor Christopher Reed etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+            "sha256": "d010348014e8b80fa561b68e5fac732cce0b3905fb0b1d522dd6fd2578a69634",
+            "front_matter_pdf_pages": [
+              1,
+              2
+            ],
+            "review_mode": "Targeted examination of PDF page text and matching passages, not a continuous full-book read. Page pairs are inclusive; the review sampled passages within each listed range.",
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  22,
+                  35
+                ],
+                "pdf_file_pages": [
+                  32,
+                  45
+                ]
+              },
+              {
+                "printed_pages": [
+                  44,
+                  47
+                ],
+                "pdf_file_pages": [
+                  54,
+                  57
+                ]
+              },
+              {
+                "printed_pages": [
+                  73,
+                  81
+                ],
+                "pdf_file_pages": [
+                  83,
+                  91
+                ]
+              },
+              {
+                "printed_pages": [
+                  197,
+                  201
+                ],
+                "pdf_file_pages": [
+                  207,
+                  211
+                ]
+              },
+              {
+                "printed_pages": [
+                  309,
+                  310
+                ],
+                "pdf_file_pages": [
+                  319,
+                  320
+                ]
+              }
+            ],
+            "content_checked": "Expert evidence and critical questions; explicit and implicit premises; classification and analogy; source dog example and X-ray variation, figs. 2.1–2.2; three replies to Reasoner essay-deadline precedent on p. 73."
+          },
+          {
+            "title": "Logical Tools for Modelling Legal Argument: A Study of Defeasible Reasoning in Law",
+            "authors": [
+              "Henry Prakken"
+            ],
+            "edition": "Kluwer Academic Publishers, 1997",
+            "relative_filename": "Logical tools for modelling legal argument  a study of defeasible reasoning in law (Prakken, Henry).pdf",
+            "sha256": "6456cffe502dc568565d7cf9c2814b265fa8c80b73622d2a118a9d813c162a04",
+            "front_matter_pdf_pages": [
+              7,
+              8
+            ],
+            "review_mode": "Targeted examination of PDF page text and matching passages, not a continuous full-book read. Page pairs are inclusive; the review sampled passages within each listed range.",
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  101,
+                  107
+                ],
+                "pdf_file_pages": [
+                  119,
+                  125
+                ]
+              },
+              {
+                "printed_pages": [
+                  163,
+                  170
+                ],
+                "pdf_file_pages": [
+                  181,
+                  188
+                ]
+              },
+              {
+                "printed_pages": [
+                  196,
+                  197
+                ],
+                "pdf_file_pages": [
+                  214,
+                  215
+                ]
+              },
+              {
+                "printed_pages": [
+                  203,
+                  207
+                ],
+                "pdf_file_pages": [
+                  221,
+                  225
+                ]
+              }
+            ],
+            "content_checked": "Undercutting and rebutting exceptions; dependencies and reinstatement; actual labels §6.5.1, Example 6.5.8 and Definition 6.5.9; different kinds of support for floating conclusions; conflict among priority rules."
+          }
+        ],
+        "excluded_mislabeled_item": {
+          "supplied_files": [
+            {
+              "relative_filename": "Modeling Legal Arguments Reasoning with Cases and Hypotheticals (Artificial Intelligence and Legal Reasoning) (Kevin D. Ashley).pdf",
+              "sha256": "435c4c71bac7714d3c0575d4f36d8bc72c09275ac4aff5181e111d16c6f4a686",
+              "inspection": "PDF title and imprint pp. 2–5, with a subject-matter spot check later in the PDF"
+            },
+            {
+              "relative_filename": "Modeling-Legal-Arguments-Reasoning-with-Cases-and-Hypotheticals-Artificial-Intel.md",
+              "sha256": "ee4ff8a380644135ad502b1e791c2df792190d2883fc62dbe4aa3a1e2ff03a0f",
+              "inspection": "Opening title and front matter of supplied full-text conversion"
+            }
+          ],
+          "actual_identity": "David E. Heckerman, Probabilistic Similarity Networks (MIT Press, 1991).",
+          "decision": "Excluded. The PDF title page and Markdown conversion contradict the filenames that name Kevin D. Ashley. No Ashley method or textual evidence is claimed."
+        },
+        "new_primary_work": [
+          {
+            "location": "Duxbury pp. 71–73",
+            "difference": "The earlier specialist module gave general guidance on fragmented decisions. The actual Dodd/Harper votes on issue versus disposition and their tested consequences in the later litigation were absent. These are now reconstructed directly from the two printed pages."
+          },
+          {
+            "location": "Walton, Reed & Macagno, pp. 73, 75–81",
+            "difference": "The upstream module mentions the dog briefly. The X-ray variation, unchanged public-setting and no-interference premises, rival treatment, qualified rule, and three separate replies in the Reasoner essay example were absent. These make the disagreement answerable as a worked chain."
+          },
+          {
+            "location": "Anderson, Schum & Twining, pp. 127, 129, 132, 211",
+            "difference": "The earlier module gives motive-chain and testimonial cautions. The figures in the Able case, the defense theory of the delivered disclosure with a signed blank check, use of prior returns for both sides, and Thompson’s testimony on the contested phrase furnish further reasoning material from the original."
+          },
+          {
+            "location": "Hohfeld pp. 49–53",
+            "difference": "The option analysis was present in the specialist upstream but absent as a fully taught interpretive problem in the prior lecture reference. It now distinguishes breach with effective revocation and an actually preserved power of acceptance."
+          }
+        ],
+        "limits": [
+          "The seven publications are direct source evidence only for selected propositions; no expert review of contemporary law or learner trial.",
+          "The printed court examples are accounts in the named source books. The complete judgments were not separately inspected.",
+          "Text extraction in Hohfeld, Prakken and Walton is partially degraded; corroborating headings, examples, captions and page sequences were used where readable. No formal symbols or verbatim transcript of an illegible figure is supplied.",
+          "Upstream project headings, invented late-filing/no-duty example, and four-way Move Taxonomy were removed from runtime rather than relabelled as book-derived."
+        ]
+      }
+    },
+    "repair": {
+      "input_record_filename": "repair-originals.json",
+      "input_record_sha256": "2cd1175a5bfc892294c3367a342b5a9068533c418d3a701783b96c10e5f7575d",
+      "record": {
+        "reference": "references/reference-transcript-repair.md",
+        "runtime_sha256": "ad8dca065cf2b3160987cd18731a7cbb91a7dacd972e8c05f749a2fd466393ef",
+        "words_whitespace_delimited": 3392,
+        "sources": [
+          {
+            "title": "The Copyeditor’s Handbook: A Guide for Book Publishing and Corporate Communications",
+            "authors": [
+              "Amy Einsohn",
+              "Marilyn Schwartz"
+            ],
+            "edition": "University of California Press, fourth edition, 2019",
+            "relative_filename": "The Copyeditors Handbook A Guide for Book Publishing and Corporate Communications (Amy Einsohn, Marilyn Schwartz).pdf",
+            "sha256": "5749dd3fbb60e76cf96ca44ba3297389ba4c39aea3599fd8c1b0241f787f9f69",
+            "front_matter_pdf_pages": [
+              1,
+              2
+            ],
+            "review_mode": "Targeted direct inspection of selected passages in the PDF and the supplied OCR of the full book. All file-page positions are one-based. No full-book reading or audio verification is claimed.",
+            "ocr_companion": {
+              "relative_filename": "The-Copyeditors-Handbook-A-Guide-for-Book-Publishing-and-Corporate-Communication.md",
+              "sha256": "0135c8192a7124a56c87e779bd7e76210d4d03f215aae9401948b743bef3f7e8",
+              "relationship": "Derivative text from the supplied book. Used for passage search and reading alongside PDF checks; counted as the same work."
+            },
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  13,
+                  14
+                ],
+                "pdf_file_pages": [
+                  31,
+                  32
+                ]
+              },
+              {
+                "printed_pages": [
+                  26,
+                  28
+                ],
+                "pdf_file_pages": [
+                  44,
+                  46
+                ]
+              },
+              {
+                "printed_pages": [
+                  52,
+                  54
+                ],
+                "pdf_file_pages": [
+                  70,
+                  72
+                ]
+              },
+              {
+                "printed_pages": [
+                  58,
+                  62
+                ],
+                "pdf_file_pages": [
+                  76,
+                  80
+                ]
+              },
+              {
+                "printed_pages": [
+                  66,
+                  68
+                ],
+                "pdf_file_pages": [
+                  84,
+                  86
+                ]
+              },
+              {
+                "printed_pages": [
+                  76,
+                  78
+                ],
+                "pdf_file_pages": [
+                  94,
+                  96
+                ]
+              },
+              {
+                "printed_pages": [
+                  194,
+                  196
+                ],
+                "pdf_file_pages": [
+                  212,
+                  214
+                ]
+              },
+              {
+                "printed_pages": [
+                  208,
+                  210
+                ],
+                "pdf_file_pages": [
+                  226,
+                  228
+                ]
+              },
+              {
+                "printed_pages": [
+                  211,
+                  225
+                ],
+                "pdf_file_pages": [
+                  229,
+                  243
+                ]
+              },
+              {
+                "printed_pages": [
+                  247,
+                  253
+                ],
+                "pdf_file_pages": [
+                  265,
+                  271
+                ]
+              },
+              {
+                "printed_pages": [
+                  263,
+                  264
+                ],
+                "pdf_file_pages": [
+                  281,
+                  282
+                ]
+              },
+              {
+                "printed_pages": [
+                  269,
+                  270
+                ],
+                "pdf_file_pages": [
+                  287,
+                  288
+                ]
+              }
+            ],
+            "new_depth_against_prior_reference": [
+              "Traced nested quotation and reworked reporting frame to printed pp. 214–221. Distinguished a source ellipsis from an editor’s or translator’s omission with printed pp. 221–225 and the historical Form 4562 excerpt.",
+              "Developed text–exhibit reconciliation from ch. 10, especially the voter counts, denominators, distinctions between line and scatter displays, dual axes and unobserved fractional ranks. This material was absent from the borrowed editorial reference.",
+              "Reconstructed the numerical self-correction on printed p. 213 from the original example and retained its forecast and markup qualifications."
+            ],
+            "scope_limits": [
+              "The example containing tax-form language illustrates editorial treatment of quotations and supplies no current legal authority.",
+              "Printed p. 250 tables 13–14 give 2,111 of 3,515 and print 60.0 percent; their quotient rounds to 60.1 percent at one decimal. The reference uses approximately 60 percent, accurately representing the count and comparison. The original p. 250 was inspected as a rendered image."
+            ]
+          },
+          {
+            "title": "The Subversive Copy Editor: Advice from Chicago (or, How to Negotiate Good Relationships with Your Writers, Your Colleagues, and Yourself)",
+            "authors": [
+              "Carol Fisher Saller"
+            ],
+            "edition": "University of Chicago Press, 2009",
+            "relative_filename": "The Subversive Copy Editor Advice from Chicago (or, How to Negotiate Good Relationships with Your Writers, Your Colleagues,… (Carol Fisher Saller).pdf",
+            "sha256": "598a43b7f6dff3950686912ec25b576cb5ffa5ff25df74ca8cce251c2a457d88",
+            "front_matter_pdf_pages": [
+              4,
+              5
+            ],
+            "review_mode": "Targeted direct inspection of selected passages in the PDF and the supplied OCR of the full book. All file-page positions are one-based. No full-book reading or audio verification is claimed.",
+            "ocr_companion": {
+              "relative_filename": "The-Subversive-Copy-Editor-Advice-from-Chicago-or-How-to-Negotiate-Good-Relation.md",
+              "sha256": "a30a9d207e3364dee752582fff5265f67ec80928aa90bb0697877fcaf0f3f523",
+              "relationship": "Derivative text from the supplied book. Used for passage search and reading alongside PDF checks; counted as the same work."
+            },
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  16,
+                  17
+                ],
+                "pdf_file_pages": [
+                  33,
+                  34
+                ]
+              },
+              {
+                "printed_pages": [
+                  24,
+                  26
+                ],
+                "pdf_file_pages": [
+                  41,
+                  43
+                ]
+              },
+              {
+                "printed_pages": [
+                  35,
+                  36
+                ],
+                "pdf_file_pages": [
+                  52,
+                  53
+                ]
+              },
+              {
+                "printed_pages": [
+                  46,
+                  48
+                ],
+                "pdf_file_pages": [
+                  63,
+                  65
+                ]
+              },
+              {
+                "printed_pages": [
+                  75,
+                  77
+                ],
+                "pdf_file_pages": [
+                  92,
+                  94
+                ]
+              }
+            ],
+            "new_depth_against_prior_reference": [
+              "Checked the Yorùbá example in the book. The actual features include word boundaries, diacritics and letter case. Rechecked the uninformed-reader examples of an unintroduced name or a word first parsed as a verb.",
+              "The original “causal” / “casual” contact change shows why batch replacement can turn a technical term into a correctly spelled misleading word."
+            ],
+            "scope_limits": [
+              "The book deals with editorial collaboration and file handling. It does not provide a speech-recognition algorithm or establish that editing restored a recording."
+            ]
+          },
+          {
+            "title": "Guide to the Transcripts of the Black Women Oral History Project",
+            "authors": [
+              "Ruth Edmonds Hill (editor)",
+              "Patricia Miller King (editor)"
+            ],
+            "edition": "Meckler, 1991",
+            "relative_filename": "Guide to the transcripts of the Black women oral history project sponsored by the Arthur and Elizabeth Schlesinger Library on… (Ruth Edmonds Hill  Patricia Miller King etc.).pdf",
+            "sha256": "45a85c959a328b1a55df0a78ac2ad82bd0ab46117ddd4dc8a552921354c50ad9",
+            "front_matter_pdf_pages": [
+              7,
+              8
+            ],
+            "review_mode": "Targeted direct inspection of selected passages in the PDF and the supplied OCR of the full book. All file-page positions are one-based. No full-book reading or audio verification is claimed.",
+            "ocr_companion": {
+              "relative_filename": "Guide-to-the-transcripts-of-the-Black-women-oral-history-project-sponsored-by-th.md",
+              "sha256": "65cf57eeb1f29bf72f4ff88ee5508c31759bcff9f69a266632ddf593f0c759e5",
+              "relationship": "Derivative text from the supplied book. Used for passage search and reading alongside PDF checks; counted as the same work."
+            },
+            "verified_spans": [
+              {
+                "printed_pages": [
+                  "ix",
+                  "x"
+                ],
+                "pdf_file_pages": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "printed_pages": [
+                  "xv",
+                  "xv"
+                ],
+                "pdf_file_pages": [
+                  19,
+                  19
+                ]
+              },
+              {
+                "printed_pages": [
+                  9,
+                  10
+                ],
+                "pdf_file_pages": [
+                  29,
+                  30
+                ]
+              },
+              {
+                "printed_pages": [
+                  44,
+                  46
+                ],
+                "pdf_file_pages": [
+                  64,
+                  66
+                ]
+              }
+            ],
+            "new_depth_against_prior_reference": [
+              "Checked Anna Arnold Hedgeman’s catalog entry as an example beyond the borrowed reference’s cited Alexander–Adams comparison. Its incomplete marker, four dates, uncertainty in the copyright date, biography, topical description, and state of access to each object coexist in one record.",
+              "Compared its fields to the prefatory limits of the selection and the explicitly restricted scope of the guide index. Inspected the printed layout of p. 44 to verify which entry carried the incomplete marker."
+            ],
+            "scope_limits": [
+              "This is a primary finding aid for its own collection and its editorial procedures. Its topic abstracts are not original interview transcripts. Historic terms do not establish present permission."
+            ]
+          }
+        ],
+        "review": "All nine expository sections and the single worked example use direct page locators to these three original publications. None of the authoring skills, prior runtime reference files or source-project evaluation cases serves as an authority for this module. Project-specific ASR heuristics, confidence labels, replay records and frozen run management do not follow from these books.",
+        "assessment_limits": "Source-based editorial inspection. No audio measurements, legal currency determination or learning outcomes were tested."
+      }
+    }
+  },
+  "checks": {
+    "teaching": {
+      "runtime": "references/reference-teaching-design.md",
+      "verified_files": [
+        {
+          "filename": "Learning and awareness (Marton, Ference, Booth etc.).pdf",
+          "role": "publication PDF",
+          "sha256": "2cd4100ecfe4bac82d94bf8a148d35598a13eb12a455913c0f2ec437d6d4177a",
+          "pdf_file_pages": 248
+        },
+        {
+          "filename": "Learning-and-awareness-Marton-Ference-Booth-etc.md",
+          "role": "searchable companion",
+          "sha256": "375a0ba6d68068be0b9a96db268b82845507b6f0a1038b7c2384f27ca0df7cf1"
+        },
+        {
+          "filename": "How Learning Works Seven Research-Based Principles for Smart Teaching (Ambrose, Susan A.).pdf",
+          "role": "publication PDF",
+          "sha256": "89a90373268cffb800fded247597930770ac0c4527c0e97e6914877554eb5720",
+          "pdf_file_pages": 328
+        },
+        {
+          "filename": "How-Learning-Works-Seven-Research-Based-Principles-for-Smart-Teaching-Ambrose-Su.md",
+          "role": "searchable companion",
+          "sha256": "1a2fb07ad7df1daea9079b302ff5fc026776eeeae18040a41658c1bc7965fa90"
+        },
+        {
+          "filename": "Ten Steps to Complex Learning A Systematic Approach to Four-Component Instructional Design (Jeroen J. G. van Merriënboer etc.).pdf",
+          "role": "publication PDF",
+          "sha256": "be7f2d254115cafa86cd3bad94055ab69d0e42b64f34eb473069fdf0030f32df",
+          "pdf_file_pages": 462
+        },
+        {
+          "filename": "Ten-Steps-to-Complex-Learning-A-Systematic-Approach-to-Four-Component-Instructio.md",
+          "role": "searchable companion",
+          "sha256": "755eedcdde29a1d0c41ba4a3e60c036da5b73435be82013992733a4c5b6150d7"
+        },
+        {
+          "filename": "A Dialogic Teaching Companion (Robin Alexander).pdf",
+          "role": "publication PDF",
+          "sha256": "e93b1235634a974b3748d3f704e25836a6644af4057d758e8267d14c73c8b236",
+          "pdf_file_pages": 247
+        },
+        {
+          "filename": "A-Dialogic-Teaching-Companion-Robin-Alexander.md",
+          "role": "searchable companion",
+          "sha256": "24e98c7d32f02192195f995088fa134b55e9af5f56382848430602e49d7db02c"
+        },
+        {
+          "filename": "The Cambridge Handbook of Multimedia Learning (Cambridge Handbooks in Psychology) (Richard E. Mayer, Logan Fiorella).pdf",
+          "role": "publication PDF",
+          "sha256": "ea2529b884d7fed84ef05e76078ad872d501bdd494b3d188e1fbfd362c785a28",
+          "pdf_file_pages": 629
+        },
+        {
+          "filename": "The-Cambridge-Handbook-of-Multimedia-Learning-Cambridge-Handbooks-in-Psychology-.md",
+          "role": "searchable companion",
+          "sha256": "e98940ebfe3beeaa008bf9d69d4594346a087a9beb303f8360da73206c07e71e"
+        }
+      ],
+      "verified_excluded_files": [],
+      "source_review_runtime_sha256": "15f5776bd903a9f061afe11fa90b3e0e65ea82473a5a0f8e7de0b3871812eceb",
+      "final_runtime_sha256": "58f2b0d49f8cdb455dbe2517d421b9a06afce8bea22365abd82ff5dd9fd17e27",
+      "final_runtime_whitespace_words": 4806,
+      "framework_sections": 6,
+      "post_source_review_copyedit": "Three sentences in the Jenny example state directly the observation, interpretation, and limits of attributing the change to the equals sign. The source-review revision is preserved in the original record."
+    },
+    "law": {
+      "runtime": "references/reference-law-reasoning.md",
+      "verified_files": [
+        {
+          "filename": "Rhetoric and the Rule of Law A Theory of Legal Reasoning (Law, State, and Practical Reason) (MacCormick, Sir Neil).pdf",
+          "role": "publication PDF",
+          "sha256": "f65b13725c0d278e97ef49ed0c00a5e865d99522e99ac0f5a81dcd62445d8fd6",
+          "pdf_file_pages": 302
+        },
+        {
+          "filename": "Wesley Newcomb Hohfeld/Some Fundamental Legal Conceptions as Applied in Judicial Reasoning.pdf",
+          "role": "publication PDF",
+          "sha256": "fc6b12d0eae7523fc5e1f6fa8a070c7c39751f34668be5ffc3105a2418813b83",
+          "pdf_file_pages": 45
+        },
+        {
+          "filename": "Uses of Argument (Stephen Edelston Toulmin).pdf",
+          "role": "publication PDF",
+          "sha256": "59c6fdbc72c17f0426cc1612b3fde3c71404def93501866d87f969749f7f4a3f",
+          "pdf_file_pages": 259
+        },
+        {
+          "filename": "Analysis of evidence (Terence Anderson, David Schum etc.).pdf",
+          "role": "publication PDF",
+          "sha256": "9e07d672cb95038fb2ae9434121c91ca11d98dc11de8795981d3457568a8e54b",
+          "pdf_file_pages": 435
+        },
+        {
+          "filename": "Nature and authority precedent (Neil Duxbury.pdf",
+          "role": "publication PDF",
+          "sha256": "609c5415b94c43333173453cebba554159b796d90e1103bd4c2cf2cdf5dffb76",
+          "pdf_file_pages": 206
+        },
+        {
+          "filename": "Argumentation Schemes (Douglas Walton, Professor Christopher Reed etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "role": "publication PDF",
+          "sha256": "d010348014e8b80fa561b68e5fac732cce0b3905fb0b1d522dd6fd2578a69634",
+          "pdf_file_pages": 453
+        },
+        {
+          "filename": "Logical tools for modelling legal argument  a study of defeasible reasoning in law (Prakken, Henry).pdf",
+          "role": "publication PDF",
+          "sha256": "6456cffe502dc568565d7cf9c2814b265fa8c80b73622d2a118a9d813c162a04",
+          "pdf_file_pages": 336
+        }
+      ],
+      "verified_excluded_files": [
+        {
+          "filename": "Modeling Legal Arguments Reasoning with Cases and Hypotheticals (Artificial Intelligence and Legal Reasoning) (Kevin D. Ashley).pdf",
+          "role": "excluded incorrect title",
+          "sha256": "435c4c71bac7714d3c0575d4f36d8bc72c09275ac4aff5181e111d16c6f4a686",
+          "pdf_file_pages": 265
+        },
+        {
+          "filename": "Modeling-Legal-Arguments-Reasoning-with-Cases-and-Hypotheticals-Artificial-Intel.md",
+          "role": "excluded incorrect title",
+          "sha256": "ee4ff8a380644135ad502b1e791c2df792190d2883fc62dbe4aa3a1e2ff03a0f"
+        }
+      ],
+      "source_review_runtime_sha256": "4108316eb5e990b2c7a1fafd4161287b6fc1e1fb604758ec69bdc61b41871511",
+      "final_runtime_sha256": "4108316eb5e990b2c7a1fafd4161287b6fc1e1fb604758ec69bdc61b41871511",
+      "final_runtime_whitespace_words": 5015,
+      "framework_sections": 8,
+      "post_source_review_copyedit": "The final runtime digest matches the original source-review digest."
+    },
+    "repair": {
+      "runtime": "references/reference-transcript-repair.md",
+      "verified_files": [
+        {
+          "filename": "The Copyeditors Handbook A Guide for Book Publishing and Corporate Communications (Amy Einsohn, Marilyn Schwartz).pdf",
+          "role": "publication PDF",
+          "sha256": "5749dd3fbb60e76cf96ca44ba3297389ba4c39aea3599fd8c1b0241f787f9f69",
+          "pdf_file_pages": 565
+        },
+        {
+          "filename": "The-Copyeditors-Handbook-A-Guide-for-Book-Publishing-and-Corporate-Communication.md",
+          "role": "searchable companion",
+          "sha256": "0135c8192a7124a56c87e779bd7e76210d4d03f215aae9401948b743bef3f7e8"
+        },
+        {
+          "filename": "The Subversive Copy Editor Advice from Chicago (or, How to Negotiate Good Relationships with Your Writers, Your Colleagues,… (Carol Fisher Saller).pdf",
+          "role": "publication PDF",
+          "sha256": "598a43b7f6dff3950686912ec25b576cb5ffa5ff25df74ca8cce251c2a457d88",
+          "pdf_file_pages": 152
+        },
+        {
+          "filename": "The-Subversive-Copy-Editor-Advice-from-Chicago-or-How-to-Negotiate-Good-Relation.md",
+          "role": "searchable companion",
+          "sha256": "a30a9d207e3364dee752582fff5265f67ec80928aa90bb0697877fcaf0f3f523"
+        },
+        {
+          "filename": "Guide to the transcripts of the Black women oral history project sponsored by the Arthur and Elizabeth Schlesinger Library on… (Ruth Edmonds Hill  Patricia Miller King etc.).pdf",
+          "role": "publication PDF",
+          "sha256": "45a85c959a328b1a55df0a78ac2ad82bd0ab46117ddd4dc8a552921354c50ad9",
+          "pdf_file_pages": 176
+        },
+        {
+          "filename": "Guide-to-the-transcripts-of-the-Black-women-oral-history-project-sponsored-by-th.md",
+          "role": "searchable companion",
+          "sha256": "65cf57eeb1f29bf72f4ff88ee5508c31759bcff9f69a266632ddf593f0c759e5"
+        }
+      ],
+      "verified_excluded_files": [],
+      "source_review_runtime_sha256": "ad8dca065cf2b3160987cd18731a7cbb91a7dacd972e8c05f749a2fd466393ef",
+      "final_runtime_sha256": "41e258c6b8cd8d49d7e8f3c0dbabe07ceea08ff3cebd42f27f4c3594c1f66a19",
+      "final_runtime_whitespace_words": 3394,
+      "framework_sections": 9,
+      "post_source_review_copyedit": "The discussion of source ellipses, bracket conventions and the date of historical access terms now states the distinctions directly. The source-review revision is preserved in the original record."
+    }
+  }
+}

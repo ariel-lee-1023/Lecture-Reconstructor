@@ -1,0 +1,103 @@
+{
+  "clause": {
+    "request": "I missed the contracts seminar. There is no transcript, but this entire exhibit was assigned. Use it to design a complete short lecture I can study on its own. Explain why plausible answers diverge, work the actual facts, and show when the answer changes. Use only the supplied material.\n",
+    "request_sha256": "5f0dd91664b800180bc2115bc2faa68330f1a4d8b009f19d1b5a4c29e9573caf",
+    "source": "Synthetic seminar exhibit: two notice provisions. All parties and rules are fictional.\n§1 “Working day” means Monday through Friday. Monday is a working day. Times are local. No background law is assumed for this exercise.\n§2 A claim for a damaged crate lapses unless a written claim reaches the claims desk by 17:00 on Friday.\n§3 Routine correspondence is effective when handed to a courier. This dispatch rule does not apply to notices under §2.\n§4 Where the claims desk itself sends a notice of closure before Friday at 17:00, the §2 deadline moves to 10:00 on the next working day.\nExhibit A: The carrier collected a written damage claim Friday at 16:45. The claims desk received it Monday at 09:35. At Friday 16:30 a warehouse employee told the sender that the claims desk was closed. Nothing else establishes whether the desk sent its own closure notice.\n",
+    "source_sha256": "29569686a4fac4141fa6b09849e05fb301edf6e62b36ff4a24d9dd718faa42e1",
+    "mode": "file",
+    "package_reads": [
+      "SKILL.md",
+      "WORKFLOW.md",
+      "references/reference-teaching-design.md",
+      "references/reference-law-reasoning.md",
+      "schemas/run.schema.json",
+      "scripts/check_run.py"
+    ],
+    "package_read_sha256": {
+      "SKILL.md": "b484d56961d933c38c6781199d17e8209c3f8b8c313159e3e3d367cd424dd512",
+      "WORKFLOW.md": "34e8737d506300a7d3a9f9aeaf806c325ce06c784f03009ae1f13fe7b8b3af1e",
+      "references/reference-teaching-design.md": "15f5776bd903a9f061afe11fa90b3e0e65ea82473a5a0f8e7de0b3871812eceb",
+      "references/reference-law-reasoning.md": "4108316eb5e990b2c7a1fafd4161287b6fc1e1fb604758ec69bdc61b41871511",
+      "schemas/run.schema.json": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142",
+      "scripts/check_run.py": "e67176797f5b4fc176a30f9e9f37f9d9ca37092d4c16932fef5ad44d79dff9ae"
+    },
+    "response_path": "clause/lecture.md",
+    "output_sha256": "8b3edba563af385e42d7b3d7bba933f6703ee7ee9b6beaabdbc9ed1d8fa4e0da",
+    "review_path": "review.md",
+    "hash_scope": "package_read_sha256 records the package at generation. rechecked_package_sha256 records the final package used for impact review.",
+    "rechecked_package_sha256": {
+      "SKILL.md": "b484d56961d933c38c6781199d17e8209c3f8b8c313159e3e3d367cd424dd512",
+      "WORKFLOW.md": "34e8737d506300a7d3a9f9aeaf806c325ce06c784f03009ae1f13fe7b8b3af1e",
+      "references/reference-teaching-design.md": "58f2b0d49f8cdb455dbe2517d421b9a06afce8bea22365abd82ff5dd9fd17e27",
+      "references/reference-law-reasoning.md": "4108316eb5e990b2c7a1fafd4161287b6fc1e1fb604758ec69bdc61b41871511",
+      "schemas/run.schema.json": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142",
+      "scripts/check_run.py": "e67176797f5b4fc176a30f9e9f37f9d9ca37092d4c16932fef5ad44d79dff9ae"
+    },
+    "impact_review_path": "clause/runtime-impact.json"
+  },
+  "story": {
+    "request": "Turn this literature class into a standalone lecture. It sounded polished but never showed how the story works. The complete text is below. Develop the strongest lesson the material supports.\n",
+    "request_sha256": "f91c2fd4c779a8252ca104b5ab875d81c34c28d6dbc35342de029a8b9faec73e",
+    "source": "Synthetic class record: “The story teaches us trust and regret. The empty envelope proves the letter was gone before Iris ever arrived. Good writing always speaks to the human heart. Remember the title for our workshop.”\n\nThe Envelope (complete invented text)\nAt noon Iris said the envelope felt light.\nAt dusk Tomas opened it. He laid its empty halves on the table.\n“I saw what she found at noon,” he told us years later.\nA footnote in the narrator's voice: I was with Tomas at dusk. At noon I was across the river.\n\nThe packet contains no account of who sealed the envelope or where it was kept between noon and dusk.\n",
+    "source_sha256": "e7ecc4fd14333a4290ad50c9f85356c113568eb18ce3147925ac42ac82b49217",
+    "mode": "chat",
+    "package_reads": [
+      "SKILL.md",
+      "WORKFLOW.md",
+      "references/reference-teaching-design.md"
+    ],
+    "package_read_sha256": {
+      "SKILL.md": "b484d56961d933c38c6781199d17e8209c3f8b8c313159e3e3d367cd424dd512",
+      "WORKFLOW.md": "34e8737d506300a7d3a9f9aeaf806c325ce06c784f03009ae1f13fe7b8b3af1e",
+      "references/reference-teaching-design.md": "15f5776bd903a9f061afe11fa90b3e0e65ea82473a5a0f8e7de0b3871812eceb"
+    },
+    "response_path": "story.md",
+    "output_sha256": "fdc56775dd60ac252aa7659dd56be230c3d53e85433eb0a33f2e464a5db7b770",
+    "review_path": "review.md",
+    "hash_scope": "package_read_sha256 records the package at generation. rechecked_package_sha256 records the final package used for impact review.",
+    "rechecked_package_sha256": {
+      "SKILL.md": "b484d56961d933c38c6781199d17e8209c3f8b8c313159e3e3d367cd424dd512",
+      "WORKFLOW.md": "34e8737d506300a7d3a9f9aeaf806c325ce06c784f03009ae1f13fe7b8b3af1e",
+      "references/reference-teaching-design.md": "58f2b0d49f8cdb455dbe2517d421b9a06afce8bea22365abd82ff5dd9fd17e27"
+    },
+    "impact_review_path": "clause/runtime-impact.json"
+  },
+  "rate": {
+    "request": "Please reconstruct the lesson from the recording transcript and the printed exhibit. I want to understand what comparison the lecturer was trying to teach, including anything the teacher got wrong. Work from the packet.\n",
+    "request_sha256": "f8ddec126480fec253b7e5e78928dbe0a7e5bf9726097286c896eb8098f2ce87",
+    "source": "Synthetic classroom transcript, no audio supplied\nTeacher: On the printed card, failures were 30 out of 100 returns in the first period and 40 out of 100 in the second. The failure rate rose ten percent. I wrote “ten” in the margin.\nStudent: If we started at thirty and ended at forty, why is ten the wrong answer?\nTeacher: Same denominator, same denominator. Take the dif... difference. People always make this hard. That's all.\nMachine recap, derived from this transcript: The lecturer said failures rose ten percent and the counter recorded every distinct machine.\n\nOriginal exercise card, read with the transcript:\nPeriod 1: 30 failed inspections / 100 returned units. Period 2: 40 failed inspections / 100 returned units.\nEach return is counted, including repeat returns. The retained form does not link returns to machine IDs.\nMemo prompt: Distinguish a difference between two rates from a change relative to the old rate. Explain what these records can establish about individual machines.\n",
+    "source_sha256": "f54abfb38ee059069a334d9dd7307a63d2d9a02a473da9ccda3e3de7b586994a",
+    "mode": "chat",
+    "package_reads": [
+      "SKILL.md",
+      "WORKFLOW.md",
+      "references/reference-teaching-design.md",
+      "references/reference-transcript-repair.md"
+    ],
+    "package_read_sha256": {
+      "SKILL.md": "b484d56961d933c38c6781199d17e8209c3f8b8c313159e3e3d367cd424dd512",
+      "WORKFLOW.md": "34e8737d506300a7d3a9f9aeaf806c325ce06c784f03009ae1f13fe7b8b3af1e",
+      "references/reference-teaching-design.md": "15f5776bd903a9f061afe11fa90b3e0e65ea82473a5a0f8e7de0b3871812eceb",
+      "references/reference-transcript-repair.md": "ad8dca065cf2b3160987cd18731a7cbb91a7dacd972e8c05f749a2fd466393ef"
+    },
+    "response_path": "rate.md",
+    "output_sha256": "9a8539f11491835934310b591ef1bf6610baa585d71721db89c0aeea4595ee20",
+    "review_path": "review.md",
+    "post_review_revision": {
+      "initial_output_sha256": "ded8cdccbfb8612419e5fa460591547762c3bafe34dc36b9077f1c9d40c3575d",
+      "original_text": "The lecturer’s hesitation on the word *difference* leaves the instruction to subtract perfectly clear.",
+      "revised_text": "The transcript records the instruction as “Take the dif... difference.” Subtracting the two rates does give ten percentage points.",
+      "source_line": 4,
+      "output_line": 7,
+      "reason": "Limit the attribution to what is visible in the supplied transcript."
+    },
+    "hash_scope": "package_read_sha256 records the package at generation. rechecked_package_sha256 records the final package used for impact review.",
+    "rechecked_package_sha256": {
+      "SKILL.md": "b484d56961d933c38c6781199d17e8209c3f8b8c313159e3e3d367cd424dd512",
+      "WORKFLOW.md": "34e8737d506300a7d3a9f9aeaf806c325ce06c784f03009ae1f13fe7b8b3af1e",
+      "references/reference-teaching-design.md": "58f2b0d49f8cdb455dbe2517d421b9a06afce8bea22365abd82ff5dd9fd17e27",
+      "references/reference-transcript-repair.md": "41e258c6b8cd8d49d7e8f3c0dbabe07ceea08ff3cebd42f27f4c3594c1f66a19"
+    },
+    "impact_review_path": "clause/runtime-impact.json"
+  }
+}

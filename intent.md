@@ -1,16 +1,16 @@
 # lecture-reconstructor — Product intent
 
-Version: engineering baseline v0.1; date: 2026-11-15; status at that baseline: awaiting construction. This document records the confirmed product direction; it does not itself establish that the runtime capabilities have been implemented.
+Design baseline revised November 19, 2026. The original November 15 build targeted transcript-led reconstruction. The current product also supports lessons redesigned around primary materials.
 
 ## Why this project exists
 
-Users already have transcripts of university classroom recordings, but the original lectures may contain unclear terminology, missing conceptual relationships, skipped reasoning steps, examples that do not explain the rules, or a confusing sequence. Proofreading can recover what the lecturer said, and summarization can reduce the reading load. Users need a complete, integrated lecture manuscript that corresponds to the original course and improves its teaching quality.
+The lecturer's eloquence sets no ceiling on the manuscript. A rough example may preserve a real problem. A smooth lecture may never reach the issue that changes the answer. A contract, judgment, literary work, or case record can supply the basis for a stronger lecture when the teaching itself contributes little. Proofreading can recover what the lecturer said, and summarization can reduce the reading load. Users need a complete, integrated lecture manuscript that corresponds to the original course and improves its teaching quality.
 
 The target users are university students who want to understand and apply course content through a complete manuscript. The first release focuses on law courses, while leaving room in the architecture to extend to other disciplines. The manuscript defaults to the course's language; an explicitly requested manuscript language takes precedence, with necessary original terms retained.
 
 ## Product commitment
 
-Given a readable classroom transcript and optional textbooks, slides, and syllabus, reconstruct a complete manuscript that can be read independently and taught directly. Preserve the lecture's substantive content and its correspondence to the course, reorganize the explanation, and supply the necessary background, conceptual relationships, reasoning, case analysis, and transitions.
+Given a concrete problem, recoverable case material, a classroom transcript, or an inspectable primary text, produce a complete manuscript that can be read independently and taught directly. When the teaching is thin, find the decisive issue through close reading, design the lesson from the material, and identify the redesign honestly. Preserve the lecture's substantive content and its correspondence to the course, reorganize the explanation, and supply the necessary background, conceptual relationships, reasoning, case analysis, and transitions.
 
 “Complete” means that the lecture's substantive content receives appropriate treatment. It does not require preserving every spoken repetition or covering the entire discipline exhaustively. “Improvement” must at least make necessary relationships and reasoning clear; greater length or more technical wording alone does not qualify.
 
@@ -34,7 +34,7 @@ When these priorities conflict, revise the structure, divide the material into c
 
 ## What this release does not do
 
-- It does not perform speech recognition, speaker separation, recording uploads, or audio/video production. Input begins with a transcript.
+- It does not perform speech recognition, speaker separation, recording uploads, or audio/video production. Input begins with a substantive question or readable course material.
 - It does not build a legal database, update historical lectures to current law by default, or conduct unbounded supplementary research.
 - It does not build websites, accounts, payment systems, vector databases, model-provider interfaces, or multi-agent orchestration platforms.
 - It does not require the user to answer quiz questions, complete a learner profile, or finish exercises before receiving the manuscript.

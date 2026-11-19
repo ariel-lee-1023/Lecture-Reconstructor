@@ -1,0 +1,16 @@
+Synthetic contracts seminar. All parties, documents, rules and decisions are invented for the exercise.
+
+Transcript
+Teacher: In our first contract North promises to notify East promptly of a defect. The clause you have is the whole agreement about notice. It promises notice. Is a late claim automatically lost? That is a different question. We are not assuming any background law for today's exercise.
+Student: But in River's contract a late claim was lost. Why treat North any differently?
+Teacher: Open the specimen on the next page. With River, a notice of claim had to reach the buyer. People often draft it that way; I would also negotiate a fallback if the address changes. That's my drafting preference.
+Teacher: River's courier left on Friday at 16:50. Delivery was Monday at 09:00. The panel decided one ground. You don't have to guess what it would have done on the signature.
+
+Handout, p. 1, North/East notice clause
+“North shall notify East promptly after discovering a defect.”
+
+Handout, p. 2, River notice clause
+“A claim lapses unless signed notice reaches the buyer by Friday at 17:00.”
+
+Handout, p. 3, excerpt of the fictional panel's decision
+The buyer received the notice on Monday. Late receipt disposes of the claim under the specimen. The parties also dispute whether the name typed at the foot of the notice was a signature. We do not decide that point.

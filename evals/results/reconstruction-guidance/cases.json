@@ -1,0 +1,56 @@
+{
+  "counts": {
+    "request": "Please reconstruct the recorded class into a standalone lecture for students. The other material is from the same course folder. Deliver the lecture here in the language used in class.\n",
+    "source": "Synthetic course export: Week 4, Museum Methods\n\nAutomatically generated recap\nAttendance doubled during the poster trial. The final chart proves the poster caused the rise. Next week's survey was also discussed.\n\nRecorded classroom speech\n[09:10] Take our two Saturdays at the museum. Before the poster, the door counter registered 60 entries in three hours. On the poster Saturday it registered 80 over four hours. I want to know what we can say about the pace of entry.\n[09:12] Both totals are for that one door. These are entries. Staff could leave and come back, so don't call the total a headcount of different people.\n[09:14] Student: But we had twenty more entries. How can you say the pace didn't pick up?\n[09:15] Lecturer: Look at the time each total covers. And equal for the whole window doesn't mean equal at noon. See the dip in the lower line here? I can't tell you its time off the top of my head.\n[09:17] For your memo, say what comparison the counter permits. We didn't run a no-poster comparison on the second Saturday. We'll design an exit survey next week.\n\nSupporting slide 4, “Poster trial” (working draft)\nBefore: 60 / 3 h. With poster: 90 / 4 h.\nSpeaker note: Replace provisional second count with count given in class.\nThe graphic shown in the room is missing from this export.\n\nSupporting slide 5, “Next meeting”\nExit survey: design and sampling.\n",
+    "mode": "chat",
+    "output_sha256": "68c2c2bbc0f0ba49c1c0a0cc9e5cae796fe13a7fb8f8e5684e0a4c2d06c307cc",
+    "package_reads": [
+      "SKILL.md",
+      "WORKFLOW.md",
+      "references/reference-teaching-design.md",
+      "references/reference-transcript-repair.md"
+    ],
+    "response_path": "counts.md"
+  },
+  "voice": {
+    "request": "Please turn this short literature class into a lecture I can read on its own in English. Keep the distinction the student questioned and explain how the language of the passage supports it.\n",
+    "source": "Synthetic transcript of a Spanish-language literature class. The following lines and vignette were written for this exercise.\n\nHoy leemos dos frases: «Desde la cocina oí la verja. Dije que era mi hermana.» Fijaos primero en los verbos: oí, dije. No tenemos otra escena.\nEstudiante: Si no vio entrar a su hermana, ¿la narradora está mintiendo?\nProfesora: Podría estar equivocada. Mentir exigiría algo más sobre lo que ella creía. Parece una diferencia pequeña, pero cambia lo que podemos afirmar. Tampoco sabemos que su hermana no entrara.\nAhora cambio sólo el segundo verbo para probar nuestra lectura: «Supe que era mi hermana.» Eso sí cambia la seguridad que la voz se atribuye. Seguimos sin una segunda persona que la vea entrar. Esta segunda versión es mía, no pertenece al texto.\nPara la próxima clase queda el desenlace. Hoy no lo hemos leído.\n",
+    "mode": "chat",
+    "output_sha256": "59d522cf18978964746b0184f846ab2c27b2522fd0ab793955420c62bb4294e1",
+    "package_reads": [
+      "SKILL.md",
+      "WORKFLOW.md",
+      "references/reference-teaching-design.md"
+    ],
+    "response_path": "voice.md"
+  },
+  "notice": {
+    "request": "Reconstruct the two examples from this contracts seminar as a short lecture for students who missed it. Use only the supplied materials.\n",
+    "source": "Synthetic contracts seminar. All parties, documents, rules and decisions are invented for the exercise.\n\nTranscript\nTeacher: In our first contract North promises to notify East promptly of a defect. The clause you have is the whole agreement about notice. It promises notice. Is a late claim automatically lost? That is a different question. We are not assuming any background law for today's exercise.\nStudent: But in River's contract a late claim was lost. Why treat North any differently?\nTeacher: Open the specimen on the next page. With River, a notice of claim had to reach the buyer. People often draft it that way; I would also negotiate a fallback if the address changes. That's my drafting preference.\nTeacher: River's courier left on Friday at 16:50. Delivery was Monday at 09:00. The panel decided one ground. You don't have to guess what it would have done on the signature.\n\nHandout, p. 1, North/East notice clause\n“North shall notify East promptly after discovering a defect.”\n\nHandout, p. 2, River notice clause\n“A claim lapses unless signed notice reaches the buyer by Friday at 17:00.”\n\nHandout, p. 3, excerpt of the fictional panel's decision\nThe buyer received the notice on Monday. Late receipt disposes of the claim under the specimen. The parties also dispute whether the name typed at the foot of the notice was a signature. We do not decide that point.\n",
+    "mode": "file",
+    "output_sha256": "2777ae937ab5ec106cf54cdd5a0d9b7fbbb031cfb3b1e986bc4a0207747b97e0",
+    "package_reads": [
+      "SKILL.md",
+      "WORKFLOW.md",
+      "references/reference-teaching-design.md",
+      "references/reference-law-reasoning.md",
+      "schemas/run.schema.json",
+      "scripts/check_run.py"
+    ],
+    "response_path": "notice/lecture.md"
+  },
+  "repair": {
+    "request": "Please turn this class transcript into a standalone lecture. Keep any case that we can settle from the transcript, and explain what remains uncertain.\n",
+    "source": "Synthetic seminar transcript. Only the text is available. The course's two exercises use invented club rules.\nSpeaker: A clame-right here corresponds to someone else's duty. I shall use claim-right in exactly that sense throughout.\nSpeaker: In our first exercise, the rule says the tutor must show the marked paper if the student asks. Lea asked. A review sheet generated from this class calls it a right to change the mark. Could the tutor satisfy this rule by showing the paper and declining to change the mark? Yes.\nStudent: In the second exercise which event sets the deadline? You said something about notice.\nSpeaker: The sentence was transcribed twice at the same timecode from the same recording: 'notice is effective when sent' and 'notice is effective when received.' The notice left on Friday and arrived on Monday. The cutoff is Friday evening. We have no other wording of this second rule in our packet.\n",
+    "mode": "chat",
+    "output_sha256": "2d68a1b528293cd5f6e125a3bc9911ad64ee23384af6bce9c9c9e9878f032a5f",
+    "package_reads": [
+      "SKILL.md",
+      "WORKFLOW.md",
+      "references/reference-teaching-design.md",
+      "references/reference-transcript-repair.md",
+      "references/reference-law-reasoning.md"
+    ],
+    "response_path": "repair.md"
+  }
+}

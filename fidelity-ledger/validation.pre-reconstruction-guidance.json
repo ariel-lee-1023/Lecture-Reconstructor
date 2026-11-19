@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-15",
+  "repository_checks": "pass",
+  "behavior_acceptance": "not_run",
+  "real_classroom_pilot": "not_run",
+  "learning_outcomes": "not_run",
+  "scope": "Current all-English repository; historical evidence is available as English translations, with originals fixed at the source commit",
+  "unit_test_count": 40,
+  "acceptance": {
+    "A01": {
+      "status": "not_run",
+      "evidence": "evals/results/skill/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A02": {
+      "status": "not_run",
+      "evidence": "evals/results/skill/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A03": {
+      "status": "not_run",
+      "evidence": "evals/results/skill/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A04": {
+      "status": "not_run",
+      "evidence": "evals/results/edges/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A05": {
+      "status": "not_run",
+      "evidence": "evals/results/skill/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A06": {
+      "status": "not_run",
+      "evidence": "evals/results/skill/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A07": {
+      "status": "not_run",
+      "evidence": "evals/results/skill/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A08": {
+      "status": "not_run",
+      "evidence": [
+        "evals/results/resume/unchanged-review.md",
+        "evals/results/resume/input_changed-review.md",
+        "evals/results/resume/reference_changed-review.md"
+      ],
+      "note": "The input-change branch remains needs_input because of a genuine core conflict and settlement gap; the pass concerns detection, invalidation, review, and bounded delivery behavior",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A09": {
+      "status": "not_run",
+      "evidence": "evals/results/edges/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A10": {
+      "status": "not_run",
+      "evidence": "evals/results/isolated/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A11": {
+      "status": "not_run",
+      "evidence": "evals/results/edges/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    },
+    "A12": {
+      "status": "not_run",
+      "evidence": "evals/results/edges/independent-review.md",
+      "historical_status": "pass",
+      "version_note": "Evidence belongs to the pre-language-policy runtime; neither the subsequent language-policy change nor the English runtime translation has been behavior-tested."
+    }
+  },
+  "quality_comparison": "evals/results/comparison/summary.json",
+  "unknown": [
+    "exact backend model snapshot",
+    "sampling parameters",
+    "token usage"
+  ],
+  "known_limitations": [
+    "A09 output reviewed; no complete independent external-side-effect audit",
+    "A10 read allowlist, not OS sandbox",
+    "three-chapter restore, not large-context stress",
+    "edge generation author knew design and acceptance criteria",
+    "baseline and skill observed resource use differs"
+  ],
+  "remaining_critical_engineering_defects": [],
+  "engineering_review": "evals/results/mechanical/final-engineering-review.md",
+  "previous_validation": "fidelity-ledger/validation.pre-repository-english.json",
+  "language_policy_change": {
+    "date": "2026-11-15",
+    "rule": "explicit output language takes precedence; otherwise use course language",
+    "impact": "SKILL discovery/body and optional transcript-repair reference changed; lecture content, schema and checkers unchanged",
+    "current_behavior_tests": "not_run",
+    "historical_run_hashes": "preserved without changes"
+  },
+  "documentation_translation": {
+    "date": "2026-11-15",
+    "files": [
+      "SKILL.md",
+      "intent.md",
+      "spec.md",
+      "plan.md",
+      "AGENTS.md",
+      "references/teaching-design.md",
+      "references/law-reasoning.md",
+      "references/transcript-repair.md",
+      "references/reconstruction-workflow.md"
+    ],
+    "intended_change": "English documentation and runtime instructions; manuscript language selection, task contract, method boundaries, file interfaces, and review requirements remain unchanged",
+    "impact": "All five runtime instruction files change; model behavior may differ even when a translation preserves the intended requirements",
+    "synthetic_example_adaptation": "The repair example uses an explicitly labeled English counterpart; historical evaluation fixtures are unchanged",
+    "mechanical_checks": "pass",
+    "textual_equivalence_review": "completed; two wording changes corrected, with the synthetic repair example adaptation explicitly identified",
+    "current_behavior_tests": "not_run",
+    "historical_evaluation_hashes": "preserved without changes",
+    "unit_tests_passed": 40
+  },
+  "repository_english_translation": {
+    "date": "2026-11-15",
+    "source_commit": "b0390af4a584b884a62dba6aba7994514df81c8d",
+    "manifest": "fidelity-ledger/english-translation-manifest.json",
+    "coverage": "All tracked text files and every member of the historical runtime ZIP",
+    "original_artifacts": "Preserved in Git at the source commit; historical recorded hashes remain unchanged",
+    "current_historical_files": "English reading copies, not newly generated behavior evidence",
+    "functional_multilingual_detection": "Unicode escapes preserve the original dependency-detection patterns and regression inputs; these are functional test data, not untranslated documentation",
+    "mechanical_checks": "pass",
+    "model_behavior_tests": "not_run",
+    "unit_tests_passed": 40,
+    "tracked_files_checked": 327,
+    "zip_members_checked": 9,
+    "json_files_or_members_parsed": 144,
+    "historical_text_line_checks": 163,
+    "historical_json_identity_checks": 130,
+    "translation_review": "Complete source-preserving translation with structural checks and targeted independent review; not a model behavior rerun"
+  }
+}

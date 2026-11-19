@@ -1,25 +1,25 @@
 {
-  "recorded_on": "2026-11-15",
+  "recorded_on": "2026-11-19",
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "abae1662491ae46b099239ba77b890dbe53024afa7cb17f6035ad9817893f9f9"
+      "sha256": "b484d56961d933c38c6781199d17e8209c3f8b8c313159e3e3d367cd424dd512"
     },
     {
-      "path": "references/law-reasoning.md",
-      "sha256": "498d45960148e44713134a636d714f29ffa9a940f34b51fceb9fe235422ceb7a"
+      "path": "WORKFLOW.md",
+      "sha256": "34e8737d506300a7d3a9f9aeaf806c325ce06c784f03009ae1f13fe7b8b3af1e"
     },
     {
-      "path": "references/reconstruction-workflow.md",
-      "sha256": "48ca3328fdd0a000e891e68ff41be161fa5f79eabf62c5e105f5d45258fff78a"
+      "path": "references/reference-law-reasoning.md",
+      "sha256": "4108316eb5e990b2c7a1fafd4161287b6fc1e1fb604758ec69bdc61b41871511"
     },
     {
-      "path": "references/teaching-design.md",
-      "sha256": "bc29145f5b036a6d3f16bbd4873f47618438920443571cc10cae39902fd0320e"
+      "path": "references/reference-teaching-design.md",
+      "sha256": "58f2b0d49f8cdb455dbe2517d421b9a06afce8bea22365abd82ff5dd9fd17e27"
     },
     {
-      "path": "references/transcript-repair.md",
-      "sha256": "0c6f98644d0279991a7ccbf2260395917044991a68882f9ed0f3e3f92524a153"
+      "path": "references/reference-transcript-repair.md",
+      "sha256": "41e258c6b8cd8d49d7e8f3c0dbabe07ceea08ff3cebd42f27f4c3594c1f66a19"
     },
     {
       "path": "schemas/run.schema.json",
@@ -27,14 +27,14 @@
     },
     {
       "path": "scripts/check_run.py",
-      "sha256": "225b0fd86c00c822c54876074e3bf4161a2dba5fd1e09e409b2af2f12317ca9a"
+      "sha256": "e67176797f5b4fc176a30f9e9f37f9d9ca37092d4c16932fef5ad44d79dff9ae"
     },
     {
       "path": "scripts/validate_repo.py",
-      "sha256": "0e607db5d10083d5461cd1c96b7f09eace236cc1efac770578d79e2be9929e2e"
+      "sha256": "e320b048d2dece98617cde61680c2e880ae5f3f31ebe0d383166072d436d8705"
     }
   ],
-  "meaning": "Current English runtime with translated checker messages. The five instruction files and manuscript language policy are unchanged from the preceding English-runtime revision; historical run hashes remain source identities.",
-  "revision": "repository-english-complete",
-  "previous_revision": "fidelity-ledger/runtime-revision.pre-repository-english.json"
+  "meaning": "A substantive question or primary document can ground a complete lecture. The core and workflow address fluent explanations that miss the issue, purposeful further reading, and the use of a mistaken example. The three topic references reconstruct methods and worked cases from identified original editions. File runs accept substantive material without a classroom transcript.",
+  "revision": "primary-source-lecture-redesign",
+  "previous_revision": "evals/results/reconstruction-guidance/runtime-at-trials.json"
 }

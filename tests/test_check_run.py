@@ -96,6 +96,11 @@ class RunTests(unittest.TestCase):
         (self.run/'lecture.md').write_text('# Missing stable anchor\n')
         self.rejects('MISSING_OUTPUT_ANCHOR')
 
+    def test_complete_primary_text_without_a_transcript(self):
+        self.data['inputs'][0]['kind'] = 'course_rule'
+        self.data['course']['scope'] = 'Redesigned lesson based on two written rules'
+        self.assertEqual(0, self.validate()['exit_code'])
+
     def test_changed_input_requires_review(self):
         (self.run/'input.txt').write_text("New rule\n")
         self.assertEqual(2,self.rejects('INPUT_CHANGED')['exit_code'])

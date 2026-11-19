@@ -1,0 +1,51 @@
+{
+  "scope": "Second reading of the six complete outputs, their original requests and all three lecture packets against the final reference copyedits. Existing outputs were reviewed; the trials were not generated again. The files at generation can be reconstructed by reversing the listed substitutions in the final files. Both reconstructed hashes were checked.",
+  "date": "2026-11-19",
+  "reference_changes": [
+    {
+      "path": "references/reference-teaching-design.md",
+      "generation_sha256": "15f5776bd903a9f061afe11fa90b3e0e65ea82473a5a0f8e7de0b3871812eceb",
+      "recheck_sha256": "58f2b0d49f8cdb455dbe2517d421b9a06afce8bea22365abd82ff5dd9fd17e27",
+      "edits": [
+        {
+          "before": "The authors interpret these responses as a new coordination of ordinal and cardinal aspects and of each subset with the whole.",
+          "after": "These responses support the interpretation that Jenny could now coordinate ordinal position with cardinal number, and each subset with the whole."
+        },
+        {
+          "before": "The account locates an occasion when a changed way of seeing became visible. It cannot date the moment of learning or isolate the equals sign as its sole cause.",
+          "after": "The new answers show when the change became visible in this task. Exactly when Jenny learned it, and how much the equals sign contributed, remain open."
+        }
+      ]
+    },
+    {
+      "path": "references/reference-transcript-repair.md",
+      "generation_sha256": "ad8dca065cf2b3160987cd18731a7cbb91a7dacd972e8c05f749a2fd466393ef",
+      "recheck_sha256": "41e258c6b8cd8d49d7e8f3c0dbabe07ceea08ff3cebd42f27f4c3594c1f66a19",
+      "edits": [
+        {
+          "before": "The handbook describes identifying an ellipsis already present in the source and using bracketed ellipsis points in a translation to disclose an omission by the translator.",
+          "after": "An editorial note can identify an ellipsis already present in the source. In a translation, bracketed ellipsis points can mark a cut made by the translator."
+        },
+        {
+          "before": "The introduction also distinguishes approximate information with brackets and warns that processing was unfinished for some transcripts.",
+          "after": "Brackets in this guide mark approximate information. Some transcripts were still being processed when it was compiled."
+        },
+        {
+          "before": "The guide describes arrangements at compilation; present access requires the applicable current record.",
+          "after": "Those arrangements applied when the guide was compiled. Present access requires the applicable current record."
+        }
+      ]
+    }
+  ],
+  "lecture_findings": {
+    "clause": "The only changed file this run loaded was teaching design. Source §§2–3 and Exhibit A still select Monday 09:35 receipt of the damage claim despite Friday 16:45 dispatch (lecture line 9). Source §4 and the 16:30 employee report leave timely dispatch of a desk closure notice unresolved (line 13). Section 1 makes Monday the next working day, so the two outcomes and exact-17:00 boundary at line 17 follow. The plausible sender argument and the controlled change of one fact require no conclusion about Jenny’s learning or the effects of an instructional device. Line 19 requests the right missing evidence. No manuscript change, whole exhibit covered.",
+    "story": "Compared all four literary passages and the opening classroom claim with lines 3–25 of the lecture. The counterexamples at lines 15–17 vary earlier contents with the recorded observations held fixed. The later voice and separate narrator support different inferences at lines 19–23. The lesson demonstrates an interpretive possibility without claiming measured learning; the narrower Jenny interpretation requires no change.",
+    "rate": "The printed card and transcript support lines 3–11, including 10 points, a one-third relative rise, the missing link to machine identity and the memo. Line 7 of the reviewed manuscript attributes the exact marks in “Take the dif... difference.” to the transcript. The final repair passage on multiple possible origins of ellipses agrees with that cautious attribution; the revised finding-aid example does not alter the unit calculation or the transcript/card relationship. No further change."
+  },
+  "standalone_findings": {
+    "teaching": "The answer’s proposed paired runs vary ink while fixing printer and paper, and then use a new printer comparison to elicit an independent design (lines 1–9). Proposed observable performance is distinguished from any measured change of understanding. This follows the evidentiary limit in the revised Jenny paragraph.",
+    "law": "No changed reference was in this application’s stated scope. Rechecked the whole answer against the fictitious rule and facts. Lines 1–10 preserve the independent waiver route, common condition, provenance of membership evidence, limits of the dismissal and both factual revisions.",
+    "repair": "Lines 3–11 retain the yesterday quotation and two candidate names. The speaker’s explicit replacement and repeated completed word support “sensor” independently of the dots. The two copied recap spellings and staff list cannot identify the signer. The answer claims no direct audition and identifies role-linked evidence to request. The revised ellipsis and dated-guide passages change none of those conclusions."
+  },
+  "outcome": "All six pass for their stated requests. The corrected rate manuscript and the other five reviewed artifacts require no changes for the reference copyedits. The review is of these texts, not a learner assessment."
+}

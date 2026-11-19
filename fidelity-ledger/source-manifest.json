@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "recorded_on": "2026-11-15",
-  "identity_note": "Hashes describe actually read working-tree bytes; source texts are reference data. No verified remote URL was provided. Original books were not reread.",
+  "recorded_on": "2026-11-19",
+  "identity_note": "The four upstream project snapshots retain their historical roles, file digests and licenses. They document earlier project methods and engineering decisions. The three current disciplinary references draw on direct reading of selected passages in the original publications. The initial upstream register is preserved in Git at 0e7ce8011f246c182b5c39be5b8f3c9b12eb360f.",
   "sources": [
     {
       "repo": "indwell-via-shared-discern",
@@ -21,7 +21,7 @@
             "Loading depth evidence boundary"
           ],
           "destinations": [
-            "references/teaching-design.md"
+            "references/reference-teaching-design.md"
           ],
           "adaptation": "Adapt discernment of relationships, contrasts, and whole tasks from live teaching to static manuscript production; do not inherit participation blocking, learner diagnosis, or media requirements."
         },
@@ -35,7 +35,7 @@
             "Teaching design and evidence limits"
           ],
           "destinations": [
-            "references/teaching-design.md"
+            "references/reference-teaching-design.md"
           ],
           "adaptation": "Organize manuscripts around objects of learning, relationships, and wholes; do not classify ways of experiencing as fixed reader types."
         },
@@ -49,7 +49,7 @@
             "Mastery is more than one component"
           ],
           "destinations": [
-            "references/teaching-design.md"
+            "references/reference-teaching-design.md"
           ],
           "adaptation": "Distinguish explanatory gaps, supply prerequisites and steps experts omit, and avoid diagnosis without student performance."
         },
@@ -64,7 +64,7 @@
             "Assessment and transfer"
           ],
           "destinations": [
-            "references/teaching-design.md"
+            "references/reference-teaching-design.md"
           ],
           "adaptation": "Demonstrate complete tasks before increasing complexity, distinguish supportive and procedural information, and do not claim a static manuscript has observed skill performance."
         },
@@ -78,7 +78,7 @@
             "Social context and evidence limits"
           ],
           "destinations": [
-            "references/teaching-design.md"
+            "references/reference-teaching-design.md"
           ],
           "adaptation": "Address objections in the original material and preserve disagreements; a static manuscript does not simulate nonexistent teacher–student interaction."
         },
@@ -92,7 +92,7 @@
             "Assessment multiple sources and media limits: Chapter 44"
           ],
           "destinations": [
-            "references/teaching-design.md"
+            "references/reference-teaching-design.md"
           ],
           "adaptation": "Use diagrams, complete demonstrations, segmentation, and source attribution as needed; preserve chapter authorship and limits on extrapolating effects."
         },
@@ -108,6 +108,18 @@
             "NOTICE.md"
           ],
           "adaptation": "Preserve license and original-author copyright notices; do not extend them to original books, textbooks, or private classroom materials."
+        },
+        {
+          "path": "examples/shared-discern.md",
+          "sections": [
+            "Lines 3–34, changed batch capacity and the scheduling objection"
+          ],
+          "destinations": [
+            "references/reference-teaching-design.md"
+          ],
+          "adaptation": "The upstream skill's own synthetic demonstration of a changed condition and an objection to its model.",
+          "sha256": "abfd156edc10ee76338228f919581371bf52e3ca30c30dffc9420555d48a28d8",
+          "worktree_status": "clean"
         }
       ]
     },
@@ -129,7 +141,7 @@
             "Scope and currency"
           ],
           "destinations": [
-            "references/law-reasoning.md"
+            "references/reference-law-reasoning.md"
           ],
           "adaptation": "Turn argument checks into course explanations, distinguishing inference from premises without inheriting advice formats or a current-law database capability."
         },
@@ -144,7 +156,7 @@
             "Revision record and stopping rule"
           ],
           "destinations": [
-            "references/law-reasoning.md"
+            "references/reference-law-reasoning.md"
           ],
           "adaptation": "Preserve support types, independent routes, updating, and rebuttals; identify the four categories as an upstream synthesis."
         },
@@ -153,14 +165,12 @@
           "sha256": "f821f401a927a86f0c4ac6b2bbf61824477b59f40065424750fd92ee9665ffe4",
           "worktree_status": "clean",
           "sections": [
-            "III. The Layout of Arguments pp.87–134",
-            "Constructed legal reconstruction: an automated receipt",
-            "Decision Rules & Judgment"
+            "Essay III pp. 87–114; Harry example pp. 93–98; warrant-using and warrant-establishing"
           ],
           "destinations": [
-            "references/law-reasoning.md"
+            "references/reference-law-reasoning.md"
           ],
-          "adaptation": "Supply implicit bridges, backing, and qualifications; adapt the upload example into explicitly synthetic classroom rules while preserving independent routes."
+          "adaptation": "Distinguish where in an inference support or a rebutting condition belongs. The historical illustration does not establish current nationality law."
         },
         {
           "path": "references/hohfeld-toolkit.md",
@@ -172,7 +182,7 @@
             "Fundamental Jural Relations Contrasted with One Another pp.28–59"
           ],
           "destinations": [
-            "references/law-reasoning.md"
+            "references/reference-law-reasoning.md"
           ],
           "adaptation": "Use permission/protection and power/duty distinctions only where relations are unclear; classification does not create substantive rules."
         },
@@ -187,7 +197,7 @@
             "Chapters 12–13 pp.237–280"
           ],
           "destinations": [
-            "references/law-reasoning.md"
+            "references/reference-law-reasoning.md"
           ],
           "adaptation": "Distinguish rule-application structure, justification of premises, universalizable reasons, and defeasible arguments; impose no universal hierarchy of interpretation."
         },
@@ -203,30 +213,80 @@
             "NOTICE.md"
           ],
           "adaptation": "Preserve license and original-author copyright notices; do not extend them to original books, textbooks, or private classroom materials."
+        },
+        {
+          "path": "references/reference-analysis-of-evidence.md",
+          "sections": [
+            "Chs. 1–4, 6–8; United States v. Able exercise"
+          ],
+          "destinations": [
+            "references/reference-law-reasoning.md"
+          ],
+          "adaptation": "Separate sources, intermediate inferences, corroboration and the ultimate proposition; retain the distinct routes concerning motive, knowledge and intent.",
+          "sha256": "fac6d04b2c44b7c12d25c82a57ffdd083529882beda85157314415dbe265de9d",
+          "worktree_status": "clean"
+        },
+        {
+          "path": "references/precedent-method.md",
+          "sections": [
+            "Chs. 1, 3–4; pp. 1–30, 58–110, 111–149"
+          ],
+          "destinations": [
+            "references/reference-law-reasoning.md"
+          ],
+          "adaptation": "Explain independent sufficient grounds, fragmented agreement, considered dicta, and distinguishing a decision.",
+          "sha256": "9719b558de5781a7e59988feb300cdd9e77c7838ea958063f48bcabacc64efcc",
+          "worktree_status": "clean"
+        },
+        {
+          "path": "references/reference-argumentation-schemes.md",
+          "sections": [
+            "Chs. 1–3, 5–7, 9; pp. 308–346"
+          ],
+          "destinations": [
+            "references/reference-law-reasoning.md"
+          ],
+          "adaptation": "Examine expertise, analogy, evidential absence and alternative causes using questions specific to the kind of inference.",
+          "sha256": "b846ba10cbc84e7eeb704a6dedafc81f766441b19e85198936f613f6baac7a73",
+          "worktree_status": "clean"
+        },
+        {
+          "path": "references/reference-prakken-defeasible-argument.md",
+          "sections": [
+            "Chs. 4–8; §§6.5.1, 6.5.8–9, 7.5.3"
+          ],
+          "destinations": [
+            "references/reference-law-reasoning.md"
+          ],
+          "adaptation": "Distinguish undercutting, rebuttal, reinstatement, unresolved opposition and support under different assumptions.",
+          "sha256": "fcd767f3d1ea16164e5a646b50b9ef715fd8ce18f10079179f98225c5cadccd1",
+          "worktree_status": "clean"
         }
       ]
     },
     {
       "repo": "transcript-proofreader",
       "role": "optional_input_repair",
-      "head": "666eeae172a9c9019836d3840733c0420ba148d1",
+      "head": "7f2964a77651bb38af28d9ecbfd04a26abe74a83",
       "license": "MIT",
       "copyright": "Copyright (c) 2026 Ariel Lee",
       "files": [
         {
           "path": "SKILL.md",
-          "sha256": "42a089c56a800aeda57c20677d6adc4501026cf31b7ce166ad617790fc3d18b7",
+          "sha256": "96b45782fd0b70ac21d7db3449d2d7a554aee40d100e61f5832d0d723b15f3e0",
           "worktree_status": "clean",
           "sections": [
             "Default: a clean oral record",
             "Repair obvious ASR damage proactively",
-            "Make the evidence change the decision",
-            "Carry decisions through the whole job"
+            "Decide what the evidence resolves",
+            "Keep voice, additions and authority distinguishable",
+            "Carry decisions through the whole job",
+            "Deliver a usable record and an accountable explanation"
           ],
           "destinations": [
-            "references/transcript-repair.md"
+            "references/reference-transcript-repair.md"
           ],
-          "adaptation": "Extract contextual repair, original preservation, entity memory, and treatment of core ambiguity. Proofreading rules govern only preliminary repair; do not inherit the English default, person-specific glossary, or format conventions."
+          "adaptation": "Compare competing readings using independent discriminating clues, distinguish speech from truth, and carry justified repairs across related passages."
         },
         {
           "path": "LICENSE",
@@ -240,6 +300,42 @@
             "NOTICE.md"
           ],
           "adaptation": "Preserve license and original-author copyright notices; do not extend them to original books, textbooks, or private classroom materials."
+        },
+        {
+          "path": "references/reference-einsohn-copyediting.md",
+          "sections": [
+            "Chs. 1–3, 7–8; pp. 12–14, 66–68, 76–78, 194–196, 208–214; departmental-list worked example"
+          ],
+          "destinations": [
+            "references/reference-transcript-repair.md"
+          ],
+          "adaptation": "Connect editing level and FIQ with numerical distinctions, quotation boundaries and decisions that require substantive evidence.",
+          "sha256": "64aa670c2fc6e3f155dca2c4cacf5ccc519cdac19bac4997afd7702ed1aac41b",
+          "worktree_status": "clean"
+        },
+        {
+          "path": "references/reference-hill-king-oral-history.md",
+          "sections": [
+            "Preface pp. ix–x; note p. xv; descriptive entries and index scope"
+          ],
+          "destinations": [
+            "references/reference-transcript-repair.md"
+          ],
+          "adaptation": "Separate oral testimony, retrospective claims, catalog records, speaker review, and unknown underlying words.",
+          "sha256": "f1b7ea8c94c86c71dbf3b250ad0b378ad4c657b2bdfb6749122d26026fc9ca8b",
+          "worktree_status": "clean"
+        },
+        {
+          "path": "references/reference-saller-editorial-relations.md",
+          "sections": [
+            "Chs. 2–7, 11; pp. 35–36, 46–48, 59–63, 74–78"
+          ],
+          "destinations": [
+            "references/reference-transcript-repair.md"
+          ],
+          "adaptation": "Use narrow queries, category disclosure and recoverable versions when intervention can alter meaning.",
+          "sha256": "68bc4156ff122061d5ca545c852f605149492d145b8acbcc412a53c0ffd68c21",
+          "worktree_status": "clean"
         }
       ]
     },
@@ -316,5 +412,11 @@
         }
       ]
     }
-  ]
+  ],
+  "original_sources": {
+    "path": "fidelity-ledger/original-sources.json",
+    "sha256": "9d5d01b9f7328344207511fbccedcf91bdf540e7e38e64c7fb3ea392be8b9ee3",
+    "description": "Supplementary primary-publication register for five teaching works, seven legal publications and three editorial works. Includes the excluded mislabeled legal item and the provenance of supplied text companions."
+  },
+  "upstream_verification": "All 27 registered file contents in the four local Git repositories matched the recorded SHA-256 values at their recorded commit IDs on 2026-11-19. This check identifies the historical inputs independently of subsequent working-tree changes."
 }

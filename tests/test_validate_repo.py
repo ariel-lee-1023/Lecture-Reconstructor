@@ -18,12 +18,20 @@ class RepoTests(unittest.TestCase):
         self.root=Path(self.temp.name)
         for rel in validator.REQUIRED:
             p=self.root/rel; p.parent.mkdir(parents=True,exist_ok=True);p.write_text('Substantive fixture.\n')
-        (self.root/'SKILL.md').write_text('---\nname: lecture-reconstructor\ndescription: Reconstruct a supplied transcript into a lecture.\n---\n\n[Teaching](references/teaching-design.md)\n')
+        for rel, target in validator.ALIASES.items():
+            path = self.root / rel
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.symlink_to(target, target_is_directory=rel.startswith('.agents/'))
+        routes = [f'[{name}]({name})' for name in [*validator.METHODS, 'WORKFLOW.md']]
+        (self.root/'SKILL.md').write_text(
+            '---\nname: lecture-reconstructor\ndescription: Reconstruct a supplied transcript into a lecture.\n---\n'
+            '\nTeach the supplied class.\n\n## Loading depth (host-agent note)\n' + '\n'.join(routes) + '\n'
+        )
         (self.root/'evals/cases').mkdir()
         (self.root/'evals/cases/input.md').write_text('Synthetic transcript: a permission need not impose a duty.\n')
         self.manifest={'schema_version':'1.0','sources':[]}
         for repo in sorted(validator.EXPECTED_SOURCES):
-            self.manifest['sources'].append({'repo':repo,'head':'unknown','role':'adaptation','files':[{'path':'LICENSE','sha256':'a'*64,'worktree_status':'clean','sections':['full MIT notice'],'destinations':['LICENSE','NOTICE.md'],'adaptation':'Preserve attribution.'},{'path':'SKILL.md','sha256':'b'*64,'worktree_status':'clean','sections':['selected methods'],'destinations':validator.RUNTIME[1:4],'adaptation':'Adapt selected mechanisms to lecture writing.'}]})
+            self.manifest['sources'].append({'repo':repo,'head':'unknown','role':'adaptation','files':[{'path':'LICENSE','sha256':'a'*64,'worktree_status':'clean','sections':['full MIT notice'],'destinations':['LICENSE','NOTICE.md'],'adaptation':'Preserve attribution.'},{'path':'SKILL.md','sha256':'b'*64,'worktree_status':'clean','sections':['selected methods'],'destinations':validator.METHODS,'adaptation':'Adapt selected mechanisms to lecture writing.'}]})
 
     def validate(self):
         (self.root/'fidelity-ledger/source-manifest.json').write_text(json.dumps(self.manifest))
@@ -36,9 +44,40 @@ class RepoTests(unittest.TestCase):
         self.assertEqual(0,self.validate()['exit_code'])
 
     def test_missing_runtime(self):
-        (self.root/'references/teaching-design.md').unlink()
+        (self.root / validator.METHODS[0]).unlink()
         self.rejects('REQUIRED_FILE')
         self.rejects('BROKEN_LINK')
+
+    def test_discovery_alias_is_required(self):
+        (self.root / '.agents/skills/lecture-reconstructor').unlink()
+        self.rejects('PACKAGE_ALIAS')
+
+    def test_legacy_copy_is_not_an_alias(self):
+        path = self.root / 'references/law-reasoning.md'
+        content = path.read_bytes()
+        path.unlink()
+        path.write_bytes(content)
+        self.rejects('PACKAGE_ALIAS')
+
+    def test_legacy_path_cannot_replace_canonical_route(self):
+        skill = self.root / 'SKILL.md'
+        method = validator.METHODS[0]
+        skill.write_text(skill.read_text().replace(f']({method})', '](references/teaching-design.md)'))
+        self.rejects('MISSING_ROUTE')
+
+    def test_workflow_links_use_canonical_directory(self):
+        workflow = self.root / 'WORKFLOW.md'
+        workflow.write_text('[Methods](references/reference-teaching-design.md)')
+        self.assertEqual(0, self.validate()['exit_code'])
+        workflow.write_text('Read `/srv/private/workflow.md`.')
+        self.rejects('RUNTIME_ABSOLUTE_PATH')
+
+    def test_legacy_source_manifest_destinations(self):
+        for source in self.manifest['sources']:
+            source['files'][1]['destinations'] = [
+                'references/teaching-design.md', 'references/law-reasoning.md', 'references/transcript-repair.md'
+            ]
+        self.assertEqual(0, self.validate()['exit_code'])
 
     def test_absolute_runtime_dependency(self):
         (self.root/'references/teaching-design.md').write_text('Read `/Users/example/private/SKILL.md`.')

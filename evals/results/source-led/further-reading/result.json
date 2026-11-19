@@ -1,0 +1,28 @@
+{
+  "scope": "One fictional museum class with a deliberately incomplete slide and a shelf of three optional archival documents. The model could choose among them. The fixture designer reviewed the resulting passage. This is a bounded local reading-selection exercise.",
+  "status": "pass",
+  "inputs": {
+    "material.txt": "597d98d8846c80f04995ec629daadaec2f3abce83413853223fdacf626427543",
+    "request.txt": "9b03856576c42ebf36268ebc635cb0e486749f3da44f674325c27f0a32992850",
+    "shelf/brochure.txt": "f5493503f22d51be864f927ebb219bf1e0590f3fb44a3ec1f841f80de46ddeb8",
+    "shelf/index.txt": "8c00836d43636620d27d2e633382bad25cb754b6d75764ad190df0a74f968ac4",
+    "shelf/minutes.txt": "657b511c2809827ee8b8f61bc3e1daa479daf43f8b4627f5065042bde4000f74",
+    "shelf/register.txt": "c0a3985a0adc5a6058da3b796efa5b0be137f0f79a9f523a689f4e64ed29e8b1"
+  },
+  "consulted_sources": [
+    "shelf/register.txt",
+    "shelf/minutes.txt"
+  ],
+  "available_but_unopened_by_generator": [
+    "shelf/brochure.txt"
+  ],
+  "selection_record": "read.txt",
+  "output": "response.md",
+  "output_sha256": "1355492aa2cc8c168ead9c51de3a79d3dba305ee0b4da1847f4ada00f83f7eb7",
+  "runtime_at_generation": {
+    "SKILL.md": "b484d56961d933c38c6781199d17e8209c3f8b8c313159e3e3d367cd424dd512",
+    "WORKFLOW.md": "34e8737d506300a7d3a9f9aeaf806c325ce06c784f03009ae1f13fe7b8b3af1e",
+    "references/reference-teaching-design.md": "58f2b0d49f8cdb455dbe2517d421b9a06afce8bea22365abd82ff5dd9fd17e27"
+  },
+  "review": "review.md"
+}

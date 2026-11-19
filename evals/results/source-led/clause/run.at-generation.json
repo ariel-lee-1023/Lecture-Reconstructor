@@ -1,0 +1,425 @@
+{
+  "schema_version": "1.0",
+  "run_id": "source-led-damaged-crate",
+  "status": "complete",
+  "stage": "deliver",
+  "course": {
+    "title": "Did the damaged-crate claim reach the desk in time?",
+    "scope": "A newly designed lecture based on the full assigned fictional seminar exhibit, §§1–4 and Exhibit A. No transcript was supplied.",
+    "jurisdiction": "unknown; the parties and rules are fictional",
+    "time_context": "unknown",
+    "audience": "student who missed the contracts seminar",
+    "assumptions": [
+      "The exhibit expressly excludes background law."
+    ]
+  },
+  "inputs": [
+    {
+      "id": "assigned-exhibit",
+      "kind": "assigned synthetic contracts seminar exhibit, including definitions, notice provisions, and Exhibit A facts",
+      "path": "input/material.txt",
+      "normalized_path": "input/material.txt",
+      "sha256": "29569686a4fac4141fa6b09849e05fb301edf6e62b36ff4a24d9dd718faa42e1",
+      "normalized_sha256": "29569686a4fac4141fa6b09849e05fb301edf6e62b36ff4a24d9dd718faa42e1"
+    }
+  ],
+  "source_review": [
+    {
+      "input_id": "assigned-exhibit",
+      "start_line": 1,
+      "end_line": 6,
+      "status": "reviewed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "exhibit",
+      "uri": "input/material.txt",
+      "version": "user-supplied material.txt",
+      "locator": "Lines 1–6, including §§1–4 and Exhibit A.",
+      "read_status": "read"
+    }
+  ],
+  "content_units": [
+    {
+      "id": "scope",
+      "proposition": "The entire assigned synthetic exhibit is the sole source, with fictional rules, local times and no background law.",
+      "type": "scope",
+      "locations": [
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 1,
+          "end_line": 1,
+          "excerpt": "Synthetic seminar exhibit: two notice provisions. All parties and rules are fictional."
+        },
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 2,
+          "end_line": 2,
+          "excerpt": "§1 “Working day” means Monday through Friday. Monday is a working day. Times are local. No background law is assumed for this exercise."
+        }
+      ],
+      "targets": [
+        {
+          "chapter_id": "claim",
+          "anchor": "claim"
+        }
+      ],
+      "source_ids": [
+        "exhibit"
+      ],
+      "status": "represented",
+      "reason": "Applied to its own provision, facts or explicitly conditional example in the anchored passage."
+    },
+    {
+      "id": "rule-2",
+      "proposition": "A damaged-crate claim lapses unless the written claim reaches the claims desk by Friday at 17:00.",
+      "type": "rule",
+      "locations": [
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 3,
+          "end_line": 3,
+          "excerpt": "§2 A claim for a damaged crate lapses unless a written claim reaches the claims desk by 17:00 on Friday."
+        }
+      ],
+      "targets": [
+        {
+          "chapter_id": "claim",
+          "anchor": "event"
+        }
+      ],
+      "source_ids": [
+        "exhibit"
+      ],
+      "status": "represented",
+      "reason": "Applied to its own provision, facts or explicitly conditional example in the anchored passage."
+    },
+    {
+      "id": "rule-3",
+      "proposition": "Courier handover makes routine correspondence effective and is explicitly inapplicable to §2 notices.",
+      "type": "exception to dispatch rule",
+      "locations": [
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "§3 Routine correspondence is effective when handed to a courier. This dispatch rule does not apply to notices under §2."
+        }
+      ],
+      "targets": [
+        {
+          "chapter_id": "claim",
+          "anchor": "event"
+        }
+      ],
+      "source_ids": [
+        "exhibit"
+      ],
+      "status": "represented",
+      "reason": "Applied to its own provision, facts or explicitly conditional example in the anchored passage."
+    },
+    {
+      "id": "ordinary",
+      "proposition": "This particular written claim was collected Friday 16:45 and reached the desk Monday 09:35, missing Friday's ordinary cutoff.",
+      "type": "application",
+      "locations": [
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 3,
+          "end_line": 3,
+          "excerpt": "§2 A claim for a damaged crate lapses unless a written claim reaches the claims desk by 17:00 on Friday."
+        },
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "§3 Routine correspondence is effective when handed to a courier. This dispatch rule does not apply to notices under §2."
+        },
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 6,
+          "end_line": 6,
+          "excerpt": "Exhibit A: The carrier collected a written damage claim Friday at 16:45. The claims desk received it Monday at 09:35. At Friday 16:30 a warehouse employee told the sender that the claims desk was closed. Nothing else establishes whether the desk sent its own closure notice."
+        }
+      ],
+      "targets": [
+        {
+          "chapter_id": "claim",
+          "anchor": "event"
+        }
+      ],
+      "source_ids": [
+        "exhibit"
+      ],
+      "status": "represented",
+      "reason": "Applied to its own provision, facts or explicitly conditional example in the anchored passage."
+    },
+    {
+      "id": "rule-4",
+      "proposition": "The desk itself must send a closure notice before Friday 17:00 for a deadline change.",
+      "type": "condition",
+      "locations": [
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "§4 Where the claims desk itself sends a notice of closure before Friday at 17:00, the §2 deadline moves to 10:00 on the next working day."
+        }
+      ],
+      "targets": [
+        {
+          "chapter_id": "claim",
+          "anchor": "closure"
+        }
+      ],
+      "source_ids": [
+        "exhibit"
+      ],
+      "status": "represented",
+      "reason": "Applied to its own provision, facts or explicitly conditional example in the anchored passage."
+    },
+    {
+      "id": "unknown-sender",
+      "proposition": "Friday 16:30 warehouse employee’s report leaves the desk's dispatch and time unresolved. Its absence from the record does not prove no such notice was sent.",
+      "type": "evidential limit",
+      "locations": [
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "§4 Where the claims desk itself sends a notice of closure before Friday at 17:00, the §2 deadline moves to 10:00 on the next working day."
+        },
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 6,
+          "end_line": 6,
+          "excerpt": "Exhibit A: The carrier collected a written damage claim Friday at 16:45. The claims desk received it Monday at 09:35. At Friday 16:30 a warehouse employee told the sender that the claims desk was closed. Nothing else establishes whether the desk sent its own closure notice."
+        }
+      ],
+      "targets": [
+        {
+          "chapter_id": "claim",
+          "anchor": "closure"
+        }
+      ],
+      "source_ids": [
+        "exhibit"
+      ],
+      "status": "represented",
+      "reason": "Applied to its own provision, facts or explicitly conditional example in the anchored passage."
+    },
+    {
+      "id": "calendar",
+      "proposition": "Monday through Friday are working days; Monday is a working day, so the extended deadline would be Monday 10:00.",
+      "type": "definition and application",
+      "locations": [
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 2,
+          "end_line": 2,
+          "excerpt": "§1 “Working day” means Monday through Friday. Monday is a working day. Times are local. No background law is assumed for this exercise."
+        },
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "§4 Where the claims desk itself sends a notice of closure before Friday at 17:00, the §2 deadline moves to 10:00 on the next working day."
+        }
+      ],
+      "targets": [
+        {
+          "chapter_id": "claim",
+          "anchor": "outcomes"
+        }
+      ],
+      "source_ids": [
+        "exhibit"
+      ],
+      "status": "represented",
+      "reason": "Applied to its own provision, facts or explicitly conditional example in the anchored passage."
+    },
+    {
+      "id": "open-outcome",
+      "proposition": "Desk notice timely: Monday receipt at 09:35 is within the 10:00 cutoff. Otherwise the Friday deadline remains and the claim lapses.",
+      "type": "conditional outcome",
+      "locations": [
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 2,
+          "end_line": 2,
+          "excerpt": "§1 “Working day” means Monday through Friday. Monday is a working day. Times are local. No background law is assumed for this exercise."
+        },
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 3,
+          "end_line": 3,
+          "excerpt": "§2 A claim for a damaged crate lapses unless a written claim reaches the claims desk by 17:00 on Friday."
+        },
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "§4 Where the claims desk itself sends a notice of closure before Friday at 17:00, the §2 deadline moves to 10:00 on the next working day."
+        },
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 6,
+          "end_line": 6,
+          "excerpt": "Exhibit A: The carrier collected a written damage claim Friday at 16:45. The claims desk received it Monday at 09:35. At Friday 16:30 a warehouse employee told the sender that the claims desk was closed. Nothing else establishes whether the desk sent its own closure notice."
+        }
+      ],
+      "targets": [
+        {
+          "chapter_id": "claim",
+          "anchor": "outcomes"
+        }
+      ],
+      "source_ids": [
+        "exhibit"
+      ],
+      "status": "represented",
+      "reason": "Applied to its own provision, facts or explicitly conditional example in the anchored passage."
+    },
+    {
+      "id": "threshold",
+      "proposition": "The strict before in §4 excludes a notice sent exactly at 17:00 on Friday; this is a teaching variation.",
+      "type": "textual boundary",
+      "locations": [
+        {
+          "input_id": "assigned-exhibit",
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "§4 Where the claims desk itself sends a notice of closure before Friday at 17:00, the §2 deadline moves to 10:00 on the next working day."
+        }
+      ],
+      "targets": [
+        {
+          "chapter_id": "claim",
+          "anchor": "outcomes"
+        }
+      ],
+      "source_ids": [
+        "exhibit"
+      ],
+      "status": "represented",
+      "reason": "Applied to its own provision, facts or explicitly conditional example in the anchored passage."
+    }
+  ],
+  "chapters": [
+    {
+      "id": "claim",
+      "path": "chapters/01-damaged-crate.md",
+      "anchor": "claim",
+      "status": "assembled",
+      "learning_object": "Determine which event counts and calculate both deadlines without assuming the disputed trigger.",
+      "relations": [
+        "The document class selects the operative delivery event.",
+        "The identity and time of the sender of a closure notice select the deadline.",
+        "Both deadlines apply to the same receipt time conditionally."
+      ],
+      "prerequisites": [
+        "Identify the parties and distinguish the written claim from the closure notice."
+      ],
+      "approach": "Start with a plausible dispatch argument and the express exclusion. Work the actual times, then vary only the desk's notice.",
+      "role": "A standalone lecture covering the whole assigned exhibit.",
+      "content_unit_ids": [
+        "scope",
+        "rule-2",
+        "rule-3",
+        "ordinary",
+        "rule-4",
+        "unknown-sender",
+        "calendar",
+        "open-outcome",
+        "threshold"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "reaches",
+      "decision": "The desk's receipt of the written damage claim under §2."
+    },
+    {
+      "term": "sends",
+      "decision": "The desk's dispatch of the closure notice under §4."
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "desk-dispatch",
+      "question": "Did the desk itself send a closure notice before Friday at 17:00?",
+      "impact": "Selects Friday or Monday as the cutoff; both outcomes can be taught.",
+      "resolution_condition": "Evidence of the desk's dispatch and time, or evidence that no qualifying dispatch took place.",
+      "status": "open",
+      "blocking": false,
+      "blocking_reason": "The exhibit deliberately leaves this fact unsettled. A complete lecture can explain both branches."
+    }
+  ],
+  "runtime_revision": {
+    "host": "Codex",
+    "model": "unknown",
+    "settings": {},
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "b484d56961d933c38c6781199d17e8209c3f8b8c313159e3e3d367cd424dd512"
+      },
+      {
+        "path": "WORKFLOW.md",
+        "sha256": "34e8737d506300a7d3a9f9aeaf806c325ce06c784f03009ae1f13fe7b8b3af1e"
+      },
+      {
+        "path": "references/reference-teaching-design.md",
+        "sha256": "15f5776bd903a9f061afe11fa90b3e0e65ea82473a5a0f8e7de0b3871812eceb"
+      },
+      {
+        "path": "references/reference-law-reasoning.md",
+        "sha256": "4108316eb5e990b2c7a1fafd4161287b6fc1e1fb604758ec69bdc61b41871511"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "e67176797f5b4fc176a30f9e9f37f9d9ca37092d4c16932fef5ad44d79dff9ae"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "semantic",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "date": "2026-11-19",
+      "method": "Compared the whole exhibit and the final assembled lecture in both directions, checked mapped items and both conditional outcomes.",
+      "evidence": "semantic-review.md",
+      "output_sha256": "8b3edba563af385e42d7b3d7bba933f6703ee7ee9b6beaabdbc9ed1d8fa4e0da"
+    },
+    {
+      "id": "structure",
+      "kind": "mechanical",
+      "scope": "run",
+      "status": "pass",
+      "date": "2026-11-19",
+      "method": "Run the current package checker with --json and verify the completed record.",
+      "evidence": "checker-result.json"
+    }
+  ],
+  "revision_round": 1,
+  "output": {
+    "path": "lecture.md"
+  },
+  "resume": {
+    "completed": [
+      "Mapped the whole source exhibit.",
+      "Wrote and assembled the lecture.",
+      "Reviewed all items and the complete lecture; removed two details beyond the source."
+    ],
+    "remaining": [],
+    "next_action": "Deliver the lecture and its review."
+  }
+}

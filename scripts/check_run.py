@@ -170,7 +170,7 @@ class Checker:
 
         input_items, inputs = self.indexed(run.get('inputs'), 'inputs')
         if complete and not inputs:
-            self.error('EMPTY_INPUT', 'inputs', 'complete requires readable transcript input')
+            self.error('EMPTY_INPUT', 'inputs', 'complete requires a readable course question, transcript, or primary material')
         for item, at in input_items:
             self.string(item.get('kind'), at + '.kind')
             original = self.path(item.get('path'), at + '.path')

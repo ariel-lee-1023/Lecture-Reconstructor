@@ -1,0 +1,40 @@
+{
+  "recorded_on": "2026-11-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "3e27ba56ec043c8f2675ef6ff9acca85b1e486f0e780a71dcee00b88a171291f"
+    },
+    {
+      "path": "WORKFLOW.md",
+      "sha256": "785bca8f588ee3c235d0321785821704e65521b6cb0062ede6e4a88910154188"
+    },
+    {
+      "path": "references/reference-law-reasoning.md",
+      "sha256": "fd80dc17554bc6f06a4911413232b9e884669c32bb0c1f3ea3d0e9171ada4cf6"
+    },
+    {
+      "path": "references/reference-teaching-design.md",
+      "sha256": "d80b1da5835da0a1dde7512183e03a042c4d81a213e9251d8212c1c61ba200f9"
+    },
+    {
+      "path": "references/reference-transcript-repair.md",
+      "sha256": "d0fd9b65669dbcf99cbfca2662c837049d2ef43f7a24eb5c2f7ddd5ad7b69691"
+    },
+    {
+      "path": "schemas/run.schema.json",
+      "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+    },
+    {
+      "path": "scripts/check_run.py",
+      "sha256": "225b0fd86c00c822c54876074e3bf4161a2dba5fd1e09e409b2af2f12317ca9a"
+    },
+    {
+      "path": "scripts/validate_repo.py",
+      "sha256": "e320b048d2dece98617cde61680c2e880ae5f3f31ebe0d383166072d436d8705"
+    }
+  ],
+  "meaning": "First-person domain core, conditional source loading, expanded teaching, legal and transcript modules, and an explicit operational workflow. The package checker now verifies canonical paths, source routing and discovery aliases. Historic behavioral evidence retains its original identities.",
+  "revision": "classroom-reconstruction-guidance",
+  "previous_revision": "fidelity-ledger/runtime-revision.pre-reconstruction-guidance.json"
+}

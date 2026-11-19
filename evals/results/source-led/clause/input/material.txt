@@ -1,0 +1,6 @@
+Synthetic seminar exhibit: two notice provisions. All parties and rules are fictional.
+§1 “Working day” means Monday through Friday. Monday is a working day. Times are local. No background law is assumed for this exercise.
+§2 A claim for a damaged crate lapses unless a written claim reaches the claims desk by 17:00 on Friday.
+§3 Routine correspondence is effective when handed to a courier. This dispatch rule does not apply to notices under §2.
+§4 Where the claims desk itself sends a notice of closure before Friday at 17:00, the §2 deadline moves to 10:00 on the next working day.
+Exhibit A: The carrier collected a written damage claim Friday at 16:45. The claims desk received it Monday at 09:35. At Friday 16:30 a warehouse employee told the sender that the claims desk was closed. Nothing else establishes whether the desk sent its own closure notice.

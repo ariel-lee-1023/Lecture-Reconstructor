@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0",
+  "run_id": "notice-contracts-seminar",
+  "status": "complete",
+  "stage": "deliver",
+  "course": {
+    "title": "When does late notice cost a party its claim?",
+    "scope": "One classroom comparison of the two notice clauses and the decision on River.",
+    "jurisdiction": "unknown; fictional exercise, no background law assumed",
+    "time_context": "unknown",
+    "audience": "students who missed the contracts seminar",
+    "assumptions": []
+  },
+  "inputs": [
+    {
+      "id": "packet",
+      "path": "input/original.txt",
+      "sha256": "3a3068ce44a96af67bb00b731eac2c2502175ab1eb67102c8d51e2cfb814cc09",
+      "kind": "transcript and handout in one packet",
+      "normalized_path": "input/transcript.txt",
+      "normalized_sha256": "3a3068ce44a96af67bb00b731eac2c2502175ab1eb67102c8d51e2cfb814cc09"
+    }
+  ],
+  "source_review": [
+    {
+      "input_id": "packet",
+      "start_line": 1,
+      "end_line": 16,
+      "status": "reviewed"
+    }
+  ],
+  "content_units": [
+    {
+      "id": "scope",
+      "proposition": "All parties and materials are fictional. No background law applies in the exercise.",
+      "locations": [
+        {
+          "input_id": "packet",
+          "start_line": 1,
+          "end_line": 1,
+          "excerpt": "Synthetic contracts seminar. All parties, documents, rules and decisions are invented for the exercise."
+        },
+        {
+          "input_id": "packet",
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "Teacher: In our first contract North promises to notify East promptly of a defect. The clause you have is the whole agreement about notice. It promises notice. Is a late claim automatically lost? That is a different question. We are not assuming any background law for today's exercise."
+        }
+      ],
+      "type": "qualification",
+      "status": "represented",
+      "reason": "Developed in the named passage through the wording or facts of the exercise.",
+      "targets": [
+        {
+          "chapter_id": "notice",
+          "anchor": "notice"
+        }
+      ],
+      "source_ids": [
+        "seminar"
+      ]
+    },
+    {
+      "id": "north-duty",
+      "proposition": "North owes East prompt notice after discovering a defect.",
+      "locations": [
+        {
+          "input_id": "packet",
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "Teacher: In our first contract North promises to notify East promptly of a defect. The clause you have is the whole agreement about notice. It promises notice. Is a late claim automatically lost? That is a different question. We are not assuming any background law for today's exercise."
+        },
+        {
+          "input_id": "packet",
+          "start_line": 10,
+          "end_line": 10,
+          "excerpt": "“North shall notify East promptly after discovering a defect.”"
+        }
+      ],
+      "type": "obligation",
+      "status": "represented",
+      "reason": "Developed in the named passage through the wording or facts of the exercise.",
+      "targets": [
+        {
+          "chapter_id": "notice",
+          "anchor": "north"
+        }
+      ],
+      "source_ids": [
+        "seminar",
+        "page1"
+      ]
+    },
+    {
+      "id": "north-limit",
+      "proposition": "The clause exhausts the notice agreement and gives no basis for automatic lapse upon delay.",
+      "locations": [
+        {
+          "input_id": "packet",
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "Teacher: In our first contract North promises to notify East promptly of a defect. The clause you have is the whole agreement about notice. It promises notice. Is a late claim automatically lost? That is a different question. We are not assuming any background law for today's exercise."
+        },
+        {
+          "input_id": "packet",
+          "start_line": 10,
+          "end_line": 10,
+          "excerpt": "“North shall notify East promptly after discovering a defect.”"
+        }
+      ],
+      "type": "limit",
+      "status": "represented",
+      "reason": "Developed in the named passage through the wording or facts of the exercise.",
+      "targets": [
+        {
+          "chapter_id": "notice",
+          "anchor": "north"
+        }
+      ],
+      "source_ids": [
+        "seminar",
+        "page1"
+      ]
+    },
+    {
+      "id": "objection",
+      "proposition": "The student's proposed analogy asks whether River's loss transfers to North despite different language.",
+      "locations": [
+        {
+          "input_id": "packet",
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "Student: But in River's contract a late claim was lost. Why treat North any differently?"
+        },
+        {
+          "input_id": "packet",
+          "start_line": 10,
+          "end_line": 10,
+          "excerpt": "“North shall notify East promptly after discovering a defect.”"
+        },
+        {
+          "input_id": "packet",
+          "start_line": 13,
+          "end_line": 13,
+          "excerpt": "“A claim lapses unless signed notice reaches the buyer by Friday at 17:00.”"
+        }
+      ],
+      "type": "objection",
+      "status": "represented",
+      "reason": "Developed in the named passage through the wording or facts of the exercise.",
+      "targets": [
+        {
+          "chapter_id": "notice",
+          "anchor": "notice"
+        }
+      ],
+      "source_ids": [
+        "seminar",
+        "page1",
+        "page2"
+      ]
+    },
+    {
+      "id": "river-term",
+      "proposition": "River's claim lapses unless signed notice reaches the buyer by Friday at 17:00.",
+      "locations": [
+        {
+          "input_id": "packet",
+          "start_line": 6,
+          "end_line": 6,
+          "excerpt": "Teacher: Open the specimen on the next page. With River, a notice of claim had to reach the buyer. People often draft it that way; I would also negotiate a fallback if the address changes. That's my drafting preference."
+        },
+        {
+          "input_id": "packet",
+          "start_line": 13,
+          "end_line": 13,
+          "excerpt": "“A claim lapses unless signed notice reaches the buyer by Friday at 17:00.”"
+        }
+      ],
+      "type": "condition",
+      "status": "represented",
+      "reason": "Developed in the named passage through the wording or facts of the exercise.",
+      "targets": [
+        {
+          "chapter_id": "notice",
+          "anchor": "river"
+        }
+      ],
+      "source_ids": [
+        "seminar",
+        "page2"
+      ]
+    },
+    {
+      "id": "river-events",
+      "proposition": "Friday 16:50 dispatch preceded the cutoff; Monday 09:00 delivery failed timely receipt.",
+      "locations": [
+        {
+          "input_id": "packet",
+          "start_line": 7,
+          "end_line": 7,
+          "excerpt": "Teacher: River's courier left on Friday at 16:50. Delivery was Monday at 09:00. The panel decided one ground. You don't have to guess what it would have done on the signature."
+        },
+        {
+          "input_id": "packet",
+          "start_line": 13,
+          "end_line": 13,
+          "excerpt": "“A claim lapses unless signed notice reaches the buyer by Friday at 17:00.”"
+        },
+        {
+          "input_id": "packet",
+          "start_line": 16,
+          "end_line": 16,
+          "excerpt": "The buyer received the notice on Monday. Late receipt disposes of the claim under the specimen. The parties also dispute whether the name typed at the foot of the notice was a signature. We do not decide that point."
+        }
+      ],
+      "type": "application",
+      "status": "represented",
+      "reason": "Developed in the named passage through the wording or facts of the exercise.",
+      "targets": [
+        {
+          "chapter_id": "notice",
+          "anchor": "river"
+        }
+      ],
+      "source_ids": [
+        "seminar",
+        "page2",
+        "page3"
+      ]
+    },
+    {
+      "id": "panel-scope",
+      "proposition": "Late receipt decided the case; the panel reserved whether a typed name amounted to a signature.",
+      "locations": [
+        {
+          "input_id": "packet",
+          "start_line": 7,
+          "end_line": 7,
+          "excerpt": "Teacher: River's courier left on Friday at 16:50. Delivery was Monday at 09:00. The panel decided one ground. You don't have to guess what it would have done on the signature."
+        },
+        {
+          "input_id": "packet",
+          "start_line": 16,
+          "end_line": 16,
+          "excerpt": "The buyer received the notice on Monday. Late receipt disposes of the claim under the specimen. The parties also dispute whether the name typed at the foot of the notice was a signature. We do not decide that point."
+        }
+      ],
+      "type": "holding",
+      "status": "represented",
+      "reason": "Developed in the named passage through the wording or facts of the exercise.",
+      "targets": [
+        {
+          "chapter_id": "notice",
+          "anchor": "signature"
+        }
+      ],
+      "source_ids": [
+        "seminar",
+        "page3"
+      ]
+    },
+    {
+      "id": "drafting-comment",
+      "proposition": "The teacher described receipt wording as common and the change-of-address fallback as a personal negotiation preference.",
+      "locations": [
+        {
+          "input_id": "packet",
+          "start_line": 6,
+          "end_line": 6,
+          "excerpt": "Teacher: Open the specimen on the next page. With River, a notice of claim had to reach the buyer. People often draft it that way; I would also negotiate a fallback if the address changes. That's my drafting preference."
+        }
+      ],
+      "type": "drafting preference",
+      "status": "represented",
+      "reason": "Developed in the named passage through the wording or facts of the exercise.",
+      "targets": [
+        {
+          "chapter_id": "notice",
+          "anchor": "drafting"
+        }
+      ],
+      "source_ids": [
+        "seminar"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "seminar",
+      "uri": "input/transcript.txt",
+      "version": "supplied classroom packet",
+      "locator": "Introduction and transcript, lines 1–7",
+      "read_status": "read"
+    },
+    {
+      "id": "page1",
+      "uri": "input/transcript.txt",
+      "version": "supplied classroom packet",
+      "locator": "Handout p. 1, lines 9–10",
+      "read_status": "read"
+    },
+    {
+      "id": "page2",
+      "uri": "input/transcript.txt",
+      "version": "supplied classroom packet",
+      "locator": "Handout p. 2, lines 12–13",
+      "read_status": "read"
+    },
+    {
+      "id": "page3",
+      "uri": "input/transcript.txt",
+      "version": "supplied classroom packet",
+      "locator": "Handout p. 3, lines 15–16",
+      "read_status": "read"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "notice",
+      "path": "chapters/01-notice.md",
+      "anchor": "notice",
+      "status": "assembled",
+      "learning_object": "Distinguish failure to give prompt notice from a stated condition for retaining a claim.",
+      "relations": [
+        "Compare promised performance with the consequence the clause specifies.",
+        "Connect the verb reaches with receipt and compare its actual time to the cutoff.",
+        "Separate the panel’s sole ground from a possible ground it reserved."
+      ],
+      "prerequisites": [
+        "Locate the parties, relevant action and exact wording in each clause."
+      ],
+      "approach": "Start with the student's analogy and resolve it with a close reading of the two clauses and the decision.",
+      "role": "Standalone seminar for the two examples.",
+      "content_unit_ids": [
+        "scope",
+        "north-duty",
+        "north-limit",
+        "objection",
+        "river-term",
+        "river-events",
+        "panel-scope",
+        "drafting-comment"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "lapses",
+      "decision": "Use for the claim consequence expressed in River’s clause."
+    },
+    {
+      "term": "reaches",
+      "decision": "Treat as receipt by the buyer, identified separately from courier departure."
+    }
+  ],
+  "open_issues": [],
+  "runtime_revision": {
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "3e27ba56ec043c8f2675ef6ff9acca85b1e486f0e780a71dcee00b88a171291f"
+      },
+      {
+        "path": "WORKFLOW.md",
+        "sha256": "785bca8f588ee3c235d0321785821704e65521b6cb0062ede6e4a88910154188"
+      },
+      {
+        "path": "references/reference-teaching-design.md",
+        "sha256": "d80b1da5835da0a1dde7512183e03a042c4d81a213e9251d8212c1c61ba200f9"
+      },
+      {
+        "path": "references/reference-law-reasoning.md",
+        "sha256": "fd80dc17554bc6f06a4911413232b9e884669c32bb0c1f3ea3d0e9171ada4cf6"
+      },
+      {
+        "path": "schemas/run.schema.json",
+        "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+      },
+      {
+        "path": "scripts/check_run.py",
+        "sha256": "225b0fd86c00c822c54876074e3bf4161a2dba5fd1e09e409b2af2f12317ca9a"
+      }
+    ],
+    "host": "Codex",
+    "model": "unknown",
+    "settings": {}
+  },
+  "checks": [
+    {
+      "id": "semantic-review",
+      "kind": "semantic",
+      "scope": "full_manuscript",
+      "status": "pass",
+      "method": "Same-agent review in two directions including all items, quoted language, timing, and the scope of the fictional decision.",
+      "date": "2026-11-19",
+      "evidence": "semantic-review.md",
+      "output_sha256": "2777ae937ab5ec106cf54cdd5a0d9b7fbbb031cfb3b1e986bc4a0207747b97e0"
+    },
+    {
+      "id": "checker",
+      "kind": "mechanical",
+      "scope": "saved run",
+      "status": "pass",
+      "method": "Package checker with --repo-root and --json, rerun after recording its result.",
+      "date": "2026-11-19",
+      "evidence": "checker-result.json"
+    }
+  ],
+  "revision_round": 1,
+  "output": {
+    "path": "lecture.md"
+  },
+  "resume": {
+    "completed": [
+      "Read the whole packet and mapped eight substantive points.",
+      "Drafted and assembled the lecture.",
+      "Reviewed all substantive items and the whole lecture in both directions; repaired and rechecked the attribution of North's promise."
+    ],
+    "remaining": [],
+    "next_action": "Deliver the completed lecture."
+  }
+}

@@ -3,19 +3,26 @@
 from __future__ import annotations
 import argparse
 import json
+import os
 from pathlib import Path
 import re
 import sys
 from urllib.parse import unquote
 
-REQUIRED = ['SKILL.md', 'AGENTS.md', 'README.md', 'intent.md', 'spec.md', 'plan.md',
-            'LICENSE', 'NOTICE.md', '.gitignore', 'references/teaching-design.md',
-            'references/law-reasoning.md', 'references/transcript-repair.md',
-            'references/reconstruction-workflow.md', 'schemas/run.schema.json',
+METHODS = ['references/reference-teaching-design.md', 'references/reference-law-reasoning.md',
+           'references/reference-transcript-repair.md']
+RUNTIME = ['SKILL.md', *METHODS, 'WORKFLOW.md']
+REQUIRED = [*RUNTIME, 'AGENTS.md', 'README.md', 'intent.md', 'spec.md', 'plan.md',
+            'LICENSE', 'NOTICE.md', '.gitignore', 'schemas/run.schema.json',
             'scripts/validate_repo.py', 'scripts/check_run.py', 'evals/acceptance.md',
             'fidelity-ledger/source-manifest.json', 'fidelity-ledger/validation.md']
-RUNTIME = ['SKILL.md', 'references/teaching-design.md', 'references/law-reasoning.md',
-           'references/transcript-repair.md', 'references/reconstruction-workflow.md']
+ALIASES = {
+    '.agents/skills/lecture-reconstructor': '../..',
+    'references/teaching-design.md': 'reference-teaching-design.md',
+    'references/law-reasoning.md': 'reference-law-reasoning.md',
+    'references/transcript-repair.md': 'reference-transcript-repair.md',
+    'references/reconstruction-workflow.md': '../WORKFLOW.md',
+}
 EXPECTED_SOURCES = {'indwell-via-shared-discern', 'legal-reasoning-advisor',
                     'transcript-proofreader', 'Models-and-Machines-colleague'}
 SHA = re.compile(r'^[0-9a-f]{64}$')
@@ -39,6 +46,15 @@ def validate_repo(root):
     for rel in REQUIRED:
         if not exists(rel):
             error('REQUIRED_FILE', rel, 'missing, empty, or outside package')
+    for name, target in ALIASES.items():
+        alias = root / name
+        if not alias.is_symlink() or alias.readlink() != Path(target):
+            error('PACKAGE_ALIAS', name, f'expected a relative symlink to {target}')
+        elif not alias.exists() or not alias.resolve().is_relative_to(root):
+            error('PACKAGE_ALIAS', name, 'symlink is broken or leaves the package')
+    for name in RUNTIME:
+        if (root / name).is_symlink():
+            error('CANONICAL_FILE', name, 'canonical runtime content must be a regular file')
     cases = root / 'evals/cases'
     if not cases.is_dir() or not any(p.is_file() and p.stat().st_size for p in cases.rglob('*')):
         error('MISSING_CASES', 'evals/cases', 'requires substantive test inputs')
@@ -53,9 +69,16 @@ def validate_repo(root):
             error('SKILL_NAME', 'SKILL.md', 'expected name: lecture-reconstructor')
         if not fields.get('description', '').strip('"\''):
             error('SKILL_DESCRIPTION', 'SKILL.md', 'nonempty description required')
+    loading = re.search(r'^## Loading depth[^\n]*\n(.*?)(?=^## |\Z)', skill, re.M | re.S | re.I)
+    routes = set()
+    if loading:
+        routes = {unquote(link.strip('<>')).split('#', 1)[0] for link in LINK.findall(loading.group(1))}
+    for name in [*METHODS, 'WORKFLOW.md']:
+        if name not in routes:
+            error('MISSING_ROUTE', name, 'expected a canonical link under Loading depth in SKILL.md')
     for rel in RUNTIME:
         path = root / rel
-        if not path.is_file():
+        if not path.is_file() or path.is_symlink():
             continue
         text = path.read_text(encoding='utf-8')
         for match in ABSOLUTE.finditer(text):
@@ -88,17 +111,22 @@ def validate_repo(root):
                 error('EXCLUDED_DEPENDENCY', f'{rel}:{line_no}', line)
     # Link existence is a package-wide documentation concern. Dependency/path
     # restrictions above remain scoped to runtime instructions only.
-    for path in root.rglob('*.md'):
-        rel = path.relative_to(root)
-        if any(part in {'.work', '.git', 'runs', '__pycache__'} for part in rel.parts) or str(rel) in RUNTIME:
-            continue
-        for raw in LINK.findall(path.read_text(encoding='utf-8')):
-            link = unquote(raw.strip('<>'))
-            if re.match(r'^[A-Za-z][A-Za-z0-9+.-]*:', link):
+    for directory, children, files in os.walk(root, followlinks=False):
+        children[:] = [name for name in children if name not in {'.work', '.git', '.agents', 'runs', '__pycache__'}]
+        for filename in files:
+            if not filename.endswith('.md'):
                 continue
-            target = link.split('#', 1)[0].split('?', 1)[0]
-            if target and not (path.parent / target).exists():
-                error('BROKEN_LINK', str(rel), link)
+            path = Path(directory) / filename
+            rel = path.relative_to(root).as_posix()
+            if rel in RUNTIME or rel in ALIASES:
+                continue
+            for raw in LINK.findall(path.read_text(encoding='utf-8')):
+                link = unquote(raw.strip('<>'))
+                if re.match(r'^[A-Za-z][A-Za-z0-9+.-]*:', link):
+                    continue
+                target = link.split('#', 1)[0].split('?', 1)[0]
+                if target and not (path.parent / target).exists():
+                    error('BROKEN_LINK', rel, link)
     manifest_path = root / 'fidelity-ledger/source-manifest.json'
     try:
         manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
@@ -158,12 +186,12 @@ def validate_repo(root):
                         if not portable(target) or not exists(target):
                             error('MANIFEST_DESTINATION', loc, str(target))
                         else:
-                            destinations.add(target)
+                            destinations.add((root / target).resolve().relative_to(root).as_posix())
             if 'LICENSE' not in file_paths:
                 error('MANIFEST_LICENSE', at, 'selected source LICENSE must be registered')
         for missing in EXPECTED_SOURCES - seen:
             error('MANIFEST_SOURCE', 'sources', 'missing ' + missing)
-        for target in ('references/teaching-design.md', 'references/law-reasoning.md', 'references/transcript-repair.md', 'LICENSE', 'NOTICE.md'):
+        for target in [*METHODS, 'LICENSE', 'NOTICE.md']:
             if target not in destinations:
                 error('MANIFEST_COVERAGE', target, 'adaptation provenance not registered')
         manifest_text = manifest_path.read_text(encoding='utf-8')

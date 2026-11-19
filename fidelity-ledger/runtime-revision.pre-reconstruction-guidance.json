@@ -1,0 +1,40 @@
+{
+  "recorded_on": "2026-11-15",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "abae1662491ae46b099239ba77b890dbe53024afa7cb17f6035ad9817893f9f9"
+    },
+    {
+      "path": "references/law-reasoning.md",
+      "sha256": "498d45960148e44713134a636d714f29ffa9a940f34b51fceb9fe235422ceb7a"
+    },
+    {
+      "path": "references/reconstruction-workflow.md",
+      "sha256": "48ca3328fdd0a000e891e68ff41be161fa5f79eabf62c5e105f5d45258fff78a"
+    },
+    {
+      "path": "references/teaching-design.md",
+      "sha256": "bc29145f5b036a6d3f16bbd4873f47618438920443571cc10cae39902fd0320e"
+    },
+    {
+      "path": "references/transcript-repair.md",
+      "sha256": "0c6f98644d0279991a7ccbf2260395917044991a68882f9ed0f3e3f92524a153"
+    },
+    {
+      "path": "schemas/run.schema.json",
+      "sha256": "bcaa4b851baa9b6098bb24e6b2889cba95e2539f716ae54306740f36a0c6f142"
+    },
+    {
+      "path": "scripts/check_run.py",
+      "sha256": "225b0fd86c00c822c54876074e3bf4161a2dba5fd1e09e409b2af2f12317ca9a"
+    },
+    {
+      "path": "scripts/validate_repo.py",
+      "sha256": "0e607db5d10083d5461cd1c96b7f09eace236cc1efac770578d79e2be9929e2e"
+    }
+  ],
+  "meaning": "Current English runtime with translated checker messages. The five instruction files and manuscript language policy are unchanged from the preceding English-runtime revision; historical run hashes remain source identities.",
+  "revision": "repository-english-complete",
+  "previous_revision": "fidelity-ledger/runtime-revision.pre-repository-english.json"
+}

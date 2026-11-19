@@ -2,6 +2,8 @@
 
 Version: v0.1; date: 2026-11-15; status: the build baseline and synthetic acceptance have been executed; see the final sections for the subsequent language-policy change and English translation. Evidence for completed checklist items is in [validation.md](fidelity-ledger/validation.md) and [A01–A12](evals/acceptance.md).
 
+The original build plan below records the November 15 layout. The active [skill](SKILL.md), [workflow](WORKFLOW.md) and [original-source register](fidelity-ledger/original-sources.json) implement the subsequent redesign. Current evaluation results are recorded in the [validation ledger](fidelity-ledger/validation.md).
+
 ## 1. Delivery structure and responsibilities
 
 Preserve the existing `intent.md`, `spec.md`, and `plan.md` as the requirements baseline. Make the minimum product work first, then complete acceptance testing; do not build a platform first.
@@ -161,3 +163,7 @@ This translation changes model instructions, so it has a distinct runtime identi
 ## Repository-wide English translation (2026-11-15)
 
 The remaining tracked documentation, provenance records, fixtures, historical manuscripts and reviews, checker messages, test prose, and archived runtime members were translated into English at the user's request. Historical original bytes remain in Git at commit `b0390af4a584b884a62dba6aba7994514df81c8d`; the [translation manifest](fidelity-ledger/english-translation-manifest.json) records their identities and those of the English copies. Historical hashes and acceptance results were not reassigned to the translations. Current model behavior, classroom trials, and learning outcomes remain `not_run`. The course-language selection policy and the five runtime instruction files were unchanged in this pass. Functional multilingual detection and its regression inputs retain their original values through Unicode escapes.
+
+## Source-led course design (2026-11-19)
+
+The earlier implementation plan describes the transcript-first build. The current intent and specification also allow reconstruction from an identifiable problem or primary course materials. See the [current scope and checks](fidelity-ledger/validation.md).

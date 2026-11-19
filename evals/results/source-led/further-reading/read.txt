@@ -1,0 +1,11 @@
+Files consulted (packet documents are relative to this directory; runtime files below are relative to the repository root)
+request.txt — delivery instructions and scope.
+material.txt — classroom purchase claim, student’s ownership question, displayed inscription and limits of the crop.
+shelf/index.txt — catalogue of available fictional sources.
+shelf/register.txt — selected because the May register and its column key identify what the date and A-37 record. The entry identifies the delivery source; the reverse explains the receiving-number system and separately recorded purchasing decisions.
+shelf/minutes.txt — selected to check the independent purchase question left open by a record of physical receipt. The June committee’s item 4 and the registry note distinguish an authorized conditional offer and unsigned outgoing copy from the missing gallery reply.
+SKILL.md — source selection, original classroom premise, correction, evidence limits, language and delivery.
+WORKFLOW.md — relevant intake, weak-lecture redesign, source roles and scope guidance.
+references/reference-teaching-design.md — object of learning and comparison of superficially similar events.
+
+Selection boundary: The shelf index describes brochure.txt as a welcome brochure for a reopening in 1936. Neither its date nor its listed subject suggests it settles the 1912 receipt, ownership, or acceptance question; I did not open it. After reading the two contemporaneous sources, the recordable events and the missing document were identifiable. No further source was consulted.
